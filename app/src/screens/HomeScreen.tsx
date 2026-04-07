@@ -33,7 +33,6 @@ export function HomeScreen() {
   const { groups, loading, error, refresh, liveCount } = useEvents({
     date: DAYS[selectedDay]?.iso,
     sport: selectedSport,
-    channelSlugs: selectedSlugs,
   });
 
   return (

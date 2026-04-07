@@ -21,7 +21,7 @@ import {
 const STORAGE_KEY = "@sportzap_channels";
 
 export function useChannels() {
-  const [selectedSlugs, setSelectedSlugs] = useState<Set<string>>(getDefaultChannelSlugs());
+  const [selectedSlugs, setSelectedSlugs] = useState<Set<string>>(getAllChannelSlugs());
   const [loaded, setLoaded] = useState(false);
 
   // ── Load from storage on mount ──

@@ -392,6 +392,7 @@ def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Opt
 
 # Known channel slug mappings
 CHANNEL_SLUG_MAP = {
+    # TNT Gratuite
     "france 2": ("france-2", True),
     "france 3": ("france-3", True),
     "france 4": ("france-4", True),
@@ -400,20 +401,51 @@ CHANNEL_SLUG_MAP = {
     "m6": ("m6", True),
     "l'equipe": ("lequipe", True),
     "l'équipe": ("lequipe", True),
+    "sport en france": ("sport-en-france", True),
+
+    # Canal+
     "canal+": ("canal-plus", False),
     "canal+ sport": ("canal-plus-sport", False),
     "canal+ foot": ("canal-plus-foot", False),
+    "canal+ sport 1": ("canal-plus-sport", False),
+    "canal+ sport 2": ("canal-plus-sport-2", False),
+    "canal+ sport 3": ("canal-plus-sport-3", False),
+    "canal+ sport 4": ("canal-plus-sport-4", False),
+    "canal+ sport 5": ("canal-plus-sport-5", False),
+    "canal+ live 1": ("canal-plus", False),
+    "canal+ live 2": ("canal-plus", False),
+    "canal+ live 3": ("canal-plus", False),
+    "canal+ live 4": ("canal-plus", False),
+    "canal+ uhd": ("canal-plus", False),
+    "canal+ premier league": ("canal-plus-sport", False),
+    "infosport+": ("infosport-plus", False),
+
+    # beIN Sports
     "bein sports 1": ("bein-1", False),
     "bein sports 2": ("bein-2", False),
     "bein sports 3": ("bein-3", False),
+    "bein sports max 1": ("bein-1", False),
+    "bein sports max 2": ("bein-2", False),
+    "bein sports max 3": ("bein-3", False),
+    "bein sports max 4": ("bein-3", False),
+    "bein sports max 5": ("bein-3", False),
+    "bein sports max 6": ("bein-3", False),
+
+    # RMC Sport
     "rmc sport 1": ("rmc-sport-1", False),
     "rmc sport 2": ("rmc-sport-2", False),
+
+    # Eurosport
     "eurosport 1": ("eurosport-1", False),
     "eurosport 2": ("eurosport-2", False),
+
+    # DAZN
     "dazn 1": ("dazn-1", False),
     "dazn 2": ("dazn-2", False),
-    "sport en france": ("sport-en-france", True),
-    "infosport+": ("infosport-plus", False),
+
+    # Amazon Prime Video
+    "prime video": ("prime-video", False),
+    "amazon prime video": ("prime-video", False),
 }
 
 
