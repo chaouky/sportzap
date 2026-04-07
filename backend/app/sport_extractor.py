@@ -731,6 +731,39 @@ def extract_sport_events(
         f"{len(events)} events ({enriched_count} entities enriched with visuals)"
     )
 
+    # ── Deduplicate: same match on multiple channels → keep one ──
+    # Priority order: known French channels > others
+    PRIORITY_SLUGS = {
+        "tf1": 0, "france-2": 1, "france-3": 2, "m6": 3,
+        "canal-plus": 10, "canal-plus-sport": 11, "canal-plus-foot": 12,
+        "bein-1": 20, "bein-2": 21, "bein-3": 22,
+        "rmc-sport-1": 30, "rmc-sport-2": 31,
+        "eurosport-1": 40, "eurosport-2": 41,
+        "dazn-1": 50, "dazn-2": 51,
+        "prime-video": 60, "lequipe": 70, "sport-en-france": 80,
+    }
+
+    def _dedup_key(e: SportEvent) -> str:
+        """Key to identify the same match regardless of channel."""
+        # Normalize title: lowercase, remove punctuation
+        title = re.sub(r"[^\w\s]", "", e.title.lower()).strip()
+        start = e.start.strftime("%Y-%m-%dT%H:%M") if e.start else ""
+        return f"{title}_{start}"
+
+    seen: dict[str, SportEvent] = {}
+    for event in events:
+        key = _dedup_key(event)
+        if key not in seen:
+            seen[key] = event
+        else:
+            # Keep the event from the highest-priority (lowest score) channel
+            existing_priority = PRIORITY_SLUGS.get(seen[key].channel.slug, 999)
+            new_priority = PRIORITY_SLUGS.get(event.channel.slug, 999)
+            if new_priority < existing_priority:
+                seen[key] = event
+
+    events = list(seen.values())
+
     # Sort: live first, then by start time
     events.sort(key=lambda e: (
         0 if e.status == EventStatus.LIVE else 1 if e.status == EventStatus.UPCOMING else 2,
