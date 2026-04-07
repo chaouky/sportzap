@@ -339,8 +339,8 @@ def _guess_entity_type(name: str, sport: SportType) -> EntityType:
     if PLAYER_WITH_NAT.search(name):
         return EntityType.PLAYER
 
-    # Check if it's a known country
-    if name_lower in NATIONAL_TEAM_NAMES:
+    # Check if it's a known country (exact match only, not "Sporting Club Portugal")
+    if name_lower in NATIONAL_TEAM_NAMES and len(name.split()) <= 2:
         return EntityType.COUNTRY
 
     # Individual sports → player
@@ -399,23 +399,41 @@ def _build_entity(raw_name: str, sport: SportType) -> Entity:
 
 
 def extract_competition(prog: dict) -> Optional[str]:
-    """Extract competition name from XMLTV title."""
+    """Extract competition name from XMLTV title or subtitle."""
     title = prog.get("title", "")
+    subtitle = (prog.get("subtitle") or "").strip()
 
+    def _clean(comp: str) -> str:
+        comp = re.sub(r",?\s*(\d+)e\s*journée", r" · J\1", comp)
+        comp = re.sub(r",?\s*(\d+)e\s*étape", r" · Étape \1", comp)
+        return comp.strip()
+
+    # Standard "Sport : Competition" format
     for pattern in TITLE_COMP_PATTERNS:
         m = pattern.match(title)
         if m:
             comp = m.group("comp").strip()
-            # Clean up: "Ligue 1, 29e journée" → "Ligue 1 · J29"
-            comp = re.sub(r",?\s*(\d+)e\s*journée", r" · J\1", comp)
-            comp = re.sub(r",?\s*(\d+)e\s*étape", r" · Étape \1", comp)
-            return comp
+            # Strip embedded matchup like "Ligue 1 | PSG / OM" → keep "Ligue 1"
+            comp = re.split(r"\s*[|]\s*", comp)[0]
+            return _clean(comp)
+
+    # Bare matchup title (e.g. "Fribourg / Bayern Munich") →
+    # try to extract competition from subtitle: "Bundesliga - 28e journée"
+    _BARE_MATCHUP = re.compile(r"^[^:/|]+\s*/\s*[^:/|]+$")
+    if _BARE_MATCHUP.match(title.strip()) and subtitle:
+        # Subtitle format: "Competition - round" or "Competition. round."
+        sub_clean = re.split(r"\s*[-–]\s*\d", subtitle)[0]  # strip round number
+        sub_clean = re.split(r"\.\s*\d", sub_clean)[0]
+        sub_clean = sub_clean.rstrip(" .-–")
+        if sub_clean and len(sub_clean) > 2:
+            return _clean(sub_clean)
 
     return None
 
 
 def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Optional[Entity]]:
-    """Extract team1 and team2 from subtitle (or desc as fallback)."""
+    """Extract team1 and team2 from title or subtitle."""
+    title = prog.get("title") or ""
     subtitle = prog.get("subtitle") or ""
 
     # Solo-event sports: stages, races, courses — not matchups
@@ -423,15 +441,32 @@ def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Opt
     if sport in SOLO_SPORTS:
         return None, None
 
-    # ── Fix 2: Strip competition prefix from sub-title ──
-    # Real XMLTV sub-titles often include the competition name before teams:
-    #   "Match Amical - Colombie / France"
-    #   "Ligue 1 - Paris SG / OM"
-    #   "Champions League - Finale - Arsenal / Real Madrid"
-    # We need to strip everything before the teams.
-    #
-    # Strategy: try split on " / " (team separator) first.
-    # If left side contains a " - " (comp prefix), take only the part after last " - ".
+    def _clean_team(raw: str) -> str:
+        """Strip trailing competition/round info from a team name."""
+        # "Real Madrid. Euroligue masculine. 36e journée." → "Real Madrid"
+        raw = re.split(r"\.\s*[A-Z]", raw)[0]
+        # "Sporting CP. Champions League." → "Sporting CP"
+        raw = re.split(r",\s*\d", raw)[0]
+        return raw.strip(" .,")
+
+    # ── Priority: if title is a bare matchup "Team1 / Team2", use it directly ──
+    # e.g. "Fribourg / Bayern Munich", "Real Madrid / Bayern Munich"
+    _BARE_MATCHUP = re.compile(
+        r"^(?P<t1>[A-ZÀ-Üa-zà-ü0-9][^:/|]+?)\s*/\s*(?P<t2>[A-ZÀ-Üa-zà-ü0-9][^:/|]+)$"
+    )
+    m = _BARE_MATCHUP.match(title.strip())
+    if m:
+        t1 = _build_entity(_clean_team(m.group("t1")), sport)
+        t2 = _build_entity(_clean_team(m.group("t2")), sport)
+        return t1, t2
+
+    # ── Also check: "Sport : Competition | Team1 / Team2" in title ──
+    _PIPE_MATCHUP = re.compile(r"\|\s*(?P<t1>.+?)\s*/\s*(?P<t2>.+)$")
+    m = _PIPE_MATCHUP.search(title)
+    if m:
+        t1 = _build_entity(_clean_team(m.group("t1")), sport)
+        t2 = _build_entity(_clean_team(m.group("t2")), sport)
+        return t1, t2
 
     cleaned = subtitle.strip()
 
@@ -464,8 +499,8 @@ def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Opt
                 or len(candidate.split()) <= 4):
                 left = candidate
 
-        t1 = _build_entity(left, sport)
-        t2 = _build_entity(right, sport)
+        t1 = _build_entity(_clean_team(left), sport)
+        t2 = _build_entity(_clean_team(right), sport)
         return t1, t2
 
     # Try other separators: " vs ", " contre "

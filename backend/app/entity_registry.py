@@ -188,6 +188,26 @@ ENTITY_REGISTRY: list[EntityProfile] = [
         aliases=["Atlético Madrid", "Atletico Madrid", "Atlético", "Atletico"]),
 
     # ────────────────────────────────────────────
+    # FOOTBALL — Portugal (top clubs)
+    # ────────────────────────────────────────────
+    EntityProfile("Sporting CP", "Sporting", "club", "football", "pt",
+        logo_url=_espn_soccer(744), colors=("#009B3A", "#FFD700"),
+        aliases=["Sporting CP", "Sporting Club Portugal", "Sporting Club de Portugal",
+                 "Sporting Clube de Portugal", "Sporting", "Sporting Portugal"]),
+
+    EntityProfile("SL Benfica", "Benfica", "club", "football", "pt",
+        logo_url=_espn_soccer(745), colors=("#CC0000", "#FFFFFF"),
+        aliases=["SL Benfica", "Benfica", "Sport Lisboa e Benfica"]),
+
+    EntityProfile("FC Porto", "Porto", "club", "football", "pt",
+        logo_url=_espn_soccer(743), colors=("#003087", "#FFFFFF"),
+        aliases=["FC Porto", "Porto", "F.C. Porto"]),
+
+    EntityProfile("SC Braga", "Braga", "club", "football", "pt",
+        logo_url=_espn_soccer(750), colors=("#CC0000", "#FFFFFF"),
+        aliases=["SC Braga", "Braga", "Sporting Braga", "Sporting de Braga"]),
+
+    # ────────────────────────────────────────────
     # FOOTBALL — Serie A (top clubs)
     # ────────────────────────────────────────────
     EntityProfile("Juventus FC", "Juventus", "club", "football", "it",
