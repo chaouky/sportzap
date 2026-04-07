@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend-tests:
+    name: Backend Pipeline Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          cd backend
+          pip install -r requirements.txt
+
+      - name: Run pipeline test (stdlib)
+        run: |
+          cd backend
+          python tests/test_standalone.py
+
+      - name: Run entity matching test
+        run: |
+          cd backend
+          python tests/test_entity_matching.py
+
+  app-typecheck:
+    name: App TypeScript Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          cd app
+          npm install
+
+      - name: TypeScript check
+        run: |
+          cd app
+          npx tsc --noEmit || true  # Non-blocking for now

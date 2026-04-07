@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv source-info-name="xmltvfr.fr" generator-info-name="XML TV Fr v3">
+
+  <!-- ═══ CHANNELS ═══ -->
+  <channel id="C4.api.telerama.fr">
+    <display-name>France 2</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/4.png"/>
+  </channel>
+  <channel id="C34.api.telerama.fr">
+    <display-name>Canal+</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/34.png"/>
+  </channel>
+  <channel id="C481.api.telerama.fr">
+    <display-name>beIN Sports 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/481.png"/>
+  </channel>
+  <channel id="C1154.api.telerama.fr">
+    <display-name>DAZN 1</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="C191.api.telerama.fr">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/191.png"/>
+  </channel>
+  <channel id="C226.api.telerama.fr">
+    <display-name>RMC Sport 1</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="C195.api.telerama.fr">
+    <display-name>L'Equipe</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="C2.api.telerama.fr">
+    <display-name>TF1</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="C80.api.telerama.fr">
+    <display-name>France 3</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="C482.api.telerama.fr">
+    <display-name>beIN Sports 2</display-name>
+    <icon src=""/>
+  </channel>
+
+  <!-- ═══ SPORT PROGRAMMES ═══ -->
+
+  <!-- Ligue 1 football -->
+  <programme start="20260329210000 +0100" stop="20260329230000 +0100" channel="C1154.api.telerama.fr">
+    <title lang="fr">Football : Ligue 1, 29e journée</title>
+    <sub-title lang="fr">Paris-SG / Olympique de Marseille</sub-title>
+    <desc lang="fr">Rencontre de la 29e journée de Ligue 1 entre le Paris Saint-Germain et l'Olympique de Marseille au Parc des Princes. Le classique du football français, toujours très attendu par les supporters des deux camps.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <programme start="20260329190000 +0100" stop="20260329210000 +0100" channel="C1154.api.telerama.fr">
+    <title lang="fr">Football : Ligue 1, 29e journée</title>
+    <sub-title lang="fr">Olympique Lyonnais / LOSC Lille</sub-title>
+    <desc lang="fr">Rencontre entre Lyon et Lille au Groupama Stadium dans le cadre de la 29e journée de Ligue 1.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <programme start="20260329173000 +0100" stop="20260329193000 +0100" channel="C34.api.telerama.fr">
+    <title lang="fr">Football : Premier League, 30e journée</title>
+    <sub-title lang="fr">Arsenal FC / Manchester City</sub-title>
+    <desc lang="fr">Choc au sommet de la Premier League entre Arsenal et Manchester City à l'Emirates Stadium.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <programme start="20260329210000 +0100" stop="20260329230000 +0100" channel="C481.api.telerama.fr">
+    <title lang="fr">Football : Liga, 30e journée</title>
+    <sub-title lang="fr">Real Madrid / FC Barcelone</sub-title>
+    <desc lang="fr">El Clásico ! Real Madrid reçoit le FC Barcelone au Santiago Bernabéu pour un choc décisif dans la course au titre en Liga.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <!-- Top 14 rugby -->
+  <programme start="20260329170000 +0100" stop="20260329190000 +0100" channel="C34.api.telerama.fr">
+    <title lang="fr">Rugby : Top 14, 22e journée</title>
+    <sub-title lang="fr">Stade Toulousain / Racing 92</sub-title>
+    <desc lang="fr">Le Stade Toulousain accueille le Racing 92 au Stadium dans le cadre de la 22e journée du Top 14.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">rugby</category>
+  </programme>
+
+  <!-- Tennis -->
+  <programme start="20260329200000 +0100" stop="20260329230000 +0100" channel="C191.api.telerama.fr">
+    <title lang="fr">Tennis : Masters 1000 de Miami</title>
+    <sub-title lang="fr">Finale messieurs : N. Djokovic (SRB) / C. Alcaraz (ESP)</sub-title>
+    <desc lang="fr">Finale du Masters 1000 de Miami opposant Novak Djokovic à Carlos Alcaraz sur le court central du Hard Rock Stadium.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">tennis</category>
+  </programme>
+
+  <!-- F1 -->
+  <programme start="20260329070000 +0100" stop="20260329090000 +0100" channel="C34.api.telerama.fr">
+    <title lang="fr">Formule 1 : Grand Prix d'Australie</title>
+    <sub-title lang="fr">Course</sub-title>
+    <desc lang="fr">Grand Prix d'Australie de Formule 1, course sur le circuit de l'Albert Park à Melbourne.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">sport mécanique</category>
+  </programme>
+
+  <!-- NBA -->
+  <programme start="20260330023000 +0100" stop="20260330050000 +0100" channel="C481.api.telerama.fr">
+    <title lang="fr">Basketball : NBA</title>
+    <sub-title lang="fr">Los Angeles Lakers / Boston Celtics</sub-title>
+    <desc lang="fr">Rencontre de saison régulière NBA entre les Lakers et les Celtics au Crypto.com Arena.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">basket-ball</category>
+  </programme>
+
+  <!-- Cyclisme -->
+  <programme start="20260329143000 +0100" stop="20260329170000 +0100" channel="C191.api.telerama.fr">
+    <title lang="fr">Cyclisme : Tour de Catalogne</title>
+    <sub-title lang="fr">6e étape : Barcelone - Montjuïc (152 km)</sub-title>
+    <desc lang="fr">Sixième et dernière étape du Tour de Catalogne avec une arrivée au sommet de Montjuïc.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">cyclisme</category>
+  </programme>
+
+  <!-- MMA -->
+  <programme start="20260329230000 +0100" stop="20260330013000 +0100" channel="C226.api.telerama.fr">
+    <title lang="fr">MMA : PFL</title>
+    <sub-title lang="fr">Francis Ngannou (CMR) vs Tyson Fury (GBR)</sub-title>
+    <desc lang="fr">Combat principal du gala PFL entre Francis Ngannou et Tyson Fury.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">sport de combat</category>
+  </programme>
+
+  <!-- Handball -->
+  <programme start="20260329204500 +0100" stop="20260329224500 +0100" channel="C4.api.telerama.fr">
+    <title lang="fr">Handball : Golden League</title>
+    <sub-title lang="fr">France / Danemark</sub-title>
+    <desc lang="fr">Match de Golden League de handball entre l'équipe de France et le Danemark.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">handball</category>
+  </programme>
+
+  <!-- ═══ REAL-WORLD FORMAT VARIANTS (edge cases) ═══ -->
+
+  <!-- TF1 format: "Sport - Competition" title + "Competition - Team1 / Team2" subtitle -->
+  <programme start="20260329205000 +0100" stop="20260329230000 +0100" channel="C2.api.telerama.fr">
+    <title lang="fr">Football - Match Amical</title>
+    <sub-title lang="fr">Match Amical - Colombie / France</sub-title>
+    <desc lang="fr">Qualifiés pour la Coupe du monde de la FIFA 2026, les Bleus affrontent la Colombie en match amical en direct de Landover.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <!-- Minimal format: just sport title, teams only in subtitle with " - " -->
+  <programme start="20260330190000 +0100" stop="20260330210000 +0100" channel="C1154.api.telerama.fr">
+    <title lang="fr">Football</title>
+    <sub-title lang="fr">Monaco - Lens</sub-title>
+    <desc lang="fr">Rencontre de la 30e journée de Ligue 1 entre Monaco et Lens.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <!-- Champions League with round prefix: "Quart de finale retour - Arsenal / Real Madrid" -->
+  <programme start="20260401210000 +0200" stop="20260401232000 +0200" channel="C34.api.telerama.fr">
+    <title lang="fr">Football : Ligue des Champions</title>
+    <sub-title lang="fr">Quart de finale retour - Arsenal FC / Real Madrid</sub-title>
+    <desc lang="fr">Quart de finale retour de la Ligue des Champions entre Arsenal et le Real Madrid à l'Emirates Stadium.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <!-- No subtitle, teams mentioned only in description -->
+  <programme start="20260330210000 +0100" stop="20260330230000 +0100" channel="C481.api.telerama.fr">
+    <title lang="fr">Football : Coupe de France</title>
+    <desc lang="fr">Demi-finale de la Coupe de France entre le PSG et Lyon au Parc des Princes.</desc>
+    <category lang="fr">sport</category>
+    <category lang="fr">football</category>
+  </programme>
+
+  <!-- ═══ NON-SPORT (should be filtered out) ═══ -->
+  <programme start="20260329200000 +0100" stop="20260329210000 +0100" channel="C2.api.telerama.fr">
+    <title lang="fr">Journal de 20 heures</title>
+    <desc lang="fr">Les titres de l'actualité nationale et internationale.</desc>
+    <category lang="fr">journal</category>
+  </programme>
+
+  <programme start="20260329210500 +0100" stop="20260329225000 +0100" channel="C2.api.telerama.fr">
+    <title lang="fr">Les Enfoirés 2026</title>
+    <desc lang="fr">Concert des Enfoirés au profit des Restos du Coeur.</desc>
+    <category lang="fr">musique</category>
+    <category lang="fr">divertissement</category>
+  </programme>
+
+  <programme start="20260329135000 +0100" stop="20260329145000 +0100" channel="C80.api.telerama.fr">
+    <title lang="fr">Les Carnets de Julie</title>
+    <desc lang="fr">Julie Andrieu part à la découverte des richesses gastronomiques françaises.</desc>
+    <category lang="fr">magazine culinaire</category>
+  </programme>
+
+</tv>

@@ -1,0 +1,548 @@
+"""
+SportZap — Sport Event Extractor
+
+Takes raw XMLTV programmes and:
+1. Filters to sport-only programmes
+2. Classifies the sport type (football, rugby, tennis, etc.)
+3. Extracts structured entities: competition, team1, team2
+4. Generates unique IDs and normalized output
+
+This is the brain of the pipeline. French TV sport titles follow
+semi-predictable patterns which we exploit with regex + heuristics.
+"""
+from __future__ import annotations
+
+import hashlib
+import logging
+import re
+from datetime import datetime
+from typing import Optional
+
+from .models import (
+    Channel, Entity, EntityType, EventStatus,
+    SportEvent, SportType,
+)
+
+logger = logging.getLogger(__name__)
+
+
+# ═══════════════════════════════════════════════════════
+# SPORT CLASSIFICATION
+# ═══════════════════════════════════════════════════════
+
+# Category keywords → SportType mapping
+# Priority order: more specific first
+CATEGORY_MAP: list[tuple[list[str], SportType]] = [
+    (["football", "foot", "soccer"], SportType.FOOTBALL),
+    (["rugby"], SportType.RUGBY),
+    (["tennis"], SportType.TENNIS),
+    (["basket", "basketball", "basket-ball", "nba"], SportType.BASKET),
+    (["formule 1", "f1", "sport mécanique", "sport mecanique", "auto-moto"], SportType.F1),
+    (["motogp", "moto gp", "superbike", "motocyclisme"], SportType.MOTOGP),
+    (["cyclisme", "vélo", "tour de france", "giro", "vuelta"], SportType.CYCLISME),
+    (["mma", "ufc", "pfl", "combat", "sport de combat", "arts martiaux"], SportType.MMA),
+    (["boxe", "boxing"], SportType.BOXE),
+    (["handball", "hand-ball", "hand"], SportType.HANDBALL),
+    (["natation", "swimming", "plongeon", "water-polo"], SportType.NATATION),
+    (["athlétisme", "athletisme", "marathon"], SportType.ATHLETISME),
+    (["ski", "biathlon", "sport d'hiver", "sports d'hiver", "patinage"], SportType.SKI),
+    (["golf"], SportType.GOLF),
+    (["voile", "sailing", "nautisme"], SportType.VOILE),
+    (["équitation", "equitation", "hippisme"], SportType.EQUITATION),
+    (["volley", "volleyball", "volley-ball"], SportType.VOLLEYBALL),
+]
+
+# Title-based patterns for when categories are vague ("sport" only)
+TITLE_SPORT_PATTERNS: list[tuple[str, SportType]] = [
+    (r"(?i)\bfoot(?:ball)?\b", SportType.FOOTBALL),
+    (r"(?i)\brugby\b", SportType.RUGBY),
+    (r"(?i)\btennis\b", SportType.TENNIS),
+    (r"(?i)\bbasket(?:ball|[\s-]ball)?\b", SportType.BASKET),
+    (r"(?i)\b(?:nba)\b", SportType.BASKET),
+    (r"(?i)\b(?:formule\s*1|f1|grand\s*prix)\b", SportType.F1),
+    (r"(?i)\b(?:motogp|moto\s*gp|superbike)\b", SportType.MOTOGP),
+    (r"(?i)\b(?:cyclisme|tour\s+de|étape|giro|vuelta)\b", SportType.CYCLISME),
+    (r"(?i)\b(?:mma|ufc|pfl|cage\s*warriors)\b", SportType.MMA),
+    (r"(?i)\b(?:boxe|boxing)\b", SportType.BOXE),
+    (r"(?i)\bhandball\b", SportType.HANDBALL),
+    (r"(?i)\b(?:natation|swimming)\b", SportType.NATATION),
+    (r"(?i)\b(?:athlétisme|athletisme)\b", SportType.ATHLETISME),
+    (r"(?i)\b(?:ski|biathlon|slalom|descente)\b", SportType.SKI),
+    (r"(?i)\bgolf\b", SportType.GOLF),
+    (r"(?i)\b(?:voile|sailing)\b", SportType.VOILE),
+    (r"(?i)\bvolley(?:ball|[\s-]ball)?\b", SportType.VOLLEYBALL),
+]
+
+# Known sport keywords that confirm a programme is sport
+SPORT_CATEGORY_KEYWORDS = {
+    "sport", "football", "rugby", "tennis", "basket", "basket-ball",
+    "basketball", "handball", "hand-ball", "cyclisme", "formule 1",
+    "sport mécanique", "sport mecanique", "athlétisme", "athletisme",
+    "natation", "golf", "voile", "ski", "biathlon", "boxe", "mma",
+    "sport de combat", "sports de combat", "volley", "volleyball",
+    "volley-ball", "hippisme", "équitation", "equitation",
+    "sport d'hiver", "sports d'hiver", "auto-moto", "motocyclisme",
+    "motogp", "catch",
+}
+
+# Title keywords that confirm sport even without category
+SPORT_TITLE_KEYWORDS = [
+    r"(?i)\b(?:ligue\s*[12]|liga|serie\s*a|bundesliga|premier\s*league)\b",
+    r"(?i)\b(?:champions\s*league|ligue\s*des\s*champions|europa\s*league)\b",
+    r"(?i)\b(?:top\s*14|pro\s*d2|champions\s*cup|coupe\s*d'europe)\b",
+    r"(?i)\b(?:roland[\s-]*garros|wimbledon|us\s*open|open\s*d'australie)\b",
+    r"(?i)\b(?:masters\s*1000|atp|wta)\b",
+    r"(?i)\b(?:tour\s+de\s+france|giro|vuelta|paris[\s-]*roubaix)\b",
+    r"(?i)\b(?:grand\s*prix|formule\s*1|f1)\b",
+    r"(?i)\b(?:nba|nfl|nhl|mlb|betclic\s*[eé]lite)\b",
+    r"(?i)\b(?:six\s*nations|golden\s*league|euro\s*\d{4}|coupe\s*du\s*monde)\b",
+    r"(?i)\b(?:jeux\s*olympiques|jo\s*\d{4})\b",
+    r"(?i)\b(?:ufc|pfl|bellator)\b",
+]
+
+
+def is_sport_programme(prog: dict) -> bool:
+    """Determine if a raw XMLTV programme is sport-related."""
+    categories = set(prog.get("categories", []))
+
+    # Direct category match
+    if categories & SPORT_CATEGORY_KEYWORDS:
+        return True
+
+    # Title-based detection
+    title = prog.get("title", "") + " " + (prog.get("subtitle") or "")
+    for pattern in SPORT_TITLE_KEYWORDS:
+        if re.search(pattern, title):
+            return True
+
+    return False
+
+
+def classify_sport(prog: dict) -> SportType:
+    """Classify the sport type from categories + title."""
+    categories = prog.get("categories", [])
+    title = prog.get("title", "") + " " + (prog.get("subtitle") or "")
+
+    # 1. Try category-based classification
+    for keywords, sport_type in CATEGORY_MAP:
+        for cat in categories:
+            if any(kw in cat for kw in keywords):
+                return sport_type
+
+    # 2. Fall back to title-based patterns
+    for pattern, sport_type in TITLE_SPORT_PATTERNS:
+        if re.search(pattern, title):
+            return sport_type
+
+    return SportType.OTHER
+
+
+# ═══════════════════════════════════════════════════════
+# ENTITY EXTRACTION (Teams, Players, Competitions)
+# ═══════════════════════════════════════════════════════
+
+# Country code lookup for national teams and player nationalities
+COUNTRY_CODES = {
+    "france": "fr", "danemark": "dk", "allemagne": "de", "espagne": "es",
+    "italie": "it", "angleterre": "gb-eng", "pays de galles": "gb-wls",
+    "galles": "gb-wls", "écosse": "gb-sct", "ecosse": "gb-sct",
+    "irlande": "ie", "portugal": "pt", "belgique": "be", "pays-bas": "nl",
+    "suisse": "ch", "autriche": "at", "pologne": "pl", "croatie": "hr",
+    "serbie": "rs", "suède": "se", "norvège": "no", "finlande": "fi",
+    "brésil": "br", "bresil": "br", "argentine": "ar", "usa": "us",
+    "états-unis": "us", "etats-unis": "us", "japon": "jp", "corée": "kr",
+    "australie": "au", "cameroun": "cm", "sénégal": "sn", "maroc": "ma",
+    "algérie": "dz", "tunisie": "tn", "afrique du sud": "za",
+    "mexique": "mx", "colombie": "co", "uruguay": "uy", "chili": "cl",
+    "canada": "ca", "nouvelle-zélande": "nz", "roumanie": "ro",
+    "grèce": "gr", "turquie": "tr", "russie": "ru", "ukraine": "ua",
+    "république tchèque": "cz", "hongrie": "hu", "slovaquie": "sk",
+    "grande-bretagne": "gb", "gbr": "gb", "srb": "rs", "esp": "es",
+    "cmr": "cm", "fra": "fr", "den": "dk",
+}
+
+# Known national teams in sport context
+NATIONAL_TEAM_NAMES = set(COUNTRY_CODES.keys())
+
+# ISO-3 to ISO-2 for player nationality tags like (SRB), (ESP)
+ISO3_TO_ISO2 = {
+    "srb": "rs", "esp": "es", "fra": "fr", "gbr": "gb", "cmr": "cm",
+    "ger": "de", "ita": "it", "bra": "br", "arg": "ar", "usa": "us",
+    "jpn": "jp", "aus": "au", "ned": "nl", "por": "pt", "bel": "be",
+    "sui": "ch", "aut": "at", "cro": "hr", "den": "dk", "swe": "se",
+    "nor": "no", "pol": "pl", "cze": "cz", "rou": "ro", "gre": "gr",
+    "hun": "hu", "svk": "sk", "irl": "ie", "wal": "gb-wls", "sco": "gb-sct",
+    "rsa": "za", "mar": "ma", "alg": "dz", "tun": "tn", "sen": "sn",
+    "mex": "mx", "col": "co", "uru": "uy", "chi": "cl", "can": "ca",
+    "nzl": "nz", "tur": "tr", "ukr": "ua", "rus": "ru", "kor": "kr",
+    "chn": "cn",
+}
+
+# Regex patterns for extracting matchups from subtitle
+# French TV typically uses: "Team1 / Team2" or "Team1 - Team2" or "Team1 vs Team2"
+MATCHUP_PATTERNS = [
+    # "N. Djokovic (SRB) / C. Alcaraz (ESP)" — individual with nationality
+    re.compile(
+        r"^(?:.*?:\s*)?(?P<t1>.+?)\s*(?:/|vs\.?|contre)\s*(?P<t2>.+?)\s*$",
+        re.IGNORECASE,
+    ),
+]
+
+# Player name with nationality: "N. Djokovic (SRB)"
+PLAYER_WITH_NAT = re.compile(
+    r"(?P<name>[A-ZÀ-Ü][.\s]?\s*[A-ZÀ-Üa-zà-ü'-]+(?:\s+[A-ZÀ-Üa-zà-ü'-]+)*)"
+    r"\s*\((?P<nat>[A-Z]{3})\)",
+)
+
+# Competition extraction from title
+# Supports both ":" and " - " separators:
+#   "Football : Ligue 1, 29e journée" → comp="Ligue 1, 29e journée"
+#   "Football - Match Amical"         → comp="Match Amical"
+#   "Rugby : Top 14, 22e journée"     → comp="Top 14 · J22"
+TITLE_COMP_PATTERNS = [
+    # "Sport : Competition" (most common, Télérama)
+    re.compile(r"^(?P<sport>[^:]+?)\s*:\s*(?P<comp>.+)$"),
+    # "Sport - Competition" (TF1 variant)
+    re.compile(r"^(?P<sport>(?:Football|Rugby|Tennis|Handball|Basketball|Basket-ball"
+               r"|Cyclisme|Formule\s*1|Boxe|MMA|Volley(?:ball|[\s-]ball)?|Golf"
+               r"|Natation|Athlétisme|Ski|Voile|Équitation|Motocyclisme))"
+               r"\s*[-–]\s*(?P<comp>.+)$", re.IGNORECASE),
+]
+
+
+def _guess_entity_type(name: str, sport: SportType) -> EntityType:
+    """Guess whether a name is a club, country, player, or event."""
+    name_lower = name.strip().lower()
+
+    # Check nationality tag pattern: "N. Djokovic (SRB)"
+    if PLAYER_WITH_NAT.search(name):
+        return EntityType.PLAYER
+
+    # Check if it's a known country
+    if name_lower in NATIONAL_TEAM_NAMES:
+        return EntityType.COUNTRY
+
+    # Individual sports → player
+    if sport in (SportType.TENNIS, SportType.MMA, SportType.BOXE, SportType.GOLF):
+        # If it looks like a person name (2+ words, starts with cap)
+        words = name.strip().split()
+        if len(words) >= 2 and all(w[0].isupper() for w in words if w not in ("de", "van", "von", "du")):
+            return EntityType.PLAYER
+
+    return EntityType.CLUB
+
+
+def _parse_player_name(raw: str) -> tuple[str, Optional[str]]:
+    """
+    Parse player with optional nationality.
+    "N. Djokovic (SRB)" → ("N. Djokovic", "rs")
+    "Francis Ngannou (CMR)" → ("Francis Ngannou", "cm")
+    "Carlos Alcaraz" → ("Carlos Alcaraz", None)
+    """
+    m = PLAYER_WITH_NAT.search(raw)
+    if m:
+        name = m.group("name").strip()
+        nat_code = m.group("nat").lower()
+        country = ISO3_TO_ISO2.get(nat_code, nat_code[:2].lower())
+        return name, country
+    return raw.strip(), None
+
+
+def _build_entity(raw_name: str, sport: SportType) -> Entity:
+    """Build a structured Entity from a raw name string."""
+    raw_name = raw_name.strip()
+    entity_type = _guess_entity_type(raw_name, sport)
+
+    if entity_type == EntityType.PLAYER:
+        clean_name, country_code = _parse_player_name(raw_name)
+        return Entity(
+            name=clean_name,
+            type=EntityType.PLAYER,
+            country_code=country_code,
+        )
+
+    if entity_type == EntityType.COUNTRY:
+        name_lower = raw_name.lower()
+        country_code = COUNTRY_CODES.get(name_lower)
+        return Entity(
+            name=raw_name,
+            type=EntityType.COUNTRY,
+            country_code=country_code,
+        )
+
+    # Club
+    return Entity(
+        name=raw_name,
+        type=EntityType.CLUB,
+    )
+
+
+def extract_competition(prog: dict) -> Optional[str]:
+    """Extract competition name from XMLTV title."""
+    title = prog.get("title", "")
+
+    for pattern in TITLE_COMP_PATTERNS:
+        m = pattern.match(title)
+        if m:
+            comp = m.group("comp").strip()
+            # Clean up: "Ligue 1, 29e journée" → "Ligue 1 · J29"
+            comp = re.sub(r",?\s*(\d+)e\s*journée", r" · J\1", comp)
+            comp = re.sub(r",?\s*(\d+)e\s*étape", r" · Étape \1", comp)
+            return comp
+
+    return None
+
+
+def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Optional[Entity]]:
+    """Extract team1 and team2 from subtitle (or desc as fallback)."""
+    subtitle = prog.get("subtitle") or ""
+
+    # Solo-event sports: stages, races, courses — not matchups
+    SOLO_SPORTS = {SportType.F1, SportType.CYCLISME, SportType.MOTOGP, SportType.SKI, SportType.GOLF, SportType.VOILE}
+    if sport in SOLO_SPORTS:
+        return None, None
+
+    # ── Fix 2: Strip competition prefix from sub-title ──
+    # Real XMLTV sub-titles often include the competition name before teams:
+    #   "Match Amical - Colombie / France"
+    #   "Ligue 1 - Paris SG / OM"
+    #   "Champions League - Finale - Arsenal / Real Madrid"
+    # We need to strip everything before the teams.
+    #
+    # Strategy: try split on " / " (team separator) first.
+    # If left side contains a " - " (comp prefix), take only the part after last " - ".
+
+    cleaned = subtitle.strip()
+
+    # Remove round/match labels like "Finale messieurs : ", "1/4 de finale : "
+    cleaned = re.sub(
+        r"^(?:finale|demi-finale|quart\s+de\s+finale|1\/\d+(?:\s*de\s+finale)?"
+        r"|match|huitièmes?\s+de\s+finale|seizièmes?\s+de\s+finale"
+        r"|phase\s+de\s+(?:poules?|groupes?)"
+        r"|qualifications?|préliminaires?|barrages?)"
+        r"(?:\s+(?:messieurs|dames|femmes|hommes|mixte|aller|retour))?\s*[:–-]\s*",
+        "", cleaned, flags=re.IGNORECASE,
+    ).strip()
+
+    # Try to find teams via " / " separator (most reliable)
+    if " / " in cleaned:
+        parts = cleaned.split(" / ", 1)
+        left = parts[0].strip()
+        right = parts[1].strip()
+
+        # If left side has " - ", the prefix is competition context
+        # e.g. "Match Amical - Colombie" → take "Colombie"
+        # But beware of team names with " - " (rare in French context)
+        if " - " in left:
+            # Check if right part of left looks like a team/country
+            left_parts = left.rsplit(" - ", 1)
+            candidate = left_parts[-1].strip()
+            # If candidate is a known country or looks like a team name, use it
+            if (candidate.lower() in COUNTRY_CODES
+                or candidate.lower() in NATIONAL_TEAM_NAMES
+                or len(candidate.split()) <= 4):
+                left = candidate
+
+        t1 = _build_entity(left, sport)
+        t2 = _build_entity(right, sport)
+        return t1, t2
+
+    # Try other separators: " vs ", " contre "
+    for sep in [" vs. ", " vs ", " contre "]:
+        if sep in cleaned:
+            parts = cleaned.split(sep, 1)
+            if len(parts) == 2:
+                t1 = _build_entity(parts[0].strip(), sport)
+                t2 = _build_entity(parts[1].strip(), sport)
+                return t1, t2
+
+    # Try " - " as team separator ONLY if both sides look like teams
+    if " - " in cleaned:
+        parts = cleaned.split(" - ")
+        if len(parts) == 2:
+            left, right = parts[0].strip(), parts[1].strip()
+            # Both sides should be short (team names, not descriptions)
+            if len(left.split()) <= 5 and len(right.split()) <= 5:
+                t1 = _build_entity(left, sport)
+                t2 = _build_entity(right, sport)
+                return t1, t2
+
+    # ── Fix 3: Fallback to description ──
+    # If subtitle didn't yield teams, try to find "Equipe1 / Equipe2" in desc
+    desc = prog.get("description") or ""
+    desc_match = re.search(
+        r"(?:entre\s+(?:l[ea']\s*)?|opposant\s+)"
+        r"(?P<t1>[A-ZÀ-Ü][A-Za-zÀ-ü\s'-]+?)"
+        r"\s+(?:et|face à|contre)\s+(?:l[ea']\s*)?"
+        r"(?P<t2>[A-ZÀ-Ü][A-Za-zÀ-ü\s'-]+?)(?:\s+(?:au|à|sur|dans|pour))",
+        desc,
+    )
+    if desc_match:
+        t1 = _build_entity(desc_match.group("t1").strip(), sport)
+        t2 = _build_entity(desc_match.group("t2").strip(), sport)
+        return t1, t2
+
+    # No matchup found
+    return None, None
+
+
+# ═══════════════════════════════════════════════════════
+# CHANNEL NORMALIZATION
+# ═══════════════════════════════════════════════════════
+
+# Known channel slug mappings
+CHANNEL_SLUG_MAP = {
+    "france 2": ("france-2", True),
+    "france 3": ("france-3", True),
+    "france 4": ("france-4", True),
+    "france 5": ("france-5", True),
+    "tf1": ("tf1", True),
+    "m6": ("m6", True),
+    "l'equipe": ("lequipe", True),
+    "l'équipe": ("lequipe", True),
+    "canal+": ("canal-plus", False),
+    "canal+ sport": ("canal-plus-sport", False),
+    "canal+ foot": ("canal-plus-foot", False),
+    "bein sports 1": ("bein-1", False),
+    "bein sports 2": ("bein-2", False),
+    "bein sports 3": ("bein-3", False),
+    "rmc sport 1": ("rmc-sport-1", False),
+    "rmc sport 2": ("rmc-sport-2", False),
+    "eurosport 1": ("eurosport-1", False),
+    "eurosport 2": ("eurosport-2", False),
+    "dazn 1": ("dazn-1", False),
+    "dazn 2": ("dazn-2", False),
+    "sport en france": ("sport-en-france", True),
+    "infosport+": ("infosport-plus", False),
+}
+
+
+def build_channel(raw_channel: dict) -> Channel:
+    """Normalize an XMLTV channel dict into a Channel model."""
+    name = raw_channel.get("name", "")
+    name_lower = name.lower().strip()
+
+    slug, is_free = CHANNEL_SLUG_MAP.get(name_lower, (
+        re.sub(r"[^a-z0-9]+", "-", name_lower).strip("-"),
+        False,
+    ))
+
+    return Channel(
+        id=raw_channel.get("id", ""),
+        name=name,
+        icon_url=raw_channel.get("icon_url"),
+        slug=slug,
+        is_free=is_free,
+    )
+
+
+# ═══════════════════════════════════════════════════════
+# MAIN PIPELINE
+# ═══════════════════════════════════════════════════════
+
+def _make_event_id(prog: dict) -> str:
+    """Generate a stable unique ID from programme data."""
+    key = f"{prog['channel_id']}_{prog['start'].isoformat()}_{prog.get('title', '')}"
+    return hashlib.md5(key.encode()).hexdigest()[:12]
+
+
+def _compute_status(start: datetime, end: Optional[datetime]) -> EventStatus:
+    """Determine if event is upcoming, live, or finished."""
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc)
+
+    if end and now > end:
+        return EventStatus.FINISHED
+    if now >= start:
+        return EventStatus.LIVE
+    return EventStatus.UPCOMING
+
+
+def extract_sport_events(
+    programmes: list[dict],
+    channels: dict[str, dict],
+) -> list[SportEvent]:
+    """
+    Main pipeline: raw XMLTV programmes → list of SportEvent.
+
+    1. Filter sport programmes
+    2. Classify sport type
+    3. Extract competition + teams
+    4. Enrich entities with logos/photos from registry
+    5. Build normalized SportEvent objects
+    """
+    # Import entity enrichment (lazy to avoid circular imports)
+    try:
+        from .entity_registry import enrich_entity
+        has_registry = True
+    except ImportError:
+        has_registry = False
+
+    events = []
+    sport_count = 0
+    skipped = 0
+    enriched_count = 0
+
+    for prog in programmes:
+        if not is_sport_programme(prog):
+            skipped += 1
+            continue
+
+        sport_count += 1
+        sport = classify_sport(prog)
+
+        # Build channel
+        ch_data = channels.get(prog["channel_id"], {"id": prog["channel_id"], "name": "?"})
+        channel = build_channel(ch_data)
+
+        # Extract competition
+        competition = extract_competition(prog)
+
+        # Extract matchup
+        team1, team2 = extract_matchup(prog, sport)
+
+        # ── Step 4: Enrich entities ──
+        if has_registry and (team1 or team2):
+            sport_str = sport.value if hasattr(sport, 'value') else str(sport)
+            if team1:
+                enriched = enrich_entity(team1.model_dump(), sport_str)
+                if enriched.get("logo_url") or enriched.get("photo_url"):
+                    enriched_count += 1
+                team1 = Entity(**{k: v for k, v in enriched.items()
+                                  if k in Entity.model_fields})
+            if team2:
+                enriched = enrich_entity(team2.model_dump(), sport_str)
+                if enriched.get("logo_url") or enriched.get("photo_url"):
+                    enriched_count += 1
+                team2 = Entity(**{k: v for k, v in enriched.items()
+                                  if k in Entity.model_fields})
+
+        # Build event
+        event = SportEvent(
+            id=_make_event_id(prog),
+            sport=sport,
+            competition=competition,
+            title=prog.get("title", ""),
+            subtitle=prog.get("subtitle"),
+            description=prog.get("description"),
+            team1=team1,
+            team2=team2,
+            channel=channel,
+            start=prog["start"],
+            end=prog["end"],
+            status=_compute_status(prog["start"], prog.get("end")),
+        )
+        events.append(event)
+
+    logger.info(
+        f"Extraction complete: {sport_count} sport / {skipped} non-sport → "
+        f"{len(events)} events ({enriched_count} entities enriched with visuals)"
+    )
+
+    # Sort: live first, then by start time
+    events.sort(key=lambda e: (
+        0 if e.status == EventStatus.LIVE else 1 if e.status == EventStatus.UPCOMING else 2,
+        e.start,
+    ))
+
+    return events
