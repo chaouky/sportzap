@@ -55,7 +55,7 @@ export function configureNotifications() {
     handleNotification: async () => ({
       shouldShowAlert: true,
       shouldPlaySound: true,
-      shouldSetBadge: true,
+      shouldSetBadge: false,
     }),
   });
 
@@ -197,6 +197,7 @@ export async function scheduleMatchAlert(params: {
         }),
       },
       trigger: {
+        type: Notifications.SchedulableTriggerInputTypes.DATE,
         date: fireAt,
       },
     });
