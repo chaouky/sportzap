@@ -724,6 +724,18 @@ def extract_sport_events(
             end=prog["end"],
             status=_compute_status(prog["start"], prog.get("end")),
         )
+        # Exclure les événements sans matchup ET sans compétition identifiable
+        # (titres génériques comme "Football : Ligue des champions" sans contexte)
+        has_matchup = team1 is not None or team2 is not None
+        has_competition = competition is not None
+        is_generic_title = bool(re.match(
+            r"(?i)^(football|rugby|tennis|basket(?:ball)?|cyclisme|boxe|mma|handball)\s*:\s*",
+            prog.get("title", "")
+        ))
+        if is_generic_title and not has_matchup and not prog.get("subtitle"):
+            skipped += 1
+            continue
+
         events.append(event)
 
     logger.info(
@@ -745,7 +757,13 @@ def extract_sport_events(
 
     def _dedup_key(e: SportEvent) -> str:
         """Key to identify the same match regardless of channel."""
-        # Normalize title: lowercase, remove punctuation
+        # If we have teams, use them as the key (most reliable)
+        if e.team1 and e.team2:
+            t1 = re.sub(r"[^\w]", "", (e.team1.name or "").lower())
+            t2 = re.sub(r"[^\w]", "", (e.team2.name or "").lower())
+            start = e.start.strftime("%Y-%m-%dT%H:%M") if e.start else ""
+            return f"{min(t1,t2)}_{max(t1,t2)}_{start}"
+        # Fallback: normalize title + start time
         title = re.sub(r"[^\w\s]", "", e.title.lower()).strip()
         start = e.start.strftime("%Y-%m-%dT%H:%M") if e.start else ""
         return f"{title}_{start}"

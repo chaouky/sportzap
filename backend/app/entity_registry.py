@@ -69,6 +69,10 @@ ENTITY_REGISTRY: list[EntityProfile] = [
         logo_url=_espn_soccer(160), colors=("#004170", "#DA291C"),
         aliases=["Paris-SG", "Paris SG", "Paris Saint Germain", "PSG", "Paris-Saint-Germain"]),
 
+    EntityProfile("Paris FC", "Paris FC", "club", "football", "fr",
+        colors=("#003189", "#FFFFFF"),
+        aliases=["Paris FC", "PFC"]),
+
     EntityProfile("Olympique de Marseille", "OM", "club", "football", "fr",
         logo_url=_espn_soccer(176), colors=("#2FAEE0", "#FFFFFF"),
         aliases=["Olympique de Marseille", "OM", "Marseille", "O. Marseille"]),
