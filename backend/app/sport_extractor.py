@@ -118,6 +118,125 @@ def is_sport_programme(prog: dict) -> bool:
     return False
 
 
+# ── Match detection: patterns that strongly indicate a real sporting event ──
+
+# "Sport : Competition | Team1 / Team2" — canonical French TV format
+_COLON_MATCH = re.compile(
+    r"(?i)^[^:]+\s*:\s*.+\s*[/|]\s*.+",  # "Football : Ligue 1 | PSG / OM"
+)
+
+# "Team1 / Team2" or "Team1 - Team2" (standalone matchup)
+_SLASH_MATCH = re.compile(
+    r"(?i)^[A-ZÀ-Ü0-9][^:/\n]{2,40}\s*(?:/|-)\s*[A-ZÀ-Ü0-9][^:/\n]{2,40}$"
+)
+
+# "Sport : Competition" with known competition keyword (match likely)
+_COMPETITION_MATCH = re.compile(
+    r"(?i)^[^:]+\s*:\s*("
+    r"ligue\s*[12]|liga|serie\s*a|bundesliga|premier\s*league|eredivisie"
+    r"|champions\s*(league|cup)|ligue\s*des\s*champions|europa\s*league"
+    r"|conference\s*league|ligue\s*europa|coupe\s*(de\s*france|d'europe|d'angleterre|du\s*monde|gambardella)"
+    r"|top\s*14|pro\s*d2|six\s*nations|super\s*rugby"
+    r"|roland[\s-]*garros|wimbledon|us\s*open|masters?\s*(1000|de)"
+    r"|tour\s+de|grand\s*prix|formule\s*[12]|motogp"
+    r"|nba|betclic|golden\s*league|champions\s*cup"
+    r"|ufc|pfl|bellator"
+    r"|match\s*(amical|international|d'archives)"
+    r"|[0-9a-z]+\s*(journée|[eè]tape|ronde|tour\b|finale|quart|demi)"
+    r")"
+)
+
+# "Tennis: Player1 - Player2" or "Snooker: Player1 - Player2"
+_INDIVIDUAL_MATCH = re.compile(
+    r"(?i)^(tennis|snooker|golf|boxe|mma|judo|escrime|natation|athl[eé]tisme)\s*:\s*.+\s*[-/]\s*.+"
+)
+
+# Patterns that definitively mark NON-match content
+_NON_MATCH = re.compile(
+    r"(?i)("
+    # Magazines / shows / talk
+    r"\bmag\b|magazine|\bshow\b|hebdo|weekly|mensuel"
+    r"|\bd[eé]brief\b|avant.match|après.match|mi.temps en \+"
+    r"|plateau\b|conference de presse|conférence de presse"
+    r"|best of|résumé|resume|temps forts|highlights|flashback|retro\b"
+    r"|canal champions club|champions club|canal sport\b|canal nba"
+    r"|dazn pro league|ligue 1 show|ligue 1 review|ligue 1 preview"
+    r"|stade 2|stats my|sport flash|sportflash|zap.?sport|bein zap"
+    r"|l'[eé]quipe (du soir|de greg|de choc)|l'oeil des pros"
+    r"|pleine lucarne|grand direct|le bonus|le temps additionnel"
+    r"|late football club|nba extra|soirée des champions"
+    r"|liga extra|histoires de premier league|made in england"
+    r"|complètement foot|passion foot|football nation"
+    r"|le grand d[eé]brif|live :|retro :"
+    # Channel branding / filler
+    r"|eurosport 360 \d|ligue 1\+ \d+$"
+    r"|programme (terminé|à venir)|a bientôt sur|vivez en direct"
+    r"|beIN sports, le plus"
+    # Betting / poker
+    r"|pronos\b|pmu\b|poker|tiercé|quinté"
+    # Documentary / adventure / nature
+    r"|documentaire|reportage\b|portrait\b|interview\b"
+    r"|aventure|exploration|voyage\b|nature\b"
+    # Fitness / yoga
+    r"|yoga|fitness\s*:"
+    # Generics with no matchup info
+    r"|^sport$|^sports$|^football$|^rugby$|^tennis$|^basket$"
+    r")"
+)
+
+
+def is_actual_match(prog: dict) -> bool:
+    """
+    Return True only if the programme looks like an actual sporting event
+    (a real match/race/fight), not a TV show, magazine, or branding filler.
+
+    Strategy: whitelist strong match signals, blacklist known non-match patterns.
+    """
+    title = (prog.get("title") or "").strip()
+    subtitle = (prog.get("subtitle") or "").strip()
+
+    # Step 1: reject known non-match patterns
+    if _NON_MATCH.search(title):
+        return False
+
+    # Reject specific false positives
+    _FP = re.compile(
+        r"(?i)("
+        r"anchored in paradise|direct auto express|planete\+"
+        r"|nautical channel|pré combat\b|format ufc"
+        r"|d'archives|multiplex$|ça va frotter"
+        r"|eva : league|mgg tv|valorant|esport|e-sport"
+        r"|snooker\s*:\s*masters$"   # generic snooker show (no matchup)
+        r"|carrousel\b|monde duplantis|fast.?zone"
+        r"|uefa\s*:\s*ce que vous|roland.garros dans l'ombre"
+        r"|on board moto|jour de match / jt"
+        r"|dans le peloton|inside\b|behind the scenes"
+        r"|[a-z] bientôt|programme terminé"
+        r")"
+    )
+    if _FP.search(title):
+        return False
+
+    # Step 2: accept clear match formats
+    combined = title + " " + subtitle
+
+    if _COLON_MATCH.search(combined):        # "Football : Ligue 1 | PSG / OM"
+        return True
+    if _SLASH_MATCH.search(title):           # "PSG / OM" or "PSG - OM"
+        return True
+    if _COMPETITION_MATCH.search(title):     # "Football : Ligue des champions"
+        return True
+    if _INDIVIDUAL_MATCH.search(combined):   # "Tennis : Djokovic - Alcaraz"
+        return True
+
+    # Step 3: subtitle has a matchup → likely real event
+    if subtitle and _SLASH_MATCH.search(subtitle):
+        return True
+
+    # Step 4: reject anything that didn't match a positive pattern
+    return False
+
+
 def classify_sport(prog: dict) -> SportType:
     """Classify the sport type from categories + title."""
     categories = prog.get("categories", [])
@@ -517,6 +636,10 @@ def extract_sport_events(
 
     for prog in programmes:
         if not is_sport_programme(prog):
+            skipped += 1
+            continue
+
+        if not is_actual_match(prog):
             skipped += 1
             continue
 
