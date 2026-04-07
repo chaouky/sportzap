@@ -159,6 +159,8 @@ _NON_MATCH = re.compile(
     r"|\bd[eé]brief\b|avant.match|après.match|mi.temps en \+"
     r"|plateau\b|conference de presse|conférence de presse"
     r"|best of|résumé|resume|temps forts|highlights|flashback|retro\b"
+    r"|rediffusion|redif\b|replay\b|rerun\b|re-run\b|archive|d'archives"
+    r"|différé|en différé|enregistré|enregistrement"
     r"|canal champions club|champions club|canal sport\b|canal nba"
     r"|dazn pro league|ligue 1 show|ligue 1 review|ligue 1 preview"
     r"|stade 2|stats my|sport flash|sportflash|zap.?sport|bein zap"

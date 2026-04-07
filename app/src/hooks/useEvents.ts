@@ -104,8 +104,8 @@ export function useEvents(options?: {
   const groups: EventGroup[] = useMemo(() => {
     if (!schedule) return [];
 
-    // Apply "Mes Chaînes" filter client-side
-    let filtered = schedule.events;
+    // Ne montrer que les matchs en cours ou à venir (pas les terminés)
+    let filtered = schedule.events.filter(e => e.status !== "finished");
     if (options?.channelSlugs && options.channelSlugs.size > 0) {
       filtered = filtered.filter(e => options.channelSlugs!.has(e.channel.slug));
     }
