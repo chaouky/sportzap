@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-10T09:05:52.617339+00:00",
+    "generated_at": "2026-04-10T13:03:07.160058+00:00",
     "total_events": 1031,
     "total_days": 7,
     "sports": [
@@ -20,86 +20,6 @@
       "volleyball"
     ],
     "channels": [
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports-2",
-        "name": "TVA Sports 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-1",
-        "name": "Eurosport 360 - 1",
-        "is_free": false
-      },
-      {
-        "slug": "voosportworld3-be",
-        "name": "VOOSportWorld3.be",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-2",
-        "name": "Eurosport 360 - 2",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
       {
         "slug": "rds2",
         "name": "RDS2",
@@ -121,8 +41,28 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-2",
         "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports-2",
+        "name": "TVA Sports 2",
         "is_free": false
       },
       {
@@ -131,8 +71,48 @@
         "is_free": false
       },
       {
+        "slug": "voosportworld3-be",
+        "name": "VOOSportWorld3.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-1",
+        "name": "Eurosport 360 - 1",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -163,6 +143,16 @@
       {
         "slug": "rds",
         "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -208,6 +198,16 @@
       {
         "slug": "rds-info",
         "name": "RDS Info",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-2",
+        "name": "Eurosport 360 - 2",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
         "is_free": false
       },
       {
@@ -538,602 +538,6 @@
       "event_count": 120,
       "events": [
         {
-          "id": "6401c92c50b6",
-          "sport": "football",
-          "competition": null,
-          "title": "Sporting CP - Arsenal",
-          "subtitle": null,
-          "description": "Match aller des quarts de finale de l'UEFA Champions League : Sporting CP - Arsenal.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-10T10:00:00+02:00",
-          "end": "2026-04-10T12:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "83df84e99833",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Andres Cortes",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eridson Garcia",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-04-10T10:00:00+02:00",
-          "end": "2026-04-10T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3da84c1a7fc7",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Gérone / Villarreal",
-          "subtitle": "Liga - 30e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Gérone",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-10T10:15:00+02:00",
-          "end": "2026-04-10T12:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a1c7ad45986a",
-          "sport": "other",
-          "competition": null,
-          "title": "Tournoi international de Hockey Pee-Wee de Québec 2026",
-          "subtitle": "Inter B",
-          "description": "Un tournoi de hockey sur glace qui met en compétition des jeunes de 11 et 12 ans provenant de partout dans le monde.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports2.ca",
-            "name": "TVA Sports 2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
-            "slug": "tva-sports-2",
-            "is_free": false
-          },
-          "start": "2026-04-10T10:30:00+02:00",
-          "end": "2026-04-10T12:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8b0285486e71",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Monte-Carlo",
-          "title": "Tennis : Masters 1000 de Monte-Carlo",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-04-10T10:45:00+02:00",
-          "end": "2026-04-10T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f93a0419365",
-          "sport": "football",
-          "competition": "Football. Ligue Conférence Quart de finale aller",
-          "title": "Rayo Vallecano / AEK Athènes",
-          "subtitle": "Football. Ligue Conférence Quart de finale aller .",
-          "description": "Commentaires : Serge Radermacher.",
-          "team1": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AEK Athènes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld3.be",
-            "name": "VOOSportWorld3.be",
-            "icon_url": null,
-            "slug": "voosportworld3-be",
-            "is_free": false
-          },
-          "start": "2026-04-10T10:50:00+02:00",
-          "end": "2026-04-10T12:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "321c38342af6",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Monte-Carlo",
-          "title": "Tennis : Masters 1000 de Monte-Carlo",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3602.fr",
-            "name": "Eurosport 360 - 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FB/CHN43FB_636_20220110?=.png",
-            "slug": "eurosport-360-2",
-            "is_free": false
-          },
-          "start": "2026-04-10T11:00:00+02:00",
-          "end": "2026-04-10T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c503e1067253",
-          "sport": "other",
-          "competition": "Coupe du monde de pentathlon moderne",
-          "title": "Pentathlon : Coupe du monde de pentathlon moderne",
-          "subtitle": null,
-          "description": "Demi-finales femmes (Groupe A) de la World Cup Pentathlon au Caire.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-04-10T11:00:00+02:00",
-          "end": "2026-04-10T12:47:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c957f02b1c75",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Coupe Billie Jean King 2026 - Kazakhstan contre Canada",
-          "subtitle": "Kazakhstan contre Canada",
-          "description": null,
-          "team1": {
-            "name": "Kazakhstan",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Canada",
-            "type": "country",
-            "short": "Canada",
-            "country_code": "ca",
-            "logo_url": "https://flagcdn.com/w80/ca.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-04-10T11:00:00+02:00",
-          "end": "2026-04-10T15:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "218773be4ef5",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Quarts de finale. 1re partie",
-          "subtitle": "Masters 1000 de Monte-Carlo",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-10T11:01:00+02:00",
-          "end": "2026-04-10T14:59:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1bad611e3179",
-          "sport": "f1",
-          "competition": null,
-          "title": "On Board Express Moto",
-          "subtitle": "Grand Prix des Etats-Unis",
-          "description": "Un magazine court et intense dédié aux sports mécaniques, qui propose, grâce aux caméras embarquées, une immersion totale dans les coulisses des Grands Prix MotoGP.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-04-10T11:57:00+02:00",
-          "end": "2026-04-10T12:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8c47d3eb983f",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "FC Barcelone / Atlético Madrid",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-10T12:00:00+02:00",
-          "end": "2026-04-10T13:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d4da05ea45e8",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Toulouse / Marseille",
-          "subtitle": null,
-          "description": "Match de la 25ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et OM.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-10T12:00:00+02:00",
-          "end": "2026-04-10T13:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b56754f009a9",
-          "sport": "football",
-          "competition": "Ligue 1 Ivoirienne",
-          "title": "Sol FC / US Tchologo",
-          "subtitle": "Ligue 1 Ivoirienne - 23e  journée",
-          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
-          "team1": {
-            "name": "Sol FC",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "US Tchologo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-10T12:19:00+02:00",
-          "end": "2026-04-10T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "227471d5fe41",
-          "sport": "football",
-          "competition": "Ligue Europa - Quart de finale a",
-          "title": "Bologne / Aston Villa",
-          "subtitle": "Ligue Europa - Quart de finale a...",
-          "description": "L'affiche des quarts de finale de la Ligue Europa met aux prises les Italiens de Bologne et les Anglais d'Aston Villa. Pour la première fois depuis la saison 1998/99, les Rossoblu sont parvenus à se qualifier pour les quarts de finale d'une compétition européenne, après une victoire arrachée face à la Roma. Nicolo Cambiaghi et les siens vont tenter de poursuivre sur leur lancée face aux Anglais d'Aston Villa, qui ont facilement éliminé le LOSC en 8es de finale.",
-          "team1": {
-            "name": "Bologne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-10T12:28:00+02:00",
-          "end": "2026-04-10T14:12:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e83c06e0bd30",
-          "sport": "cyclisme",
-          "competition": "Tour des Flandres",
-          "title": "Cyclisme : Tour des Flandres",
-          "subtitle": "Cyclisme",
-          "description": "Tadej Pogacar, Wout van Aert et Mathieu van der Poel sont au départ de cette édition 2026. Mathieu van der Poel peut en outre devenir l'unique détenteur du record.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-10T12:30:00+02:00",
-          "end": "2026-04-10T13:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5647c0f0194a",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Fribourg / Bayern Munich",
-          "subtitle": "Bundesliga - 28e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-10T12:39:00+02:00",
-          "end": "2026-04-10T14:28:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "69f60bfff589",
-          "sport": "football",
-          "competition": "Football. Ligue Europa Quart de finale",
-          "title": "FC Porto / Nottingham Forest",
-          "subtitle": "Football. Ligue Europa Quart de finale .",
-          "description": "Commentaires : Philippe Daman.",
-          "team1": {
-            "name": "FC Porto",
-            "type": "club",
-            "short": "Porto",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/743.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld3.be",
-            "name": "VOOSportWorld3.be",
-            "icon_url": null,
-            "slug": "voosportworld3-be",
-            "is_free": false
-          },
-          "start": "2026-04-10T12:50:00+02:00",
-          "end": "2026-04-10T14:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "83e471238336",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Monte-Carlo",
-          "title": "Tennis : Masters 1000 de Monte-Carlo",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-04-10T13:00:00+02:00",
-          "end": "2026-04-10T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "7dfd8efda020",
           "sport": "tennis",
           "competition": "Masters Monte-Carlo 2026 - Quarts de finale",
@@ -1151,7 +555,7 @@
           },
           "start": "2026-04-10T13:00:00+02:00",
           "end": "2026-04-10T19:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1189,7 +593,7 @@
           },
           "start": "2026-04-10T13:00:00+02:00",
           "end": "2026-04-10T16:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1213,7 +617,7 @@
           },
           "start": "2026-04-10T13:00:00+02:00",
           "end": "2026-04-10T17:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1237,7 +641,7 @@
           },
           "start": "2026-04-10T13:03:00+02:00",
           "end": "2026-04-10T18:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1261,7 +665,7 @@
           },
           "start": "2026-04-10T13:15:00+02:00",
           "end": "2026-04-10T15:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1299,7 +703,7 @@
           },
           "start": "2026-04-10T13:36:00+02:00",
           "end": "2026-04-10T15:19:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1337,7 +741,7 @@
           },
           "start": "2026-04-10T14:00:00+02:00",
           "end": "2026-04-10T16:09:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1375,7 +779,7 @@
           },
           "start": "2026-04-10T14:00:00+02:00",
           "end": "2026-04-10T15:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1399,7 +803,7 @@
           },
           "start": "2026-04-10T14:30:00+02:00",
           "end": "2026-04-10T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1423,7 +827,7 @@
           },
           "start": "2026-04-10T14:37:00+02:00",
           "end": "2026-04-10T15:18:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1461,7 +865,7 @@
           },
           "start": "2026-04-10T14:50:00+02:00",
           "end": "2026-04-10T16:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1485,7 +889,7 @@
           },
           "start": "2026-04-10T14:59:00+02:00",
           "end": "2026-04-10T18:58:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1509,7 +913,7 @@
           },
           "start": "2026-04-10T15:00:00+02:00",
           "end": "2026-04-10T17:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1533,7 +937,7 @@
           },
           "start": "2026-04-10T15:00:00+02:00",
           "end": "2026-04-10T17:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4433,6 +3837,602 @@
           },
           "start": "2026-04-10T09:08:00+02:00",
           "end": "2026-04-10T10:48:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6401c92c50b6",
+          "sport": "football",
+          "competition": null,
+          "title": "Sporting CP - Arsenal",
+          "subtitle": null,
+          "description": "Match aller des quarts de finale de l'UEFA Champions League : Sporting CP - Arsenal.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-10T10:00:00+02:00",
+          "end": "2026-04-10T12:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "83df84e99833",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Andres Cortes",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eridson Garcia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-04-10T10:00:00+02:00",
+          "end": "2026-04-10T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3da84c1a7fc7",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Gérone / Villarreal",
+          "subtitle": "Liga - 30e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Gérone",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-10T10:15:00+02:00",
+          "end": "2026-04-10T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a1c7ad45986a",
+          "sport": "other",
+          "competition": null,
+          "title": "Tournoi international de Hockey Pee-Wee de Québec 2026",
+          "subtitle": "Inter B",
+          "description": "Un tournoi de hockey sur glace qui met en compétition des jeunes de 11 et 12 ans provenant de partout dans le monde.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports2.ca",
+            "name": "TVA Sports 2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
+            "slug": "tva-sports-2",
+            "is_free": false
+          },
+          "start": "2026-04-10T10:30:00+02:00",
+          "end": "2026-04-10T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8b0285486e71",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Monte-Carlo",
+          "title": "Tennis : Masters 1000 de Monte-Carlo",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-04-10T10:45:00+02:00",
+          "end": "2026-04-10T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f93a0419365",
+          "sport": "football",
+          "competition": "Football. Ligue Conférence Quart de finale aller",
+          "title": "Rayo Vallecano / AEK Athènes",
+          "subtitle": "Football. Ligue Conférence Quart de finale aller .",
+          "description": "Commentaires : Serge Radermacher.",
+          "team1": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AEK Athènes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld3.be",
+            "name": "VOOSportWorld3.be",
+            "icon_url": null,
+            "slug": "voosportworld3-be",
+            "is_free": false
+          },
+          "start": "2026-04-10T10:50:00+02:00",
+          "end": "2026-04-10T12:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "321c38342af6",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Monte-Carlo",
+          "title": "Tennis : Masters 1000 de Monte-Carlo",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3602.fr",
+            "name": "Eurosport 360 - 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/636/canal-ouah/CHN43FB/CHN43FB_636_20220110?=.png",
+            "slug": "eurosport-360-2",
+            "is_free": false
+          },
+          "start": "2026-04-10T11:00:00+02:00",
+          "end": "2026-04-10T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c503e1067253",
+          "sport": "other",
+          "competition": "Coupe du monde de pentathlon moderne",
+          "title": "Pentathlon : Coupe du monde de pentathlon moderne",
+          "subtitle": null,
+          "description": "Demi-finales femmes (Groupe A) de la World Cup Pentathlon au Caire.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-04-10T11:00:00+02:00",
+          "end": "2026-04-10T12:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c957f02b1c75",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Coupe Billie Jean King 2026 - Kazakhstan contre Canada",
+          "subtitle": "Kazakhstan contre Canada",
+          "description": null,
+          "team1": {
+            "name": "Kazakhstan",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Canada",
+            "type": "country",
+            "short": "Canada",
+            "country_code": "ca",
+            "logo_url": "https://flagcdn.com/w80/ca.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-04-10T11:00:00+02:00",
+          "end": "2026-04-10T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "218773be4ef5",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Quarts de finale. 1re partie",
+          "subtitle": "Masters 1000 de Monte-Carlo",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-10T11:01:00+02:00",
+          "end": "2026-04-10T14:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1bad611e3179",
+          "sport": "f1",
+          "competition": null,
+          "title": "On Board Express Moto",
+          "subtitle": "Grand Prix des Etats-Unis",
+          "description": "Un magazine court et intense dédié aux sports mécaniques, qui propose, grâce aux caméras embarquées, une immersion totale dans les coulisses des Grands Prix MotoGP.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-04-10T11:57:00+02:00",
+          "end": "2026-04-10T12:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8c47d3eb983f",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "FC Barcelone / Atlético Madrid",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-10T12:00:00+02:00",
+          "end": "2026-04-10T13:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d4da05ea45e8",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Toulouse / Marseille",
+          "subtitle": null,
+          "description": "Match de la 25ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et OM.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-10T12:00:00+02:00",
+          "end": "2026-04-10T13:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b56754f009a9",
+          "sport": "football",
+          "competition": "Ligue 1 Ivoirienne",
+          "title": "Sol FC / US Tchologo",
+          "subtitle": "Ligue 1 Ivoirienne - 23e  journée",
+          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
+          "team1": {
+            "name": "Sol FC",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "US Tchologo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-10T12:19:00+02:00",
+          "end": "2026-04-10T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "227471d5fe41",
+          "sport": "football",
+          "competition": "Ligue Europa - Quart de finale a",
+          "title": "Bologne / Aston Villa",
+          "subtitle": "Ligue Europa - Quart de finale a...",
+          "description": "L'affiche des quarts de finale de la Ligue Europa met aux prises les Italiens de Bologne et les Anglais d'Aston Villa. Pour la première fois depuis la saison 1998/99, les Rossoblu sont parvenus à se qualifier pour les quarts de finale d'une compétition européenne, après une victoire arrachée face à la Roma. Nicolo Cambiaghi et les siens vont tenter de poursuivre sur leur lancée face aux Anglais d'Aston Villa, qui ont facilement éliminé le LOSC en 8es de finale.",
+          "team1": {
+            "name": "Bologne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-10T12:28:00+02:00",
+          "end": "2026-04-10T14:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e83c06e0bd30",
+          "sport": "cyclisme",
+          "competition": "Tour des Flandres",
+          "title": "Cyclisme : Tour des Flandres",
+          "subtitle": "Cyclisme",
+          "description": "Tadej Pogacar, Wout van Aert et Mathieu van der Poel sont au départ de cette édition 2026. Mathieu van der Poel peut en outre devenir l'unique détenteur du record.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-10T12:30:00+02:00",
+          "end": "2026-04-10T13:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5647c0f0194a",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Fribourg / Bayern Munich",
+          "subtitle": "Bundesliga - 28e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-10T12:39:00+02:00",
+          "end": "2026-04-10T14:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "69f60bfff589",
+          "sport": "football",
+          "competition": "Football. Ligue Europa Quart de finale",
+          "title": "FC Porto / Nottingham Forest",
+          "subtitle": "Football. Ligue Europa Quart de finale .",
+          "description": "Commentaires : Philippe Daman.",
+          "team1": {
+            "name": "FC Porto",
+            "type": "club",
+            "short": "Porto",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/743.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld3.be",
+            "name": "VOOSportWorld3.be",
+            "icon_url": null,
+            "slug": "voosportworld3-be",
+            "is_free": false
+          },
+          "start": "2026-04-10T12:50:00+02:00",
+          "end": "2026-04-10T14:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "83e471238336",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Monte-Carlo",
+          "title": "Tennis : Masters 1000 de Monte-Carlo",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-04-10T13:00:00+02:00",
+          "end": "2026-04-10T15:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
