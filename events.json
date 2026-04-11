@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-11T05:23:29.608862+00:00",
+    "generated_at": "2026-04-11T08:39:28.068940+00:00",
     "total_events": 1006,
     "total_days": 7,
     "sports": [
@@ -22,23 +22,8 @@
     ],
     "channels": [
       {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -47,43 +32,13 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport",
         "name": "Canal+ Sport",
         "is_free": false
       },
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "my-zen-tv",
-        "name": "My Zen TV",
         "is_free": false
       },
       {
@@ -112,6 +67,11 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "rts-un",
         "name": "RTS Un",
         "is_free": false
@@ -119,6 +79,11 @@
       {
         "slug": "eurosport-360-2",
         "name": "Eurosport 360 - 2",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -132,8 +97,23 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -207,6 +187,11 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "wallis-et-futuna-1-re",
         "name": "Wallis Et Futuna 1ère",
         "is_free": false
@@ -237,6 +222,11 @@
         "is_free": false
       },
       {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
         "slug": "rds-info",
         "name": "RDS Info",
         "is_free": false
@@ -259,6 +249,16 @@
       {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "my-zen-tv",
+        "name": "My Zen TV",
         "is_free": false
       },
       {
@@ -534,192 +534,6 @@
       "event_count": 160,
       "events": [
         {
-          "id": "1f34ad21e7b4",
-          "sport": "golf",
-          "competition": null,
-          "title": "Tournoi des Maîtres 2026 - 2e ronde",
-          "subtitle": "2e ronde",
-          "description": "En provenance de l'Augusta National Golf Club à Augusta, en Géorgie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-04-11T04:00:00+02:00",
-          "end": "2026-04-11T08:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a08773c6106f",
-          "sport": "basket",
-          "competition": null,
-          "title": "NBA - Raptors de Toronto c. Knicks de New York",
-          "subtitle": "Raptors de Toronto c. Knicks de New York",
-          "description": "Les Raptors de Toronto visitent les Knicks de New York au Madison Square Garden. New York mène la série de la saison quatre à zéro.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-04-11T05:30:00+02:00",
-          "end": "2026-04-11T08:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4ab25ac7734b",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Aryna Sabalenka - Elena Rybakina",
-          "subtitle": "Open d'Australie | Finale (F)",
-          "description": "Qui va succéder au palmarès de l'Open d'Australie à l'Américaine Madison Keys, victorieuse, l'an dernier en finale, de la Biélorusse Aryna Sabalenka, numéro un mondiale ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-11T06:00:00+02:00",
-          "end": "2026-04-11T07:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "524bf57a178c",
-          "sport": "football",
-          "competition": "Ligue Conférence - Quart de fina",
-          "title": "Crystal Palace / Fiorentina",
-          "subtitle": "Ligue Conférence - Quart de fina...",
-          "description": "Au programme, les plus belles affiches de la Ligue Conférence, compétition européenne de football organisée par l'UEFA.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fiorentina",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-11T06:15:00+02:00",
-          "end": "2026-04-11T08:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c2a9e67f6061",
-          "sport": "football",
-          "competition": "Coupe d'Angleterre - Quart de fi",
-          "title": "Southampton / Arsenal",
-          "subtitle": "Coupe d'Angleterre - Quart de fi...",
-          "description": "Retransmission d'un match de la FA Cup ou Coupe d'Angleterre de football, prestigieuse compétition de football qui se déroule en Angleterre et au Pays de Galles. C'est la plus vieille compétition de football dans le monde, fondée en 1871. Le vainqueur est qualifié pour la Ligue Europa et participe au Community Shield contre le vainqueur de la Premier League.",
-          "team1": {
-            "name": "Southampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-11T06:41:00+02:00",
-          "end": "2026-04-11T08:23:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1bd3e1fe977d",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Real Madrid / Bayern Munich",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "Après avoir éliminé Manchester City au tour précédent, Vinicius Junior et les Madrilènes affrontent un autre géant du football européen, le Bayern Munich d'Harry Kane qui a facilement écarté l'Atalanta de Bergame en 8es de finale. Les deux formations croisent à nouveau le fer dans un duel au sommet où l'armada allemande espère enfin briser sa malédiction face au géant espagnol.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-11T07:09:00+02:00",
-          "end": "2026-04-11T08:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "846a32e8a104",
           "sport": "football",
           "competition": "Coupe de la Confédération de la",
@@ -758,130 +572,6 @@
           "result": null
         },
         {
-          "id": "ebd04e775d0e",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific",
-          "title": "Highlanders / Brumbies",
-          "subtitle": "Super Rugby Pacific - 9e journée",
-          "description": "Suivez des rencontres de la Super Rugby Pacific, un championnat qui met en opposition douze équipes issues de plusieurs pays de la zone Océanie. Samoa, Tonga, Fidji, Australie et Nouvelle-Zélande : telles sont les nations représentées lors des différentes éditions disputées lors de cette compétition depuis 1996, année de sa création.",
-          "team1": {
-            "name": "Highlanders",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brumbies",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-11T07:16:00+02:00",
-          "end": "2026-04-11T09:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9c1551b6002f",
-          "sport": "cyclisme",
-          "competition": "Grand Prix de l'Escaut",
-          "title": "Cyclisme : Grand Prix de l'Escaut",
-          "subtitle": "Cyclisme",
-          "description": "La 114e édition du Grand Prix de l'Escaut intervient quelques jours après le Tour des Flandres. Qui succédera à Tim Merlier, vainqueur de l'édition 2025 ? Comme l'an dernier, le départ a lieu sur la place de l'Hôtel de Ville de Terneuzen, aux Pays-Bas et l'arrivée est jugée à Schoten, en Belgique, après un parcours plat de 202,8 kilomètres.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-04-11T07:30:00+02:00",
-          "end": "2026-04-11T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5cf9a17f3914",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris Saint-Germain - Liverpool",
-          "subtitle": null,
-          "description": "Match aller des quarts de finale de l'UEFA Champions League : Paris Saint-Germain - Liverpool.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-11T07:55:00+02:00",
-          "end": "2026-04-11T10:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1ffe8663e736",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "FC Barcelone / Atlético Madrid",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "Quatre jours après s'être affrontés en Liga, le Barça et l'Atlético se retrouvent au Camp Nou à l'occasion de ce quart de finale aller de Ligue des champions. Une confrontation européenne à fort enjeu pour les deux clubs. Ces rencontres interviennent après l'élimination des Barcelonais par l'Atlético en Coupe du Roi plus tôt dans la saison, ajoutant une dimension de revanche pour les Catalans.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-11T08:50:00+02:00",
-          "end": "2026-04-11T10:34:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "c2ccf1dd7d81",
           "sport": "football",
           "competition": "Premier League",
@@ -913,45 +603,7 @@
           },
           "start": "2026-04-11T08:51:00+02:00",
           "end": "2026-04-11T10:43:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0f98f28494db",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Aurillac / Agen",
-          "subtitle": "Pro D2 - 26e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "Aurillac",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "SU Agen",
-            "type": "club",
-            "short": "Agen",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-11T08:56:00+02:00",
-          "end": "2026-04-11T10:38:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -989,7 +641,7 @@
           },
           "start": "2026-04-11T09:00:00+02:00",
           "end": "2026-04-11T11:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1013,31 +665,7 @@
           },
           "start": "2026-04-11T09:23:00+02:00",
           "end": "2026-04-11T11:31:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d947c5ab4a07",
-          "sport": "boxe",
-          "competition": null,
-          "title": "Fais ton sport à la maison !",
-          "subtitle": "Boxe cardio-training",
-          "description": "Dans cet épisode de Fais ton sport à la maison, nous allons faire de la boxe avec plusieurs circuits training afin de perdre un maximum de calories. On commencera par un échauffement complet du corps puis des mouvements utilisés en boxe avec des uppercuts, des crochets, des squats et montées de genoux pour travailler les quadriceps et les fessiers.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MyZenTV.fr",
-            "name": "My Zen TV",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
-            "slug": "my-zen-tv",
-            "is_free": false
-          },
-          "start": "2026-04-11T09:30:00+02:00",
-          "end": "2026-04-11T10:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1061,7 +689,7 @@
           },
           "start": "2026-04-11T09:30:00+02:00",
           "end": "2026-04-11T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1099,7 +727,7 @@
           },
           "start": "2026-04-11T09:40:00+02:00",
           "end": "2026-04-11T11:28:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1137,7 +765,7 @@
           },
           "start": "2026-04-11T10:00:00+02:00",
           "end": "2026-04-11T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1161,7 +789,7 @@
           },
           "start": "2026-04-11T10:16:00+02:00",
           "end": "2026-04-11T10:42:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1185,7 +813,7 @@
           },
           "start": "2026-04-11T10:30:00+02:00",
           "end": "2026-04-11T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1223,7 +851,7 @@
           },
           "start": "2026-04-11T10:34:00+02:00",
           "end": "2026-04-11T12:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5416,6 +5044,30 @@
           "result": null
         },
         {
+          "id": "1f34ad21e7b4",
+          "sport": "golf",
+          "competition": null,
+          "title": "Tournoi des Maîtres 2026 - 2e ronde",
+          "subtitle": "2e ronde",
+          "description": "En provenance de l'Augusta National Golf Club à Augusta, en Géorgie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-04-11T04:00:00+02:00",
+          "end": "2026-04-11T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "645d50a64d87",
           "sport": "other",
           "competition": null,
@@ -5502,6 +5154,92 @@
           "result": null
         },
         {
+          "id": "a08773c6106f",
+          "sport": "basket",
+          "competition": null,
+          "title": "NBA - Raptors de Toronto c. Knicks de New York",
+          "subtitle": "Raptors de Toronto c. Knicks de New York",
+          "description": "Les Raptors de Toronto visitent les Knicks de New York au Madison Square Garden. New York mène la série de la saison quatre à zéro.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-04-11T05:30:00+02:00",
+          "end": "2026-04-11T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4ab25ac7734b",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Aryna Sabalenka - Elena Rybakina",
+          "subtitle": "Open d'Australie | Finale (F)",
+          "description": "Qui va succéder au palmarès de l'Open d'Australie à l'Américaine Madison Keys, victorieuse, l'an dernier en finale, de la Biélorusse Aryna Sabalenka, numéro un mondiale ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-11T06:00:00+02:00",
+          "end": "2026-04-11T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "524bf57a178c",
+          "sport": "football",
+          "competition": "Ligue Conférence - Quart de fina",
+          "title": "Crystal Palace / Fiorentina",
+          "subtitle": "Ligue Conférence - Quart de fina...",
+          "description": "Au programme, les plus belles affiches de la Ligue Conférence, compétition européenne de football organisée par l'UEFA.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fiorentina",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-11T06:15:00+02:00",
+          "end": "2026-04-11T08:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "7a066f2f64bd",
           "sport": "other",
           "competition": null,
@@ -5540,6 +5278,44 @@
           "result": null
         },
         {
+          "id": "c2a9e67f6061",
+          "sport": "football",
+          "competition": "Coupe d'Angleterre - Quart de fi",
+          "title": "Southampton / Arsenal",
+          "subtitle": "Coupe d'Angleterre - Quart de fi...",
+          "description": "Retransmission d'un match de la FA Cup ou Coupe d'Angleterre de football, prestigieuse compétition de football qui se déroule en Angleterre et au Pays de Galles. C'est la plus vieille compétition de football dans le monde, fondée en 1871. Le vainqueur est qualifié pour la Ligue Europa et participe au Community Shield contre le vainqueur de la Premier League.",
+          "team1": {
+            "name": "Southampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-11T06:41:00+02:00",
+          "end": "2026-04-11T08:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "044fadeb064a",
           "sport": "football",
           "competition": "Ligue des champions - Quart de f",
@@ -5571,6 +5347,230 @@
           },
           "start": "2026-04-11T06:59:00+02:00",
           "end": "2026-04-11T07:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1bd3e1fe977d",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Real Madrid / Bayern Munich",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "Après avoir éliminé Manchester City au tour précédent, Vinicius Junior et les Madrilènes affrontent un autre géant du football européen, le Bayern Munich d'Harry Kane qui a facilement écarté l'Atalanta de Bergame en 8es de finale. Les deux formations croisent à nouveau le fer dans un duel au sommet où l'armada allemande espère enfin briser sa malédiction face au géant espagnol.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-11T07:09:00+02:00",
+          "end": "2026-04-11T08:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ebd04e775d0e",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific",
+          "title": "Highlanders / Brumbies",
+          "subtitle": "Super Rugby Pacific - 9e journée",
+          "description": "Suivez des rencontres de la Super Rugby Pacific, un championnat qui met en opposition douze équipes issues de plusieurs pays de la zone Océanie. Samoa, Tonga, Fidji, Australie et Nouvelle-Zélande : telles sont les nations représentées lors des différentes éditions disputées lors de cette compétition depuis 1996, année de sa création.",
+          "team1": {
+            "name": "Highlanders",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brumbies",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-11T07:16:00+02:00",
+          "end": "2026-04-11T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9c1551b6002f",
+          "sport": "cyclisme",
+          "competition": "Grand Prix de l'Escaut",
+          "title": "Cyclisme : Grand Prix de l'Escaut",
+          "subtitle": "Cyclisme",
+          "description": "La 114e édition du Grand Prix de l'Escaut intervient quelques jours après le Tour des Flandres. Qui succédera à Tim Merlier, vainqueur de l'édition 2025 ? Comme l'an dernier, le départ a lieu sur la place de l'Hôtel de Ville de Terneuzen, aux Pays-Bas et l'arrivée est jugée à Schoten, en Belgique, après un parcours plat de 202,8 kilomètres.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-04-11T07:30:00+02:00",
+          "end": "2026-04-11T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5cf9a17f3914",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris Saint-Germain - Liverpool",
+          "subtitle": null,
+          "description": "Match aller des quarts de finale de l'UEFA Champions League : Paris Saint-Germain - Liverpool.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-11T07:55:00+02:00",
+          "end": "2026-04-11T10:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1ffe8663e736",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "FC Barcelone / Atlético Madrid",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "Quatre jours après s'être affrontés en Liga, le Barça et l'Atlético se retrouvent au Camp Nou à l'occasion de ce quart de finale aller de Ligue des champions. Une confrontation européenne à fort enjeu pour les deux clubs. Ces rencontres interviennent après l'élimination des Barcelonais par l'Atlético en Coupe du Roi plus tôt dans la saison, ajoutant une dimension de revanche pour les Catalans.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-11T08:50:00+02:00",
+          "end": "2026-04-11T10:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0f98f28494db",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Aurillac / Agen",
+          "subtitle": "Pro D2 - 26e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "Aurillac",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "SU Agen",
+            "type": "club",
+            "short": "Agen",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-11T08:56:00+02:00",
+          "end": "2026-04-11T10:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d947c5ab4a07",
+          "sport": "boxe",
+          "competition": null,
+          "title": "Fais ton sport à la maison !",
+          "subtitle": "Boxe cardio-training",
+          "description": "Dans cet épisode de Fais ton sport à la maison, nous allons faire de la boxe avec plusieurs circuits training afin de perdre un maximum de calories. On commencera par un échauffement complet du corps puis des mouvements utilisés en boxe avec des uppercuts, des crochets, des squats et montées de genoux pour travailler les quadriceps et les fessiers.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MyZenTV.fr",
+            "name": "My Zen TV",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
+            "slug": "my-zen-tv",
+            "is_free": false
+          },
+          "start": "2026-04-11T09:30:00+02:00",
+          "end": "2026-04-11T10:20:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
