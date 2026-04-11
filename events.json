@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-11T01:59:10.246992+00:00",
+    "generated_at": "2026-04-11T05:23:29.608862+00:00",
     "total_events": 1006,
     "total_days": 7,
     "sports": [
@@ -22,54 +22,9 @@
     ],
     "channels": [
       {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
-        "is_free": false
-      },
-      {
         "slug": "rds2",
         "name": "RDS2",
         "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports-2",
-        "name": "TVA Sports 2",
-        "is_free": false
-      },
-      {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
       },
       {
         "slug": "rds",
@@ -87,13 +42,23 @@
         "is_free": false
       },
       {
-        "slug": "rts-deux",
-        "name": "RTS Deux",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -104,6 +69,16 @@
       {
         "slug": "pickxplussports1f-be",
         "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -122,8 +97,18 @@
         "is_free": false
       },
       {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus",
         "name": "Canal+ Live 4",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports-2",
+        "name": "TVA Sports 2",
         "is_free": false
       },
       {
@@ -135,6 +120,11 @@
         "slug": "eurosport-360-2",
         "name": "Eurosport 360 - 2",
         "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "voosportworld3-be",
@@ -164,6 +154,11 @@
       {
         "slug": "france-3-nouvelle-aquitaine",
         "name": "France 3 Nouvelle Aquitaine",
+        "is_free": false
+      },
+      {
+        "slug": "rts-deux",
+        "name": "RTS Deux",
         "is_free": false
       },
       {
@@ -259,6 +254,11 @@
       {
         "slug": "la-chaine-l-quipe",
         "name": "La chaine l’Équipe",
+        "is_free": false
+      },
+      {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
         "is_free": false
       },
       {
@@ -534,230 +534,6 @@
       "event_count": 160,
       "events": [
         {
-          "id": "22d90236cb0d",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Yankees de New York c. Rays de Tampa Bay",
-          "subtitle": "Yankees de New York c. Rays de Tampa Bay",
-          "description": "Les Rays accueillent les Yankees au Tropicana Field pour le coup d'envoi d'une série de weekend. Tampa Bay enfile ses maillots rétro des Devil Rays alors que ces rivaux de la division Est de la Ligue américaine s'affrontent.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-04-11T01:00:00+02:00",
-          "end": "2026-04-11T04:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b1b8707a4f1e",
-          "sport": "basket",
-          "competition": null,
-          "title": "NBA - Raptors de Toronto c. Knicks de New York",
-          "subtitle": "Raptors de Toronto c. Knicks de New York",
-          "description": "Les Raptors de Toronto visitent les Knicks de New York au Madison Square Garden. New York mène la série de la saison quatre à zéro.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-04-11T01:30:00+02:00",
-          "end": "2026-04-11T04:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "91a235ad266c",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Quarts de finale. 2e partie",
-          "subtitle": "Masters 1000 de Monte-Carlo",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-11T02:48:00+02:00",
-          "end": "2026-04-11T04:57:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe053b6986c3",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "FC Barcelone / Atlético Madrid",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-11T03:00:00+02:00",
-          "end": "2026-04-11T04:43:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "14275bb7cea9",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Valence-Romans / Colomiers",
-          "subtitle": "Pro D2 - 26e journée",
-          "description": "A l'occasion de la 26e journée de Pro D2, Valence-Romans accueille Colomiers. Pour avoir mal négocié ses rencontres de la fin février et du début mars, le club haut-garonnais a vu Provence Rugby revenir sur ses talons. Désormais, les Columérins n'ont plus droit à l'erreur s'ils veulent conserver une place dans le Top 2, directement qualificatif pour les demi-finales.",
-          "team1": {
-            "name": "Valence-Romans",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Colomiers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-11T03:14:00+02:00",
-          "end": "2026-04-11T04:56:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0bec9cb531ae",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Marseille / Metz",
-          "subtitle": "Ligue 1 McDonald's - 29e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Metz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-11T03:45:00+02:00",
-          "end": "2026-04-11T05:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2c16bb4ba2e9",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Paris FC / Monaco",
-          "subtitle": "Ligue 1 McDonald's - 29e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-11T04:00:00+02:00",
-          "end": "2026-04-11T06:44:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "1f34ad21e7b4",
           "sport": "golf",
           "competition": null,
@@ -775,93 +551,7 @@
           },
           "start": "2026-04-11T04:00:00+02:00",
           "end": "2026-04-11T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "645d50a64d87",
-          "sport": "other",
-          "competition": null,
-          "title": "Hockey ECHL",
-          "subtitle": "Thunder de l'Adirondack c. Lions de Trois-Rivières",
-          "description": "En provenance de Colisée Vidéotron &#150; Trois-Rivières, Province of Quebec, CAN En provenance du Colisée Vidéotron à Trois-Rivières, Québec, Canada.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports2.ca",
-            "name": "TVA Sports 2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
-            "slug": "tva-sports-2",
-            "is_free": false
-          },
-          "start": "2026-04-11T04:00:00+02:00",
-          "end": "2026-04-11T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "73c5d062b73f",
-          "sport": "football",
-          "competition": "Liga F",
-          "title": "Football : Liga F | Madrid CFF / Real Madrid",
-          "subtitle": null,
-          "description": null,
-          "team1": {
-            "name": "Madrid CFF",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-04-11T04:15:00+02:00",
-          "end": "2026-04-11T06:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2f8d04b4a113",
-          "sport": "natation",
-          "competition": "Coupe du monde",
-          "title": "Natation artistique : Coupe du monde | Solo libre femmes",
-          "subtitle": null,
-          "description": "Epreuve solo libre femmes de la Coupe du monde de natation artistique.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-04-11T04:45:00+02:00",
-          "end": "2026-04-11T06:44:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -885,7 +575,7 @@
           },
           "start": "2026-04-11T05:30:00+02:00",
           "end": "2026-04-11T08:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -909,7 +599,7 @@
           },
           "start": "2026-04-11T06:00:00+02:00",
           "end": "2026-04-11T07:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -947,45 +637,7 @@
           },
           "start": "2026-04-11T06:15:00+02:00",
           "end": "2026-04-11T08:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7a066f2f64bd",
-          "sport": "other",
-          "competition": null,
-          "title": "Genève-Servette HC - Fribourg-Gottéron",
-          "subtitle": "National League - Playoffs 2026,...",
-          "description": "En différé de Genève",
-          "team1": {
-            "name": "National League",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Playoffs 2026,...",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS Deux",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-deux",
-            "is_free": false
-          },
-          "start": "2026-04-11T06:40:00+02:00",
-          "end": "2026-04-11T06:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1023,45 +675,7 @@
           },
           "start": "2026-04-11T06:41:00+02:00",
           "end": "2026-04-11T08:23:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "044fadeb064a",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Real Madrid / Bayern Munich",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "Après avoir éliminé Manchester City au tour précédent, Vinicius Junior et les Madrilènes affrontent un autre géant du football européen, le Bayern Munich d'Harry Kane qui a facilement écarté l'Atalanta de Bergame en 8es de finale. Les deux formations croisent à nouveau le fer dans un duel au sommet où l'armada allemande espère enfin briser sa malédiction face au géant espagnol.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-11T06:59:00+02:00",
-          "end": "2026-04-11T07:09:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1099,7 +713,7 @@
           },
           "start": "2026-04-11T07:09:00+02:00",
           "end": "2026-04-11T08:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1137,7 +751,7 @@
           },
           "start": "2026-04-11T07:13:00+02:00",
           "end": "2026-04-11T12:03:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1175,7 +789,7 @@
           },
           "start": "2026-04-11T07:16:00+02:00",
           "end": "2026-04-11T09:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5440,6 +5054,30 @@
           "result": null
         },
         {
+          "id": "22d90236cb0d",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Yankees de New York c. Rays de Tampa Bay",
+          "subtitle": "Yankees de New York c. Rays de Tampa Bay",
+          "description": "Les Rays accueillent les Yankees au Tropicana Field pour le coup d'envoi d'une série de weekend. Tampa Bay enfile ses maillots rétro des Devil Rays alors que ces rivaux de la division Est de la Ligue américaine s'affrontent.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-04-11T01:00:00+02:00",
+          "end": "2026-04-11T04:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "07356ebbb0f3",
           "sport": "other",
           "competition": null,
@@ -5457,6 +5095,30 @@
           },
           "start": "2026-04-11T01:00:00+02:00",
           "end": "2026-04-11T03:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b1b8707a4f1e",
+          "sport": "basket",
+          "competition": null,
+          "title": "NBA - Raptors de Toronto c. Knicks de New York",
+          "subtitle": "Raptors de Toronto c. Knicks de New York",
+          "description": "Les Raptors de Toronto visitent les Knicks de New York au Madison Square Garden. New York mène la série de la saison quatre à zéro.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-04-11T01:30:00+02:00",
+          "end": "2026-04-11T04:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5571,6 +5233,344 @@
           },
           "start": "2026-04-11T02:00:00+02:00",
           "end": "2026-04-11T03:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "91a235ad266c",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Quarts de finale. 2e partie",
+          "subtitle": "Masters 1000 de Monte-Carlo",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Monte-Carlo. Ce tournoi, depuis 1993, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems. C'est le seul Masters 1000 où les 30 meilleurs joueurs mondiaux n'ont pas l'obligation de participer même si dans les faits ils y participent pour la plupart d'entre eux.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-11T02:48:00+02:00",
+          "end": "2026-04-11T04:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe053b6986c3",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "FC Barcelone / Atlético Madrid",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-11T03:00:00+02:00",
+          "end": "2026-04-11T04:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "14275bb7cea9",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Valence-Romans / Colomiers",
+          "subtitle": "Pro D2 - 26e journée",
+          "description": "A l'occasion de la 26e journée de Pro D2, Valence-Romans accueille Colomiers. Pour avoir mal négocié ses rencontres de la fin février et du début mars, le club haut-garonnais a vu Provence Rugby revenir sur ses talons. Désormais, les Columérins n'ont plus droit à l'erreur s'ils veulent conserver une place dans le Top 2, directement qualificatif pour les demi-finales.",
+          "team1": {
+            "name": "Valence-Romans",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Colomiers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-11T03:14:00+02:00",
+          "end": "2026-04-11T04:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0bec9cb531ae",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Marseille / Metz",
+          "subtitle": "Ligue 1 McDonald's - 29e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Metz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-11T03:45:00+02:00",
+          "end": "2026-04-11T05:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2c16bb4ba2e9",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Paris FC / Monaco",
+          "subtitle": "Ligue 1 McDonald's - 29e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-11T04:00:00+02:00",
+          "end": "2026-04-11T06:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "645d50a64d87",
+          "sport": "other",
+          "competition": null,
+          "title": "Hockey ECHL",
+          "subtitle": "Thunder de l'Adirondack c. Lions de Trois-Rivières",
+          "description": "En provenance de Colisée Vidéotron &#150; Trois-Rivières, Province of Quebec, CAN En provenance du Colisée Vidéotron à Trois-Rivières, Québec, Canada.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports2.ca",
+            "name": "TVA Sports 2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
+            "slug": "tva-sports-2",
+            "is_free": false
+          },
+          "start": "2026-04-11T04:00:00+02:00",
+          "end": "2026-04-11T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "73c5d062b73f",
+          "sport": "football",
+          "competition": "Liga F",
+          "title": "Football : Liga F | Madrid CFF / Real Madrid",
+          "subtitle": null,
+          "description": null,
+          "team1": {
+            "name": "Madrid CFF",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-04-11T04:15:00+02:00",
+          "end": "2026-04-11T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2f8d04b4a113",
+          "sport": "natation",
+          "competition": "Coupe du monde",
+          "title": "Natation artistique : Coupe du monde | Solo libre femmes",
+          "subtitle": null,
+          "description": "Epreuve solo libre femmes de la Coupe du monde de natation artistique.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-04-11T04:45:00+02:00",
+          "end": "2026-04-11T06:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7a066f2f64bd",
+          "sport": "other",
+          "competition": null,
+          "title": "Genève-Servette HC - Fribourg-Gottéron",
+          "subtitle": "National League - Playoffs 2026,...",
+          "description": "En différé de Genève",
+          "team1": {
+            "name": "National League",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Playoffs 2026,...",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS Deux",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-deux",
+            "is_free": false
+          },
+          "start": "2026-04-11T06:40:00+02:00",
+          "end": "2026-04-11T06:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "044fadeb064a",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Real Madrid / Bayern Munich",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "Après avoir éliminé Manchester City au tour précédent, Vinicius Junior et les Madrilènes affrontent un autre géant du football européen, le Bayern Munich d'Harry Kane qui a facilement écarté l'Atalanta de Bergame en 8es de finale. Les deux formations croisent à nouveau le fer dans un duel au sommet où l'armada allemande espère enfin briser sa malédiction face au géant espagnol.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-11T06:59:00+02:00",
+          "end": "2026-04-11T07:09:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
