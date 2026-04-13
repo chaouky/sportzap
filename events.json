@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-13T09:52:22.305547+00:00",
+    "generated_at": "2026-04-13T13:20:16.001264+00:00",
     "total_events": 1048,
     "total_days": 7,
     "sports": [
@@ -22,13 +22,18 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
         "is_free": false
       },
       {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Premier League",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -37,43 +42,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "matele",
-        "name": "MaTele",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
         "is_free": false
       },
       {
@@ -82,28 +52,13 @@
         "is_free": false
       },
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "gulli-africa",
-        "name": "GULLI AFRICA",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -117,6 +72,11 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
         "is_free": false
@@ -124,6 +84,21 @@
       {
         "slug": "tva-sports",
         "name": "TVA Sports",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "matele",
+        "name": "MaTele",
         "is_free": false
       },
       {
@@ -139,6 +114,16 @@
       {
         "slug": "my-zen-tv",
         "name": "My Zen TV",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
         "is_free": false
       },
       {
@@ -164,6 +149,16 @@
       {
         "slug": "canal-sport-360",
         "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
@@ -204,6 +199,11 @@
       {
         "slug": "tv5-monde-europe",
         "name": "TV5 Monde Europe",
+        "is_free": false
+      },
+      {
+        "slug": "gulli-africa",
+        "name": "GULLI AFRICA",
         "is_free": false
       },
       {
@@ -569,482 +569,6 @@
       "event_count": 158,
       "events": [
         {
-          "id": "5ec1f6dc3f3e",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / Newcastle",
-          "subtitle": "Premier League - 32e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-13T10:08:00+02:00",
-          "end": "2026-04-13T11:56:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a580b58266ad",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Nottingham Forest / Aston Villa",
-          "subtitle": "Premier League - 32e journée",
-          "description": "Les Reds de Nottingham Forest n'ont toujours pas assuré leur maintien en Premier League. La victoire est dès lors impérative pour les hommes de Vitor Pereira, à l'occasion de la réception d'Aston Villa. Mais la tâche s'annonce compliquée pour Igor Jesus et les siens, les Villans voulant préserver leur belle place dans le Top 4 du classement.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-13T10:25:00+02:00",
-          "end": "2026-04-13T12:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bda063790143",
-          "sport": "football",
-          "competition": "Ligue des champions de la CAF",
-          "title": "Espérance Tunis / Mamelodi Sundowns",
-          "subtitle": "Ligue des champions de la CAF - ...",
-          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
-          "team1": {
-            "name": "Espérance Tunis",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Mamelodi Sundowns",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-13T10:49:00+02:00",
-          "end": "2026-04-13T12:32:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0799e5607572",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / Newcastle",
-          "subtitle": "Premier League - 32e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-13T10:50:00+02:00",
-          "end": "2026-04-13T12:32:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9b1c864b5d22",
-          "sport": "other",
-          "competition": null,
-          "title": "Xtra-balles",
-          "subtitle": null,
-          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MaTele.be",
-            "name": "MaTele",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
-            "slug": "matele",
-            "is_free": false
-          },
-          "start": "2026-04-13T11:00:00+02:00",
-          "end": "2026-04-13T12:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0bf994d57f25",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Andres Cortes",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eridson Garcia",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-04-13T11:00:00+02:00",
-          "end": "2026-04-13T14:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8e4a0e443f3c",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-04-13T11:00:00+02:00",
-          "end": "2026-04-13T12:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c77fa85cfde0",
-          "sport": "basket",
-          "competition": "NBA - Saison régulière",
-          "title": "Boston Celtics / Orlando Magic",
-          "subtitle": "NBA - Saison régulière",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Boston Celtics",
-            "type": "club",
-            "short": "Celtics",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/2.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Orlando Magic",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-13T11:30:00+02:00",
-          "end": "2026-04-13T13:31:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6c774d5fcca0",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Athletic Bilbao / Villarreal",
-          "subtitle": "Liga - 31e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Athletic Bilbao",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-13T11:56:00+02:00",
-          "end": "2026-04-13T13:44:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "92367f00a398",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Marseille / Metz",
-          "subtitle": null,
-          "description": "Match de la 29ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant OM et FC METZ.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Metz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-13T12:00:00+02:00",
-          "end": "2026-04-13T13:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c7e29227bde4",
-          "sport": "football",
-          "competition": null,
-          "title": "Real Madrid - Bayern Munich",
-          "subtitle": null,
-          "description": "Match aller des quarts de finale de l'UEFA Champions League : Real Madrid - Bayern Munich.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-13T12:00:00+02:00",
-          "end": "2026-04-13T13:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d403562f83ab",
-          "sport": "football",
-          "competition": null,
-          "title": "Real Madrid - Bayern München",
-          "subtitle": null,
-          "description": "07/04/2026 - Heenwedstrijd van de kwartfinales in de UEFA Champions League: Real Madrid - Bayern München.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-04-13T12:00:00+02:00",
-          "end": "2026-04-13T13:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a5a3085afdb3",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "West Ham / Wolverhampton",
-          "subtitle": "Premier League - 32e journée",
-          "description": "Coup d'envoi de la 32e journée de Premier League avec l'opposition entre les Hammers de West Ham et les Loups de Wolverhampton, deux clubs qui jouent leur survie parmi l'élite. Si les visiteurs, lanterne rouge du championnat anglais, ont peu de chances de décrocher leur maintien, les recevants doivent absolument l'emporter pour s'extirper de la zone rouge.",
-          "team1": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-13T12:10:00+02:00",
-          "end": "2026-04-13T13:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3e6f99dc074e",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Aurillac / Agen",
-          "subtitle": "Pro D2 - 26e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "Aurillac",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "SU Agen",
-            "type": "club",
-            "short": "Agen",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-13T12:16:00+02:00",
-          "end": "2026-04-13T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "a91bc08b1acd",
           "sport": "football",
           "competition": "Championnat de Suisse Super Leag",
@@ -1076,79 +600,7 @@
           },
           "start": "2026-04-13T13:00:00+02:00",
           "end": "2026-04-13T15:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d231d0b2b4d7",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Paris-Roubaix féminin",
-          "subtitle": "UCI World Tour Féminin",
-          "description": "A suivre le Paris Roubaix la course mythique de cyclisme. Organisée par l'UCI, la course se déroule en avril et c'est une course des cinq monuments du cyclisme, avec Milan-San Remo, Liège–Bastogne–Liège, le Tour des Flandres et le Tour de Lombardie. C'est aussi l'une des deux grandes classiques pavées avec le Tour des Flandres. Sa première édition a eu lieu en 1896.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-04-13T13:00:00+02:00",
-          "end": "2026-04-13T14:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a5e55163601f",
-          "sport": "other",
-          "competition": null,
-          "title": "Xtra-balles",
-          "subtitle": null,
-          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MaTele.be",
-            "name": "MaTele",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
-            "slug": "matele",
-            "is_free": false
-          },
-          "start": "2026-04-13T13:00:00+02:00",
-          "end": "2026-04-13T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9aed006eaaf0",
-          "sport": "other",
-          "competition": null,
-          "title": "Moteurs",
-          "subtitle": "24 MX Tour 2026 - Etape 2 - Saint-Jean-D'Angély",
-          "description": "Résumé de la deuxième étape 24 MX Tour à St-Jean-D'Angély, au progarmme les manches espoirs, Juniors, MX1 et MX2 !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-04-13T13:14:00+02:00",
-          "end": "2026-04-13T13:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1186,7 +638,7 @@
           },
           "start": "2026-04-13T13:35:00+02:00",
           "end": "2026-04-13T15:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1224,7 +676,7 @@
           },
           "start": "2026-04-13T13:39:00+02:00",
           "end": "2026-04-13T15:21:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1262,7 +714,7 @@
           },
           "start": "2026-04-13T13:45:00+02:00",
           "end": "2026-04-13T15:27:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1300,7 +752,7 @@
           },
           "start": "2026-04-13T13:50:00+02:00",
           "end": "2026-04-13T15:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1338,7 +790,7 @@
           },
           "start": "2026-04-13T13:55:00+02:00",
           "end": "2026-04-13T15:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1362,7 +814,7 @@
           },
           "start": "2026-04-13T13:57:00+02:00",
           "end": "2026-04-13T16:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1400,7 +852,7 @@
           },
           "start": "2026-04-13T14:00:00+02:00",
           "end": "2026-04-13T16:04:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1438,31 +890,7 @@
           },
           "start": "2026-04-13T14:00:00+02:00",
           "end": "2026-04-13T15:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5fd5f72cb11b",
-          "sport": "f1",
-          "competition": null,
-          "title": "Bienvenue chez les Loud - Saison 4",
-          "subtitle": "Episode 23 (1/2) : Le Grand Prix...",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GulliAfrica.af",
-            "name": "GULLI AFRICA",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180367/canal-ouah/CHN43FB/myCANAL_GULLIAFRICA_640x480?=.png",
-            "slug": "gulli-africa",
-            "is_free": false
-          },
-          "start": "2026-04-13T14:05:00+02:00",
-          "end": "2026-04-13T14:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1500,7 +928,7 @@
           },
           "start": "2026-04-13T14:25:00+02:00",
           "end": "2026-04-13T16:08:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1524,7 +952,7 @@
           },
           "start": "2026-04-13T14:30:00+02:00",
           "end": "2026-04-13T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1548,7 +976,7 @@
           },
           "start": "2026-04-13T14:40:00+02:00",
           "end": "2026-04-13T15:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1586,7 +1014,7 @@
           },
           "start": "2026-04-13T14:41:00+02:00",
           "end": "2026-04-13T16:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1624,7 +1052,7 @@
           },
           "start": "2026-04-13T14:45:00+02:00",
           "end": "2026-04-13T17:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1648,7 +1076,7 @@
           },
           "start": "2026-04-13T15:00:00+02:00",
           "end": "2026-04-13T17:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1672,7 +1100,7 @@
           },
           "start": "2026-04-13T15:01:00+02:00",
           "end": "2026-04-13T17:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5433,6 +4861,220 @@
           "result": null
         },
         {
+          "id": "5ec1f6dc3f3e",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / Newcastle",
+          "subtitle": "Premier League - 32e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-13T10:08:00+02:00",
+          "end": "2026-04-13T11:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a580b58266ad",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Nottingham Forest / Aston Villa",
+          "subtitle": "Premier League - 32e journée",
+          "description": "Les Reds de Nottingham Forest n'ont toujours pas assuré leur maintien en Premier League. La victoire est dès lors impérative pour les hommes de Vitor Pereira, à l'occasion de la réception d'Aston Villa. Mais la tâche s'annonce compliquée pour Igor Jesus et les siens, les Villans voulant préserver leur belle place dans le Top 4 du classement.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-13T10:25:00+02:00",
+          "end": "2026-04-13T12:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bda063790143",
+          "sport": "football",
+          "competition": "Ligue des champions de la CAF",
+          "title": "Espérance Tunis / Mamelodi Sundowns",
+          "subtitle": "Ligue des champions de la CAF - ...",
+          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
+          "team1": {
+            "name": "Espérance Tunis",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Mamelodi Sundowns",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-13T10:49:00+02:00",
+          "end": "2026-04-13T12:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0799e5607572",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / Newcastle",
+          "subtitle": "Premier League - 32e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-13T10:50:00+02:00",
+          "end": "2026-04-13T12:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9b1c864b5d22",
+          "sport": "other",
+          "competition": null,
+          "title": "Xtra-balles",
+          "subtitle": null,
+          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MaTele.be",
+            "name": "MaTele",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
+            "slug": "matele",
+            "is_free": false
+          },
+          "start": "2026-04-13T11:00:00+02:00",
+          "end": "2026-04-13T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0bf994d57f25",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Andres Cortes",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eridson Garcia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-04-13T11:00:00+02:00",
+          "end": "2026-04-13T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f56c014883c9",
           "sport": "football",
           "competition": null,
@@ -5457,6 +5099,30 @@
           "result": null
         },
         {
+          "id": "8e4a0e443f3c",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-04-13T11:00:00+02:00",
+          "end": "2026-04-13T12:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "b64e6cd2145c",
           "sport": "other",
           "competition": null,
@@ -5474,6 +5140,340 @@
           },
           "start": "2026-04-13T11:27:54+02:00",
           "end": "2026-04-13T11:48:20+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c77fa85cfde0",
+          "sport": "basket",
+          "competition": "NBA - Saison régulière",
+          "title": "Boston Celtics / Orlando Magic",
+          "subtitle": "NBA - Saison régulière",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Boston Celtics",
+            "type": "club",
+            "short": "Celtics",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/2.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Orlando Magic",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-13T11:30:00+02:00",
+          "end": "2026-04-13T13:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6c774d5fcca0",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Athletic Bilbao / Villarreal",
+          "subtitle": "Liga - 31e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Athletic Bilbao",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-13T11:56:00+02:00",
+          "end": "2026-04-13T13:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "92367f00a398",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Marseille / Metz",
+          "subtitle": null,
+          "description": "Match de la 29ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant OM et FC METZ.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Metz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-13T12:00:00+02:00",
+          "end": "2026-04-13T13:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c7e29227bde4",
+          "sport": "football",
+          "competition": null,
+          "title": "Real Madrid - Bayern Munich",
+          "subtitle": null,
+          "description": "Match aller des quarts de finale de l'UEFA Champions League : Real Madrid - Bayern Munich.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-13T12:00:00+02:00",
+          "end": "2026-04-13T13:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d403562f83ab",
+          "sport": "football",
+          "competition": null,
+          "title": "Real Madrid - Bayern München",
+          "subtitle": null,
+          "description": "07/04/2026 - Heenwedstrijd van de kwartfinales in de UEFA Champions League: Real Madrid - Bayern München.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-04-13T12:00:00+02:00",
+          "end": "2026-04-13T13:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a5a3085afdb3",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "West Ham / Wolverhampton",
+          "subtitle": "Premier League - 32e journée",
+          "description": "Coup d'envoi de la 32e journée de Premier League avec l'opposition entre les Hammers de West Ham et les Loups de Wolverhampton, deux clubs qui jouent leur survie parmi l'élite. Si les visiteurs, lanterne rouge du championnat anglais, ont peu de chances de décrocher leur maintien, les recevants doivent absolument l'emporter pour s'extirper de la zone rouge.",
+          "team1": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-13T12:10:00+02:00",
+          "end": "2026-04-13T13:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3e6f99dc074e",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Aurillac / Agen",
+          "subtitle": "Pro D2 - 26e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "Aurillac",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "SU Agen",
+            "type": "club",
+            "short": "Agen",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-13T12:16:00+02:00",
+          "end": "2026-04-13T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d231d0b2b4d7",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Paris-Roubaix féminin",
+          "subtitle": "UCI World Tour Féminin",
+          "description": "A suivre le Paris Roubaix la course mythique de cyclisme. Organisée par l'UCI, la course se déroule en avril et c'est une course des cinq monuments du cyclisme, avec Milan-San Remo, Liège–Bastogne–Liège, le Tour des Flandres et le Tour de Lombardie. C'est aussi l'une des deux grandes classiques pavées avec le Tour des Flandres. Sa première édition a eu lieu en 1896.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-04-13T13:00:00+02:00",
+          "end": "2026-04-13T14:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a5e55163601f",
+          "sport": "other",
+          "competition": null,
+          "title": "Xtra-balles",
+          "subtitle": null,
+          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MaTele.be",
+            "name": "MaTele",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
+            "slug": "matele",
+            "is_free": false
+          },
+          "start": "2026-04-13T13:00:00+02:00",
+          "end": "2026-04-13T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9aed006eaaf0",
+          "sport": "other",
+          "competition": null,
+          "title": "Moteurs",
+          "subtitle": "24 MX Tour 2026 - Etape 2 - Saint-Jean-D'Angély",
+          "description": "Résumé de la deuxième étape 24 MX Tour à St-Jean-D'Angély, au progarmme les manches espoirs, Juniors, MX1 et MX2 !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-04-13T13:14:00+02:00",
+          "end": "2026-04-13T13:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5fd5f72cb11b",
+          "sport": "f1",
+          "competition": null,
+          "title": "Bienvenue chez les Loud - Saison 4",
+          "subtitle": "Episode 23 (1/2) : Le Grand Prix...",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GulliAfrica.af",
+            "name": "GULLI AFRICA",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180367/canal-ouah/CHN43FB/myCANAL_GULLIAFRICA_640x480?=.png",
+            "slug": "gulli-africa",
+            "is_free": false
+          },
+          "start": "2026-04-13T14:05:00+02:00",
+          "end": "2026-04-13T14:15:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
