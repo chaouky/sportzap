@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-14T17:02:57.364760+00:00",
+    "generated_at": "2026-04-14T20:50:38.293578+00:00",
     "total_events": 980,
     "total_days": 7,
     "sports": [
@@ -22,73 +22,13 @@
     ],
     "channels": [
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "rts-deux",
-        "name": "RTS Deux",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
         "slug": "rds2",
         "name": "RDS2",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "tipik",
-        "name": "Tipik",
-        "is_free": false
-      },
-      {
-        "slug": "ketnet",
-        "name": "Ketnet",
-        "is_free": false
-      },
-      {
-        "slug": "guadeloupe-1-re",
-        "name": "Guadeloupe 1ère",
-        "is_free": false
-      },
-      {
         "slug": "vtm2",
         "name": "VTM2",
-        "is_free": false
-      },
-      {
-        "slug": "guyane-1-re",
-        "name": "Guyane 1ère",
         "is_free": false
       },
       {
@@ -104,11 +44,6 @@
       {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "martinique-1-re",
-        "name": "Martinique 1ère",
         "is_free": false
       },
       {
@@ -132,8 +67,23 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -144,6 +94,11 @@
       {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -177,6 +132,11 @@
         "is_free": false
       },
       {
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
         "slug": "auto-plus-tv",
         "name": "Auto Plus TV",
         "is_free": false
@@ -184,6 +144,46 @@
       {
         "slug": "motorvision-tv",
         "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "rts-deux",
+        "name": "RTS Deux",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "tipik",
+        "name": "Tipik",
+        "is_free": false
+      },
+      {
+        "slug": "ketnet",
+        "name": "Ketnet",
+        "is_free": false
+      },
+      {
+        "slug": "guadeloupe-1-re",
+        "name": "Guadeloupe 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "guyane-1-re",
+        "name": "Guyane 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "martinique-1-re",
+        "name": "Martinique 1ère",
         "is_free": false
       },
       {
@@ -554,258 +554,6 @@
       "event_count": 100,
       "events": [
         {
-          "id": "846a8db94a3d",
-          "sport": "tennis",
-          "competition": "Barcelona Open 2026 - 1re ronde",
-          "title": "Tennis: Barcelona Open 2026 - 1re ronde",
-          "subtitle": "1re ronde",
-          "description": "En provenance du Real Club de Tenis Barcelona 1899 à Barcelone, en Espagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-04-14T16:00:00+02:00",
-          "end": "2026-04-14T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "56f7bf34bbdf",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Gérone",
-          "subtitle": "Liga - 31e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Gérone",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-14T17:43:00+02:00",
-          "end": "2026-04-14T19:23:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b8fd9880bbf1",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "FC Barcelone / Atlético Madrid",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-14T17:57:00+02:00",
-          "end": "2026-04-14T19:42:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bf57f2daec7f",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Vannes / Béziers",
-          "subtitle": "Pro D2 - 26e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "RC Vannes",
-            "type": "club",
-            "short": "Vannes",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Béziers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-14T18:33:00+02:00",
-          "end": "2026-04-14T20:12:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1ec4a53e8d7f",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Suisse / Turquie",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "En direct de Zurich",
-          "team1": {
-            "name": "Suisse",
-            "type": "country",
-            "short": "Suisse",
-            "country_code": "ch",
-            "logo_url": "https://flagcdn.com/w80/ch.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Turquie",
-            "type": "country",
-            "short": "Turquie",
-            "country_code": "tr",
-            "logo_url": "https://flagcdn.com/w80/tr.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS Deux",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-deux",
-            "is_free": false
-          },
-          "start": "2026-04-14T18:45:00+02:00",
-          "end": "2026-04-14T21:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c80d223a1372",
-          "sport": "basket",
-          "competition": "BNXT League",
-          "title": "Basket-ball : BNXT League",
-          "subtitle": "Okapi Aalst / Den Bosch. BNXT League. 28e Principal.",
-          "description": "BNXT League. 28e Principal. Okapi Aalst / Den Bosch.",
-          "team1": {
-            "name": "Okapi Aalst",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Den Bosch",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-04-14T18:45:00+02:00",
-          "end": "2026-04-14T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3ef191f80461",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Suisse / Turquie",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Diffusion de rencontres disputées dans le cadre des qualifications pour la Coupe du monde, zone Europe. Pour accéder à la plus prestigieuse compétition de football, les nations du Vieux Continent doivent d'abord en découdre lors de ces éliminatoires. Lors de la phase de groupes, les équipes terminant en tête se qualifient directement, tandis que les dauphins doivent se départager lors de matchs de barrages.",
-          "team1": {
-            "name": "Suisse",
-            "type": "country",
-            "short": "Suisse",
-            "country_code": "ch",
-            "logo_url": "https://flagcdn.com/w80/ch.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Turquie",
-            "type": "country",
-            "short": "Turquie",
-            "country_code": "tr",
-            "logo_url": "https://flagcdn.com/w80/tr.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-04-14T18:53:00+02:00",
-          "end": "2026-04-14T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "08160ea26004",
           "sport": "golf",
           "competition": null,
@@ -824,196 +572,6 @@
           "start": "2026-04-14T19:00:00+02:00",
           "end": "2026-04-15T00:00:00+02:00",
           "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9394c9dacbbd",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Huesca / Deportivo La Corogne",
-          "subtitle": "Liga 2 - 35e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Huesca",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Deportivo La Corogne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-14T19:23:00+02:00",
-          "end": "2026-04-14T21:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ad026213df54",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lyon / Lorient",
-          "subtitle": "Ligue 1 McDonald's - 29e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Lorient",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-14T19:50:00+02:00",
-          "end": "2026-04-14T21:36:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0c29c17b1bf0",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du monde féminine",
-          "title": "Ecosse / Belgique",
-          "subtitle": "Eliminatoires de la Coupe du monde féminine - 3e journée. Groupe B4",
-          "description": "Diffusion d'un match des éliminatoires de la Coupe du monde de football féminin, passage obligatoire pour chaque nation qui veut participer à la prestigieuse compétition organisée par la FIFA. Ces qualifications permettent de réduire à 23 le nombre d'équipes du tournoi final, le 24e participant étant le champion en titre. Elles sont gérées par les six confédérations continentales.",
-          "team1": {
-            "name": "Ecosse",
-            "type": "country",
-            "short": null,
-            "country_code": "gb-sct",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Belgique",
-            "type": "country",
-            "short": "Belgique",
-            "country_code": "be",
-            "logo_url": "https://flagcdn.com/w80/be.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "LaDeux.be",
-            "name": "Tipik",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
-            "slug": "tipik",
-            "is_free": false
-          },
-          "start": "2026-04-14T20:23:00+02:00",
-          "end": "2026-04-14T22:31:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d0da51db82ec",
-          "sport": "football",
-          "competition": "Football. Eliminatoires de la Coupe du monde féminine",
-          "title": "Ecosse / Belgique",
-          "subtitle": "Football. Eliminatoires de la Coupe du monde féminine. 3e journée. Groupe B4.",
-          "description": "Eliminatoires de la Coupe du monde féminine. 3e journée. Groupe B4. Ecosse / Belgique.",
-          "team1": {
-            "name": "Ecosse",
-            "type": "country",
-            "short": null,
-            "country_code": "gb-sct",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Belgique",
-            "type": "country",
-            "short": "Belgique",
-            "country_code": "be",
-            "logo_url": "https://flagcdn.com/w80/be.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ketnet.be",
-            "name": "Ketnet",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ceff3f6a3454e7b7.png/480x480/quality/100/ketnet.png",
-            "slug": "ketnet",
-            "is_free": false
-          },
-          "start": "2026-04-14T20:25:00+02:00",
-          "end": "2026-04-14T22:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c2e20201d063",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Pays-Bas / France",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
-          "team1": {
-            "name": "Pays-Bas",
-            "type": "country",
-            "short": "Pays-Bas",
-            "country_code": "nl",
-            "logo_url": "https://flagcdn.com/w80/nl.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "France",
-            "type": "country",
-            "short": "France",
-            "country_code": "fr",
-            "logo_url": "https://flagcdn.com/w80/fr.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-04-14T20:35:00+02:00",
-          "end": "2026-04-14T22:50:00+02:00",
-          "status": "upcoming",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1051,83 +609,7 @@
           },
           "start": "2026-04-14T20:35:00+02:00",
           "end": "2026-04-14T23:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c01338028fd4",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Pays-Bas / France",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
-          "team1": {
-            "name": "Pays-Bas",
-            "type": "country",
-            "short": "Pays-Bas",
-            "country_code": "nl",
-            "logo_url": "https://flagcdn.com/w80/nl.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "France",
-            "type": "country",
-            "short": "France",
-            "country_code": "fr",
-            "logo_url": "https://flagcdn.com/w80/fr.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Guyane1.fr",
-            "name": "Guyane 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guyane-1-re",
-            "is_free": false
-          },
-          "start": "2026-04-14T20:37:00+02:00",
-          "end": "2026-04-14T21:31:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7debeef3e866",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Bournemouth",
-          "subtitle": "Premier League - 32e journée",
-          "description": "Leaders indétrônables de Premier League, les Gunners d'Arsenal accueillent une formation de Bournemouth, 13e, emmenée par Eli Junior Kroupi, mais largement à leur portée. A l'Emirates Stadium, William Saliba et les siens voudront briller devant leur public et ajouter trois points de plus dans leur escarcelle.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-14T20:42:00+02:00",
-          "end": "2026-04-14T22:27:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1165,7 +647,7 @@
           },
           "start": "2026-04-14T20:55:00+02:00",
           "end": "2026-04-14T22:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1203,7 +685,7 @@
           },
           "start": "2026-04-14T21:00:00+02:00",
           "end": "2026-04-14T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1241,7 +723,7 @@
           },
           "start": "2026-04-14T21:00:00+02:00",
           "end": "2026-04-14T22:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1279,83 +761,7 @@
           },
           "start": "2026-04-14T21:06:00+02:00",
           "end": "2026-04-14T23:06:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a8ab2204470c",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Pays-Bas / France",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
-          "team1": {
-            "name": "Pays-Bas",
-            "type": "country",
-            "short": "Pays-Bas",
-            "country_code": "nl",
-            "logo_url": "https://flagcdn.com/w80/nl.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "France",
-            "type": "country",
-            "short": "France",
-            "country_code": "fr",
-            "logo_url": "https://flagcdn.com/w80/fr.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Martinique1.fr",
-            "name": "Martinique 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "martinique-1-re",
-            "is_free": false
-          },
-          "start": "2026-04-14T21:38:00+02:00",
-          "end": "2026-04-14T22:18:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "12a88487fba1",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Pays-Bas / France",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
-          "team1": {
-            "name": "Pays-Bas",
-            "type": "country",
-            "short": "Pays-Bas",
-            "country_code": "nl",
-            "logo_url": "https://flagcdn.com/w80/nl.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "France",
-            "type": "country",
-            "short": "France",
-            "country_code": "fr",
-            "logo_url": "https://flagcdn.com/w80/fr.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Guyane1.fr",
-            "name": "Guyane 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guyane-1-re",
-            "is_free": false
-          },
-          "start": "2026-04-14T21:45:00+02:00",
-          "end": "2026-04-14T22:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1379,7 +785,7 @@
           },
           "start": "2026-04-14T22:00:00+02:00",
           "end": "2026-04-14T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1403,7 +809,7 @@
           },
           "start": "2026-04-14T22:00:00+02:00",
           "end": "2026-04-15T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1441,7 +847,7 @@
           },
           "start": "2026-04-14T22:00:00+02:00",
           "end": "2026-04-14T23:51:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1465,7 +871,7 @@
           },
           "start": "2026-04-14T22:15:00+02:00",
           "end": "2026-04-14T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1503,7 +909,7 @@
           },
           "start": "2026-04-14T22:30:00+02:00",
           "end": "2026-04-15T00:11:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1541,7 +947,7 @@
           },
           "start": "2026-04-14T22:30:00+02:00",
           "end": "2026-04-15T00:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1579,7 +985,7 @@
           },
           "start": "2026-04-14T22:30:00+02:00",
           "end": "2026-04-15T01:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3640,6 +3046,30 @@
           "result": null
         },
         {
+          "id": "846a8db94a3d",
+          "sport": "tennis",
+          "competition": "Barcelona Open 2026 - 1re ronde",
+          "title": "Tennis: Barcelona Open 2026 - 1re ronde",
+          "subtitle": "1re ronde",
+          "description": "En provenance du Real Club de Tenis Barcelona 1899 à Barcelone, en Espagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-04-14T16:00:00+02:00",
+          "end": "2026-04-14T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "d024dfd4c0d4",
           "sport": "football",
           "competition": "Liga",
@@ -3885,6 +3315,576 @@
           },
           "start": "2026-04-14T17:00:00+02:00",
           "end": "2026-04-14T18:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "56f7bf34bbdf",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Gérone",
+          "subtitle": "Liga - 31e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Gérone",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-14T17:43:00+02:00",
+          "end": "2026-04-14T19:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b8fd9880bbf1",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "FC Barcelone / Atlético Madrid",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-14T17:57:00+02:00",
+          "end": "2026-04-14T19:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bf57f2daec7f",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Vannes / Béziers",
+          "subtitle": "Pro D2 - 26e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "RC Vannes",
+            "type": "club",
+            "short": "Vannes",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Béziers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-14T18:33:00+02:00",
+          "end": "2026-04-14T20:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1ec4a53e8d7f",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Suisse / Turquie",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "En direct de Zurich",
+          "team1": {
+            "name": "Suisse",
+            "type": "country",
+            "short": "Suisse",
+            "country_code": "ch",
+            "logo_url": "https://flagcdn.com/w80/ch.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Turquie",
+            "type": "country",
+            "short": "Turquie",
+            "country_code": "tr",
+            "logo_url": "https://flagcdn.com/w80/tr.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS Deux",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-deux",
+            "is_free": false
+          },
+          "start": "2026-04-14T18:45:00+02:00",
+          "end": "2026-04-14T21:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c80d223a1372",
+          "sport": "basket",
+          "competition": "BNXT League",
+          "title": "Basket-ball : BNXT League",
+          "subtitle": "Okapi Aalst / Den Bosch. BNXT League. 28e Principal.",
+          "description": "BNXT League. 28e Principal. Okapi Aalst / Den Bosch.",
+          "team1": {
+            "name": "Okapi Aalst",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Den Bosch",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-04-14T18:45:00+02:00",
+          "end": "2026-04-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3ef191f80461",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Suisse / Turquie",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Diffusion de rencontres disputées dans le cadre des qualifications pour la Coupe du monde, zone Europe. Pour accéder à la plus prestigieuse compétition de football, les nations du Vieux Continent doivent d'abord en découdre lors de ces éliminatoires. Lors de la phase de groupes, les équipes terminant en tête se qualifient directement, tandis que les dauphins doivent se départager lors de matchs de barrages.",
+          "team1": {
+            "name": "Suisse",
+            "type": "country",
+            "short": "Suisse",
+            "country_code": "ch",
+            "logo_url": "https://flagcdn.com/w80/ch.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Turquie",
+            "type": "country",
+            "short": "Turquie",
+            "country_code": "tr",
+            "logo_url": "https://flagcdn.com/w80/tr.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-04-14T18:53:00+02:00",
+          "end": "2026-04-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9394c9dacbbd",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Huesca / Deportivo La Corogne",
+          "subtitle": "Liga 2 - 35e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Huesca",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Deportivo La Corogne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-14T19:23:00+02:00",
+          "end": "2026-04-14T21:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ad026213df54",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lyon / Lorient",
+          "subtitle": "Ligue 1 McDonald's - 29e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Lorient",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-14T19:50:00+02:00",
+          "end": "2026-04-14T21:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0c29c17b1bf0",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du monde féminine",
+          "title": "Ecosse / Belgique",
+          "subtitle": "Eliminatoires de la Coupe du monde féminine - 3e journée. Groupe B4",
+          "description": "Diffusion d'un match des éliminatoires de la Coupe du monde de football féminin, passage obligatoire pour chaque nation qui veut participer à la prestigieuse compétition organisée par la FIFA. Ces qualifications permettent de réduire à 23 le nombre d'équipes du tournoi final, le 24e participant étant le champion en titre. Elles sont gérées par les six confédérations continentales.",
+          "team1": {
+            "name": "Ecosse",
+            "type": "country",
+            "short": null,
+            "country_code": "gb-sct",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Belgique",
+            "type": "country",
+            "short": "Belgique",
+            "country_code": "be",
+            "logo_url": "https://flagcdn.com/w80/be.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "LaDeux.be",
+            "name": "Tipik",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
+            "slug": "tipik",
+            "is_free": false
+          },
+          "start": "2026-04-14T20:23:00+02:00",
+          "end": "2026-04-14T22:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d0da51db82ec",
+          "sport": "football",
+          "competition": "Football. Eliminatoires de la Coupe du monde féminine",
+          "title": "Ecosse / Belgique",
+          "subtitle": "Football. Eliminatoires de la Coupe du monde féminine. 3e journée. Groupe B4.",
+          "description": "Eliminatoires de la Coupe du monde féminine. 3e journée. Groupe B4. Ecosse / Belgique.",
+          "team1": {
+            "name": "Ecosse",
+            "type": "country",
+            "short": null,
+            "country_code": "gb-sct",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Belgique",
+            "type": "country",
+            "short": "Belgique",
+            "country_code": "be",
+            "logo_url": "https://flagcdn.com/w80/be.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ketnet.be",
+            "name": "Ketnet",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ceff3f6a3454e7b7.png/480x480/quality/100/ketnet.png",
+            "slug": "ketnet",
+            "is_free": false
+          },
+          "start": "2026-04-14T20:25:00+02:00",
+          "end": "2026-04-14T22:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c2e20201d063",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Pays-Bas / France",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
+          "team1": {
+            "name": "Pays-Bas",
+            "type": "country",
+            "short": "Pays-Bas",
+            "country_code": "nl",
+            "logo_url": "https://flagcdn.com/w80/nl.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "France",
+            "type": "country",
+            "short": "France",
+            "country_code": "fr",
+            "logo_url": "https://flagcdn.com/w80/fr.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-04-14T20:35:00+02:00",
+          "end": "2026-04-14T22:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c01338028fd4",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Pays-Bas / France",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
+          "team1": {
+            "name": "Pays-Bas",
+            "type": "country",
+            "short": "Pays-Bas",
+            "country_code": "nl",
+            "logo_url": "https://flagcdn.com/w80/nl.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "France",
+            "type": "country",
+            "short": "France",
+            "country_code": "fr",
+            "logo_url": "https://flagcdn.com/w80/fr.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Guyane1.fr",
+            "name": "Guyane 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guyane-1-re",
+            "is_free": false
+          },
+          "start": "2026-04-14T20:37:00+02:00",
+          "end": "2026-04-14T21:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7debeef3e866",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Bournemouth",
+          "subtitle": "Premier League - 32e journée",
+          "description": "Leaders indétrônables de Premier League, les Gunners d'Arsenal accueillent une formation de Bournemouth, 13e, emmenée par Eli Junior Kroupi, mais largement à leur portée. A l'Emirates Stadium, William Saliba et les siens voudront briller devant leur public et ajouter trois points de plus dans leur escarcelle.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-14T20:42:00+02:00",
+          "end": "2026-04-14T22:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a8ab2204470c",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Pays-Bas / France",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
+          "team1": {
+            "name": "Pays-Bas",
+            "type": "country",
+            "short": "Pays-Bas",
+            "country_code": "nl",
+            "logo_url": "https://flagcdn.com/w80/nl.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "France",
+            "type": "country",
+            "short": "France",
+            "country_code": "fr",
+            "logo_url": "https://flagcdn.com/w80/fr.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Martinique1.fr",
+            "name": "Martinique 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "martinique-1-re",
+            "is_free": false
+          },
+          "start": "2026-04-14T21:38:00+02:00",
+          "end": "2026-04-14T22:18:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "12a88487fba1",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Pays-Bas / France",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Bien lancées dans les qualifications pour la Coupe du monde 2027, après leurs deux succès face à l'Irlande (2-1) et la Pologne (4-1), les Bleues doivent confirmer aux Pays-Bas.",
+          "team1": {
+            "name": "Pays-Bas",
+            "type": "country",
+            "short": "Pays-Bas",
+            "country_code": "nl",
+            "logo_url": "https://flagcdn.com/w80/nl.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "France",
+            "type": "country",
+            "short": "France",
+            "country_code": "fr",
+            "logo_url": "https://flagcdn.com/w80/fr.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Guyane1.fr",
+            "name": "Guyane 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guyane-1-re",
+            "is_free": false
+          },
+          "start": "2026-04-14T21:45:00+02:00",
+          "end": "2026-04-14T22:35:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
