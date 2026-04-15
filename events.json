@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-15T17:00:11.831368+00:00",
+    "generated_at": "2026-04-15T20:43:35.864056+00:00",
     "total_events": 962,
     "total_days": 7,
     "sports": [
@@ -23,58 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "tva-sports-2",
-        "name": "TVA Sports 2",
-        "is_free": false
-      },
-      {
         "slug": "rts-deux",
         "name": "RTS Deux",
-        "is_free": false
-      },
-      {
-        "slug": "auto-plus-tv",
-        "name": "Auto Plus TV",
         "is_free": false
       },
       {
@@ -85,11 +35,6 @@
       {
         "slug": "vtm2",
         "name": "VTM2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -108,6 +53,11 @@
         "is_free": false
       },
       {
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-1",
         "name": "Eurosport 1",
         "is_free": false
@@ -123,8 +73,23 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
         "slug": "nouvellecaledonie",
         "name": "NouvelleCaledonie",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -133,8 +98,28 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "rds2",
         "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -168,6 +153,11 @@
         "is_free": false
       },
       {
+        "slug": "tva-sports-2",
+        "name": "TVA Sports 2",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
         "is_free": false
@@ -195,6 +185,16 @@
       {
         "slug": "canal-docs",
         "name": "Canal+ Docs",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "auto-plus-tv",
+        "name": "Auto Plus TV",
         "is_free": false
       },
       {
@@ -540,444 +540,6 @@
       "event_count": 102,
       "events": [
         {
-          "id": "7a3e2b63d3f4",
-          "sport": "tennis",
-          "competition": "Barcelona Open 2026 - 2e ronde",
-          "title": "Tennis: Barcelona Open 2026 - 2e ronde",
-          "subtitle": "2e ronde",
-          "description": "En provenance du Real Club de Tenis Barcelona 1899 à Barcelone, en Espagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-04-15T16:00:00+02:00",
-          "end": "2026-04-15T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "75c73cb1bd67",
-          "sport": "mma",
-          "competition": "UFC",
-          "title": "MMA : UFC",
-          "subtitle": "Jiri Prochazka / Carlos Ulberg. MMA : Ultimate Fighting Championship. UFC 327. Poids mi-lourds.",
-          "description": "MMA : Ultimate Fighting Championship. UFC 327. Poids mi-lourds. Jiri Prochazka / Carlos Ulberg.",
-          "team1": {
-            "name": "Jiri Prochazka",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Carlos Ulberg",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-04-15T16:05:00+02:00",
-          "end": "2026-04-15T19:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9407fb50b148",
-          "sport": "football",
-          "competition": "Ligue des champions de la CAF",
-          "title": "Espérance Tunis / Mamelodi Sundowns",
-          "subtitle": "Ligue des champions de la CAF - ...",
-          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
-          "team1": {
-            "name": "Espérance Tunis",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Mamelodi Sundowns",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-15T17:16:00+02:00",
-          "end": "2026-04-15T19:03:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "027bd76ce076",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Atlético Madrid / FC Barcelone",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-15T17:20:00+02:00",
-          "end": "2026-04-15T20:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dfbb4a647886",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Liverpool / Paris-SG",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "Tenants du titre, Ousmane Dembélé et le Paris-SG se rendent à Liverpool avec l'envie de décrocher une nouvelle qualification pour le dernier carré de la Ligue des champions. Vainqueurs à l'aller grâce à deux buts de Désiré Doué et Khvicha Kvaratskhelia, les Parisiens devront repousser les assauts des Reds, bien décidés à renverser la situation à Anfield.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-15T17:29:00+02:00",
-          "end": "2026-04-15T19:14:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ef34fce15819",
-          "sport": "volleyball",
-          "competition": "Coupe de Belgique féminine",
-          "title": "Volley-ball : Coupe de Belgique féminine",
-          "subtitle": "Oudegem / Roeselare.",
-          "description": "Oudegem / Roeselare.",
-          "team1": {
-            "name": "Oudegem",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Roeselare",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-04-15T17:40:00+02:00",
-          "end": "2026-04-15T19:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ba8806fe55ed",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Séville / Atlético Madrid",
-          "subtitle": "Liga - 31e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-15T17:53:00+02:00",
-          "end": "2026-04-15T19:41:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b06645646e25",
-          "sport": "other",
-          "competition": null,
-          "title": "On s'enflamme",
-          "subtitle": "Avec Mathis Dossou-Yovo",
-          "description": "International français depuis novembre 2025, MVP de Pro B en 2022-23, sélectionné aux All Star Game LNB en 2023 et 2025 et Champion de France avec Paris en 2025, Mathis Dossou-Yovo réalise une saison épatante avec Nanterre 92. Rencontre avec l'intérieur qui retrouvera les play-offs cette saison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-04-15T18:00:00+02:00",
-          "end": "2026-04-15T19:08:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "15bcd7d914a5",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific",
-          "title": "Queensland Reds / Crusaders",
-          "subtitle": "Super Rugby Pacific - 9e journée",
-          "description": "A l'occasion de la 9e journée de Super Rugby, les Queensland Reds accueillent les Crusaders dans un duel entre deux équipes bien lancées. Tenants du titre, les Néo-Zélandais s'appuient sur un effectif talentueux et toujours aussi compétitif pour conserver leur couronne. En face, les Reds, qualifiés pour les barrages la saison dernière, veulent confirmer leurs bons résultats et viser encore plus haut cette année.",
-          "team1": {
-            "name": "Queensland Reds",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Crusaders",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-15T18:06:00+02:00",
-          "end": "2026-04-15T19:49:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f2019b020c79",
-          "sport": "other",
-          "competition": null,
-          "title": "Hockey LNH",
-          "subtitle": "Penguins de Pittsburgh c. Blues de Saint-Louis",
-          "description": "En provenance de Enterprise Center &#150; Saint Louis, MO, USA Les Penguins de Pittsburgh affrontent les Blues de Saint-Louis. En provenance de l'Enterprise Center.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports2.ca",
-            "name": "TVA Sports 2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
-            "slug": "tva-sports-2",
-            "is_free": false
-          },
-          "start": "2026-04-15T19:30:00+02:00",
-          "end": "2026-04-15T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "31a6ffd8b829",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Charlotte Hornets / Miami Heat",
-          "subtitle": "NBA - 1re",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Charlotte Hornets",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Miami Heat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-15T19:41:00+02:00",
-          "end": "2026-04-15T21:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "38843163f4ff",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Stuttgart / Hambourg",
-          "subtitle": "Bundesliga - 29e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hambourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-15T19:59:00+02:00",
-          "end": "2026-04-15T21:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "107a7f1866b0",
-          "sport": "f1",
-          "competition": "Grand Prix de Rio",
-          "title": "Voile : Grand Prix de Rio",
-          "subtitle": "Grand Prix de Rio. 1er jour.",
-          "description": "Grand Prix de Rio. 1er jour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-04-15T20:00:00+02:00",
-          "end": "2026-04-15T21:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "458d8ec5d879",
           "sport": "football",
           "competition": "Ligue des champions - Quart de f",
@@ -1009,31 +571,7 @@
           },
           "start": "2026-04-15T20:10:00+02:00",
           "end": "2026-04-15T23:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e40e3e78b37e",
-          "sport": "f1",
-          "competition": null,
-          "title": "Auto-Ikonen - S01E25",
-          "subtitle": "Circuit de Formule 1 des années 50 de Cadours Laréole",
-          "description": "Dans cet épisode découvrez la rétrospective annuelle de l'ancien circuit de Formule 1 des années 50 de Cadours Laréole et les plus beaux véhicules de l'édition 2023, présentés par Angélique Rayssigier, Tanguy Lauzin et Freddy Prieto.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "AutoPlusTV.fr",
-            "name": "Auto Plus TV",
-            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
-            "slug": "auto-plus-tv",
-            "is_free": false
-          },
-          "start": "2026-04-15T20:24:00+02:00",
-          "end": "2026-04-15T20:49:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1071,7 +609,7 @@
           },
           "start": "2026-04-15T20:30:00+02:00",
           "end": "2026-04-16T00:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1109,45 +647,7 @@
           },
           "start": "2026-04-15T20:35:00+02:00",
           "end": "2026-04-15T23:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "04d30fcd37b5",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Nottingham Forest / Aston Villa",
-          "subtitle": "Premier League - 32e journée",
-          "description": "Les Reds de Nottingham Forest n'ont toujours pas assuré leur maintien en Premier League. La victoire est dès lors impérative pour les hommes de Vitor Pereira, à l'occasion de la réception d'Aston Villa. Mais la tâche s'annonce compliquée pour Igor Jesus et les siens, les Villans voulant préserver leur belle place dans le Top 4 du classement.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-15T20:46:00+02:00",
-          "end": "2026-04-15T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1185,7 +685,7 @@
           },
           "start": "2026-04-15T20:55:00+02:00",
           "end": "2026-04-15T22:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1223,7 +723,7 @@
           },
           "start": "2026-04-15T21:00:00+02:00",
           "end": "2026-04-15T22:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1261,7 +761,7 @@
           },
           "start": "2026-04-15T21:00:00+02:00",
           "end": "2026-04-15T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1299,7 +799,7 @@
           },
           "start": "2026-04-15T21:00:00+02:00",
           "end": "2026-04-16T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1323,31 +823,7 @@
           },
           "start": "2026-04-15T21:30:00+02:00",
           "end": "2026-04-15T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1fa17e6d2c86",
-          "sport": "other",
-          "competition": null,
-          "title": "ATP 1000 Review",
-          "subtitle": "Masters 1000 de Monte-Carlo",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-04-15T21:45:00+02:00",
-          "end": "2026-04-15T22:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1371,7 +847,7 @@
           },
           "start": "2026-04-15T22:00:00+02:00",
           "end": "2026-04-15T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1409,7 +885,7 @@
           },
           "start": "2026-04-15T22:10:00+02:00",
           "end": "2026-04-16T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1447,7 +923,7 @@
           },
           "start": "2026-04-15T22:30:00+02:00",
           "end": "2026-04-15T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1485,7 +961,7 @@
           },
           "start": "2026-04-15T22:30:00+02:00",
           "end": "2026-04-16T00:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1523,7 +999,7 @@
           },
           "start": "2026-04-15T22:35:00+02:00",
           "end": "2026-04-16T00:49:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3712,6 +3188,30 @@
           "result": null
         },
         {
+          "id": "7a3e2b63d3f4",
+          "sport": "tennis",
+          "competition": "Barcelona Open 2026 - 2e ronde",
+          "title": "Tennis: Barcelona Open 2026 - 2e ronde",
+          "subtitle": "2e ronde",
+          "description": "En provenance du Real Club de Tenis Barcelona 1899 à Barcelone, en Espagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-04-15T16:00:00+02:00",
+          "end": "2026-04-15T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "579aa71545db",
           "sport": "football",
           "competition": "Liga",
@@ -3743,6 +3243,44 @@
           },
           "start": "2026-04-15T16:05:00+02:00",
           "end": "2026-04-15T17:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "75c73cb1bd67",
+          "sport": "mma",
+          "competition": "UFC",
+          "title": "MMA : UFC",
+          "subtitle": "Jiri Prochazka / Carlos Ulberg. MMA : Ultimate Fighting Championship. UFC 327. Poids mi-lourds.",
+          "description": "MMA : Ultimate Fighting Championship. UFC 327. Poids mi-lourds. Jiri Prochazka / Carlos Ulberg.",
+          "team1": {
+            "name": "Jiri Prochazka",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Carlos Ulberg",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-04-15T16:05:00+02:00",
+          "end": "2026-04-15T19:05:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -3888,6 +3426,120 @@
           "result": null
         },
         {
+          "id": "9407fb50b148",
+          "sport": "football",
+          "competition": "Ligue des champions de la CAF",
+          "title": "Espérance Tunis / Mamelodi Sundowns",
+          "subtitle": "Ligue des champions de la CAF - ...",
+          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
+          "team1": {
+            "name": "Espérance Tunis",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Mamelodi Sundowns",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-15T17:16:00+02:00",
+          "end": "2026-04-15T19:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "027bd76ce076",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Atlético Madrid / FC Barcelone",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-15T17:20:00+02:00",
+          "end": "2026-04-15T20:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dfbb4a647886",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Liverpool / Paris-SG",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "Tenants du titre, Ousmane Dembélé et le Paris-SG se rendent à Liverpool avec l'envie de décrocher une nouvelle qualification pour le dernier carré de la Ligue des champions. Vainqueurs à l'aller grâce à deux buts de Désiré Doué et Khvicha Kvaratskhelia, les Parisiens devront repousser les assauts des Reds, bien décidés à renverser la situation à Anfield.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-15T17:29:00+02:00",
+          "end": "2026-04-15T19:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "69553e022752",
           "sport": "cyclisme",
           "competition": null,
@@ -3905,6 +3557,354 @@
           },
           "start": "2026-04-15T17:30:00+02:00",
           "end": "2026-04-15T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ef34fce15819",
+          "sport": "volleyball",
+          "competition": "Coupe de Belgique féminine",
+          "title": "Volley-ball : Coupe de Belgique féminine",
+          "subtitle": "Oudegem / Roeselare.",
+          "description": "Oudegem / Roeselare.",
+          "team1": {
+            "name": "Oudegem",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Roeselare",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-04-15T17:40:00+02:00",
+          "end": "2026-04-15T19:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ba8806fe55ed",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Séville / Atlético Madrid",
+          "subtitle": "Liga - 31e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-15T17:53:00+02:00",
+          "end": "2026-04-15T19:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b06645646e25",
+          "sport": "other",
+          "competition": null,
+          "title": "On s'enflamme",
+          "subtitle": "Avec Mathis Dossou-Yovo",
+          "description": "International français depuis novembre 2025, MVP de Pro B en 2022-23, sélectionné aux All Star Game LNB en 2023 et 2025 et Champion de France avec Paris en 2025, Mathis Dossou-Yovo réalise une saison épatante avec Nanterre 92. Rencontre avec l'intérieur qui retrouvera les play-offs cette saison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-04-15T18:00:00+02:00",
+          "end": "2026-04-15T19:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "15bcd7d914a5",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific",
+          "title": "Queensland Reds / Crusaders",
+          "subtitle": "Super Rugby Pacific - 9e journée",
+          "description": "A l'occasion de la 9e journée de Super Rugby, les Queensland Reds accueillent les Crusaders dans un duel entre deux équipes bien lancées. Tenants du titre, les Néo-Zélandais s'appuient sur un effectif talentueux et toujours aussi compétitif pour conserver leur couronne. En face, les Reds, qualifiés pour les barrages la saison dernière, veulent confirmer leurs bons résultats et viser encore plus haut cette année.",
+          "team1": {
+            "name": "Queensland Reds",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Crusaders",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-15T18:06:00+02:00",
+          "end": "2026-04-15T19:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f2019b020c79",
+          "sport": "other",
+          "competition": null,
+          "title": "Hockey LNH",
+          "subtitle": "Penguins de Pittsburgh c. Blues de Saint-Louis",
+          "description": "En provenance de Enterprise Center &#150; Saint Louis, MO, USA Les Penguins de Pittsburgh affrontent les Blues de Saint-Louis. En provenance de l'Enterprise Center.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports2.ca",
+            "name": "TVA Sports 2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
+            "slug": "tva-sports-2",
+            "is_free": false
+          },
+          "start": "2026-04-15T19:30:00+02:00",
+          "end": "2026-04-15T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "31a6ffd8b829",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Charlotte Hornets / Miami Heat",
+          "subtitle": "NBA - 1re",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Charlotte Hornets",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Miami Heat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-15T19:41:00+02:00",
+          "end": "2026-04-15T21:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "38843163f4ff",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Stuttgart / Hambourg",
+          "subtitle": "Bundesliga - 29e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hambourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-15T19:59:00+02:00",
+          "end": "2026-04-15T21:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "107a7f1866b0",
+          "sport": "f1",
+          "competition": "Grand Prix de Rio",
+          "title": "Voile : Grand Prix de Rio",
+          "subtitle": "Grand Prix de Rio. 1er jour.",
+          "description": "Grand Prix de Rio. 1er jour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-04-15T20:00:00+02:00",
+          "end": "2026-04-15T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e40e3e78b37e",
+          "sport": "f1",
+          "competition": null,
+          "title": "Auto-Ikonen - S01E25",
+          "subtitle": "Circuit de Formule 1 des années 50 de Cadours Laréole",
+          "description": "Dans cet épisode découvrez la rétrospective annuelle de l'ancien circuit de Formule 1 des années 50 de Cadours Laréole et les plus beaux véhicules de l'édition 2023, présentés par Angélique Rayssigier, Tanguy Lauzin et Freddy Prieto.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "AutoPlusTV.fr",
+            "name": "Auto Plus TV",
+            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
+            "slug": "auto-plus-tv",
+            "is_free": false
+          },
+          "start": "2026-04-15T20:24:00+02:00",
+          "end": "2026-04-15T20:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "04d30fcd37b5",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Nottingham Forest / Aston Villa",
+          "subtitle": "Premier League - 32e journée",
+          "description": "Les Reds de Nottingham Forest n'ont toujours pas assuré leur maintien en Premier League. La victoire est dès lors impérative pour les hommes de Vitor Pereira, à l'occasion de la réception d'Aston Villa. Mais la tâche s'annonce compliquée pour Igor Jesus et les siens, les Villans voulant préserver leur belle place dans le Top 4 du classement.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-15T20:46:00+02:00",
+          "end": "2026-04-15T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1fa17e6d2c86",
+          "sport": "other",
+          "competition": null,
+          "title": "ATP 1000 Review",
+          "subtitle": "Masters 1000 de Monte-Carlo",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-04-15T21:45:00+02:00",
+          "end": "2026-04-15T22:35:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
