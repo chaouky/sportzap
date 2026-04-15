@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-15T02:08:53.413965+00:00",
+    "generated_at": "2026-04-15T05:58:54.127065+00:00",
     "total_events": 962,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,13 @@
     ],
     "channels": [
       {
-        "slug": "rds2",
-        "name": "RDS2",
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -33,38 +38,8 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-2",
         "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -78,6 +53,16 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "sport-en-france",
         "name": "Sport en France",
         "is_free": true
@@ -85,6 +70,16 @@
       {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -185,6 +180,11 @@
       {
         "slug": "bbc-one",
         "name": "BBC One",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -540,292 +540,6 @@
       "event_count": 102,
       "events": [
         {
-          "id": "f4622518ff2b",
-          "sport": "tennis",
-          "competition": "Barcelona Open 2026 - 1re ronde",
-          "title": "Tennis: Barcelona Open 2026 - 1re ronde",
-          "subtitle": "1re ronde",
-          "description": "En provenance du Real Club de Tenis Barcelona 1899 à Barcelone, en Espagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-04-15T01:00:00+02:00",
-          "end": "2026-04-15T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "81b80409c39f",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Nottingham Forest / Aston Villa",
-          "subtitle": "Premier League - 32e journée",
-          "description": "Les Reds de Nottingham Forest n'ont toujours pas assuré leur maintien en Premier League. La victoire est dès lors impérative pour les hommes de Vitor Pereira, à l'occasion de la réception d'Aston Villa. Mais la tâche s'annonce compliquée pour Igor Jesus et les siens, les Villans voulant préserver leur belle place dans le Top 4 du classement.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-15T02:32:00+02:00",
-          "end": "2026-04-15T04:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9bcccb67785f",
-          "sport": "other",
-          "competition": null,
-          "title": "Kyren Wilson - John Higgins",
-          "subtitle": "Johnstone's Paint Masters | Fina...",
-          "description": "Le 18 janvier 2026, Kyren Wilson, numéro 2 mondial, tentait de remporter son premier titre en Masters face à John Higgins, à l'Alexandra Palace. Wilson était déjà présent en finale en 2025, mais il avait dû s'incliner face à Shaun Murphy.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-04-15T03:00:00+02:00",
-          "end": "2026-04-15T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5bc050028197",
-          "sport": "football",
-          "competition": "Ligue des champions de la CAF",
-          "title": "FAR de Rabat / RS Berkane",
-          "subtitle": "Ligue des champions de la CAF - ...",
-          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
-          "team1": {
-            "name": "FAR de Rabat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RS Berkane",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-15T03:08:00+02:00",
-          "end": "2026-04-15T04:51:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f9fa5a43083a",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Sporting Club Portugal / Arsenal",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Sporting CP",
-            "type": "club",
-            "short": "Sporting",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-15T03:40:00+02:00",
-          "end": "2026-04-15T05:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "96287c916400",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Aurillac / Agen",
-          "subtitle": "Pro D2 - 26e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "Aurillac",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "SU Agen",
-            "type": "club",
-            "short": "Agen",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-15T04:01:00+02:00",
-          "end": "2026-04-15T05:44:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "57b853f98b45",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / Fulham",
-          "subtitle": "Premier League - 32e journée",
-          "description": "Cinquièmes de Premier League, les Reds de Liverpool peuvent encore rêver d'une qualification pour la Ligue des champions, la saison prochaine. Mais pour cela, il leur battre les Cottagers londoniens de Fulham qui espèrent encore accrocher une place européenne. Harry Wilson et les siens feront tout, en tout cas, pour ramener un résultat d'Anfield.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-15T04:15:00+02:00",
-          "end": "2026-04-15T05:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "72967a31a747",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Tour d'Hercule - Tour d'Hercule (14,8 km clm)",
-          "subtitle": "Gran Camiño - 1re étape",
-          "description": "Découvrez les étapes du Gran Camiño de cyclisme, organisé dans l'ouest de l'Espagne. Connu sous le nom Tour de Galice depuis 1933, et après plus de quarante éditions, cette course annuelle à étapes a changé son nom en 2022.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-04-15T05:00:00+02:00",
-          "end": "2026-04-15T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "28069cd8089e",
-          "sport": "other",
-          "competition": null,
-          "title": "Kyren Wilson - John Higgins",
-          "subtitle": "Johnstone's Paint Masters | Fina...",
-          "description": "Le 18 janvier 2026, Kyren Wilson, numéro 2 mondial, tentait de remporter son premier titre en Masters face à John Higgins, à l'Alexandra Palace. Wilson était déjà présent en finale en 2025, mais il avait dû s'incliner face à Shaun Murphy.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-15T05:00:00+02:00",
-          "end": "2026-04-15T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "bfcd9fa029f9",
           "sport": "other",
           "competition": null,
@@ -843,7 +557,7 @@
           },
           "start": "2026-04-15T06:30:00+02:00",
           "end": "2026-04-15T08:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -881,7 +595,7 @@
           },
           "start": "2026-04-15T06:46:00+02:00",
           "end": "2026-04-15T08:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -919,7 +633,7 @@
           },
           "start": "2026-04-15T06:56:00+02:00",
           "end": "2026-04-15T08:43:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -957,7 +671,7 @@
           },
           "start": "2026-04-15T07:05:00+02:00",
           "end": "2026-04-15T08:47:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -981,7 +695,7 @@
           },
           "start": "2026-04-15T07:20:00+02:00",
           "end": "2026-04-15T08:12:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1019,7 +733,7 @@
           },
           "start": "2026-04-15T07:35:00+02:00",
           "end": "2026-04-15T09:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1043,7 +757,7 @@
           },
           "start": "2026-04-15T07:55:00+02:00",
           "end": "2026-04-15T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3688,6 +3402,30 @@
           "result": null
         },
         {
+          "id": "f4622518ff2b",
+          "sport": "tennis",
+          "competition": "Barcelona Open 2026 - 1re ronde",
+          "title": "Tennis: Barcelona Open 2026 - 1re ronde",
+          "subtitle": "1re ronde",
+          "description": "En provenance du Real Club de Tenis Barcelona 1899 à Barcelone, en Espagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-04-15T01:00:00+02:00",
+          "end": "2026-04-15T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "5315abeb6822",
           "sport": "football",
           "competition": "Liga 2",
@@ -3864,6 +3602,44 @@
           "result": null
         },
         {
+          "id": "81b80409c39f",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Nottingham Forest / Aston Villa",
+          "subtitle": "Premier League - 32e journée",
+          "description": "Les Reds de Nottingham Forest n'ont toujours pas assuré leur maintien en Premier League. La victoire est dès lors impérative pour les hommes de Vitor Pereira, à l'occasion de la réception d'Aston Villa. Mais la tâche s'annonce compliquée pour Igor Jesus et les siens, les Villans voulant préserver leur belle place dans le Top 4 du classement.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-15T02:32:00+02:00",
+          "end": "2026-04-15T04:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "5a2e6966e663",
           "sport": "f1",
           "competition": null,
@@ -3888,6 +3664,30 @@
           "result": null
         },
         {
+          "id": "9bcccb67785f",
+          "sport": "other",
+          "competition": null,
+          "title": "Kyren Wilson - John Higgins",
+          "subtitle": "Johnstone's Paint Masters | Fina...",
+          "description": "Le 18 janvier 2026, Kyren Wilson, numéro 2 mondial, tentait de remporter son premier titre en Masters face à John Higgins, à l'Alexandra Palace. Wilson était déjà présent en finale en 2025, mais il avait dû s'incliner face à Shaun Murphy.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-04-15T03:00:00+02:00",
+          "end": "2026-04-15T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "77cc04f4548b",
           "sport": "other",
           "competition": null,
@@ -3905,6 +3705,206 @@
           },
           "start": "2026-04-15T03:05:00+02:00",
           "end": "2026-04-15T03:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5bc050028197",
+          "sport": "football",
+          "competition": "Ligue des champions de la CAF",
+          "title": "FAR de Rabat / RS Berkane",
+          "subtitle": "Ligue des champions de la CAF - ...",
+          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
+          "team1": {
+            "name": "FAR de Rabat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RS Berkane",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-15T03:08:00+02:00",
+          "end": "2026-04-15T04:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f9fa5a43083a",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Sporting Club Portugal / Arsenal",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Sporting CP",
+            "type": "club",
+            "short": "Sporting",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-15T03:40:00+02:00",
+          "end": "2026-04-15T05:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "96287c916400",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Aurillac / Agen",
+          "subtitle": "Pro D2 - 26e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "Aurillac",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "SU Agen",
+            "type": "club",
+            "short": "Agen",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-15T04:01:00+02:00",
+          "end": "2026-04-15T05:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "57b853f98b45",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / Fulham",
+          "subtitle": "Premier League - 32e journée",
+          "description": "Cinquièmes de Premier League, les Reds de Liverpool peuvent encore rêver d'une qualification pour la Ligue des champions, la saison prochaine. Mais pour cela, il leur battre les Cottagers londoniens de Fulham qui espèrent encore accrocher une place européenne. Harry Wilson et les siens feront tout, en tout cas, pour ramener un résultat d'Anfield.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-15T04:15:00+02:00",
+          "end": "2026-04-15T05:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "72967a31a747",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Tour d'Hercule - Tour d'Hercule (14,8 km clm)",
+          "subtitle": "Gran Camiño - 1re étape",
+          "description": "Découvrez les étapes du Gran Camiño de cyclisme, organisé dans l'ouest de l'Espagne. Connu sous le nom Tour de Galice depuis 1933, et après plus de quarante éditions, cette course annuelle à étapes a changé son nom en 2022.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-04-15T05:00:00+02:00",
+          "end": "2026-04-15T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "28069cd8089e",
+          "sport": "other",
+          "competition": null,
+          "title": "Kyren Wilson - John Higgins",
+          "subtitle": "Johnstone's Paint Masters | Fina...",
+          "description": "Le 18 janvier 2026, Kyren Wilson, numéro 2 mondial, tentait de remporter son premier titre en Masters face à John Higgins, à l'Alexandra Palace. Wilson était déjà présent en finale en 2025, mais il avait dû s'incliner face à Shaun Murphy.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-15T05:00:00+02:00",
+          "end": "2026-04-15T06:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
