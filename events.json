@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-19T05:56:37.171593+00:00",
+    "generated_at": "2026-04-19T08:51:10.264281+00:00",
     "total_events": 1079,
     "total_days": 7,
     "sports": [
@@ -21,23 +21,8 @@
     ],
     "channels": [
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
         "is_free": false
       },
       {
@@ -56,51 +41,6 @@
         "is_free": false
       },
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-pacifique",
-        "name": "TV5 Monde Pacifique",
-        "is_free": false
-      },
-      {
-        "slug": "nickelodeonplus1-fr",
-        "name": "NickelodeonPlus1.fr",
-        "is_free": false
-      },
-      {
-        "slug": "tv5mondemaghreborient-fr",
-        "name": "TV5MondeMaghrebOrient.fr",
-        "is_free": false
-      },
-      {
-        "slug": "motorvision-tv",
-        "name": "MotorVision TV",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
         "slug": "rsi-2",
         "name": "RSI 2",
         "is_free": false
@@ -111,13 +51,28 @@
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Premier League",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
       },
       {
         "slug": "ligue-1",
         "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -151,9 +106,19 @@
         "is_free": false
       },
       {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
         "slug": "infosportplus",
         "name": "InfosportPlus",
         "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "tva-sports",
@@ -163,6 +128,11 @@
       {
         "slug": "tv5mondeetatsunis-fr",
         "name": "TV5MondeEtatsUnis.fr",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -281,6 +251,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
         "slug": "reunion-1-re",
         "name": "Reunion 1ère",
         "is_free": false
@@ -291,6 +266,11 @@
         "is_free": false
       },
       {
+        "slug": "tv5-monde-pacifique",
+        "name": "TV5 Monde Pacifique",
+        "is_free": false
+      },
+      {
         "slug": "nickelodeon",
         "name": "Nickelodeon",
         "is_free": false
@@ -298,6 +278,26 @@
       {
         "slug": "7plus-ch",
         "name": "7Plus.ch",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "nickelodeonplus1-fr",
+        "name": "NickelodeonPlus1.fr",
+        "is_free": false
+      },
+      {
+        "slug": "tv5mondemaghreborient-fr",
+        "name": "TV5MondeMaghrebOrient.fr",
+        "is_free": false
+      },
+      {
+        "slug": "motorvision-tv",
+        "name": "MotorVision TV",
         "is_free": false
       },
       {
@@ -583,578 +583,6 @@
       "event_count": 178,
       "events": [
         {
-          "id": "08364f56a37f",
-          "sport": "golf",
-          "competition": "3e ronde",
-          "title": "Golf - 3e ronde",
-          "subtitle": "3e ronde",
-          "description": "En provenance du Concession Golf Club à Bradenton, en Floride.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-04-19T05:00:00+02:00",
-          "end": "2026-04-19T08:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "506a817ebbbb",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Espanyol Barcelone",
-          "subtitle": "Liga - 31e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-19T06:21:00+02:00",
-          "end": "2026-04-19T08:08:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4b67e2e01d0f",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Mont-de-Marsan / Dax",
-          "subtitle": "Pro D2 - 27e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "Mont-de-Marsan",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Dax",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-19T06:33:00+02:00",
-          "end": "2026-04-19T08:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e9608ab31fe5",
-          "sport": "football",
-          "competition": "Ligue des champions de la CAF",
-          "title": "RS Berkane / FAR de Rabat",
-          "subtitle": "Ligue des champions de la CAF - ...",
-          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
-          "team1": {
-            "name": "RS Berkane",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FAR de Rabat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-19T06:46:00+02:00",
-          "end": "2026-04-19T08:32:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c0f1690dd496",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Demi-finale N°2",
-          "subtitle": "Tournoi ATP de Barcelone",
-          "description": "A suivre le tournoi ATP de Barcelone, classé en catégorie 500 sur l'ATP Tour. Créé dès 1953, ce tournoi aussi appelé Open de Barcelone se dispute en extérieur sur terre battue au Real Tennis Club. Ayant lieu peu avant le grand chelem de Roland-Garros, il lui sert traditionnellement de préparation sérieuse, ne manquant jamais d'attirer à cette occasion la crème du tennis mondial.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-19T06:48:00+02:00",
-          "end": "2026-04-19T08:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c23789c32349",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Eintracht Francfort / Leipzig",
-          "subtitle": "Bundesliga - 30e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Eintracht Francfort",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leipzig",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:00:00+02:00",
-          "end": "2026-04-19T08:42:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b8a6f242f0f4",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Newcastle / Bournemouth",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:19:00+02:00",
-          "end": "2026-04-19T09:03:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d3eac9f36894",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Liverpool / Paris-SG",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:30:00+02:00",
-          "end": "2026-04-19T09:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4204854ee7ac",
-          "sport": "other",
-          "competition": null,
-          "title": "Arnaud de Rosnay, au-delà du défi",
-          "subtitle": null,
-          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:37:00+02:00",
-          "end": "2026-04-19T08:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "704f4fca5541",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Leeds / Wolverhampton",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Leeds",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:39:00+02:00",
-          "end": "2026-04-19T09:22:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7d4a269784b2",
-          "sport": "football",
-          "competition": null,
-          "title": "Atlético Madrid - FC Barcelona",
-          "subtitle": null,
-          "description": "Match retour des quarts de finale de l'UEFA Champions League :",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:50:00+02:00",
-          "end": "2026-04-19T09:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2bec2cc19570",
-          "sport": "other",
-          "competition": null,
-          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondePacifique.fr",
-            "name": "TV5 Monde Pacifique",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-pacifique",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:51:06+02:00",
-          "end": "2026-04-19T07:59:21+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3351cbc3eaa6",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Clermont / Lyon",
-          "subtitle": "Top 14 - 21e journée",
-          "description": "A domicile, l'ASM Clermont devrait en toute logique prendre le dessus sur les rugbymen du LOU dans cette 21e journée.",
-          "team1": {
-            "name": "ASM Clermont",
-            "type": "club",
-            "short": "Clermont",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-19T07:54:00+02:00",
-          "end": "2026-04-19T09:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "35f021baef42",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Brentford / Fulham",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-19T08:08:00+02:00",
-          "end": "2026-04-19T09:56:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "75ec3d526f46",
-          "sport": "f1",
-          "competition": null,
-          "title": "Bienvenue chez les Loud",
-          "subtitle": "Le Grand Prix de Kart / Cuisine en famille",
-          "description": "Lana veut gagner une course de kart et demande à Lincoln d'être son co-pilote. // Luan a dû s'inscrire à un cours de cuisine ; Mr Loud peut ainsi partager sa passion avec l'un de ses enfants.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NickelodeonPlus1.fr",
-            "name": "NickelodeonPlus1.fr",
-            "icon_url": null,
-            "slug": "nickelodeonplus1-fr",
-            "is_free": false
-          },
-          "start": "2026-04-19T08:12:00+02:00",
-          "end": "2026-04-19T08:34:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dc03c6ebe2e5",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "La Rochelle / Bordeaux-Bègles",
-          "subtitle": "Top 14 - 21e journée",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": {
-            "name": "La Rochelle",
-            "type": "club",
-            "short": "La Rochelle",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Union Bordeaux-Bègles",
-            "type": "club",
-            "short": "UBB",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2569.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-19T08:15:00+02:00",
-          "end": "2026-04-19T09:58:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "878d4d82240f",
-          "sport": "other",
-          "competition": null,
-          "title": "Ligue 1 McDonald's - Face au jeu",
-          "subtitle": "PSG : des coups de pied pas si arrêtés",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeMaghrebOrient.fr",
-            "name": "TV5MondeMaghrebOrient.fr",
-            "icon_url": null,
-            "slug": "tv5mondemaghreborient-fr",
-            "is_free": false
-          },
-          "start": "2026-04-19T08:19:45+02:00",
-          "end": "2026-04-19T08:30:08+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "90dfcb57744c",
-          "sport": "f1",
-          "competition": null,
-          "title": "Rallye de Grande-Bretagne",
-          "subtitle": null,
-          "description": "The British Rally Championship brings edge-of-the-seat rally action across the UK, tackling gravel and asphalt stages with plenty of professional drivers vying for glory. Adrenaline-fueled competition at its core.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MotorVisionTV.fr",
-            "name": "MotorVision TV",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
-            "slug": "motorvision-tv",
-            "is_free": false
-          },
-          "start": "2026-04-19T08:50:00+02:00",
-          "end": "2026-04-19T09:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "3df4833bbf35",
           "sport": "equitation",
           "competition": null,
@@ -1172,7 +600,7 @@
           },
           "start": "2026-04-19T08:52:00+02:00",
           "end": "2026-04-19T11:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1196,31 +624,7 @@
           },
           "start": "2026-04-19T08:55:00+02:00",
           "end": "2026-04-19T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f5fbddfa75c3",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "As Neves - Monte Trega (170,5 km)",
-          "subtitle": "Gran Camiño - 5e étape",
-          "description": "Découvrez les étapes du Gran Camiño de cyclisme, organisé dans l'ouest de l'Espagne. Connu sous le nom Tour de Galice depuis 1933, et après plus de quarante éditions, cette course annuelle à étapes a changé son nom en 2022.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-04-19T09:00:00+02:00",
-          "end": "2026-04-19T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1258,7 +662,7 @@
           },
           "start": "2026-04-19T09:11:00+02:00",
           "end": "2026-04-19T10:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1296,7 +700,7 @@
           },
           "start": "2026-04-19T09:19:00+02:00",
           "end": "2026-04-19T11:03:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1320,7 +724,7 @@
           },
           "start": "2026-04-19T09:20:00+02:00",
           "end": "2026-04-19T11:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1344,7 +748,7 @@
           },
           "start": "2026-04-19T09:20:00+02:00",
           "end": "2026-04-19T11:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1382,7 +786,7 @@
           },
           "start": "2026-04-19T09:22:00+02:00",
           "end": "2026-04-19T11:04:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1420,31 +824,7 @@
           },
           "start": "2026-04-19T09:30:00+02:00",
           "end": "2026-04-19T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d859b974c0f4",
-          "sport": "other",
-          "competition": null,
-          "title": "Moteurs",
-          "subtitle": "Championnat de France de la Montage - Etape 2 - St Jean du Gard Col St Pierre",
-          "description": "Du rallye à la moto en passant par l'automobile, ce rendez-vous consacré aux sports mécaniques suit les compétitions, lève le voile sur les coulisses et met en avant les pilotes et les passionnés, qui font vibrer les moteurs sur les circuits et les routes de France.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-04-19T09:30:00+02:00",
-          "end": "2026-04-19T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1482,7 +862,7 @@
           },
           "start": "2026-04-19T09:40:00+02:00",
           "end": "2026-04-19T11:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1520,7 +900,7 @@
           },
           "start": "2026-04-19T09:40:00+02:00",
           "end": "2026-04-19T11:39:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1558,7 +938,7 @@
           },
           "start": "2026-04-19T09:51:00+02:00",
           "end": "2026-04-19T11:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1596,7 +976,7 @@
           },
           "start": "2026-04-19T09:56:00+02:00",
           "end": "2026-04-19T11:46:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1634,7 +1014,7 @@
           },
           "start": "2026-04-19T09:58:00+02:00",
           "end": "2026-04-19T11:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1658,7 +1038,7 @@
           },
           "start": "2026-04-19T10:00:00+02:00",
           "end": "2026-04-19T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1696,7 +1076,7 @@
           },
           "start": "2026-04-19T10:00:00+02:00",
           "end": "2026-04-19T11:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1734,7 +1114,7 @@
           },
           "start": "2026-04-19T10:00:00+02:00",
           "end": "2026-04-19T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1758,7 +1138,7 @@
           },
           "start": "2026-04-19T10:16:00+02:00",
           "end": "2026-04-19T12:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1782,7 +1162,7 @@
           },
           "start": "2026-04-19T10:45:00+02:00",
           "end": "2026-04-19T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6177,6 +5557,30 @@
           "result": null
         },
         {
+          "id": "08364f56a37f",
+          "sport": "golf",
+          "competition": "3e ronde",
+          "title": "Golf - 3e ronde",
+          "subtitle": "3e ronde",
+          "description": "En provenance du Concession Golf Club à Bradenton, en Floride.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-04-19T05:00:00+02:00",
+          "end": "2026-04-19T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "52fd2fbf5c19",
           "sport": "motogp",
           "competition": null,
@@ -6239,6 +5643,44 @@
           "result": null
         },
         {
+          "id": "506a817ebbbb",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Espanyol Barcelone",
+          "subtitle": "Liga - 31e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-19T06:21:00+02:00",
+          "end": "2026-04-19T08:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "c0f8f8ac2ca5",
           "sport": "other",
           "competition": "Championnat de Suisse National L",
@@ -6270,6 +5712,144 @@
           },
           "start": "2026-04-19T06:21:00+02:00",
           "end": "2026-04-19T06:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4b67e2e01d0f",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Mont-de-Marsan / Dax",
+          "subtitle": "Pro D2 - 27e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "Mont-de-Marsan",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Dax",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-19T06:33:00+02:00",
+          "end": "2026-04-19T08:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e9608ab31fe5",
+          "sport": "football",
+          "competition": "Ligue des champions de la CAF",
+          "title": "RS Berkane / FAR de Rabat",
+          "subtitle": "Ligue des champions de la CAF - ...",
+          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
+          "team1": {
+            "name": "RS Berkane",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FAR de Rabat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-19T06:46:00+02:00",
+          "end": "2026-04-19T08:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c0f1690dd496",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Demi-finale N°2",
+          "subtitle": "Tournoi ATP de Barcelone",
+          "description": "A suivre le tournoi ATP de Barcelone, classé en catégorie 500 sur l'ATP Tour. Créé dès 1953, ce tournoi aussi appelé Open de Barcelone se dispute en extérieur sur terre battue au Real Tennis Club. Ayant lieu peu avant le grand chelem de Roland-Garros, il lui sert traditionnellement de préparation sérieuse, ne manquant jamais d'attirer à cette occasion la crème du tennis mondial.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-19T06:48:00+02:00",
+          "end": "2026-04-19T08:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c23789c32349",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Eintracht Francfort / Leipzig",
+          "subtitle": "Bundesliga - 30e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Eintracht Francfort",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leipzig",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:00:00+02:00",
+          "end": "2026-04-19T08:42:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6318,6 +5898,426 @@
           },
           "start": "2026-04-19T07:15:00+02:00",
           "end": "2026-04-19T07:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b8a6f242f0f4",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Newcastle / Bournemouth",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:19:00+02:00",
+          "end": "2026-04-19T09:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d3eac9f36894",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Liverpool / Paris-SG",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:30:00+02:00",
+          "end": "2026-04-19T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4204854ee7ac",
+          "sport": "other",
+          "competition": null,
+          "title": "Arnaud de Rosnay, au-delà du défi",
+          "subtitle": null,
+          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:37:00+02:00",
+          "end": "2026-04-19T08:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "704f4fca5541",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Leeds / Wolverhampton",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Leeds",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:39:00+02:00",
+          "end": "2026-04-19T09:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7d4a269784b2",
+          "sport": "football",
+          "competition": null,
+          "title": "Atlético Madrid - FC Barcelona",
+          "subtitle": null,
+          "description": "Match retour des quarts de finale de l'UEFA Champions League :",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:50:00+02:00",
+          "end": "2026-04-19T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2bec2cc19570",
+          "sport": "other",
+          "competition": null,
+          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondePacifique.fr",
+            "name": "TV5 Monde Pacifique",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-pacifique",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:51:06+02:00",
+          "end": "2026-04-19T07:59:21+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3351cbc3eaa6",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Clermont / Lyon",
+          "subtitle": "Top 14 - 21e journée",
+          "description": "A domicile, l'ASM Clermont devrait en toute logique prendre le dessus sur les rugbymen du LOU dans cette 21e journée.",
+          "team1": {
+            "name": "ASM Clermont",
+            "type": "club",
+            "short": "Clermont",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-19T07:54:00+02:00",
+          "end": "2026-04-19T09:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "35f021baef42",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Brentford / Fulham",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-19T08:08:00+02:00",
+          "end": "2026-04-19T09:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "75ec3d526f46",
+          "sport": "f1",
+          "competition": null,
+          "title": "Bienvenue chez les Loud",
+          "subtitle": "Le Grand Prix de Kart / Cuisine en famille",
+          "description": "Lana veut gagner une course de kart et demande à Lincoln d'être son co-pilote. // Luan a dû s'inscrire à un cours de cuisine ; Mr Loud peut ainsi partager sa passion avec l'un de ses enfants.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NickelodeonPlus1.fr",
+            "name": "NickelodeonPlus1.fr",
+            "icon_url": null,
+            "slug": "nickelodeonplus1-fr",
+            "is_free": false
+          },
+          "start": "2026-04-19T08:12:00+02:00",
+          "end": "2026-04-19T08:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dc03c6ebe2e5",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "La Rochelle / Bordeaux-Bègles",
+          "subtitle": "Top 14 - 21e journée",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": {
+            "name": "La Rochelle",
+            "type": "club",
+            "short": "La Rochelle",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Union Bordeaux-Bègles",
+            "type": "club",
+            "short": "UBB",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2569.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-19T08:15:00+02:00",
+          "end": "2026-04-19T09:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "878d4d82240f",
+          "sport": "other",
+          "competition": null,
+          "title": "Ligue 1 McDonald's - Face au jeu",
+          "subtitle": "PSG : des coups de pied pas si arrêtés",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeMaghrebOrient.fr",
+            "name": "TV5MondeMaghrebOrient.fr",
+            "icon_url": null,
+            "slug": "tv5mondemaghreborient-fr",
+            "is_free": false
+          },
+          "start": "2026-04-19T08:19:45+02:00",
+          "end": "2026-04-19T08:30:08+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "90dfcb57744c",
+          "sport": "f1",
+          "competition": null,
+          "title": "Rallye de Grande-Bretagne",
+          "subtitle": null,
+          "description": "The British Rally Championship brings edge-of-the-seat rally action across the UK, tackling gravel and asphalt stages with plenty of professional drivers vying for glory. Adrenaline-fueled competition at its core.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MotorVisionTV.fr",
+            "name": "MotorVision TV",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
+            "slug": "motorvision-tv",
+            "is_free": false
+          },
+          "start": "2026-04-19T08:50:00+02:00",
+          "end": "2026-04-19T09:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f5fbddfa75c3",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "As Neves - Monte Trega (170,5 km)",
+          "subtitle": "Gran Camiño - 5e étape",
+          "description": "Découvrez les étapes du Gran Camiño de cyclisme, organisé dans l'ouest de l'Espagne. Connu sous le nom Tour de Galice depuis 1933, et après plus de quarante éditions, cette course annuelle à étapes a changé son nom en 2022.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-04-19T09:00:00+02:00",
+          "end": "2026-04-19T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d859b974c0f4",
+          "sport": "other",
+          "competition": null,
+          "title": "Moteurs",
+          "subtitle": "Championnat de France de la Montage - Etape 2 - St Jean du Gard Col St Pierre",
+          "description": "Du rallye à la moto en passant par l'automobile, ce rendez-vous consacré aux sports mécaniques suit les compétitions, lève le voile sur les coulisses et met en avant les pilotes et les passionnés, qui font vibrer les moteurs sur les circuits et les routes de France.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-04-19T09:30:00+02:00",
+          "end": "2026-04-19T10:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
