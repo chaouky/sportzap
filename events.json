@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-20T17:01:19.145172+00:00",
+    "generated_at": "2026-04-20T20:41:46.967274+00:00",
     "total_events": 1073,
     "total_days": 7,
     "sports": [
@@ -21,53 +21,18 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Premier League",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
         "is_free": false
       },
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "motorvision-tv",
-        "name": "MotorVision TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus",
-        "name": "Canal+ Live 1",
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
@@ -81,13 +46,28 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Premier League",
         "is_free": false
       },
       {
@@ -111,6 +91,11 @@
         "is_free": false
       },
       {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "tv-lux",
         "name": "TV Lux",
         "is_free": false
@@ -128,6 +113,11 @@
       {
         "slug": "eurosport-international-1",
         "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -176,8 +166,18 @@
         "is_free": false
       },
       {
+        "slug": "motorvision-tv",
+        "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
         "slug": "martinique-1-re",
         "name": "Martinique 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus",
+        "name": "Canal+ Live 1",
         "is_free": false
       },
       {
@@ -563,344 +563,6 @@
       "event_count": 138,
       "events": [
         {
-          "id": "cab167b6cd7b",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Everton / Liverpool",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Le derby entre les deux clubs de Liverpool promet d'être disputé, Everton et les Reds visant tous deux une place qualificative européenne, dans le Top 6 de la Premier League. Lors du match aller, en septembre dernier, Hugo Ekitiké et les siens s'étaient diffficilement imposés à Anfield (2-1). L'heure de la revanche pour les hommes de David Moyes ?",
-          "team1": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T17:29:00+02:00",
-          "end": "2026-04-20T19:12:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a35dcc4b85e4",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Andres Cortes",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eridson Garcia",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-04-20T17:30:00+02:00",
-          "end": "2026-04-20T20:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f15cd2c51cc3",
-          "sport": "football",
-          "competition": "Coupe de la Confédération de la",
-          "title": "Zamalek / CR Bélouizdad",
-          "subtitle": "Coupe de la Confédération de la ...",
-          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
-          "team1": {
-            "name": "Zamalek",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "CR Bélouizdad",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-20T17:43:00+02:00",
-          "end": "2026-04-20T19:23:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a70f3109cc53",
-          "sport": "f1",
-          "competition": "Grand Prix de Long Beach",
-          "title": "IndyCar : Grand Prix de Long Beach",
-          "subtitle": null,
-          "description": "Déjà vainqueur de deux des quatre courses disputées cette saison, Alex Palou espère enchaîner à Long Beach, cinquième étape des IndyCar Series. L'Espagnol, qui s'est imposé lors de la manche d'ouverture à St. Petersburg puis lors de la dernière course disputée en Alabama, occupe la deuxième place du classement. Il devra se défaire des Américains Kyle Kirkwood, leader et lauréat du Grand Prix d'Arlington, et Josef Newgarden, vainqueur à Phoenix.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T17:57:00+02:00",
-          "end": "2026-04-20T20:04:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "87c1bcceeff4",
-          "sport": "basket",
-          "competition": "Euroligue masculine",
-          "title": "Basket-ball : Euroligue masculine",
-          "subtitle": "Real Madrid / Etoile Rouge Belgrade. Euroligue masculine. 38e journée.",
-          "description": "Euroligue masculine. 38e journée. Real Madrid / Etoile Rouge Belgrade.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Etoile Rouge Belgrade",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-04-20T18:00:00+02:00",
-          "end": "2026-04-20T20:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "606d59974f88",
-          "sport": "golf",
-          "competition": null,
-          "title": "Golf PGA - Heritage RBC, ronde finale",
-          "subtitle": "Heritage RBC, ronde finale",
-          "description": "L'action du golf de la PGA.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-04-20T19:00:00+02:00",
-          "end": "2026-04-20T22:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "da4e9093cdb5",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Sunderland",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Revigoré par sa qualification en demi-finale d'Europa League, Aston Villa sera sans doute motivé face à Sunderland dans la 33e journée de Premier League.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T19:12:00+02:00",
-          "end": "2026-04-20T20:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "242419a89c87",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lille / Nice",
-          "subtitle": "Ligue 1 McDonald's - 30e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-20T19:31:00+02:00",
-          "end": "2026-04-20T21:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "580cbd236c5f",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayern Munich / Stuttgart",
-          "subtitle": "Bundesliga - 30e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T19:55:00+02:00",
-          "end": "2026-04-20T21:39:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6a15b6cea985",
-          "sport": "f1",
-          "competition": null,
-          "title": "Grand Prix of Chalone S/Saone, France",
-          "subtitle": null,
-          "description": "The FIM X-Trial World Championship is an international indoor motorcycle trials championship that features some of the best riders in the world competing in highly technical and challenging obstacle courses. In X-Trial events, riders navigate through a series of sections that include obstacles such as rocks, logs, and other challenging terrain, aiming to complete the course with the fewest penalties.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MotorVisionTV.fr",
-            "name": "MotorVision TV",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
-            "slug": "motorvision-tv",
-            "is_free": false
-          },
-          "start": "2026-04-20T20:05:00+02:00",
-          "end": "2026-04-20T21:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "0ea511a97d1d",
           "sport": "mma",
           "competition": "UFC",
@@ -932,69 +594,7 @@
           },
           "start": "2026-04-20T20:20:00+02:00",
           "end": "2026-04-20T23:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "422a02490a11",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / West Ham",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Clap de fin sur la 33e journée de Premier League, avec l'opposition entre les Eagles de Crystal Palace et les Hammers de West Ham United. Si les premiers n'ont plus grand chose à espérer ni à craindre en cette fin de saison, les hommes de Nuno Espirito Santo, eux, jouent leur survie parmi l'élite du football anglais et doivent ramener un résultat du Selhurst Park Stadium.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusLive1.fr",
-            "name": "Canal+ Live 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
-            "slug": "canal-plus",
-            "is_free": false
-          },
-          "start": "2026-04-20T20:55:00+02:00",
-          "end": "2026-04-20T22:41:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "53a2ae8dff2a",
-          "sport": "other",
-          "competition": null,
-          "title": "Sur le Kanap de Pablo Lachat-Couchepin",
-          "subtitle": "Doc. Sport",
-          "description": "Pour ce quatrième épisode de Sur le Kanap, c'est le curleur lausannois Pablo Lachat-Couchepin, membre du Team Schwaller et médaillé olympique aux JO de Milan Cortina, qui a ouvert les portes de son intimité à Clara et Marco.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-20T21:00:00+02:00",
-          "end": "2026-04-20T21:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1018,7 +618,7 @@
           },
           "start": "2026-04-20T21:30:00+02:00",
           "end": "2026-04-20T23:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1056,7 +656,7 @@
           },
           "start": "2026-04-20T22:00:00+02:00",
           "end": "2026-04-21T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1080,7 +680,7 @@
           },
           "start": "2026-04-20T22:00:00+02:00",
           "end": "2026-04-20T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1118,7 +718,7 @@
           },
           "start": "2026-04-20T22:15:00+02:00",
           "end": "2026-04-21T00:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1156,7 +756,7 @@
           },
           "start": "2026-04-20T22:30:00+02:00",
           "end": "2026-04-21T00:11:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1180,7 +780,7 @@
           },
           "start": "2026-04-20T22:30:00+02:00",
           "end": "2026-04-21T00:36:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1218,7 +818,7 @@
           },
           "start": "2026-04-20T22:41:00+02:00",
           "end": "2026-04-21T00:21:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4887,6 +4487,182 @@
           "result": null
         },
         {
+          "id": "cab167b6cd7b",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Everton / Liverpool",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Le derby entre les deux clubs de Liverpool promet d'être disputé, Everton et les Reds visant tous deux une place qualificative européenne, dans le Top 6 de la Premier League. Lors du match aller, en septembre dernier, Hugo Ekitiké et les siens s'étaient diffficilement imposés à Anfield (2-1). L'heure de la revanche pour les hommes de David Moyes ?",
+          "team1": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T17:29:00+02:00",
+          "end": "2026-04-20T19:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a35dcc4b85e4",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Andres Cortes",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eridson Garcia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-04-20T17:30:00+02:00",
+          "end": "2026-04-20T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f15cd2c51cc3",
+          "sport": "football",
+          "competition": "Coupe de la Confédération de la",
+          "title": "Zamalek / CR Bélouizdad",
+          "subtitle": "Coupe de la Confédération de la ...",
+          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
+          "team1": {
+            "name": "Zamalek",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "CR Bélouizdad",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-20T17:43:00+02:00",
+          "end": "2026-04-20T19:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a70f3109cc53",
+          "sport": "f1",
+          "competition": "Grand Prix de Long Beach",
+          "title": "IndyCar : Grand Prix de Long Beach",
+          "subtitle": null,
+          "description": "Déjà vainqueur de deux des quatre courses disputées cette saison, Alex Palou espère enchaîner à Long Beach, cinquième étape des IndyCar Series. L'Espagnol, qui s'est imposé lors de la manche d'ouverture à St. Petersburg puis lors de la dernière course disputée en Alabama, occupe la deuxième place du classement. Il devra se défaire des Américains Kyle Kirkwood, leader et lauréat du Grand Prix d'Arlington, et Josef Newgarden, vainqueur à Phoenix.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T17:57:00+02:00",
+          "end": "2026-04-20T20:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "87c1bcceeff4",
+          "sport": "basket",
+          "competition": "Euroligue masculine",
+          "title": "Basket-ball : Euroligue masculine",
+          "subtitle": "Real Madrid / Etoile Rouge Belgrade. Euroligue masculine. 38e journée.",
+          "description": "Euroligue masculine. 38e journée. Real Madrid / Etoile Rouge Belgrade.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Etoile Rouge Belgrade",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-04-20T18:00:00+02:00",
+          "end": "2026-04-20T20:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "3326a4d2db0a",
           "sport": "cyclisme",
           "competition": "Tour des Alpes",
@@ -4904,6 +4680,230 @@
           },
           "start": "2026-04-20T18:15:00+02:00",
           "end": "2026-04-20T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "606d59974f88",
+          "sport": "golf",
+          "competition": null,
+          "title": "Golf PGA - Heritage RBC, ronde finale",
+          "subtitle": "Heritage RBC, ronde finale",
+          "description": "L'action du golf de la PGA.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-04-20T19:00:00+02:00",
+          "end": "2026-04-20T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "da4e9093cdb5",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Sunderland",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Revigoré par sa qualification en demi-finale d'Europa League, Aston Villa sera sans doute motivé face à Sunderland dans la 33e journée de Premier League.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T19:12:00+02:00",
+          "end": "2026-04-20T20:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "242419a89c87",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lille / Nice",
+          "subtitle": "Ligue 1 McDonald's - 30e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-20T19:31:00+02:00",
+          "end": "2026-04-20T21:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "580cbd236c5f",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayern Munich / Stuttgart",
+          "subtitle": "Bundesliga - 30e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T19:55:00+02:00",
+          "end": "2026-04-20T21:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6a15b6cea985",
+          "sport": "f1",
+          "competition": null,
+          "title": "Grand Prix of Chalone S/Saone, France",
+          "subtitle": null,
+          "description": "The FIM X-Trial World Championship is an international indoor motorcycle trials championship that features some of the best riders in the world competing in highly technical and challenging obstacle courses. In X-Trial events, riders navigate through a series of sections that include obstacles such as rocks, logs, and other challenging terrain, aiming to complete the course with the fewest penalties.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MotorVisionTV.fr",
+            "name": "MotorVision TV",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
+            "slug": "motorvision-tv",
+            "is_free": false
+          },
+          "start": "2026-04-20T20:05:00+02:00",
+          "end": "2026-04-20T21:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "422a02490a11",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / West Ham",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Clap de fin sur la 33e journée de Premier League, avec l'opposition entre les Eagles de Crystal Palace et les Hammers de West Ham United. Si les premiers n'ont plus grand chose à espérer ni à craindre en cette fin de saison, les hommes de Nuno Espirito Santo, eux, jouent leur survie parmi l'élite du football anglais et doivent ramener un résultat du Selhurst Park Stadium.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusLive1.fr",
+            "name": "Canal+ Live 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-04-20T20:55:00+02:00",
+          "end": "2026-04-20T22:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "53a2ae8dff2a",
+          "sport": "other",
+          "competition": null,
+          "title": "Sur le Kanap de Pablo Lachat-Couchepin",
+          "subtitle": "Doc. Sport",
+          "description": "Pour ce quatrième épisode de Sur le Kanap, c'est le curleur lausannois Pablo Lachat-Couchepin, membre du Team Schwaller et médaillé olympique aux JO de Milan Cortina, qui a ouvert les portes de son intimité à Clara et Marco.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-20T21:00:00+02:00",
+          "end": "2026-04-20T21:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
