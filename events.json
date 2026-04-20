@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-20T06:12:49.324964+00:00",
+    "generated_at": "2026-04-20T09:56:26.369548+00:00",
     "total_events": 1073,
     "total_days": 7,
     "sports": [
@@ -21,38 +21,13 @@
     ],
     "channels": [
       {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
         "is_free": false
       },
       {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
+        "name": "Canal+ Premier League",
         "is_free": false
       },
       {
@@ -61,8 +36,13 @@
         "is_free": false
       },
       {
-        "slug": "tv-lux",
-        "name": "TV Lux",
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "matele",
+        "name": "MaTele",
         "is_free": false
       },
       {
@@ -76,28 +56,13 @@
         "is_free": false
       },
       {
-        "slug": "beis",
-        "name": "BEIS",
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "matele",
-        "name": "MaTele",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-europe",
-        "name": "TV5 Monde Europe",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -108,6 +73,11 @@
       {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -126,6 +96,16 @@
         "is_free": false
       },
       {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
         "slug": "bein-3",
         "name": "beIN SPORTS 3",
         "is_free": false
@@ -136,6 +116,11 @@
         "is_free": false
       },
       {
+        "slug": "tv-lux",
+        "name": "TV Lux",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
         "is_free": false
@@ -143,6 +128,11 @@
       {
         "slug": "martinique-1-re",
         "name": "Martinique 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -178,6 +168,16 @@
       {
         "slug": "eurosport-1",
         "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "beis",
+        "name": "BEIS",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-europe",
+        "name": "TV5 Monde Europe",
         "is_free": false
       },
       {
@@ -563,706 +563,6 @@
       "event_count": 138,
       "events": [
         {
-          "id": "2b6f578772b2",
-          "sport": "football",
-          "competition": "Coupe intercontinentale de la FIFA",
-          "title": "Football : Coupe intercontinentale de la FIFA | Real Madrid / Pachuca",
-          "subtitle": null,
-          "description": "Retransmission d'une rencontre de la Coupe intercontinentale de la FIFA.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Pachuca",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-04-20T06:30:00+02:00",
-          "end": "2026-04-20T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3421bcb96d5d",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Demi-finale N°2",
-          "subtitle": "Open de Munich",
-          "description": "Le tournoi ATP de Munich (ou BMW Open) est un tournoi sur terre battue qui existe depuis 1900. Il sert de préparation idéale au grand rendez-vous de Roland-Garros et attire les meilleurs joueurs qui souhaitent se mettre en jambes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-20T06:44:00+02:00",
-          "end": "2026-04-20T08:51:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c0b91ea7aef2",
-          "sport": "football",
-          "competition": "Ligue 1 Ivoirienne",
-          "title": "ASEC Mimosas / Racing Club Abidjan",
-          "subtitle": "Ligue 1 Ivoirienne - 25e  journée",
-          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
-          "team1": {
-            "name": "ASEC Mimosas",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Racing Club Abidjan",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T06:47:00+02:00",
-          "end": "2026-04-20T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "65c2666b5a73",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Leeds / Wolverhampton",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Leeds",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T07:11:00+02:00",
-          "end": "2026-04-20T08:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b2c69a35a96d",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Hoffenheim / Borussia Dortmund",
-          "subtitle": "Bundesliga - 30e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Hoffenheim",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Borussia Dortmund",
-            "type": "club",
-            "short": "BVB",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-20T07:27:00+02:00",
-          "end": "2026-04-20T09:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0ad909458f69",
-          "sport": "football",
-          "competition": null,
-          "title": "Sporting CP - Arsenal",
-          "subtitle": null,
-          "description": "Match aller des quarts de finale de l'UEFA Champions League : Sporting CP - Arsenal.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-20T07:45:00+02:00",
-          "end": "2026-04-20T09:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8a0e1881e3b9",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Monaco / Auxerre",
-          "subtitle": null,
-          "description": "Match de la 30ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant AS MONACO et AJ AUXERRE.",
-          "team1": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AJ Auxerre",
-            "type": "club",
-            "short": "Auxerre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-20T08:00:00+02:00",
-          "end": "2026-04-20T09:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d4e841c48c8c",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Nottingham Forest / Burnley",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Burnley",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-20T08:11:00+02:00",
-          "end": "2026-04-20T09:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b5eee80e2e39",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Brentford / Fulham",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T08:53:00+02:00",
-          "end": "2026-04-20T10:36:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "15cb4530a09c",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Tottenham / Brighton & Hove Albion",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brighton & Hove Albion",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-20T08:59:00+02:00",
-          "end": "2026-04-20T10:47:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f9c8db610983",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:00:00+02:00",
-          "end": "2026-04-20T09:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "07f6ba6d5b4d",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Bayonne / Pau",
-          "subtitle": "Top 14 - 21e journée",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": {
-            "name": "Aviron Bayonnais",
-            "type": "club",
-            "short": "Bayonne",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2578.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Section Paloise",
-            "type": "club",
-            "short": "Pau",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2579.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:05:00+02:00",
-          "end": "2026-04-20T10:49:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f3393a714f66",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lorient / Marseille",
-          "subtitle": "Ligue 1 McDonald's - 30e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Lorient",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:10:00+02:00",
-          "end": "2026-04-20T10:51:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "de205d0d0339",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:15:00+02:00",
-          "end": "2026-04-20T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "37238bfda243",
-          "sport": "tennis",
-          "competition": "Tournoi ATP de Barcelone",
-          "title": "Tennis : Tournoi ATP de Barcelone",
-          "subtitle": "Tournoi ATP de Barcelone. 1re demi-finale.",
-          "description": "Tournoi ATP de Barcelone. 1re demi-finale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:20:00+02:00",
-          "end": "2026-04-20T11:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9227c749532f",
-          "sport": "other",
-          "competition": null,
-          "title": "French Ligue 1 Soccer",
-          "subtitle": "Paris Saint-Germain vs. Olympique Lyonnais",
-          "description": "En provenance de Parc des Princes &#150; Paris, FRA From Parc des Princes in Paris, Ile-de-France, France.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BEIS.ca",
-            "name": "BEIS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s91308_h9_ab.png",
-            "slug": "beis",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:30:00+02:00",
-          "end": "2026-04-20T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ec78acba5953",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Eintracht Francfort / Leipzig",
-          "subtitle": "Bundesliga - 30e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Eintracht Francfort",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leipzig",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:54:00+02:00",
-          "end": "2026-04-20T11:36:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d01069dd4d20",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Everton / Liverpool",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Le derby entre les deux clubs de Liverpool promet d'être disputé, Everton et les Reds visant tous deux une place qualificative européenne, dans le Top 6 de la Premier League. Lors du match aller, en septembre dernier, Hugo Ekitiké et les siens s'étaient diffficilement imposés à Anfield (2-1). L'heure de la revanche pour les hommes de David Moyes ?",
-          "team1": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:55:00+02:00",
-          "end": "2026-04-20T11:39:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ce3e2e298c8e",
-          "sport": "motogp",
-          "competition": null,
-          "title": "2e course",
-          "subtitle": "Grand Prix des Pays-Bas",
-          "description": "La deuxième course de la manche néerlandaise du championnat du monde féminin se dispute sur le TT Circuit d'Assen, théâtre du deuxième rendez-vous de la saison 2026. Sur ce tracé rapide et technique de 4,542 km, les 24 pilotes engagées tenteront de marquer de nouveaux points. Côté français, Lucie Boudesseul, Emily Bondi et Line Vieillard seront à suivre dans cette nouvelle confrontation du week-end.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-04-20T09:58:00+02:00",
-          "end": "2026-04-20T10:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "988f1c2a2d68",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Strasbourg / Rennes",
-          "subtitle": null,
-          "description": "Match de la 30ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant STRASBOURG et RENNES.",
-          "team1": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Rennais",
-            "type": "club",
-            "short": "Rennes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-20T10:00:00+02:00",
-          "end": "2026-04-20T11:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "343fd2d34b6f",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-04-20T10:00:00+02:00",
-          "end": "2026-04-20T10:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "1e677b68cec2",
           "sport": "mma",
           "competition": "UFC",
@@ -1294,7 +594,7 @@
           },
           "start": "2026-04-20T10:00:00+02:00",
           "end": "2026-04-20T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1332,7 +632,7 @@
           },
           "start": "2026-04-20T10:36:00+02:00",
           "end": "2026-04-20T12:19:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1370,7 +670,7 @@
           },
           "start": "2026-04-20T10:47:00+02:00",
           "end": "2026-04-20T12:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1408,7 +708,7 @@
           },
           "start": "2026-04-20T10:49:00+02:00",
           "end": "2026-04-20T12:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1446,7 +746,7 @@
           },
           "start": "2026-04-20T10:51:00+02:00",
           "end": "2026-04-20T12:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1470,31 +770,7 @@
           },
           "start": "2026-04-20T11:00:00+02:00",
           "end": "2026-04-20T12:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5cdcebaf3938",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-04-20T11:00:00+02:00",
-          "end": "2026-04-20T11:52:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1518,7 +794,7 @@
           },
           "start": "2026-04-20T11:00:00+02:00",
           "end": "2026-04-20T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1542,31 +818,7 @@
           },
           "start": "2026-04-20T11:25:00+02:00",
           "end": "2026-04-20T13:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d4ab667d53d4",
-          "sport": "other",
-          "competition": null,
-          "title": "Ligue 1 McDonald's - Face au jeu",
-          "subtitle": "Un Giroud tout neuf",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeEurope.fr",
-            "name": "TV5 Monde Europe",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-232.png",
-            "slug": "tv5-monde-europe",
-            "is_free": false
-          },
-          "start": "2026-04-20T11:26:21+02:00",
-          "end": "2026-04-20T11:34:13+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1590,7 +842,7 @@
           },
           "start": "2026-04-20T11:35:00+02:00",
           "end": "2026-04-20T13:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4904,6 +4156,754 @@
           },
           "start": "2026-04-20T06:00:00+02:00",
           "end": "2026-04-20T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2b6f578772b2",
+          "sport": "football",
+          "competition": "Coupe intercontinentale de la FIFA",
+          "title": "Football : Coupe intercontinentale de la FIFA | Real Madrid / Pachuca",
+          "subtitle": null,
+          "description": "Retransmission d'une rencontre de la Coupe intercontinentale de la FIFA.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Pachuca",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-04-20T06:30:00+02:00",
+          "end": "2026-04-20T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3421bcb96d5d",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Demi-finale N°2",
+          "subtitle": "Open de Munich",
+          "description": "Le tournoi ATP de Munich (ou BMW Open) est un tournoi sur terre battue qui existe depuis 1900. Il sert de préparation idéale au grand rendez-vous de Roland-Garros et attire les meilleurs joueurs qui souhaitent se mettre en jambes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-20T06:44:00+02:00",
+          "end": "2026-04-20T08:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c0b91ea7aef2",
+          "sport": "football",
+          "competition": "Ligue 1 Ivoirienne",
+          "title": "ASEC Mimosas / Racing Club Abidjan",
+          "subtitle": "Ligue 1 Ivoirienne - 25e  journée",
+          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
+          "team1": {
+            "name": "ASEC Mimosas",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Racing Club Abidjan",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T06:47:00+02:00",
+          "end": "2026-04-20T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "65c2666b5a73",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Leeds / Wolverhampton",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Leeds",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T07:11:00+02:00",
+          "end": "2026-04-20T08:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b2c69a35a96d",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Hoffenheim / Borussia Dortmund",
+          "subtitle": "Bundesliga - 30e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Hoffenheim",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Borussia Dortmund",
+            "type": "club",
+            "short": "BVB",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-20T07:27:00+02:00",
+          "end": "2026-04-20T09:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0ad909458f69",
+          "sport": "football",
+          "competition": null,
+          "title": "Sporting CP - Arsenal",
+          "subtitle": null,
+          "description": "Match aller des quarts de finale de l'UEFA Champions League : Sporting CP - Arsenal.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-20T07:45:00+02:00",
+          "end": "2026-04-20T09:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8a0e1881e3b9",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Monaco / Auxerre",
+          "subtitle": null,
+          "description": "Match de la 30ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant AS MONACO et AJ AUXERRE.",
+          "team1": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AJ Auxerre",
+            "type": "club",
+            "short": "Auxerre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-20T08:00:00+02:00",
+          "end": "2026-04-20T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d4e841c48c8c",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Nottingham Forest / Burnley",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Burnley",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-20T08:11:00+02:00",
+          "end": "2026-04-20T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b5eee80e2e39",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Brentford / Fulham",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T08:53:00+02:00",
+          "end": "2026-04-20T10:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "15cb4530a09c",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Tottenham / Brighton & Hove Albion",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brighton & Hove Albion",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-20T08:59:00+02:00",
+          "end": "2026-04-20T10:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f9c8db610983",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:00:00+02:00",
+          "end": "2026-04-20T09:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "07f6ba6d5b4d",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Bayonne / Pau",
+          "subtitle": "Top 14 - 21e journée",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": {
+            "name": "Aviron Bayonnais",
+            "type": "club",
+            "short": "Bayonne",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2578.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Section Paloise",
+            "type": "club",
+            "short": "Pau",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2579.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:05:00+02:00",
+          "end": "2026-04-20T10:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f3393a714f66",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lorient / Marseille",
+          "subtitle": "Ligue 1 McDonald's - 30e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Lorient",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:10:00+02:00",
+          "end": "2026-04-20T10:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "de205d0d0339",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:15:00+02:00",
+          "end": "2026-04-20T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "37238bfda243",
+          "sport": "tennis",
+          "competition": "Tournoi ATP de Barcelone",
+          "title": "Tennis : Tournoi ATP de Barcelone",
+          "subtitle": "Tournoi ATP de Barcelone. 1re demi-finale.",
+          "description": "Tournoi ATP de Barcelone. 1re demi-finale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:20:00+02:00",
+          "end": "2026-04-20T11:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9227c749532f",
+          "sport": "other",
+          "competition": null,
+          "title": "French Ligue 1 Soccer",
+          "subtitle": "Paris Saint-Germain vs. Olympique Lyonnais",
+          "description": "En provenance de Parc des Princes &#150; Paris, FRA From Parc des Princes in Paris, Ile-de-France, France.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BEIS.ca",
+            "name": "BEIS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s91308_h9_ab.png",
+            "slug": "beis",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:30:00+02:00",
+          "end": "2026-04-20T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ec78acba5953",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Eintracht Francfort / Leipzig",
+          "subtitle": "Bundesliga - 30e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Eintracht Francfort",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leipzig",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:54:00+02:00",
+          "end": "2026-04-20T11:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d01069dd4d20",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Everton / Liverpool",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Le derby entre les deux clubs de Liverpool promet d'être disputé, Everton et les Reds visant tous deux une place qualificative européenne, dans le Top 6 de la Premier League. Lors du match aller, en septembre dernier, Hugo Ekitiké et les siens s'étaient diffficilement imposés à Anfield (2-1). L'heure de la revanche pour les hommes de David Moyes ?",
+          "team1": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:55:00+02:00",
+          "end": "2026-04-20T11:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ce3e2e298c8e",
+          "sport": "motogp",
+          "competition": null,
+          "title": "2e course",
+          "subtitle": "Grand Prix des Pays-Bas",
+          "description": "La deuxième course de la manche néerlandaise du championnat du monde féminin se dispute sur le TT Circuit d'Assen, théâtre du deuxième rendez-vous de la saison 2026. Sur ce tracé rapide et technique de 4,542 km, les 24 pilotes engagées tenteront de marquer de nouveaux points. Côté français, Lucie Boudesseul, Emily Bondi et Line Vieillard seront à suivre dans cette nouvelle confrontation du week-end.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-04-20T09:58:00+02:00",
+          "end": "2026-04-20T10:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "988f1c2a2d68",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Strasbourg / Rennes",
+          "subtitle": null,
+          "description": "Match de la 30ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant STRASBOURG et RENNES.",
+          "team1": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Rennais",
+            "type": "club",
+            "short": "Rennes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-20T10:00:00+02:00",
+          "end": "2026-04-20T11:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "343fd2d34b6f",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-04-20T10:00:00+02:00",
+          "end": "2026-04-20T10:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5cdcebaf3938",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-04-20T11:00:00+02:00",
+          "end": "2026-04-20T11:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d4ab667d53d4",
+          "sport": "other",
+          "competition": null,
+          "title": "Ligue 1 McDonald's - Face au jeu",
+          "subtitle": "Un Giroud tout neuf",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeEurope.fr",
+            "name": "TV5 Monde Europe",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-232.png",
+            "slug": "tv5-monde-europe",
+            "is_free": false
+          },
+          "start": "2026-04-20T11:26:21+02:00",
+          "end": "2026-04-20T11:34:13+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
