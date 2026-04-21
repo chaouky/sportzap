@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T09:22:51.228586+00:00",
+    "generated_at": "2026-04-21T13:19:04.510957+00:00",
     "total_events": 1021,
     "total_days": 7,
     "sports": [
@@ -22,38 +22,13 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
         "is_free": false
       },
       {
         "slug": "canal-plus-sport-2",
         "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -67,28 +42,18 @@
         "is_free": false
       },
       {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -102,14 +67,39 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
         "slug": "rds",
         "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
         "slug": "sport-en-france",
         "name": "Sport en France",
         "is_free": true
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
       },
       {
         "slug": "voo-sport-world-1",
@@ -147,6 +137,11 @@
         "is_free": false
       },
       {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-1",
         "name": "Eurosport 1",
         "is_free": false
@@ -179,6 +174,11 @@
       {
         "slug": "motorvision-tv",
         "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
         "is_free": false
       },
       {
@@ -594,516 +594,6 @@
       "event_count": 130,
       "events": [
         {
-          "id": "66604061c166",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Bayern Munich / Real Madrid",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "A l'aller, le Bayern Munich a confirmé qu'il fallait compter avec lui en l'emportant 1-2 sur la pelouse madrilène. Harry Kane et les Bavarois sont à 90 minutes du dernier carré.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-21T10:31:00+02:00",
-          "end": "2026-04-21T12:12:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "31b2f2c7cb67",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Real Sociedad B / Racing Santander",
-          "subtitle": "Liga 2 - 36e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Real Sociedad B",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Racing Santander",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-21T10:31:00+02:00",
-          "end": "2026-04-21T12:19:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "520951c5b6d5",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Racing 92 / Stade Français Paris",
-          "subtitle": "Top 14 - 21e journée",
-          "description": "Le derby francilien qui conclut la 21e journée de Top 14 s'annonce particulièrement serré et indécis entre le Racing 92 et le Stade Français.",
-          "team1": {
-            "name": "Racing 92",
-            "type": "club",
-            "short": "Racing 92",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Français",
-            "type": "club",
-            "short": "Stade Français",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-21T10:56:00+02:00",
-          "end": "2026-04-21T12:41:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "63c7d3480a6f",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-04-21T11:00:00+02:00",
-          "end": "2026-04-21T12:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6939e6aba4e0",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / West Ham",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Clap de fin sur la 33e journée de Premier League, avec l'opposition entre les Eagles de Crystal Palace et les Hammers de West Ham United. Si les premiers n'ont plus grand chose à espérer ni à craindre en cette fin de saison, les hommes de Nuno Espirito Santo, eux, jouent leur survie parmi l'élite du football anglais et doivent ramener un résultat du Selhurst Park Stadium.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-21T11:05:00+02:00",
-          "end": "2026-04-21T13:58:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "40f4569565ab",
-          "sport": "motogp",
-          "competition": null,
-          "title": "1re course",
-          "subtitle": "Grand Prix des Pays-Bas",
-          "description": "Deuxième rendez-vous de la saison 2026 du championnat du monde féminin, la manche d'Assen se tient du 17 au 19 avril sur le TT circuit néerlandais. Long de 4,542 km et composé de 18 virages, le tracé d'Assen accueille les 24 pilotes engagées dans la compétition. Après l'ouverture de saison à Portimão, où elles ont particulièrement brillé, Paola Ramos et la championne en titre Maria Herrera seront à nouveau favorites.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-21T11:20:00+02:00",
-          "end": "2026-04-21T12:16:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f866a9197511",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Boston Celtics / Philadelphia 76ers",
-          "subtitle": "NBA - 1re Playoffs. 1er tour",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Boston Celtics",
-            "type": "club",
-            "short": "Celtics",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/2.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Philadelphia 76ers",
-            "type": "club",
-            "short": "76ers",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/20.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-21T11:30:00+02:00",
-          "end": "2026-04-21T13:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "32bac4c202a2",
-          "sport": "football",
-          "competition": null,
-          "title": "Real Madrid - Bayern Munich",
-          "subtitle": null,
-          "description": "Match aller des quarts de finale de l'UEFA Champions League : Real Madrid - Bayern Munich.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-21T11:50:00+02:00",
-          "end": "2026-04-21T13:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e29d82690ec7",
-          "sport": "football",
-          "competition": null,
-          "title": "Real Madrid - Bayern München",
-          "subtitle": null,
-          "description": "07/04/2026 - Heenwedstrijd van de kwartfinales in de UEFA Champions League: Real Madrid - Bayern München.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-04-21T11:50:00+02:00",
-          "end": "2026-04-21T13:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f4d78f97c351",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Angers / Le Havre",
-          "subtitle": null,
-          "description": "Match de la 30ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant ANGERS SCO et HAVRE AC.",
-          "team1": {
-            "name": "Angers SCO",
-            "type": "club",
-            "short": "Angers",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Le Havre AC",
-            "type": "club",
-            "short": "Le Havre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-21T12:02:00+02:00",
-          "end": "2026-04-21T13:56:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4d7ec9c9fac0",
-          "sport": "other",
-          "competition": null,
-          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-04-21T12:03:51+02:00",
-          "end": "2026-04-21T12:12:51+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b169733b6c5e",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Racing 92 / Stade Français Paris",
-          "subtitle": "Top 14 - 21e journée",
-          "description": "Le derby francilien qui conclut la 21e journée de Top 14 s'annonce particulièrement serré et indécis entre le Racing 92 et le Stade Français.",
-          "team1": {
-            "name": "Racing 92",
-            "type": "club",
-            "short": "Racing 92",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Français",
-            "type": "club",
-            "short": "Stade Français",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-21T12:19:00+02:00",
-          "end": "2026-04-21T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1af4536f1995",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayern Munich / Stuttgart",
-          "subtitle": "Bundesliga - 30e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-21T12:29:00+02:00",
-          "end": "2026-04-21T14:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5b1ff527e00a",
-          "sport": "cyclisme",
-          "competition": "Tour des Alpes",
-          "title": "Cyclisme : Tour des Alpes",
-          "subtitle": "Cyclisme",
-          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-21T12:30:00+02:00",
-          "end": "2026-04-21T13:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7fc691f24e65",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Liverpool / Paris-SG",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "Tenants du titre, Ousmane Dembélé et le Paris-SG se rendent à Liverpool avec l'envie de décrocher une nouvelle qualification pour le dernier carré de la Ligue des champions. Vainqueurs à l'aller grâce à deux buts de Désiré Doué et Khvicha Kvaratskhelia, les Parisiens devront repousser les assauts des Reds, bien décidés à renverser la situation à Anfield.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-21T13:14:00+02:00",
-          "end": "2026-04-21T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "269cbb16f3d9",
-          "sport": "motogp",
-          "competition": null,
-          "title": "2e course",
-          "subtitle": "Grand Prix des Pays-Bas",
-          "description": "La deuxième course de la manche néerlandaise du championnat du monde féminin se dispute sur le TT Circuit d'Assen, théâtre du deuxième rendez-vous de la saison 2026. Sur ce tracé rapide et technique de 4,542 km, les 24 pilotes engagées tenteront de marquer de nouveaux points. Côté français, Lucie Boudesseul, Emily Bondi et Line Vieillard seront à suivre dans cette nouvelle confrontation du week-end.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-04-21T13:21:00+02:00",
-          "end": "2026-04-21T14:09:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "27168075694f",
           "sport": "cyclisme",
           "competition": "Tour des Alpes",
@@ -1121,7 +611,7 @@
           },
           "start": "2026-04-21T13:35:00+02:00",
           "end": "2026-04-21T15:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1159,7 +649,7 @@
           },
           "start": "2026-04-21T13:45:00+02:00",
           "end": "2026-04-21T15:26:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1183,7 +673,7 @@
           },
           "start": "2026-04-21T13:45:00+02:00",
           "end": "2026-04-21T15:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1207,7 +697,7 @@
           },
           "start": "2026-04-21T13:45:00+02:00",
           "end": "2026-04-21T15:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1231,7 +721,7 @@
           },
           "start": "2026-04-21T13:57:00+02:00",
           "end": "2026-04-21T16:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1269,7 +759,7 @@
           },
           "start": "2026-04-21T14:00:00+02:00",
           "end": "2026-04-21T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1307,7 +797,7 @@
           },
           "start": "2026-04-21T14:01:00+02:00",
           "end": "2026-04-21T16:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1331,7 +821,7 @@
           },
           "start": "2026-04-21T14:30:00+02:00",
           "end": "2026-04-21T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1355,7 +845,7 @@
           },
           "start": "2026-04-21T14:55:00+02:00",
           "end": "2026-04-21T16:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1393,7 +883,7 @@
           },
           "start": "2026-04-21T15:00:00+02:00",
           "end": "2026-04-21T16:51:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1431,7 +921,7 @@
           },
           "start": "2026-04-21T15:08:00+02:00",
           "end": "2026-04-21T16:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4631,6 +4121,516 @@
           },
           "start": "2026-04-21T10:00:00+02:00",
           "end": "2026-04-21T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "66604061c166",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Bayern Munich / Real Madrid",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "A l'aller, le Bayern Munich a confirmé qu'il fallait compter avec lui en l'emportant 1-2 sur la pelouse madrilène. Harry Kane et les Bavarois sont à 90 minutes du dernier carré.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-21T10:31:00+02:00",
+          "end": "2026-04-21T12:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "31b2f2c7cb67",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Real Sociedad B / Racing Santander",
+          "subtitle": "Liga 2 - 36e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Real Sociedad B",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Racing Santander",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-21T10:31:00+02:00",
+          "end": "2026-04-21T12:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "520951c5b6d5",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Racing 92 / Stade Français Paris",
+          "subtitle": "Top 14 - 21e journée",
+          "description": "Le derby francilien qui conclut la 21e journée de Top 14 s'annonce particulièrement serré et indécis entre le Racing 92 et le Stade Français.",
+          "team1": {
+            "name": "Racing 92",
+            "type": "club",
+            "short": "Racing 92",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Français",
+            "type": "club",
+            "short": "Stade Français",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-21T10:56:00+02:00",
+          "end": "2026-04-21T12:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "63c7d3480a6f",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-04-21T11:00:00+02:00",
+          "end": "2026-04-21T12:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6939e6aba4e0",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / West Ham",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Clap de fin sur la 33e journée de Premier League, avec l'opposition entre les Eagles de Crystal Palace et les Hammers de West Ham United. Si les premiers n'ont plus grand chose à espérer ni à craindre en cette fin de saison, les hommes de Nuno Espirito Santo, eux, jouent leur survie parmi l'élite du football anglais et doivent ramener un résultat du Selhurst Park Stadium.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-21T11:05:00+02:00",
+          "end": "2026-04-21T13:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "40f4569565ab",
+          "sport": "motogp",
+          "competition": null,
+          "title": "1re course",
+          "subtitle": "Grand Prix des Pays-Bas",
+          "description": "Deuxième rendez-vous de la saison 2026 du championnat du monde féminin, la manche d'Assen se tient du 17 au 19 avril sur le TT circuit néerlandais. Long de 4,542 km et composé de 18 virages, le tracé d'Assen accueille les 24 pilotes engagées dans la compétition. Après l'ouverture de saison à Portimão, où elles ont particulièrement brillé, Paola Ramos et la championne en titre Maria Herrera seront à nouveau favorites.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-21T11:20:00+02:00",
+          "end": "2026-04-21T12:16:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f866a9197511",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Boston Celtics / Philadelphia 76ers",
+          "subtitle": "NBA - 1re Playoffs. 1er tour",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Boston Celtics",
+            "type": "club",
+            "short": "Celtics",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/2.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Philadelphia 76ers",
+            "type": "club",
+            "short": "76ers",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/20.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-21T11:30:00+02:00",
+          "end": "2026-04-21T13:33:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "32bac4c202a2",
+          "sport": "football",
+          "competition": null,
+          "title": "Real Madrid - Bayern Munich",
+          "subtitle": null,
+          "description": "Match aller des quarts de finale de l'UEFA Champions League : Real Madrid - Bayern Munich.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-21T11:50:00+02:00",
+          "end": "2026-04-21T13:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e29d82690ec7",
+          "sport": "football",
+          "competition": null,
+          "title": "Real Madrid - Bayern München",
+          "subtitle": null,
+          "description": "07/04/2026 - Heenwedstrijd van de kwartfinales in de UEFA Champions League: Real Madrid - Bayern München.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-04-21T11:50:00+02:00",
+          "end": "2026-04-21T13:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f4d78f97c351",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Angers / Le Havre",
+          "subtitle": null,
+          "description": "Match de la 30ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant ANGERS SCO et HAVRE AC.",
+          "team1": {
+            "name": "Angers SCO",
+            "type": "club",
+            "short": "Angers",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Le Havre AC",
+            "type": "club",
+            "short": "Le Havre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-21T12:02:00+02:00",
+          "end": "2026-04-21T13:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4d7ec9c9fac0",
+          "sport": "other",
+          "competition": null,
+          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-04-21T12:03:51+02:00",
+          "end": "2026-04-21T12:12:51+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b169733b6c5e",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Racing 92 / Stade Français Paris",
+          "subtitle": "Top 14 - 21e journée",
+          "description": "Le derby francilien qui conclut la 21e journée de Top 14 s'annonce particulièrement serré et indécis entre le Racing 92 et le Stade Français.",
+          "team1": {
+            "name": "Racing 92",
+            "type": "club",
+            "short": "Racing 92",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Français",
+            "type": "club",
+            "short": "Stade Français",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-21T12:19:00+02:00",
+          "end": "2026-04-21T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1af4536f1995",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayern Munich / Stuttgart",
+          "subtitle": "Bundesliga - 30e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-21T12:29:00+02:00",
+          "end": "2026-04-21T14:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5b1ff527e00a",
+          "sport": "cyclisme",
+          "competition": "Tour des Alpes",
+          "title": "Cyclisme : Tour des Alpes",
+          "subtitle": "Cyclisme",
+          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-21T12:30:00+02:00",
+          "end": "2026-04-21T13:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7fc691f24e65",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Liverpool / Paris-SG",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "Tenants du titre, Ousmane Dembélé et le Paris-SG se rendent à Liverpool avec l'envie de décrocher une nouvelle qualification pour le dernier carré de la Ligue des champions. Vainqueurs à l'aller grâce à deux buts de Désiré Doué et Khvicha Kvaratskhelia, les Parisiens devront repousser les assauts des Reds, bien décidés à renverser la situation à Anfield.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-21T13:14:00+02:00",
+          "end": "2026-04-21T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "269cbb16f3d9",
+          "sport": "motogp",
+          "competition": null,
+          "title": "2e course",
+          "subtitle": "Grand Prix des Pays-Bas",
+          "description": "La deuxième course de la manche néerlandaise du championnat du monde féminin se dispute sur le TT Circuit d'Assen, théâtre du deuxième rendez-vous de la saison 2026. Sur ce tracé rapide et technique de 4,542 km, les 24 pilotes engagées tenteront de marquer de nouveaux points. Côté français, Lucie Boudesseul, Emily Bondi et Line Vieillard seront à suivre dans cette nouvelle confrontation du week-end.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-04-21T13:21:00+02:00",
+          "end": "2026-04-21T14:09:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
