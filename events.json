@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-23T06:03:44.392266+00:00",
+    "generated_at": "2026-04-23T09:24:55.351352+00:00",
     "total_events": 960,
     "total_days": 7,
     "sports": [
@@ -22,23 +22,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -47,53 +32,28 @@
         "is_free": false
       },
       {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
-        "slug": "bein-2",
-        "name": "beIN SPORTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde",
-        "name": "TV5 Monde",
-        "is_free": false
-      },
-      {
-        "slug": "afric-ble",
-        "name": "Africâble",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "ortb",
-        "name": "ORTB",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
         "slug": "tva-sports-2",
         "name": "TVA Sports 2",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -117,13 +77,33 @@
         "is_free": false
       },
       {
+        "slug": "bein-2",
+        "name": "beIN SPORTS 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "ligue-1",
         "name": "Ligue 1+",
         "is_free": false
       },
       {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-4",
         "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -157,6 +137,11 @@
         "is_free": false
       },
       {
+        "slug": "afric-ble",
+        "name": "Africâble",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
         "is_free": false
@@ -169,6 +154,11 @@
       {
         "slug": "tipik",
         "name": "Tipik",
+        "is_free": false
+      },
+      {
+        "slug": "bein-3",
+        "name": "beIN SPORTS MAX 4",
         "is_free": false
       },
       {
@@ -224,6 +214,16 @@
       {
         "slug": "tv5-monde-europe",
         "name": "TV5 Monde Europe",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde",
+        "name": "TV5 Monde",
+        "is_free": false
+      },
+      {
+        "slug": "ortb",
+        "name": "ORTB",
         "is_free": false
       },
       {
@@ -574,296 +574,6 @@
       "event_count": 139,
       "events": [
         {
-          "id": "851181619406",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Eintracht Francfort / Leipzig",
-          "subtitle": "Bundesliga - 30e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Eintracht Francfort",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leipzig",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-23T06:31:00+02:00",
-          "end": "2026-04-23T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4a15e25c7e01",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Paris-SG / Saint-Etienne",
-          "subtitle": "Arkema Première Ligue - 20e jour...",
-          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Saint-Étienne",
-            "type": "club",
-            "short": "ASSE",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-23T07:33:00+02:00",
-          "end": "2026-04-23T09:16:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5460610e56b8",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Marseille / FC Nantes",
-          "subtitle": "Arkema Première Ligue - 20e jour...",
-          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Nantes",
-            "type": "club",
-            "short": "Nantes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-23T07:55:00+02:00",
-          "end": "2026-04-23T09:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fae694aa2ce4",
-          "sport": "football",
-          "competition": null,
-          "title": "Liverpool - Paris Saint-Germain",
-          "subtitle": null,
-          "description": "Match retour des quarts de finale de l'UEFA Champions League : Liverpool - Paris Saint-Germain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-23T07:55:00+02:00",
-          "end": "2026-04-23T10:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "242d5a58ab15",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Arsenal",
-          "subtitle": "Premier League - 33e journée",
-          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-23T07:59:00+02:00",
-          "end": "2026-04-23T09:44:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c6395fc7fb91",
-          "sport": "football",
-          "competition": "Coupe d'Allemagne - Demi-finale",
-          "title": "Bayer Leverkusen / Bayern Munich",
-          "subtitle": "Coupe d'Allemagne - Demi-finale",
-          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal. La Coupe d'Allemagne a été créée en 1935, 64 équipes y participent (pros, semi-pros et amateurs) et offre une place en Coupe d'Europe ainsi qu'à la Supercoupe d'Allemagne.",
-          "team1": {
-            "name": "Bayer Leverkusen",
-            "type": "club",
-            "short": "Leverkusen",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-04-23T08:00:00+02:00",
-          "end": "2026-04-23T10:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "889243022be8",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Celta Vigo",
-          "subtitle": "Liga - 33e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Celta Vigo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-04-23T08:00:00+02:00",
-          "end": "2026-04-23T10:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "32ac9bff0068",
-          "sport": "other",
-          "competition": "MLB - Saison régulière",
-          "title": "Philadelphia Phillies / Atlanta Braves",
-          "subtitle": "MLB - Saison régulière",
-          "description": "Découvrez les épreuves de la Major League Baseball (MLB). Elle regroupe deux ligues : la Ligue Nationale et la Ligue Américaine. La compétition qu'elle organise est le plus haut niveau du baseball aux Etats-Unis. La saison régulière se déroule d'avril à fin septembre, puis suivent les phases éliminatoires qui emmènent les vainqueurs de chaque Ligue aux World Series, qui est la finale se jouant au meilleur des 7 manches.",
-          "team1": {
-            "name": "Philadelphia Phillies",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlanta Braves",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-04-23T08:00:00+02:00",
-          "end": "2026-04-23T10:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "0b89102b7717",
           "sport": "football",
           "competition": "Ligue des champions - Quart de f",
@@ -895,131 +605,7 @@
           },
           "start": "2026-04-23T08:30:00+02:00",
           "end": "2026-04-23T11:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "29880d11f9ca",
-          "sport": "cyclisme",
-          "competition": "Tour des Alpes",
-          "title": "Cyclisme : Tour des Alpes",
-          "subtitle": "Laces - Arco (174,5 km). Tour des Alpes. 3e étape.",
-          "description": "Tour des Alpes. 3e étape. Laces - Arco (174,5 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-04-23T09:00:00+02:00",
-          "end": "2026-04-23T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0af3248f7c1b",
-          "sport": "other",
-          "competition": null,
-          "title": "Partis skier - Saison 1",
-          "subtitle": "Descendre un couloir",
-          "description": "A Lake Louise, Alexis et Thomas tentent la descente d'un couloir. Avant de se lancer, Alexis doit peaufiner sa technique en station de ski alpin. C'est l'occasion de découvrir l'histoire du tourisme de ski au Canada et ses conséquences.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5Monde.fr",
-            "name": "TV5 Monde",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
-            "slug": "tv5-monde",
-            "is_free": false
-          },
-          "start": "2026-04-23T09:15:00+02:00",
-          "end": "2026-04-23T09:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "605abfb8d7e6",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Burnley / Manchester City",
-          "subtitle": "Premier League - 34e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Burnley",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-23T09:16:00+02:00",
-          "end": "2026-04-23T10:59:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b40419329f76",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-04-23T09:30:00+02:00",
-          "end": "2026-04-23T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1057,7 +643,7 @@
           },
           "start": "2026-04-23T09:44:00+02:00",
           "end": "2026-04-23T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1095,79 +681,7 @@
           },
           "start": "2026-04-23T09:47:00+02:00",
           "end": "2026-04-23T11:29:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "39d310361ebf",
-          "sport": "f1",
-          "competition": "Grand Prix",
-          "title": "Escrime : Grand Prix",
-          "subtitle": "Escrime",
-          "description": "Retransmission d'un Grand Prix d'escrime, une des étapes de la Coupe du monde de cette discipline.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-23T10:00:00+02:00",
-          "end": "2026-04-23T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3bd4dea55225",
-          "sport": "handball",
-          "competition": null,
-          "title": "7e journée. 8e match - Dinan - Nanterre",
-          "subtitle": "Championnat de France Division 1",
-          "description": "Une immersion dans les compétitions nationales de foot-fauteuil, mettant en lumière les performances des équipes engagées, les enjeux sportifs, et les histoires des joueurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-04-23T10:00:00+02:00",
-          "end": "2026-04-23T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a75d1749a025",
-          "sport": "basket",
-          "competition": null,
-          "title": "Afrobasket",
-          "subtitle": "Mag. Basket-ball",
-          "description": "Toute l'actualité et toutes les informations autour du championnat d'Afrique de basket-ball.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ORTB.af",
-            "name": "ORTB",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180207/canal-ouah/CHN43FN/BENINTV_640x480-2k7s?=.png",
-            "slug": "ortb",
-            "is_free": false
-          },
-          "start": "2026-04-23T10:15:00+02:00",
-          "end": "2026-04-23T10:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1205,7 +719,7 @@
           },
           "start": "2026-04-23T10:19:00+02:00",
           "end": "2026-04-23T12:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1229,7 +743,7 @@
           },
           "start": "2026-04-23T10:30:00+02:00",
           "end": "2026-04-23T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1253,7 +767,7 @@
           },
           "start": "2026-04-23T10:45:00+02:00",
           "end": "2026-04-23T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1291,7 +805,7 @@
           },
           "start": "2026-04-23T10:59:00+02:00",
           "end": "2026-04-23T12:42:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1315,7 +829,7 @@
           },
           "start": "2026-04-23T11:00:00+02:00",
           "end": "2026-04-23T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1339,7 +853,7 @@
           },
           "start": "2026-04-23T11:16:00+02:00",
           "end": "2026-04-23T12:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5090,6 +4604,44 @@
           "result": null
         },
         {
+          "id": "851181619406",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Eintracht Francfort / Leipzig",
+          "subtitle": "Bundesliga - 30e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Eintracht Francfort",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leipzig",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-23T06:31:00+02:00",
+          "end": "2026-04-23T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "5e630ba8c0dd",
           "sport": "other",
           "competition": null,
@@ -5121,6 +4673,454 @@
           },
           "start": "2026-04-23T06:35:00+02:00",
           "end": "2026-04-23T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4a15e25c7e01",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Paris-SG / Saint-Etienne",
+          "subtitle": "Arkema Première Ligue - 20e jour...",
+          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Saint-Étienne",
+            "type": "club",
+            "short": "ASSE",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-23T07:33:00+02:00",
+          "end": "2026-04-23T09:16:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5460610e56b8",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Marseille / FC Nantes",
+          "subtitle": "Arkema Première Ligue - 20e jour...",
+          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Nantes",
+            "type": "club",
+            "short": "Nantes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-23T07:55:00+02:00",
+          "end": "2026-04-23T09:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fae694aa2ce4",
+          "sport": "football",
+          "competition": null,
+          "title": "Liverpool - Paris Saint-Germain",
+          "subtitle": null,
+          "description": "Match retour des quarts de finale de l'UEFA Champions League : Liverpool - Paris Saint-Germain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-23T07:55:00+02:00",
+          "end": "2026-04-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "242d5a58ab15",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Arsenal",
+          "subtitle": "Premier League - 33e journée",
+          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-23T07:59:00+02:00",
+          "end": "2026-04-23T09:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c6395fc7fb91",
+          "sport": "football",
+          "competition": "Coupe d'Allemagne - Demi-finale",
+          "title": "Bayer Leverkusen / Bayern Munich",
+          "subtitle": "Coupe d'Allemagne - Demi-finale",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal. La Coupe d'Allemagne a été créée en 1935, 64 équipes y participent (pros, semi-pros et amateurs) et offre une place en Coupe d'Europe ainsi qu'à la Supercoupe d'Allemagne.",
+          "team1": {
+            "name": "Bayer Leverkusen",
+            "type": "club",
+            "short": "Leverkusen",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-04-23T08:00:00+02:00",
+          "end": "2026-04-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "889243022be8",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Celta Vigo",
+          "subtitle": "Liga - 33e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Celta Vigo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-04-23T08:00:00+02:00",
+          "end": "2026-04-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "32ac9bff0068",
+          "sport": "other",
+          "competition": "MLB - Saison régulière",
+          "title": "Philadelphia Phillies / Atlanta Braves",
+          "subtitle": "MLB - Saison régulière",
+          "description": "Découvrez les épreuves de la Major League Baseball (MLB). Elle regroupe deux ligues : la Ligue Nationale et la Ligue Américaine. La compétition qu'elle organise est le plus haut niveau du baseball aux Etats-Unis. La saison régulière se déroule d'avril à fin septembre, puis suivent les phases éliminatoires qui emmènent les vainqueurs de chaque Ligue aux World Series, qui est la finale se jouant au meilleur des 7 manches.",
+          "team1": {
+            "name": "Philadelphia Phillies",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlanta Braves",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-04-23T08:00:00+02:00",
+          "end": "2026-04-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "29880d11f9ca",
+          "sport": "cyclisme",
+          "competition": "Tour des Alpes",
+          "title": "Cyclisme : Tour des Alpes",
+          "subtitle": "Laces - Arco (174,5 km). Tour des Alpes. 3e étape.",
+          "description": "Tour des Alpes. 3e étape. Laces - Arco (174,5 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-04-23T09:00:00+02:00",
+          "end": "2026-04-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0af3248f7c1b",
+          "sport": "other",
+          "competition": null,
+          "title": "Partis skier - Saison 1",
+          "subtitle": "Descendre un couloir",
+          "description": "A Lake Louise, Alexis et Thomas tentent la descente d'un couloir. Avant de se lancer, Alexis doit peaufiner sa technique en station de ski alpin. C'est l'occasion de découvrir l'histoire du tourisme de ski au Canada et ses conséquences.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5Monde.fr",
+            "name": "TV5 Monde",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
+            "slug": "tv5-monde",
+            "is_free": false
+          },
+          "start": "2026-04-23T09:15:00+02:00",
+          "end": "2026-04-23T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "605abfb8d7e6",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Burnley / Manchester City",
+          "subtitle": "Premier League - 34e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Burnley",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-23T09:16:00+02:00",
+          "end": "2026-04-23T10:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b40419329f76",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-04-23T09:30:00+02:00",
+          "end": "2026-04-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "39d310361ebf",
+          "sport": "f1",
+          "competition": "Grand Prix",
+          "title": "Escrime : Grand Prix",
+          "subtitle": "Escrime",
+          "description": "Retransmission d'un Grand Prix d'escrime, une des étapes de la Coupe du monde de cette discipline.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-23T10:00:00+02:00",
+          "end": "2026-04-23T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3bd4dea55225",
+          "sport": "handball",
+          "competition": null,
+          "title": "7e journée. 8e match - Dinan - Nanterre",
+          "subtitle": "Championnat de France Division 1",
+          "description": "Une immersion dans les compétitions nationales de foot-fauteuil, mettant en lumière les performances des équipes engagées, les enjeux sportifs, et les histoires des joueurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-04-23T10:00:00+02:00",
+          "end": "2026-04-23T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a75d1749a025",
+          "sport": "basket",
+          "competition": null,
+          "title": "Afrobasket",
+          "subtitle": "Mag. Basket-ball",
+          "description": "Toute l'actualité et toutes les informations autour du championnat d'Afrique de basket-ball.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ORTB.af",
+            "name": "ORTB",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180207/canal-ouah/CHN43FN/BENINTV_640x480-2k7s?=.png",
+            "slug": "ortb",
+            "is_free": false
+          },
+          "start": "2026-04-23T10:15:00+02:00",
+          "end": "2026-04-23T10:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
