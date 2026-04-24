@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-24T02:23:57.926700+00:00",
+    "generated_at": "2026-04-24T06:06:25.530079+00:00",
     "total_events": 1086,
     "total_days": 7,
     "sports": [
@@ -23,26 +23,6 @@
     ],
     "channels": [
       {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
         "slug": "eurosport-2",
         "name": "Eurosport 2",
         "is_free": false
@@ -51,31 +31,6 @@
         "slug": "canal-plus-sport-4",
         "name": "Canal+ Sport 4",
         "is_free": false
-      },
-      {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
       },
       {
         "slug": "canal-plus-sport-2",
@@ -98,8 +53,33 @@
         "is_free": false
       },
       {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
+        "is_free": false
+      },
+      {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -143,8 +123,18 @@
         "is_free": false
       },
       {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
         "is_free": false
       },
       {
@@ -238,9 +228,19 @@
         "is_free": false
       },
       {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
         "slug": "motorvision-tv",
         "name": "MotorVision TV",
         "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "bein-3",
@@ -585,336 +585,6 @@
       "event_count": 130,
       "events": [
         {
-          "id": "e6fd1cf5d691",
-          "sport": "football",
-          "competition": null,
-          "title": "Repêchage NFL 2026 - 1re ronde",
-          "subtitle": "1re ronde",
-          "description": "En provenance de Pittsburgh.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-04-24T02:00:00+02:00",
-          "end": "2026-04-24T05:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d1e038570526",
-          "sport": "equitation",
-          "competition": null,
-          "title": "Prix de la région Auvergne Rhône-Alpes",
-          "subtitle": "Jumping international de Bourg-e...",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-04-24T02:36:00+02:00",
-          "end": "2026-04-24T05:24:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1c2e54cfcccc",
-          "sport": "football",
-          "competition": null,
-          "title": "FC Bruges U19 - Real Madrid U19",
-          "subtitle": null,
-          "description": "Finale de l'UEFA Youth League : FC Bruges U19 - Real Madrid U19.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-24T02:40:00+02:00",
-          "end": "2026-04-24T04:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ed32389d439d",
-          "sport": "football",
-          "competition": null,
-          "title": "Club Brugge U19 - Real Madrid U19",
-          "subtitle": null,
-          "description": "Finale van de UEFA Youth League: Club Brugge U19 - Real Madrid U19.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-04-24T02:40:00+02:00",
-          "end": "2026-04-24T04:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "60d5fa513e5e",
-          "sport": "cyclisme",
-          "competition": "Tour des Alpes",
-          "title": "Cyclisme : Tour des Alpes",
-          "subtitle": "Cyclisme",
-          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-24T03:00:00+02:00",
-          "end": "2026-04-24T04:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1a6cb88d3c7f",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Valence-Romans / Brive",
-          "subtitle": "Pro D2 - 28e journée",
-          "description": "A l'approche du sprint final de la saison régulière, Valence Romans et Brive s'affrontent dans un duel important de la 28e journée de Pro D2. Au coude à coude dans le haut du classement, les deux équipes aux ambitions affirmées se retrouvent pour un rendez-vous qui peut peser lourd dans la course aux phases finales. Entre envie de se rassurer, de confirmer et de prendre un ascendant sur un concurrent direct, l'enjeu s'annonce de taille dans la Drôme.",
-          "team1": {
-            "name": "Valence-Romans",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "CA Brive",
-            "type": "club",
-            "short": "Brive",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2571.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-24T03:07:00+02:00",
-          "end": "2026-04-24T04:57:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "135ee3c99f04",
-          "sport": "other",
-          "competition": null,
-          "title": "Historia que tú hiciste",
-          "subtitle": "La Décima. Final Champions League 2013/2014. Real Madrid-At. Madrid",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-04-24T03:20:00+02:00",
-          "end": "2026-04-24T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "53942a479516",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Aryna Sabalenka - Elena Rybakina",
-          "subtitle": "Open d'Australie | Finale (F)",
-          "description": "Qui va succéder au palmarès de l'Open d'Australie à l'Américaine Madison Keys, victorieuse, l'an dernier en finale, de la Biélorusse Aryna Sabalenka, numéro un mondiale ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-24T04:30:00+02:00",
-          "end": "2026-04-24T06:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bc9c89c44e51",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Arco - Trente (167,8 km)",
-          "subtitle": "Tour des Alpes - 4e étape",
-          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-04-24T05:00:00+02:00",
-          "end": "2026-04-24T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5c19d58f1c6a",
-          "sport": "cyclisme",
-          "competition": "Tour des Alpes",
-          "title": "Cyclisme : Tour des Alpes",
-          "subtitle": "Cyclisme",
-          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-04-24T05:00:00+02:00",
-          "end": "2026-04-24T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f17f32366810",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Everton / Liverpool",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-24T06:00:00+02:00",
-          "end": "2026-04-24T08:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fc3faf1a9bba",
-          "sport": "other",
-          "competition": null,
-          "title": "Le P'tit Pac",
-          "subtitle": "Saison 3 - Episode 8",
-          "description": "Un jeu dérivé du célèbre \\\" Petit Bac \\\" qui va mettre vos connaissances à l'épreuve ! Cette semaine, Florence Gall, Raphaëlle Cordes, Axel Clerget et Arnaud Ramsay !",
-          "team1": {
-            "name": "Saison 3",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 8",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-04-24T06:42:00+02:00",
-          "end": "2026-04-24T07:42:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "978334e8d8f9",
           "sport": "cyclisme",
           "competition": "Tour des Alpes",
@@ -932,7 +602,7 @@
           },
           "start": "2026-04-24T07:00:00+02:00",
           "end": "2026-04-24T08:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -970,7 +640,7 @@
           },
           "start": "2026-04-24T07:08:00+02:00",
           "end": "2026-04-24T09:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1008,7 +678,7 @@
           },
           "start": "2026-04-24T07:14:00+02:00",
           "end": "2026-04-24T08:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1046,7 +716,7 @@
           },
           "start": "2026-04-24T07:20:00+02:00",
           "end": "2026-04-24T09:07:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1084,7 +754,7 @@
           },
           "start": "2026-04-24T07:34:00+02:00",
           "end": "2026-04-24T09:18:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1122,7 +792,7 @@
           },
           "start": "2026-04-24T07:42:00+02:00",
           "end": "2026-04-24T09:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1146,7 +816,7 @@
           },
           "start": "2026-04-24T07:50:00+02:00",
           "end": "2026-04-24T09:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1170,7 +840,7 @@
           },
           "start": "2026-04-24T07:50:00+02:00",
           "end": "2026-04-24T09:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4411,6 +4081,30 @@
           "result": null
         },
         {
+          "id": "e6fd1cf5d691",
+          "sport": "football",
+          "competition": null,
+          "title": "Repêchage NFL 2026 - 1re ronde",
+          "subtitle": "1re ronde",
+          "description": "En provenance de Pittsburgh.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-04-24T02:00:00+02:00",
+          "end": "2026-04-24T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "cb5126b4f596",
           "sport": "f1",
           "competition": null,
@@ -4535,6 +4229,78 @@
           "result": null
         },
         {
+          "id": "d1e038570526",
+          "sport": "equitation",
+          "competition": null,
+          "title": "Prix de la région Auvergne Rhône-Alpes",
+          "subtitle": "Jumping international de Bourg-e...",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-04-24T02:36:00+02:00",
+          "end": "2026-04-24T05:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1c2e54cfcccc",
+          "sport": "football",
+          "competition": null,
+          "title": "FC Bruges U19 - Real Madrid U19",
+          "subtitle": null,
+          "description": "Finale de l'UEFA Youth League : FC Bruges U19 - Real Madrid U19.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-24T02:40:00+02:00",
+          "end": "2026-04-24T04:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ed32389d439d",
+          "sport": "football",
+          "competition": null,
+          "title": "Club Brugge U19 - Real Madrid U19",
+          "subtitle": null,
+          "description": "Finale van de UEFA Youth League: Club Brugge U19 - Real Madrid U19.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-04-24T02:40:00+02:00",
+          "end": "2026-04-24T04:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "aa6754c95628",
           "sport": "other",
           "competition": null,
@@ -4552,6 +4318,240 @@
           },
           "start": "2026-04-24T02:50:00+02:00",
           "end": "2026-04-24T03:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "60d5fa513e5e",
+          "sport": "cyclisme",
+          "competition": "Tour des Alpes",
+          "title": "Cyclisme : Tour des Alpes",
+          "subtitle": "Cyclisme",
+          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-24T03:00:00+02:00",
+          "end": "2026-04-24T04:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1a6cb88d3c7f",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Valence-Romans / Brive",
+          "subtitle": "Pro D2 - 28e journée",
+          "description": "A l'approche du sprint final de la saison régulière, Valence Romans et Brive s'affrontent dans un duel important de la 28e journée de Pro D2. Au coude à coude dans le haut du classement, les deux équipes aux ambitions affirmées se retrouvent pour un rendez-vous qui peut peser lourd dans la course aux phases finales. Entre envie de se rassurer, de confirmer et de prendre un ascendant sur un concurrent direct, l'enjeu s'annonce de taille dans la Drôme.",
+          "team1": {
+            "name": "Valence-Romans",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "CA Brive",
+            "type": "club",
+            "short": "Brive",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2571.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-24T03:07:00+02:00",
+          "end": "2026-04-24T04:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "135ee3c99f04",
+          "sport": "other",
+          "competition": null,
+          "title": "Historia que tú hiciste",
+          "subtitle": "La Décima. Final Champions League 2013/2014. Real Madrid-At. Madrid",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-04-24T03:20:00+02:00",
+          "end": "2026-04-24T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "53942a479516",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Aryna Sabalenka - Elena Rybakina",
+          "subtitle": "Open d'Australie | Finale (F)",
+          "description": "Qui va succéder au palmarès de l'Open d'Australie à l'Américaine Madison Keys, victorieuse, l'an dernier en finale, de la Biélorusse Aryna Sabalenka, numéro un mondiale ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-24T04:30:00+02:00",
+          "end": "2026-04-24T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bc9c89c44e51",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Arco - Trente (167,8 km)",
+          "subtitle": "Tour des Alpes - 4e étape",
+          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-04-24T05:00:00+02:00",
+          "end": "2026-04-24T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5c19d58f1c6a",
+          "sport": "cyclisme",
+          "competition": "Tour des Alpes",
+          "title": "Cyclisme : Tour des Alpes",
+          "subtitle": "Cyclisme",
+          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-04-24T05:00:00+02:00",
+          "end": "2026-04-24T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f17f32366810",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Everton / Liverpool",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-24T06:00:00+02:00",
+          "end": "2026-04-24T08:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fc3faf1a9bba",
+          "sport": "other",
+          "competition": null,
+          "title": "Le P'tit Pac",
+          "subtitle": "Saison 3 - Episode 8",
+          "description": "Un jeu dérivé du célèbre \\\" Petit Bac \\\" qui va mettre vos connaissances à l'épreuve ! Cette semaine, Florence Gall, Raphaëlle Cordes, Axel Clerget et Arnaud Ramsay !",
+          "team1": {
+            "name": "Saison 3",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 8",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-04-24T06:42:00+02:00",
+          "end": "2026-04-24T07:42:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
