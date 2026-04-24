@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-24T09:28:35.126723+00:00",
+    "generated_at": "2026-04-24T13:17:11.249359+00:00",
     "total_events": 1086,
     "total_days": 7,
     "sports": [
@@ -23,68 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
         "slug": "eurosport-360-1",
         "name": "Eurosport 360 - 1",
-        "is_free": false
-      },
-      {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
-        "is_free": false
-      },
-      {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-europe",
-        "name": "TV5 Monde Europe",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -100,6 +40,31 @@
       {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -133,8 +98,23 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "srf-zwei",
         "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -198,6 +178,16 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
+        "is_free": false
+      },
+      {
         "slug": "vosges-tv",
         "name": "Vosges tv",
         "is_free": false
@@ -240,6 +230,16 @@
       {
         "slug": "tv5-monde-asie",
         "name": "TV5 Monde Asie",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-europe",
+        "name": "TV5 Monde Europe",
         "is_free": false
       },
       {
@@ -585,478 +585,6 @@
       "event_count": 130,
       "events": [
         {
-          "id": "64592840d9f6",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Chelsea / Manchester United",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Match de haut de tableau en Premier League : les Blues de Chelsea vont tenter de consolider leur place dans le Top 6, à l'occasion de la réception des Reds Devils de Manchester United, à la lutte pour la 3e place, avec Aston Villa. Lors du match aller en septembre dernier, les Mancuniens s'étaient imposés (2-1) à Old Trafford.",
-          "team1": {
-            "name": "Chelsea FC",
-            "type": "club",
-            "short": "Chelsea",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-24T09:45:00+02:00",
-          "end": "2026-04-24T11:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8b83d693f13f",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Celta Vigo",
-          "subtitle": "Liga - 33e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Celta Vigo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-24T09:59:00+02:00",
-          "end": "2026-04-24T11:47:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "37ab14ac65e4",
-          "sport": "basket",
-          "competition": "NBA - Playoffs",
-          "title": "San Antonio Spurs / Portland Trail Blazers",
-          "subtitle": "NBA - Playoffs. 1er tour. 2e match",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Portland Trail Blazers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-24T10:58:00+02:00",
-          "end": "2026-04-24T13:23:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "888dcf7e687e",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-04-24T11:00:00+02:00",
-          "end": "2026-04-24T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "590219534c55",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Confirmer sa suprématie. Après avoir pulvérisé les Sixers lors du Game 1 avec un écart abyssal de 32 points (123-91), les Celtics abordent cette rencontre avec une confiance absolue. Porté par une défense de fer et l'incontournable duo Jayson Tatum - Jaylen Brown (51 points cumulés), Boston a livré une partition frôlant la perfection. Forts d'une maîtrise collective totale et d'une adresse insolente, les C's entendent bien doubler la mise pour s'envoler dans cette série et confirmer leur statut de grand favori à l'Est. En face, Philadelphie est déjà en mode alerte rouge. Toujours privés de leur pivot star, Joel Embiid, les Sixers ont paru totalement dépassés par l'intensité physique des locaux lors du premier affrontement.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-04-24T11:00:00+02:00",
-          "end": "2026-04-24T12:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "409ea13fbc59",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Paris-SG / Saint-Etienne",
-          "subtitle": "Arkema Première Ligue - 20e jour...",
-          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Saint-Étienne",
-            "type": "club",
-            "short": "ASSE",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-24T11:29:00+02:00",
-          "end": "2026-04-24T13:09:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e2ee75aac905",
-          "sport": "golf",
-          "competition": null,
-          "title": "1er tour",
-          "subtitle": "Open de La Nouvelle-Orléans",
-          "description": "Diffusion de l'Open de la Nouvelle-Orléans, un tournoi de l'US Tour de golf. La première édition de cette compétition a eu lieu dès 1938. Ce tournoi se dispute au TPC of Louisana de La Nouvelle-Orléans, et attire les meilleurs golfeurs qui viennent essayer d'y remporter un trophée prestigieux et très convoité.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-04-24T11:32:00+02:00",
-          "end": "2026-04-24T14:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7de6f61818cb",
-          "sport": "football",
-          "competition": null,
-          "title": "Bayern Munich - Real Madrid",
-          "subtitle": null,
-          "description": "Match retour des quarts de finale de l'UEFA Champions League : Bayern Munich - Real Madrid.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-24T11:40:00+02:00",
-          "end": "2026-04-24T13:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "91797c190995",
-          "sport": "football",
-          "competition": null,
-          "title": "Bayern München - Real Madrid",
-          "subtitle": null,
-          "description": "Terugwedstrijd van de kwartfinales in de UEFA Champions League: Bayern München - Real Madrid.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-04-24T11:40:00+02:00",
-          "end": "2026-04-24T13:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "add68044a202",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Deportivo Alavés",
-          "subtitle": "Liga - 33e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Deportivo Alavés",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-24T11:47:00+02:00",
-          "end": "2026-04-24T13:32:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8ef41d4b6729",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Nantes / Strasbourg",
-          "subtitle": null,
-          "description": "Match de la 27ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant FC NANTES et STRASBOURG.",
-          "team1": {
-            "name": "FC Nantes",
-            "type": "club",
-            "short": "Nantes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-24T12:00:00+02:00",
-          "end": "2026-04-24T13:53:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3179a14b3c38",
-          "sport": "other",
-          "competition": null,
-          "title": "Ligue 1 McDonald's - Face au jeu",
-          "subtitle": "PSG : des coups de pied pas si arrêtés",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeEurope.fr",
-            "name": "TV5 Monde Europe",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-232.png",
-            "slug": "tv5-monde-europe",
-            "is_free": false
-          },
-          "start": "2026-04-24T12:15:18+02:00",
-          "end": "2026-04-24T12:24:37+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9c8a39cce05b",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Valence-Romans / Brive",
-          "subtitle": "Pro D2 - 28e journée",
-          "description": "A l'approche du sprint final de la saison régulière, Valence Romans et Brive s'affrontent dans un duel important de la 28e journée de Pro D2. Au coude à coude dans le haut du classement, les deux équipes aux ambitions affirmées se retrouvent pour un rendez-vous qui peut peser lourd dans la course aux phases finales. Entre envie de se rassurer, de confirmer et de prendre un ascendant sur un concurrent direct, l'enjeu s'annonce de taille dans la Drôme.",
-          "team1": {
-            "name": "Valence-Romans",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "CA Brive",
-            "type": "club",
-            "short": "Brive",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2571.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-24T12:19:00+02:00",
-          "end": "2026-04-24T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "48a9cbc54351",
-          "sport": "cyclisme",
-          "competition": "Tour des Alpes",
-          "title": "Cyclisme : Tour des Alpes",
-          "subtitle": "Cyclisme",
-          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-24T12:30:00+02:00",
-          "end": "2026-04-24T13:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "94dafd8d2796",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Celta Vigo",
-          "subtitle": "Liga - 33e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Celta Vigo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-24T12:45:00+02:00",
-          "end": "2026-04-24T15:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "9de5e4d3a87e",
           "sport": "tennis",
           "competition": "Masters 1000 de Madrid",
@@ -1074,7 +602,7 @@
           },
           "start": "2026-04-24T13:00:00+02:00",
           "end": "2026-04-24T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1098,7 +626,7 @@
           },
           "start": "2026-04-24T13:00:00+02:00",
           "end": "2026-04-24T15:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1122,7 +650,7 @@
           },
           "start": "2026-04-24T13:00:00+02:00",
           "end": "2026-04-24T21:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1146,7 +674,7 @@
           },
           "start": "2026-04-24T13:00:00+02:00",
           "end": "2026-04-24T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1170,7 +698,7 @@
           },
           "start": "2026-04-24T13:32:00+02:00",
           "end": "2026-04-24T15:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1194,7 +722,7 @@
           },
           "start": "2026-04-24T13:35:00+02:00",
           "end": "2026-04-24T15:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1218,7 +746,7 @@
           },
           "start": "2026-04-24T13:35:00+02:00",
           "end": "2026-04-24T15:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1256,7 +784,7 @@
           },
           "start": "2026-04-24T14:00:00+02:00",
           "end": "2026-04-24T15:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1294,7 +822,7 @@
           },
           "start": "2026-04-24T14:11:00+02:00",
           "end": "2026-04-24T15:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1332,7 +860,7 @@
           },
           "start": "2026-04-24T14:14:00+02:00",
           "end": "2026-04-24T15:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1356,7 +884,7 @@
           },
           "start": "2026-04-24T14:16:00+02:00",
           "end": "2026-04-24T16:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1380,7 +908,7 @@
           },
           "start": "2026-04-24T14:30:00+02:00",
           "end": "2026-04-24T18:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1404,7 +932,7 @@
           },
           "start": "2026-04-24T14:30:00+02:00",
           "end": "2026-04-24T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1442,7 +970,7 @@
           },
           "start": "2026-04-24T14:45:00+02:00",
           "end": "2026-04-24T16:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1466,7 +994,7 @@
           },
           "start": "2026-04-24T15:00:00+02:00",
           "end": "2026-04-24T17:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1504,7 +1032,7 @@
           },
           "start": "2026-04-24T15:05:00+02:00",
           "end": "2026-04-24T17:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4535,6 +4063,82 @@
           "result": null
         },
         {
+          "id": "64592840d9f6",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Chelsea / Manchester United",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Match de haut de tableau en Premier League : les Blues de Chelsea vont tenter de consolider leur place dans le Top 6, à l'occasion de la réception des Reds Devils de Manchester United, à la lutte pour la 3e place, avec Aston Villa. Lors du match aller en septembre dernier, les Mancuniens s'étaient imposés (2-1) à Old Trafford.",
+          "team1": {
+            "name": "Chelsea FC",
+            "type": "club",
+            "short": "Chelsea",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-24T09:45:00+02:00",
+          "end": "2026-04-24T11:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8b83d693f13f",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Celta Vigo",
+          "subtitle": "Liga - 33e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Celta Vigo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-24T09:59:00+02:00",
+          "end": "2026-04-24T11:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "b275c8ee3df7",
           "sport": "other",
           "competition": null,
@@ -4552,6 +4156,402 @@
           },
           "start": "2026-04-24T10:22:19+02:00",
           "end": "2026-04-24T10:30:34+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "37ab14ac65e4",
+          "sport": "basket",
+          "competition": "NBA - Playoffs",
+          "title": "San Antonio Spurs / Portland Trail Blazers",
+          "subtitle": "NBA - Playoffs. 1er tour. 2e match",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Portland Trail Blazers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-24T10:58:00+02:00",
+          "end": "2026-04-24T13:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "888dcf7e687e",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-04-24T11:00:00+02:00",
+          "end": "2026-04-24T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "590219534c55",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Confirmer sa suprématie. Après avoir pulvérisé les Sixers lors du Game 1 avec un écart abyssal de 32 points (123-91), les Celtics abordent cette rencontre avec une confiance absolue. Porté par une défense de fer et l'incontournable duo Jayson Tatum - Jaylen Brown (51 points cumulés), Boston a livré une partition frôlant la perfection. Forts d'une maîtrise collective totale et d'une adresse insolente, les C's entendent bien doubler la mise pour s'envoler dans cette série et confirmer leur statut de grand favori à l'Est. En face, Philadelphie est déjà en mode alerte rouge. Toujours privés de leur pivot star, Joel Embiid, les Sixers ont paru totalement dépassés par l'intensité physique des locaux lors du premier affrontement.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-04-24T11:00:00+02:00",
+          "end": "2026-04-24T12:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "409ea13fbc59",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Paris-SG / Saint-Etienne",
+          "subtitle": "Arkema Première Ligue - 20e jour...",
+          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Saint-Étienne",
+            "type": "club",
+            "short": "ASSE",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-24T11:29:00+02:00",
+          "end": "2026-04-24T13:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e2ee75aac905",
+          "sport": "golf",
+          "competition": null,
+          "title": "1er tour",
+          "subtitle": "Open de La Nouvelle-Orléans",
+          "description": "Diffusion de l'Open de la Nouvelle-Orléans, un tournoi de l'US Tour de golf. La première édition de cette compétition a eu lieu dès 1938. Ce tournoi se dispute au TPC of Louisana de La Nouvelle-Orléans, et attire les meilleurs golfeurs qui viennent essayer d'y remporter un trophée prestigieux et très convoité.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-04-24T11:32:00+02:00",
+          "end": "2026-04-24T14:33:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7de6f61818cb",
+          "sport": "football",
+          "competition": null,
+          "title": "Bayern Munich - Real Madrid",
+          "subtitle": null,
+          "description": "Match retour des quarts de finale de l'UEFA Champions League : Bayern Munich - Real Madrid.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-24T11:40:00+02:00",
+          "end": "2026-04-24T13:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "91797c190995",
+          "sport": "football",
+          "competition": null,
+          "title": "Bayern München - Real Madrid",
+          "subtitle": null,
+          "description": "Terugwedstrijd van de kwartfinales in de UEFA Champions League: Bayern München - Real Madrid.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-04-24T11:40:00+02:00",
+          "end": "2026-04-24T13:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "add68044a202",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Deportivo Alavés",
+          "subtitle": "Liga - 33e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Deportivo Alavés",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-24T11:47:00+02:00",
+          "end": "2026-04-24T13:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8ef41d4b6729",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Nantes / Strasbourg",
+          "subtitle": null,
+          "description": "Match de la 27ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant FC NANTES et STRASBOURG.",
+          "team1": {
+            "name": "FC Nantes",
+            "type": "club",
+            "short": "Nantes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-24T12:00:00+02:00",
+          "end": "2026-04-24T13:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3179a14b3c38",
+          "sport": "other",
+          "competition": null,
+          "title": "Ligue 1 McDonald's - Face au jeu",
+          "subtitle": "PSG : des coups de pied pas si arrêtés",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeEurope.fr",
+            "name": "TV5 Monde Europe",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-232.png",
+            "slug": "tv5-monde-europe",
+            "is_free": false
+          },
+          "start": "2026-04-24T12:15:18+02:00",
+          "end": "2026-04-24T12:24:37+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9c8a39cce05b",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Valence-Romans / Brive",
+          "subtitle": "Pro D2 - 28e journée",
+          "description": "A l'approche du sprint final de la saison régulière, Valence Romans et Brive s'affrontent dans un duel important de la 28e journée de Pro D2. Au coude à coude dans le haut du classement, les deux équipes aux ambitions affirmées se retrouvent pour un rendez-vous qui peut peser lourd dans la course aux phases finales. Entre envie de se rassurer, de confirmer et de prendre un ascendant sur un concurrent direct, l'enjeu s'annonce de taille dans la Drôme.",
+          "team1": {
+            "name": "Valence-Romans",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "CA Brive",
+            "type": "club",
+            "short": "Brive",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2571.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-24T12:19:00+02:00",
+          "end": "2026-04-24T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "48a9cbc54351",
+          "sport": "cyclisme",
+          "competition": "Tour des Alpes",
+          "title": "Cyclisme : Tour des Alpes",
+          "subtitle": "Cyclisme",
+          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-24T12:30:00+02:00",
+          "end": "2026-04-24T13:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "94dafd8d2796",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Celta Vigo",
+          "subtitle": "Liga - 33e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Celta Vigo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-24T12:45:00+02:00",
+          "end": "2026-04-24T15:05:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
