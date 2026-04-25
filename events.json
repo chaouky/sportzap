@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T05:46:46.479113+00:00",
+    "generated_at": "2026-04-25T08:49:16.765621+00:00",
     "total_events": 1104,
     "total_days": 7,
     "sports": [
@@ -23,13 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
+        "slug": "eurosport-360-13",
+        "name": "EUROSPORT 360 13",
         "is_free": false
       },
       {
@@ -38,43 +33,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-13",
-        "name": "EUROSPORT 360 13",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -83,8 +43,13 @@
         "is_free": false
       },
       {
-        "slug": "tv5mondemaghreborient-fr",
-        "name": "TV5MondeMaghrebOrient.fr",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
         "is_free": false
       },
       {
@@ -100,6 +65,16 @@
       {
         "slug": "golf",
         "name": "Golf+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Premier League",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
@@ -223,8 +198,18 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "canal-docs",
         "name": "Canal+ Docs",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -338,6 +323,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
         "is_free": false
@@ -345,6 +335,16 @@
       {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "tv5mondemaghreborient-fr",
+        "name": "TV5MondeMaghrebOrient.fr",
         "is_free": false
       },
       {
@@ -575,196 +575,6 @@
       "event_count": 178,
       "events": [
         {
-          "id": "dd2f70eae8fe",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Brentford / Fulham",
-          "subtitle": "Premier League - 33e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-25T06:14:00+02:00",
-          "end": "2026-04-25T07:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0d454be4a374",
-          "sport": "basket",
-          "competition": "NBA - Playoffs",
-          "title": "San Antonio Spurs / Portland Trail Blazers",
-          "subtitle": "NBA - Playoffs. 1er tour. 2e match",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Portland Trail Blazers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-04-25T06:32:00+02:00",
-          "end": "2026-04-25T08:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d5763496901c",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Paris-SG / Nantes",
-          "subtitle": "Ligue 1 McDonald's - 26e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Nantes",
-            "type": "club",
-            "short": "Nantes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-25T06:40:00+02:00",
-          "end": "2026-04-25T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a52323ed63a1",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Arsenal",
-          "subtitle": "Premier League - 33e journée",
-          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-25T07:03:00+02:00",
-          "end": "2026-04-25T08:46:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c58901a5d4d0",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Oyonnax / Agen",
-          "subtitle": "Pro D2 - 28e journée",
-          "description": "Oyonnax et Agen se retrouvent pour un duel capital de la 28e journée de Pro D2. A l'approche du sprint final de la saison régulière, les deux équipes sont engagées dans la lutte pour le top 6, synonyme de qualification pour les barrages. Dans ce face-à-face entre concurrents directs, l'enjeu sera donc de taille pour rester dans la course. A l'aller, Oyonnax s'était imposé à Agen et voudra confirmer et prendre un avantage précieux avant les dernières échéances.",
-          "team1": {
-            "name": "Oyonnax",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "SU Agen",
-            "type": "club",
-            "short": "Agen",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-25T07:36:00+02:00",
-          "end": "2026-04-25T09:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "e38780d20c2e",
           "sport": "f1",
           "competition": "Grand Prix de Monaco historique",
@@ -783,192 +593,6 @@
           "start": "2026-04-25T07:40:00+02:00",
           "end": "2026-04-25T13:30:00+02:00",
           "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "01a7fe6641c9",
-          "sport": "football",
-          "competition": null,
-          "title": "Liverpool - Paris Saint-Germain",
-          "subtitle": null,
-          "description": "Match retour des quarts de finale de l'UEFA Champions League : Liverpool - Paris Saint-Germain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-25T07:50:00+02:00",
-          "end": "2026-04-25T09:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "03a665a00a2c",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Trente - Bolzano (128,6 km)",
-          "subtitle": "Tour des Alpes - 5e étape",
-          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-04-25T08:30:00+02:00",
-          "end": "2026-04-25T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dc3222c159cb",
-          "sport": "cyclisme",
-          "competition": "Tour des Alpes",
-          "title": "Cyclisme : Tour des Alpes",
-          "subtitle": "Cyclisme",
-          "description": "C'est l'heure de l'épilogue pour cette édition 2026 du Tour des Alpes. La dernière étape est la plus courte des cinq au programme, avec 128,6 km entre Trente et Bolzano.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-04-25T08:30:00+02:00",
-          "end": "2026-04-25T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f70290a155c6",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Biarritz / Colomiers",
-          "subtitle": "Pro D2 - 28e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "Biarritz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Colomiers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-25T08:45:00+02:00",
-          "end": "2026-04-25T10:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "453e07ad2636",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Marseille / FC Nantes",
-          "subtitle": "Arkema Première Ligue - 20e jour...",
-          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Nantes",
-            "type": "club",
-            "short": "Nantes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-25T08:46:00+02:00",
-          "end": "2026-04-25T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5da9d14d97af",
-          "sport": "other",
-          "competition": "Match de préparation au champion",
-          "title": "Team Suisse / Hongrie",
-          "subtitle": "Match de préparation au champion...",
-          "description": "Retransmission d'un match amical des équipes nationales de hockey sur glace. C'est souvent l'unique opportunité pour elles de jouer contre des nations d'autres continents et de bien se préparer pour une compétition importante.",
-          "team1": {
-            "name": "Team Suisse",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hongrie",
-            "type": "country",
-            "short": null,
-            "country_code": "hu",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-04-25T09:00:00+02:00",
-          "end": "2026-04-25T10:45:00+02:00",
-          "status": "upcoming",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1006,7 +630,7 @@
           },
           "start": "2026-04-25T09:05:00+02:00",
           "end": "2026-04-25T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1044,7 +668,7 @@
           },
           "start": "2026-04-25T09:15:00+02:00",
           "end": "2026-04-25T11:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1082,7 +706,7 @@
           },
           "start": "2026-04-25T09:40:00+02:00",
           "end": "2026-04-25T11:39:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1120,31 +744,7 @@
           },
           "start": "2026-04-25T10:30:00+02:00",
           "end": "2026-04-25T12:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c7516b5ab1ec",
-          "sport": "other",
-          "competition": null,
-          "title": "Ligue 1 McDonald's - Face au jeu",
-          "subtitle": "OM/PSG : pressing tout terrain",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeMaghrebOrient.fr",
-            "name": "TV5MondeMaghrebOrient.fr",
-            "icon_url": null,
-            "slug": "tv5mondemaghreborient-fr",
-            "is_free": false
-          },
-          "start": "2026-04-25T10:36:32+02:00",
-          "end": "2026-04-25T10:46:59+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1168,7 +768,7 @@
           },
           "start": "2026-04-25T10:45:00+02:00",
           "end": "2026-04-25T11:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6083,6 +5683,120 @@
           "result": null
         },
         {
+          "id": "dd2f70eae8fe",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Brentford / Fulham",
+          "subtitle": "Premier League - 33e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-25T06:14:00+02:00",
+          "end": "2026-04-25T07:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0d454be4a374",
+          "sport": "basket",
+          "competition": "NBA - Playoffs",
+          "title": "San Antonio Spurs / Portland Trail Blazers",
+          "subtitle": "NBA - Playoffs. 1er tour. 2e match",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Portland Trail Blazers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-04-25T06:32:00+02:00",
+          "end": "2026-04-25T08:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d5763496901c",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Paris-SG / Nantes",
+          "subtitle": "Ligue 1 McDonald's - 26e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Nantes",
+            "type": "club",
+            "short": "Nantes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-25T06:40:00+02:00",
+          "end": "2026-04-25T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "c0d14313129c",
           "sport": "other",
           "competition": null,
@@ -6114,6 +5828,292 @@
           },
           "start": "2026-04-25T06:40:00+02:00",
           "end": "2026-04-25T06:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a52323ed63a1",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Arsenal",
+          "subtitle": "Premier League - 33e journée",
+          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-25T07:03:00+02:00",
+          "end": "2026-04-25T08:46:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c58901a5d4d0",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Oyonnax / Agen",
+          "subtitle": "Pro D2 - 28e journée",
+          "description": "Oyonnax et Agen se retrouvent pour un duel capital de la 28e journée de Pro D2. A l'approche du sprint final de la saison régulière, les deux équipes sont engagées dans la lutte pour le top 6, synonyme de qualification pour les barrages. Dans ce face-à-face entre concurrents directs, l'enjeu sera donc de taille pour rester dans la course. A l'aller, Oyonnax s'était imposé à Agen et voudra confirmer et prendre un avantage précieux avant les dernières échéances.",
+          "team1": {
+            "name": "Oyonnax",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "SU Agen",
+            "type": "club",
+            "short": "Agen",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2567.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-25T07:36:00+02:00",
+          "end": "2026-04-25T09:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "01a7fe6641c9",
+          "sport": "football",
+          "competition": null,
+          "title": "Liverpool - Paris Saint-Germain",
+          "subtitle": null,
+          "description": "Match retour des quarts de finale de l'UEFA Champions League : Liverpool - Paris Saint-Germain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-25T07:50:00+02:00",
+          "end": "2026-04-25T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "03a665a00a2c",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Trente - Bolzano (128,6 km)",
+          "subtitle": "Tour des Alpes - 5e étape",
+          "description": "Course par étapes qui se déroule en Italie et en Autriche, le Tour des Alpes, dénommé Tour du Trentin jusqu'en 2017, propose des parcours montagneux, qui favorise très souvent les bons grimpeurs. L'épreuve sert généralement de préparation au Tour d'Italie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-04-25T08:30:00+02:00",
+          "end": "2026-04-25T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dc3222c159cb",
+          "sport": "cyclisme",
+          "competition": "Tour des Alpes",
+          "title": "Cyclisme : Tour des Alpes",
+          "subtitle": "Cyclisme",
+          "description": "C'est l'heure de l'épilogue pour cette édition 2026 du Tour des Alpes. La dernière étape est la plus courte des cinq au programme, avec 128,6 km entre Trente et Bolzano.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-04-25T08:30:00+02:00",
+          "end": "2026-04-25T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f70290a155c6",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Biarritz / Colomiers",
+          "subtitle": "Pro D2 - 28e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "Biarritz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Colomiers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-25T08:45:00+02:00",
+          "end": "2026-04-25T10:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "453e07ad2636",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Marseille / FC Nantes",
+          "subtitle": "Arkema Première Ligue - 20e jour...",
+          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Nantes",
+            "type": "club",
+            "short": "Nantes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-25T08:46:00+02:00",
+          "end": "2026-04-25T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5da9d14d97af",
+          "sport": "other",
+          "competition": "Match de préparation au champion",
+          "title": "Team Suisse / Hongrie",
+          "subtitle": "Match de préparation au champion...",
+          "description": "Retransmission d'un match amical des équipes nationales de hockey sur glace. C'est souvent l'unique opportunité pour elles de jouer contre des nations d'autres continents et de bien se préparer pour une compétition importante.",
+          "team1": {
+            "name": "Team Suisse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hongrie",
+            "type": "country",
+            "short": null,
+            "country_code": "hu",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-04-25T09:00:00+02:00",
+          "end": "2026-04-25T10:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c7516b5ab1ec",
+          "sport": "other",
+          "competition": null,
+          "title": "Ligue 1 McDonald's - Face au jeu",
+          "subtitle": "OM/PSG : pressing tout terrain",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeMaghrebOrient.fr",
+            "name": "TV5MondeMaghrebOrient.fr",
+            "icon_url": null,
+            "slug": "tv5mondemaghreborient-fr",
+            "is_free": false
+          },
+          "start": "2026-04-25T10:36:32+02:00",
+          "end": "2026-04-25T10:46:59+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
