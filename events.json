@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-27T13:45:31.758729+00:00",
+    "generated_at": "2026-04-27T17:19:14.291095+00:00",
     "total_events": 1146,
     "total_days": 7,
     "sports": [
@@ -22,73 +22,8 @@
     ],
     "channels": [
       {
-        "slug": "eurosport-360-1",
-        "name": "Eurosport 360 - 1",
-        "is_free": false
-      },
-      {
         "slug": "rds2",
         "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-12",
-        "name": "EUROSPORT 360 12",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-13",
-        "name": "EUROSPORT 360 13",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -97,23 +32,23 @@
         "is_free": false
       },
       {
-        "slug": "matele",
-        "name": "MaTele",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "tv-lux",
-        "name": "TV Lux",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
-        "slug": "motorvision-tv",
-        "name": "MotorVision TV",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
-        "slug": "trek",
-        "name": "TREK",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -127,6 +62,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-360-13",
+        "name": "EUROSPORT 360 13",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-international-1",
         "name": "Eurosport International 1",
         "is_free": false
@@ -137,8 +77,38 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-1",
+        "name": "Eurosport 360 - 1",
+        "is_free": false
+      },
+      {
+        "slug": "motorvision-tv",
+        "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus",
         "name": "Canal+ Live 1",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
@@ -149,6 +119,16 @@
       {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "matele",
+        "name": "MaTele",
+        "is_free": false
+      },
+      {
+        "slug": "tv-lux",
+        "name": "TV Lux",
         "is_free": false
       },
       {
@@ -169,6 +149,11 @@
       {
         "slug": "tv7-bordeaux",
         "name": "TV7 Bordeaux",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
         "is_free": false
       },
       {
@@ -214,6 +199,21 @@
       {
         "slug": "tv5mondeameriquelatine-fr",
         "name": "TV5MondeAmeriqueLatine.fr",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-12",
+        "name": "EUROSPORT 360 12",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -524,30 +524,6 @@
       "event_count": 146,
       "events": [
         {
-          "id": "2dbc7402f599",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-04-27T13:00:00+02:00",
-          "end": "2026-04-27T16:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "ad582f305dfe",
           "sport": "tennis",
           "competition": "Mutua Madrid Open 2026 - 3e ronde, ATP",
@@ -565,406 +541,6 @@
           },
           "start": "2026-04-27T13:00:00+02:00",
           "end": "2026-04-28T00:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b45b80e79de0",
-          "sport": "rugby",
-          "competition": "The Rugby Championship U20",
-          "title": "Nouvelle-Zélande / Australie",
-          "subtitle": "The Rugby Championship U20 - 1re...",
-          "description": "Pour cette première journée du Rugby Championship U20 2026, la Nouvelle-Zélande et l'Australie lancent les hostilités à Gqeberha, au Nelson Mandela Bay Stadium.",
-          "team1": {
-            "name": "Nouvelle-Zélande",
-            "type": "country",
-            "short": null,
-            "country_code": "nz",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Australie",
-            "type": "country",
-            "short": "Australie",
-            "country_code": "au",
-            "logo_url": "https://flagcdn.com/w80/au.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-27T13:55:00+02:00",
-          "end": "2026-04-27T15:57:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1e5f19238031",
-          "sport": "basket",
-          "competition": "NBA - Playoffs",
-          "title": "Toronto Raptors / Cleveland Cavaliers",
-          "subtitle": "NBA - Playoffs. 1er tour. 4e match",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Toronto Raptors",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cleveland Cavaliers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-27T14:00:00+02:00",
-          "end": "2026-04-27T16:03:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b08774e3c069",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Le Havre / Metz",
-          "subtitle": null,
-          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant HAVRE AC et FC METZ.",
-          "team1": {
-            "name": "Le Havre AC",
-            "type": "club",
-            "short": "Le Havre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Metz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-27T14:00:00+02:00",
-          "end": "2026-04-27T15:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "20c46c0bbb6d",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Burnley / Manchester City",
-          "subtitle": "Premier League - 34e journée",
-          "description": "Match des extrêmes entre des Clarets de Burnley, déjà condamnés à la relégation et des Cityzens de Manchester qui espèrent toujours disputer le titre aux Gunners d'Arsenal. Erling Haaland et Manchester City doivent à tout prix ramener les trois points de la victoire de Turf Moor, afin de rêver encore au sacre.",
-          "team1": {
-            "name": "Burnley",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-27T14:08:00+02:00",
-          "end": "2026-04-27T15:49:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "77ecd5c9b0d1",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Andres Cortes",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eridson Garcia",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-04-27T14:30:00+02:00",
-          "end": "2026-04-27T17:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bc6ad892dbe9",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "West Ham / Everton",
-          "subtitle": "Premier League - 34e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-27T14:50:00+02:00",
-          "end": "2026-04-27T16:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c4fa55d28bdc",
-          "sport": "handball",
-          "competition": "Ligue des champions féminine EHF",
-          "title": "Handball : Ligue des champions féminine EHF",
-          "subtitle": "Handball",
-          "description": "Retransmission des matchs de la Ligue des Champions féminine EHF, compétition de clubs de handball la plus importante en Europe. Organisée par la Fédération européenne de handball, la première saison de cette compétition a été jouée en 1961.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36012.fr",
-            "name": "EUROSPORT 360 12",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1108/canal-ouah/CHN43FB/CHN43FB_1108_20240716-n2Ka?=.png",
-            "slug": "eurosport-360-12",
-            "is_free": false
-          },
-          "start": "2026-04-27T15:00:00+02:00",
-          "end": "2026-04-27T17:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8163193c6814",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36013.fr",
-            "name": "EUROSPORT 360 13",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1109/canal-ouah/CHN43FB/CHN43FB_1109_20240716-fSFm?=.png",
-            "slug": "eurosport-360-13",
-            "is_free": false
-          },
-          "start": "2026-04-27T15:00:00+02:00",
-          "end": "2026-04-27T17:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "36c72c6239c1",
-          "sport": "basket",
-          "competition": null,
-          "title": "Antwerp Giants - Heroes Den Bosch",
-          "subtitle": null,
-          "description": "BNXT Basketball League : Antwerp Giants - Heroes Den Bosch.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-27T15:20:00+02:00",
-          "end": "2026-04-27T17:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "128082801121",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Young Boys Berne / Saint-Gall",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Young Boys Berne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Saint-Gall",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-27T15:25:00+02:00",
-          "end": "2026-04-27T18:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cdb664737694",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Stuttgart / Werder Brême",
-          "subtitle": "Bundesliga - 31e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Werder Brême",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-27T15:25:00+02:00",
-          "end": "2026-04-27T17:07:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ce91b03d0e4d",
-          "sport": "other",
-          "competition": null,
-          "title": "Rallye Club",
-          "subtitle": "Rallye Rhône-Charbonnières",
-          "description": "Deuxième manche du championnat de France des rallyes 2026 dans le Rhône. Raphaël Astier remporte sa première victoire au volant d'une Porsche après 40 départs, devançant le sextuple champion Yoann Bonato et Hugo Margaillan au terme d'un duel intense.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-04-27T15:30:00+02:00",
-          "end": "2026-04-27T16:00:00+02:00",
           "status": "live",
           "score1": null,
           "score2": null,
@@ -990,402 +566,6 @@
           "start": "2026-04-27T15:30:00+02:00",
           "end": "2026-04-27T20:30:00+02:00",
           "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c2cba1b473ae",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Newcastle",
-          "subtitle": "Premier League - 34e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-27T15:49:00+02:00",
-          "end": "2026-04-27T17:36:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7170476f0e3e",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:00:00+02:00",
-          "end": "2026-04-27T18:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bae166f280be",
-          "sport": "other",
-          "competition": null,
-          "title": "Xtra-balles",
-          "subtitle": null,
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MaTele.be",
-            "name": "MaTele",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
-            "slug": "matele",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:00:00+02:00",
-          "end": "2026-04-27T17:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1ee0fb45b35c",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:00:00+02:00",
-          "end": "2026-04-27T16:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "faff5c72ecd6",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Toulouse / Clermont",
-          "subtitle": "Top 14 - 22e journée",
-          "description": "Pour conclure la 22e journée, il y a de fortes chances que les hommes d'Ugo Mola veuillent accélérer encore le rythme, alors même qu'ils occupent la première place du classement.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "ASM Clermont",
-            "type": "club",
-            "short": "Clermont",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:03:00+02:00",
-          "end": "2026-04-27T17:43:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c1078bb1e2f8",
-          "sport": "rugby",
-          "competition": "The Rugby Championship U20",
-          "title": "Afrique du Sud / Argentine",
-          "subtitle": "The Rugby Championship U20 - 1re...",
-          "description": "Première journée du Rugby Championship U20 2026 avec une affiche entre l'Afrique du Sud et l'Argentine, deux nations ambitieuses qui veulent lancer idéalement leur tournoi. Battus de peu par les Néo-Zélandais lors de l'édition 2025, les jeunes Springboks tenteront de frapper fort d'entrée face à des Argentins toujours accrocheurs.",
-          "team1": {
-            "name": "Afrique Du Sud",
-            "type": "club",
-            "short": "Afrique Du Sud",
-            "country_code": "za",
-            "logo_url": "https://flagcdn.com/w80/za.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Argentine",
-            "type": "country",
-            "short": "Argentine",
-            "country_code": "ar",
-            "logo_url": "https://flagcdn.com/w80/ar.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:05:00+02:00",
-          "end": "2026-04-27T18:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a95a140f296d",
-          "sport": "f1",
-          "competition": null,
-          "title": "Rallye de Grande-Bretagne",
-          "subtitle": null,
-          "description": "The British Rally Championship brings edge-of-the-seat rally action across the UK, tackling gravel and asphalt stages with plenty of professional drivers vying for glory. Adrenaline-fueled competition at its core.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MotorVisionTV.fr",
-            "name": "MotorVision TV",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
-            "slug": "motorvision-tv",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:15:00+02:00",
-          "end": "2026-04-27T17:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a5b171716652",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Wolverhampton / Tottenham",
-          "subtitle": "Premier League - 34e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:35:00+02:00",
-          "end": "2026-04-27T18:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4fa3fcd56c11",
-          "sport": "other",
-          "competition": null,
-          "title": "Arnaud de Rosnay, au-delà du défi",
-          "subtitle": null,
-          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-04-27T16:46:00+02:00",
-          "end": "2026-04-27T17:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ebbee10d4966",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36013.fr",
-            "name": "EUROSPORT 360 13",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1109/canal-ouah/CHN43FB/CHN43FB_1109_20240716-fSFm?=.png",
-            "slug": "eurosport-360-13",
-            "is_free": false
-          },
-          "start": "2026-04-27T17:00:00+02:00",
-          "end": "2026-04-27T19:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cdf127a96136",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Brest / Lens",
-          "subtitle": null,
-          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant BREST et RC LENS.",
-          "team1": {
-            "name": "Stade Brestois",
-            "type": "club",
-            "short": "Brest",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-27T17:00:00+02:00",
-          "end": "2026-04-27T18:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "79816b39c281",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-04-27T17:00:00+02:00",
-          "end": "2026-04-27T17:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1ec0281d24a9",
-          "sport": "basket",
-          "competition": "Africa League - Conférence du Sa",
-          "title": "AS Ville / Al Ahly",
-          "subtitle": "Africa League - Conférence du Sa...",
-          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
-          "team1": {
-            "name": "AS Ville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Al Ahly",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-27T17:19:00+02:00",
-          "end": "2026-04-27T19:02:00+02:00",
-          "status": "upcoming",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1423,7 +603,7 @@
           },
           "start": "2026-04-27T17:36:00+02:00",
           "end": "2026-04-27T19:23:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1461,31 +641,7 @@
           },
           "start": "2026-04-27T17:43:00+02:00",
           "end": "2026-04-27T19:23:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "32a1fad7a3da",
-          "sport": "cyclisme",
-          "competition": "Tour de Turquie",
-          "title": "Cyclisme : Tour de Turquie",
-          "subtitle": "Cyclisme",
-          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-04-27T18:00:00+02:00",
-          "end": "2026-04-27T19:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1523,7 +679,7 @@
           },
           "start": "2026-04-27T18:20:00+02:00",
           "end": "2026-04-27T20:03:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1561,7 +717,7 @@
           },
           "start": "2026-04-27T18:40:00+02:00",
           "end": "2026-04-27T20:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1585,7 +741,7 @@
           },
           "start": "2026-04-27T19:00:00+02:00",
           "end": "2026-04-27T20:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1609,7 +765,7 @@
           },
           "start": "2026-04-27T19:00:00+02:00",
           "end": "2026-04-27T20:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1633,7 +789,7 @@
           },
           "start": "2026-04-27T19:00:00+02:00",
           "end": "2026-04-27T21:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1657,7 +813,7 @@
           },
           "start": "2026-04-27T19:00:00+02:00",
           "end": "2026-04-27T20:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4850,6 +4006,30 @@
           "result": null
         },
         {
+          "id": "2dbc7402f599",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-04-27T13:00:00+02:00",
+          "end": "2026-04-27T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e8e60d19a1f6",
           "sport": "other",
           "competition": null,
@@ -5029,6 +4209,826 @@
           },
           "start": "2026-04-27T13:45:00+02:00",
           "end": "2026-04-27T15:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b45b80e79de0",
+          "sport": "rugby",
+          "competition": "The Rugby Championship U20",
+          "title": "Nouvelle-Zélande / Australie",
+          "subtitle": "The Rugby Championship U20 - 1re...",
+          "description": "Pour cette première journée du Rugby Championship U20 2026, la Nouvelle-Zélande et l'Australie lancent les hostilités à Gqeberha, au Nelson Mandela Bay Stadium.",
+          "team1": {
+            "name": "Nouvelle-Zélande",
+            "type": "country",
+            "short": null,
+            "country_code": "nz",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Australie",
+            "type": "country",
+            "short": "Australie",
+            "country_code": "au",
+            "logo_url": "https://flagcdn.com/w80/au.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-27T13:55:00+02:00",
+          "end": "2026-04-27T15:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1e5f19238031",
+          "sport": "basket",
+          "competition": "NBA - Playoffs",
+          "title": "Toronto Raptors / Cleveland Cavaliers",
+          "subtitle": "NBA - Playoffs. 1er tour. 4e match",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Toronto Raptors",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cleveland Cavaliers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-27T14:00:00+02:00",
+          "end": "2026-04-27T16:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b08774e3c069",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Le Havre / Metz",
+          "subtitle": null,
+          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant HAVRE AC et FC METZ.",
+          "team1": {
+            "name": "Le Havre AC",
+            "type": "club",
+            "short": "Le Havre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Metz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-27T14:00:00+02:00",
+          "end": "2026-04-27T15:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "20c46c0bbb6d",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Burnley / Manchester City",
+          "subtitle": "Premier League - 34e journée",
+          "description": "Match des extrêmes entre des Clarets de Burnley, déjà condamnés à la relégation et des Cityzens de Manchester qui espèrent toujours disputer le titre aux Gunners d'Arsenal. Erling Haaland et Manchester City doivent à tout prix ramener les trois points de la victoire de Turf Moor, afin de rêver encore au sacre.",
+          "team1": {
+            "name": "Burnley",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-27T14:08:00+02:00",
+          "end": "2026-04-27T15:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "77ecd5c9b0d1",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Andres Cortes",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eridson Garcia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-04-27T14:30:00+02:00",
+          "end": "2026-04-27T17:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bc6ad892dbe9",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "West Ham / Everton",
+          "subtitle": "Premier League - 34e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-27T14:50:00+02:00",
+          "end": "2026-04-27T16:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c4fa55d28bdc",
+          "sport": "handball",
+          "competition": "Ligue des champions féminine EHF",
+          "title": "Handball : Ligue des champions féminine EHF",
+          "subtitle": "Handball",
+          "description": "Retransmission des matchs de la Ligue des Champions féminine EHF, compétition de clubs de handball la plus importante en Europe. Organisée par la Fédération européenne de handball, la première saison de cette compétition a été jouée en 1961.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36012.fr",
+            "name": "EUROSPORT 360 12",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1108/canal-ouah/CHN43FB/CHN43FB_1108_20240716-n2Ka?=.png",
+            "slug": "eurosport-360-12",
+            "is_free": false
+          },
+          "start": "2026-04-27T15:00:00+02:00",
+          "end": "2026-04-27T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8163193c6814",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36013.fr",
+            "name": "EUROSPORT 360 13",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1109/canal-ouah/CHN43FB/CHN43FB_1109_20240716-fSFm?=.png",
+            "slug": "eurosport-360-13",
+            "is_free": false
+          },
+          "start": "2026-04-27T15:00:00+02:00",
+          "end": "2026-04-27T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "36c72c6239c1",
+          "sport": "basket",
+          "competition": null,
+          "title": "Antwerp Giants - Heroes Den Bosch",
+          "subtitle": null,
+          "description": "BNXT Basketball League : Antwerp Giants - Heroes Den Bosch.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-27T15:20:00+02:00",
+          "end": "2026-04-27T17:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "128082801121",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Young Boys Berne / Saint-Gall",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Young Boys Berne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Saint-Gall",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-27T15:25:00+02:00",
+          "end": "2026-04-27T18:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cdb664737694",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Stuttgart / Werder Brême",
+          "subtitle": "Bundesliga - 31e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Werder Brême",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-27T15:25:00+02:00",
+          "end": "2026-04-27T17:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ce91b03d0e4d",
+          "sport": "other",
+          "competition": null,
+          "title": "Rallye Club",
+          "subtitle": "Rallye Rhône-Charbonnières",
+          "description": "Deuxième manche du championnat de France des rallyes 2026 dans le Rhône. Raphaël Astier remporte sa première victoire au volant d'une Porsche après 40 départs, devançant le sextuple champion Yoann Bonato et Hugo Margaillan au terme d'un duel intense.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-04-27T15:30:00+02:00",
+          "end": "2026-04-27T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c2cba1b473ae",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Newcastle",
+          "subtitle": "Premier League - 34e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-27T15:49:00+02:00",
+          "end": "2026-04-27T17:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7170476f0e3e",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:00:00+02:00",
+          "end": "2026-04-27T18:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bae166f280be",
+          "sport": "other",
+          "competition": null,
+          "title": "Xtra-balles",
+          "subtitle": null,
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MaTele.be",
+            "name": "MaTele",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
+            "slug": "matele",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:00:00+02:00",
+          "end": "2026-04-27T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1ee0fb45b35c",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:00:00+02:00",
+          "end": "2026-04-27T16:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "faff5c72ecd6",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Toulouse / Clermont",
+          "subtitle": "Top 14 - 22e journée",
+          "description": "Pour conclure la 22e journée, il y a de fortes chances que les hommes d'Ugo Mola veuillent accélérer encore le rythme, alors même qu'ils occupent la première place du classement.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "ASM Clermont",
+            "type": "club",
+            "short": "Clermont",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:03:00+02:00",
+          "end": "2026-04-27T17:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c1078bb1e2f8",
+          "sport": "rugby",
+          "competition": "The Rugby Championship U20",
+          "title": "Afrique du Sud / Argentine",
+          "subtitle": "The Rugby Championship U20 - 1re...",
+          "description": "Première journée du Rugby Championship U20 2026 avec une affiche entre l'Afrique du Sud et l'Argentine, deux nations ambitieuses qui veulent lancer idéalement leur tournoi. Battus de peu par les Néo-Zélandais lors de l'édition 2025, les jeunes Springboks tenteront de frapper fort d'entrée face à des Argentins toujours accrocheurs.",
+          "team1": {
+            "name": "Afrique Du Sud",
+            "type": "club",
+            "short": "Afrique Du Sud",
+            "country_code": "za",
+            "logo_url": "https://flagcdn.com/w80/za.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Argentine",
+            "type": "country",
+            "short": "Argentine",
+            "country_code": "ar",
+            "logo_url": "https://flagcdn.com/w80/ar.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:05:00+02:00",
+          "end": "2026-04-27T18:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a95a140f296d",
+          "sport": "f1",
+          "competition": null,
+          "title": "Rallye de Grande-Bretagne",
+          "subtitle": null,
+          "description": "The British Rally Championship brings edge-of-the-seat rally action across the UK, tackling gravel and asphalt stages with plenty of professional drivers vying for glory. Adrenaline-fueled competition at its core.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MotorVisionTV.fr",
+            "name": "MotorVision TV",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
+            "slug": "motorvision-tv",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:15:00+02:00",
+          "end": "2026-04-27T17:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a5b171716652",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Wolverhampton / Tottenham",
+          "subtitle": "Premier League - 34e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:35:00+02:00",
+          "end": "2026-04-27T18:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4fa3fcd56c11",
+          "sport": "other",
+          "competition": null,
+          "title": "Arnaud de Rosnay, au-delà du défi",
+          "subtitle": null,
+          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-04-27T16:46:00+02:00",
+          "end": "2026-04-27T17:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ebbee10d4966",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36013.fr",
+            "name": "EUROSPORT 360 13",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1109/canal-ouah/CHN43FB/CHN43FB_1109_20240716-fSFm?=.png",
+            "slug": "eurosport-360-13",
+            "is_free": false
+          },
+          "start": "2026-04-27T17:00:00+02:00",
+          "end": "2026-04-27T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cdf127a96136",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Brest / Lens",
+          "subtitle": null,
+          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant BREST et RC LENS.",
+          "team1": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-27T17:00:00+02:00",
+          "end": "2026-04-27T18:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "79816b39c281",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-04-27T17:00:00+02:00",
+          "end": "2026-04-27T17:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1ec0281d24a9",
+          "sport": "basket",
+          "competition": "Africa League - Conférence du Sa",
+          "title": "AS Ville / Al Ahly",
+          "subtitle": "Africa League - Conférence du Sa...",
+          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
+          "team1": {
+            "name": "AS Ville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Al Ahly",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-27T17:19:00+02:00",
+          "end": "2026-04-27T19:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "32a1fad7a3da",
+          "sport": "cyclisme",
+          "competition": "Tour de Turquie",
+          "title": "Cyclisme : Tour de Turquie",
+          "subtitle": "Cyclisme",
+          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-04-27T18:00:00+02:00",
+          "end": "2026-04-27T19:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
