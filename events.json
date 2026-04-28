@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T06:27:11.439446+00:00",
+    "generated_at": "2026-04-28T10:10:54.993677+00:00",
     "total_events": 1105,
     "total_days": 7,
     "sports": [
@@ -22,18 +22,33 @@
     ],
     "channels": [
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
+        "slug": "golf",
+        "name": "Golf+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-1",
+        "name": "Eurosport 360 - 1",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -47,73 +62,13 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "motorvision-tv",
-        "name": "MotorVision TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
         "slug": "eurosport-2",
         "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "bbc-two",
-        "name": "BBC Two",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-1",
-        "name": "Eurosport 360 - 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -127,8 +82,23 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "tva-sports-2",
         "name": "TVA Sports 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -162,6 +132,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
         "is_free": false
@@ -187,6 +162,21 @@
         "is_free": false
       },
       {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
+        "is_free": false
+      },
+      {
         "slug": "bein-2",
         "name": "beIN SPORTS 2",
         "is_free": false
@@ -194,6 +184,16 @@
       {
         "slug": "beis",
         "name": "BEIS",
+        "is_free": false
+      },
+      {
+        "slug": "motorvision-tv",
+        "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
+        "slug": "bbc-two",
+        "name": "BBC Two",
         "is_free": false
       },
       {
@@ -499,650 +499,6 @@
       "event_count": 130,
       "events": [
         {
-          "id": "f2918d87a3f4",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T06:30:00+02:00",
-          "end": "2026-04-28T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a1f5977b8dae",
-          "sport": "football",
-          "competition": "Ligue 1 Ivoirienne",
-          "title": "Mouna FC / Académie de FAD",
-          "subtitle": "Ligue 1 Ivoirienne - 26e  journée",
-          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
-          "team1": {
-            "name": "Mouna FC",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Académie de FAD",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-28T06:45:00+02:00",
-          "end": "2026-04-28T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d940cc1d508a",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Montauban / Racing 92",
-          "subtitle": "Top 14 - 22e journée",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": {
-            "name": "Montauban",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Racing 92",
-            "type": "club",
-            "short": "Racing 92",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-28T07:12:00+02:00",
-          "end": "2026-04-28T08:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "64379e666d0d",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Mayence / Bayern Munich",
-          "subtitle": "Bundesliga - 31e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Mayence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-28T07:40:00+02:00",
-          "end": "2026-04-28T09:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9355f75972a2",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris Saint-Germain - Bayern Munich",
-          "subtitle": null,
-          "description": "Quatrième match de la phase de league de l'UEFA Champions League : Paris Saint-Germain - Bayern Munich.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-28T07:50:00+02:00",
-          "end": "2026-04-28T09:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7fb2c78ec480",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris Saint-Germain - Bayern München",
-          "subtitle": null,
-          "description": "Vierde match van de League Phase in de UEFA Champions League: Paris Saint-Germain - Bayern München.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-04-28T07:50:00+02:00",
-          "end": "2026-04-28T09:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "da8b30cebad6",
-          "sport": "basket",
-          "competition": "NBA - Playoffs",
-          "title": "Portland Trail Blazers / San Antonio Spurs",
-          "subtitle": "NBA - Playoffs. 1er tour. 4e match",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Portland Trail Blazers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-28T07:51:00+02:00",
-          "end": "2026-04-28T09:54:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3307a6db7260",
-          "sport": "f1",
-          "competition": null,
-          "title": "Grand Prix of Chalone S/Saone, France",
-          "subtitle": null,
-          "description": "The FIM X-Trial World Championship is an international indoor motorcycle trials championship that features some of the best riders in the world competing in highly technical and challenging obstacle courses. In X-Trial events, riders navigate through a series of sections that include obstacles such as rocks, logs, and other challenging terrain, aiming to complete the course with the fewest penalties.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MotorVisionTV.fr",
-            "name": "MotorVision TV",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
-            "slug": "motorvision-tv",
-            "is_free": false
-          },
-          "start": "2026-04-28T08:10:00+02:00",
-          "end": "2026-04-28T09:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bc9f79a4dc80",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Dijon / Paris FC",
-          "subtitle": "Arkema Première Ligue - 21e journée",
-          "description": "Retransmission d'un match d'Arkema Première Ligue, la première division féminine de football. Tout d'abord créée en 1919, elle réapparait en 1974 avant de devenir la 1ère division composée d'un seul groupe national que l'on connait aujourd'hui. L'Olympique Lyonnais domine largement ce championnat depuis des années. En 2024, la compétition se renomme Arkema Première Ligue.",
-          "team1": {
-            "name": "Dijon",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-28T08:11:00+02:00",
-          "end": "2026-04-28T09:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cfdb4c00365b",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Servette Genève / Winterthur",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Servette Genève",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Inter Milan",
-            "type": "club",
-            "short": "Inter",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-04-28T08:20:00+02:00",
-          "end": "2026-04-28T11:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aa087bba4250",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Aydin - Marmaris (157,8 km)",
-          "subtitle": "Tour de Turquie - 2e étape",
-          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T08:30:00+02:00",
-          "end": "2026-04-28T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6dfca0942ea4",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-28T08:30:00+02:00",
-          "end": "2026-04-28T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8f688c21526a",
-          "sport": "cyclisme",
-          "competition": "Tour de Turquie",
-          "title": "Cyclisme : Tour de Turquie",
-          "subtitle": "Cyclisme",
-          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T08:30:00+02:00",
-          "end": "2026-04-28T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dbc6b0e8a5c7",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Bordeaux-Bègles / Montpellier",
-          "subtitle": "Top 14 - 22e journée",
-          "description": "Un beau duel du haut du tableau se profile entre les Girondins, avec Louis Bielle-Biarrey, et les Montpelliérains, avec Justo Piccardo, dans cette 22e journée de Top 14.",
-          "team1": {
-            "name": "Union Bordeaux-Bègles",
-            "type": "club",
-            "short": "UBB",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2569.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Montpellier HSC",
-            "type": "club",
-            "short": "Montpellier",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-28T08:50:00+02:00",
-          "end": "2026-04-28T10:29:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "27a6f40bcfc0",
-          "sport": "other",
-          "competition": null,
-          "title": "Rallye Club",
-          "subtitle": "Rallye Rhône-Charbonnières",
-          "description": "Deuxième manche du championnat de France des rallyes 2026 dans le Rhône. Raphaël Astier remporte sa première victoire au volant d'une Porsche après 40 départs, devançant le sextuple champion Yoann Bonato et Hugo Margaillan au terme d'un duel intense.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-04-28T09:08:00+02:00",
-          "end": "2026-04-28T09:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d1b055494493",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T09:15:00+02:00",
-          "end": "2026-04-28T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c8fa080e5939",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Sunderland / Nottingham Forest",
-          "subtitle": "Premier League - 34e journée",
-          "description": "Pour débuter la 34e journée de Premier League, les Black Cats de Sunderland, qui gardent un mince espoir d'Europe, accueillent Nottingham Forest, qui lutte pour son maintien parmi l'élite. Les visiteurs, qui disputaient leur quart de finale de la Ligue Europa contre Porto la semaine dernière, sont bien mal en point en championnat et doivent à tout prix ramener un résultat du Stadium of Light.",
-          "team1": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-28T09:21:00+02:00",
-          "end": "2026-04-28T11:08:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a41659b0c03f",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Paris FC / Lille",
-          "subtitle": "Ligue 1 McDonald's - 31e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-28T09:29:00+02:00",
-          "end": "2026-04-28T11:12:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d5a272001b18",
-          "sport": "other",
-          "competition": null,
-          "title": "The FA Cup",
-          "subtitle": "Semi-Finals",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "BBC2.uk",
-            "name": "BBC Two",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~a0eb22b6cb9cf9b9.png/480x480/quality/100/bbc-2.png",
-            "slug": "bbc-two",
-            "is_free": false
-          },
-          "start": "2026-04-28T09:30:00+02:00",
-          "end": "2026-04-28T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fc5cc43618da",
-          "sport": "other",
-          "competition": null,
-          "title": "Arnaud de Rosnay, au-delà du défi",
-          "subtitle": null,
-          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-04-28T09:33:00+02:00",
-          "end": "2026-04-28T10:28:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f2e1490d3936",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Fleury 91 / Paris-SG",
-          "subtitle": "Arkema Première Ligue - 21e journée",
-          "description": "Retransmission d'un match d'Arkema Première Ligue, la première division féminine de football. Tout d'abord créée en 1919, elle réapparait en 1974 avant de devenir la 1ère division composée d'un seul groupe national que l'on connait aujourd'hui. L'Olympique Lyonnais domine largement ce championnat depuis des années. En 2024, la compétition se renomme Arkema Première Ligue.",
-          "team1": {
-            "name": "Fleury 91",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-04-28T09:53:00+02:00",
-          "end": "2026-04-28T11:38:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "cee3e8cc7a39",
           "sport": "golf",
           "competition": "Open de la Nouvelle-Orléans",
@@ -1160,7 +516,7 @@
           },
           "start": "2026-04-28T10:00:00+02:00",
           "end": "2026-04-28T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1198,31 +554,7 @@
           },
           "start": "2026-04-28T10:23:00+02:00",
           "end": "2026-04-28T12:17:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b5b06669b111",
-          "sport": "other",
-          "competition": null,
-          "title": "Cross-country olympique | Retour sur la saison",
-          "subtitle": "UCI Mountain Bike World Series",
-          "description": "Revivez les temps forts de la saison 2025 chez les femmes et les hommes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-28T10:30:00+02:00",
-          "end": "2026-04-28T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1246,7 +578,7 @@
           },
           "start": "2026-04-28T11:00:00+02:00",
           "end": "2026-04-28T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1270,7 +602,7 @@
           },
           "start": "2026-04-28T11:00:00+02:00",
           "end": "2026-04-28T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1308,7 +640,7 @@
           },
           "start": "2026-04-28T11:02:00+02:00",
           "end": "2026-04-28T12:51:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1346,7 +678,7 @@
           },
           "start": "2026-04-28T11:08:00+02:00",
           "end": "2026-04-28T12:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1370,7 +702,7 @@
           },
           "start": "2026-04-28T11:45:00+02:00",
           "end": "2026-04-28T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1394,7 +726,7 @@
           },
           "start": "2026-04-28T11:45:00+02:00",
           "end": "2026-04-28T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1432,7 +764,7 @@
           },
           "start": "2026-04-28T12:00:00+02:00",
           "end": "2026-04-28T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4494,6 +3826,674 @@
           },
           "start": "2026-04-28T06:27:00+02:00",
           "end": "2026-04-28T08:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f2918d87a3f4",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T06:30:00+02:00",
+          "end": "2026-04-28T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a1f5977b8dae",
+          "sport": "football",
+          "competition": "Ligue 1 Ivoirienne",
+          "title": "Mouna FC / Académie de FAD",
+          "subtitle": "Ligue 1 Ivoirienne - 26e  journée",
+          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
+          "team1": {
+            "name": "Mouna FC",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Académie de FAD",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-28T06:45:00+02:00",
+          "end": "2026-04-28T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d940cc1d508a",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Montauban / Racing 92",
+          "subtitle": "Top 14 - 22e journée",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": {
+            "name": "Montauban",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Racing 92",
+            "type": "club",
+            "short": "Racing 92",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-28T07:12:00+02:00",
+          "end": "2026-04-28T08:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "64379e666d0d",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Mayence / Bayern Munich",
+          "subtitle": "Bundesliga - 31e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Mayence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-28T07:40:00+02:00",
+          "end": "2026-04-28T09:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9355f75972a2",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris Saint-Germain - Bayern Munich",
+          "subtitle": null,
+          "description": "Quatrième match de la phase de league de l'UEFA Champions League : Paris Saint-Germain - Bayern Munich.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-28T07:50:00+02:00",
+          "end": "2026-04-28T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7fb2c78ec480",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris Saint-Germain - Bayern München",
+          "subtitle": null,
+          "description": "Vierde match van de League Phase in de UEFA Champions League: Paris Saint-Germain - Bayern München.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-04-28T07:50:00+02:00",
+          "end": "2026-04-28T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "da8b30cebad6",
+          "sport": "basket",
+          "competition": "NBA - Playoffs",
+          "title": "Portland Trail Blazers / San Antonio Spurs",
+          "subtitle": "NBA - Playoffs. 1er tour. 4e match",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Portland Trail Blazers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-28T07:51:00+02:00",
+          "end": "2026-04-28T09:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3307a6db7260",
+          "sport": "f1",
+          "competition": null,
+          "title": "Grand Prix of Chalone S/Saone, France",
+          "subtitle": null,
+          "description": "The FIM X-Trial World Championship is an international indoor motorcycle trials championship that features some of the best riders in the world competing in highly technical and challenging obstacle courses. In X-Trial events, riders navigate through a series of sections that include obstacles such as rocks, logs, and other challenging terrain, aiming to complete the course with the fewest penalties.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MotorVisionTV.fr",
+            "name": "MotorVision TV",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
+            "slug": "motorvision-tv",
+            "is_free": false
+          },
+          "start": "2026-04-28T08:10:00+02:00",
+          "end": "2026-04-28T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bc9f79a4dc80",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Dijon / Paris FC",
+          "subtitle": "Arkema Première Ligue - 21e journée",
+          "description": "Retransmission d'un match d'Arkema Première Ligue, la première division féminine de football. Tout d'abord créée en 1919, elle réapparait en 1974 avant de devenir la 1ère division composée d'un seul groupe national que l'on connait aujourd'hui. L'Olympique Lyonnais domine largement ce championnat depuis des années. En 2024, la compétition se renomme Arkema Première Ligue.",
+          "team1": {
+            "name": "Dijon",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-28T08:11:00+02:00",
+          "end": "2026-04-28T09:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cfdb4c00365b",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Servette Genève / Winterthur",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Servette Genève",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Inter Milan",
+            "type": "club",
+            "short": "Inter",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-04-28T08:20:00+02:00",
+          "end": "2026-04-28T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aa087bba4250",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Aydin - Marmaris (157,8 km)",
+          "subtitle": "Tour de Turquie - 2e étape",
+          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T08:30:00+02:00",
+          "end": "2026-04-28T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6dfca0942ea4",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-28T08:30:00+02:00",
+          "end": "2026-04-28T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8f688c21526a",
+          "sport": "cyclisme",
+          "competition": "Tour de Turquie",
+          "title": "Cyclisme : Tour de Turquie",
+          "subtitle": "Cyclisme",
+          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T08:30:00+02:00",
+          "end": "2026-04-28T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dbc6b0e8a5c7",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Bordeaux-Bègles / Montpellier",
+          "subtitle": "Top 14 - 22e journée",
+          "description": "Un beau duel du haut du tableau se profile entre les Girondins, avec Louis Bielle-Biarrey, et les Montpelliérains, avec Justo Piccardo, dans cette 22e journée de Top 14.",
+          "team1": {
+            "name": "Union Bordeaux-Bègles",
+            "type": "club",
+            "short": "UBB",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2569.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Montpellier HSC",
+            "type": "club",
+            "short": "Montpellier",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-28T08:50:00+02:00",
+          "end": "2026-04-28T10:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "27a6f40bcfc0",
+          "sport": "other",
+          "competition": null,
+          "title": "Rallye Club",
+          "subtitle": "Rallye Rhône-Charbonnières",
+          "description": "Deuxième manche du championnat de France des rallyes 2026 dans le Rhône. Raphaël Astier remporte sa première victoire au volant d'une Porsche après 40 départs, devançant le sextuple champion Yoann Bonato et Hugo Margaillan au terme d'un duel intense.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-04-28T09:08:00+02:00",
+          "end": "2026-04-28T09:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d1b055494493",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T09:15:00+02:00",
+          "end": "2026-04-28T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c8fa080e5939",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Sunderland / Nottingham Forest",
+          "subtitle": "Premier League - 34e journée",
+          "description": "Pour débuter la 34e journée de Premier League, les Black Cats de Sunderland, qui gardent un mince espoir d'Europe, accueillent Nottingham Forest, qui lutte pour son maintien parmi l'élite. Les visiteurs, qui disputaient leur quart de finale de la Ligue Europa contre Porto la semaine dernière, sont bien mal en point en championnat et doivent à tout prix ramener un résultat du Stadium of Light.",
+          "team1": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-28T09:21:00+02:00",
+          "end": "2026-04-28T11:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a41659b0c03f",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Paris FC / Lille",
+          "subtitle": "Ligue 1 McDonald's - 31e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-28T09:29:00+02:00",
+          "end": "2026-04-28T11:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d5a272001b18",
+          "sport": "other",
+          "competition": null,
+          "title": "The FA Cup",
+          "subtitle": "Semi-Finals",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "BBC2.uk",
+            "name": "BBC Two",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~a0eb22b6cb9cf9b9.png/480x480/quality/100/bbc-2.png",
+            "slug": "bbc-two",
+            "is_free": false
+          },
+          "start": "2026-04-28T09:30:00+02:00",
+          "end": "2026-04-28T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fc5cc43618da",
+          "sport": "other",
+          "competition": null,
+          "title": "Arnaud de Rosnay, au-delà du défi",
+          "subtitle": null,
+          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-04-28T09:33:00+02:00",
+          "end": "2026-04-28T10:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f2e1490d3936",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Fleury 91 / Paris-SG",
+          "subtitle": "Arkema Première Ligue - 21e journée",
+          "description": "Retransmission d'un match d'Arkema Première Ligue, la première division féminine de football. Tout d'abord créée en 1919, elle réapparait en 1974 avant de devenir la 1ère division composée d'un seul groupe national que l'on connait aujourd'hui. L'Olympique Lyonnais domine largement ce championnat depuis des années. En 2024, la compétition se renomme Arkema Première Ligue.",
+          "team1": {
+            "name": "Fleury 91",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-04-28T09:53:00+02:00",
+          "end": "2026-04-28T11:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b5b06669b111",
+          "sport": "other",
+          "competition": null,
+          "title": "Cross-country olympique | Retour sur la saison",
+          "subtitle": "UCI Mountain Bike World Series",
+          "description": "Revivez les temps forts de la saison 2025 chez les femmes et les hommes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-28T10:30:00+02:00",
+          "end": "2026-04-28T11:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
