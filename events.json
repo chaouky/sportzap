@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T10:10:54.993677+00:00",
+    "generated_at": "2026-04-28T13:57:24.150684+00:00",
     "total_events": 1105,
     "total_days": 7,
     "sports": [
@@ -22,28 +22,23 @@
     ],
     "channels": [
       {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
         "slug": "eurosport-360-1",
         "name": "Eurosport 360 - 1",
         "is_free": false
       },
       {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -54,41 +49,6 @@
       {
         "slug": "pickxplussports1f-be",
         "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -117,6 +77,21 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "rsi-2",
         "name": "RSI 2",
         "is_free": false
@@ -124,6 +99,16 @@
       {
         "slug": "bein-3",
         "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -147,6 +132,11 @@
         "is_free": false
       },
       {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus",
         "name": "Canal+ Live 1",
         "is_free": false
@@ -159,6 +149,11 @@
       {
         "slug": "tv5mondemaghreborient-fr",
         "name": "TV5MondeMaghrebOrient.fr",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
@@ -194,6 +189,11 @@
       {
         "slug": "bbc-two",
         "name": "BBC Two",
+        "is_free": false
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
         "is_free": false
       },
       {
@@ -499,378 +499,6 @@
       "event_count": 130,
       "events": [
         {
-          "id": "cee3e8cc7a39",
-          "sport": "golf",
-          "competition": "Open de la Nouvelle-Orléans",
-          "title": "Golf : Open de la Nouvelle-Orléans",
-          "subtitle": null,
-          "description": "Compétition originale disputée en duo, l'Open de La Nouvelle-Orléans rend son verdict à l'occasion de ce quatrième jour. Sur les greens du TPC Louisiana, les 80 équipes engagées se lancent dans le dernier rush final, disputé en foursome, format particulièrement exigeant, où les coups sont partagés (une seule balle pour les deux membres du duo).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-04-28T10:00:00+02:00",
-          "end": "2026-04-28T14:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "641be53e2b25",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Huesca / Real Saragosse",
-          "subtitle": "Liga 2 - 37e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Huesca",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Saragosse",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-28T10:23:00+02:00",
-          "end": "2026-04-28T12:17:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4463cc7d28f7",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T11:00:00+02:00",
-          "end": "2026-04-28T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "54062c29d0a9",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T11:00:00+02:00",
-          "end": "2026-04-28T12:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "011dc46a49b5",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Toulouse / Clermont",
-          "subtitle": "Top 14 - 22e journée",
-          "description": "Pour conclure la 22e journée, il y a de fortes chances que les hommes d'Ugo Mola veuillent accélérer encore le rythme, alors même qu'ils occupent la première place du classement.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "ASM Clermont",
-            "type": "club",
-            "short": "Clermont",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-28T11:02:00+02:00",
-          "end": "2026-04-28T12:51:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "04338e709598",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Brentford",
-          "subtitle": "Premier League - 34e journée",
-          "description": "Epilogue de la 34e journée de Premier League : à la lutte pour la 3e place, les Red Devils de Manchester United accueillent, à Old Trafford, les Bees de Brentford, toujours en course pour une qualification européenne en fin de saison. A l'aller, Igor Thiago et les siens avaient battu les Mancuniens (3-1). L'heure de la revanche pour les hommes de Michael Carrick ?",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-04-28T11:08:00+02:00",
-          "end": "2026-04-28T12:56:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bb2fb73c6c3a",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris Saint-Germain - Bayern Munich",
-          "subtitle": null,
-          "description": "Quatrième match de la phase de league de l'UEFA Champions League : Paris Saint-Germain - Bayern Munich.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-04-28T11:45:00+02:00",
-          "end": "2026-04-28T13:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "44b91767a4e4",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris Saint-Germain - Bayern München",
-          "subtitle": null,
-          "description": "Vierde match van de League Phase in de UEFA Champions League: Paris Saint-Germain - Bayern München.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-04-28T11:45:00+02:00",
-          "end": "2026-04-28T13:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "acb27c34e1b8",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Angers / Paris-SG",
-          "subtitle": null,
-          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant ANGERS SCO et PARIS SG.",
-          "team1": {
-            "name": "Angers SCO",
-            "type": "club",
-            "short": "Angers",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T12:00:00+02:00",
-          "end": "2026-04-28T13:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a632c0655304",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Toulouse / Clermont",
-          "subtitle": "Top 14 - 22e journée",
-          "description": "Pour conclure la 22e journée, il y a de fortes chances que les hommes d'Ugo Mola veuillent accélérer encore le rythme, alors même qu'ils occupent la première place du classement.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "ASM Clermont",
-            "type": "club",
-            "short": "Clermont",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-04-28T12:17:00+02:00",
-          "end": "2026-04-28T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "868af5bcb18e",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Leipzig / FC Union Berlin",
-          "subtitle": "Bundesliga - 31e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Leipzig",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Union Berlin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-28T12:19:00+02:00",
-          "end": "2026-04-28T14:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "890924e90901",
-          "sport": "cyclisme",
-          "competition": "Tour de Turquie",
-          "title": "Cyclisme : Tour de Turquie",
-          "subtitle": "Cyclisme",
-          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-28T12:30:00+02:00",
-          "end": "2026-04-28T13:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "f60a7c90244e",
           "sport": "tennis",
           "competition": "Masters 1000 de Madrid",
@@ -888,7 +516,7 @@
           },
           "start": "2026-04-28T13:00:00+02:00",
           "end": "2026-04-28T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -912,141 +540,7 @@
           },
           "start": "2026-04-28T13:00:00+02:00",
           "end": "2026-04-29T00:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d53cbda8c19f",
-          "sport": "tennis",
-          "competition": "Tournoi de Madrid 2026 - WTA, quart de finale 1",
-          "title": "Tennis: Tournoi de Madrid 2026 - WTA, quart de finale 1",
-          "subtitle": "WTA, quart de finale 1",
-          "description": "En provenance de la Caja Magica à Madrid.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-04-28T13:00:00+02:00",
-          "end": "2026-04-28T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "059fe5539011",
-          "sport": "golf",
-          "competition": null,
-          "title": "4e tour. Open de la Nouvelle-Orléans",
-          "subtitle": "Open de La Nouvelle-Orléans",
-          "description": "Compétition originale disputée en duo, l'Open de La Nouvelle-Orléans rend son verdict à l'occasion de ce quatrième jour. Sur les greens du TPC Louisiana, les 80 équipes engagées se lancent dans le dernier rush final, disputé en foursome, format particulièrement exigeant, où les coups sont partagés (une seule balle pour les deux membres du duo).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-28T13:20:00+02:00",
-          "end": "2026-04-28T15:23:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bf07ab949d6c",
-          "sport": "golf",
-          "competition": "Open de La Nouvelle-Orléans",
-          "title": "Golf : Open de La Nouvelle-Orléans",
-          "subtitle": null,
-          "description": "Compétition originale disputée en duo, l'Open de La Nouvelle-Orléans rend son verdict à l'occasion de ce quatrième jour. Sur les greens du TPC Louisiana, les 80 équipes engagées se lancent dans le dernier rush final, disputé en foursome, format particulièrement exigeant, où les coups sont partagés (une seule balle pour les deux membres du duo).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-04-28T13:20:00+02:00",
-          "end": "2026-04-28T15:23:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6ded46ac0efd",
-          "sport": "cyclisme",
-          "competition": "Tour de Turquie",
-          "title": "Cyclisme : Tour de Turquie",
-          "subtitle": "Cyclisme",
-          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-04-28T13:30:00+02:00",
-          "end": "2026-04-28T15:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a2c71928f0c8",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Angers / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 31e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Angers SCO",
-            "type": "club",
-            "short": "Angers",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-04-28T13:45:00+02:00",
-          "end": "2026-04-28T15:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1084,7 +578,7 @@
           },
           "start": "2026-04-28T13:55:00+02:00",
           "end": "2026-04-28T16:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1122,45 +616,7 @@
           },
           "start": "2026-04-28T14:00:00+02:00",
           "end": "2026-04-28T16:04:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "289436fb0c5e",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Toulouse / Monaco",
-          "subtitle": null,
-          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et AS MONACO.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-04-28T14:00:00+02:00",
-          "end": "2026-04-28T15:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1198,7 +654,7 @@
           },
           "start": "2026-04-28T14:15:00+02:00",
           "end": "2026-04-28T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1222,7 +678,7 @@
           },
           "start": "2026-04-28T14:25:00+02:00",
           "end": "2026-04-28T16:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1246,7 +702,7 @@
           },
           "start": "2026-04-28T14:30:00+02:00",
           "end": "2026-04-28T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1284,7 +740,7 @@
           },
           "start": "2026-04-28T14:38:00+02:00",
           "end": "2026-04-28T16:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1308,7 +764,7 @@
           },
           "start": "2026-04-28T14:40:00+02:00",
           "end": "2026-04-28T19:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1332,7 +788,7 @@
           },
           "start": "2026-04-28T15:00:00+02:00",
           "end": "2026-04-28T17:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1356,7 +812,7 @@
           },
           "start": "2026-04-28T15:00:00+02:00",
           "end": "2026-04-28T17:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1394,7 +850,7 @@
           },
           "start": "2026-04-28T15:23:00+02:00",
           "end": "2026-04-28T17:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1432,7 +888,7 @@
           },
           "start": "2026-04-28T15:25:00+02:00",
           "end": "2026-04-28T17:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1456,7 +912,7 @@
           },
           "start": "2026-04-28T15:30:00+02:00",
           "end": "2026-04-28T17:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1480,7 +936,7 @@
           },
           "start": "2026-04-28T15:30:00+02:00",
           "end": "2026-04-28T17:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4477,6 +3933,68 @@
           "result": null
         },
         {
+          "id": "cee3e8cc7a39",
+          "sport": "golf",
+          "competition": "Open de la Nouvelle-Orléans",
+          "title": "Golf : Open de la Nouvelle-Orléans",
+          "subtitle": null,
+          "description": "Compétition originale disputée en duo, l'Open de La Nouvelle-Orléans rend son verdict à l'occasion de ce quatrième jour. Sur les greens du TPC Louisiana, les 80 équipes engagées se lancent dans le dernier rush final, disputé en foursome, format particulièrement exigeant, où les coups sont partagés (une seule balle pour les deux membres du duo).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-04-28T10:00:00+02:00",
+          "end": "2026-04-28T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "641be53e2b25",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Huesca / Real Saragosse",
+          "subtitle": "Liga 2 - 37e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Huesca",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Saragosse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-28T10:23:00+02:00",
+          "end": "2026-04-28T12:17:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "b5b06669b111",
           "sport": "other",
           "competition": null,
@@ -4494,6 +4012,488 @@
           },
           "start": "2026-04-28T10:30:00+02:00",
           "end": "2026-04-28T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4463cc7d28f7",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T11:00:00+02:00",
+          "end": "2026-04-28T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "54062c29d0a9",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T11:00:00+02:00",
+          "end": "2026-04-28T12:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "011dc46a49b5",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Toulouse / Clermont",
+          "subtitle": "Top 14 - 22e journée",
+          "description": "Pour conclure la 22e journée, il y a de fortes chances que les hommes d'Ugo Mola veuillent accélérer encore le rythme, alors même qu'ils occupent la première place du classement.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "ASM Clermont",
+            "type": "club",
+            "short": "Clermont",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-28T11:02:00+02:00",
+          "end": "2026-04-28T12:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "04338e709598",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Brentford",
+          "subtitle": "Premier League - 34e journée",
+          "description": "Epilogue de la 34e journée de Premier League : à la lutte pour la 3e place, les Red Devils de Manchester United accueillent, à Old Trafford, les Bees de Brentford, toujours en course pour une qualification européenne en fin de saison. A l'aller, Igor Thiago et les siens avaient battu les Mancuniens (3-1). L'heure de la revanche pour les hommes de Michael Carrick ?",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-04-28T11:08:00+02:00",
+          "end": "2026-04-28T12:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bb2fb73c6c3a",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris Saint-Germain - Bayern Munich",
+          "subtitle": null,
+          "description": "Quatrième match de la phase de league de l'UEFA Champions League : Paris Saint-Germain - Bayern Munich.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-04-28T11:45:00+02:00",
+          "end": "2026-04-28T13:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "44b91767a4e4",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris Saint-Germain - Bayern München",
+          "subtitle": null,
+          "description": "Vierde match van de League Phase in de UEFA Champions League: Paris Saint-Germain - Bayern München.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-04-28T11:45:00+02:00",
+          "end": "2026-04-28T13:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "acb27c34e1b8",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Angers / Paris-SG",
+          "subtitle": null,
+          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant ANGERS SCO et PARIS SG.",
+          "team1": {
+            "name": "Angers SCO",
+            "type": "club",
+            "short": "Angers",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T12:00:00+02:00",
+          "end": "2026-04-28T13:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a632c0655304",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Toulouse / Clermont",
+          "subtitle": "Top 14 - 22e journée",
+          "description": "Pour conclure la 22e journée, il y a de fortes chances que les hommes d'Ugo Mola veuillent accélérer encore le rythme, alors même qu'ils occupent la première place du classement.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "ASM Clermont",
+            "type": "club",
+            "short": "Clermont",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-04-28T12:17:00+02:00",
+          "end": "2026-04-28T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "868af5bcb18e",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Leipzig / FC Union Berlin",
+          "subtitle": "Bundesliga - 31e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Leipzig",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Union Berlin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-28T12:19:00+02:00",
+          "end": "2026-04-28T14:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "890924e90901",
+          "sport": "cyclisme",
+          "competition": "Tour de Turquie",
+          "title": "Cyclisme : Tour de Turquie",
+          "subtitle": "Cyclisme",
+          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-28T12:30:00+02:00",
+          "end": "2026-04-28T13:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d53cbda8c19f",
+          "sport": "tennis",
+          "competition": "Tournoi de Madrid 2026 - WTA, quart de finale 1",
+          "title": "Tennis: Tournoi de Madrid 2026 - WTA, quart de finale 1",
+          "subtitle": "WTA, quart de finale 1",
+          "description": "En provenance de la Caja Magica à Madrid.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-04-28T13:00:00+02:00",
+          "end": "2026-04-28T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "059fe5539011",
+          "sport": "golf",
+          "competition": null,
+          "title": "4e tour. Open de la Nouvelle-Orléans",
+          "subtitle": "Open de La Nouvelle-Orléans",
+          "description": "Compétition originale disputée en duo, l'Open de La Nouvelle-Orléans rend son verdict à l'occasion de ce quatrième jour. Sur les greens du TPC Louisiana, les 80 équipes engagées se lancent dans le dernier rush final, disputé en foursome, format particulièrement exigeant, où les coups sont partagés (une seule balle pour les deux membres du duo).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-28T13:20:00+02:00",
+          "end": "2026-04-28T15:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bf07ab949d6c",
+          "sport": "golf",
+          "competition": "Open de La Nouvelle-Orléans",
+          "title": "Golf : Open de La Nouvelle-Orléans",
+          "subtitle": null,
+          "description": "Compétition originale disputée en duo, l'Open de La Nouvelle-Orléans rend son verdict à l'occasion de ce quatrième jour. Sur les greens du TPC Louisiana, les 80 équipes engagées se lancent dans le dernier rush final, disputé en foursome, format particulièrement exigeant, où les coups sont partagés (une seule balle pour les deux membres du duo).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-04-28T13:20:00+02:00",
+          "end": "2026-04-28T15:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6ded46ac0efd",
+          "sport": "cyclisme",
+          "competition": "Tour de Turquie",
+          "title": "Cyclisme : Tour de Turquie",
+          "subtitle": "Cyclisme",
+          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-04-28T13:30:00+02:00",
+          "end": "2026-04-28T15:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a2c71928f0c8",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Angers / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 31e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Angers SCO",
+            "type": "club",
+            "short": "Angers",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-04-28T13:45:00+02:00",
+          "end": "2026-04-28T15:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "289436fb0c5e",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Toulouse / Monaco",
+          "subtitle": null,
+          "description": "Match de la 31ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et AS MONACO.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-04-28T14:00:00+02:00",
+          "end": "2026-04-28T15:50:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
