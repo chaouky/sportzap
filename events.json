@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T06:34:27.524524+00:00",
+    "generated_at": "2026-05-01T09:43:19.991334+00:00",
     "total_events": 1070,
     "total_days": 7,
     "sports": [
@@ -23,43 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
         "is_free": false
       },
       {
@@ -73,13 +38,28 @@
         "is_free": false
       },
       {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
         "slug": "eurosport-360-3",
         "name": "Eurosport 360 - 3",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
@@ -110,6 +90,11 @@
       {
         "slug": "eurosport-360-2",
         "name": "Eurosport 360 - 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -235,6 +220,21 @@
       {
         "slug": "rts-deux",
         "name": "RTS Deux",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
         "is_free": false
       },
       {
@@ -505,468 +505,6 @@
       "event_count": 149,
       "events": [
         {
-          "id": "1ba45080ed33",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Fulham / Aston Villa",
-          "subtitle": "Premier League - 34e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-01T07:10:00+02:00",
-          "end": "2026-05-01T08:49:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4cd4fc837949",
-          "sport": "rugby",
-          "competition": "The Rugby Championship U20",
-          "title": "Afrique du Sud / Argentine",
-          "subtitle": "The Rugby Championship U20 - 1re...",
-          "description": "Première journée du Rugby Championship U20 2026 avec une affiche entre l'Afrique du Sud et l'Argentine, deux nations ambitieuses qui veulent lancer idéalement leur tournoi. Battus de peu par les Néo-Zélandais lors de l'édition 2025, les jeunes Springboks tenteront de frapper fort d'entrée face à des Argentins toujours accrocheurs.",
-          "team1": {
-            "name": "Afrique Du Sud",
-            "type": "club",
-            "short": "Afrique Du Sud",
-            "country_code": "za",
-            "logo_url": "https://flagcdn.com/w80/za.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Argentine",
-            "type": "country",
-            "short": "Argentine",
-            "country_code": "ar",
-            "logo_url": "https://flagcdn.com/w80/ar.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-01T07:19:00+02:00",
-          "end": "2026-05-01T09:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3c8fb682d638",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lorient / Strasbourg",
-          "subtitle": "Ligue 1 McDonald's - 31e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Lorient",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-01T07:39:00+02:00",
-          "end": "2026-05-01T09:27:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d36339ec8d2e",
-          "sport": "football",
-          "competition": null,
-          "title": "Atlético Madrid - Arsenal",
-          "subtitle": null,
-          "description": "Match aller des demi-finales de l'UEFA Champions League : Atlético Madrid - Arsenal.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-01T07:50:00+02:00",
-          "end": "2026-05-01T09:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5df8d6db83e4",
-          "sport": "football",
-          "competition": "Ligue Conférence - Demi-finale a",
-          "title": "Rayo Vallecano / Strasbourg",
-          "subtitle": "Ligue Conférence - Demi-finale a...",
-          "description": "Après sa remontada contre Mayence, le RC Strasbourg s'est hissé en demi-finale de Ligue Conférence. Les coéquipiers de Valentin Barco, suspendus pour ce match aller, feront face aux Madrilènes du Rayo Vallecano, actuellement 11e de Liga espagnole. Ils auront l'avantage de recevoir à la Meinau pour le retour.",
-          "team1": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-01T07:51:00+02:00",
-          "end": "2026-05-01T09:36:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2f21a104fbea",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Andres Cortes",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eridson Garcia",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-05-01T08:00:00+02:00",
-          "end": "2026-05-01T11:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "af65dcfb7aa3",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Angers / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 31e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Angers SCO",
-            "type": "club",
-            "short": "Angers",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-01T08:10:00+02:00",
-          "end": "2026-05-01T10:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "eee8ec45e409",
-          "sport": "other",
-          "competition": null,
-          "title": "Abyss, les plongeurs de l'impossible",
-          "subtitle": "En mer de Cortez (Basse-Californie)",
-          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-05-01T08:32:00+02:00",
-          "end": "2026-05-01T09:28:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a908372ce582",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific",
-          "title": "Hurricanes / Crusaders",
-          "subtitle": "Super Rugby Pacific - 12e journée",
-          "description": "Les Hurricanes, qui accueillent les Crusaders pour cette 12e journée de Super Rugby, sont à la lutte avec les Blues d'Auckland pour la place de leader, après une entame d'exercice plutôt réussie. La saison dernière, la franchise néo-zélandaise avait très mal débuté la compétition, enchaînant les revers avant de se reprendre pour finir en boulet de canon. Cette année, le club basé à Wellington a reçu le renfort de Jordie Barrett et nourrit de grandes ambitions.",
-          "team1": {
-            "name": "Hurricanes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Crusaders",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-01T09:00:00+02:00",
-          "end": "2026-05-01T11:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "90da517e9574",
-          "sport": "other",
-          "competition": null,
-          "title": "Cross-country olympique | Retour sur la saison",
-          "subtitle": "UCI Mountain Bike World Series",
-          "description": "Revivez les temps forts de la saison 2025 chez les femmes et les hommes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-01T09:00:00+02:00",
-          "end": "2026-05-01T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "abeabc13e278",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-01T09:15:00+02:00",
-          "end": "2026-05-01T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "40b333274f04",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Toulouse / Monaco",
-          "subtitle": "Ligue 1 McDonald's - 31e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-01T09:27:00+02:00",
-          "end": "2026-05-01T11:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3638920d8306",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / Crystal Palace",
-          "subtitle": "Premier League - 34e journée",
-          "description": "Toujours pas assurés de terminer dans le Top 5 de la Premier League, les Reds de Liverpool doivent à tout prix remporter les trois points de la victoire, à l'occasion de la réception de Crystal Palace. De leur côté, Les Eagles, encore en course en Ligue Conférence, n'ont plus grand chose à espérer, ni à craindre, en championnat cette saison.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-01T09:43:00+02:00",
-          "end": "2026-05-01T11:29:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "93e27596df0f",
-          "sport": "other",
-          "competition": "Coupe du monde de short track",
-          "title": "VTT : Coupe du monde de short track",
-          "subtitle": "VTT",
-          "description": "La Coupe du monde de cross-country short track, une des disiciplines du VTT, se déroule chaque année à la fois en Europe et sur le continent nord-américain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-01T10:00:00+02:00",
-          "end": "2026-05-01T10:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "dfa4f756f650",
           "sport": "football",
           "competition": "Ligue Europa - Demi-finale aller",
@@ -998,31 +536,7 @@
           },
           "start": "2026-05-01T10:13:00+02:00",
           "end": "2026-05-01T11:58:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "af48379f6221",
-          "sport": "other",
-          "competition": null,
-          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-05-01T10:22:05+02:00",
-          "end": "2026-05-01T10:31:33+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1046,7 +560,7 @@
           },
           "start": "2026-05-01T10:55:00+02:00",
           "end": "2026-05-01T11:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1070,7 +584,7 @@
           },
           "start": "2026-05-01T11:00:00+02:00",
           "end": "2026-05-01T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1094,7 +608,7 @@
           },
           "start": "2026-05-01T11:05:00+02:00",
           "end": "2026-05-01T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1132,7 +646,7 @@
           },
           "start": "2026-05-01T11:29:00+02:00",
           "end": "2026-05-01T13:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1156,7 +670,7 @@
           },
           "start": "2026-05-01T11:40:00+02:00",
           "end": "2026-05-01T12:10:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1180,7 +694,7 @@
           },
           "start": "2026-05-01T11:40:00+02:00",
           "end": "2026-05-01T17:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4897,6 +4411,82 @@
           "result": null
         },
         {
+          "id": "1ba45080ed33",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Fulham / Aston Villa",
+          "subtitle": "Premier League - 34e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-01T07:10:00+02:00",
+          "end": "2026-05-01T08:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4cd4fc837949",
+          "sport": "rugby",
+          "competition": "The Rugby Championship U20",
+          "title": "Afrique du Sud / Argentine",
+          "subtitle": "The Rugby Championship U20 - 1re...",
+          "description": "Première journée du Rugby Championship U20 2026 avec une affiche entre l'Afrique du Sud et l'Argentine, deux nations ambitieuses qui veulent lancer idéalement leur tournoi. Battus de peu par les Néo-Zélandais lors de l'édition 2025, les jeunes Springboks tenteront de frapper fort d'entrée face à des Argentins toujours accrocheurs.",
+          "team1": {
+            "name": "Afrique Du Sud",
+            "type": "club",
+            "short": "Afrique Du Sud",
+            "country_code": "za",
+            "logo_url": "https://flagcdn.com/w80/za.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Argentine",
+            "type": "country",
+            "short": "Argentine",
+            "country_code": "ar",
+            "logo_url": "https://flagcdn.com/w80/ar.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-01T07:19:00+02:00",
+          "end": "2026-05-01T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "c016c0e1eb91",
           "sport": "cyclisme",
           "competition": "Tour de Romandie",
@@ -4914,6 +4504,416 @@
           },
           "start": "2026-05-01T07:30:00+02:00",
           "end": "2026-05-01T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3c8fb682d638",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lorient / Strasbourg",
+          "subtitle": "Ligue 1 McDonald's - 31e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Lorient",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-01T07:39:00+02:00",
+          "end": "2026-05-01T09:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d36339ec8d2e",
+          "sport": "football",
+          "competition": null,
+          "title": "Atlético Madrid - Arsenal",
+          "subtitle": null,
+          "description": "Match aller des demi-finales de l'UEFA Champions League : Atlético Madrid - Arsenal.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-01T07:50:00+02:00",
+          "end": "2026-05-01T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5df8d6db83e4",
+          "sport": "football",
+          "competition": "Ligue Conférence - Demi-finale a",
+          "title": "Rayo Vallecano / Strasbourg",
+          "subtitle": "Ligue Conférence - Demi-finale a...",
+          "description": "Après sa remontada contre Mayence, le RC Strasbourg s'est hissé en demi-finale de Ligue Conférence. Les coéquipiers de Valentin Barco, suspendus pour ce match aller, feront face aux Madrilènes du Rayo Vallecano, actuellement 11e de Liga espagnole. Ils auront l'avantage de recevoir à la Meinau pour le retour.",
+          "team1": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-01T07:51:00+02:00",
+          "end": "2026-05-01T09:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2f21a104fbea",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Andres Cortes",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eridson Garcia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-05-01T08:00:00+02:00",
+          "end": "2026-05-01T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "af65dcfb7aa3",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Angers / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 31e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Angers SCO",
+            "type": "club",
+            "short": "Angers",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-01T08:10:00+02:00",
+          "end": "2026-05-01T10:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "eee8ec45e409",
+          "sport": "other",
+          "competition": null,
+          "title": "Abyss, les plongeurs de l'impossible",
+          "subtitle": "En mer de Cortez (Basse-Californie)",
+          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-05-01T08:32:00+02:00",
+          "end": "2026-05-01T09:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a908372ce582",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific",
+          "title": "Hurricanes / Crusaders",
+          "subtitle": "Super Rugby Pacific - 12e journée",
+          "description": "Les Hurricanes, qui accueillent les Crusaders pour cette 12e journée de Super Rugby, sont à la lutte avec les Blues d'Auckland pour la place de leader, après une entame d'exercice plutôt réussie. La saison dernière, la franchise néo-zélandaise avait très mal débuté la compétition, enchaînant les revers avant de se reprendre pour finir en boulet de canon. Cette année, le club basé à Wellington a reçu le renfort de Jordie Barrett et nourrit de grandes ambitions.",
+          "team1": {
+            "name": "Hurricanes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Crusaders",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-01T09:00:00+02:00",
+          "end": "2026-05-01T11:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "90da517e9574",
+          "sport": "other",
+          "competition": null,
+          "title": "Cross-country olympique | Retour sur la saison",
+          "subtitle": "UCI Mountain Bike World Series",
+          "description": "Revivez les temps forts de la saison 2025 chez les femmes et les hommes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-01T09:00:00+02:00",
+          "end": "2026-05-01T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "abeabc13e278",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-01T09:15:00+02:00",
+          "end": "2026-05-01T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "40b333274f04",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Toulouse / Monaco",
+          "subtitle": "Ligue 1 McDonald's - 31e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-01T09:27:00+02:00",
+          "end": "2026-05-01T11:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3638920d8306",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / Crystal Palace",
+          "subtitle": "Premier League - 34e journée",
+          "description": "Toujours pas assurés de terminer dans le Top 5 de la Premier League, les Reds de Liverpool doivent à tout prix remporter les trois points de la victoire, à l'occasion de la réception de Crystal Palace. De leur côté, Les Eagles, encore en course en Ligue Conférence, n'ont plus grand chose à espérer, ni à craindre, en championnat cette saison.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-01T09:43:00+02:00",
+          "end": "2026-05-01T11:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "93e27596df0f",
+          "sport": "other",
+          "competition": "Coupe du monde de short track",
+          "title": "VTT : Coupe du monde de short track",
+          "subtitle": "VTT",
+          "description": "La Coupe du monde de cross-country short track, une des disiciplines du VTT, se déroule chaque année à la fois en Europe et sur le continent nord-américain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-01T10:00:00+02:00",
+          "end": "2026-05-01T10:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "af48379f6221",
+          "sport": "other",
+          "competition": null,
+          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-05-01T10:22:05+02:00",
+          "end": "2026-05-01T10:31:33+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
