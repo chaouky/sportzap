@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T09:43:19.991334+00:00",
+    "generated_at": "2026-05-01T13:13:09.515335+00:00",
     "total_events": 1070,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
+        "slug": "eurosport-360-3",
+        "name": "Eurosport 360 - 3",
         "is_free": false
       },
       {
@@ -33,38 +33,13 @@
         "is_free": false
       },
       {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
+        "slug": "eurosport-360-2",
+        "name": "Eurosport 360 - 2",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-3",
-        "name": "Eurosport 360 - 3",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "bx1",
-        "name": "BX1",
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -88,23 +63,23 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-360-2",
-        "name": "Eurosport 360 - 2",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
+        "slug": "tva-sports-2",
+        "name": "TVA Sports 2",
         "is_free": false
       },
       {
@@ -113,13 +88,8 @@
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "tva-sports-2",
-        "name": "TVA Sports 2",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -145,6 +115,11 @@
       {
         "slug": "canal-plus",
         "name": "Canal+ Live 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -178,8 +153,18 @@
         "is_free": false
       },
       {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
         "slug": "tv5mondeameriquelatine-fr",
         "name": "TV5MondeAmeriqueLatine.fr",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
@@ -236,6 +221,21 @@
         "slug": "tv5-monde-asie",
         "name": "TV5 Monde Asie",
         "is_free": false
+      },
+      {
+        "slug": "bx1",
+        "name": "BX1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "nickelodeon-junior",
@@ -505,178 +505,6 @@
       "event_count": 149,
       "events": [
         {
-          "id": "dfa4f756f650",
-          "sport": "football",
-          "competition": "Ligue Europa - Demi-finale aller",
-          "title": "Nottingham Forest / Aston Villa",
-          "subtitle": "Ligue Europa - Demi-finale aller",
-          "description": "L'Olympique Lyonnais, le LOSC Lille, l'OGC Nice seront les trois représentants français cette saison pour tenter de succéder à Tottenham, vainqueur de la précédente édition de l'UEFA EUROPA LEAGUE.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-01T10:13:00+02:00",
-          "end": "2026-05-01T11:58:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9c048eac9bb1",
-          "sport": "other",
-          "competition": "Coupe du monde de short track",
-          "title": "VTT : Coupe du monde de short track",
-          "subtitle": "VTT",
-          "description": "La Coupe du monde de cross-country short track, une des disiciplines du VTT, se déroule chaque année à la fois en Europe et sur le continent nord-américain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-01T10:55:00+02:00",
-          "end": "2026-05-01T11:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b60619d26554",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-01T11:00:00+02:00",
-          "end": "2026-05-01T12:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "67ee1a745cfc",
-          "sport": "voile",
-          "competition": "Grand Prix de Rio",
-          "title": "Voile : Grand Prix de Rio",
-          "subtitle": null,
-          "description": "Créé en 2019, SAIL GP est l'une des compétitions les plus rapides et technologiques du monde de la voile. Il réunit chaque année, sur plusieurs étapes autour du globe, des équipes nationales (France, Australie, Nouvelle-Zélande, Suisse, USA, etc.), qui s'affrontent sur des catamarans volants F50 capables de dépasser les 100 km/h.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-01T11:05:00+02:00",
-          "end": "2026-05-01T12:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fc5038322b74",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Atlético Madrid / Arsenal",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-01T11:29:00+02:00",
-          "end": "2026-05-01T13:13:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "90f325517b99",
-          "sport": "other",
-          "competition": null,
-          "title": "Mattia Croci-Torti, l'entraîneur survolté",
-          "subtitle": "Doc. Sport",
-          "description": "Le coach de 44 ans est un passionné, il n'y a qu'à le voir sur le banc du FC Lugano pour s'en rendre compte. L'ancien supporter de basketball s'est fait un nom dans le football suisse. Rencontre avec un personnage qui ne passe pas inaperçu au Tessin.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-01T11:40:00+02:00",
-          "end": "2026-05-01T12:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "2eb2ac019341",
           "sport": "cyclisme",
           "competition": "Grand Prix de Francfort",
@@ -701,292 +529,6 @@
           "result": null
         },
         {
-          "id": "0288f2e1d590",
-          "sport": "football",
-          "competition": null,
-          "title": "Atlético Madrid - Arsenal",
-          "subtitle": null,
-          "description": "Match aller des demi-finales de l'UEFA Champions League : Atlético Madrid - Arsenal.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-01T11:45:00+02:00",
-          "end": "2026-05-01T13:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "741aa5f59259",
-          "sport": "other",
-          "competition": null,
-          "title": "RRC Bruxelles - Dragons",
-          "subtitle": null,
-          "description": "Diffusion d'un match du Championnat de Belgique de hockey sur gazon. C'est la plus haute compétition de hockey sur gazon en Belgique. C'est un championnat annuel qui oppose quatorze clubs se déroulant en été à l'extérieur et en hiver en salle. La première saison s'est passée en 1919/1920.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "BX1.be",
-            "name": "BX1",
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/BX1_logo.svg",
-            "slug": "bx1",
-            "is_free": false
-          },
-          "start": "2026-05-01T11:55:00+02:00",
-          "end": "2026-05-01T13:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cc687a1fa794",
-          "sport": "football",
-          "competition": "Football. Ligue Conférence. Demi-finale aller",
-          "title": "Chakhtior Donetsk / Crystal Palace",
-          "subtitle": "Football. Ligue Conférence. Demi-finale aller.",
-          "description": "Ligue Conférence. Demi-finale aller. Chakhtior Donetsk / Crystal Palace.",
-          "team1": {
-            "name": "Chakhtior Donetsk",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-05-01T11:55:00+02:00",
-          "end": "2026-05-01T13:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "546076963ebe",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Paris-SG / Toulouse",
-          "subtitle": null,
-          "description": "Match de la 28ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS SG et TOULOUSE FC.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-05-01T12:00:00+02:00",
-          "end": "2026-05-01T13:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1ddedd4c1c91",
-          "sport": "tennis",
-          "competition": "Tournoi de Madrid 2026 - WTA, demi-finale 1",
-          "title": "Tennis: Tournoi de Madrid 2026 - WTA, demi-finale 1",
-          "subtitle": "WTA, demi-finale 1",
-          "description": "En provenance de la Caja Magica à Madrid.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-05-01T12:00:00+02:00",
-          "end": "2026-05-01T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9d509046b2fc",
-          "sport": "football",
-          "competition": "Ligue Conférence - Demi-finale a",
-          "title": "Rayo Vallecano / Strasbourg",
-          "subtitle": "Ligue Conférence - Demi-finale a...",
-          "description": "Après sa remontada contre Mayence, le RC Strasbourg s'est hissé en demi-finale de Ligue Conférence. Les coéquipiers de Valentin Barco, suspendus pour ce match aller, feront face aux Madrilènes du Rayo Vallecano, actuellement 11e de Liga espagnole. Ils auront l'avantage de recevoir à la Meinau pour le retour.",
-          "team1": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-01T12:20:00+02:00",
-          "end": "2026-05-01T14:07:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "688a3d9b7e42",
-          "sport": "cyclisme",
-          "competition": "Tour de Turquie",
-          "title": "Cyclisme : Tour de Turquie",
-          "subtitle": "Cyclisme",
-          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-01T12:20:00+02:00",
-          "end": "2026-05-01T13:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "13ad606947a6",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Mayence / Bayern Munich",
-          "subtitle": "Bundesliga - 31e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Mayence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-01T12:21:00+02:00",
-          "end": "2026-05-01T14:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8502284da872",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Lyon / Castres",
-          "subtitle": "Top 14 - 22e journée",
-          "description": "Mal embarqué dans le bas du tableau, le LOU accueille Castres avec l'espoir de prendre des points et remettre un peu de baume au coeur des supporters lyonnais.",
-          "team1": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Castres Olympique",
-            "type": "club",
-            "short": "Castres",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2568.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-01T12:22:00+02:00",
-          "end": "2026-05-01T14:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "5dd4ac20ff00",
           "sport": "cyclisme",
           "competition": "Tour de Turquie",
@@ -1004,7 +546,7 @@
           },
           "start": "2026-05-01T13:30:00+02:00",
           "end": "2026-05-01T15:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1028,7 +570,7 @@
           },
           "start": "2026-05-01T13:30:00+02:00",
           "end": "2026-05-01T15:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1066,31 +608,7 @@
           },
           "start": "2026-05-01T13:45:00+02:00",
           "end": "2026-05-01T15:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cdc6247a25d5",
-          "sport": "other",
-          "competition": null,
-          "title": "Rallye Club",
-          "subtitle": "Rallye Rhône-Charbonnières",
-          "description": "Deuxième manche du championnat de France des rallyes 2026 dans le Rhône. Raphaël Astier remporte sa première victoire au volant d'une Porsche après 40 départs, devançant le sextuple champion Yoann Bonato et Hugo Margaillan au terme d'un duel intense.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-05-01T13:53:00+02:00",
-          "end": "2026-05-01T14:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1114,69 +632,7 @@
           },
           "start": "2026-05-01T13:55:00+02:00",
           "end": "2026-05-01T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8dd46a78a70f",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Flavio Cobolli - Alexander Zverev",
-          "subtitle": "Masters 1000 de Madrid - Quart de finale",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": {
-            "name": "Masters 1000 de Madrid",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Quart de finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-01T14:00:00+02:00",
-          "end": "2026-05-01T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c1f90abe82d2",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Absent l'an dernier à Madrid, l'Italien Jannik Sinner, nouveau numéro un mondial, a des points à gagner cette année, d'autant que Carlos Alcaraz, blessé, a déclaré forfait. Sinner ne s'est encore jamais imposé sur la terre battue espagnole.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-05-01T14:00:00+02:00",
-          "end": "2026-05-01T15:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1214,31 +670,7 @@
           },
           "start": "2026-05-01T14:00:00+02:00",
           "end": "2026-05-01T15:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9ee7c9e8fa30",
-          "sport": "other",
-          "competition": null,
-          "title": "On s'enflamme",
-          "subtitle": "Avec Mathis Dossou-Yovo",
-          "description": "International français depuis novembre 2025, MVP de Pro B en 2022-23, sélectionné aux All Star Game LNB en 2023 et 2025 et Champion de France avec Paris en 2025, Mathis Dossou-Yovo réalise une saison épatante avec Nanterre 92. Rencontre avec l'intérieur qui retrouvera les play-offs cette saison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-01T14:00:00+02:00",
-          "end": "2026-05-01T15:06:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1262,7 +694,7 @@
           },
           "start": "2026-05-01T14:00:00+02:00",
           "end": "2026-05-01T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1286,7 +718,7 @@
           },
           "start": "2026-05-01T14:05:00+02:00",
           "end": "2026-05-01T16:21:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1324,7 +756,7 @@
           },
           "start": "2026-05-01T14:07:00+02:00",
           "end": "2026-05-01T15:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1362,7 +794,7 @@
           },
           "start": "2026-05-01T14:15:00+02:00",
           "end": "2026-05-01T16:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1400,7 +832,7 @@
           },
           "start": "2026-05-01T14:21:00+02:00",
           "end": "2026-05-01T16:08:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1424,7 +856,7 @@
           },
           "start": "2026-05-01T14:30:00+02:00",
           "end": "2026-05-01T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1448,7 +880,7 @@
           },
           "start": "2026-05-01T15:00:00+02:00",
           "end": "2026-05-01T15:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1486,7 +918,7 @@
           },
           "start": "2026-05-01T15:03:00+02:00",
           "end": "2026-05-01T16:29:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4897,6 +4329,44 @@
           "result": null
         },
         {
+          "id": "dfa4f756f650",
+          "sport": "football",
+          "competition": "Ligue Europa - Demi-finale aller",
+          "title": "Nottingham Forest / Aston Villa",
+          "subtitle": "Ligue Europa - Demi-finale aller",
+          "description": "L'Olympique Lyonnais, le LOSC Lille, l'OGC Nice seront les trois représentants français cette saison pour tenter de succéder à Tottenham, vainqueur de la précédente édition de l'UEFA EUROPA LEAGUE.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-01T10:13:00+02:00",
+          "end": "2026-05-01T11:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "af48379f6221",
           "sport": "other",
           "competition": null,
@@ -4914,6 +4384,536 @@
           },
           "start": "2026-05-01T10:22:05+02:00",
           "end": "2026-05-01T10:31:33+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9c048eac9bb1",
+          "sport": "other",
+          "competition": "Coupe du monde de short track",
+          "title": "VTT : Coupe du monde de short track",
+          "subtitle": "VTT",
+          "description": "La Coupe du monde de cross-country short track, une des disiciplines du VTT, se déroule chaque année à la fois en Europe et sur le continent nord-américain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-01T10:55:00+02:00",
+          "end": "2026-05-01T11:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b60619d26554",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-01T11:00:00+02:00",
+          "end": "2026-05-01T12:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "67ee1a745cfc",
+          "sport": "voile",
+          "competition": "Grand Prix de Rio",
+          "title": "Voile : Grand Prix de Rio",
+          "subtitle": null,
+          "description": "Créé en 2019, SAIL GP est l'une des compétitions les plus rapides et technologiques du monde de la voile. Il réunit chaque année, sur plusieurs étapes autour du globe, des équipes nationales (France, Australie, Nouvelle-Zélande, Suisse, USA, etc.), qui s'affrontent sur des catamarans volants F50 capables de dépasser les 100 km/h.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-01T11:05:00+02:00",
+          "end": "2026-05-01T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fc5038322b74",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Atlético Madrid / Arsenal",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-01T11:29:00+02:00",
+          "end": "2026-05-01T13:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "90f325517b99",
+          "sport": "other",
+          "competition": null,
+          "title": "Mattia Croci-Torti, l'entraîneur survolté",
+          "subtitle": "Doc. Sport",
+          "description": "Le coach de 44 ans est un passionné, il n'y a qu'à le voir sur le banc du FC Lugano pour s'en rendre compte. L'ancien supporter de basketball s'est fait un nom dans le football suisse. Rencontre avec un personnage qui ne passe pas inaperçu au Tessin.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-01T11:40:00+02:00",
+          "end": "2026-05-01T12:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0288f2e1d590",
+          "sport": "football",
+          "competition": null,
+          "title": "Atlético Madrid - Arsenal",
+          "subtitle": null,
+          "description": "Match aller des demi-finales de l'UEFA Champions League : Atlético Madrid - Arsenal.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-01T11:45:00+02:00",
+          "end": "2026-05-01T13:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "741aa5f59259",
+          "sport": "other",
+          "competition": null,
+          "title": "RRC Bruxelles - Dragons",
+          "subtitle": null,
+          "description": "Diffusion d'un match du Championnat de Belgique de hockey sur gazon. C'est la plus haute compétition de hockey sur gazon en Belgique. C'est un championnat annuel qui oppose quatorze clubs se déroulant en été à l'extérieur et en hiver en salle. La première saison s'est passée en 1919/1920.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "BX1.be",
+            "name": "BX1",
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/BX1_logo.svg",
+            "slug": "bx1",
+            "is_free": false
+          },
+          "start": "2026-05-01T11:55:00+02:00",
+          "end": "2026-05-01T13:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cc687a1fa794",
+          "sport": "football",
+          "competition": "Football. Ligue Conférence. Demi-finale aller",
+          "title": "Chakhtior Donetsk / Crystal Palace",
+          "subtitle": "Football. Ligue Conférence. Demi-finale aller.",
+          "description": "Ligue Conférence. Demi-finale aller. Chakhtior Donetsk / Crystal Palace.",
+          "team1": {
+            "name": "Chakhtior Donetsk",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-05-01T11:55:00+02:00",
+          "end": "2026-05-01T13:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "546076963ebe",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Paris-SG / Toulouse",
+          "subtitle": null,
+          "description": "Match de la 28ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS SG et TOULOUSE FC.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-05-01T12:00:00+02:00",
+          "end": "2026-05-01T13:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1ddedd4c1c91",
+          "sport": "tennis",
+          "competition": "Tournoi de Madrid 2026 - WTA, demi-finale 1",
+          "title": "Tennis: Tournoi de Madrid 2026 - WTA, demi-finale 1",
+          "subtitle": "WTA, demi-finale 1",
+          "description": "En provenance de la Caja Magica à Madrid.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-05-01T12:00:00+02:00",
+          "end": "2026-05-01T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9d509046b2fc",
+          "sport": "football",
+          "competition": "Ligue Conférence - Demi-finale a",
+          "title": "Rayo Vallecano / Strasbourg",
+          "subtitle": "Ligue Conférence - Demi-finale a...",
+          "description": "Après sa remontada contre Mayence, le RC Strasbourg s'est hissé en demi-finale de Ligue Conférence. Les coéquipiers de Valentin Barco, suspendus pour ce match aller, feront face aux Madrilènes du Rayo Vallecano, actuellement 11e de Liga espagnole. Ils auront l'avantage de recevoir à la Meinau pour le retour.",
+          "team1": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-01T12:20:00+02:00",
+          "end": "2026-05-01T14:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "688a3d9b7e42",
+          "sport": "cyclisme",
+          "competition": "Tour de Turquie",
+          "title": "Cyclisme : Tour de Turquie",
+          "subtitle": "Cyclisme",
+          "description": "Découvrez les étapes du Tour de Turquie de cyclisme. Créée en 1968, cette course intègre à partir de 2002 le calendrier de l'UCI, partant du plus bas 2.5 pour arriver en 2020 à l'UCI ProSeries, le deuxième niveau international. Le tour nous fait découvrir les somptueux paysages et notamment ses villes touristiques.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-01T12:20:00+02:00",
+          "end": "2026-05-01T13:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "13ad606947a6",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Mayence / Bayern Munich",
+          "subtitle": "Bundesliga - 31e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Mayence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-01T12:21:00+02:00",
+          "end": "2026-05-01T14:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8502284da872",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Lyon / Castres",
+          "subtitle": "Top 14 - 22e journée",
+          "description": "Mal embarqué dans le bas du tableau, le LOU accueille Castres avec l'espoir de prendre des points et remettre un peu de baume au coeur des supporters lyonnais.",
+          "team1": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Castres Olympique",
+            "type": "club",
+            "short": "Castres",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2568.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-01T12:22:00+02:00",
+          "end": "2026-05-01T14:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cdc6247a25d5",
+          "sport": "other",
+          "competition": null,
+          "title": "Rallye Club",
+          "subtitle": "Rallye Rhône-Charbonnières",
+          "description": "Deuxième manche du championnat de France des rallyes 2026 dans le Rhône. Raphaël Astier remporte sa première victoire au volant d'une Porsche après 40 départs, devançant le sextuple champion Yoann Bonato et Hugo Margaillan au terme d'un duel intense.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-05-01T13:53:00+02:00",
+          "end": "2026-05-01T14:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8dd46a78a70f",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Flavio Cobolli - Alexander Zverev",
+          "subtitle": "Masters 1000 de Madrid - Quart de finale",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": {
+            "name": "Masters 1000 de Madrid",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Quart de finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-01T14:00:00+02:00",
+          "end": "2026-05-01T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c1f90abe82d2",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Absent l'an dernier à Madrid, l'Italien Jannik Sinner, nouveau numéro un mondial, a des points à gagner cette année, d'autant que Carlos Alcaraz, blessé, a déclaré forfait. Sinner ne s'est encore jamais imposé sur la terre battue espagnole.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-05-01T14:00:00+02:00",
+          "end": "2026-05-01T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9ee7c9e8fa30",
+          "sport": "other",
+          "competition": null,
+          "title": "On s'enflamme",
+          "subtitle": "Avec Mathis Dossou-Yovo",
+          "description": "International français depuis novembre 2025, MVP de Pro B en 2022-23, sélectionné aux All Star Game LNB en 2023 et 2025 et Champion de France avec Paris en 2025, Mathis Dossou-Yovo réalise une saison épatante avec Nanterre 92. Rencontre avec l'intérieur qui retrouvera les play-offs cette saison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-01T14:00:00+02:00",
+          "end": "2026-05-01T15:06:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
