@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-05T17:21:08.054502+00:00",
+    "generated_at": "2026-05-05T20:59:58.108515+00:00",
     "total_events": 935,
     "total_days": 7,
     "sports": [
@@ -23,28 +23,13 @@
     ],
     "channels": [
       {
+        "slug": "vtm2",
+        "name": "VTM2",
+        "is_free": false
+      },
+      {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -53,13 +38,13 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -68,28 +53,18 @@
         "is_free": false
       },
       {
-        "slug": "vtm2",
-        "name": "VTM2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus",
-        "name": "Canal+ Live 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
         "slug": "bein-1",
         "name": "beIN SPORTS 1",
+        "is_free": false
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
         "is_free": false
       },
       {
@@ -100,6 +75,11 @@
       {
         "slug": "eurosport-1",
         "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -120,6 +100,21 @@
       {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -155,6 +150,11 @@
       {
         "slug": "tv5-monde",
         "name": "TV5 Monde",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus",
+        "name": "Canal+ Live 1",
         "is_free": false
       },
       {
@@ -495,316 +495,6 @@
       "event_count": 115,
       "events": [
         {
-          "id": "642ace2ced1c",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Atlético Madrid / Arsenal",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-05T16:50:00+02:00",
-          "end": "2026-05-05T19:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "06e48209510d",
-          "sport": "golf",
-          "competition": "PGA Tour Champions, Open de Birmingham",
-          "title": "Golf : PGA Tour Champions, Open de Birmingham",
-          "subtitle": null,
-          "description": "Suivez l'Open de Birmingham (Etats-Unis), un tournoi de golf faisant partie du calendrier du PGA Tour Champions. Il s'agit d'une compétition senior pour les golfeurs de plus de 50 ans. La première édition s'est tenue en 1989. Le parcours se situe dans l'état de l'Alabama et a une longueur de 6654m.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-05-05T17:29:00+02:00",
-          "end": "2026-05-05T19:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6e16733f2e09",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Atlético Madrid / Arsenal",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-05T17:46:00+02:00",
-          "end": "2026-05-05T19:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "73684dc80166",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Osasuna / FC Barcelone",
-          "subtitle": "Liga - 34e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Osasuna",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-05T17:50:00+02:00",
-          "end": "2026-05-05T19:34:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2b3db358e3aa",
-          "sport": "f1",
-          "competition": "Grand Prix de Miami",
-          "title": "Formule 1 : Grand Prix de Miami",
-          "subtitle": null,
-          "description": "Après l'annulation des courses de Bahreïn et d'Arabie Saoudite, les pilotes de F1 se retrouvent à Miami. L'Italien Andrea Kimi Antonelli espère continuer sur sa bonne lancée. Vainqueur des Grands Prix de Chine et du Japon, le pilote Mercedes veut prendre de l'avance au classement du championnat du monde. Son partenaire George Russell, victorieux en Australie, sera également parmi les favoris. Derrière, Charles Leclerc et Lewis Hamilton pour Ferrari, ainsi que Lando Norris et Oscar Piastri pour McLaren, voudront relancer le suspense.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-05T17:57:00+02:00",
-          "end": "2026-05-05T19:41:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1725af4a7c7f",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Masters 1000 de Madrid. 2e demi-finale.",
-          "description": "Masters 1000 de Madrid. 2e demi-finale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-05-05T18:45:00+02:00",
-          "end": "2026-05-05T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e07fb1253dcc",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Finale . Jannik Sinner / Alexander Zverev",
-          "subtitle": "Masters 1000 de Madrid",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": {
-            "name": "Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Alexander Zverev",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-05T18:52:00+02:00",
-          "end": "2026-05-05T22:32:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c0f24975f34c",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "VTT",
-          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-05T19:00:00+02:00",
-          "end": "2026-05-05T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5c23cc7d7300",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": "Playoffs Philadelphie @ New York...",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-05T19:34:00+02:00",
-          "end": "2026-05-05T21:38:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b4486e81e2d3",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lyon / Rennes",
-          "subtitle": "Ligue 1 McDonald's - 32e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Rennais",
-            "type": "club",
-            "short": "Rennes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-05T19:36:00+02:00",
-          "end": "2026-05-05T21:26:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "c1fa44aef74a",
           "sport": "football",
           "competition": "Football. Ligue des champions. Demi-finale retour",
@@ -836,45 +526,7 @@
           },
           "start": "2026-05-05T20:35:00+02:00",
           "end": "2026-05-05T23:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ccc29241a644",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Chelsea / Nottingham Forest",
-          "subtitle": "Premier League - 35e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Chelsea FC",
-            "type": "club",
-            "short": "Chelsea",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-05T20:39:00+02:00",
-          "end": "2026-05-05T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -912,83 +564,7 @@
           },
           "start": "2026-05-05T21:00:00+02:00",
           "end": "2026-05-05T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0afbee05a06e",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Arsenal / Atlético Madrid",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "Renvoyés dos à dos à l'aller (1-1) à l'issue d'une rencontre sans grand relief, Arsenal et l'Atlético Madrid se retrouvent à l'Emirate Stadium pour une demi-finale retour à quitte ou double. Cette fois, il faudra un vainqueur. Antoine Griezmann et l'Atlético Madrid devront réussir à repousser les assauts des Gunners d'Arsenal et surtout se montrer bien plus offensifs pour une place en finale de la Ligue des champions, le 30 mai prochain, à la Puskas Aréna de Budapest.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusLive1.fr",
-            "name": "Canal+ Live 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
-            "slug": "canal-plus",
-            "is_free": false
-          },
-          "start": "2026-05-05T21:00:00+02:00",
-          "end": "2026-05-05T22:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "797379c1d123",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific",
-          "title": "Moana Pasifika / Blues",
-          "subtitle": "Super Rugby Pacific - 12e journée",
-          "description": "Pour la 12e journée, Moana Pasifika accueille les Blues dans un contexte très particulier. Fragilisée par de lourdes difficultés économiques, la franchise du Pacifique a annoncé qu'elle cesserait ses activités à l'issue de la saison 2026. Sur le terrain, les Blues tenteront d'en profiter après leur large succès à l'aller.",
-          "team1": {
-            "name": "Moana Pasifika",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Blues",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-05T21:00:00+02:00",
-          "end": "2026-05-05T22:43:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1012,31 +588,7 @@
           },
           "start": "2026-05-05T21:00:00+02:00",
           "end": "2026-05-05T23:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9a0fc65980b8",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Tennis : Masters 1000 de Madrid",
-          "subtitle": "Tennis",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-05-05T22:00:00+02:00",
-          "end": "2026-05-05T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1074,7 +626,7 @@
           },
           "start": "2026-05-05T22:00:00+02:00",
           "end": "2026-05-05T23:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1112,7 +664,7 @@
           },
           "start": "2026-05-05T22:30:00+02:00",
           "end": "2026-05-06T00:16:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1150,7 +702,7 @@
           },
           "start": "2026-05-05T22:30:00+02:00",
           "end": "2026-05-06T00:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1188,7 +740,7 @@
           },
           "start": "2026-05-05T22:30:00+02:00",
           "end": "2026-05-06T00:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1212,7 +764,7 @@
           },
           "start": "2026-05-05T22:30:00+02:00",
           "end": "2026-05-06T00:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1250,7 +802,7 @@
           },
           "start": "2026-05-05T22:43:00+02:00",
           "end": "2026-05-06T00:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3941,6 +3493,44 @@
           "result": null
         },
         {
+          "id": "642ace2ced1c",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Atlético Madrid / Arsenal",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-05T16:50:00+02:00",
+          "end": "2026-05-05T19:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "fdb9b47ce588",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -4034,6 +3624,30 @@
           },
           "start": "2026-05-05T17:16:00+02:00",
           "end": "2026-05-05T18:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "06e48209510d",
+          "sport": "golf",
+          "competition": "PGA Tour Champions, Open de Birmingham",
+          "title": "Golf : PGA Tour Champions, Open de Birmingham",
+          "subtitle": null,
+          "description": "Suivez l'Open de Birmingham (Etats-Unis), un tournoi de golf faisant partie du calendrier du PGA Tour Champions. Il s'agit d'une compétition senior pour les golfeurs de plus de 50 ans. La première édition s'est tenue en 1989. Le parcours se situe dans l'état de l'Alabama et a une longueur de 6654m.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-05-05T17:29:00+02:00",
+          "end": "2026-05-05T19:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -4158,6 +3772,392 @@
           },
           "start": "2026-05-05T17:45:00+02:00",
           "end": "2026-05-05T18:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6e16733f2e09",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Atlético Madrid / Arsenal",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-05T17:46:00+02:00",
+          "end": "2026-05-05T19:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "73684dc80166",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Osasuna / FC Barcelone",
+          "subtitle": "Liga - 34e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Osasuna",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-05T17:50:00+02:00",
+          "end": "2026-05-05T19:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2b3db358e3aa",
+          "sport": "f1",
+          "competition": "Grand Prix de Miami",
+          "title": "Formule 1 : Grand Prix de Miami",
+          "subtitle": null,
+          "description": "Après l'annulation des courses de Bahreïn et d'Arabie Saoudite, les pilotes de F1 se retrouvent à Miami. L'Italien Andrea Kimi Antonelli espère continuer sur sa bonne lancée. Vainqueur des Grands Prix de Chine et du Japon, le pilote Mercedes veut prendre de l'avance au classement du championnat du monde. Son partenaire George Russell, victorieux en Australie, sera également parmi les favoris. Derrière, Charles Leclerc et Lewis Hamilton pour Ferrari, ainsi que Lando Norris et Oscar Piastri pour McLaren, voudront relancer le suspense.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-05T17:57:00+02:00",
+          "end": "2026-05-05T19:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1725af4a7c7f",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Masters 1000 de Madrid. 2e demi-finale.",
+          "description": "Masters 1000 de Madrid. 2e demi-finale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-05-05T18:45:00+02:00",
+          "end": "2026-05-05T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e07fb1253dcc",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Finale . Jannik Sinner / Alexander Zverev",
+          "subtitle": "Masters 1000 de Madrid",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": {
+            "name": "Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Alexander Zverev",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-05T18:52:00+02:00",
+          "end": "2026-05-05T22:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c0f24975f34c",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "VTT",
+          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-05T19:00:00+02:00",
+          "end": "2026-05-05T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5c23cc7d7300",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": "Playoffs Philadelphie @ New York...",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-05T19:34:00+02:00",
+          "end": "2026-05-05T21:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b4486e81e2d3",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lyon / Rennes",
+          "subtitle": "Ligue 1 McDonald's - 32e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Rennais",
+            "type": "club",
+            "short": "Rennes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-05T19:36:00+02:00",
+          "end": "2026-05-05T21:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ccc29241a644",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Chelsea / Nottingham Forest",
+          "subtitle": "Premier League - 35e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Chelsea FC",
+            "type": "club",
+            "short": "Chelsea",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-05T20:39:00+02:00",
+          "end": "2026-05-05T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0afbee05a06e",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Arsenal / Atlético Madrid",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "Renvoyés dos à dos à l'aller (1-1) à l'issue d'une rencontre sans grand relief, Arsenal et l'Atlético Madrid se retrouvent à l'Emirate Stadium pour une demi-finale retour à quitte ou double. Cette fois, il faudra un vainqueur. Antoine Griezmann et l'Atlético Madrid devront réussir à repousser les assauts des Gunners d'Arsenal et surtout se montrer bien plus offensifs pour une place en finale de la Ligue des champions, le 30 mai prochain, à la Puskas Aréna de Budapest.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusLive1.fr",
+            "name": "Canal+ Live 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-05-05T21:00:00+02:00",
+          "end": "2026-05-05T22:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "797379c1d123",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific",
+          "title": "Moana Pasifika / Blues",
+          "subtitle": "Super Rugby Pacific - 12e journée",
+          "description": "Pour la 12e journée, Moana Pasifika accueille les Blues dans un contexte très particulier. Fragilisée par de lourdes difficultés économiques, la franchise du Pacifique a annoncé qu'elle cesserait ses activités à l'issue de la saison 2026. Sur le terrain, les Blues tenteront d'en profiter après leur large succès à l'aller.",
+          "team1": {
+            "name": "Moana Pasifika",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Blues",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-05T21:00:00+02:00",
+          "end": "2026-05-05T22:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9a0fc65980b8",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Tennis : Masters 1000 de Madrid",
+          "subtitle": "Tennis",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-05-05T22:00:00+02:00",
+          "end": "2026-05-05T22:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
