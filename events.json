@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-05T06:13:02.173597+00:00",
+    "generated_at": "2026-05-05T09:59:39.612059+00:00",
     "total_events": 935,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,28 @@
     ],
     "channels": [
       {
-        "slug": "bein-2",
-        "name": "beIN SPORTS 2",
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
@@ -33,33 +53,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
+        "slug": "trek",
+        "name": "TREK",
         "is_free": false
       },
       {
@@ -73,8 +68,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -83,23 +78,13 @@
         "is_free": false
       },
       {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -113,6 +98,11 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
         "is_free": false
@@ -120,6 +110,11 @@
       {
         "slug": "een",
         "name": "een",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
         "is_free": false
       },
       {
@@ -155,6 +150,11 @@
       {
         "slug": "rds2",
         "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "bein-2",
+        "name": "beIN SPORTS 2",
         "is_free": false
       },
       {
@@ -495,620 +495,6 @@
       "event_count": 115,
       "events": [
         {
-          "id": "98682c6f1c26",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Football : Liga",
-          "subtitle": null,
-          "description": "Il y a quelques années ce duel entre le FC Séville et la Real Sociedad aurait senti l'Europe. Malheureusement pour les Sévillans d'Akor Adams, le club lutte pour sa survie en Liga, et reçoit une équipe dont le seul et unique objectif est de jouer une coupe d'Europe la saison prochaine.",
-          "team1": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Sociedad",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-05-05T06:30:00+02:00",
-          "end": "2026-05-05T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "150c24c1d3b7",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Leeds / Burnley",
-          "subtitle": "Premier League - 35e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Leeds",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Burnley",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-05T06:37:00+02:00",
-          "end": "2026-05-05T08:21:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "da7c54296dce",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Madrid",
-          "title": "Finale . Jannik Sinner / Alexander Zverev",
-          "subtitle": "Masters 1000 de Madrid",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-          "team1": {
-            "name": "Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Alexander Zverev",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-05T06:39:00+02:00",
-          "end": "2026-05-05T08:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1721d9927afd",
-          "sport": "football",
-          "competition": "Ligue 1 Ivoirienne",
-          "title": "SOA / Stella Club d'Adjamé",
-          "subtitle": "Ligue 1 Ivoirienne - 27e  journée",
-          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
-          "team1": {
-            "name": "SOA",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stella Club d'Adjamé",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-05T06:44:00+02:00",
-          "end": "2026-05-05T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a3537b541396",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Bournemouth / Crystal Palace",
-          "subtitle": "Premier League - 35e journée",
-          "description": "Match de milieu de tableau entre Bournemouth et Crystal Palace, deux équipes qui avaient encore un mince espoir d'accrocher une place européenne, à quelques journées de la fin de la saison. Lors du match aller, en octobre dernier, la rencontre s'était soldée par un nul (3-3), avec notamment un triplé de Jean-Philippe Mateta, côté Crystal Palace.",
-          "team1": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-05T07:00:00+02:00",
-          "end": "2026-05-05T08:44:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "34e2fac3edae",
-          "sport": "rugby",
-          "competition": "The Rugby Championship U20",
-          "title": "Nouvelle-Zélande / Argentine",
-          "subtitle": "The Rugby Championship U20 - 2e ...",
-          "description": "Après l'Australie, la Nouvelle-Zélande, tenante du titre, affronte l'Argentine pour la deuxième journée du Rugby Championship U20. L'an dernier, les jeunes pousses néo-zélandaises avaient été sans pitié pour les Argentins, les pulvérisant sur le score fleuve de 75 à 21. Cette saison, les All Blacks, candidats à leur propre succession, comptent bien, une fois encore, ne faire qu'une bouchée de leurs adversaires.",
-          "team1": {
-            "name": "Nouvelle-Zélande",
-            "type": "country",
-            "short": null,
-            "country_code": "nz",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Argentine",
-            "type": "country",
-            "short": "Argentine",
-            "country_code": "ar",
-            "logo_url": "https://flagcdn.com/w80/ar.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-05T07:19:00+02:00",
-          "end": "2026-05-05T09:09:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "70a423ae62a9",
-          "sport": "other",
-          "competition": null,
-          "title": "Finale messieurs",
-          "subtitle": "Coupe du monde - 1re manche bloc",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": {
-            "name": "Coupe du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "1re manche bloc",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-05T07:30:00+02:00",
-          "end": "2026-05-05T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "94d57c1895e5",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-05-05T07:30:00+02:00",
-          "end": "2026-05-05T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "430f510ea4a9",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayer Leverkusen / Leipzig",
-          "subtitle": "Bundesliga - 32e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayer Leverkusen",
-            "type": "club",
-            "short": "Leverkusen",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leipzig",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-05T07:31:00+02:00",
-          "end": "2026-05-05T09:14:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f514fc742001",
-          "sport": "football",
-          "competition": null,
-          "title": "Atalanta - Bayern Munich",
-          "subtitle": null,
-          "description": "Match aller des huitièmes de finale de l'UEFA Champions League : Atalanta - Bayern Munich.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-05T07:45:00+02:00",
-          "end": "2026-05-05T09:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "872da65a67d0",
-          "sport": "football",
-          "competition": null,
-          "title": "Atalanta - Bayern München",
-          "subtitle": null,
-          "description": "Heenwedstrijd van de achtste finales in de UEFA Champions League: Atalanta - Bayern München.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-05-05T07:45:00+02:00",
-          "end": "2026-05-05T09:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f5c76dfe7b1e",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": "Playoffs Philadelphie @ New York...",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-05T08:10:00+02:00",
-          "end": "2026-05-05T10:14:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dc0af705523a",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Lugano / Young Boys Berne",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Lugano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Young Boys Berne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-05T08:20:00+02:00",
-          "end": "2026-05-05T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b384b4ccd467",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Liverpool",
-          "subtitle": "Premier League - 35e journée",
-          "description": "C'est le match au sommet de la 35e journée de Premier League, entre deux candidats à la Ligue des champions la saison prochaine. Les Reds ont une revanche à prendre sur les Red Devils, après leur défaite concédée à domicile lors du match aller (1-2), en octobre dernier. Ce jour-là, Harry Maguire avait inscrit le but de la victoire des Mancuniens, à quelques minutes de la fin du match.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-05T08:44:00+02:00",
-          "end": "2026-05-05T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4aaa1176ee63",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Nice / Lens",
-          "subtitle": "Ligue 1 McDonald's - 32e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-05T09:14:00+02:00",
-          "end": "2026-05-05T10:56:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "78b96c8cc338",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-05T09:15:00+02:00",
-          "end": "2026-05-05T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ae76535bae70",
-          "sport": "rugby",
-          "competition": "The Rugby Championship U20",
-          "title": "Afrique du Sud / Australie",
-          "subtitle": "The Rugby Championship U20 - 2e ...",
-          "description": "Finalistes de la dernière édition en 2025, battus par la Nouvelle-Zélande, les Sud-Africains affrontent les Junior Wallabies australiens, pour le compte de la 2e journée.",
-          "team1": {
-            "name": "Afrique Du Sud",
-            "type": "club",
-            "short": "Afrique Du Sud",
-            "country_code": "za",
-            "logo_url": "https://flagcdn.com/w80/za.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Australie",
-            "type": "country",
-            "short": "Australie",
-            "country_code": "au",
-            "logo_url": "https://flagcdn.com/w80/au.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-05T09:16:00+02:00",
-          "end": "2026-05-05T10:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c36e0f3883fe",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Bournemouth / Crystal Palace",
-          "subtitle": "Premier League - 35e journée",
-          "description": "Match de milieu de tableau entre Bournemouth et Crystal Palace, deux équipes qui avaient encore un mince espoir d'accrocher une place européenne, à quelques journées de la fin de la saison. Lors du match aller, en octobre dernier, la rencontre s'était soldée par un nul (3-3), avec notamment un triplé de Jean-Philippe Mateta, côté Crystal Palace.",
-          "team1": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-05T09:29:00+02:00",
-          "end": "2026-05-05T11:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "10018e72cbfc",
           "sport": "volleyball",
           "competition": "Ligue A Féminine",
@@ -1140,31 +526,7 @@
           },
           "start": "2026-05-05T09:59:00+02:00",
           "end": "2026-05-05T13:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "77e59599b93b",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "VTT",
-          "description": "Coup d'envoi de la coupe du monde de VTT cross country en Corée du Sud, à Yongpyong, station de sports d'hiver située à 200 km de Séoul. Chez les dames, la tenante du titre est la Néo-Zélandaise Samara Maxwell. L'an dernier, elle avait remporté la coupe du monde de la spécialité, devant la Suédoise Jenny Rissveds et la Suissesse Alessandra Keller.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-05T10:00:00+02:00",
-          "end": "2026-05-05T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1202,7 +564,7 @@
           },
           "start": "2026-05-05T10:30:00+02:00",
           "end": "2026-05-05T12:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1240,7 +602,7 @@
           },
           "start": "2026-05-05T10:35:00+02:00",
           "end": "2026-05-05T12:17:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1278,7 +640,7 @@
           },
           "start": "2026-05-05T10:57:00+02:00",
           "end": "2026-05-05T12:39:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1302,7 +664,7 @@
           },
           "start": "2026-05-05T11:00:00+02:00",
           "end": "2026-05-05T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1340,7 +702,7 @@
           },
           "start": "2026-05-05T11:13:00+02:00",
           "end": "2026-05-05T13:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1364,7 +726,7 @@
           },
           "start": "2026-05-05T11:16:00+02:00",
           "end": "2026-05-05T12:09:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1388,7 +750,7 @@
           },
           "start": "2026-05-05T11:25:00+02:00",
           "end": "2026-05-05T13:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1412,7 +774,7 @@
           },
           "start": "2026-05-05T11:25:00+02:00",
           "end": "2026-05-05T13:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1436,7 +798,7 @@
           },
           "start": "2026-05-05T11:30:00+02:00",
           "end": "2026-05-05T13:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1474,7 +836,7 @@
           },
           "start": "2026-05-05T11:50:00+02:00",
           "end": "2026-05-05T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4158,6 +3520,644 @@
           },
           "start": "2026-05-05T06:30:00+02:00",
           "end": "2026-05-05T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "98682c6f1c26",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Football : Liga",
+          "subtitle": null,
+          "description": "Il y a quelques années ce duel entre le FC Séville et la Real Sociedad aurait senti l'Europe. Malheureusement pour les Sévillans d'Akor Adams, le club lutte pour sa survie en Liga, et reçoit une équipe dont le seul et unique objectif est de jouer une coupe d'Europe la saison prochaine.",
+          "team1": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Sociedad",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-05-05T06:30:00+02:00",
+          "end": "2026-05-05T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "150c24c1d3b7",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Leeds / Burnley",
+          "subtitle": "Premier League - 35e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Leeds",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Burnley",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-05T06:37:00+02:00",
+          "end": "2026-05-05T08:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "da7c54296dce",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Madrid",
+          "title": "Finale . Jannik Sinner / Alexander Zverev",
+          "subtitle": "Masters 1000 de Madrid",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Masters de Madrid. C'est le dernier tournoi majeur avant Roland Garros. Ce tournoi, depuis 2009, fait partie des ATP Masters 1000, les neuf tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+          "team1": {
+            "name": "Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Alexander Zverev",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-05T06:39:00+02:00",
+          "end": "2026-05-05T08:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1721d9927afd",
+          "sport": "football",
+          "competition": "Ligue 1 Ivoirienne",
+          "title": "SOA / Stella Club d'Adjamé",
+          "subtitle": "Ligue 1 Ivoirienne - 27e  journée",
+          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
+          "team1": {
+            "name": "SOA",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stella Club d'Adjamé",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-05T06:44:00+02:00",
+          "end": "2026-05-05T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a3537b541396",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Bournemouth / Crystal Palace",
+          "subtitle": "Premier League - 35e journée",
+          "description": "Match de milieu de tableau entre Bournemouth et Crystal Palace, deux équipes qui avaient encore un mince espoir d'accrocher une place européenne, à quelques journées de la fin de la saison. Lors du match aller, en octobre dernier, la rencontre s'était soldée par un nul (3-3), avec notamment un triplé de Jean-Philippe Mateta, côté Crystal Palace.",
+          "team1": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-05T07:00:00+02:00",
+          "end": "2026-05-05T08:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "34e2fac3edae",
+          "sport": "rugby",
+          "competition": "The Rugby Championship U20",
+          "title": "Nouvelle-Zélande / Argentine",
+          "subtitle": "The Rugby Championship U20 - 2e ...",
+          "description": "Après l'Australie, la Nouvelle-Zélande, tenante du titre, affronte l'Argentine pour la deuxième journée du Rugby Championship U20. L'an dernier, les jeunes pousses néo-zélandaises avaient été sans pitié pour les Argentins, les pulvérisant sur le score fleuve de 75 à 21. Cette saison, les All Blacks, candidats à leur propre succession, comptent bien, une fois encore, ne faire qu'une bouchée de leurs adversaires.",
+          "team1": {
+            "name": "Nouvelle-Zélande",
+            "type": "country",
+            "short": null,
+            "country_code": "nz",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Argentine",
+            "type": "country",
+            "short": "Argentine",
+            "country_code": "ar",
+            "logo_url": "https://flagcdn.com/w80/ar.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-05T07:19:00+02:00",
+          "end": "2026-05-05T09:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "70a423ae62a9",
+          "sport": "other",
+          "competition": null,
+          "title": "Finale messieurs",
+          "subtitle": "Coupe du monde - 1re manche bloc",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": {
+            "name": "Coupe du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "1re manche bloc",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-05T07:30:00+02:00",
+          "end": "2026-05-05T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "94d57c1895e5",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-05-05T07:30:00+02:00",
+          "end": "2026-05-05T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "430f510ea4a9",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayer Leverkusen / Leipzig",
+          "subtitle": "Bundesliga - 32e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayer Leverkusen",
+            "type": "club",
+            "short": "Leverkusen",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leipzig",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-05T07:31:00+02:00",
+          "end": "2026-05-05T09:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f514fc742001",
+          "sport": "football",
+          "competition": null,
+          "title": "Atalanta - Bayern Munich",
+          "subtitle": null,
+          "description": "Match aller des huitièmes de finale de l'UEFA Champions League : Atalanta - Bayern Munich.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-05T07:45:00+02:00",
+          "end": "2026-05-05T09:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "872da65a67d0",
+          "sport": "football",
+          "competition": null,
+          "title": "Atalanta - Bayern München",
+          "subtitle": null,
+          "description": "Heenwedstrijd van de achtste finales in de UEFA Champions League: Atalanta - Bayern München.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-05-05T07:45:00+02:00",
+          "end": "2026-05-05T09:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f5c76dfe7b1e",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": "Playoffs Philadelphie @ New York...",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-05T08:10:00+02:00",
+          "end": "2026-05-05T10:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dc0af705523a",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Lugano / Young Boys Berne",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Lugano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Young Boys Berne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-05T08:20:00+02:00",
+          "end": "2026-05-05T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b384b4ccd467",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Liverpool",
+          "subtitle": "Premier League - 35e journée",
+          "description": "C'est le match au sommet de la 35e journée de Premier League, entre deux candidats à la Ligue des champions la saison prochaine. Les Reds ont une revanche à prendre sur les Red Devils, après leur défaite concédée à domicile lors du match aller (1-2), en octobre dernier. Ce jour-là, Harry Maguire avait inscrit le but de la victoire des Mancuniens, à quelques minutes de la fin du match.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-05T08:44:00+02:00",
+          "end": "2026-05-05T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4aaa1176ee63",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Nice / Lens",
+          "subtitle": "Ligue 1 McDonald's - 32e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-05T09:14:00+02:00",
+          "end": "2026-05-05T10:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "78b96c8cc338",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-05T09:15:00+02:00",
+          "end": "2026-05-05T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ae76535bae70",
+          "sport": "rugby",
+          "competition": "The Rugby Championship U20",
+          "title": "Afrique du Sud / Australie",
+          "subtitle": "The Rugby Championship U20 - 2e ...",
+          "description": "Finalistes de la dernière édition en 2025, battus par la Nouvelle-Zélande, les Sud-Africains affrontent les Junior Wallabies australiens, pour le compte de la 2e journée.",
+          "team1": {
+            "name": "Afrique Du Sud",
+            "type": "club",
+            "short": "Afrique Du Sud",
+            "country_code": "za",
+            "logo_url": "https://flagcdn.com/w80/za.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Australie",
+            "type": "country",
+            "short": "Australie",
+            "country_code": "au",
+            "logo_url": "https://flagcdn.com/w80/au.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-05T09:16:00+02:00",
+          "end": "2026-05-05T10:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c36e0f3883fe",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Bournemouth / Crystal Palace",
+          "subtitle": "Premier League - 35e journée",
+          "description": "Match de milieu de tableau entre Bournemouth et Crystal Palace, deux équipes qui avaient encore un mince espoir d'accrocher une place européenne, à quelques journées de la fin de la saison. Lors du match aller, en octobre dernier, la rencontre s'était soldée par un nul (3-3), avec notamment un triplé de Jean-Philippe Mateta, côté Crystal Palace.",
+          "team1": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-05T09:29:00+02:00",
+          "end": "2026-05-05T11:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "77e59599b93b",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "VTT",
+          "description": "Coup d'envoi de la coupe du monde de VTT cross country en Corée du Sud, à Yongpyong, station de sports d'hiver située à 200 km de Séoul. Chez les dames, la tenante du titre est la Néo-Zélandaise Samara Maxwell. L'an dernier, elle avait remporté la coupe du monde de la spécialité, devant la Suédoise Jenny Rissveds et la Suissesse Alessandra Keller.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-05T10:00:00+02:00",
+          "end": "2026-05-05T11:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
