@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-07T06:32:42.443715+00:00",
+    "generated_at": "2026-05-07T10:21:55.411509+00:00",
     "total_events": 912,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,13 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
+        "slug": "eurosport-360-1",
+        "name": "Eurosport 360 - 1",
+        "is_free": false
+      },
+      {
+        "slug": "olplay",
+        "name": "OLPLAY",
         "is_free": false
       },
       {
@@ -33,18 +38,18 @@
         "is_free": false
       },
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
-        "slug": "golf",
-        "name": "Golf+",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
         "is_free": false
       },
       {
@@ -58,38 +63,18 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "olplay",
-        "name": "OLPLAY",
-        "is_free": false
-      },
-      {
-        "slug": "afric-ble",
-        "name": "Africâble",
-        "is_free": false
-      },
-      {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -103,26 +88,6 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-1",
-        "name": "Eurosport 360 - 1",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
         "slug": "rds2",
         "name": "RDS2",
         "is_free": false
@@ -131,6 +96,11 @@
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
         "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "voo-sport-world-2",
@@ -173,6 +143,16 @@
         "is_free": false
       },
       {
+        "slug": "afric-ble",
+        "name": "Africâble",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-9",
         "name": "EUROSPORT 360 9",
         "is_free": false
@@ -208,6 +188,16 @@
         "is_free": false
       },
       {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
         "slug": "canal-docs",
         "name": "Canal+ Docs",
         "is_free": false
@@ -223,6 +213,11 @@
         "is_free": false
       },
       {
+        "slug": "golf",
+        "name": "Golf+",
+        "is_free": false
+      },
+      {
         "slug": "bein-2",
         "name": "beIN SPORTS 2",
         "is_free": false
@@ -235,6 +230,11 @@
       {
         "slug": "auto-plus-tv",
         "name": "Auto Plus TV",
+        "is_free": false
+      },
+      {
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
         "is_free": false
       },
       {
@@ -525,754 +525,6 @@
       "event_count": 152,
       "events": [
         {
-          "id": "da6c00801350",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Bayern Munich / Paris-SG",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-07T06:52:00+02:00",
-          "end": "2026-05-07T08:38:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a906f577ae64",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Football : Liga",
-          "subtitle": null,
-          "description": "Il y a quelques années ce duel entre le FC Séville et la Real Sociedad aurait senti l'Europe. Malheureusement pour les Sévillans d'Akor Adams, le club lutte pour sa survie en Liga, et reçoit une équipe dont le seul et unique objectif est de jouer une coupe d'Europe la saison prochaine.",
-          "team1": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Sociedad",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-07T07:00:00+02:00",
-          "end": "2026-05-07T09:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ae356e22de35",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Andres Cortes",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eridson Garcia",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-05-07T07:30:00+02:00",
-          "end": "2026-05-07T10:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "df366bb02f79",
-          "sport": "golf",
-          "competition": "PGA Tour Champions, Open de Birmingham",
-          "title": "Golf : PGA Tour Champions, Open de Birmingham",
-          "subtitle": "Golf",
-          "description": "Suivez l'Open de Birmingham (Etats-Unis), un tournoi de golf faisant partie du calendrier du PGA Tour Champions. Il s'agit d'une compétition senior pour les golfeurs de plus de 50 ans. La première édition s'est tenue en 1989. Le parcours se situe dans l'état de l'Alabama et a une longueur de 6654m.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-05-07T07:32:00+02:00",
-          "end": "2026-05-07T09:31:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2126a61c84df",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Oklahoma City Thunder / Los Angeles Lakers",
-          "subtitle": "NBA - 1re Playoffs Demi-finale d...",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Oklahoma City Thunder",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Los Angeles Lakers",
-            "type": "club",
-            "short": "Lakers",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/13.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-07T07:47:00+02:00",
-          "end": "2026-05-07T09:51:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ffd18a6f3285",
-          "sport": "football",
-          "competition": null,
-          "title": "Bayern Munich - Paris Saint-Germain",
-          "subtitle": null,
-          "description": "Match retour des demi-finales de l'UEFA Champions League : Bayern Munich - Paris Saint-Germain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-07T07:50:00+02:00",
-          "end": "2026-05-07T09:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d885dbc1e12c",
-          "sport": "football",
-          "competition": null,
-          "title": "Bayern München - Paris Saint-Germain",
-          "subtitle": null,
-          "description": "Terugwedstrijd van de halve finale in de UEFA Champions League: Bayern München - Paris Saint-Germain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-05-07T07:50:00+02:00",
-          "end": "2026-05-07T09:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d9a1b89c3fc1",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Paris-SG / Strasbourg",
-          "subtitle": "Arkema Première Ligue - 22e jour...",
-          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-07T08:03:00+02:00",
-          "end": "2026-05-07T09:46:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8b51d73ecc41",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-billard",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Cette semaine, place au para-billard",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-07T08:30:00+02:00",
-          "end": "2026-05-07T09:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4a860b96bd0d",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Bayern Munich / Paris-SG",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "Battu au match aller (5-4) à l'issue d'une rencontre qui restera dans l'histoire de la compétition européenne, le Bayern Munich accueille le Paris-SG pour une place en finale de la Ligue des champions. Sur leur pelouse de l'Allianz Arena, les hommes de Vincent Kompany ambitionnent d'inverser la tendance et de faire tomber les Parisiens.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-07T08:45:00+02:00",
-          "end": "2026-05-07T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d7ac25e7c3da",
-          "sport": "f1",
-          "competition": "Grand Prix",
-          "title": "Escrime : Grand Prix",
-          "subtitle": "Escrime",
-          "description": "Séoul accueillait, du 1er au 3 mai 2026, les meilleurs sabreurs et sabreuses du monde pour un Grand Prix relevé dans une discipline ultra rapide. On suivra principalement Sébastien Patrice qui réalise une saison exceptionnelle. Le sabreur marseillais de 25 ans, 5e tireur mondial, s'est notamment imposé à Tunis et est monté sur plusieurs podiums cette année.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-07T09:00:00+02:00",
-          "end": "2026-05-07T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e56f10e2bbb3",
-          "sport": "football",
-          "competition": null,
-          "title": "OL - Rennes",
-          "subtitle": "Ligue 1 McDonald's - 32e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Ligue 1 McDonald's",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "32e journée",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "OLTV.fr",
-            "name": "OLPLAY",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
-            "slug": "olplay",
-            "is_free": false
-          },
-          "start": "2026-05-07T09:00:00+02:00",
-          "end": "2026-05-07T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "02025176066d",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-07T09:15:00+02:00",
-          "end": "2026-05-07T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0411005132c4",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": null,
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-05-07T09:30:00+02:00",
-          "end": "2026-05-07T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3b72f7a24787",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Liverpool",
-          "subtitle": "Premier League - 35e journée",
-          "description": "C'est le match au sommet de la 35e journée de Premier League, entre deux candidats à la Ligue des champions la saison prochaine. Les Reds ont une revanche à prendre sur les Red Devils, après leur défaite concédée à domicile lors du match aller (1-2), en octobre dernier. Ce jour-là, Harry Maguire avait inscrit le but de la victoire des Mancuniens, à quelques minutes de la fin du match.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-07T09:40:00+02:00",
-          "end": "2026-05-07T11:26:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "91f27dcbb4c8",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Bayern Munich / Paris-SG",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-07T09:46:00+02:00",
-          "end": "2026-05-07T11:31:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8fdc87eebf8f",
-          "sport": "other",
-          "competition": null,
-          "title": "L'atelier classic",
-          "subtitle": "Peugeot 905 / AC Cobra 289",
-          "description": "Dans la campagne française, une équipe de mécaniciens chevronnés opère minutieusement pour rendre leur gloire d'antan aux voitures historiques, de course ou de route.",
-          "team1": {
-            "name": "Peugeot 905",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AC Cobra 289",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-05-07T09:59:00+02:00",
-          "end": "2026-05-07T10:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9851085eab46",
-          "sport": "other",
-          "competition": null,
-          "title": "Finale messieurs",
-          "subtitle": "Coupe du monde - 1re manche bloc",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": {
-            "name": "Coupe du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "1re manche bloc",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-07T10:00:00+02:00",
-          "end": "2026-05-07T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ecda5df3dee3",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "VTT",
-          "description": "La coupe du monde 2026 de descente débute à Yongpyong, en Corée du Sud. Chez les dames, la tenante du titre est la quadruple championne du monde, l'Autrichienne Valentina Höll. L'an dernier, elle avait devancé la Canadienne Gracey Hemstreet et la Britannique Tahnée Seagrave. La Française Marine Cabirou avait terminé à la 5e place.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-07T10:00:00+02:00",
-          "end": "2026-05-07T10:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4b02ea642901",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-05-07T10:00:00+02:00",
-          "end": "2026-05-07T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "55799ad9a6c3",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific",
-          "title": "Moana Pasifika / Blues",
-          "subtitle": "Super Rugby Pacific - 12e journée",
-          "description": "Pour la 12e journée, Moana Pasifika accueille les Blues dans un contexte très particulier. Fragilisée par de lourdes difficultés économiques, la franchise du Pacifique a annoncé qu'elle cesserait ses activités à l'issue de la saison 2026. Sur le terrain, les Blues tenteront d'en profiter après leur large succès à l'aller.",
-          "team1": {
-            "name": "Moana Pasifika",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Blues",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-07T10:20:00+02:00",
-          "end": "2026-05-07T11:51:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e704c64c3609",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "VTT",
-          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-07T10:45:00+02:00",
-          "end": "2026-05-07T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5566eef61743",
-          "sport": "other",
-          "competition": null,
-          "title": "L'atelier classic",
-          "subtitle": "Porsche 935 / Jaguar type E",
-          "description": "Dans la campagne française, une équipe de mécaniciens chevronnés opère minutieusement pour rendre leur gloire d'antan aux voitures historiques, de course ou de route. Les modèles les plus mythiques défilent dans leur atelier, tels que la Porsche 935.",
-          "team1": {
-            "name": "Porsche 935",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Jaguar type E",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-05-07T10:54:00+02:00",
-          "end": "2026-05-07T11:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "73044e29802a",
           "sport": "tennis",
           "competition": "Masters 1000 de Rome",
@@ -1290,7 +542,7 @@
           },
           "start": "2026-05-07T11:00:00+02:00",
           "end": "2026-05-07T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1328,7 +580,7 @@
           },
           "start": "2026-05-07T11:00:00+02:00",
           "end": "2026-05-07T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1352,7 +604,7 @@
           },
           "start": "2026-05-07T11:00:00+02:00",
           "end": "2026-05-07T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1390,7 +642,7 @@
           },
           "start": "2026-05-07T11:19:00+02:00",
           "end": "2026-05-07T13:03:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1428,7 +680,7 @@
           },
           "start": "2026-05-07T11:26:00+02:00",
           "end": "2026-05-07T13:08:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1452,7 +704,7 @@
           },
           "start": "2026-05-07T11:35:00+02:00",
           "end": "2026-05-07T13:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1476,7 +728,7 @@
           },
           "start": "2026-05-07T11:40:00+02:00",
           "end": "2026-05-07T13:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1500,7 +752,7 @@
           },
           "start": "2026-05-07T11:40:00+02:00",
           "end": "2026-05-07T13:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1538,7 +790,7 @@
           },
           "start": "2026-05-07T11:51:00+02:00",
           "end": "2026-05-07T13:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1576,7 +828,7 @@
           },
           "start": "2026-05-07T12:00:00+02:00",
           "end": "2026-05-07T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1614,7 +866,7 @@
           },
           "start": "2026-05-07T12:15:00+02:00",
           "end": "2026-05-07T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1652,7 +904,7 @@
           },
           "start": "2026-05-07T12:19:00+02:00",
           "end": "2026-05-07T14:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5315,6 +4567,82 @@
           "result": null
         },
         {
+          "id": "da6c00801350",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Bayern Munich / Paris-SG",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-07T06:52:00+02:00",
+          "end": "2026-05-07T08:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a906f577ae64",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Football : Liga",
+          "subtitle": null,
+          "description": "Il y a quelques années ce duel entre le FC Séville et la Real Sociedad aurait senti l'Europe. Malheureusement pour les Sévillans d'Akor Adams, le club lutte pour sa survie en Liga, et reçoit une équipe dont le seul et unique objectif est de jouer une coupe d'Europe la saison prochaine.",
+          "team1": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Sociedad",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-07T07:00:00+02:00",
+          "end": "2026-05-07T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "53a787dc00b3",
           "sport": "other",
           "competition": null,
@@ -5339,6 +4667,154 @@
           "result": null
         },
         {
+          "id": "ae356e22de35",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Andres Cortes / Eridson Garcia",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Andres Cortes",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eridson Garcia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-05-07T07:30:00+02:00",
+          "end": "2026-05-07T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "df366bb02f79",
+          "sport": "golf",
+          "competition": "PGA Tour Champions, Open de Birmingham",
+          "title": "Golf : PGA Tour Champions, Open de Birmingham",
+          "subtitle": "Golf",
+          "description": "Suivez l'Open de Birmingham (Etats-Unis), un tournoi de golf faisant partie du calendrier du PGA Tour Champions. Il s'agit d'une compétition senior pour les golfeurs de plus de 50 ans. La première édition s'est tenue en 1989. Le parcours se situe dans l'état de l'Alabama et a une longueur de 6654m.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-05-07T07:32:00+02:00",
+          "end": "2026-05-07T09:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2126a61c84df",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Oklahoma City Thunder / Los Angeles Lakers",
+          "subtitle": "NBA - 1re Playoffs Demi-finale d...",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Oklahoma City Thunder",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Los Angeles Lakers",
+            "type": "club",
+            "short": "Lakers",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/13.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-07T07:47:00+02:00",
+          "end": "2026-05-07T09:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ffd18a6f3285",
+          "sport": "football",
+          "competition": null,
+          "title": "Bayern Munich - Paris Saint-Germain",
+          "subtitle": null,
+          "description": "Match retour des demi-finales de l'UEFA Champions League : Bayern Munich - Paris Saint-Germain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-07T07:50:00+02:00",
+          "end": "2026-05-07T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d885dbc1e12c",
+          "sport": "football",
+          "competition": null,
+          "title": "Bayern München - Paris Saint-Germain",
+          "subtitle": null,
+          "description": "Terugwedstrijd van de halve finale in de UEFA Champions League: Bayern München - Paris Saint-Germain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-05-07T07:50:00+02:00",
+          "end": "2026-05-07T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "658a1302fb77",
           "sport": "f1",
           "competition": null,
@@ -5356,6 +4832,530 @@
           },
           "start": "2026-05-07T07:58:00+02:00",
           "end": "2026-05-07T08:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d9a1b89c3fc1",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Paris-SG / Strasbourg",
+          "subtitle": "Arkema Première Ligue - 22e jour...",
+          "description": "Auréolées d'un 18ᵉ titre de championnes de France, le quatrième de rang, les Lyonnaises, désormais dirigées par Jonatan Giraldez, repartent à la conquête d'un nouveau sacre. Cette saison 2025/2026 de Première Ligue devrait se résumer encore à un duel entre Lyon et le Paris-SG, à moins que le Paris FC, Fleury ou Dijon ne viennent jouer les trouble-fêtes.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-07T08:03:00+02:00",
+          "end": "2026-05-07T09:46:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8b51d73ecc41",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-billard",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Cette semaine, place au para-billard",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-07T08:30:00+02:00",
+          "end": "2026-05-07T09:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4a860b96bd0d",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Bayern Munich / Paris-SG",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "Battu au match aller (5-4) à l'issue d'une rencontre qui restera dans l'histoire de la compétition européenne, le Bayern Munich accueille le Paris-SG pour une place en finale de la Ligue des champions. Sur leur pelouse de l'Allianz Arena, les hommes de Vincent Kompany ambitionnent d'inverser la tendance et de faire tomber les Parisiens.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-07T08:45:00+02:00",
+          "end": "2026-05-07T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d7ac25e7c3da",
+          "sport": "f1",
+          "competition": "Grand Prix",
+          "title": "Escrime : Grand Prix",
+          "subtitle": "Escrime",
+          "description": "Séoul accueillait, du 1er au 3 mai 2026, les meilleurs sabreurs et sabreuses du monde pour un Grand Prix relevé dans une discipline ultra rapide. On suivra principalement Sébastien Patrice qui réalise une saison exceptionnelle. Le sabreur marseillais de 25 ans, 5e tireur mondial, s'est notamment imposé à Tunis et est monté sur plusieurs podiums cette année.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-07T09:00:00+02:00",
+          "end": "2026-05-07T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e56f10e2bbb3",
+          "sport": "football",
+          "competition": null,
+          "title": "OL - Rennes",
+          "subtitle": "Ligue 1 McDonald's - 32e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Ligue 1 McDonald's",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "32e journée",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "OLTV.fr",
+            "name": "OLPLAY",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
+            "slug": "olplay",
+            "is_free": false
+          },
+          "start": "2026-05-07T09:00:00+02:00",
+          "end": "2026-05-07T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "02025176066d",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-07T09:15:00+02:00",
+          "end": "2026-05-07T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0411005132c4",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": null,
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-05-07T09:30:00+02:00",
+          "end": "2026-05-07T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3b72f7a24787",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Liverpool",
+          "subtitle": "Premier League - 35e journée",
+          "description": "C'est le match au sommet de la 35e journée de Premier League, entre deux candidats à la Ligue des champions la saison prochaine. Les Reds ont une revanche à prendre sur les Red Devils, après leur défaite concédée à domicile lors du match aller (1-2), en octobre dernier. Ce jour-là, Harry Maguire avait inscrit le but de la victoire des Mancuniens, à quelques minutes de la fin du match.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-07T09:40:00+02:00",
+          "end": "2026-05-07T11:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "91f27dcbb4c8",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Bayern Munich / Paris-SG",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-07T09:46:00+02:00",
+          "end": "2026-05-07T11:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8fdc87eebf8f",
+          "sport": "other",
+          "competition": null,
+          "title": "L'atelier classic",
+          "subtitle": "Peugeot 905 / AC Cobra 289",
+          "description": "Dans la campagne française, une équipe de mécaniciens chevronnés opère minutieusement pour rendre leur gloire d'antan aux voitures historiques, de course ou de route.",
+          "team1": {
+            "name": "Peugeot 905",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AC Cobra 289",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-05-07T09:59:00+02:00",
+          "end": "2026-05-07T10:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9851085eab46",
+          "sport": "other",
+          "competition": null,
+          "title": "Finale messieurs",
+          "subtitle": "Coupe du monde - 1re manche bloc",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": {
+            "name": "Coupe du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "1re manche bloc",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-07T10:00:00+02:00",
+          "end": "2026-05-07T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ecda5df3dee3",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "VTT",
+          "description": "La coupe du monde 2026 de descente débute à Yongpyong, en Corée du Sud. Chez les dames, la tenante du titre est la quadruple championne du monde, l'Autrichienne Valentina Höll. L'an dernier, elle avait devancé la Canadienne Gracey Hemstreet et la Britannique Tahnée Seagrave. La Française Marine Cabirou avait terminé à la 5e place.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-07T10:00:00+02:00",
+          "end": "2026-05-07T10:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4b02ea642901",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-05-07T10:00:00+02:00",
+          "end": "2026-05-07T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "55799ad9a6c3",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific",
+          "title": "Moana Pasifika / Blues",
+          "subtitle": "Super Rugby Pacific - 12e journée",
+          "description": "Pour la 12e journée, Moana Pasifika accueille les Blues dans un contexte très particulier. Fragilisée par de lourdes difficultés économiques, la franchise du Pacifique a annoncé qu'elle cesserait ses activités à l'issue de la saison 2026. Sur le terrain, les Blues tenteront d'en profiter après leur large succès à l'aller.",
+          "team1": {
+            "name": "Moana Pasifika",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Blues",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-07T10:20:00+02:00",
+          "end": "2026-05-07T11:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e704c64c3609",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "VTT",
+          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-07T10:45:00+02:00",
+          "end": "2026-05-07T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5566eef61743",
+          "sport": "other",
+          "competition": null,
+          "title": "L'atelier classic",
+          "subtitle": "Porsche 935 / Jaguar type E",
+          "description": "Dans la campagne française, une équipe de mécaniciens chevronnés opère minutieusement pour rendre leur gloire d'antan aux voitures historiques, de course ou de route. Les modèles les plus mythiques défilent dans leur atelier, tels que la Porsche 935.",
+          "team1": {
+            "name": "Porsche 935",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Jaguar type E",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-05-07T10:54:00+02:00",
+          "end": "2026-05-07T11:50:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
