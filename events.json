@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-11T02:49:00.998582+00:00",
+    "generated_at": "2026-05-11T07:38:03.166255+00:00",
     "total_events": 1092,
     "total_days": 7,
     "sports": [
@@ -22,68 +22,8 @@
     ],
     "channels": [
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-4",
         "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "tv-lux",
-        "name": "TV Lux",
-        "is_free": false
-      },
-      {
-        "slug": "bein-2",
-        "name": "beIN SPORTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "matele",
-        "name": "MaTele",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "nickelodeon",
-        "name": "Nickelodeon",
-        "is_free": false
-      },
-      {
-        "slug": "7plus-ch",
-        "name": "7Plus.ch",
         "is_free": false
       },
       {
@@ -97,8 +37,8 @@
         "is_free": false
       },
       {
-        "slug": "nickelodeonplus1-fr",
-        "name": "NickelodeonPlus1.fr",
+        "slug": "bein-2",
+        "name": "beIN SPORTS 2",
         "is_free": false
       },
       {
@@ -109,6 +49,26 @@
       {
         "slug": "planete-aventure",
         "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "tv-lux",
+        "name": "TV Lux",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -127,6 +87,11 @@
         "is_free": false
       },
       {
+        "slug": "matele",
+        "name": "MaTele",
+        "is_free": false
+      },
+      {
         "slug": "tv5-monde-europe",
         "name": "TV5 Monde Europe",
         "is_free": false
@@ -142,8 +107,23 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "cheval-tv",
         "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -204,6 +184,26 @@
       {
         "slug": "rds-info",
         "name": "RDS Info",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "nickelodeon",
+        "name": "Nickelodeon",
+        "is_free": false
+      },
+      {
+        "slug": "7plus-ch",
+        "name": "7Plus.ch",
+        "is_free": false
+      },
+      {
+        "slug": "nickelodeonplus1-fr",
+        "name": "NickelodeonPlus1.fr",
         "is_free": false
       },
       {
@@ -579,616 +579,6 @@
       "event_count": 150,
       "events": [
         {
-          "id": "8100791f6a67",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Shane Mosley Jr / Serhii Bohachuk",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Shane Mosley Jr",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Serhii Bohachuk",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-05-11T03:00:00+02:00",
-          "end": "2026-05-11T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f2a18ed909b1",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Monaco / Lille",
-          "subtitle": "Ligue 1 McDonald's - 33e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-11T03:27:00+02:00",
-          "end": "2026-05-11T05:08:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8405b2c93993",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Philadelphia 76ers / New York Knicks",
-          "subtitle": "NBA - 4e Playoffs Demi-finale de...",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Philadelphia 76ers",
-            "type": "club",
-            "short": "76ers",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/20.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "New York Knicks",
-            "type": "club",
-            "short": "Knicks",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-11T03:37:00+02:00",
-          "end": "2026-05-11T05:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a7ec6659b1bf",
-          "sport": "golf",
-          "competition": null,
-          "title": "Golf PGA - Championnat Truist, ronde finale",
-          "subtitle": "Championnat Truist, ronde finale",
-          "description": "L'action du golf de la PGA.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-05-11T04:00:00+02:00",
-          "end": "2026-05-11T07:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9e6339e9f845",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-05-11T04:00:00+02:00",
-          "end": "2026-05-11T04:52:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3ba51edf136a",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Football : Liga | Club Atlético de Madrid / RC Celta",
-          "subtitle": null,
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football très prestigieux : la plus haute compétition de football d'Espagne.",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Celta",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-05-11T04:00:00+02:00",
-          "end": "2026-05-11T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5b2a19d99fe7",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "West Ham / Arsenal",
-          "subtitle": "Premier League - 36e journée",
-          "description": "A la lutte pour le titre avec Manchester City, William Saliba et les Gunners d'Arsenal n'ont pas d'autre choix que de battre West Ham, au stade olympique de Londres. Mais les Hammers, qui luttent pour leur maintien en Premier League, feront tout pour résister aux Cityzens et créer l'exploit afin d'assurer leur survie parmi l'élite.",
-          "team1": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-11T04:01:00+02:00",
-          "end": "2026-05-11T05:47:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aadd4844b7aa",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Wolfsburg / Bayern Munich",
-          "subtitle": "Bundesliga - 33e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Wolfsburg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-11T04:23:00+02:00",
-          "end": "2026-05-11T06:31:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "31b3d47027ec",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Plovdiv - Sofia (R)",
-          "subtitle": "Tour d'Italie",
-          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-11T04:50:00+02:00",
-          "end": "2026-05-11T05:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aad68a4313bf",
-          "sport": "other",
-          "competition": null,
-          "title": "Xtra-balles",
-          "subtitle": null,
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MaTele.be",
-            "name": "MaTele",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
-            "slug": "matele",
-            "is_free": false
-          },
-          "start": "2026-05-11T05:00:00+02:00",
-          "end": "2026-05-11T06:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "40d7a4b10fae",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-05-11T05:00:00+02:00",
-          "end": "2026-05-11T05:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0ec03be8561f",
-          "sport": "volleyball",
-          "competition": "Match amical international",
-          "title": "Volley-ball : Match amical international",
-          "subtitle": null,
-          "description": "France - Hongrie, match de préparation de la Ligue des Nations 2026.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-11T05:25:00+02:00",
-          "end": "2026-05-11T07:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7702d631ba40",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Football : Bundesliga | Wolfsburg / Bayern Munich",
-          "subtitle": null,
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne.",
-          "team1": {
-            "name": "Wolfsburg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-05-11T06:00:00+02:00",
-          "end": "2026-05-11T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c2a698a3658c",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Cadix / Deportivo La Corogne",
-          "subtitle": "Liga 2 - 39e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Cadix",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Deportivo La Corogne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-11T06:31:00+02:00",
-          "end": "2026-05-11T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "af88dfccff18",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Brentford",
-          "subtitle": "Premier League - 36e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-11T06:59:00+02:00",
-          "end": "2026-05-11T08:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "164e7e8cf9e3",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Borussia Dortmund / Eintracht Francfort",
-          "subtitle": "Bundesliga - 33e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Borussia Dortmund",
-            "type": "club",
-            "short": "BVB",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eintracht Francfort",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-11T07:00:00+02:00",
-          "end": "2026-05-11T08:43:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "169a997c6dfb",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Sunderland / Manchester United",
-          "subtitle": "Premier League - 36e journée",
-          "description": "A trois journées de la fin du championnat, les Red Devils vont tenter de consolider leur place dans le Top 5 en remportant les trois points de la victoire à Sunderland. Les Black Cats peuvent encore espérer décrocher un accessit européen, mais il leur faudra pour cela créer l'exploit face aux Mancuniens.",
-          "team1": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-11T07:07:00+02:00",
-          "end": "2026-05-11T08:51:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f13b5d28575",
-          "sport": "f1",
-          "competition": null,
-          "title": "Bienvenue chez les Loud",
-          "subtitle": "Le Grand Prix de Kart / Cuisine en famille",
-          "description": "Lana veut gagner une course de kart et demande à Lincoln d'être son co-pilote.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Nickelodeon.be",
-            "name": "Nickelodeon",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6981e80052f9f64d.png/480x480/quality/100/nickelodeon-wallonia.png",
-            "slug": "nickelodeon",
-            "is_free": false
-          },
-          "start": "2026-05-11T07:21:00+02:00",
-          "end": "2026-05-11T07:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "32f9ab851ac9",
-          "sport": "f1",
-          "competition": null,
-          "title": "Willkommen bei den Louds",
-          "subtitle": "Der Royal Woods Go-Kart Grand Prix / Köchin aus Leidenschaft",
-          "description": "Lana nimmt zusammen mit Lincoln an einem Seifenkistenrennen teil.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "7Plus.ch",
-            "name": "7Plus.ch",
-            "icon_url": null,
-            "slug": "7plus-ch",
-            "is_free": false
-          },
-          "start": "2026-05-11T07:25:00+02:00",
-          "end": "2026-05-11T07:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "7d87de17d362",
           "sport": "basket",
           "competition": "NBA",
@@ -1220,7 +610,7 @@
           },
           "start": "2026-05-11T07:49:00+02:00",
           "end": "2026-05-11T09:52:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1244,7 +634,7 @@
           },
           "start": "2026-05-11T07:50:00+02:00",
           "end": "2026-05-11T09:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1282,7 +672,7 @@
           },
           "start": "2026-05-11T08:00:00+02:00",
           "end": "2026-05-11T09:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1320,31 +710,7 @@
           },
           "start": "2026-05-11T08:00:00+02:00",
           "end": "2026-05-11T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e7ca14d8bffd",
-          "sport": "f1",
-          "competition": null,
-          "title": "Bienvenue chez les Loud",
-          "subtitle": "Le Grand Prix de Kart / Cuisine en famille",
-          "description": "Lana veut gagner une course de kart et demande à Lincoln d'être son co-pilote. // Luan a dû s'inscrire à un cours de cuisine ; Mr Loud peut ainsi partager sa passion avec l'un de ses enfants.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NickelodeonPlus1.fr",
-            "name": "NickelodeonPlus1.fr",
-            "icon_url": null,
-            "slug": "nickelodeonplus1-fr",
-            "is_free": false
-          },
-          "start": "2026-05-11T08:21:00+02:00",
-          "end": "2026-05-11T08:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1382,7 +748,7 @@
           },
           "start": "2026-05-11T08:22:00+02:00",
           "end": "2026-05-11T10:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1406,7 +772,7 @@
           },
           "start": "2026-05-11T08:42:00+02:00",
           "end": "2026-05-11T09:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1444,7 +810,7 @@
           },
           "start": "2026-05-11T08:43:00+02:00",
           "end": "2026-05-11T10:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1468,7 +834,7 @@
           },
           "start": "2026-05-11T08:50:00+02:00",
           "end": "2026-05-11T10:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1506,7 +872,7 @@
           },
           "start": "2026-05-11T08:51:00+02:00",
           "end": "2026-05-11T10:34:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1530,7 +896,7 @@
           },
           "start": "2026-05-11T09:00:00+02:00",
           "end": "2026-05-11T09:52:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5213,6 +4579,44 @@
           "result": null
         },
         {
+          "id": "8100791f6a67",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Shane Mosley Jr / Serhii Bohachuk",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Shane Mosley Jr",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Serhii Bohachuk",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-05-11T03:00:00+02:00",
+          "end": "2026-05-11T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e603c1603c99",
           "sport": "football",
           "competition": null,
@@ -5261,6 +4665,82 @@
           "result": null
         },
         {
+          "id": "f2a18ed909b1",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Monaco / Lille",
+          "subtitle": "Ligue 1 McDonald's - 33e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-11T03:27:00+02:00",
+          "end": "2026-05-11T05:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8405b2c93993",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Philadelphia 76ers / New York Knicks",
+          "subtitle": "NBA - 4e Playoffs Demi-finale de...",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Philadelphia 76ers",
+            "type": "club",
+            "short": "76ers",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/20.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "New York Knicks",
+            "type": "club",
+            "short": "Knicks",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-11T03:37:00+02:00",
+          "end": "2026-05-11T05:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "ec953dc11474",
           "sport": "other",
           "competition": null,
@@ -5278,6 +4758,526 @@
           },
           "start": "2026-05-11T03:45:00+02:00",
           "end": "2026-05-11T04:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a7ec6659b1bf",
+          "sport": "golf",
+          "competition": null,
+          "title": "Golf PGA - Championnat Truist, ronde finale",
+          "subtitle": "Championnat Truist, ronde finale",
+          "description": "L'action du golf de la PGA.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-05-11T04:00:00+02:00",
+          "end": "2026-05-11T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9e6339e9f845",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-05-11T04:00:00+02:00",
+          "end": "2026-05-11T04:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3ba51edf136a",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Football : Liga | Club Atlético de Madrid / RC Celta",
+          "subtitle": null,
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football très prestigieux : la plus haute compétition de football d'Espagne.",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Celta",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-05-11T04:00:00+02:00",
+          "end": "2026-05-11T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5b2a19d99fe7",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "West Ham / Arsenal",
+          "subtitle": "Premier League - 36e journée",
+          "description": "A la lutte pour le titre avec Manchester City, William Saliba et les Gunners d'Arsenal n'ont pas d'autre choix que de battre West Ham, au stade olympique de Londres. Mais les Hammers, qui luttent pour leur maintien en Premier League, feront tout pour résister aux Cityzens et créer l'exploit afin d'assurer leur survie parmi l'élite.",
+          "team1": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-11T04:01:00+02:00",
+          "end": "2026-05-11T05:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aadd4844b7aa",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Wolfsburg / Bayern Munich",
+          "subtitle": "Bundesliga - 33e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Wolfsburg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-11T04:23:00+02:00",
+          "end": "2026-05-11T06:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "31b3d47027ec",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Plovdiv - Sofia (R)",
+          "subtitle": "Tour d'Italie",
+          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-11T04:50:00+02:00",
+          "end": "2026-05-11T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aad68a4313bf",
+          "sport": "other",
+          "competition": null,
+          "title": "Xtra-balles",
+          "subtitle": null,
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MaTele.be",
+            "name": "MaTele",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
+            "slug": "matele",
+            "is_free": false
+          },
+          "start": "2026-05-11T05:00:00+02:00",
+          "end": "2026-05-11T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "40d7a4b10fae",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-05-11T05:00:00+02:00",
+          "end": "2026-05-11T05:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0ec03be8561f",
+          "sport": "volleyball",
+          "competition": "Match amical international",
+          "title": "Volley-ball : Match amical international",
+          "subtitle": null,
+          "description": "France - Hongrie, match de préparation de la Ligue des Nations 2026.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-11T05:25:00+02:00",
+          "end": "2026-05-11T07:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7702d631ba40",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Football : Bundesliga | Wolfsburg / Bayern Munich",
+          "subtitle": null,
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne.",
+          "team1": {
+            "name": "Wolfsburg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-05-11T06:00:00+02:00",
+          "end": "2026-05-11T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c2a698a3658c",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Cadix / Deportivo La Corogne",
+          "subtitle": "Liga 2 - 39e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Cadix",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Deportivo La Corogne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-11T06:31:00+02:00",
+          "end": "2026-05-11T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "af88dfccff18",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Brentford",
+          "subtitle": "Premier League - 36e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-11T06:59:00+02:00",
+          "end": "2026-05-11T08:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "164e7e8cf9e3",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Borussia Dortmund / Eintracht Francfort",
+          "subtitle": "Bundesliga - 33e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Borussia Dortmund",
+            "type": "club",
+            "short": "BVB",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eintracht Francfort",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-11T07:00:00+02:00",
+          "end": "2026-05-11T08:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "169a997c6dfb",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Sunderland / Manchester United",
+          "subtitle": "Premier League - 36e journée",
+          "description": "A trois journées de la fin du championnat, les Red Devils vont tenter de consolider leur place dans le Top 5 en remportant les trois points de la victoire à Sunderland. Les Black Cats peuvent encore espérer décrocher un accessit européen, mais il leur faudra pour cela créer l'exploit face aux Mancuniens.",
+          "team1": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-11T07:07:00+02:00",
+          "end": "2026-05-11T08:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f13b5d28575",
+          "sport": "f1",
+          "competition": null,
+          "title": "Bienvenue chez les Loud",
+          "subtitle": "Le Grand Prix de Kart / Cuisine en famille",
+          "description": "Lana veut gagner une course de kart et demande à Lincoln d'être son co-pilote.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Nickelodeon.be",
+            "name": "Nickelodeon",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6981e80052f9f64d.png/480x480/quality/100/nickelodeon-wallonia.png",
+            "slug": "nickelodeon",
+            "is_free": false
+          },
+          "start": "2026-05-11T07:21:00+02:00",
+          "end": "2026-05-11T07:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "32f9ab851ac9",
+          "sport": "f1",
+          "competition": null,
+          "title": "Willkommen bei den Louds",
+          "subtitle": "Der Royal Woods Go-Kart Grand Prix / Köchin aus Leidenschaft",
+          "description": "Lana nimmt zusammen mit Lincoln an einem Seifenkistenrennen teil.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "7Plus.ch",
+            "name": "7Plus.ch",
+            "icon_url": null,
+            "slug": "7plus-ch",
+            "is_free": false
+          },
+          "start": "2026-05-11T07:25:00+02:00",
+          "end": "2026-05-11T07:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e7ca14d8bffd",
+          "sport": "f1",
+          "competition": null,
+          "title": "Bienvenue chez les Loud",
+          "subtitle": "Le Grand Prix de Kart / Cuisine en famille",
+          "description": "Lana veut gagner une course de kart et demande à Lincoln d'être son co-pilote. // Luan a dû s'inscrire à un cours de cuisine ; Mr Loud peut ainsi partager sa passion avec l'un de ses enfants.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NickelodeonPlus1.fr",
+            "name": "NickelodeonPlus1.fr",
+            "icon_url": null,
+            "slug": "nickelodeonplus1-fr",
+            "is_free": false
+          },
+          "start": "2026-05-11T08:21:00+02:00",
+          "end": "2026-05-11T08:45:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
