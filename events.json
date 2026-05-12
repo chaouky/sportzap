@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-12T17:56:43.102435+00:00",
+    "generated_at": "2026-05-12T21:16:39.423350+00:00",
     "total_events": 1028,
     "total_days": 7,
     "sports": [
@@ -21,33 +21,8 @@
     ],
     "channels": [
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-1",
-        "name": "Eurosport 360 - 1",
         "is_free": false
       },
       {
@@ -56,19 +31,14 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-2",
         "name": "Canal+ Sport 2",
         "is_free": false
-      },
-      {
-        "slug": "rds-info",
-        "name": "RDS Info",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
       },
       {
         "slug": "bein-1",
@@ -76,13 +46,8 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -96,8 +61,18 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "rds-info",
+        "name": "RDS Info",
         "is_free": false
       },
       {
@@ -106,8 +81,23 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1f-be",
         "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -116,8 +106,18 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "planete-aventure",
         "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-1",
+        "name": "Eurosport 360 - 1",
         "is_free": false
       },
       {
@@ -568,540 +568,6 @@
       "event_count": 119,
       "events": [
         {
-          "id": "a412fb90d52d",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Shane Mosley Jr / Serhii Bohachuk",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Shane Mosley Jr",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Serhii Bohachuk",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-05-12T17:30:00+02:00",
-          "end": "2026-05-12T20:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "29bb13f62a57",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Lucerne / Servette Genève",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Lucerne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Servette Genève",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-12T17:35:00+02:00",
-          "end": "2026-05-12T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "28fe9b7b4fec",
-          "sport": "f1",
-          "competition": "Grand Prix d'Indianapolis",
-          "title": "IndyCar Series : Grand Prix d'Indianapolis",
-          "subtitle": null,
-          "description": "6e manche de la saison d'IndyCar, avec le Grand Prix Soniso d'Indianapolis. L'Espagnol Alex Palou domine ce début de saison, avec trois victoires lors des cinq premières courses.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-12T18:00:00+02:00",
-          "end": "2026-05-12T20:27:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "994578063bfe",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Rome",
-          "title": "Tennis : Masters 1000 de Rome",
-          "subtitle": "Tennis",
-          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-12T18:00:00+02:00",
-          "end": "2026-05-12T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f086b1b170ea",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Tottenham / Leeds",
-          "subtitle": "Premier League - 36e journée",
-          "description": "Clap de fin sur la 36e journée de Premier League : les Spurs de Tottenham, en position délicate au classement, accueillent les Peacocks de Leeds United, qui semblent avoir assuré leur maintien. L'heure est grave pour Randal Kolo Muani et les siens qui doivent absolument repartir de l'avant, à trois journées de la fin de la saison.",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leeds",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-12T18:50:00+02:00",
-          "end": "2026-05-12T20:41:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe5db138e22e",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Rome",
-          "title": "Tennis : Masters 1000 de Rome",
-          "subtitle": "Tennis",
-          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-05-12T19:00:00+02:00",
-          "end": "2026-05-12T20:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7306ebaf1135",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Cadix / Deportivo La Corogne",
-          "subtitle": "Liga 2 - 39e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Cadix",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Deportivo La Corogne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-12T19:28:00+02:00",
-          "end": "2026-05-12T21:08:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "db59cd73e2c4",
-          "sport": "football",
-          "competition": "Coupe de la Confédération de la",
-          "title": "USM Alger / Zamalek",
-          "subtitle": "Coupe de la Confédération de la ...",
-          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
-          "team1": {
-            "name": "USM Alger",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Zamalek",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-12T19:49:00+02:00",
-          "end": "2026-05-12T21:37:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ef60b0ce0a2c",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Rome",
-          "title": "Tennis : Masters 1000 de Rome",
-          "subtitle": "Tennis",
-          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-12T20:00:00+02:00",
-          "end": "2026-05-12T20:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "74b3115cb23b",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Rome",
-          "title": "Tennis : Masters 1000 de Rome",
-          "subtitle": "Tennis",
-          "description": "Après Madrid, direction Rome pour un nouveau Masters 1000, avec Jannik Sinner, numéro un mondial et grand favori en l'absence d'Alcaraz, qui sera soutenu par tout un peuple.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-12T20:30:00+02:00",
-          "end": "2026-05-12T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a84554a22d98",
-          "sport": "other",
-          "competition": null,
-          "title": "Compte-complet",
-          "subtitle": null,
-          "description": "<p>(NOUVEAU)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDSInfo.ca",
-            "name": "RDS Info",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s39080_h15_ab.png",
-            "slug": "rds-info",
-            "is_free": false
-          },
-          "start": "2026-05-12T20:30:00+02:00",
-          "end": "2026-05-12T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "74da11ceb3ea",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-billard",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Cette semaine, place au para-billard",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-12T20:30:00+02:00",
-          "end": "2026-05-12T21:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ce532e770019",
-          "sport": "football",
-          "competition": "Ligue 2 BKT",
-          "title": "Football : Ligue 2 BKT | Red Star / Rodez",
-          "subtitle": null,
-          "description": "A l'issue de la dernière journée du championnat de Ligue 2, les 3e, 4e et 5e du classement se disputent le droit d'affronter le 16e de la saison de Ligue 1 et d'espérer accéder à l'élite du football français la saison prochaine. Ce premier match de barrage envoie le 5e du classement sur la pelouse du 4e.",
-          "team1": {
-            "name": "Red Star",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rodez",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-12T20:30:00+02:00",
-          "end": "2026-05-12T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "188f03941df6",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific",
-          "title": "Crusaders / Blues",
-          "subtitle": "Super Rugby Pacific - 13e journée",
-          "description": "A l'approche du dénouement de la phase régulière du Super Rugby Pacific 2026, chaque rencontre prend une importance accrue dans la course aux phases finales. Dans un championnat qui réunit onze franchises et dont les six premières accèdent aux play-offs, la moindre erreur peut coûter cher au moment d'aborder le sprint final.",
-          "team1": {
-            "name": "Crusaders",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Blues",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-12T21:00:00+02:00",
-          "end": "2026-05-12T22:42:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e88216325cb3",
-          "sport": "other",
-          "competition": null,
-          "title": "Finale dames et messieurs",
-          "subtitle": "Coupe du monde - 1re manche difficulté",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": {
-            "name": "Coupe du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "1re manche difficulté",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-12T21:00:00+02:00",
-          "end": "2026-05-12T21:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "574fc60e11e0",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Wujiang, en Chine, accueille la première manche de difficulté de la coupe du monde 2026 d'escalade. L'an dernier, le Japonais Sorato Anraku et l'Espagnol Alberto Ginés López avaient dominé la spécialité chez les messieurs. Côté féminin, la Slovène Janja Garnbret et la Britannique Erin McNeice s'étaient disputé les victoires. A suivre, côté français, le jeune Max Bertone.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-05-12T21:00:00+02:00",
-          "end": "2026-05-12T21:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fb0e7c6d0dbc",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Osasuna / Atlético Madrid",
-          "subtitle": "Liga - 36e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Osasuna",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-12T21:25:00+02:00",
-          "end": "2026-05-12T22:21:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "501fa80a2d87",
           "sport": "other",
           "competition": null,
@@ -1133,7 +599,7 @@
           },
           "start": "2026-05-12T22:21:00+02:00",
           "end": "2026-05-12T23:29:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1171,7 +637,7 @@
           },
           "start": "2026-05-12T22:30:00+02:00",
           "end": "2026-05-13T00:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1209,7 +675,7 @@
           },
           "start": "2026-05-12T22:31:00+02:00",
           "end": "2026-05-13T00:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1247,7 +713,7 @@
           },
           "start": "2026-05-12T22:40:00+02:00",
           "end": "2026-05-13T00:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1285,7 +751,7 @@
           },
           "start": "2026-05-12T22:42:00+02:00",
           "end": "2026-05-13T00:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1323,7 +789,7 @@
           },
           "start": "2026-05-12T22:45:00+02:00",
           "end": "2026-05-13T00:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1361,7 +827,7 @@
           },
           "start": "2026-05-12T23:00:00+02:00",
           "end": "2026-05-13T01:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1399,7 +865,7 @@
           },
           "start": "2026-05-12T23:00:00+02:00",
           "end": "2026-05-13T00:07:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1423,7 +889,7 @@
           },
           "start": "2026-05-12T23:15:00+02:00",
           "end": "2026-05-13T01:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4364,6 +3830,44 @@
           "result": null
         },
         {
+          "id": "a412fb90d52d",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Shane Mosley Jr / Serhii Bohachuk",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Shane Mosley Jr",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Serhii Bohachuk",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-05-12T17:30:00+02:00",
+          "end": "2026-05-12T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "b8a994be9483",
           "sport": "other",
           "competition": null,
@@ -4395,6 +3899,44 @@
           },
           "start": "2026-05-12T17:32:00+02:00",
           "end": "2026-05-12T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "29bb13f62a57",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Lucerne / Servette Genève",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Lucerne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Servette Genève",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-12T17:35:00+02:00",
+          "end": "2026-05-12T20:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -4440,6 +3982,30 @@
           "result": null
         },
         {
+          "id": "28fe9b7b4fec",
+          "sport": "f1",
+          "competition": "Grand Prix d'Indianapolis",
+          "title": "IndyCar Series : Grand Prix d'Indianapolis",
+          "subtitle": null,
+          "description": "6e manche de la saison d'IndyCar, avec le Grand Prix Soniso d'Indianapolis. L'Espagnol Alex Palou domine ce début de saison, avec trois victoires lors des cinq premières courses.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-12T18:00:00+02:00",
+          "end": "2026-05-12T20:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f81b0c648368",
           "sport": "cyclisme",
           "competition": null,
@@ -4464,6 +4030,68 @@
           "result": null
         },
         {
+          "id": "994578063bfe",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Rome",
+          "title": "Tennis : Masters 1000 de Rome",
+          "subtitle": "Tennis",
+          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-12T18:00:00+02:00",
+          "end": "2026-05-12T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f086b1b170ea",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Tottenham / Leeds",
+          "subtitle": "Premier League - 36e journée",
+          "description": "Clap de fin sur la 36e journée de Premier League : les Spurs de Tottenham, en position délicate au classement, accueillent les Peacocks de Leeds United, qui semblent avoir assuré leur maintien. L'heure est grave pour Randal Kolo Muani et les siens qui doivent absolument repartir de l'avant, à trois journées de la fin de la saison.",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leeds",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-12T18:50:00+02:00",
+          "end": "2026-05-12T20:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "54f80bf978d0",
           "sport": "f1",
           "competition": null,
@@ -4481,6 +4109,378 @@
           },
           "start": "2026-05-12T19:00:00+02:00",
           "end": "2026-05-12T19:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe5db138e22e",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Rome",
+          "title": "Tennis : Masters 1000 de Rome",
+          "subtitle": "Tennis",
+          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-05-12T19:00:00+02:00",
+          "end": "2026-05-12T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7306ebaf1135",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Cadix / Deportivo La Corogne",
+          "subtitle": "Liga 2 - 39e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Cadix",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Deportivo La Corogne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-12T19:28:00+02:00",
+          "end": "2026-05-12T21:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "db59cd73e2c4",
+          "sport": "football",
+          "competition": "Coupe de la Confédération de la",
+          "title": "USM Alger / Zamalek",
+          "subtitle": "Coupe de la Confédération de la ...",
+          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
+          "team1": {
+            "name": "USM Alger",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Zamalek",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-12T19:49:00+02:00",
+          "end": "2026-05-12T21:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ef60b0ce0a2c",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Rome",
+          "title": "Tennis : Masters 1000 de Rome",
+          "subtitle": "Tennis",
+          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-12T20:00:00+02:00",
+          "end": "2026-05-12T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "74b3115cb23b",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Rome",
+          "title": "Tennis : Masters 1000 de Rome",
+          "subtitle": "Tennis",
+          "description": "Après Madrid, direction Rome pour un nouveau Masters 1000, avec Jannik Sinner, numéro un mondial et grand favori en l'absence d'Alcaraz, qui sera soutenu par tout un peuple.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-12T20:30:00+02:00",
+          "end": "2026-05-12T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a84554a22d98",
+          "sport": "other",
+          "competition": null,
+          "title": "Compte-complet",
+          "subtitle": null,
+          "description": "<p>(NOUVEAU)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDSInfo.ca",
+            "name": "RDS Info",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s39080_h15_ab.png",
+            "slug": "rds-info",
+            "is_free": false
+          },
+          "start": "2026-05-12T20:30:00+02:00",
+          "end": "2026-05-12T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "74da11ceb3ea",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-billard",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Cette semaine, place au para-billard",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-12T20:30:00+02:00",
+          "end": "2026-05-12T21:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ce532e770019",
+          "sport": "football",
+          "competition": "Ligue 2 BKT",
+          "title": "Football : Ligue 2 BKT | Red Star / Rodez",
+          "subtitle": null,
+          "description": "A l'issue de la dernière journée du championnat de Ligue 2, les 3e, 4e et 5e du classement se disputent le droit d'affronter le 16e de la saison de Ligue 1 et d'espérer accéder à l'élite du football français la saison prochaine. Ce premier match de barrage envoie le 5e du classement sur la pelouse du 4e.",
+          "team1": {
+            "name": "Red Star",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rodez",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-12T20:30:00+02:00",
+          "end": "2026-05-12T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "188f03941df6",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific",
+          "title": "Crusaders / Blues",
+          "subtitle": "Super Rugby Pacific - 13e journée",
+          "description": "A l'approche du dénouement de la phase régulière du Super Rugby Pacific 2026, chaque rencontre prend une importance accrue dans la course aux phases finales. Dans un championnat qui réunit onze franchises et dont les six premières accèdent aux play-offs, la moindre erreur peut coûter cher au moment d'aborder le sprint final.",
+          "team1": {
+            "name": "Crusaders",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Blues",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-12T21:00:00+02:00",
+          "end": "2026-05-12T22:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e88216325cb3",
+          "sport": "other",
+          "competition": null,
+          "title": "Finale dames et messieurs",
+          "subtitle": "Coupe du monde - 1re manche difficulté",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": {
+            "name": "Coupe du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "1re manche difficulté",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-12T21:00:00+02:00",
+          "end": "2026-05-12T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "574fc60e11e0",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Wujiang, en Chine, accueille la première manche de difficulté de la coupe du monde 2026 d'escalade. L'an dernier, le Japonais Sorato Anraku et l'Espagnol Alberto Ginés López avaient dominé la spécialité chez les messieurs. Côté féminin, la Slovène Janja Garnbret et la Britannique Erin McNeice s'étaient disputé les victoires. A suivre, côté français, le jeune Max Bertone.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-05-12T21:00:00+02:00",
+          "end": "2026-05-12T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fb0e7c6d0dbc",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Osasuna / Atlético Madrid",
+          "subtitle": "Liga - 36e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Osasuna",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-12T21:25:00+02:00",
+          "end": "2026-05-12T22:21:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
