@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-13T06:45:35.148217+00:00",
+    "generated_at": "2026-05-13T10:22:53.757410+00:00",
     "total_events": 993,
     "total_days": 7,
     "sports": [
@@ -22,23 +22,28 @@
     ],
     "channels": [
       {
-        "slug": "rds2",
-        "name": "RDS2",
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
+        "slug": "olplay",
+        "name": "OLPLAY",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
         "is_free": false
       },
       {
@@ -52,46 +57,6 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "olplay",
-        "name": "OLPLAY",
-        "is_free": false
-      },
-      {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
         "slug": "canald",
         "name": "CanalD",
         "is_free": false
@@ -102,8 +67,23 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -162,6 +142,16 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
+        "is_free": false
+      },
+      {
         "slug": "rmc-talk-sport",
         "name": "RMC Talk Sport",
         "is_free": false
@@ -197,6 +187,11 @@
         "is_free": true
       },
       {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
         "slug": "beis",
         "name": "BEIS",
         "is_free": false
@@ -229,6 +224,11 @@
       {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
         "is_free": false
       },
       {
@@ -589,240 +589,6 @@
       "event_count": 146,
       "events": [
         {
-          "id": "f5e3614afc79",
-          "sport": "tennis",
-          "competition": "International BNL d'Italie 2026 - Ronde des 16, ATP",
-          "title": "Tennis: International BNL d'Italie 2026 - Ronde des 16, ATP",
-          "subtitle": "Ronde des 16, ATP",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-05-13T01:00:00+02:00",
-          "end": "2026-05-13T09:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3e60e18639f9",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Aurillac / Grenoble",
-          "subtitle": "Pro D2 - 29e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "Aurillac",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Grenoble",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-13T07:10:00+02:00",
-          "end": "2026-05-13T08:54:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "548cac625c56",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Stuttgart / Bayer Leverkusen",
-          "subtitle": "Bundesliga - 33e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayer Leverkusen",
-            "type": "club",
-            "short": "Leverkusen",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-13T07:15:00+02:00",
-          "end": "2026-05-13T09:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4fbfc110b057",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Majorque / Villarreal",
-          "subtitle": "Liga - 35e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Majorque",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-13T07:42:00+02:00",
-          "end": "2026-05-13T09:28:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "40bdf7d06849",
-          "sport": "football",
-          "competition": null,
-          "title": "Kairat Almaty - FC Bruges",
-          "subtitle": null,
-          "description": "Septième match de la phase de league de l'UEFA Champions League : Kairat Almaty - FC Bruges.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-13T07:50:00+02:00",
-          "end": "2026-05-13T09:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "452472ab0b35",
-          "sport": "football",
-          "competition": null,
-          "title": "Kairat Almaty - Club Brugge",
-          "subtitle": null,
-          "description": "Zevende speeldag van de League Phase in de UEFA Champions League : Kairat Almaty - Club Brugge.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-05-13T07:50:00+02:00",
-          "end": "2026-05-13T09:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "afea42dd7af5",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-13T08:30:00+02:00",
-          "end": "2026-05-13T09:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "858062a73764",
-          "sport": "other",
-          "competition": null,
-          "title": "Judd Trump - Mark Selby",
-          "subtitle": "Victorian Plumbing UK Championsh...",
-          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-13T08:30:00+02:00",
-          "end": "2026-05-13T09:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "45e8ea005500",
           "sport": "equitation",
           "competition": null,
@@ -840,393 +606,7 @@
           },
           "start": "2026-05-13T08:47:00+02:00",
           "end": "2026-05-13T12:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cdcc6d68653b",
-          "sport": "rugby",
-          "competition": "Pro D2",
-          "title": "Carcassonne / Brive",
-          "subtitle": "Pro D2 - 29e journée",
-          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
-          "team1": {
-            "name": "Carcassonne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "CA Brive",
-            "type": "club",
-            "short": "Brive",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2571.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-13T08:54:00+02:00",
-          "end": "2026-05-13T10:34:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3aa9626b75ba",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Brentford",
-          "subtitle": "Premier League - 36e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-13T08:58:00+02:00",
-          "end": "2026-05-13T10:41:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "95a17028694b",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 1re manche difficulté.",
-          "description": "Coupe du monde. 1re manche difficulté. Finale dames et messieurs. A Wujiang (Chine).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-13T09:00:00+02:00",
-          "end": "2026-05-13T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "60f2919eeec5",
-          "sport": "football",
-          "competition": "Championnat de France des moins de 17 ans",
-          "title": "Football : Championnat de France des moins de 17 ans | Thionville Lusitanos / OL",
-          "subtitle": "Championnat de France des moins de 17 ans",
-          "description": "Vivez la rencontre entre Thionville Lusitanos et l'OL pour la 1ʳᵉ journée de championnat U17, saison 2025-2026.",
-          "team1": {
-            "name": "Thionville Lusitanos",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "OLTV.fr",
-            "name": "OLPLAY",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
-            "slug": "olplay",
-            "is_free": false
-          },
-          "start": "2026-05-13T09:00:00+02:00",
-          "end": "2026-05-13T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "deb59e1a6187",
-          "sport": "football",
-          "competition": "Coupe de la Confédération de la",
-          "title": "USM Alger / Zamalek",
-          "subtitle": "Coupe de la Confédération de la ...",
-          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
-          "team1": {
-            "name": "USM Alger",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Zamalek",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-13T09:05:00+02:00",
-          "end": "2026-05-13T10:51:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bf8291d642ee",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lens / Nantes",
-          "subtitle": "Ligue 1 McDonald's - 33e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Nantes",
-            "type": "club",
-            "short": "Nantes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-13T09:44:00+02:00",
-          "end": "2026-05-13T11:24:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5c691bd24f03",
-          "sport": "cyclisme",
-          "competition": "Bakou-Khankendi Azerbaïdjan",
-          "title": "Cyclisme : Bakou-Khankendi Azerbaïdjan",
-          "subtitle": "Ganja - Naftalan (152,7 km). Bakou-Khankendi Azerbaïdjan. 4e étape.",
-          "description": "Bakou-Khankendi Azerbaïdjan. 4e étape. Ganja - Naftalan (152,7 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-13T10:00:00+02:00",
-          "end": "2026-05-13T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "73d2a0fc513d",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Wujiang, en Chine, accueille la première manche de vitesse de la coupe du monde 2026 d'escalade. L'an dernier, le champion du monde, le Chinois Jianguo Long, s'était imposé à domicile. Côté féminin, sa compatriote Shaoqin Zhang avait également remporté cette première manche à Wujiang.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-13T10:00:00+02:00",
-          "end": "2026-05-13T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c3748deeb0c9",
-          "sport": "golf",
-          "competition": "PGA Tour Champions, Open de The Woodlands",
-          "title": "Golf : PGA Tour Champions, Open de The Woodlands",
-          "subtitle": "Golf",
-          "description": "Diffusion de l'Open de The Woodlands, un tournoi de l'US PGA Tour Champions de golf. Créé en 2004, ce tournoi a changé plusieurs fois d'appellation pour des raisons de sponsoring, étant connu depuis 2012 sous le nom de Insperity Invitational. Il se déroule sur les greens du Country Club des Woodlands, au Texas.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-05-13T10:10:00+02:00",
-          "end": "2026-05-13T12:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8814f974594f",
-          "sport": "other",
-          "competition": null,
-          "title": "Compton Magic - Saison 1",
-          "subtitle": "Episode 1",
-          "description": "Ce documentaire suit Compton Magic, l'équipe de basket-ball amateur la plus titrée, tandis qu'elle se prépare pour des matchs qui détermineront l'avenir de ses jeunes joueurs. L'histoire met en lumière le fait que les superstars ne naissent pas spontanément. Elles se construisent grâce à un entraînement intensif, un mentorat constant, un esprit de collaboration et un travail acharné pour atteindre l'excellence.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-05-13T10:15:00+02:00",
-          "end": "2026-05-13T11:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dfcc09ef0a9e",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Brentford",
-          "subtitle": "Premier League - 36e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-13T10:20:00+02:00",
-          "end": "2026-05-13T12:06:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0c9ba12d8c74",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Stade Français Paris / Lyon",
-          "subtitle": "Top 14 - 23e journée",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": {
-            "name": "Stade Français",
-            "type": "club",
-            "short": "Stade Français",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-13T10:34:00+02:00",
-          "end": "2026-05-13T12:12:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1264,7 +644,7 @@
           },
           "start": "2026-05-13T10:41:00+02:00",
           "end": "2026-05-13T12:32:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1302,7 +682,7 @@
           },
           "start": "2026-05-13T10:51:00+02:00",
           "end": "2026-05-13T12:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1340,55 +720,7 @@
           },
           "start": "2026-05-13T11:00:00+02:00",
           "end": "2026-05-13T13:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b4b7efb2b052",
-          "sport": "other",
-          "competition": null,
-          "title": "Compton Magic - Saison 1",
-          "subtitle": "Episode 2",
-          "description": "Le parcours des jeunes joueurs de Compton Magic, l'équipe de basket amateur la plus titrée, alors qu'ils préparent des matchs qui détermineront leur avenir. L'histoire révèle que les superstars ne naissent pas, mais se construisent par un entraînement rigoureux, le mentorat, la collaboration et un travail acharné, illustrant ainsi la véritable voie vers le succès sportif et professionnel.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-05-13T11:03:00+02:00",
-          "end": "2026-05-13T11:48:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3322e57fc4fb",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-13T11:30:00+02:00",
-          "end": "2026-05-13T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1412,7 +744,7 @@
           },
           "start": "2026-05-13T11:30:00+02:00",
           "end": "2026-05-13T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1436,7 +768,7 @@
           },
           "start": "2026-05-13T11:35:00+02:00",
           "end": "2026-05-13T13:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1460,7 +792,7 @@
           },
           "start": "2026-05-13T11:35:00+02:00",
           "end": "2026-05-13T13:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1484,7 +816,7 @@
           },
           "start": "2026-05-13T12:00:00+02:00",
           "end": "2026-05-13T12:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1522,7 +854,7 @@
           },
           "start": "2026-05-13T12:00:00+02:00",
           "end": "2026-05-13T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1560,7 +892,7 @@
           },
           "start": "2026-05-13T12:06:00+02:00",
           "end": "2026-05-13T13:52:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1584,7 +916,7 @@
           },
           "start": "2026-05-13T12:06:00+02:00",
           "end": "2026-05-13T12:59:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1622,7 +954,7 @@
           },
           "start": "2026-05-13T12:13:00+02:00",
           "end": "2026-05-13T13:59:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4279,6 +3611,30 @@
           "result": null
         },
         {
+          "id": "f5e3614afc79",
+          "sport": "tennis",
+          "competition": "International BNL d'Italie 2026 - Ronde des 16, ATP",
+          "title": "Tennis: International BNL d'Italie 2026 - Ronde des 16, ATP",
+          "subtitle": "Ronde des 16, ATP",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-05-13T01:00:00+02:00",
+          "end": "2026-05-13T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "c1c615dd648f",
           "sport": "volleyball",
           "competition": null,
@@ -5178,6 +4534,650 @@
           },
           "start": "2026-05-13T07:00:00+02:00",
           "end": "2026-05-13T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3e60e18639f9",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Aurillac / Grenoble",
+          "subtitle": "Pro D2 - 29e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "Aurillac",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Grenoble",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-13T07:10:00+02:00",
+          "end": "2026-05-13T08:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "548cac625c56",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Stuttgart / Bayer Leverkusen",
+          "subtitle": "Bundesliga - 33e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayer Leverkusen",
+            "type": "club",
+            "short": "Leverkusen",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-13T07:15:00+02:00",
+          "end": "2026-05-13T09:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4fbfc110b057",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Majorque / Villarreal",
+          "subtitle": "Liga - 35e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Majorque",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-13T07:42:00+02:00",
+          "end": "2026-05-13T09:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "40bdf7d06849",
+          "sport": "football",
+          "competition": null,
+          "title": "Kairat Almaty - FC Bruges",
+          "subtitle": null,
+          "description": "Septième match de la phase de league de l'UEFA Champions League : Kairat Almaty - FC Bruges.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-13T07:50:00+02:00",
+          "end": "2026-05-13T09:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "452472ab0b35",
+          "sport": "football",
+          "competition": null,
+          "title": "Kairat Almaty - Club Brugge",
+          "subtitle": null,
+          "description": "Zevende speeldag van de League Phase in de UEFA Champions League : Kairat Almaty - Club Brugge.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-05-13T07:50:00+02:00",
+          "end": "2026-05-13T09:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "afea42dd7af5",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-13T08:30:00+02:00",
+          "end": "2026-05-13T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "858062a73764",
+          "sport": "other",
+          "competition": null,
+          "title": "Judd Trump - Mark Selby",
+          "subtitle": "Victorian Plumbing UK Championsh...",
+          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-13T08:30:00+02:00",
+          "end": "2026-05-13T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cdcc6d68653b",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Carcassonne / Brive",
+          "subtitle": "Pro D2 - 29e journée",
+          "description": "Les seize clubs de Pro D2 sont de retour sur les pelouses de l'Hexagone et chaque journée promet son lot de chocs, de rebondissements et de surprises. Chaque formation a profité de l'intersaison pour se renforcer, affiner sa préparation et nourrir de nouvelles ambitions. Qui succèdera à Montauban, sacré champion de France 2024-2025 et propulsé en Top 14 ? La chasse aux six premières places, sésame pour la phase finale, est lancée.",
+          "team1": {
+            "name": "Carcassonne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "CA Brive",
+            "type": "club",
+            "short": "Brive",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2571.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-13T08:54:00+02:00",
+          "end": "2026-05-13T10:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3aa9626b75ba",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Brentford",
+          "subtitle": "Premier League - 36e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-13T08:58:00+02:00",
+          "end": "2026-05-13T10:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "95a17028694b",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames et messieurs. Coupe du monde. 1re manche difficulté.",
+          "description": "Coupe du monde. 1re manche difficulté. Finale dames et messieurs. A Wujiang (Chine).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-13T09:00:00+02:00",
+          "end": "2026-05-13T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "60f2919eeec5",
+          "sport": "football",
+          "competition": "Championnat de France des moins de 17 ans",
+          "title": "Football : Championnat de France des moins de 17 ans | Thionville Lusitanos / OL",
+          "subtitle": "Championnat de France des moins de 17 ans",
+          "description": "Vivez la rencontre entre Thionville Lusitanos et l'OL pour la 1ʳᵉ journée de championnat U17, saison 2025-2026.",
+          "team1": {
+            "name": "Thionville Lusitanos",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "OLTV.fr",
+            "name": "OLPLAY",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
+            "slug": "olplay",
+            "is_free": false
+          },
+          "start": "2026-05-13T09:00:00+02:00",
+          "end": "2026-05-13T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "deb59e1a6187",
+          "sport": "football",
+          "competition": "Coupe de la Confédération de la",
+          "title": "USM Alger / Zamalek",
+          "subtitle": "Coupe de la Confédération de la ...",
+          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
+          "team1": {
+            "name": "USM Alger",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Zamalek",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-13T09:05:00+02:00",
+          "end": "2026-05-13T10:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bf8291d642ee",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lens / Nantes",
+          "subtitle": "Ligue 1 McDonald's - 33e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Nantes",
+            "type": "club",
+            "short": "Nantes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-13T09:44:00+02:00",
+          "end": "2026-05-13T11:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5c691bd24f03",
+          "sport": "cyclisme",
+          "competition": "Bakou-Khankendi Azerbaïdjan",
+          "title": "Cyclisme : Bakou-Khankendi Azerbaïdjan",
+          "subtitle": "Ganja - Naftalan (152,7 km). Bakou-Khankendi Azerbaïdjan. 4e étape.",
+          "description": "Bakou-Khankendi Azerbaïdjan. 4e étape. Ganja - Naftalan (152,7 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-13T10:00:00+02:00",
+          "end": "2026-05-13T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "73d2a0fc513d",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Wujiang, en Chine, accueille la première manche de vitesse de la coupe du monde 2026 d'escalade. L'an dernier, le champion du monde, le Chinois Jianguo Long, s'était imposé à domicile. Côté féminin, sa compatriote Shaoqin Zhang avait également remporté cette première manche à Wujiang.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-13T10:00:00+02:00",
+          "end": "2026-05-13T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c3748deeb0c9",
+          "sport": "golf",
+          "competition": "PGA Tour Champions, Open de The Woodlands",
+          "title": "Golf : PGA Tour Champions, Open de The Woodlands",
+          "subtitle": "Golf",
+          "description": "Diffusion de l'Open de The Woodlands, un tournoi de l'US PGA Tour Champions de golf. Créé en 2004, ce tournoi a changé plusieurs fois d'appellation pour des raisons de sponsoring, étant connu depuis 2012 sous le nom de Insperity Invitational. Il se déroule sur les greens du Country Club des Woodlands, au Texas.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-05-13T10:10:00+02:00",
+          "end": "2026-05-13T12:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8814f974594f",
+          "sport": "other",
+          "competition": null,
+          "title": "Compton Magic - Saison 1",
+          "subtitle": "Episode 1",
+          "description": "Ce documentaire suit Compton Magic, l'équipe de basket-ball amateur la plus titrée, tandis qu'elle se prépare pour des matchs qui détermineront l'avenir de ses jeunes joueurs. L'histoire met en lumière le fait que les superstars ne naissent pas spontanément. Elles se construisent grâce à un entraînement intensif, un mentorat constant, un esprit de collaboration et un travail acharné pour atteindre l'excellence.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-05-13T10:15:00+02:00",
+          "end": "2026-05-13T11:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dfcc09ef0a9e",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Brentford",
+          "subtitle": "Premier League - 36e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-13T10:20:00+02:00",
+          "end": "2026-05-13T12:06:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0c9ba12d8c74",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Stade Français Paris / Lyon",
+          "subtitle": "Top 14 - 23e journée",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": {
+            "name": "Stade Français",
+            "type": "club",
+            "short": "Stade Français",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-13T10:34:00+02:00",
+          "end": "2026-05-13T12:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b4b7efb2b052",
+          "sport": "other",
+          "competition": null,
+          "title": "Compton Magic - Saison 1",
+          "subtitle": "Episode 2",
+          "description": "Le parcours des jeunes joueurs de Compton Magic, l'équipe de basket amateur la plus titrée, alors qu'ils préparent des matchs qui détermineront leur avenir. L'histoire révèle que les superstars ne naissent pas, mais se construisent par un entraînement rigoureux, le mentorat, la collaboration et un travail acharné, illustrant ainsi la véritable voie vers le succès sportif et professionnel.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-05-13T11:03:00+02:00",
+          "end": "2026-05-13T11:48:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3322e57fc4fb",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 4e étape . Catanzaro - Cosenza (138 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-13T11:30:00+02:00",
+          "end": "2026-05-13T12:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
