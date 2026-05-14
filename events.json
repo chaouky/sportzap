@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T17:47:15.992127+00:00",
+    "generated_at": "2026-05-14T21:07:14.167315+00:00",
     "total_events": 970,
     "total_days": 7,
     "sports": [
@@ -22,13 +22,18 @@
     ],
     "channels": [
       {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
         "slug": "ligue-1",
         "name": "Ligue 1+",
         "is_free": false
       },
       {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
         "is_free": false
       },
       {
@@ -42,63 +47,18 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
-        "is_free": false
-      },
-      {
         "slug": "pickxplussports1f-be",
         "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -112,6 +72,11 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
         "is_free": false
@@ -122,6 +87,11 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
         "is_free": false
@@ -129,6 +99,11 @@
       {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -147,8 +122,18 @@
         "is_free": false
       },
       {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
         "slug": "tv5mondeameriquelatine-fr",
         "name": "TV5MondeAmeriqueLatine.fr",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -187,6 +172,16 @@
         "is_free": false
       },
       {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
+        "is_free": false
+      },
+      {
         "slug": "vier",
         "name": "Vier",
         "is_free": false
@@ -204,6 +199,11 @@
       {
         "slug": "srf-zwei",
         "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
         "is_free": false
       },
       {
@@ -579,178 +579,6 @@
       "event_count": 144,
       "events": [
         {
-          "id": "e0e6010e3d74",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Brest / Strasbourg",
-          "subtitle": null,
-          "description": "Match de la 29ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant BREST et STRASBOURG.",
-          "team1": {
-            "name": "Stade Brestois",
-            "type": "club",
-            "short": "Brest",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-05-14T18:30:00+02:00",
-          "end": "2026-05-14T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a70fbe3c954d",
-          "sport": "tennis",
-          "competition": "Tournoi de Rome 2026 - Demi-finale 1, WTA",
-          "title": "Tennis: Tournoi de Rome 2026 - Demi-finale 1, WTA",
-          "subtitle": "Demi-finale 1, WTA",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-05-14T18:30:00+02:00",
-          "end": "2026-05-14T20:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "85134321262a",
-          "sport": "other",
-          "competition": "Open d'Ecosse",
-          "title": "Snooker : Open d'Ecosse",
-          "subtitle": "Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu. Home Nations Series.",
-          "description": "Home Nations Series. Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu.",
-          "team1": {
-            "name": "Open d'Ecosse",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chang Bingyu",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-14T19:00:00+02:00",
-          "end": "2026-05-14T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b6432cada640",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Rome",
-          "title": "Tennis : Masters 1000 de Rome",
-          "subtitle": "Tennis",
-          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-14T19:00:00+02:00",
-          "end": "2026-05-14T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0ea6e5b31011",
-          "sport": "other",
-          "competition": null,
-          "title": "Chris Wakelin - Chang Bingyu",
-          "subtitle": "BetVictor Scottish Open | Finale...",
-          "description": "L'Open d'Ecosse 2025 connaît son épilogue au Meadowbank Sports Centre d'Edimbourg. L'Anglais Chris Wakelin part favori pour s'adjuger le titre, face au Chinois Chang Bingyu.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-05-14T19:00:00+02:00",
-          "end": "2026-05-14T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0766e1b49398",
-          "sport": "tennis",
-          "competition": "International BNL d'Italie 2026 - Quart de finale 4, ATP",
-          "title": "Tennis: International BNL d'Italie 2026 - Quart de finale 4, ATP",
-          "subtitle": "Quart de finale 4, ATP",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-05-14T19:00:00+02:00",
-          "end": "2026-05-14T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "6468604bf524",
           "sport": "golf",
           "competition": null,
@@ -769,254 +597,6 @@
           "start": "2026-05-14T19:00:00+02:00",
           "end": "2026-05-15T01:00:00+02:00",
           "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8eadb889b6a4",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Paestum - Napoli",
-          "subtitle": "Tour d'Italie",
-          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-14T19:00:00+02:00",
-          "end": "2026-05-14T19:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8ca98169b478",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Hambourg / Fribourg",
-          "subtitle": "Bundesliga - 33e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Hambourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-14T19:36:00+02:00",
-          "end": "2026-05-14T21:23:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aec6e7df3ebd",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lens / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 29e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-14T19:55:00+02:00",
-          "end": "2026-05-14T21:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3173e211c2f2",
-          "sport": "other",
-          "competition": "Liga",
-          "title": "Deportivo Alavés / FC Barcelone",
-          "subtitle": "Liga - 36e journée",
-          "description": null,
-          "team1": {
-            "name": "Deportivo Alavés",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-14T20:30:00+02:00",
-          "end": "2026-05-14T22:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "297a04bc76ed",
-          "sport": "tennis",
-          "competition": "Tournoi de Rome 2026 - Demi-finale 2, WTA",
-          "title": "Tennis: Tournoi de Rome 2026 - Demi-finale 2, WTA",
-          "subtitle": "Demi-finale 2, WTA",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-05-14T20:30:00+02:00",
-          "end": "2026-05-14T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6374de8dbd23",
-          "sport": "cyclisme",
-          "competition": "Tour de Hongrie",
-          "title": "Cyclisme : Tour de Hongrie",
-          "subtitle": "Szarvas - Paks (205,8 km). Tour de Hongrie. 2e étape.",
-          "description": "Tour de Hongrie. 2e étape. Szarvas - Paks (205,8 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-14T21:00:00+02:00",
-          "end": "2026-05-14T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "184e829837af",
-          "sport": "volleyball",
-          "competition": "Match amical international",
-          "title": "Volley-ball : Match amical international",
-          "subtitle": null,
-          "description": "France - Hongrie, match de préparation de la Ligue des Nations 2026.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-14T21:00:00+02:00",
-          "end": "2026-05-14T23:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a42d3852d8d4",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Real Oviedo",
-          "subtitle": "Liga - 36e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Oviedo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-14T21:25:00+02:00",
-          "end": "2026-05-14T22:23:00+02:00",
-          "status": "upcoming",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1054,7 +634,7 @@
           },
           "start": "2026-05-14T21:30:00+02:00",
           "end": "2026-05-14T23:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1078,7 +658,7 @@
           },
           "start": "2026-05-14T21:55:00+02:00",
           "end": "2026-05-14T23:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1102,7 +682,7 @@
           },
           "start": "2026-05-14T22:00:00+02:00",
           "end": "2026-05-15T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1126,31 +706,7 @@
           },
           "start": "2026-05-14T22:00:00+02:00",
           "end": "2026-05-15T00:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2ea63259e209",
-          "sport": "other",
-          "competition": null,
-          "title": "BP Ultimate Rally - Raid Portugal 2026",
-          "subtitle": null,
-          "description": "<p>The highlights of the bp Ultimate Rally-Raid Portugal (17-22 March 2026), the 2nd round of the World Championship and the only stage held on European territory. A spectacular car and motorcycle competition, set against magnificent scenery between Spain and Portugal.</p>",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-05-14T22:00:09+02:00",
-          "end": "2026-05-14T22:52:40+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1188,7 +744,7 @@
           },
           "start": "2026-05-14T22:23:00+02:00",
           "end": "2026-05-14T23:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1212,7 +768,7 @@
           },
           "start": "2026-05-14T22:25:00+02:00",
           "end": "2026-05-15T00:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1250,7 +806,7 @@
           },
           "start": "2026-05-14T22:30:00+02:00",
           "end": "2026-05-15T00:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1274,7 +830,7 @@
           },
           "start": "2026-05-14T22:30:00+02:00",
           "end": "2026-05-15T00:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1298,7 +854,7 @@
           },
           "start": "2026-05-14T23:00:00+02:00",
           "end": "2026-05-15T01:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4952,6 +4508,450 @@
           },
           "start": "2026-05-14T18:00:00+02:00",
           "end": "2026-05-14T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e0e6010e3d74",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Brest / Strasbourg",
+          "subtitle": null,
+          "description": "Match de la 29ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant BREST et STRASBOURG.",
+          "team1": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-05-14T18:30:00+02:00",
+          "end": "2026-05-14T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a70fbe3c954d",
+          "sport": "tennis",
+          "competition": "Tournoi de Rome 2026 - Demi-finale 1, WTA",
+          "title": "Tennis: Tournoi de Rome 2026 - Demi-finale 1, WTA",
+          "subtitle": "Demi-finale 1, WTA",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-05-14T18:30:00+02:00",
+          "end": "2026-05-14T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "85134321262a",
+          "sport": "other",
+          "competition": "Open d'Ecosse",
+          "title": "Snooker : Open d'Ecosse",
+          "subtitle": "Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu. Home Nations Series.",
+          "description": "Home Nations Series. Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu.",
+          "team1": {
+            "name": "Open d'Ecosse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chang Bingyu",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-14T19:00:00+02:00",
+          "end": "2026-05-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b6432cada640",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Rome",
+          "title": "Tennis : Masters 1000 de Rome",
+          "subtitle": "Tennis",
+          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-14T19:00:00+02:00",
+          "end": "2026-05-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0ea6e5b31011",
+          "sport": "other",
+          "competition": null,
+          "title": "Chris Wakelin - Chang Bingyu",
+          "subtitle": "BetVictor Scottish Open | Finale...",
+          "description": "L'Open d'Ecosse 2025 connaît son épilogue au Meadowbank Sports Centre d'Edimbourg. L'Anglais Chris Wakelin part favori pour s'adjuger le titre, face au Chinois Chang Bingyu.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-05-14T19:00:00+02:00",
+          "end": "2026-05-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0766e1b49398",
+          "sport": "tennis",
+          "competition": "International BNL d'Italie 2026 - Quart de finale 4, ATP",
+          "title": "Tennis: International BNL d'Italie 2026 - Quart de finale 4, ATP",
+          "subtitle": "Quart de finale 4, ATP",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-05-14T19:00:00+02:00",
+          "end": "2026-05-14T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8eadb889b6a4",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Paestum - Napoli",
+          "subtitle": "Tour d'Italie",
+          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-14T19:00:00+02:00",
+          "end": "2026-05-14T19:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8ca98169b478",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Hambourg / Fribourg",
+          "subtitle": "Bundesliga - 33e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Hambourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-14T19:36:00+02:00",
+          "end": "2026-05-14T21:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aec6e7df3ebd",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lens / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 29e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-14T19:55:00+02:00",
+          "end": "2026-05-14T21:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3173e211c2f2",
+          "sport": "other",
+          "competition": "Liga",
+          "title": "Deportivo Alavés / FC Barcelone",
+          "subtitle": "Liga - 36e journée",
+          "description": null,
+          "team1": {
+            "name": "Deportivo Alavés",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-14T20:30:00+02:00",
+          "end": "2026-05-14T22:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "297a04bc76ed",
+          "sport": "tennis",
+          "competition": "Tournoi de Rome 2026 - Demi-finale 2, WTA",
+          "title": "Tennis: Tournoi de Rome 2026 - Demi-finale 2, WTA",
+          "subtitle": "Demi-finale 2, WTA",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-05-14T20:30:00+02:00",
+          "end": "2026-05-14T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6374de8dbd23",
+          "sport": "cyclisme",
+          "competition": "Tour de Hongrie",
+          "title": "Cyclisme : Tour de Hongrie",
+          "subtitle": "Szarvas - Paks (205,8 km). Tour de Hongrie. 2e étape.",
+          "description": "Tour de Hongrie. 2e étape. Szarvas - Paks (205,8 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-14T21:00:00+02:00",
+          "end": "2026-05-14T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "184e829837af",
+          "sport": "volleyball",
+          "competition": "Match amical international",
+          "title": "Volley-ball : Match amical international",
+          "subtitle": null,
+          "description": "France - Hongrie, match de préparation de la Ligue des Nations 2026.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-14T21:00:00+02:00",
+          "end": "2026-05-14T23:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a42d3852d8d4",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Real Oviedo",
+          "subtitle": "Liga - 36e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Oviedo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-14T21:25:00+02:00",
+          "end": "2026-05-14T22:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2ea63259e209",
+          "sport": "other",
+          "competition": null,
+          "title": "BP Ultimate Rally - Raid Portugal 2026",
+          "subtitle": null,
+          "description": "<p>The highlights of the bp Ultimate Rally-Raid Portugal (17-22 March 2026), the 2nd round of the World Championship and the only stage held on European territory. A spectacular car and motorcycle competition, set against magnificent scenery between Spain and Portugal.</p>",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-05-14T22:00:09+02:00",
+          "end": "2026-05-14T22:52:40+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
