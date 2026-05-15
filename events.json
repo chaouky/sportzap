@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-15T13:59:30.961940+00:00",
+    "generated_at": "2026-05-15T17:25:18.463162+00:00",
     "total_events": 943,
     "total_days": 7,
     "sports": [
@@ -23,83 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-7",
-        "name": "Eurosport 360 - 7",
-        "is_free": false
-      },
-      {
-        "slug": "srf-zwei",
-        "name": "SRF zwei",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "pro7",
-        "name": "PRO7",
-        "is_free": false
-      },
-      {
-        "slug": "srf-info",
-        "name": "SRF info",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "rts-2",
-        "name": "RTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
         "is_free": false
       },
       {
@@ -113,8 +38,23 @@
         "is_free": false
       },
       {
+        "slug": "rts-2",
+        "name": "RTS 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-2",
         "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
         "is_free": false
       },
       {
@@ -123,9 +63,24 @@
         "is_free": false
       },
       {
+        "slug": "pro7",
+        "name": "PRO7",
+        "is_free": false
+      },
+      {
         "slug": "rds",
         "name": "RDS",
         "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "tva-sports",
@@ -138,8 +93,18 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
         "slug": "canal-live-9",
         "name": "Canal+ Live 9",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
         "is_free": false
       },
       {
@@ -150,6 +115,11 @@
       {
         "slug": "eurosport-360-10",
         "name": "EUROSPORT 360 10",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -178,13 +148,28 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
         "slug": "nautical-channel",
         "name": "Nautical Channel",
         "is_free": false
       },
       {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -240,6 +225,21 @@
       {
         "slug": "eurosport-360-13",
         "name": "EUROSPORT 360 13",
+        "is_free": false
+      },
+      {
+        "slug": "srf-zwei",
+        "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-7",
+        "name": "Eurosport 360 - 7",
+        "is_free": false
+      },
+      {
+        "slug": "srf-info",
+        "name": "SRF info",
         "is_free": false
       },
       {
@@ -595,736 +595,6 @@
       "event_count": 134,
       "events": [
         {
-          "id": "79b407ace20c",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 7e étape . Formia - Blockhaus (244 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 7e étape . Formia - Blockhaus (244 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-15T10:55:00+02:00",
-          "end": "2026-05-15T17:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f6d5cc1576bf",
-          "sport": "golf",
-          "competition": null,
-          "title": "2e tour -  LET Amundi German Masters",
-          "subtitle": "LET Amundi German Masters",
-          "description": "A Hambourg, sur le parcours du Green Eagle Golf Courses, ce tournoi de golf fait partie du Ladies European Tour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-15T14:00:00+02:00",
-          "end": "2026-05-15T16:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "50eb0ce774e8",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "West Ham / Arsenal",
-          "subtitle": "Premier League - 36e journée",
-          "description": "A la lutte pour le titre avec Manchester City, William Saliba et les Gunners d'Arsenal n'ont pas d'autre choix que de battre West Ham, au stade olympique de Londres. Mais les Hammers, qui luttent pour leur maintien en Premier League, feront tout pour résister aux Cityzens et créer l'exploit afin d'assurer leur survie parmi l'élite.",
-          "team1": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-15T14:20:00+02:00",
-          "end": "2026-05-15T16:09:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "828cf60ffbae",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "7e étape . Formia - Blockhaus (244 km)",
-          "subtitle": "Tour d'Italie",
-          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-15T14:30:00+02:00",
-          "end": "2026-05-15T17:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "543bc855615a",
-          "sport": "cyclisme",
-          "competition": "Tour de Hongrie",
-          "title": "Cyclisme : Tour de Hongrie",
-          "subtitle": "Cyclisme",
-          "description": "A suivre les étapes du Tour de Hongrie de cyclisme. Organisé par l'UCI Europe Tour, le Tour est une course annuelle à étapes et se déroule à la fin du printemps ou en été. Sa première édition a eu lieu en 1925.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3607.fr",
-            "name": "Eurosport 360 - 7",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/652/canal-ouah/CHN43FB/CHN43FB_652_20220110?=.png",
-            "slug": "eurosport-360-7",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:00:00+02:00",
-          "end": "2026-05-15T17:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a032d6cd9cdb",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "7e étape . Formia - Blockhaus (244 km)",
-          "subtitle": "Tour d'Italie",
-          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:00:00+02:00",
-          "end": "2026-05-15T16:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f5027b349e77",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Rome",
-          "title": "Tennis : Masters 1000 de Rome",
-          "subtitle": "Tennis",
-          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:30:00+02:00",
-          "end": "2026-05-15T17:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "772a86ab3c15",
-          "sport": "tennis",
-          "competition": "International BNL d'Italie 2026 - Demi-finale 1, ATP",
-          "title": "Tennis: International BNL d'Italie 2026 - Demi-finale 1, ATP",
-          "subtitle": "Demi-finale 1, ATP",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:30:00+02:00",
-          "end": "2026-05-15T18:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "943f5b587a94",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Demi-finale N°1",
-          "subtitle": "Masters 1000 de Rome",
-          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:31:00+02:00",
-          "end": "2026-05-15T17:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4734460855a5",
-          "sport": "other",
-          "competition": null,
-          "title": "Finlande / Allemagne",
-          "subtitle": null,
-          "description": "Die Bilanz der letzten Jahre sieht für die Deutschen wenig optimistisch aus. In den jüngsten zehn Direktbegegnungen konnte die Nationalmannschaft nur zweimal gewinnen, achtmal unterlag sie den Finnen. Bei der WM 2023 verlor das DEB-Team knapp mit 3:4. Marcel Noebels erzielte damals ein Tor und lieferte eine Vorlage. Wird die Mannschaft es diesmal schaffen, Finnland zu besiegen?",
-          "team1": {
-            "name": "Finlande",
-            "type": "country",
-            "short": null,
-            "country_code": "fi",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Allemagne",
-            "type": "country",
-            "short": "Allemagne",
-            "country_code": "de",
-            "logo_url": "https://flagcdn.com/w80/de.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PRO7.de",
-            "name": "PRO7",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLp_ovaB0i2kUntwGaP0rfPtsV51Z8PFCLAMi-31uYoObpME5IzcqD0s6HuQ&amp;s",
-            "slug": "pro7",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:45:00+02:00",
-          "end": "2026-05-15T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7a43b8937efc",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Radsport - Giro d'Italia Männer",
-          "subtitle": "7. Etappe, Formia – Blockhaus aus Monte Blockhaus/ITA",
-          "description": "Übertragung der Radrennen des Giro d'Italia.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:50:00+02:00",
-          "end": "2026-05-15T17:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "19f0743f85c7",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Brighton & Hove Albion / Wolverhampton",
-          "subtitle": "Premier League - 36e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Brighton & Hove Albion",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-15T15:59:00+02:00",
-          "end": "2026-05-15T17:44:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a8cab115c9ba",
-          "sport": "golf",
-          "competition": null,
-          "title": "2e tour. 2e partie -  LET Amundi German Masters",
-          "subtitle": "LET Amundi German Masters",
-          "description": "A Hambourg, sur le parcours du Green Eagle Golf Courses, ce tournoi de golf fait partie du Ladies European Tour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:00:00+02:00",
-          "end": "2026-05-15T18:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dc5e856f3625",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Toulouse / Lyon",
-          "subtitle": null,
-          "description": "Match de la 33ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et OL.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:00:00+02:00",
-          "end": "2026-05-15T17:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "715f7a2215a1",
-          "sport": "other",
-          "competition": "Championnat du monde",
-          "title": "Team Canada / Suède",
-          "subtitle": "Championnat du monde",
-          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
-          "team1": {
-            "name": "Team Canada",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Suède",
-            "type": "country",
-            "short": "Suède",
-            "country_code": "se",
-            "logo_url": "https://flagcdn.com/w80/se.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:00:00+02:00",
-          "end": "2026-05-15T19:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1559276f9b39",
-          "sport": "other",
-          "competition": "Coupe de France",
-          "title": "Billard Blackball : Coupe de France",
-          "subtitle": null,
-          "description": "Finale par équipes de la Coupe de France de billard blackball.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-15T16:00:00+02:00",
-          "end": "2026-05-15T18:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1065805ec590",
-          "sport": "other",
-          "competition": "Championnat du monde",
-          "title": "Team Canada / Suède",
-          "subtitle": "Championnat du monde",
-          "description": "En direct de Fribourg",
-          "team1": {
-            "name": "Team Canada",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Suède",
-            "type": "country",
-            "short": "Suède",
-            "country_code": "se",
-            "logo_url": "https://flagcdn.com/w80/se.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:10:00+02:00",
-          "end": "2026-05-15T18:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7a6283ca8f1a",
-          "sport": "basket",
-          "competition": "Euroligue masculine",
-          "title": "Basket-ball : Euroligue masculine",
-          "subtitle": "Valence / Panathinaikos. Euroligue masculine. Playoff. Quart de finale. 5e match.",
-          "description": "Euroligue masculine. Playoff. Quart de finale. 5e match. Valence / Panathinaikos.",
-          "team1": {
-            "name": "Valence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Panathinaikos",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:10:00+02:00",
-          "end": "2026-05-15T18:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "64d93b501df8",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Racing 92 / La Rochelle",
-          "subtitle": "Top 14 - 23e journée",
-          "description": "La 23e journée du Top 14 met aux prises le Racing 92 et La Rochelle dans un duel important pour la suite de la saison. Encore en course pour les places européennes, les deux formations peuvent également continuer à croire au Top 6, synonyme de qualification pour la phase finale du championnat de France.",
-          "team1": {
-            "name": "Racing 92",
-            "type": "club",
-            "short": "Racing 92",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "La Rochelle",
-            "type": "club",
-            "short": "La Rochelle",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:28:00+02:00",
-          "end": "2026-05-15T18:12:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "52528e3cd726",
-          "sport": "tennis",
-          "competition": "Tournoi de Rome 2026",
-          "title": "Tennis: Tournoi de Rome 2026",
-          "subtitle": "Demi-finale 1, WTA",
-          "description": "En provenance de Foro Italico &#150; Rome, ITA En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports2.ca",
-            "name": "TVA Sports 2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
-            "slug": "tva-sports-2",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:30:00+02:00",
-          "end": "2026-05-15T18:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aa9ea70fd4f7",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Sunderland / Manchester United",
-          "subtitle": "Premier League - 36e journée",
-          "description": "A trois journées de la fin du championnat, les Red Devils vont tenter de consolider leur place dans le Top 5 en remportant les trois points de la victoire à Sunderland. Les Black Cats peuvent encore espérer décrocher un accessit européen, mais il leur faudra pour cela créer l'exploit face aux Mancuniens.",
-          "team1": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-15T16:40:00+02:00",
-          "end": "2026-05-15T18:23:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "43b52f646d87",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Wolfsburg / Bayern Munich",
-          "subtitle": "Bundesliga - 33e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Wolfsburg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-15T17:08:00+02:00",
-          "end": "2026-05-15T18:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a11f58864642",
-          "sport": "other",
-          "competition": "Championnat du monde",
-          "title": "Team Canada / Suède",
-          "subtitle": "Championnat du monde",
-          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
-          "team1": {
-            "name": "Team Canada",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Suède",
-            "type": "country",
-            "short": "Suède",
-            "country_code": "se",
-            "logo_url": "https://flagcdn.com/w80/se.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-15T17:20:00+02:00",
-          "end": "2026-05-15T18:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8b745daed2b5",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-15T17:30:00+02:00",
-          "end": "2026-05-15T18:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "d9974a02bdb6",
           "sport": "football",
           "competition": "Liga",
@@ -1356,7 +626,7 @@
           },
           "start": "2026-05-15T17:44:00+02:00",
           "end": "2026-05-15T19:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1394,7 +664,7 @@
           },
           "start": "2026-05-15T18:12:00+02:00",
           "end": "2026-05-15T19:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1418,7 +688,7 @@
           },
           "start": "2026-05-15T18:30:00+02:00",
           "end": "2026-05-15T20:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1456,7 +726,7 @@
           },
           "start": "2026-05-15T18:55:00+02:00",
           "end": "2026-05-15T19:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1494,7 +764,7 @@
           },
           "start": "2026-05-15T18:58:00+02:00",
           "end": "2026-05-15T20:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1532,7 +802,7 @@
           },
           "start": "2026-05-15T18:58:00+02:00",
           "end": "2026-05-15T20:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1556,7 +826,7 @@
           },
           "start": "2026-05-15T19:00:00+02:00",
           "end": "2026-05-15T21:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1580,7 +850,7 @@
           },
           "start": "2026-05-15T19:00:00+02:00",
           "end": "2026-05-15T21:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1604,7 +874,7 @@
           },
           "start": "2026-05-15T19:00:00+02:00",
           "end": "2026-05-15T21:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1628,7 +898,7 @@
           },
           "start": "2026-05-15T19:00:00+02:00",
           "end": "2026-05-15T21:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1652,7 +922,7 @@
           },
           "start": "2026-05-15T19:00:00+02:00",
           "end": "2026-05-16T01:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1676,7 +946,7 @@
           },
           "start": "2026-05-15T19:00:00+02:00",
           "end": "2026-05-15T20:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1700,7 +970,7 @@
           },
           "start": "2026-05-15T19:00:00+02:00",
           "end": "2026-05-15T21:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1724,7 +994,7 @@
           },
           "start": "2026-05-15T19:00:12+02:00",
           "end": "2026-05-15T19:52:43+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1748,7 +1018,7 @@
           },
           "start": "2026-05-15T19:01:00+02:00",
           "end": "2026-05-15T20:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4045,6 +3315,30 @@
           "result": null
         },
         {
+          "id": "79b407ace20c",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 7e étape . Formia - Blockhaus (244 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 7e étape . Formia - Blockhaus (244 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-15T10:55:00+02:00",
+          "end": "2026-05-15T17:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "4ffeabbeaea4",
           "sport": "tennis",
           "competition": "Masters 1000 de Rome",
@@ -4475,6 +3769,30 @@
           "result": null
         },
         {
+          "id": "f6d5cc1576bf",
+          "sport": "golf",
+          "competition": null,
+          "title": "2e tour -  LET Amundi German Masters",
+          "subtitle": "LET Amundi German Masters",
+          "description": "A Hambourg, sur le parcours du Green Eagle Golf Courses, ce tournoi de golf fait partie du Ladies European Tour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-15T14:00:00+02:00",
+          "end": "2026-05-15T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "fa709a071765",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -4551,6 +3869,44 @@
           "result": null
         },
         {
+          "id": "50eb0ce774e8",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "West Ham / Arsenal",
+          "subtitle": "Premier League - 36e journée",
+          "description": "A la lutte pour le titre avec Manchester City, William Saliba et les Gunners d'Arsenal n'ont pas d'autre choix que de battre West Ham, au stade olympique de Londres. Mais les Hammers, qui luttent pour leur maintien en Premier League, feront tout pour résister aux Cityzens et créer l'exploit afin d'assurer leur survie parmi l'élite.",
+          "team1": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-15T14:20:00+02:00",
+          "end": "2026-05-15T16:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e39a27380a11",
           "sport": "football",
           "competition": null,
@@ -4599,6 +3955,30 @@
           "result": null
         },
         {
+          "id": "828cf60ffbae",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "7e étape . Formia - Blockhaus (244 km)",
+          "subtitle": "Tour d'Italie",
+          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-15T14:30:00+02:00",
+          "end": "2026-05-15T17:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "c9cc9a07056f",
           "sport": "football",
           "competition": null,
@@ -4616,6 +3996,626 @@
           },
           "start": "2026-05-15T14:30:00+02:00",
           "end": "2026-05-15T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "543bc855615a",
+          "sport": "cyclisme",
+          "competition": "Tour de Hongrie",
+          "title": "Cyclisme : Tour de Hongrie",
+          "subtitle": "Cyclisme",
+          "description": "A suivre les étapes du Tour de Hongrie de cyclisme. Organisé par l'UCI Europe Tour, le Tour est une course annuelle à étapes et se déroule à la fin du printemps ou en été. Sa première édition a eu lieu en 1925.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3607.fr",
+            "name": "Eurosport 360 - 7",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/652/canal-ouah/CHN43FB/CHN43FB_652_20220110?=.png",
+            "slug": "eurosport-360-7",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:00:00+02:00",
+          "end": "2026-05-15T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a032d6cd9cdb",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "7e étape . Formia - Blockhaus (244 km)",
+          "subtitle": "Tour d'Italie",
+          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:00:00+02:00",
+          "end": "2026-05-15T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f5027b349e77",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Rome",
+          "title": "Tennis : Masters 1000 de Rome",
+          "subtitle": "Tennis",
+          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:30:00+02:00",
+          "end": "2026-05-15T17:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "772a86ab3c15",
+          "sport": "tennis",
+          "competition": "International BNL d'Italie 2026 - Demi-finale 1, ATP",
+          "title": "Tennis: International BNL d'Italie 2026 - Demi-finale 1, ATP",
+          "subtitle": "Demi-finale 1, ATP",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:30:00+02:00",
+          "end": "2026-05-15T18:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "943f5b587a94",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Demi-finale N°1",
+          "subtitle": "Masters 1000 de Rome",
+          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:31:00+02:00",
+          "end": "2026-05-15T17:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4734460855a5",
+          "sport": "other",
+          "competition": null,
+          "title": "Finlande / Allemagne",
+          "subtitle": null,
+          "description": "Die Bilanz der letzten Jahre sieht für die Deutschen wenig optimistisch aus. In den jüngsten zehn Direktbegegnungen konnte die Nationalmannschaft nur zweimal gewinnen, achtmal unterlag sie den Finnen. Bei der WM 2023 verlor das DEB-Team knapp mit 3:4. Marcel Noebels erzielte damals ein Tor und lieferte eine Vorlage. Wird die Mannschaft es diesmal schaffen, Finnland zu besiegen?",
+          "team1": {
+            "name": "Finlande",
+            "type": "country",
+            "short": null,
+            "country_code": "fi",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Allemagne",
+            "type": "country",
+            "short": "Allemagne",
+            "country_code": "de",
+            "logo_url": "https://flagcdn.com/w80/de.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PRO7.de",
+            "name": "PRO7",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLp_ovaB0i2kUntwGaP0rfPtsV51Z8PFCLAMi-31uYoObpME5IzcqD0s6HuQ&amp;s",
+            "slug": "pro7",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:45:00+02:00",
+          "end": "2026-05-15T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7a43b8937efc",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Radsport - Giro d'Italia Männer",
+          "subtitle": "7. Etappe, Formia – Blockhaus aus Monte Blockhaus/ITA",
+          "description": "Übertragung der Radrennen des Giro d'Italia.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:50:00+02:00",
+          "end": "2026-05-15T17:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "19f0743f85c7",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Brighton & Hove Albion / Wolverhampton",
+          "subtitle": "Premier League - 36e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Brighton & Hove Albion",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-15T15:59:00+02:00",
+          "end": "2026-05-15T17:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a8cab115c9ba",
+          "sport": "golf",
+          "competition": null,
+          "title": "2e tour. 2e partie -  LET Amundi German Masters",
+          "subtitle": "LET Amundi German Masters",
+          "description": "A Hambourg, sur le parcours du Green Eagle Golf Courses, ce tournoi de golf fait partie du Ladies European Tour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:00:00+02:00",
+          "end": "2026-05-15T18:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dc5e856f3625",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Toulouse / Lyon",
+          "subtitle": null,
+          "description": "Match de la 33ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et OL.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:00:00+02:00",
+          "end": "2026-05-15T17:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "715f7a2215a1",
+          "sport": "other",
+          "competition": "Championnat du monde",
+          "title": "Team Canada / Suède",
+          "subtitle": "Championnat du monde",
+          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
+          "team1": {
+            "name": "Team Canada",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Suède",
+            "type": "country",
+            "short": "Suède",
+            "country_code": "se",
+            "logo_url": "https://flagcdn.com/w80/se.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:00:00+02:00",
+          "end": "2026-05-15T19:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1559276f9b39",
+          "sport": "other",
+          "competition": "Coupe de France",
+          "title": "Billard Blackball : Coupe de France",
+          "subtitle": null,
+          "description": "Finale par équipes de la Coupe de France de billard blackball.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-15T16:00:00+02:00",
+          "end": "2026-05-15T18:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1065805ec590",
+          "sport": "other",
+          "competition": "Championnat du monde",
+          "title": "Team Canada / Suède",
+          "subtitle": "Championnat du monde",
+          "description": "En direct de Fribourg",
+          "team1": {
+            "name": "Team Canada",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Suède",
+            "type": "country",
+            "short": "Suède",
+            "country_code": "se",
+            "logo_url": "https://flagcdn.com/w80/se.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:10:00+02:00",
+          "end": "2026-05-15T18:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7a6283ca8f1a",
+          "sport": "basket",
+          "competition": "Euroligue masculine",
+          "title": "Basket-ball : Euroligue masculine",
+          "subtitle": "Valence / Panathinaikos. Euroligue masculine. Playoff. Quart de finale. 5e match.",
+          "description": "Euroligue masculine. Playoff. Quart de finale. 5e match. Valence / Panathinaikos.",
+          "team1": {
+            "name": "Valence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Panathinaikos",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:10:00+02:00",
+          "end": "2026-05-15T18:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "64d93b501df8",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Racing 92 / La Rochelle",
+          "subtitle": "Top 14 - 23e journée",
+          "description": "La 23e journée du Top 14 met aux prises le Racing 92 et La Rochelle dans un duel important pour la suite de la saison. Encore en course pour les places européennes, les deux formations peuvent également continuer à croire au Top 6, synonyme de qualification pour la phase finale du championnat de France.",
+          "team1": {
+            "name": "Racing 92",
+            "type": "club",
+            "short": "Racing 92",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "La Rochelle",
+            "type": "club",
+            "short": "La Rochelle",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:28:00+02:00",
+          "end": "2026-05-15T18:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "52528e3cd726",
+          "sport": "tennis",
+          "competition": "Tournoi de Rome 2026",
+          "title": "Tennis: Tournoi de Rome 2026",
+          "subtitle": "Demi-finale 1, WTA",
+          "description": "En provenance de Foro Italico &#150; Rome, ITA En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports2.ca",
+            "name": "TVA Sports 2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
+            "slug": "tva-sports-2",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:30:00+02:00",
+          "end": "2026-05-15T18:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aa9ea70fd4f7",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Sunderland / Manchester United",
+          "subtitle": "Premier League - 36e journée",
+          "description": "A trois journées de la fin du championnat, les Red Devils vont tenter de consolider leur place dans le Top 5 en remportant les trois points de la victoire à Sunderland. Les Black Cats peuvent encore espérer décrocher un accessit européen, mais il leur faudra pour cela créer l'exploit face aux Mancuniens.",
+          "team1": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-15T16:40:00+02:00",
+          "end": "2026-05-15T18:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "43b52f646d87",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Wolfsburg / Bayern Munich",
+          "subtitle": "Bundesliga - 33e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Wolfsburg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-15T17:08:00+02:00",
+          "end": "2026-05-15T18:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a11f58864642",
+          "sport": "other",
+          "competition": "Championnat du monde",
+          "title": "Team Canada / Suède",
+          "subtitle": "Championnat du monde",
+          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
+          "team1": {
+            "name": "Team Canada",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Suède",
+            "type": "country",
+            "short": "Suède",
+            "country_code": "se",
+            "logo_url": "https://flagcdn.com/w80/se.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-15T17:20:00+02:00",
+          "end": "2026-05-15T18:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8b745daed2b5",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-15T17:30:00+02:00",
+          "end": "2026-05-15T18:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
