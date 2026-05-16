@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-16T16:56:06.804957+00:00",
+    "generated_at": "2026-05-16T20:41:53.801388+00:00",
     "total_events": 987,
     "total_days": 7,
     "sports": [
@@ -23,23 +23,43 @@
     ],
     "channels": [
       {
-        "slug": "srf-zwei",
-        "name": "SRF zwei",
+        "slug": "infosportplus",
+        "name": "InfosportPlus",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "rts-2",
+        "name": "RTS 2",
+        "is_free": false
+      },
+      {
+        "slug": "rds-info",
+        "name": "RDS Info",
         "is_free": false
       },
       {
         "slug": "canal-plus",
-        "name": "Canal+ Live 4",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
+        "name": "Canal+ UHD",
         "is_free": false
       },
       {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
@@ -53,68 +73,13 @@
         "is_free": false
       },
       {
-        "slug": "infosportplus",
-        "name": "InfosportPlus",
-        "is_free": false
-      },
-      {
-        "slug": "rds-info",
-        "name": "RDS Info",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "canal-live-6",
-        "name": "Canal+ Live 6",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "rts-2",
-        "name": "RTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
+        "slug": "tva-sports",
+        "name": "TVA Sports",
         "is_free": false
       },
       {
         "slug": "la-chaine-l-quipe",
         "name": "La chaine l’Équipe",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "bein-sports-max-10",
-        "name": "beIN SPORTS MAX 10",
         "is_free": false
       },
       {
@@ -133,8 +98,18 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
         "is_free": false
       },
       {
@@ -148,8 +123,18 @@
         "is_free": false
       },
       {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -238,6 +223,11 @@
         "is_free": false
       },
       {
+        "slug": "srf-zwei",
+        "name": "SRF zwei",
+        "is_free": false
+      },
+      {
         "slug": "bbc-one",
         "name": "BBC One",
         "is_free": false
@@ -248,8 +238,18 @@
         "is_free": false
       },
       {
+        "slug": "canal-live-6",
+        "name": "Canal+ Live 6",
+        "is_free": false
+      },
+      {
         "slug": "canal-live-5",
         "name": "Canal+ Live 5",
+        "is_free": false
+      },
+      {
+        "slug": "bein-sports-max-10",
+        "name": "beIN SPORTS MAX 10",
         "is_free": false
       },
       {
@@ -565,206 +565,6 @@
       "event_count": 159,
       "events": [
         {
-          "id": "8745c14ebb9c",
-          "sport": "other",
-          "competition": "Championnat du monde",
-          "title": "Italie / Team Canada",
-          "subtitle": "Championnat du monde",
-          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
-          "team1": {
-            "name": "Italie",
-            "type": "country",
-            "short": "Italie",
-            "country_code": "it",
-            "logo_url": "https://flagcdn.com/w80/it.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Team Canada",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-05-16T16:00:00+02:00",
-          "end": "2026-05-16T19:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe11328a04ce",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Bordeaux-Bègles / Perpignan",
-          "subtitle": "Top 14 - 24e journée",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": {
-            "name": "Union Bordeaux-Bègles",
-            "type": "club",
-            "short": "UBB",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2569.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "USA Perpignan",
-            "type": "club",
-            "short": "Perpignan",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2585.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusLive4.fr",
-            "name": "Canal+ Live 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1138/canal-ouah/CHN43FB/CHN43FB_1138_20240910-Ejre?=.png",
-            "slug": "canal-plus",
-            "is_free": false
-          },
-          "start": "2026-05-16T16:25:00+02:00",
-          "end": "2026-05-16T19:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "257cb41c269e",
-          "sport": "tennis",
-          "competition": "Tournoi de Rome 2026 - Finale, WTA",
-          "title": "Tennis: Tournoi de Rome 2026 - Finale, WTA",
-          "subtitle": "Finale, WTA",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-05-16T17:00:00+02:00",
-          "end": "2026-05-16T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe38ccdf8600",
-          "sport": "football",
-          "competition": "Arkema Première Ligue - Playoffs",
-          "title": "Lyon / FC Nantes",
-          "subtitle": "Arkema Première Ligue - Playoffs...",
-          "description": "Les joueuses de l'OL Lyonnes sont favorites dans cette demi-finale d'Arkema Première Ligue contre les filles du FC Nantes.",
-          "team1": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Nantes",
-            "type": "club",
-            "short": "Nantes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-16T17:55:00+02:00",
-          "end": "2026-05-16T20:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "af4022decbdf",
-          "sport": "other",
-          "competition": null,
-          "title": "1re demi-finale dames",
-          "subtitle": "Buenos Aires P1",
-          "description": "L'Argentine est l'un des pays majeurs du padel et ce tournoi de Buenos Aires P1 se déroule dans la salle de l'Estadio Parque Roca dans la capitale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:00:00+02:00",
-          "end": "2026-05-16T19:59:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d91d16e2f993",
-          "sport": "handball",
-          "competition": "Ligue européenne féminine",
-          "title": "Handball : Ligue européenne féminine",
-          "subtitle": "Dijon / Esztergomi. Coupe EHF féminine. Demi-finale.",
-          "description": "Coupe EHF féminine. Demi-finale. Dijon / Esztergomi.",
-          "team1": {
-            "name": "Dijon",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Esztergomi",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:00:00+02:00",
-          "end": "2026-05-16T19:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "33699b938fd0",
           "sport": "other",
           "competition": null,
@@ -789,202 +589,6 @@
           "result": null
         },
         {
-          "id": "ad6c654e39a9",
-          "sport": "tennis",
-          "competition": "International BNL d'Italie 2026 - Demi-finale 1, ATP",
-          "title": "Tennis: International BNL d'Italie 2026 - Demi-finale 1, ATP",
-          "subtitle": "Demi-finale 1, ATP",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDSInfo.ca",
-            "name": "RDS Info",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s39080_h15_ab.png",
-            "slug": "rds-info",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:00:00+02:00",
-          "end": "2026-05-16T20:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "18d3984f8ea1",
-          "sport": "basket",
-          "competition": null,
-          "title": "Okapi Aalst - Kangoeroes Basket Mechelen",
-          "subtitle": null,
-          "description": "Quart de finale des play-offs du BNXT Basketball League - Game 1  : Crelan Okapi Aalst - Kangoeroes Basket Mechelen.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:10:00+02:00",
-          "end": "2026-05-16T20:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8ba9b5eddbc4",
-          "sport": "other",
-          "competition": "Montauban / Stade Français Paris",
-          "title": "Terminé : Montauban / Stade Français Paris",
-          "subtitle": "Mag. Sport",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusLive6.fr",
-            "name": "Canal+ Live 6",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1140/canal-ouah/CHN43FB/CHN43FB_1140_20240910-9Csx?=.png",
-            "slug": "canal-live-6",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:25:00+02:00",
-          "end": "2026-05-16T19:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a0fcfba2e5ff",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Almeria / Las Palmas",
-          "subtitle": "Liga 2 - 40e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Almeria",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Las Palmas",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:25:00+02:00",
-          "end": "2026-05-16T19:17:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ca365482c9d8",
-          "sport": "basket",
-          "competition": null,
-          "title": "Fribourg Olympic - Lions de Genève",
-          "subtitle": "Championnat de Suisse - Finale -...",
-          "description": "En direct de Fribourg",
-          "team1": {
-            "name": "Championnat de Suisse",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Finale -...",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:40:00+02:00",
-          "end": "2026-05-16T19:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d713cec5fa95",
-          "sport": "motogp",
-          "competition": "Grand Prix de Catalogne",
-          "title": "Moto 3 : Grand Prix de Catalogne",
-          "subtitle": "Motocyclisme",
-          "description": "Retransmission du Grand Prix de Catalogne, une des étapes espagnoles du championnat de la catégorie de Moto3. Le circuit barcelonais a été créé en 1996 et accueille des courses de divers championnats, notamment celle de la prestigieuse catégorie des motoGP. Le circuit a une longueur de 4,267 km et comporte une ligne droite d'un kilomètre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:45:00+02:00",
-          "end": "2026-05-16T19:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "885d81d60ac1",
-          "sport": "basket",
-          "competition": "Betclic Elite",
-          "title": "Basket-ball : Betclic Elite",
-          "subtitle": null,
-          "description": "Deux chocs qui pourraient modifier le classement avant les play-offs sont au menu de ce multiplex de la dernière journée d'Elite : Monaco accueille Paris tandis que Villeurbanne reçoit Strasbourg.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LEquipe21.fr",
-            "name": "La chaine l’Équipe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
-            "slug": "la-chaine-l-quipe",
-            "is_free": false
-          },
-          "start": "2026-05-16T18:56:00+02:00",
-          "end": "2026-05-16T21:09:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "52fa560d4a3b",
           "sport": "golf",
           "competition": null,
@@ -1002,303 +606,7 @@
           },
           "start": "2026-05-16T19:00:00+02:00",
           "end": "2026-05-17T01:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3dc14d42c1fa",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Blue Jays de Toronto c. Tigers de Détroit",
-          "subtitle": "Blue Jays de Toronto c. Tigers de Détroit",
-          "description": "Les Blue Jays se rendent chez les Tigers pour le deuxième match d'une série de saison régulière au Comerica Park.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:00:00+02:00",
-          "end": "2026-05-16T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f5a7a631edc6",
-          "sport": "other",
-          "competition": null,
-          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
-          "subtitle": "Doc. Sport",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:02:00+02:00",
-          "end": "2026-05-16T19:58:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c4e86749a16e",
-          "sport": "other",
-          "competition": null,
-          "title": "Grand Format Sport",
-          "subtitle": "Villarreal - Seville",
-          "description": ".",
-          "team1": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Seville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:17:00+02:00",
-          "end": "2026-05-16T20:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "416d11832d91",
-          "sport": "motogp",
-          "competition": "Grand Prix de Catalogne",
-          "title": "Moto 2 : Grand Prix de Catalogne",
-          "subtitle": "Motocyclisme",
-          "description": "Retransmission du Grand Prix de Catalogne, une des étapes espagnoles du championnat de la catégorie de Moto2. Le circuit barcelonais a été créé en 1996 et accueille des courses de divers championnats, notamment celle de la prestigieuse catégorie des MotoGP. Le circuit a une longueur de 4,267 km et comporte une ligne droite d'un kilomètre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:20:00+02:00",
-          "end": "2026-05-16T20:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "427ed89398c9",
-          "sport": "other",
-          "competition": null,
-          "title": "Italie - Canada",
-          "subtitle": "Championnat du monde - Groupe B",
-          "description": "En différé de Fribourg",
-          "team1": {
-            "name": "Championnat du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Groupe B",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:35:00+02:00",
-          "end": "2026-05-16T20:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a96c18312f6f",
-          "sport": "rugby",
-          "competition": null,
-          "title": "Canal Rugby Club - 1re édition",
-          "subtitle": null,
-          "description": "Le Canal Rugby Club met à l'honneur le Top 14, des reportages \"inside\" et des interviews de personnalités du rugby afin de décrypter les enjeux et résultats de chaque journée.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlus.fr",
-            "name": "Canal+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~897223a57e2e8ae5.png/480x480/quality/100/canal.png",
-            "slug": "canal-plus",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:40:00+02:00",
-          "end": "2026-05-16T20:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3bffc6be7b76",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Rome",
-          "title": "Tennis : Masters 1000 de Rome",
-          "subtitle": "Masters 1000 de Rome. Demi-finale.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:45:00+02:00",
-          "end": "2026-05-16T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "06b92b81d276",
-          "sport": "football",
-          "competition": "Coupe intercontinentale de la FIFA",
-          "title": "Football : Coupe intercontinentale de la FIFA | Real Madrid / Pachuca",
-          "subtitle": null,
-          "description": "Retransmission d'une rencontre de la Coupe intercontinentale de la FIFA.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Pachuca",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:45:00+02:00",
-          "end": "2026-05-16T21:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "861e2c909257",
-          "sport": "football",
-          "competition": "Coupe de la Confédération de la",
-          "title": "Zamalek / USM Alger",
-          "subtitle": "Coupe de la Confédération de la ...",
-          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
-          "team1": {
-            "name": "Zamalek",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "USM Alger",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:55:00+02:00",
-          "end": "2026-05-16T20:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aacb11dfeb08",
-          "sport": "other",
-          "competition": null,
-          "title": "2e demi-finale dames",
-          "subtitle": "Buenos Aires P1",
-          "description": "Après Asuncion, le circuit Premier Padel prolonge son escale sud-américaine avec le Buenos Aires P1. Dans un pays où la discipline suscite une ferveur particulière, les meilleures paires mondiales retrouvent une scène exigeante. Entre favorites attendues, outsiders ambitieuses et possibles surprises, la lutte pour le titre promet d'être acharnée.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-05-16T19:59:00+02:00",
-          "end": "2026-05-16T22:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1336,31 +644,7 @@
           },
           "start": "2026-05-16T20:00:00+02:00",
           "end": "2026-05-16T23:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1b4ecdda2f56",
-          "sport": "football",
-          "competition": null,
-          "title": "Soir de Première Ligue",
-          "subtitle": "Demi-finale",
-          "description": "Les dernières informations du terrain et les compositions des équipes qui se défient en Arkema Première Ligue, le championnat de France féminin de football.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-16T20:01:00+02:00",
-          "end": "2026-05-16T21:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1398,31 +682,7 @@
           },
           "start": "2026-05-16T20:05:00+02:00",
           "end": "2026-05-16T22:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5b66dc6c44c7",
-          "sport": "volleyball",
-          "competition": "Ligue des champions",
-          "title": "Volley-ball : Ligue des champions",
-          "subtitle": null,
-          "description": "Suivez les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de volley-ball organisée par la CEV. Fondée en 1959, elle est organisée tous les ans et réunit les vingt meilleures équipes d'Europe qui sont réparties en cinq groupes. Les huit meilleures équipes s'affrontent ensuite pour le titre suprême de champion du vieux continent.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTSMAX10.fr",
-            "name": "beIN SPORTS MAX 10",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~57cc7cfcf4f15450.png/480x480/quality/100/bein-sports-max-10.png",
-            "slug": "bein-sports-max-10",
-            "is_free": false
-          },
-          "start": "2026-05-16T20:25:00+02:00",
-          "end": "2026-05-16T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1446,83 +706,7 @@
           },
           "start": "2026-05-16T20:30:00+02:00",
           "end": "2026-05-16T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3b303a2b5cee",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Racing 92 / Toulon",
-          "subtitle": "Top 14 - 24e journée",
-          "description": "Cette rencontre entre le Racing 92 et le RC Toulon va sans doute être disputée dans cette fin de saison. Les deux formations cherchent à se qualifier pour les barrages à venir.",
-          "team1": {
-            "name": "Racing 92",
-            "type": "club",
-            "short": "Racing 92",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Toulon",
-            "type": "club",
-            "short": "Toulon",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2583.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusLive1.fr",
-            "name": "Canal+ Live 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
-            "slug": "canal-plus",
-            "is_free": false
-          },
-          "start": "2026-05-16T20:43:00+02:00",
-          "end": "2026-05-16T22:23:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4cbcb294d4d1",
-          "sport": "other",
-          "competition": null,
-          "title": "Grand Format Sport",
-          "subtitle": "Bayern - Cologne",
-          "description": ".",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cologne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-16T20:52:00+02:00",
-          "end": "2026-05-16T22:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1560,7 +744,7 @@
           },
           "start": "2026-05-16T21:00:00+02:00",
           "end": "2026-05-16T22:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1598,31 +782,7 @@
           },
           "start": "2026-05-16T21:00:00+02:00",
           "end": "2026-05-16T22:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6e3835ed6c28",
-          "sport": "cyclisme",
-          "competition": "Tour de Hongrie",
-          "title": "Cyclisme : Tour de Hongrie",
-          "subtitle": "Mohacs - Pécs (188,2 km). Tour de Hongrie. 4e étape.",
-          "description": "Tour de Hongrie. 4e étape. Mohacs - Pécs (188,2 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-16T21:00:00+02:00",
-          "end": "2026-05-16T22:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1646,7 +806,7 @@
           },
           "start": "2026-05-16T21:50:00+02:00",
           "end": "2026-05-17T00:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1670,7 +830,7 @@
           },
           "start": "2026-05-16T22:00:00+02:00",
           "end": "2026-05-16T23:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1694,7 +854,7 @@
           },
           "start": "2026-05-16T22:00:00+02:00",
           "end": "2026-05-17T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1718,7 +878,7 @@
           },
           "start": "2026-05-16T22:30:00+02:00",
           "end": "2026-05-17T00:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4903,6 +4063,44 @@
           "result": null
         },
         {
+          "id": "8745c14ebb9c",
+          "sport": "other",
+          "competition": "Championnat du monde",
+          "title": "Italie / Team Canada",
+          "subtitle": "Championnat du monde",
+          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
+          "team1": {
+            "name": "Italie",
+            "type": "country",
+            "short": "Italie",
+            "country_code": "it",
+            "logo_url": "https://flagcdn.com/w80/it.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Team Canada",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-05-16T16:00:00+02:00",
+          "end": "2026-05-16T19:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "36022a9168c4",
           "sport": "cyclisme",
           "competition": null,
@@ -5058,6 +4256,44 @@
           },
           "start": "2026-05-16T16:22:55+02:00",
           "end": "2026-05-16T16:32:02+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe11328a04ce",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Bordeaux-Bègles / Perpignan",
+          "subtitle": "Top 14 - 24e journée",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": {
+            "name": "Union Bordeaux-Bègles",
+            "type": "club",
+            "short": "UBB",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2569.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "USA Perpignan",
+            "type": "club",
+            "short": "Perpignan",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2585.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusLive4.fr",
+            "name": "Canal+ Live 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1138/canal-ouah/CHN43FB/CHN43FB_1138_20240910-Ejre?=.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-05-16T16:25:00+02:00",
+          "end": "2026-05-16T19:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5317,6 +4553,30 @@
           "result": null
         },
         {
+          "id": "257cb41c269e",
+          "sport": "tennis",
+          "competition": "Tournoi de Rome 2026 - Finale, WTA",
+          "title": "Tennis: Tournoi de Rome 2026 - Finale, WTA",
+          "subtitle": "Finale, WTA",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-05-16T17:00:00+02:00",
+          "end": "2026-05-16T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "086a795ddedf",
           "sport": "other",
           "competition": "Championnat du monde",
@@ -5410,6 +4670,746 @@
           },
           "start": "2026-05-16T17:30:00+02:00",
           "end": "2026-05-16T17:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe38ccdf8600",
+          "sport": "football",
+          "competition": "Arkema Première Ligue - Playoffs",
+          "title": "Lyon / FC Nantes",
+          "subtitle": "Arkema Première Ligue - Playoffs...",
+          "description": "Les joueuses de l'OL Lyonnes sont favorites dans cette demi-finale d'Arkema Première Ligue contre les filles du FC Nantes.",
+          "team1": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Nantes",
+            "type": "club",
+            "short": "Nantes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-16T17:55:00+02:00",
+          "end": "2026-05-16T20:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "af4022decbdf",
+          "sport": "other",
+          "competition": null,
+          "title": "1re demi-finale dames",
+          "subtitle": "Buenos Aires P1",
+          "description": "L'Argentine est l'un des pays majeurs du padel et ce tournoi de Buenos Aires P1 se déroule dans la salle de l'Estadio Parque Roca dans la capitale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:00:00+02:00",
+          "end": "2026-05-16T19:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d91d16e2f993",
+          "sport": "handball",
+          "competition": "Ligue européenne féminine",
+          "title": "Handball : Ligue européenne féminine",
+          "subtitle": "Dijon / Esztergomi. Coupe EHF féminine. Demi-finale.",
+          "description": "Coupe EHF féminine. Demi-finale. Dijon / Esztergomi.",
+          "team1": {
+            "name": "Dijon",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Esztergomi",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:00:00+02:00",
+          "end": "2026-05-16T19:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ad6c654e39a9",
+          "sport": "tennis",
+          "competition": "International BNL d'Italie 2026 - Demi-finale 1, ATP",
+          "title": "Tennis: International BNL d'Italie 2026 - Demi-finale 1, ATP",
+          "subtitle": "Demi-finale 1, ATP",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDSInfo.ca",
+            "name": "RDS Info",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s39080_h15_ab.png",
+            "slug": "rds-info",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:00:00+02:00",
+          "end": "2026-05-16T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "18d3984f8ea1",
+          "sport": "basket",
+          "competition": null,
+          "title": "Okapi Aalst - Kangoeroes Basket Mechelen",
+          "subtitle": null,
+          "description": "Quart de finale des play-offs du BNXT Basketball League - Game 1  : Crelan Okapi Aalst - Kangoeroes Basket Mechelen.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:10:00+02:00",
+          "end": "2026-05-16T20:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8ba9b5eddbc4",
+          "sport": "other",
+          "competition": "Montauban / Stade Français Paris",
+          "title": "Terminé : Montauban / Stade Français Paris",
+          "subtitle": "Mag. Sport",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusLive6.fr",
+            "name": "Canal+ Live 6",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1140/canal-ouah/CHN43FB/CHN43FB_1140_20240910-9Csx?=.png",
+            "slug": "canal-live-6",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:25:00+02:00",
+          "end": "2026-05-16T19:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a0fcfba2e5ff",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Almeria / Las Palmas",
+          "subtitle": "Liga 2 - 40e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Almeria",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Las Palmas",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:25:00+02:00",
+          "end": "2026-05-16T19:17:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ca365482c9d8",
+          "sport": "basket",
+          "competition": null,
+          "title": "Fribourg Olympic - Lions de Genève",
+          "subtitle": "Championnat de Suisse - Finale -...",
+          "description": "En direct de Fribourg",
+          "team1": {
+            "name": "Championnat de Suisse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Finale -...",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:40:00+02:00",
+          "end": "2026-05-16T19:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d713cec5fa95",
+          "sport": "motogp",
+          "competition": "Grand Prix de Catalogne",
+          "title": "Moto 3 : Grand Prix de Catalogne",
+          "subtitle": "Motocyclisme",
+          "description": "Retransmission du Grand Prix de Catalogne, une des étapes espagnoles du championnat de la catégorie de Moto3. Le circuit barcelonais a été créé en 1996 et accueille des courses de divers championnats, notamment celle de la prestigieuse catégorie des motoGP. Le circuit a une longueur de 4,267 km et comporte une ligne droite d'un kilomètre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:45:00+02:00",
+          "end": "2026-05-16T19:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "885d81d60ac1",
+          "sport": "basket",
+          "competition": "Betclic Elite",
+          "title": "Basket-ball : Betclic Elite",
+          "subtitle": null,
+          "description": "Deux chocs qui pourraient modifier le classement avant les play-offs sont au menu de ce multiplex de la dernière journée d'Elite : Monaco accueille Paris tandis que Villeurbanne reçoit Strasbourg.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LEquipe21.fr",
+            "name": "La chaine l’Équipe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
+            "slug": "la-chaine-l-quipe",
+            "is_free": false
+          },
+          "start": "2026-05-16T18:56:00+02:00",
+          "end": "2026-05-16T21:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3dc14d42c1fa",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Blue Jays de Toronto c. Tigers de Détroit",
+          "subtitle": "Blue Jays de Toronto c. Tigers de Détroit",
+          "description": "Les Blue Jays se rendent chez les Tigers pour le deuxième match d'une série de saison régulière au Comerica Park.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:00:00+02:00",
+          "end": "2026-05-16T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f5a7a631edc6",
+          "sport": "other",
+          "competition": null,
+          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
+          "subtitle": "Doc. Sport",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:02:00+02:00",
+          "end": "2026-05-16T19:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c4e86749a16e",
+          "sport": "other",
+          "competition": null,
+          "title": "Grand Format Sport",
+          "subtitle": "Villarreal - Seville",
+          "description": ".",
+          "team1": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Seville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:17:00+02:00",
+          "end": "2026-05-16T20:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "416d11832d91",
+          "sport": "motogp",
+          "competition": "Grand Prix de Catalogne",
+          "title": "Moto 2 : Grand Prix de Catalogne",
+          "subtitle": "Motocyclisme",
+          "description": "Retransmission du Grand Prix de Catalogne, une des étapes espagnoles du championnat de la catégorie de Moto2. Le circuit barcelonais a été créé en 1996 et accueille des courses de divers championnats, notamment celle de la prestigieuse catégorie des MotoGP. Le circuit a une longueur de 4,267 km et comporte une ligne droite d'un kilomètre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:20:00+02:00",
+          "end": "2026-05-16T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "427ed89398c9",
+          "sport": "other",
+          "competition": null,
+          "title": "Italie - Canada",
+          "subtitle": "Championnat du monde - Groupe B",
+          "description": "En différé de Fribourg",
+          "team1": {
+            "name": "Championnat du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Groupe B",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:35:00+02:00",
+          "end": "2026-05-16T20:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a96c18312f6f",
+          "sport": "rugby",
+          "competition": null,
+          "title": "Canal Rugby Club - 1re édition",
+          "subtitle": null,
+          "description": "Le Canal Rugby Club met à l'honneur le Top 14, des reportages \"inside\" et des interviews de personnalités du rugby afin de décrypter les enjeux et résultats de chaque journée.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlus.fr",
+            "name": "Canal+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~897223a57e2e8ae5.png/480x480/quality/100/canal.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:40:00+02:00",
+          "end": "2026-05-16T20:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3bffc6be7b76",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Rome",
+          "title": "Tennis : Masters 1000 de Rome",
+          "subtitle": "Masters 1000 de Rome. Demi-finale.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:45:00+02:00",
+          "end": "2026-05-16T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "06b92b81d276",
+          "sport": "football",
+          "competition": "Coupe intercontinentale de la FIFA",
+          "title": "Football : Coupe intercontinentale de la FIFA | Real Madrid / Pachuca",
+          "subtitle": null,
+          "description": "Retransmission d'une rencontre de la Coupe intercontinentale de la FIFA.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Pachuca",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:45:00+02:00",
+          "end": "2026-05-16T21:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "861e2c909257",
+          "sport": "football",
+          "competition": "Coupe de la Confédération de la",
+          "title": "Zamalek / USM Alger",
+          "subtitle": "Coupe de la Confédération de la ...",
+          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
+          "team1": {
+            "name": "Zamalek",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "USM Alger",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:55:00+02:00",
+          "end": "2026-05-16T20:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aacb11dfeb08",
+          "sport": "other",
+          "competition": null,
+          "title": "2e demi-finale dames",
+          "subtitle": "Buenos Aires P1",
+          "description": "Après Asuncion, le circuit Premier Padel prolonge son escale sud-américaine avec le Buenos Aires P1. Dans un pays où la discipline suscite une ferveur particulière, les meilleures paires mondiales retrouvent une scène exigeante. Entre favorites attendues, outsiders ambitieuses et possibles surprises, la lutte pour le titre promet d'être acharnée.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-05-16T19:59:00+02:00",
+          "end": "2026-05-16T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1b4ecdda2f56",
+          "sport": "football",
+          "competition": null,
+          "title": "Soir de Première Ligue",
+          "subtitle": "Demi-finale",
+          "description": "Les dernières informations du terrain et les compositions des équipes qui se défient en Arkema Première Ligue, le championnat de France féminin de football.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-16T20:01:00+02:00",
+          "end": "2026-05-16T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5b66dc6c44c7",
+          "sport": "volleyball",
+          "competition": "Ligue des champions",
+          "title": "Volley-ball : Ligue des champions",
+          "subtitle": null,
+          "description": "Suivez les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de volley-ball organisée par la CEV. Fondée en 1959, elle est organisée tous les ans et réunit les vingt meilleures équipes d'Europe qui sont réparties en cinq groupes. Les huit meilleures équipes s'affrontent ensuite pour le titre suprême de champion du vieux continent.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTSMAX10.fr",
+            "name": "beIN SPORTS MAX 10",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~57cc7cfcf4f15450.png/480x480/quality/100/bein-sports-max-10.png",
+            "slug": "bein-sports-max-10",
+            "is_free": false
+          },
+          "start": "2026-05-16T20:25:00+02:00",
+          "end": "2026-05-16T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3b303a2b5cee",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Racing 92 / Toulon",
+          "subtitle": "Top 14 - 24e journée",
+          "description": "Cette rencontre entre le Racing 92 et le RC Toulon va sans doute être disputée dans cette fin de saison. Les deux formations cherchent à se qualifier pour les barrages à venir.",
+          "team1": {
+            "name": "Racing 92",
+            "type": "club",
+            "short": "Racing 92",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2576.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Toulon",
+            "type": "club",
+            "short": "Toulon",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2583.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusLive1.fr",
+            "name": "Canal+ Live 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-05-16T20:43:00+02:00",
+          "end": "2026-05-16T22:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4cbcb294d4d1",
+          "sport": "other",
+          "competition": null,
+          "title": "Grand Format Sport",
+          "subtitle": "Bayern - Cologne",
+          "description": ".",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cologne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-16T20:52:00+02:00",
+          "end": "2026-05-16T22:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6e3835ed6c28",
+          "sport": "cyclisme",
+          "competition": "Tour de Hongrie",
+          "title": "Cyclisme : Tour de Hongrie",
+          "subtitle": "Mohacs - Pécs (188,2 km). Tour de Hongrie. 4e étape.",
+          "description": "Tour de Hongrie. 4e étape. Mohacs - Pécs (188,2 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-16T21:00:00+02:00",
+          "end": "2026-05-16T22:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
