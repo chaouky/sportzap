@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-16T02:37:43.144104+00:00",
+    "generated_at": "2026-05-16T06:19:35.094227+00:00",
     "total_events": 987,
     "total_days": 7,
     "sports": [
@@ -23,13 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -38,8 +33,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -48,43 +43,18 @@
         "is_free": false
       },
       {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "srf-info",
-        "name": "SRF info",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-talk-sport",
-        "name": "RMC Talk Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -95,6 +65,11 @@
       {
         "slug": "eurosport-2",
         "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
         "is_free": false
       },
       {
@@ -218,6 +193,11 @@
         "is_free": false
       },
       {
+        "slug": "srf-info",
+        "name": "SRF info",
+        "is_free": false
+      },
+      {
         "slug": "rts-2",
         "name": "RTS 2",
         "is_free": false
@@ -248,8 +228,28 @@
         "is_free": false
       },
       {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
         "slug": "bein-sports-max-10",
         "name": "beIN SPORTS MAX 10",
+        "is_free": false
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-talk-sport",
+        "name": "RMC Talk Sport",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
         "is_free": false
       },
       {
@@ -565,326 +565,6 @@
       "event_count": 159,
       "events": [
         {
-          "id": "5faea99ed154",
-          "sport": "golf",
-          "competition": null,
-          "title": "2e tour. 2e partie -  LET Amundi German Masters",
-          "subtitle": "LET Amundi German Masters",
-          "description": "A Hambourg, sur le parcours du Green Eagle Golf Courses, ce tournoi de golf fait partie du Ladies European Tour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-05-16T01:02:00+02:00",
-          "end": "2026-05-16T07:04:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6d7406b07146",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Nottingham Forest / Newcastle",
-          "subtitle": "Premier League - 36e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-16T03:06:00+02:00",
-          "end": "2026-05-16T04:51:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0ae8a47a1a56",
-          "sport": "other",
-          "competition": "Open du Pays de Galles",
-          "title": "Snooker : Open du Pays de Galles",
-          "subtitle": "Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski. Home Nations Series.",
-          "description": "Home Nations Series. Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski.",
-          "team1": {
-            "name": "Open du Pays de Galles",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Jack Lisowski",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-16T03:30:00+02:00",
-          "end": "2026-05-16T05:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b94951c02608",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Brest / Strasbourg",
-          "subtitle": "Ligue 1 McDonald's - 29e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Stade Brestois",
-            "type": "club",
-            "short": "Brest",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-16T03:42:00+02:00",
-          "end": "2026-05-16T05:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2a4deff607ec",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Demi-finale N°2",
-          "subtitle": "Masters 1000 de Rome",
-          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-16T03:52:00+02:00",
-          "end": "2026-05-16T05:48:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e262d188b7c4",
-          "sport": "tennis",
-          "competition": "International BNL d'Italie 2026 - Demi-finale 2, ATP",
-          "title": "Tennis: International BNL d'Italie 2026 - Demi-finale 2, ATP",
-          "subtitle": "Demi-finale 2, ATP",
-          "description": "En provenance du Foco Italico, à Rome.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-05-16T04:00:00+02:00",
-          "end": "2026-05-16T06:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ae05cb197ea5",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Real Oviedo",
-          "subtitle": "Liga - 36e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Oviedo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-16T04:20:00+02:00",
-          "end": "2026-05-16T06:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3d843bbf75e3",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-16T05:00:00+02:00",
-          "end": "2026-05-16T05:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b749bef571c4",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 7e étape . Formia - Blockhaus (244 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 7e étape . Formia - Blockhaus (244 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-16T05:30:00+02:00",
-          "end": "2026-05-16T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8b429390ca00",
-          "sport": "other",
-          "competition": null,
-          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-05-16T05:46:51+02:00",
-          "end": "2026-05-16T05:57:20+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6ce937ddeb8f",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-16T06:00:00+02:00",
-          "end": "2026-05-16T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "3c7217f2d7ee",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -916,69 +596,7 @@
           },
           "start": "2026-05-16T06:30:00+02:00",
           "end": "2026-05-16T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0fc67248909b",
-          "sport": "other",
-          "competition": null,
-          "title": "After Coupe du monde",
-          "subtitle": "Cap-Vert",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RMCTalkSport.fr",
-            "name": "RMC Talk Sport",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCTALKSPORTmono.png",
-            "slug": "rmc-talk-sport",
-            "is_free": false
-          },
-          "start": "2026-05-16T06:30:00+02:00",
-          "end": "2026-05-16T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "69b797c8578b",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Liverpool",
-          "subtitle": "Premier League - 37e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-16T06:59:00+02:00",
-          "end": "2026-05-16T07:08:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1016,31 +634,7 @@
           },
           "start": "2026-05-16T07:00:00+02:00",
           "end": "2026-05-16T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5cdfbfd984a6",
-          "sport": "golf",
-          "competition": "HotelPlanner Tour, Open d'Italie",
-          "title": "Golf : HotelPlanner Tour, Open d'Italie",
-          "subtitle": "Golf",
-          "description": "Diffusion de l'Open d'Italie, un tournoi du Challenge Tour de golf. Disputé pour la première fois en 2007, ce tournoi a lieu au Margara Golf Club de Fubine, et se déroule dans le cadre du Challenge Tour, l'équivalent de la deuxième division de golf. Les concurrents auront tous pour objectif de remporter la victoire et ainsi tenter de grimper sur le PGA Tour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-05-16T07:04:00+02:00",
-          "end": "2026-05-16T07:29:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1078,7 +672,7 @@
           },
           "start": "2026-05-16T07:08:00+02:00",
           "end": "2026-05-16T08:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1102,31 +696,7 @@
           },
           "start": "2026-05-16T07:18:00+02:00",
           "end": "2026-05-16T09:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d203fd2ff957",
-          "sport": "other",
-          "competition": null,
-          "title": "Gyalu-ri, récit d'une jeunesse",
-          "subtitle": null,
-          "description": "Trois jeunes skieurs affrontent la face nord du Nun-Kun dans l'Himalaya indien. Sur cette pente vertigineuse, leur rêve se heurte à la dure réalité de l'alpinisme.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-05-16T07:19:00+02:00",
-          "end": "2026-05-16T08:11:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1164,7 +734,7 @@
           },
           "start": "2026-05-16T07:30:00+02:00",
           "end": "2026-05-16T08:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1202,7 +772,7 @@
           },
           "start": "2026-05-16T07:32:00+02:00",
           "end": "2026-05-16T09:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1240,7 +810,7 @@
           },
           "start": "2026-05-16T07:48:00+02:00",
           "end": "2026-05-16T09:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1264,7 +834,7 @@
           },
           "start": "2026-05-16T08:00:00+02:00",
           "end": "2026-05-16T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5159,6 +4729,30 @@
           "result": null
         },
         {
+          "id": "5faea99ed154",
+          "sport": "golf",
+          "competition": null,
+          "title": "2e tour. 2e partie -  LET Amundi German Masters",
+          "subtitle": "LET Amundi German Masters",
+          "description": "A Hambourg, sur le parcours du Green Eagle Golf Courses, ce tournoi de golf fait partie du Ladies European Tour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-05-16T01:02:00+02:00",
+          "end": "2026-05-16T07:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f287e6d9b0ef",
           "sport": "other",
           "competition": null,
@@ -5393,6 +4987,44 @@
           "result": null
         },
         {
+          "id": "6d7406b07146",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Nottingham Forest / Newcastle",
+          "subtitle": "Premier League - 36e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-16T03:06:00+02:00",
+          "end": "2026-05-16T04:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "a8a0699c69a9",
           "sport": "other",
           "competition": null,
@@ -5410,6 +5042,374 @@
           },
           "start": "2026-05-16T03:20:00+02:00",
           "end": "2026-05-16T03:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0ae8a47a1a56",
+          "sport": "other",
+          "competition": "Open du Pays de Galles",
+          "title": "Snooker : Open du Pays de Galles",
+          "subtitle": "Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski. Home Nations Series.",
+          "description": "Home Nations Series. Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski.",
+          "team1": {
+            "name": "Open du Pays de Galles",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Jack Lisowski",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-16T03:30:00+02:00",
+          "end": "2026-05-16T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b94951c02608",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Brest / Strasbourg",
+          "subtitle": "Ligue 1 McDonald's - 29e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-16T03:42:00+02:00",
+          "end": "2026-05-16T05:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2a4deff607ec",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Demi-finale N°2",
+          "subtitle": "Masters 1000 de Rome",
+          "description": "Rendez-vous depuis le Foro Italico de Rome pour suivre un des plus prestigieux tournois de tennis professionnel sur terre battue. Classé 1000 sur le circuit ATP depuis 2009, le Masters romain se dispute traditionnellement à la mi-mai et sert de solide préparation au Grand Chelem de Roland-Garros qui se déroule peu après.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-16T03:52:00+02:00",
+          "end": "2026-05-16T05:48:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e262d188b7c4",
+          "sport": "tennis",
+          "competition": "International BNL d'Italie 2026 - Demi-finale 2, ATP",
+          "title": "Tennis: International BNL d'Italie 2026 - Demi-finale 2, ATP",
+          "subtitle": "Demi-finale 2, ATP",
+          "description": "En provenance du Foco Italico, à Rome.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-05-16T04:00:00+02:00",
+          "end": "2026-05-16T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ae05cb197ea5",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Real Oviedo",
+          "subtitle": "Liga - 36e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Oviedo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-16T04:20:00+02:00",
+          "end": "2026-05-16T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3d843bbf75e3",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-16T05:00:00+02:00",
+          "end": "2026-05-16T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b749bef571c4",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 7e étape . Formia - Blockhaus (244 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 7e étape . Formia - Blockhaus (244 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-16T05:30:00+02:00",
+          "end": "2026-05-16T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8b429390ca00",
+          "sport": "other",
+          "competition": null,
+          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-05-16T05:46:51+02:00",
+          "end": "2026-05-16T05:57:20+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6ce937ddeb8f",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-16T06:00:00+02:00",
+          "end": "2026-05-16T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0fc67248909b",
+          "sport": "other",
+          "competition": null,
+          "title": "After Coupe du monde",
+          "subtitle": "Cap-Vert",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RMCTalkSport.fr",
+            "name": "RMC Talk Sport",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCTALKSPORTmono.png",
+            "slug": "rmc-talk-sport",
+            "is_free": false
+          },
+          "start": "2026-05-16T06:30:00+02:00",
+          "end": "2026-05-16T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "69b797c8578b",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Liverpool",
+          "subtitle": "Premier League - 37e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-16T06:59:00+02:00",
+          "end": "2026-05-16T07:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5cdfbfd984a6",
+          "sport": "golf",
+          "competition": "HotelPlanner Tour, Open d'Italie",
+          "title": "Golf : HotelPlanner Tour, Open d'Italie",
+          "subtitle": "Golf",
+          "description": "Diffusion de l'Open d'Italie, un tournoi du Challenge Tour de golf. Disputé pour la première fois en 2007, ce tournoi a lieu au Margara Golf Club de Fubine, et se déroule dans le cadre du Challenge Tour, l'équivalent de la deuxième division de golf. Les concurrents auront tous pour objectif de remporter la victoire et ainsi tenter de grimper sur le PGA Tour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-05-16T07:04:00+02:00",
+          "end": "2026-05-16T07:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d203fd2ff957",
+          "sport": "other",
+          "competition": null,
+          "title": "Gyalu-ri, récit d'une jeunesse",
+          "subtitle": null,
+          "description": "Trois jeunes skieurs affrontent la face nord du Nun-Kun dans l'Himalaya indien. Sur cette pente vertigineuse, leur rêve se heurte à la dure réalité de l'alpinisme.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-05-16T07:19:00+02:00",
+          "end": "2026-05-16T08:11:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
