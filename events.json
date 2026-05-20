@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-20T10:48:00.026763+00:00",
+    "generated_at": "2026-05-20T14:55:45.392851+00:00",
     "total_events": 975,
     "total_days": 7,
     "sports": [
@@ -22,78 +22,13 @@
     ],
     "channels": [
       {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
         "slug": "eurosport-1",
         "name": "Eurosport 1",
         "is_free": false
       },
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
         "slug": "rds2",
         "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "srf-zwei",
-        "name": "SRF zwei",
         "is_free": false
       },
       {
@@ -102,13 +37,23 @@
         "is_free": false
       },
       {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
@@ -117,8 +62,33 @@
         "is_free": false
       },
       {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "rts-2",
         "name": "RTS 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
         "is_free": false
       },
       {
@@ -127,13 +97,28 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "reunion-1-re",
         "name": "Reunion 1ère",
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "pro7",
         "name": "PRO7",
+        "is_free": false
+      },
+      {
+        "slug": "srf-zwei",
+        "name": "SRF zwei",
         "is_free": false
       },
       {
@@ -177,8 +162,18 @@
         "is_free": false
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
@@ -199,6 +194,11 @@
       {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
+        "is_free": false
+      },
+      {
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
         "is_free": false
       },
       {
@@ -569,254 +569,6 @@
       "event_count": 144,
       "events": [
         {
-          "id": "289ef285e097",
-          "sport": "equitation",
-          "competition": null,
-          "title": "Championnat Pro Elite - Finale",
-          "subtitle": "Le Printemps des Sports Equestre...",
-          "description": "Une plongée au coeur de l'un des plus grands événements équestres français qui propose une couverture des compétitions de saut d'obstacles, de dressage et de concours complet.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-05-20T08:49:00+02:00",
-          "end": "2026-05-20T12:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "726133fce71b",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Nottingham Forest",
-          "subtitle": "Premier League - 37e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-20T11:19:00+02:00",
-          "end": "2026-05-20T13:02:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8ebf545c72c0",
-          "sport": "football",
-          "competition": null,
-          "title": "Atlético Madrid - Tottenham",
-          "subtitle": null,
-          "description": "Match aller des huitièmes de finale de l'UEFA Champions League : Atlético Madrid - Tottenham.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-20T11:40:00+02:00",
-          "end": "2026-05-20T13:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "51cb27e7a858",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Burnley",
-          "subtitle": "Premier League - 37e journée",
-          "description": "Alors qu'ils avaient creusé l'écart en tête du classement, les Gunners d'Arsenal ont vu revenir sur eux Manchester City. Désormais, les hommes de Mikel Arteta n'ont plus droit à l'erreur et à l'occasion de cette avant-dernière journée de championnat, comptent bien empocher la victoire face à Burnley.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Burnley",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-20T11:41:00+02:00",
-          "end": "2026-05-20T13:27:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2b05302e292b",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Paris FC / Paris-SG",
-          "subtitle": null,
-          "description": "Match de la 34ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS FC et PARIS SG.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-05-20T12:00:00+02:00",
-          "end": "2026-05-20T13:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cbc35dad2525",
-          "sport": "other",
-          "competition": null,
-          "title": "Fierté Burkinabè - Edmond Tapsoba",
-          "subtitle": "Edmond Tapsoba fierté Burkinabé",
-          "description": ".",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-20T12:05:00+02:00",
-          "end": "2026-05-20T12:49:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b8b7f50e2842",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-20T12:15:00+02:00",
-          "end": "2026-05-20T13:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1ce90a12a0f8",
-          "sport": "football",
-          "competition": "Ligue des champions de la CAF",
-          "title": "Mamelodi Sundowns / FAR de Rabat",
-          "subtitle": "Ligue des champions de la CAF - ...",
-          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
-          "team1": {
-            "name": "Mamelodi Sundowns",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FAR de Rabat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-20T12:29:00+02:00",
-          "end": "2026-05-20T14:11:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "020ace8b0466",
           "sport": "cyclisme",
           "competition": "Tour d'Italie",
@@ -841,258 +593,6 @@
           "result": null
         },
         {
-          "id": "fd9c858d7bbf",
-          "sport": "football",
-          "competition": "Ligue Europa - Demi-finale aller",
-          "title": "Nottingham Forest / Aston Villa",
-          "subtitle": "Ligue Europa - Demi-finale aller",
-          "description": "La saison 2025/2026 de Ligue Europa va voir les clubs européens qualifiés tenter de succéder aux Londoniens de Tottenham et rallier la finale du 20 mai 2026 au stade Besiktas d'Istanbul.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-20T12:40:00+02:00",
-          "end": "2026-05-20T15:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "92d0b4fed422",
-          "sport": "football",
-          "competition": "Ligue des champions de la CAF",
-          "title": "Mamelodi Sundowns / FAR de Rabat",
-          "subtitle": "Ligue des champions de la CAF - ...",
-          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
-          "team1": {
-            "name": "Mamelodi Sundowns",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FAR de Rabat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-20T13:45:00+02:00",
-          "end": "2026-05-20T15:26:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9615dd3cb291",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Betis Séville",
-          "subtitle": "Liga - 37e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Betis Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-20T13:56:00+02:00",
-          "end": "2026-05-20T15:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ac0ae3f6ba1d",
-          "sport": "basket",
-          "competition": "NBA - Playoffs. Finale de confér",
-          "title": "New York Knicks / Cleveland Cavaliers",
-          "subtitle": "NBA - Playoffs. Finale de confér...",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "New York Knicks",
-            "type": "club",
-            "short": "Knicks",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cleveland Cavaliers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-20T14:00:00+02:00",
-          "end": "2026-05-20T16:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "743a4dd7d85d",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Lille / Auxerre",
-          "subtitle": null,
-          "description": "Match de la 34ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant LOSC et AJ AUXERRE.",
-          "team1": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AJ Auxerre",
-            "type": "club",
-            "short": "Auxerre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-05-20T14:00:00+02:00",
-          "end": "2026-05-20T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f6f7a932c1a7",
-          "sport": "other",
-          "competition": null,
-          "title": "Moteurs",
-          "subtitle": "24 MX Tour 2026 - Etape 4 - Frotey-lès-Vesoul",
-          "description": "Résumé de la quatrième étape 24 MX Tour à Frotey-lès-Vesoul, au progarmme les manches espoirs, Juniors, MX1 et MX2 !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-20T14:25:00+02:00",
-          "end": "2026-05-20T14:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "952363574281",
-          "sport": "football",
-          "competition": "Ligue Europa - Demi-finale retour",
-          "title": "Fribourg / Sporting Braga",
-          "subtitle": "Ligue Europa - Demi-finale retour",
-          "description": "L'Olympique Lyonnais, le LOSC Lille, l'OGC Nice seront les trois représentants français cette saison pour tenter de succéder à Tottenham, vainqueur de la précédente édition de l'UEFA EUROPA LEAGUE.",
-          "team1": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "SC Braga",
-            "type": "club",
-            "short": "Braga",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/750.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-20T14:30:00+02:00",
-          "end": "2026-05-20T16:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "3e18a0c6fad4",
           "sport": "golf",
           "competition": "Ronde finale",
@@ -1110,79 +610,7 @@
           },
           "start": "2026-05-20T14:30:00+02:00",
           "end": "2026-05-20T18:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "789db798c1a2",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "11e étape . Porcari - Chiavari (195 km)",
-          "subtitle": "Tour d'Italie",
-          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-20T14:30:00+02:00",
-          "end": "2026-05-20T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "24bee3be4f59",
-          "sport": "football",
-          "competition": null,
-          "title": "Fussball - Road to the FIFA WM 2026",
-          "subtitle": "Emission du 20 mai 2026",
-          "description": "Das 12-teilige Magazin der Fifa erzählt den Weg zur WM 2026. Im Fokus stehen die 48 qualifizierten Teams.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-05-20T14:30:00+02:00",
-          "end": "2026-05-20T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4fd0795f41c6",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Rugby : Top 14",
-          "subtitle": "Rugby",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-20T14:39:00+02:00",
-          "end": "2026-05-20T16:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1220,103 +648,7 @@
           },
           "start": "2026-05-20T14:45:00+02:00",
           "end": "2026-05-20T17:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "64d268c8365e",
-          "sport": "other",
-          "competition": null,
-          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
-          "subtitle": "Doc. Sport",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-05-20T14:56:00+02:00",
-          "end": "2026-05-20T15:51:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "03772f0d4b86",
-          "sport": "voile",
-          "competition": null,
-          "title": "New York - Vendée Transatlantic Race",
-          "subtitle": null,
-          "description": "This single-handed yacht race will cross the Northern Atlantic through two symbolic cities: New York and Sables d'Olonne. The departure from the Big Apple represents a cosmopolitan crossroad of influences, as well as the cradle of the IMOCA Class, while the arrival in the Sables d'Olonne means landing in the Old Continent after days or weeks of harsh conditions.After crossing a risky and challenging course straight through the middle of the \"iceberg alley\", the skippers will arrive in the heart of the Vendée Globe considered as the \"Everest of the Sea\". The Transatlantic race is the final event of the IMOCA Globe Series and it allows racers to build their hard racing miles.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-05-20T15:00:00+02:00",
-          "end": "2026-05-20T15:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "afa68b4e4fb2",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "11e étape . Porcari - Chiavari (195 km)",
-          "subtitle": "Tour d'Italie",
-          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-05-20T15:00:00+02:00",
-          "end": "2026-05-20T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4ac555bf8248",
-          "sport": "f1",
-          "competition": "Grand Prix des Bermudes",
-          "title": "Voile : Grand Prix des Bermudes",
-          "subtitle": "Grand Prix des Bermudes. 2e jour.",
-          "description": "Grand Prix des Bermudes. 2e jour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-05-20T15:00:00+02:00",
-          "end": "2026-05-20T16:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1354,7 +686,7 @@
           },
           "start": "2026-05-20T15:10:00+02:00",
           "end": "2026-05-20T17:10:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1392,7 +724,7 @@
           },
           "start": "2026-05-20T15:33:00+02:00",
           "end": "2026-05-20T17:17:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1430,7 +762,7 @@
           },
           "start": "2026-05-20T15:44:00+02:00",
           "end": "2026-05-20T17:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1454,7 +786,7 @@
           },
           "start": "2026-05-20T15:50:00+02:00",
           "end": "2026-05-20T17:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1478,7 +810,7 @@
           },
           "start": "2026-05-20T15:50:00+02:00",
           "end": "2026-05-20T17:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1516,7 +848,7 @@
           },
           "start": "2026-05-20T16:00:00+02:00",
           "end": "2026-05-20T18:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1554,7 +886,7 @@
           },
           "start": "2026-05-20T16:00:00+02:00",
           "end": "2026-05-20T19:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1592,7 +924,7 @@
           },
           "start": "2026-05-20T16:03:00+02:00",
           "end": "2026-05-20T17:43:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1630,7 +962,7 @@
           },
           "start": "2026-05-20T16:05:00+02:00",
           "end": "2026-05-20T18:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1668,7 +1000,7 @@
           },
           "start": "2026-05-20T16:24:00+02:00",
           "end": "2026-05-20T18:06:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1692,7 +1024,7 @@
           },
           "start": "2026-05-20T16:30:00+02:00",
           "end": "2026-05-20T19:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1716,7 +1048,7 @@
           },
           "start": "2026-05-20T16:45:00+02:00",
           "end": "2026-05-20T17:08:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1754,7 +1086,7 @@
           },
           "start": "2026-05-20T16:48:00+02:00",
           "end": "2026-05-20T18:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4779,6 +4111,30 @@
           "result": null
         },
         {
+          "id": "289ef285e097",
+          "sport": "equitation",
+          "competition": null,
+          "title": "Championnat Pro Elite - Finale",
+          "subtitle": "Le Printemps des Sports Equestre...",
+          "description": "Une plongée au coeur de l'un des plus grands événements équestres français qui propose une couverture des compétitions de saut d'obstacles, de dressage et de concours complet.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-05-20T08:49:00+02:00",
+          "end": "2026-05-20T12:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "93f9d7580976",
           "sport": "rugby",
           "competition": "Pro D2",
@@ -5079,6 +4435,144 @@
           "result": null
         },
         {
+          "id": "726133fce71b",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Nottingham Forest",
+          "subtitle": "Premier League - 37e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-20T11:19:00+02:00",
+          "end": "2026-05-20T13:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8ebf545c72c0",
+          "sport": "football",
+          "competition": null,
+          "title": "Atlético Madrid - Tottenham",
+          "subtitle": null,
+          "description": "Match aller des huitièmes de finale de l'UEFA Champions League : Atlético Madrid - Tottenham.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-20T11:40:00+02:00",
+          "end": "2026-05-20T13:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "51cb27e7a858",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Burnley",
+          "subtitle": "Premier League - 37e journée",
+          "description": "Alors qu'ils avaient creusé l'écart en tête du classement, les Gunners d'Arsenal ont vu revenir sur eux Manchester City. Désormais, les hommes de Mikel Arteta n'ont plus droit à l'erreur et à l'occasion de cette avant-dernière journée de championnat, comptent bien empocher la victoire face à Burnley.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Burnley",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-20T11:41:00+02:00",
+          "end": "2026-05-20T13:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2b05302e292b",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Paris FC / Paris-SG",
+          "subtitle": null,
+          "description": "Match de la 34ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS FC et PARIS SG.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-05-20T12:00:00+02:00",
+          "end": "2026-05-20T13:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "88204dd1ab4a",
           "sport": "basket",
           "competition": null,
@@ -5096,6 +4590,512 @@
           },
           "start": "2026-05-20T12:00:00+02:00",
           "end": "2026-05-20T12:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cbc35dad2525",
+          "sport": "other",
+          "competition": null,
+          "title": "Fierté Burkinabè - Edmond Tapsoba",
+          "subtitle": "Edmond Tapsoba fierté Burkinabé",
+          "description": ".",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-20T12:05:00+02:00",
+          "end": "2026-05-20T12:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b8b7f50e2842",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-20T12:15:00+02:00",
+          "end": "2026-05-20T13:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1ce90a12a0f8",
+          "sport": "football",
+          "competition": "Ligue des champions de la CAF",
+          "title": "Mamelodi Sundowns / FAR de Rabat",
+          "subtitle": "Ligue des champions de la CAF - ...",
+          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
+          "team1": {
+            "name": "Mamelodi Sundowns",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FAR de Rabat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-20T12:29:00+02:00",
+          "end": "2026-05-20T14:11:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fd9c858d7bbf",
+          "sport": "football",
+          "competition": "Ligue Europa - Demi-finale aller",
+          "title": "Nottingham Forest / Aston Villa",
+          "subtitle": "Ligue Europa - Demi-finale aller",
+          "description": "La saison 2025/2026 de Ligue Europa va voir les clubs européens qualifiés tenter de succéder aux Londoniens de Tottenham et rallier la finale du 20 mai 2026 au stade Besiktas d'Istanbul.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-20T12:40:00+02:00",
+          "end": "2026-05-20T15:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "92d0b4fed422",
+          "sport": "football",
+          "competition": "Ligue des champions de la CAF",
+          "title": "Mamelodi Sundowns / FAR de Rabat",
+          "subtitle": "Ligue des champions de la CAF - ...",
+          "description": "Découvrez les plus belles affiches de la Ligue des champions de la CAF, la plus fameuse des coupes africaines de clubs. C'est l'équivalent de la ligue des champions européenne pour l'Afrique. Sa première édition s'est déroulée pendant la saison 1964/1965.",
+          "team1": {
+            "name": "Mamelodi Sundowns",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FAR de Rabat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-20T13:45:00+02:00",
+          "end": "2026-05-20T15:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9615dd3cb291",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Betis Séville",
+          "subtitle": "Liga - 37e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Betis Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-20T13:56:00+02:00",
+          "end": "2026-05-20T15:33:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ac0ae3f6ba1d",
+          "sport": "basket",
+          "competition": "NBA - Playoffs. Finale de confér",
+          "title": "New York Knicks / Cleveland Cavaliers",
+          "subtitle": "NBA - Playoffs. Finale de confér...",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "New York Knicks",
+            "type": "club",
+            "short": "Knicks",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cleveland Cavaliers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-20T14:00:00+02:00",
+          "end": "2026-05-20T16:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "743a4dd7d85d",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Lille / Auxerre",
+          "subtitle": null,
+          "description": "Match de la 34ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant LOSC et AJ AUXERRE.",
+          "team1": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AJ Auxerre",
+            "type": "club",
+            "short": "Auxerre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-05-20T14:00:00+02:00",
+          "end": "2026-05-20T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f6f7a932c1a7",
+          "sport": "other",
+          "competition": null,
+          "title": "Moteurs",
+          "subtitle": "24 MX Tour 2026 - Etape 4 - Frotey-lès-Vesoul",
+          "description": "Résumé de la quatrième étape 24 MX Tour à Frotey-lès-Vesoul, au progarmme les manches espoirs, Juniors, MX1 et MX2 !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-20T14:25:00+02:00",
+          "end": "2026-05-20T14:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "952363574281",
+          "sport": "football",
+          "competition": "Ligue Europa - Demi-finale retour",
+          "title": "Fribourg / Sporting Braga",
+          "subtitle": "Ligue Europa - Demi-finale retour",
+          "description": "L'Olympique Lyonnais, le LOSC Lille, l'OGC Nice seront les trois représentants français cette saison pour tenter de succéder à Tottenham, vainqueur de la précédente édition de l'UEFA EUROPA LEAGUE.",
+          "team1": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "SC Braga",
+            "type": "club",
+            "short": "Braga",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/750.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-20T14:30:00+02:00",
+          "end": "2026-05-20T16:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "789db798c1a2",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "11e étape . Porcari - Chiavari (195 km)",
+          "subtitle": "Tour d'Italie",
+          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-20T14:30:00+02:00",
+          "end": "2026-05-20T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "24bee3be4f59",
+          "sport": "football",
+          "competition": null,
+          "title": "Fussball - Road to the FIFA WM 2026",
+          "subtitle": "Emission du 20 mai 2026",
+          "description": "Das 12-teilige Magazin der Fifa erzählt den Weg zur WM 2026. Im Fokus stehen die 48 qualifizierten Teams.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-05-20T14:30:00+02:00",
+          "end": "2026-05-20T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4fd0795f41c6",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Rugby : Top 14",
+          "subtitle": "Rugby",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-20T14:39:00+02:00",
+          "end": "2026-05-20T16:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "64d268c8365e",
+          "sport": "other",
+          "competition": null,
+          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
+          "subtitle": "Doc. Sport",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-05-20T14:56:00+02:00",
+          "end": "2026-05-20T15:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "03772f0d4b86",
+          "sport": "voile",
+          "competition": null,
+          "title": "New York - Vendée Transatlantic Race",
+          "subtitle": null,
+          "description": "This single-handed yacht race will cross the Northern Atlantic through two symbolic cities: New York and Sables d'Olonne. The departure from the Big Apple represents a cosmopolitan crossroad of influences, as well as the cradle of the IMOCA Class, while the arrival in the Sables d'Olonne means landing in the Old Continent after days or weeks of harsh conditions.After crossing a risky and challenging course straight through the middle of the \"iceberg alley\", the skippers will arrive in the heart of the Vendée Globe considered as the \"Everest of the Sea\". The Transatlantic race is the final event of the IMOCA Globe Series and it allows racers to build their hard racing miles.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-05-20T15:00:00+02:00",
+          "end": "2026-05-20T15:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "afa68b4e4fb2",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "11e étape . Porcari - Chiavari (195 km)",
+          "subtitle": "Tour d'Italie",
+          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-05-20T15:00:00+02:00",
+          "end": "2026-05-20T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4ac555bf8248",
+          "sport": "f1",
+          "competition": "Grand Prix des Bermudes",
+          "title": "Voile : Grand Prix des Bermudes",
+          "subtitle": "Grand Prix des Bermudes. 2e jour.",
+          "description": "Grand Prix des Bermudes. 2e jour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-05-20T15:00:00+02:00",
+          "end": "2026-05-20T16:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
