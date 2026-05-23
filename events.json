@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-23T06:31:48.557340+00:00",
+    "generated_at": "2026-05-23T09:48:49.314169+00:00",
     "total_events": 1128,
     "total_days": 7,
     "sports": [
@@ -21,13 +21,28 @@
     ],
     "channels": [
       {
+        "slug": "eurosport-360-8",
+        "name": "Eurosport 360 - 8",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -46,51 +61,6 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "eurosport-360-8",
-        "name": "Eurosport 360 - 8",
-        "is_free": false
-      },
-      {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "tv5mondemaghreborient-fr",
-        "name": "TV5MondeMaghrebOrient.fr",
-        "is_free": false
-      },
-      {
         "slug": "infosportplus",
         "name": "InfosportPlus",
         "is_free": false
@@ -101,8 +71,18 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "la-chaine-l-quipe",
         "name": "La chaine l’Équipe",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
@@ -138,6 +118,11 @@
       {
         "slug": "automoto-la-chaine",
         "name": "Automoto la chaine",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -198,6 +183,11 @@
       {
         "slug": "tv5mondeameriquelatine-fr",
         "name": "TV5MondeAmeriqueLatine.fr",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
         "is_free": false
       },
       {
@@ -271,6 +261,11 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
         "slug": "tv5-monde",
         "name": "TV5 Monde",
         "is_free": false
@@ -308,6 +303,11 @@
       {
         "slug": "my-zen-tv",
         "name": "My Zen TV",
+        "is_free": false
+      },
+      {
+        "slug": "tv5mondemaghreborient-fr",
+        "name": "TV5MondeMaghrebOrient.fr",
         "is_free": false
       },
       {
@@ -558,464 +558,6 @@
       "event_count": 178,
       "events": [
         {
-          "id": "f2463eefbc1a",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Newcastle / West Ham",
-          "subtitle": "Premier League - 37e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-23T06:53:00+02:00",
-          "end": "2026-05-23T08:38:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6993719ef664",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Nottingham Forest",
-          "subtitle": "Premier League - 37e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:36:00+02:00",
-          "end": "2026-05-23T09:22:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9c0d48439772",
-          "sport": "f1",
-          "competition": "Grand Prix du Canada",
-          "title": "Formule 1 : Grand Prix du Canada",
-          "subtitle": null,
-          "description": "Quel pilote s'imposera sur le Circuit Gilles-Villeneuve de Montréal ? Disputée au Canada, cette manche du championnat du monde de Formule 1 se déroule sur un circuit rapide et spectaculaire, de 4361 mètres, où les dépassements sont très difficiles.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:43:00+02:00",
-          "end": "2026-05-23T09:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a6c55363dbd5",
-          "sport": "football",
-          "competition": null,
-          "title": "Bayern Munich - Real Madrid",
-          "subtitle": null,
-          "description": "Match retour des quarts de finale de l'UEFA Champions League : Bayern Munich - Real Madrid.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:55:00+02:00",
-          "end": "2026-05-23T09:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b3e7e5f55a1a",
-          "sport": "football",
-          "competition": null,
-          "title": "Bayern München - Real Madrid",
-          "subtitle": null,
-          "description": "Terugwedstrijd van de kwartfinales in de UEFA Champions League: Bayern München - Real Madrid.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:55:00+02:00",
-          "end": "2026-05-23T09:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "36893d329f0c",
-          "sport": "basket",
-          "competition": "NBA - Playoffs. Finale de confér",
-          "title": "San Antonio Spurs / Oklahoma City Thunder",
-          "subtitle": "NBA - Playoffs. Finale de confér...",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Oklahoma City Thunder",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:59:00+02:00",
-          "end": "2026-05-23T10:03:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "53561486eda6",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 13e étape . Alessandria - Verbania (189 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 13e étape . Alessandria - Verbania (189 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-23T08:30:00+02:00",
-          "end": "2026-05-23T09:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b2fbee25ca98",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Burnley",
-          "subtitle": "Premier League - 37e journée",
-          "description": "Alors qu'ils avaient creusé l'écart en tête du classement, les Gunners d'Arsenal ont vu revenir sur eux Manchester City. Désormais, les hommes de Mikel Arteta n'ont plus droit à l'erreur et à l'occasion de cette avant-dernière journée de championnat, comptent bien empocher la victoire face à Burnley.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Burnley",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-23T08:38:00+02:00",
-          "end": "2026-05-23T10:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "94591f421d2b",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific",
-          "title": "Hurricanes / Highlanders",
-          "subtitle": "Super Rugby Pacific - 15e journée",
-          "description": "Pour cette avant-dernière journée de la saison régulière, les Hurricanes reçoivent les Highlanders avec l'ambition de finir en tête du classement. Au match aller, Brad Shields et ses coéquipiers n'avaient laissé aucune chance à leurs adversaires s'imposant sur un score fleuve (7-50). Toujours à la lutte avec les Blues d'Auckland dans le haut du tableau, les hommes de Clark Laidlaw comptent bien rééditer leur performance mais cette fois, à domicile.",
-          "team1": {
-            "name": "Hurricanes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Highlanders",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-23T09:00:00+02:00",
-          "end": "2026-05-23T11:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6748e6c49fe6",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "Course messieurs. Coupe du monde de cross-country. 1re manche.",
-          "description": "Coupe du monde de cross-country. 1re manche. Course messieurs. A Yongpyong (Corée du Sud).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-23T09:15:00+02:00",
-          "end": "2026-05-23T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "86a8f6e12d31",
-          "sport": "other",
-          "competition": null,
-          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-05-23T09:19:46+02:00",
-          "end": "2026-05-23T09:28:28+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "905c58325d4e",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Liverpool",
-          "subtitle": "Premier League - 37e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-23T09:22:00+02:00",
-          "end": "2026-05-23T11:07:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bb28db714432",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Demi-finale",
-          "subtitle": "Tournoi ATP de Hambourg",
-          "description": "Retransmission d'un match de tennis du tournoi ATP d'Hambourg. Egalement appelé Hambourg European Open, ce tournoi fait partie de la catégorie 500 sur le circuit ATP et se joue en extérieur sur terre battue en Allemagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-23T09:30:00+02:00",
-          "end": "2026-05-23T11:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "649dcd580bbe",
-          "sport": "other",
-          "competition": null,
-          "title": "Moteurs",
-          "subtitle": "24 MX Tour 2026 - Etape 4 - Frotey-lès-Vesoul",
-          "description": "Résumé de la quatrième étape 24 MX Tour à Frotey-lès-Vesoul, au progarmme les manches espoirs, Juniors, MX1 et MX2 !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-23T09:30:00+02:00",
-          "end": "2026-05-23T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "38b71a1eb0c0",
-          "sport": "basket",
-          "competition": "Africa League - Quart de finale",
-          "title": "AS Ville / Al Ahly",
-          "subtitle": "Africa League - Quart de finale....",
-          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
-          "team1": {
-            "name": "AS Ville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Al Ahly",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-23T09:46:00+02:00",
-          "end": "2026-05-23T11:28:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "2d9272cf038b",
           "sport": "other",
           "competition": "Coupe du monde",
@@ -1033,7 +575,7 @@
           },
           "start": "2026-05-23T10:00:00+02:00",
           "end": "2026-05-23T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1071,31 +613,7 @@
           },
           "start": "2026-05-23T10:03:00+02:00",
           "end": "2026-05-23T12:07:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c338bfce5c55",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-05-23T10:15:00+02:00",
-          "end": "2026-05-23T11:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1133,7 +651,7 @@
           },
           "start": "2026-05-23T10:25:00+02:00",
           "end": "2026-05-23T12:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1157,31 +675,7 @@
           },
           "start": "2026-05-23T10:25:00+02:00",
           "end": "2026-05-23T12:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "79d399726f28",
-          "sport": "other",
-          "competition": null,
-          "title": "Ligue 1 McDonald's - Face au jeu",
-          "subtitle": "Le une-deux, simplement efficace",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeMaghrebOrient.fr",
-            "name": "TV5MondeMaghrebOrient.fr",
-            "icon_url": null,
-            "slug": "tv5mondemaghreborient-fr",
-            "is_free": false
-          },
-          "start": "2026-05-23T10:38:42+02:00",
-          "end": "2026-05-23T10:50:33+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1205,7 +699,7 @@
           },
           "start": "2026-05-23T11:00:00+02:00",
           "end": "2026-05-23T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1243,7 +737,7 @@
           },
           "start": "2026-05-23T11:02:00+02:00",
           "end": "2026-05-23T12:37:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1267,7 +761,7 @@
           },
           "start": "2026-05-23T11:45:00+02:00",
           "end": "2026-05-23T13:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1291,7 +785,7 @@
           },
           "start": "2026-05-23T11:45:00+02:00",
           "end": "2026-05-23T13:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5752,6 +5246,44 @@
           "result": null
         },
         {
+          "id": "f2463eefbc1a",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Newcastle / West Ham",
+          "subtitle": "Premier League - 37e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-23T06:53:00+02:00",
+          "end": "2026-05-23T08:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "7ba74ac97d4a",
           "sport": "tennis",
           "competition": "Tournoi ATP de Hambourg",
@@ -5817,6 +5349,474 @@
           },
           "start": "2026-05-23T07:25:00+02:00",
           "end": "2026-05-23T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6993719ef664",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Nottingham Forest",
+          "subtitle": "Premier League - 37e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:36:00+02:00",
+          "end": "2026-05-23T09:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9c0d48439772",
+          "sport": "f1",
+          "competition": "Grand Prix du Canada",
+          "title": "Formule 1 : Grand Prix du Canada",
+          "subtitle": null,
+          "description": "Quel pilote s'imposera sur le Circuit Gilles-Villeneuve de Montréal ? Disputée au Canada, cette manche du championnat du monde de Formule 1 se déroule sur un circuit rapide et spectaculaire, de 4361 mètres, où les dépassements sont très difficiles.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:43:00+02:00",
+          "end": "2026-05-23T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a6c55363dbd5",
+          "sport": "football",
+          "competition": null,
+          "title": "Bayern Munich - Real Madrid",
+          "subtitle": null,
+          "description": "Match retour des quarts de finale de l'UEFA Champions League : Bayern Munich - Real Madrid.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:55:00+02:00",
+          "end": "2026-05-23T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b3e7e5f55a1a",
+          "sport": "football",
+          "competition": null,
+          "title": "Bayern München - Real Madrid",
+          "subtitle": null,
+          "description": "Terugwedstrijd van de kwartfinales in de UEFA Champions League: Bayern München - Real Madrid.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:55:00+02:00",
+          "end": "2026-05-23T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "36893d329f0c",
+          "sport": "basket",
+          "competition": "NBA - Playoffs. Finale de confér",
+          "title": "San Antonio Spurs / Oklahoma City Thunder",
+          "subtitle": "NBA - Playoffs. Finale de confér...",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Oklahoma City Thunder",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:59:00+02:00",
+          "end": "2026-05-23T10:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "53561486eda6",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 13e étape . Alessandria - Verbania (189 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 13e étape . Alessandria - Verbania (189 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-23T08:30:00+02:00",
+          "end": "2026-05-23T09:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b2fbee25ca98",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Burnley",
+          "subtitle": "Premier League - 37e journée",
+          "description": "Alors qu'ils avaient creusé l'écart en tête du classement, les Gunners d'Arsenal ont vu revenir sur eux Manchester City. Désormais, les hommes de Mikel Arteta n'ont plus droit à l'erreur et à l'occasion de cette avant-dernière journée de championnat, comptent bien empocher la victoire face à Burnley.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Burnley",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-23T08:38:00+02:00",
+          "end": "2026-05-23T10:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "94591f421d2b",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific",
+          "title": "Hurricanes / Highlanders",
+          "subtitle": "Super Rugby Pacific - 15e journée",
+          "description": "Pour cette avant-dernière journée de la saison régulière, les Hurricanes reçoivent les Highlanders avec l'ambition de finir en tête du classement. Au match aller, Brad Shields et ses coéquipiers n'avaient laissé aucune chance à leurs adversaires s'imposant sur un score fleuve (7-50). Toujours à la lutte avec les Blues d'Auckland dans le haut du tableau, les hommes de Clark Laidlaw comptent bien rééditer leur performance mais cette fois, à domicile.",
+          "team1": {
+            "name": "Hurricanes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Highlanders",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-23T09:00:00+02:00",
+          "end": "2026-05-23T11:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6748e6c49fe6",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "Course messieurs. Coupe du monde de cross-country. 1re manche.",
+          "description": "Coupe du monde de cross-country. 1re manche. Course messieurs. A Yongpyong (Corée du Sud).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-23T09:15:00+02:00",
+          "end": "2026-05-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "86a8f6e12d31",
+          "sport": "other",
+          "competition": null,
+          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-05-23T09:19:46+02:00",
+          "end": "2026-05-23T09:28:28+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "905c58325d4e",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Liverpool",
+          "subtitle": "Premier League - 37e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-23T09:22:00+02:00",
+          "end": "2026-05-23T11:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bb28db714432",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Demi-finale",
+          "subtitle": "Tournoi ATP de Hambourg",
+          "description": "Retransmission d'un match de tennis du tournoi ATP d'Hambourg. Egalement appelé Hambourg European Open, ce tournoi fait partie de la catégorie 500 sur le circuit ATP et se joue en extérieur sur terre battue en Allemagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-23T09:30:00+02:00",
+          "end": "2026-05-23T11:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "649dcd580bbe",
+          "sport": "other",
+          "competition": null,
+          "title": "Moteurs",
+          "subtitle": "24 MX Tour 2026 - Etape 4 - Frotey-lès-Vesoul",
+          "description": "Résumé de la quatrième étape 24 MX Tour à Frotey-lès-Vesoul, au progarmme les manches espoirs, Juniors, MX1 et MX2 !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-23T09:30:00+02:00",
+          "end": "2026-05-23T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "38b71a1eb0c0",
+          "sport": "basket",
+          "competition": "Africa League - Quart de finale",
+          "title": "AS Ville / Al Ahly",
+          "subtitle": "Africa League - Quart de finale....",
+          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
+          "team1": {
+            "name": "AS Ville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Al Ahly",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-23T09:46:00+02:00",
+          "end": "2026-05-23T11:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c338bfce5c55",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-05-23T10:15:00+02:00",
+          "end": "2026-05-23T11:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "79d399726f28",
+          "sport": "other",
+          "competition": null,
+          "title": "Ligue 1 McDonald's - Face au jeu",
+          "subtitle": "Le une-deux, simplement efficace",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeMaghrebOrient.fr",
+            "name": "TV5MondeMaghrebOrient.fr",
+            "icon_url": null,
+            "slug": "tv5mondemaghreborient-fr",
+            "is_free": false
+          },
+          "start": "2026-05-23T10:38:42+02:00",
+          "end": "2026-05-23T10:50:33+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
