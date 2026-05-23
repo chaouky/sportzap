@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-23T02:42:18.722211+00:00",
+    "generated_at": "2026-05-23T06:31:48.557340+00:00",
     "total_events": 1128,
     "total_days": 7,
     "sports": [
@@ -21,63 +21,18 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports-2",
-        "name": "TVA Sports 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "srf-info",
-        "name": "SRF info",
-        "is_free": false
-      },
-      {
-        "slug": "tracesportstars",
-        "name": "TRACESportStars",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "my-zen-tv",
-        "name": "My Zen TV",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -96,9 +51,24 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
         "slug": "tv5-monde-asie",
         "name": "TV5 Monde Asie",
         "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "eurosport-360-8",
@@ -176,6 +146,11 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-7",
         "name": "Eurosport 360 - 7",
         "is_free": false
@@ -188,6 +163,11 @@
       {
         "slug": "canal-sport-360",
         "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
         "is_free": false
       },
       {
@@ -243,6 +223,11 @@
       {
         "slug": "t-l-sud",
         "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "srf-info",
+        "name": "SRF info",
         "is_free": false
       },
       {
@@ -306,8 +291,23 @@
         "is_free": false
       },
       {
+        "slug": "tva-sports-2",
+        "name": "TVA Sports 2",
+        "is_free": false
+      },
+      {
         "slug": "reunion-1-re",
         "name": "Reunion 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "tracesportstars",
+        "name": "TRACESportStars",
+        "is_free": false
+      },
+      {
+        "slug": "my-zen-tv",
+        "name": "My Zen TV",
         "is_free": false
       },
       {
@@ -558,388 +558,6 @@
       "event_count": 178,
       "events": [
         {
-          "id": "8ba93fccd415",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Demi-finale",
-          "subtitle": "Tournoi ATP de Hambourg",
-          "description": "Retransmission d'un match de tennis du tournoi ATP d'Hambourg. Egalement appelé Hambourg European Open, ce tournoi fait partie de la catégorie 500 sur le circuit ATP et se joue en extérieur sur terre battue en Allemagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-23T02:38:00+02:00",
-          "end": "2026-05-23T04:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d0500a041411",
-          "sport": "other",
-          "competition": "Open du Pays de Galles",
-          "title": "Snooker : Open du Pays de Galles",
-          "subtitle": "Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski. Home Nations Series.",
-          "description": "Home Nations Series. Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski.",
-          "team1": {
-            "name": "Open du Pays de Galles",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Jack Lisowski",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-23T03:00:00+02:00",
-          "end": "2026-05-23T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a58b6ad3eb5d",
-          "sport": "tennis",
-          "competition": "Tournoi de Strasbourg 2026",
-          "title": "Tennis: Tournoi de Strasbourg 2026",
-          "subtitle": "Demi-finale 1",
-          "description": "Première demi-finale de la 40e édition des Internationaux de Strasbourg.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports2.ca",
-            "name": "TVA Sports 2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
-            "slug": "tva-sports-2",
-            "is_free": false
-          },
-          "start": "2026-05-23T03:00:00+02:00",
-          "end": "2026-05-23T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "530e96068084",
-          "sport": "football",
-          "competition": "Championnat d'Ecosse",
-          "title": "Celtic Glasgow / Heart of Midlothian",
-          "subtitle": "Championnat d'Ecosse - 38e",
-          "description": "Diffusion de matchs du Championnat d'Ecosse de football, connu sous le nom de Scottish Premiership. Championnat issu de la refonte de toutes les divisions écossaises, il représente l'élite de ce pays depuis 2013. Douze équipes luttent pour figurer au mieux lors de la phase régulière, à l'issue de laquelle le groupe se scinde en deux pour des playoffs offrant soit l'Europe, soit la relégation.",
-          "team1": {
-            "name": "Celtic Glasgow",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Heart of Midlothian",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-23T03:10:00+02:00",
-          "end": "2026-05-23T05:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "100e60c09a41",
-          "sport": "basket",
-          "competition": "Africa League - Quart de finale",
-          "title": "FUS Rabat / RSSB Tigers Basketball Club",
-          "subtitle": "Africa League - Quart de finale....",
-          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
-          "team1": {
-            "name": "FUS Rabat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RSSB Tigers Basketball Club",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-23T03:11:00+02:00",
-          "end": "2026-05-23T04:54:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "056627cf09fe",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "13e étape . Alessandria - Verbania (189 km)",
-          "subtitle": "Tour d'Italie",
-          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-23T03:30:00+02:00",
-          "end": "2026-05-23T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b85c034bdee1",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 13e étape . Alessandria - Verbania (189 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 13e étape . Alessandria - Verbania (189 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-23T05:00:00+02:00",
-          "end": "2026-05-23T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9abdc13f7add",
-          "sport": "tennis",
-          "competition": "Tournoi de Strasbourg 2026",
-          "title": "Tennis: Tournoi de Strasbourg 2026",
-          "subtitle": "Demi-finale 2",
-          "description": "Deuxième demi-finale de la 40e édition des Internationaux de Strasbourg.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports2.ca",
-            "name": "TVA Sports 2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
-            "slug": "tva-sports-2",
-            "is_free": false
-          },
-          "start": "2026-05-23T05:00:00+02:00",
-          "end": "2026-05-23T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8691a348f4c8",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-23T05:10:00+02:00",
-          "end": "2026-05-23T05:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fa2ada801d5b",
-          "sport": "football",
-          "competition": "Ligue Europa - Finale",
-          "title": "Fribourg / Aston Villa",
-          "subtitle": "Ligue Europa - Finale",
-          "description": "A suivre les plus belles affiches de la Ligue Europa, compétition européenne de football organisée par l'UEFA. Fondée en 1971 elle a changé plusieurs fois de format et dispose dorénavant d'une poule unique de 36 équipes où chaque club rencontre huit adversaires différents, quatre à domicile et quatre à l'extérieur pour obtenir sa qualification pour la phase à élimination directe.",
-          "team1": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-23T05:45:00+02:00",
-          "end": "2026-05-23T07:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b28563b287d7",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-23T06:30:00+02:00",
-          "end": "2026-05-23T07:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c4dcbc4839d6",
-          "sport": "other",
-          "competition": null,
-          "title": "Héroïnes",
-          "subtitle": "HEROINES S02 E11 - Sports fandom and the Taylor Swift Effect",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TRACESportStars.fr",
-            "name": "TRACESportStars",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d815841a915cc32f.png/480x480/quality/100/trace-sport-stars.png",
-            "slug": "tracesportstars",
-            "is_free": false
-          },
-          "start": "2026-05-23T06:30:00+02:00",
-          "end": "2026-05-23T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "812fbafe9065",
-          "sport": "other",
-          "competition": null,
-          "title": "Le P'tit Pac",
-          "subtitle": "Saison 3 - Episode 9",
-          "description": "Un jeu dérivé du célèbre \\\" Petit Bac \\\" qui va mettre vos connaissances à l'épreuve ! Cette semaine, Laurent Chiambretto, Nicolas Pussini, Mathis Desveaux et Yann Lemelle !",
-          "team1": {
-            "name": "Saison 3",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 9",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-23T06:50:00+02:00",
-          "end": "2026-05-23T07:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "f2463eefbc1a",
           "sport": "football",
           "competition": "Premier League",
@@ -971,79 +589,7 @@
           },
           "start": "2026-05-23T06:53:00+02:00",
           "end": "2026-05-23T08:38:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7ba74ac97d4a",
-          "sport": "tennis",
-          "competition": "Tournoi ATP de Hambourg",
-          "title": "Tennis : Tournoi ATP de Hambourg",
-          "subtitle": "Tournoi ATP de Hambourg. Demi-finale.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:00:00+02:00",
-          "end": "2026-05-23T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e42ea73c42b4",
-          "sport": "other",
-          "competition": null,
-          "title": "Fais ton sport à la maison !",
-          "subtitle": "Bien-être du dos & renforcement",
-          "description": "Dans cet épisode, Sabrina propose une séance bien-être axée sur le renforcement et la mobilité du dos. Avec des exercices pour les muscles stabilisateurs, la colonne et les abdos, cette séance soulage les tensions et améliore la posture.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MyZenTV.fr",
-            "name": "My Zen TV",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
-            "slug": "my-zen-tv",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:00:00+02:00",
-          "end": "2026-05-23T07:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c076d53221c6",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-23T07:25:00+02:00",
-          "end": "2026-05-23T08:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1081,7 +627,7 @@
           },
           "start": "2026-05-23T07:36:00+02:00",
           "end": "2026-05-23T09:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1105,7 +651,7 @@
           },
           "start": "2026-05-23T07:43:00+02:00",
           "end": "2026-05-23T09:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1129,7 +675,7 @@
           },
           "start": "2026-05-23T07:55:00+02:00",
           "end": "2026-05-23T09:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1153,7 +699,7 @@
           },
           "start": "2026-05-23T07:55:00+02:00",
           "end": "2026-05-23T09:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1191,7 +737,7 @@
           },
           "start": "2026-05-23T07:59:00+02:00",
           "end": "2026-05-23T10:03:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1215,7 +761,7 @@
           },
           "start": "2026-05-23T08:30:00+02:00",
           "end": "2026-05-23T09:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5652,6 +5198,30 @@
           "result": null
         },
         {
+          "id": "8ba93fccd415",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Demi-finale",
+          "subtitle": "Tournoi ATP de Hambourg",
+          "description": "Retransmission d'un match de tennis du tournoi ATP d'Hambourg. Egalement appelé Hambourg European Open, ce tournoi fait partie de la catégorie 500 sur le circuit ATP et se joue en extérieur sur terre battue en Allemagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-23T02:38:00+02:00",
+          "end": "2026-05-23T04:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f2328bd57f6d",
           "sport": "f1",
           "competition": "Grand Prix du Canada",
@@ -5762,6 +5332,144 @@
           "result": null
         },
         {
+          "id": "d0500a041411",
+          "sport": "other",
+          "competition": "Open du Pays de Galles",
+          "title": "Snooker : Open du Pays de Galles",
+          "subtitle": "Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski. Home Nations Series.",
+          "description": "Home Nations Series. Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski.",
+          "team1": {
+            "name": "Open du Pays de Galles",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Jack Lisowski",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-23T03:00:00+02:00",
+          "end": "2026-05-23T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a58b6ad3eb5d",
+          "sport": "tennis",
+          "competition": "Tournoi de Strasbourg 2026",
+          "title": "Tennis: Tournoi de Strasbourg 2026",
+          "subtitle": "Demi-finale 1",
+          "description": "Première demi-finale de la 40e édition des Internationaux de Strasbourg.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports2.ca",
+            "name": "TVA Sports 2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
+            "slug": "tva-sports-2",
+            "is_free": false
+          },
+          "start": "2026-05-23T03:00:00+02:00",
+          "end": "2026-05-23T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "530e96068084",
+          "sport": "football",
+          "competition": "Championnat d'Ecosse",
+          "title": "Celtic Glasgow / Heart of Midlothian",
+          "subtitle": "Championnat d'Ecosse - 38e",
+          "description": "Diffusion de matchs du Championnat d'Ecosse de football, connu sous le nom de Scottish Premiership. Championnat issu de la refonte de toutes les divisions écossaises, il représente l'élite de ce pays depuis 2013. Douze équipes luttent pour figurer au mieux lors de la phase régulière, à l'issue de laquelle le groupe se scinde en deux pour des playoffs offrant soit l'Europe, soit la relégation.",
+          "team1": {
+            "name": "Celtic Glasgow",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Heart of Midlothian",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-23T03:10:00+02:00",
+          "end": "2026-05-23T05:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "100e60c09a41",
+          "sport": "basket",
+          "competition": "Africa League - Quart de finale",
+          "title": "FUS Rabat / RSSB Tigers Basketball Club",
+          "subtitle": "Africa League - Quart de finale....",
+          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
+          "team1": {
+            "name": "FUS Rabat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RSSB Tigers Basketball Club",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-23T03:11:00+02:00",
+          "end": "2026-05-23T04:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "ece446168a42",
           "sport": "other",
           "competition": null,
@@ -5800,6 +5508,30 @@
           "result": null
         },
         {
+          "id": "056627cf09fe",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "13e étape . Alessandria - Verbania (189 km)",
+          "subtitle": "Tour d'Italie",
+          "description": "Suivez le célèbre Tour d'Italie de cyclisme, appelé Il Giro. Organisé par l'UCI, le Tour se déroule en mai et juin sur 21 étapes pendant 23 ou 24 jours et consiste en au moins deux contre-la-montre et des étapes de montagne. Le Giro d'Italia est, avec le Tour d'Espagne et le Tour de France, l'un des trois grands tours de cyclisme sur route. Sa première édition a eu lieu en 1909.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-23T03:30:00+02:00",
+          "end": "2026-05-23T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "2f33a597672e",
           "sport": "other",
           "competition": null,
@@ -5817,6 +5549,274 @@
           },
           "start": "2026-05-23T04:00:00+02:00",
           "end": "2026-05-23T04:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b85c034bdee1",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 13e étape . Alessandria - Verbania (189 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 13e étape . Alessandria - Verbania (189 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-23T05:00:00+02:00",
+          "end": "2026-05-23T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9abdc13f7add",
+          "sport": "tennis",
+          "competition": "Tournoi de Strasbourg 2026",
+          "title": "Tennis: Tournoi de Strasbourg 2026",
+          "subtitle": "Demi-finale 2",
+          "description": "Deuxième demi-finale de la 40e édition des Internationaux de Strasbourg.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports2.ca",
+            "name": "TVA Sports 2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s90204_h15_ac.png",
+            "slug": "tva-sports-2",
+            "is_free": false
+          },
+          "start": "2026-05-23T05:00:00+02:00",
+          "end": "2026-05-23T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8691a348f4c8",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-23T05:10:00+02:00",
+          "end": "2026-05-23T05:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fa2ada801d5b",
+          "sport": "football",
+          "competition": "Ligue Europa - Finale",
+          "title": "Fribourg / Aston Villa",
+          "subtitle": "Ligue Europa - Finale",
+          "description": "A suivre les plus belles affiches de la Ligue Europa, compétition européenne de football organisée par l'UEFA. Fondée en 1971 elle a changé plusieurs fois de format et dispose dorénavant d'une poule unique de 36 équipes où chaque club rencontre huit adversaires différents, quatre à domicile et quatre à l'extérieur pour obtenir sa qualification pour la phase à élimination directe.",
+          "team1": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-23T05:45:00+02:00",
+          "end": "2026-05-23T07:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b28563b287d7",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-23T06:30:00+02:00",
+          "end": "2026-05-23T07:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c4dcbc4839d6",
+          "sport": "other",
+          "competition": null,
+          "title": "Héroïnes",
+          "subtitle": "HEROINES S02 E11 - Sports fandom and the Taylor Swift Effect",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TRACESportStars.fr",
+            "name": "TRACESportStars",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d815841a915cc32f.png/480x480/quality/100/trace-sport-stars.png",
+            "slug": "tracesportstars",
+            "is_free": false
+          },
+          "start": "2026-05-23T06:30:00+02:00",
+          "end": "2026-05-23T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "812fbafe9065",
+          "sport": "other",
+          "competition": null,
+          "title": "Le P'tit Pac",
+          "subtitle": "Saison 3 - Episode 9",
+          "description": "Un jeu dérivé du célèbre \\\" Petit Bac \\\" qui va mettre vos connaissances à l'épreuve ! Cette semaine, Laurent Chiambretto, Nicolas Pussini, Mathis Desveaux et Yann Lemelle !",
+          "team1": {
+            "name": "Saison 3",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 9",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-23T06:50:00+02:00",
+          "end": "2026-05-23T07:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7ba74ac97d4a",
+          "sport": "tennis",
+          "competition": "Tournoi ATP de Hambourg",
+          "title": "Tennis : Tournoi ATP de Hambourg",
+          "subtitle": "Tournoi ATP de Hambourg. Demi-finale.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:00:00+02:00",
+          "end": "2026-05-23T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e42ea73c42b4",
+          "sport": "other",
+          "competition": null,
+          "title": "Fais ton sport à la maison !",
+          "subtitle": "Bien-être du dos & renforcement",
+          "description": "Dans cet épisode, Sabrina propose une séance bien-être axée sur le renforcement et la mobilité du dos. Avec des exercices pour les muscles stabilisateurs, la colonne et les abdos, cette séance soulage les tensions et améliore la posture.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MyZenTV.fr",
+            "name": "My Zen TV",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
+            "slug": "my-zen-tv",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:00:00+02:00",
+          "end": "2026-05-23T07:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c076d53221c6",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-23T07:25:00+02:00",
+          "end": "2026-05-23T08:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
