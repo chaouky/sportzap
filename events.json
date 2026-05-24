@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-24T16:57:22.416506+00:00",
+    "generated_at": "2026-05-24T20:51:38.145400+00:00",
     "total_events": 1092,
     "total_days": 7,
     "sports": [
@@ -21,8 +21,8 @@
     ],
     "channels": [
       {
-        "slug": "rds2",
-        "name": "RDS2",
+        "slug": "infosportplus",
+        "name": "InfosportPlus",
         "is_free": false
       },
       {
@@ -31,8 +31,13 @@
         "is_free": false
       },
       {
-        "slug": "nouvellecaledonie",
-        "name": "NouvelleCaledonie",
+        "slug": "rds-info",
+        "name": "RDS Info",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Premier League",
         "is_free": false
       },
       {
@@ -41,113 +46,13 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
         "slug": "canal-sport-360",
         "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "bbc-two",
-        "name": "BBC Two",
-        "is_free": false
-      },
-      {
-        "slug": "canvas",
-        "name": "Canvas",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus",
-        "name": "Canal+ Live 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "infosportplus",
-        "name": "InfosportPlus",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-grenoble",
-        "name": "Télé Grenoble",
-        "is_free": false
-      },
-      {
-        "slug": "la-chaine-l-quipe",
-        "name": "La chaine l’Équipe",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-1",
-        "name": "Eurosport 360 - 1",
-        "is_free": false
-      },
-      {
-        "slug": "rds-info",
-        "name": "RDS Info",
-        "is_free": false
-      },
-      {
-        "slug": "automoto-la-chaine",
-        "name": "Automoto la chaine",
-        "is_free": false
-      },
-      {
-        "slug": "rts-2",
-        "name": "RTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
-        "is_free": false
-      },
-      {
-        "slug": "a-ivoire",
-        "name": "A+ Ivoire",
-        "is_free": false
-      },
-      {
-        "slug": "matele",
-        "name": "MaTele",
-        "is_free": false
-      },
-      {
-        "slug": "tv-lux",
-        "name": "TV Lux",
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -156,28 +61,33 @@
         "is_free": false
       },
       {
-        "slug": "2m-maroc",
-        "name": "2M Maroc",
+        "slug": "canal-plus",
+        "name": "Canal+",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "tv-lux",
+        "name": "TV Lux",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "matele",
+        "name": "MaTele",
         "is_free": false
       },
       {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde",
-        "name": "TV5 Monde",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
         "is_free": false
       },
       {
@@ -188,6 +98,21 @@
       {
         "slug": "pickxplussports1f-be",
         "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -206,6 +131,16 @@
         "is_free": false
       },
       {
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
         "is_free": false
@@ -218,6 +153,11 @@
       {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "automoto-la-chaine",
+        "name": "Automoto la chaine",
         "is_free": false
       },
       {
@@ -246,6 +186,16 @@
         "is_free": true
       },
       {
+        "slug": "la-chaine-l-quipe",
+        "name": "La chaine l’Équipe",
+        "is_free": false
+      },
+      {
+        "slug": "rts-2",
+        "name": "RTS 2",
+        "is_free": false
+      },
+      {
         "slug": "ligue-1",
         "name": "Ligue 1+",
         "is_free": false
@@ -258,6 +208,11 @@
       {
         "slug": "france-3-nouvelle-aquitaine",
         "name": "France 3 Nouvelle Aquitaine",
+        "is_free": false
+      },
+      {
+        "slug": "bbc-two",
+        "name": "BBC Two",
         "is_free": false
       },
       {
@@ -283,6 +238,16 @@
       {
         "slug": "canalc",
         "name": "CanalC",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "nouvellecaledonie",
+        "name": "NouvelleCaledonie",
         "is_free": false
       },
       {
@@ -343,6 +308,41 @@
       {
         "slug": "canal-live-9",
         "name": "Canal+ Live 9",
+        "is_free": false
+      },
+      {
+        "slug": "canvas",
+        "name": "Canvas",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-grenoble",
+        "name": "Télé Grenoble",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-1",
+        "name": "Eurosport 360 - 1",
+        "is_free": false
+      },
+      {
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "a-ivoire",
+        "name": "A+ Ivoire",
+        "is_free": false
+      },
+      {
+        "slug": "2m-maroc",
+        "name": "2M Maroc",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde",
+        "name": "TV5 Monde",
         "is_free": false
       },
       {
@@ -568,388 +568,6 @@
       "event_count": 182,
       "events": [
         {
-          "id": "00a0650380d0",
-          "sport": "tennis",
-          "competition": "Internationaux de France 2026 - 1re ronde, ATP",
-          "title": "Tennis: Internationaux de France 2026 - 1re ronde, ATP",
-          "subtitle": "1re ronde, ATP",
-          "description": "En provenance du stade Roland Garros à Paris.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-05-24T12:00:00+02:00",
-          "end": "2026-05-24T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7fe328c1a148",
-          "sport": "tennis",
-          "competition": null,
-          "title": "1er tour. 1re partie",
-          "subtitle": "Roland-Garros",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-24T14:01:00+02:00",
-          "end": "2026-05-24T18:58:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0bc1a86beaef",
-          "sport": "tennis",
-          "competition": null,
-          "title": "1er tour dames et messieurs",
-          "subtitle": "Roland-Garros",
-          "description": "La 125e édition de Roland-Garros débute véritablement avec les premiers tours des tableaux principaux, chez les dames et les messieurs. Dans le temple parisien de la terre battue, pour ce 2e rendez-vous du Grand Chelem après l'Open d'Australie en début ...",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NouvelleCaledonie.fr",
-            "name": "NouvelleCaledonie",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/170086/canal-ouah/CHN43FB/_thumb_526566?=.png",
-            "slug": "nouvellecaledonie",
-            "is_free": false
-          },
-          "start": "2026-05-24T14:57:00+02:00",
-          "end": "2026-05-24T19:57:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9015061e35e7",
-          "sport": "other",
-          "competition": "Championnat du monde",
-          "title": "Grande-Bretagne / Lettonie",
-          "subtitle": "Championnat du monde",
-          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
-          "team1": {
-            "name": "Grande-Bretagne",
-            "type": "country",
-            "short": null,
-            "country_code": "gb",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Lettonie",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-05-24T16:30:00+02:00",
-          "end": "2026-05-24T19:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "671b0aa13e70",
-          "sport": "mma",
-          "competition": "PFL",
-          "title": "MMA : PFL",
-          "subtitle": "PFL Dubai 24/05/26",
-          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-24T17:00:00+02:00",
-          "end": "2026-05-24T19:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "82ccd088c5e3",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Tottenham / Everton",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-05-24T17:05:00+02:00",
-          "end": "2026-05-24T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8ae3201aecec",
-          "sport": "basket",
-          "competition": "Euroligue masculine",
-          "title": "Basket-ball : Euroligue masculine",
-          "subtitle": "Valence / Real Madrid. Euroligue masculine. Demi-finale.",
-          "description": "Euroligue masculine. Demi-finale. Valence / Real Madrid.",
-          "team1": {
-            "name": "Valence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-05-24T17:20:00+02:00",
-          "end": "2026-05-24T19:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "739bb222db20",
-          "sport": "football",
-          "competition": "Football. Ligue des champions féminine. Finale",
-          "title": "FC Barcelone / Lyon",
-          "subtitle": "Football. Ligue des champions féminine. Finale.",
-          "description": null,
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BBC2.uk",
-            "name": "BBC Two",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~a0eb22b6cb9cf9b9.png/480x480/quality/100/bbc-2.png",
-            "slug": "bbc-two",
-            "is_free": false
-          },
-          "start": "2026-05-24T17:30:00+02:00",
-          "end": "2026-05-24T20:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e8841b7ba86d",
-          "sport": "other",
-          "competition": "hockey",
-          "title": "Sporza: hockey",
-          "subtitle": "Play-offs Finale Mannen.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Canvas.fr",
-            "name": "Canvas",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~86a0a6b6ce187d6b.png/480x480/quality/100/canvas.png",
-            "slug": "canvas",
-            "is_free": false
-          },
-          "start": "2026-05-24T17:50:00+02:00",
-          "end": "2026-05-24T19:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3721c515e33b",
-          "sport": "f1",
-          "competition": "Grand Prix du Canada",
-          "title": "Formule 2 : Grand Prix du Canada",
-          "subtitle": "Feature Race",
-          "description": "Le Grand Prix du Canada de Formule 2 met à l'épreuve de jeunes talents qui s'affrontent roue contre roue. Stratégie, vitesse et rebondissements rythment le circuit.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusLive1.fr",
-            "name": "Canal+ Live 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
-            "slug": "canal-plus",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:00:00+02:00",
-          "end": "2026-05-24T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "48500b19f374",
-          "sport": "basket",
-          "competition": "Africa League - Quart de finale",
-          "title": "RSSB Tigers Basketball Club / FUS Rabat",
-          "subtitle": "Africa League - Quart de finale....",
-          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
-          "team1": {
-            "name": "RSSB Tigers Basketball Club",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FUS Rabat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:00:00+02:00",
-          "end": "2026-05-24T20:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "189d23f8e600",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale messieurs. Coupe du monde. 2e manche bloc.",
-          "description": "Coupe du monde. 2e manche bloc. Finale messieurs. A Berne (Suisse).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:00:00+02:00",
-          "end": "2026-05-24T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4c721a4cfd73",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "VTT",
-          "description": "Nove Mesto, en République tchèque, accueille la deuxième manche de la Coupe du monde de VTT cross-country. L'Américain Christopher Blevins va-t-il confirmer sa domination de la saison dernière sur la discipline ? On suivra également les performances des Français Luca Martin, Mathis Azzaro et Adrien Boichis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:00:00+02:00",
-          "end": "2026-05-24T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "2761d4c70983",
           "sport": "other",
           "competition": null,
@@ -974,116 +592,6 @@
           "result": null
         },
         {
-          "id": "803a6a83c0d1",
-          "sport": "other",
-          "competition": null,
-          "title": "Brûleurs de Loups - Le chemin...",
-          "subtitle": null,
-          "description": "Découvrez l'intimité des Brûleurs de Loups durant les play-offs 2023. Un film de 40 minutes au sein des hockeyeurs grenoblois.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TeleGrenobleIsere.fr",
-            "name": "Télé Grenoble",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~a9c6360b76772dd2.png/480x480/quality/100/tele-grenoble-isere.png",
-            "slug": "t-l-grenoble",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:15:00+02:00",
-          "end": "2026-05-24T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "42f38e81f81c",
-          "sport": "cyclisme",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": null,
-          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LEquipe21.fr",
-            "name": "La chaine l’Équipe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
-            "slug": "la-chaine-l-quipe",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:20:00+02:00",
-          "end": "2026-05-24T19:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "71ef4b682653",
-          "sport": "equitation",
-          "competition": null,
-          "title": "Epreuve des 6 Barres",
-          "subtitle": "Jumping international de Bourg-e...",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:25:00+02:00",
-          "end": "2026-05-24T20:27:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "93f30081a10e",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Malaga / Racing Santander",
-          "subtitle": "Liga 2 - 41e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Malaga",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Racing Santander",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-24T18:48:00+02:00",
-          "end": "2026-05-24T20:56:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "d83bf9fd8314",
           "sport": "tennis",
           "competition": null,
@@ -1101,31 +609,7 @@
           },
           "start": "2026-05-24T18:58:00+02:00",
           "end": "2026-05-24T23:56:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "faa8b72941cf",
-          "sport": "tennis",
-          "competition": "Roland-Garros",
-          "title": "Tennis : Roland-Garros",
-          "subtitle": "Tennis",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3601.fr",
-            "name": "Eurosport 360 - 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
-            "slug": "eurosport-360-1",
-            "is_free": false
-          },
-          "start": "2026-05-24T19:00:00+02:00",
-          "end": "2026-05-24T19:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1149,79 +633,7 @@
           },
           "start": "2026-05-24T19:00:00+02:00",
           "end": "2026-05-25T00:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "286f936c4e9b",
-          "sport": "motogp",
-          "competition": "Le Meilleur",
-          "title": "High Side : Le Meilleur",
-          "subtitle": "All-Tares 2023 (épisode 1)",
-          "description": "Voici le pire élément pour faire de la moto : le sable. Bader et Adrian vont suivre 2 formations distinctes : l'une avec Serge Nuques et son fils Joey, l'autre avec la chaîne MX Test, en la personne de Pierrick Paget. Deux écoles, pour au final ...",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ABMoteurs.fr",
-            "name": "Automoto la chaine",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~af9996c05345acc0.png/480x480/quality/100/automoto.png",
-            "slug": "automoto-la-chaine",
-            "is_free": false
-          },
-          "start": "2026-05-24T19:05:00+02:00",
-          "end": "2026-05-24T20:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "787e0bef36ec",
-          "sport": "tennis",
-          "competition": null,
-          "title": "1e tour",
-          "subtitle": "Roland-Garros",
-          "description": "En direct de Paris (FRA)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-05-24T19:45:00+02:00",
-          "end": "2026-05-24T20:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f8a8eb2105b1",
-          "sport": "basket",
-          "competition": null,
-          "title": "Basket-ball",
-          "subtitle": null,
-          "description": "Que ce soit en NBA, dans les différentes coupes européennes, l'Euroligue pour ne citer que la plus célèbre, dans les différents championnats nationaux ou régionaux, voire dans les compétitions internationales ou continentales, le basketball ne manque pas d'équipes à supporter pour les nombreux fans. D'Australie en Amérique du Nord, en passant par la Russie, l'Europe, ou la chaude région balkanique, ce sport n'en finit pas de déchaîner les passions, offrant un spectacle souvent inégalé en termes d'intensité et d'incertitudes. Un shoot à trois points à la dernière seconde fera-t-il cette fois-ci encore la différence ? Qui de ces héros modernes fera la plus belle passe à son coéquipier de club ou de sélection ? Qui aura l'honneur d'être MVP ? Toutes ces réponses à l'issue du quatrième quart-temps...",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-05-24T19:45:00+02:00",
-          "end": "2026-05-24T20:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1259,93 +671,7 @@
           },
           "start": "2026-05-24T19:53:00+02:00",
           "end": "2026-05-24T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bf09e72d61c8",
-          "sport": "other",
-          "competition": null,
-          "title": "Stade d'Abidjan - Zoman",
-          "subtitle": "Ligue 1 Ivoirienne - 30e journée",
-          "description": null,
-          "team1": {
-            "name": "Ligue 1 Ivoirienne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "30e journée",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "APlusIvoire.ci",
-            "name": "A+ Ivoire",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180681/canal-ouah/CHN43FB/AIVOIRE?=.png",
-            "slug": "a-ivoire",
-            "is_free": false
-          },
-          "start": "2026-05-24T19:57:00+02:00",
-          "end": "2026-05-24T21:49:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f33d7ee87b4e",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "Course messieurs. Coupe du monde de cross-country. 2e manche.",
-          "description": "Coupe du monde de cross-country. 2e manche. Course messieurs. A Nove Mesto (République tchèque).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:00:00+02:00",
-          "end": "2026-05-24T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "781e072acf98",
-          "sport": "other",
-          "competition": null,
-          "title": "Xtra-balles",
-          "subtitle": null,
-          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MaTele.be",
-            "name": "MaTele",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
-            "slug": "matele",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:00:00+02:00",
-          "end": "2026-05-24T21:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1383,193 +709,7 @@
           },
           "start": "2026-05-24T20:00:00+02:00",
           "end": "2026-05-24T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "004ab80d5321",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:00:00+02:00",
-          "end": "2026-05-24T20:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "67a0ce1af46e",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:00:00+02:00",
-          "end": "2026-05-24T21:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "10adf5da4b4c",
-          "sport": "other",
-          "competition": "Championnat du monde",
-          "title": "Slovaquie / Team Canada",
-          "subtitle": "Championnat du monde",
-          "description": "Entre Slovaquie et Canada, on peut s'attendre à une partie engagée sur la glace de Fribourg, dans la BCF-Arena. Les deux nations ont cette expérience du haut niveau en hockey et des formations rompues à ce genre de joute. En 2025, le Canada avait perdu en quart de finale contre le Danemark.",
-          "team1": {
-            "name": "Slovaquie",
-            "type": "country",
-            "short": null,
-            "country_code": "sk",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Team Canada",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:10:00+02:00",
-          "end": "2026-05-24T22:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9e08d26c4b9f",
-          "sport": "other",
-          "competition": "Championnat du monde",
-          "title": "Finlande / Autriche",
-          "subtitle": "Championnat du monde",
-          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
-          "team1": {
-            "name": "Finlande",
-            "type": "country",
-            "short": null,
-            "country_code": "fi",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Autriche",
-            "type": "country",
-            "short": "Autriche",
-            "country_code": "at",
-            "logo_url": "https://flagcdn.com/w80/at.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:15:00+02:00",
-          "end": "2026-05-24T21:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "343103acda56",
-          "sport": "other",
-          "competition": null,
-          "title": "Auto-moto",
-          "subtitle": null,
-          "description": "Auto-moto est un magazine télévisé consacré à l'automobile et à la moto.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "2MMonde.fr",
-            "name": "2M Maroc",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/54/canal-ouah/CHN43FB/CHN43FB_54_20251013-ePgp?=.png",
-            "slug": "2m-maroc",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:20:00+02:00",
-          "end": "2026-05-24T20:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1e06598a4c08",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Aston Villa",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:51:00+02:00",
-          "end": "2026-05-24T22:36:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1607,69 +747,7 @@
           },
           "start": "2026-05-24T20:55:00+02:00",
           "end": "2026-05-24T23:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ac7b2fb46895",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Villarreal / Atlético Madrid",
-          "subtitle": "Liga - 38e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:56:00+02:00",
-          "end": "2026-05-24T21:47:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "609693a4c0fc",
-          "sport": "tennis",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Résumé quotidien avec tous les résultats, les plus beaux échanges et toutes les séquences à ne pas manquer.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5Monde.fr",
-            "name": "TV5 Monde",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
-            "slug": "tv5-monde",
-            "is_free": false
-          },
-          "start": "2026-05-24T20:56:00+02:00",
-          "end": "2026-05-24T21:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1693,151 +771,7 @@
           },
           "start": "2026-05-24T21:00:00+02:00",
           "end": "2026-05-24T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0eb3e2a1a245",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 15e étape. Voghera - Milan (157 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 15e étape. Voghera - Milan (157 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-24T21:00:00+02:00",
-          "end": "2026-05-24T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "05aaf8bfb043",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Après la Chine, direction la Suisse et Berne, pour la deuxième épreuve de bloc de la saison de coupe du monde. A suivre, dans cette discipline, le triple tenant du titre, le Japonais Sorato Anraku. Parmi ses principaux adversaires, le Français Mejdi Schalck, 22 ans, médaillé d'argent au classement général de bloc, la saison dernière.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-24T21:00:00+02:00",
-          "end": "2026-05-24T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f94293a24bee",
-          "sport": "other",
-          "competition": null,
-          "title": "Xtra-balles",
-          "subtitle": null,
-          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MaTele.be",
-            "name": "MaTele",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
-            "slug": "matele",
-            "is_free": false
-          },
-          "start": "2026-05-24T21:00:00+02:00",
-          "end": "2026-05-24T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "baff9eca15bf",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-05-24T21:00:00+02:00",
-          "end": "2026-05-24T21:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c372a65a83c1",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E35",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-05-24T21:00:00+02:00",
-          "end": "2026-05-24T21:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "506c6fa0dcf2",
-          "sport": "f1",
-          "competition": "Grand Prix du Canada",
-          "title": "Formule 2 : Grand Prix du Canada",
-          "subtitle": "Feature Race",
-          "description": "Le Grand Prix du Canada de Formule 2 met à l'épreuve de jeunes talents qui s'affrontent roue contre roue. Stratégie, vitesse et rebondissements rythment le circuit.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-24T21:30:00+02:00",
-          "end": "2026-05-24T22:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1861,7 +795,7 @@
           },
           "start": "2026-05-24T21:30:00+02:00",
           "end": "2026-05-25T00:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1885,7 +819,7 @@
           },
           "start": "2026-05-24T21:50:00+02:00",
           "end": "2026-05-25T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1909,7 +843,7 @@
           },
           "start": "2026-05-24T22:00:00+02:00",
           "end": "2026-05-24T23:46:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1933,7 +867,7 @@
           },
           "start": "2026-05-24T22:00:00+02:00",
           "end": "2026-05-24T23:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1957,7 +891,7 @@
           },
           "start": "2026-05-24T22:00:00+02:00",
           "end": "2026-05-24T22:52:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1995,7 +929,7 @@
           },
           "start": "2026-05-24T22:05:00+02:00",
           "end": "2026-05-24T23:12:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2019,7 +953,7 @@
           },
           "start": "2026-05-24T22:15:00+02:00",
           "end": "2026-05-24T23:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2057,7 +991,7 @@
           },
           "start": "2026-05-24T22:36:00+02:00",
           "end": "2026-05-25T00:19:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2081,7 +1015,7 @@
           },
           "start": "2026-05-24T22:40:00+02:00",
           "end": "2026-05-24T23:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4074,6 +3008,30 @@
           "result": null
         },
         {
+          "id": "00a0650380d0",
+          "sport": "tennis",
+          "competition": "Internationaux de France 2026 - 1re ronde, ATP",
+          "title": "Tennis: Internationaux de France 2026 - 1re ronde, ATP",
+          "subtitle": "1re ronde, ATP",
+          "description": "En provenance du stade Roland Garros à Paris.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-05-24T12:00:00+02:00",
+          "end": "2026-05-24T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "efd7bbd8f36f",
           "sport": "tennis",
           "competition": null,
@@ -4670,6 +3628,30 @@
           "result": null
         },
         {
+          "id": "7fe328c1a148",
+          "sport": "tennis",
+          "competition": null,
+          "title": "1er tour. 1re partie",
+          "subtitle": "Roland-Garros",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-24T14:01:00+02:00",
+          "end": "2026-05-24T18:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "577db121594a",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -4907,6 +3889,30 @@
           },
           "start": "2026-05-24T14:57:00+02:00",
           "end": "2026-05-24T16:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0bc1a86beaef",
+          "sport": "tennis",
+          "competition": null,
+          "title": "1er tour dames et messieurs",
+          "subtitle": "Roland-Garros",
+          "description": "La 125e édition de Roland-Garros débute véritablement avec les premiers tours des tableaux principaux, chez les dames et les messieurs. Dans le temple parisien de la terre battue, pour ce 2e rendez-vous du Grand Chelem après l'Open d'Australie en début ...",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NouvelleCaledonie.fr",
+            "name": "NouvelleCaledonie",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/170086/canal-ouah/CHN43FB/_thumb_526566?=.png",
+            "slug": "nouvellecaledonie",
+            "is_free": false
+          },
+          "start": "2026-05-24T14:57:00+02:00",
+          "end": "2026-05-24T19:57:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5379,6 +4385,44 @@
           },
           "start": "2026-05-24T16:30:00+02:00",
           "end": "2026-05-24T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9015061e35e7",
+          "sport": "other",
+          "competition": "Championnat du monde",
+          "title": "Grande-Bretagne / Lettonie",
+          "subtitle": "Championnat du monde",
+          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
+          "team1": {
+            "name": "Grande-Bretagne",
+            "type": "country",
+            "short": null,
+            "country_code": "gb",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Lettonie",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-05-24T16:30:00+02:00",
+          "end": "2026-05-24T19:15:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5876,6 +4920,30 @@
           "result": null
         },
         {
+          "id": "671b0aa13e70",
+          "sport": "mma",
+          "competition": "PFL",
+          "title": "MMA : PFL",
+          "subtitle": "PFL Dubai 24/05/26",
+          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-24T17:00:00+02:00",
+          "end": "2026-05-24T19:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "a15610b1808c",
           "sport": "basket",
           "competition": null,
@@ -5907,6 +4975,44 @@
           },
           "start": "2026-05-24T17:00:00+02:00",
           "end": "2026-05-24T17:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "82ccd088c5e3",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Tottenham / Everton",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-05-24T17:05:00+02:00",
+          "end": "2026-05-24T19:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5976,6 +5082,44 @@
           "result": null
         },
         {
+          "id": "8ae3201aecec",
+          "sport": "basket",
+          "competition": "Euroligue masculine",
+          "title": "Basket-ball : Euroligue masculine",
+          "subtitle": "Valence / Real Madrid. Euroligue masculine. Demi-finale.",
+          "description": "Euroligue masculine. Demi-finale. Valence / Real Madrid.",
+          "team1": {
+            "name": "Valence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-05-24T17:20:00+02:00",
+          "end": "2026-05-24T19:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "37b46eb1bf41",
           "sport": "f1",
           "competition": "Grand Prix du Canada",
@@ -5993,6 +5137,862 @@
           },
           "start": "2026-05-24T17:22:00+02:00",
           "end": "2026-05-24T18:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "739bb222db20",
+          "sport": "football",
+          "competition": "Football. Ligue des champions féminine. Finale",
+          "title": "FC Barcelone / Lyon",
+          "subtitle": "Football. Ligue des champions féminine. Finale.",
+          "description": null,
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BBC2.uk",
+            "name": "BBC Two",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~a0eb22b6cb9cf9b9.png/480x480/quality/100/bbc-2.png",
+            "slug": "bbc-two",
+            "is_free": false
+          },
+          "start": "2026-05-24T17:30:00+02:00",
+          "end": "2026-05-24T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e8841b7ba86d",
+          "sport": "other",
+          "competition": "hockey",
+          "title": "Sporza: hockey",
+          "subtitle": "Play-offs Finale Mannen.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Canvas.fr",
+            "name": "Canvas",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~86a0a6b6ce187d6b.png/480x480/quality/100/canvas.png",
+            "slug": "canvas",
+            "is_free": false
+          },
+          "start": "2026-05-24T17:50:00+02:00",
+          "end": "2026-05-24T19:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3721c515e33b",
+          "sport": "f1",
+          "competition": "Grand Prix du Canada",
+          "title": "Formule 2 : Grand Prix du Canada",
+          "subtitle": "Feature Race",
+          "description": "Le Grand Prix du Canada de Formule 2 met à l'épreuve de jeunes talents qui s'affrontent roue contre roue. Stratégie, vitesse et rebondissements rythment le circuit.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusLive1.fr",
+            "name": "Canal+ Live 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:00:00+02:00",
+          "end": "2026-05-24T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "48500b19f374",
+          "sport": "basket",
+          "competition": "Africa League - Quart de finale",
+          "title": "RSSB Tigers Basketball Club / FUS Rabat",
+          "subtitle": "Africa League - Quart de finale....",
+          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
+          "team1": {
+            "name": "RSSB Tigers Basketball Club",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FUS Rabat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:00:00+02:00",
+          "end": "2026-05-24T20:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "189d23f8e600",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale messieurs. Coupe du monde. 2e manche bloc.",
+          "description": "Coupe du monde. 2e manche bloc. Finale messieurs. A Berne (Suisse).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:00:00+02:00",
+          "end": "2026-05-24T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4c721a4cfd73",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "VTT",
+          "description": "Nove Mesto, en République tchèque, accueille la deuxième manche de la Coupe du monde de VTT cross-country. L'Américain Christopher Blevins va-t-il confirmer sa domination de la saison dernière sur la discipline ? On suivra également les performances des Français Luca Martin, Mathis Azzaro et Adrien Boichis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:00:00+02:00",
+          "end": "2026-05-24T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "803a6a83c0d1",
+          "sport": "other",
+          "competition": null,
+          "title": "Brûleurs de Loups - Le chemin...",
+          "subtitle": null,
+          "description": "Découvrez l'intimité des Brûleurs de Loups durant les play-offs 2023. Un film de 40 minutes au sein des hockeyeurs grenoblois.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TeleGrenobleIsere.fr",
+            "name": "Télé Grenoble",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~a9c6360b76772dd2.png/480x480/quality/100/tele-grenoble-isere.png",
+            "slug": "t-l-grenoble",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:15:00+02:00",
+          "end": "2026-05-24T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "42f38e81f81c",
+          "sport": "cyclisme",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": null,
+          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LEquipe21.fr",
+            "name": "La chaine l’Équipe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
+            "slug": "la-chaine-l-quipe",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:20:00+02:00",
+          "end": "2026-05-24T19:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "71ef4b682653",
+          "sport": "equitation",
+          "competition": null,
+          "title": "Epreuve des 6 Barres",
+          "subtitle": "Jumping international de Bourg-e...",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:25:00+02:00",
+          "end": "2026-05-24T20:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "93f30081a10e",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Malaga / Racing Santander",
+          "subtitle": "Liga 2 - 41e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Malaga",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Racing Santander",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-24T18:48:00+02:00",
+          "end": "2026-05-24T20:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "faa8b72941cf",
+          "sport": "tennis",
+          "competition": "Roland-Garros",
+          "title": "Tennis : Roland-Garros",
+          "subtitle": "Tennis",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360-1",
+            "is_free": false
+          },
+          "start": "2026-05-24T19:00:00+02:00",
+          "end": "2026-05-24T19:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "286f936c4e9b",
+          "sport": "motogp",
+          "competition": "Le Meilleur",
+          "title": "High Side : Le Meilleur",
+          "subtitle": "All-Tares 2023 (épisode 1)",
+          "description": "Voici le pire élément pour faire de la moto : le sable. Bader et Adrian vont suivre 2 formations distinctes : l'une avec Serge Nuques et son fils Joey, l'autre avec la chaîne MX Test, en la personne de Pierrick Paget. Deux écoles, pour au final ...",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ABMoteurs.fr",
+            "name": "Automoto la chaine",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~af9996c05345acc0.png/480x480/quality/100/automoto.png",
+            "slug": "automoto-la-chaine",
+            "is_free": false
+          },
+          "start": "2026-05-24T19:05:00+02:00",
+          "end": "2026-05-24T20:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "787e0bef36ec",
+          "sport": "tennis",
+          "competition": null,
+          "title": "1e tour",
+          "subtitle": "Roland-Garros",
+          "description": "En direct de Paris (FRA)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-05-24T19:45:00+02:00",
+          "end": "2026-05-24T20:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f8a8eb2105b1",
+          "sport": "basket",
+          "competition": null,
+          "title": "Basket-ball",
+          "subtitle": null,
+          "description": "Que ce soit en NBA, dans les différentes coupes européennes, l'Euroligue pour ne citer que la plus célèbre, dans les différents championnats nationaux ou régionaux, voire dans les compétitions internationales ou continentales, le basketball ne manque pas d'équipes à supporter pour les nombreux fans. D'Australie en Amérique du Nord, en passant par la Russie, l'Europe, ou la chaude région balkanique, ce sport n'en finit pas de déchaîner les passions, offrant un spectacle souvent inégalé en termes d'intensité et d'incertitudes. Un shoot à trois points à la dernière seconde fera-t-il cette fois-ci encore la différence ? Qui de ces héros modernes fera la plus belle passe à son coéquipier de club ou de sélection ? Qui aura l'honneur d'être MVP ? Toutes ces réponses à l'issue du quatrième quart-temps...",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-05-24T19:45:00+02:00",
+          "end": "2026-05-24T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bf09e72d61c8",
+          "sport": "other",
+          "competition": null,
+          "title": "Stade d'Abidjan - Zoman",
+          "subtitle": "Ligue 1 Ivoirienne - 30e journée",
+          "description": null,
+          "team1": {
+            "name": "Ligue 1 Ivoirienne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "30e journée",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "APlusIvoire.ci",
+            "name": "A+ Ivoire",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180681/canal-ouah/CHN43FB/AIVOIRE?=.png",
+            "slug": "a-ivoire",
+            "is_free": false
+          },
+          "start": "2026-05-24T19:57:00+02:00",
+          "end": "2026-05-24T21:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f33d7ee87b4e",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "Course messieurs. Coupe du monde de cross-country. 2e manche.",
+          "description": "Coupe du monde de cross-country. 2e manche. Course messieurs. A Nove Mesto (République tchèque).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:00:00+02:00",
+          "end": "2026-05-24T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "781e072acf98",
+          "sport": "other",
+          "competition": null,
+          "title": "Xtra-balles",
+          "subtitle": null,
+          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MaTele.be",
+            "name": "MaTele",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
+            "slug": "matele",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:00:00+02:00",
+          "end": "2026-05-24T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "004ab80d5321",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:00:00+02:00",
+          "end": "2026-05-24T20:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "67a0ce1af46e",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:00:00+02:00",
+          "end": "2026-05-24T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "10adf5da4b4c",
+          "sport": "other",
+          "competition": "Championnat du monde",
+          "title": "Slovaquie / Team Canada",
+          "subtitle": "Championnat du monde",
+          "description": "Entre Slovaquie et Canada, on peut s'attendre à une partie engagée sur la glace de Fribourg, dans la BCF-Arena. Les deux nations ont cette expérience du haut niveau en hockey et des formations rompues à ce genre de joute. En 2025, le Canada avait perdu en quart de finale contre le Danemark.",
+          "team1": {
+            "name": "Slovaquie",
+            "type": "country",
+            "short": null,
+            "country_code": "sk",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Team Canada",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:10:00+02:00",
+          "end": "2026-05-24T22:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9e08d26c4b9f",
+          "sport": "other",
+          "competition": "Championnat du monde",
+          "title": "Finlande / Autriche",
+          "subtitle": "Championnat du monde",
+          "description": "Retransmission d'un match du Championnat du monde de hockey sur glace, organisé par l'IIHF. Créée en 1920, cette compétition, coïncidant au début des play-offs de la LNH. réunit les joueurs ne disputant pas ce championnat nord-américain ou les joueurs éliminés plutôt pourront être sélectionné. Regroupant 16 équipes, la bataille fera rage entre les meilleurs nations mondiales afin de remporter le titre suprême.",
+          "team1": {
+            "name": "Finlande",
+            "type": "country",
+            "short": null,
+            "country_code": "fi",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Autriche",
+            "type": "country",
+            "short": "Autriche",
+            "country_code": "at",
+            "logo_url": "https://flagcdn.com/w80/at.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:15:00+02:00",
+          "end": "2026-05-24T21:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "343103acda56",
+          "sport": "other",
+          "competition": null,
+          "title": "Auto-moto",
+          "subtitle": null,
+          "description": "Auto-moto est un magazine télévisé consacré à l'automobile et à la moto.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "2MMonde.fr",
+            "name": "2M Maroc",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/54/canal-ouah/CHN43FB/CHN43FB_54_20251013-ePgp?=.png",
+            "slug": "2m-maroc",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:20:00+02:00",
+          "end": "2026-05-24T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1e06598a4c08",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Aston Villa",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:51:00+02:00",
+          "end": "2026-05-24T22:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ac7b2fb46895",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Villarreal / Atlético Madrid",
+          "subtitle": "Liga - 38e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:56:00+02:00",
+          "end": "2026-05-24T21:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "609693a4c0fc",
+          "sport": "tennis",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Résumé quotidien avec tous les résultats, les plus beaux échanges et toutes les séquences à ne pas manquer.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5Monde.fr",
+            "name": "TV5 Monde",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
+            "slug": "tv5-monde",
+            "is_free": false
+          },
+          "start": "2026-05-24T20:56:00+02:00",
+          "end": "2026-05-24T21:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0eb3e2a1a245",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 15e étape. Voghera - Milan (157 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 15e étape. Voghera - Milan (157 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-24T21:00:00+02:00",
+          "end": "2026-05-24T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "05aaf8bfb043",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Après la Chine, direction la Suisse et Berne, pour la deuxième épreuve de bloc de la saison de coupe du monde. A suivre, dans cette discipline, le triple tenant du titre, le Japonais Sorato Anraku. Parmi ses principaux adversaires, le Français Mejdi Schalck, 22 ans, médaillé d'argent au classement général de bloc, la saison dernière.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-24T21:00:00+02:00",
+          "end": "2026-05-24T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f94293a24bee",
+          "sport": "other",
+          "competition": null,
+          "title": "Xtra-balles",
+          "subtitle": null,
+          "description": "Les temps forts du week-end en sports ballon : football, basket et volley - Direct",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MaTele.be",
+            "name": "MaTele",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-fw_3XheZXvJcMifXn55ypj6IQI0IIgNL1zhQjptujNtglQJQaAbhOLA2pA&amp;s",
+            "slug": "matele",
+            "is_free": false
+          },
+          "start": "2026-05-24T21:00:00+02:00",
+          "end": "2026-05-24T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "baff9eca15bf",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-05-24T21:00:00+02:00",
+          "end": "2026-05-24T21:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c372a65a83c1",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E35",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-05-24T21:00:00+02:00",
+          "end": "2026-05-24T21:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "506c6fa0dcf2",
+          "sport": "f1",
+          "competition": "Grand Prix du Canada",
+          "title": "Formule 2 : Grand Prix du Canada",
+          "subtitle": "Feature Race",
+          "description": "Le Grand Prix du Canada de Formule 2 met à l'épreuve de jeunes talents qui s'affrontent roue contre roue. Stratégie, vitesse et rebondissements rythment le circuit.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-24T21:30:00+02:00",
+          "end": "2026-05-24T22:31:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
