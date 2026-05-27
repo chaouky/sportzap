@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-27T18:24:01.963743+00:00",
+    "generated_at": "2026-05-27T21:51:58.206854+00:00",
     "total_events": 974,
     "total_days": 7,
     "sports": [
@@ -28,23 +28,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
         "is_free": false
       },
       {
@@ -53,68 +38,8 @@
         "is_free": false
       },
       {
-        "slug": "srf-zwei",
-        "name": "SRF zwei",
-        "is_free": false
-      },
-      {
-        "slug": "tipik",
-        "name": "Tipik",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "rts-2",
-        "name": "RTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "la-chaine-l-quipe",
-        "name": "La chaine l’Équipe",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus",
-        "name": "Canal+ Live 1",
-        "is_free": false
-      },
-      {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde",
-        "name": "TV5 Monde",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "afric-ble",
-        "name": "Africâble",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -148,8 +73,18 @@
         "is_free": true
       },
       {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "bein-1",
         "name": "beIN SPORTS 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -173,8 +108,28 @@
         "is_free": false
       },
       {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
         "slug": "arte",
         "name": "Arte",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -208,8 +163,28 @@
         "is_free": false
       },
       {
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
+        "is_free": false
+      },
+      {
+        "slug": "srf-zwei",
+        "name": "SRF zwei",
+        "is_free": false
+      },
+      {
         "slug": "rds",
         "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "rts-2",
+        "name": "RTS 2",
         "is_free": false
       },
       {
@@ -220,6 +195,11 @@
       {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "la-chaine-l-quipe",
+        "name": "La chaine l’Équipe",
         "is_free": false
       },
       {
@@ -240,6 +220,26 @@
       {
         "slug": "eurosport-360-1",
         "name": "Eurosport 360 - 1",
+        "is_free": false
+      },
+      {
+        "slug": "tipik",
+        "name": "Tipik",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus",
+        "name": "Canal+ Live 1",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde",
+        "name": "TV5 Monde",
+        "is_free": false
+      },
+      {
+        "slug": "afric-ble",
+        "name": "Africâble",
         "is_free": false
       },
       {
@@ -504,496 +504,6 @@
           "result": null
         },
         {
-          "id": "9833b9d818ac",
-          "sport": "tennis",
-          "competition": null,
-          "title": "2e tour. 2e partie",
-          "subtitle": "Roland-Garros",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-27T18:46:00+02:00",
-          "end": "2026-05-27T23:31:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "29b1af521d75",
-          "sport": "basket",
-          "competition": "Africa League - Demi-finale",
-          "title": "Al Ahly / RSSB Tigers Basketball Club",
-          "subtitle": "Africa League - Demi-finale",
-          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
-          "team1": {
-            "name": "Al Ahly",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RSSB Tigers Basketball Club",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-27T19:00:00+02:00",
-          "end": "2026-05-27T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "344af9becb3f",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / Arsenal",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-27T19:19:00+02:00",
-          "end": "2026-05-27T21:03:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "05d941dbc96d",
-          "sport": "basket",
-          "competition": "NBA - Playoffs. Finale de confér",
-          "title": "Oklahoma City Thunder / San Antonio Spurs",
-          "subtitle": "NBA - Playoffs. Finale de confér...",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "Oklahoma City Thunder",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-27T19:23:00+02:00",
-          "end": "2026-05-27T21:26:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7a52322b6cb8",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Malaga / Racing Santander",
-          "subtitle": "Liga 2 - 41e  journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Malaga",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Racing Santander",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-27T19:35:00+02:00",
-          "end": "2026-05-27T21:21:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e808a54ae8ed",
-          "sport": "football",
-          "competition": null,
-          "title": "Crystal Palace - Rayo Vallacano",
-          "subtitle": "Ligue Conférence - Finale",
-          "description": "Au programme, les plus belles affiches de la Ligue Conférence, compétition européenne de football organisée par l'UEFA.",
-          "team1": {
-            "name": "Ligue Conférence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-05-27T20:10:00+02:00",
-          "end": "2026-05-27T23:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "993f3ec80afb",
-          "sport": "football",
-          "competition": null,
-          "title": "Crystal Palace / Rayo Vallecano",
-          "subtitle": null,
-          "description": "C'est l'heure de la finale 2026 de la Ligue Conférence, disputée cette année au Leipzig Stadium, en Allemagne, entre les Londoniens de Crystal Palace et les Madrilènes du Rayo Vallecano. Pour se qualifier, les Anglais ont battu les Ukrainiens du Shakhtar Donestk alors que les Espagnols ont battu les Français du RC Strasbourg lors des demi-finales. Lequel des deux clubs va succéder au palmarès à Chelsea, vainqueur en 2025 ? Attention, risque de prolongations et de tirs au but en cas d'égalité à la fin du temps réglementaire. Le vainqueur de l'édition 2025/2026 obtiendra une place en phase de ligue de l'UEFA Europa League pour la prochaine saison à venir.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "LaDeux.be",
-            "name": "Tipik",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
-            "slug": "tipik",
-            "is_free": false
-          },
-          "start": "2026-05-27T20:20:00+02:00",
-          "end": "2026-05-27T23:36:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "175a3551b75f",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Saint-Etienne / Nice",
-          "subtitle": null,
-          "description": "Match aller de barrages du Championnat de France de Ligue 1 McDonald's 2025/26.",
-          "team1": {
-            "name": "AS Saint-Étienne",
-            "type": "club",
-            "short": "ASSE",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-05-27T20:40:00+02:00",
-          "end": "2026-05-27T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4383a7a5bc6a",
-          "sport": "football",
-          "competition": "Ligue Conférence - Finale",
-          "title": "Crystal Palace / Rayo Vallecano",
-          "subtitle": "Ligue Conférence - Finale",
-          "description": "C'est en Allemagne, au Leipzig Stadium, que prend place la finale de la Ligue Conférence entre les Londoniens de Crystal Palace et les Madrilènes du Rayo Vallecano. Pour se qualifier, les Anglais ont battu les Ukrainiens du Shakhtar Donestk alors que les Espagnols ont battu les Français du RC Strasbourg lors des demi-finales. Lequel des deux clubs va succéder au palmarès à Chelsea, vainqueur en 2025 ?",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-05-27T20:50:00+02:00",
-          "end": "2026-05-27T23:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f879ce37e94c",
-          "sport": "football",
-          "competition": "Ligue Conférence - Finale",
-          "title": "Crystal Palace / Rayo Vallecano",
-          "subtitle": "Ligue Conférence - Finale",
-          "description": "Au programme, les plus belles affiches de la Ligue Conférence, compétition européenne de football organisée par l'UEFA.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-27T20:55:00+02:00",
-          "end": "2026-05-27T23:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "372c364e37f6",
-          "sport": "basket",
-          "competition": "Betclic Elite",
-          "title": "Basket-ball : Betclic Elite",
-          "subtitle": null,
-          "description": "Après les matches aller, les quarts de finale retour peuvent déjà faire basculer ces séries disputées au meilleur des trois matches. Les équipes battues lors de la première manche n'ont plus le droit à l'erreur, tandis que les vainqueurs peuvent déjà valider leur billet pour le dernier carré de la compétition. Dans cette course au titre, chaque possession peut s'avérer décisive.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LEquipe21.fr",
-            "name": "La chaine l’Équipe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
-            "slug": "la-chaine-l-quipe",
-            "is_free": false
-          },
-          "start": "2026-05-27T20:58:00+02:00",
-          "end": "2026-05-27T22:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "35b0f98e01ab",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / Brentford",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-27T21:00:00+02:00",
-          "end": "2026-05-27T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d7791af2ffac",
-          "sport": "football",
-          "competition": "Ligue Conférence - Finale",
-          "title": "Crystal Palace / Rayo Vallecano",
-          "subtitle": "Ligue Conférence - Finale",
-          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusLive1.fr",
-            "name": "Canal+ Live 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
-            "slug": "canal-plus",
-            "is_free": false
-          },
-          "start": "2026-05-27T21:00:00+02:00",
-          "end": "2026-05-27T22:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "90327ebfa9a5",
-          "sport": "golf",
-          "competition": "HotelPlanner Tour, Challenge du Danemark",
-          "title": "Golf : HotelPlanner Tour, Challenge du Danemark",
-          "subtitle": "Golf",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-05-27T21:00:00+02:00",
-          "end": "2026-05-27T21:26:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "e39a47c08b33",
           "sport": "mma",
           "competition": "PFL",
@@ -1025,169 +535,7 @@
           },
           "start": "2026-05-27T21:00:00+02:00",
           "end": "2026-05-28T00:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1208a1fd5d08",
-          "sport": "tennis",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Résumé quotidien avec tous les résultats, les plus beaux échanges et toutes les séquences à ne pas manquer.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5Monde.fr",
-            "name": "TV5 Monde",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
-            "slug": "tv5-monde",
-            "is_free": false
-          },
-          "start": "2026-05-27T21:00:00+02:00",
-          "end": "2026-05-27T21:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "50790bd82f15",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Sunderland / Chelsea",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chelsea FC",
-            "type": "club",
-            "short": "Chelsea",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-27T21:03:00+02:00",
-          "end": "2026-05-27T21:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "57a96117780a",
-          "sport": "other",
-          "competition": null,
-          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
-          "subtitle": "Doc. Sport",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-05-27T21:48:00+02:00",
-          "end": "2026-05-27T22:44:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7ec701ece78e",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / Arsenal",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-27T21:54:00+02:00",
-          "end": "2026-05-27T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a699e9bb8fea",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-05-27T22:30:00+02:00",
-          "end": "2026-05-27T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1225,7 +573,7 @@
           },
           "start": "2026-05-27T22:30:00+02:00",
           "end": "2026-05-28T00:12:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1263,7 +611,7 @@
           },
           "start": "2026-05-27T22:30:00+02:00",
           "end": "2026-05-28T00:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1287,7 +635,7 @@
           },
           "start": "2026-05-27T22:44:00+02:00",
           "end": "2026-05-28T00:41:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1311,7 +659,7 @@
           },
           "start": "2026-05-27T23:00:00+02:00",
           "end": "2026-05-28T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1335,7 +683,7 @@
           },
           "start": "2026-05-27T23:00:00+02:00",
           "end": "2026-05-28T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1359,7 +707,7 @@
           },
           "start": "2026-05-27T23:10:00+02:00",
           "end": "2026-05-28T01:10:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1383,7 +731,7 @@
           },
           "start": "2026-05-27T23:10:00+02:00",
           "end": "2026-05-28T01:10:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1421,7 +769,7 @@
           },
           "start": "2026-05-27T23:15:00+02:00",
           "end": "2026-05-28T08:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1459,7 +807,7 @@
           },
           "start": "2026-05-27T23:24:00+02:00",
           "end": "2026-05-28T01:07:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1497,7 +845,7 @@
           },
           "start": "2026-05-27T23:30:00+02:00",
           "end": "2026-05-28T01:04:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1521,7 +869,7 @@
           },
           "start": "2026-05-27T23:45:00+02:00",
           "end": "2026-05-28T01:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1559,7 +907,7 @@
           },
           "start": "2026-05-27T23:47:00+02:00",
           "end": "2026-05-28T01:32:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5132,6 +4480,68 @@
           "result": null
         },
         {
+          "id": "9833b9d818ac",
+          "sport": "tennis",
+          "competition": null,
+          "title": "2e tour. 2e partie",
+          "subtitle": "Roland-Garros",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-27T18:46:00+02:00",
+          "end": "2026-05-27T23:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "29b1af521d75",
+          "sport": "basket",
+          "competition": "Africa League - Demi-finale",
+          "title": "Al Ahly / RSSB Tigers Basketball Club",
+          "subtitle": "Africa League - Demi-finale",
+          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
+          "team1": {
+            "name": "Al Ahly",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RSSB Tigers Basketball Club",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-27T19:00:00+02:00",
+          "end": "2026-05-27T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "31bc4cf9be0c",
           "sport": "tennis",
           "competition": "Roland-Garros",
@@ -5156,6 +4566,120 @@
           "result": null
         },
         {
+          "id": "344af9becb3f",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / Arsenal",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-27T19:19:00+02:00",
+          "end": "2026-05-27T21:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "05d941dbc96d",
+          "sport": "basket",
+          "competition": "NBA - Playoffs. Finale de confér",
+          "title": "Oklahoma City Thunder / San Antonio Spurs",
+          "subtitle": "NBA - Playoffs. Finale de confér...",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "Oklahoma City Thunder",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-27T19:23:00+02:00",
+          "end": "2026-05-27T21:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7a52322b6cb8",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Malaga / Racing Santander",
+          "subtitle": "Liga 2 - 41e  journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Malaga",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Racing Santander",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-27T19:35:00+02:00",
+          "end": "2026-05-27T21:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "2d412082f558",
           "sport": "cyclisme",
           "competition": "Tour d'Italie",
@@ -5173,6 +4697,482 @@
           },
           "start": "2026-05-27T19:50:00+02:00",
           "end": "2026-05-27T20:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e808a54ae8ed",
+          "sport": "football",
+          "competition": null,
+          "title": "Crystal Palace - Rayo Vallacano",
+          "subtitle": "Ligue Conférence - Finale",
+          "description": "Au programme, les plus belles affiches de la Ligue Conférence, compétition européenne de football organisée par l'UEFA.",
+          "team1": {
+            "name": "Ligue Conférence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-05-27T20:10:00+02:00",
+          "end": "2026-05-27T23:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "993f3ec80afb",
+          "sport": "football",
+          "competition": null,
+          "title": "Crystal Palace / Rayo Vallecano",
+          "subtitle": null,
+          "description": "C'est l'heure de la finale 2026 de la Ligue Conférence, disputée cette année au Leipzig Stadium, en Allemagne, entre les Londoniens de Crystal Palace et les Madrilènes du Rayo Vallecano. Pour se qualifier, les Anglais ont battu les Ukrainiens du Shakhtar Donestk alors que les Espagnols ont battu les Français du RC Strasbourg lors des demi-finales. Lequel des deux clubs va succéder au palmarès à Chelsea, vainqueur en 2025 ? Attention, risque de prolongations et de tirs au but en cas d'égalité à la fin du temps réglementaire. Le vainqueur de l'édition 2025/2026 obtiendra une place en phase de ligue de l'UEFA Europa League pour la prochaine saison à venir.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "LaDeux.be",
+            "name": "Tipik",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
+            "slug": "tipik",
+            "is_free": false
+          },
+          "start": "2026-05-27T20:20:00+02:00",
+          "end": "2026-05-27T23:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "175a3551b75f",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Saint-Etienne / Nice",
+          "subtitle": null,
+          "description": "Match aller de barrages du Championnat de France de Ligue 1 McDonald's 2025/26.",
+          "team1": {
+            "name": "AS Saint-Étienne",
+            "type": "club",
+            "short": "ASSE",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-05-27T20:40:00+02:00",
+          "end": "2026-05-27T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4383a7a5bc6a",
+          "sport": "football",
+          "competition": "Ligue Conférence - Finale",
+          "title": "Crystal Palace / Rayo Vallecano",
+          "subtitle": "Ligue Conférence - Finale",
+          "description": "C'est en Allemagne, au Leipzig Stadium, que prend place la finale de la Ligue Conférence entre les Londoniens de Crystal Palace et les Madrilènes du Rayo Vallecano. Pour se qualifier, les Anglais ont battu les Ukrainiens du Shakhtar Donestk alors que les Espagnols ont battu les Français du RC Strasbourg lors des demi-finales. Lequel des deux clubs va succéder au palmarès à Chelsea, vainqueur en 2025 ?",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-05-27T20:50:00+02:00",
+          "end": "2026-05-27T23:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f879ce37e94c",
+          "sport": "football",
+          "competition": "Ligue Conférence - Finale",
+          "title": "Crystal Palace / Rayo Vallecano",
+          "subtitle": "Ligue Conférence - Finale",
+          "description": "Au programme, les plus belles affiches de la Ligue Conférence, compétition européenne de football organisée par l'UEFA.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-27T20:55:00+02:00",
+          "end": "2026-05-27T23:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "372c364e37f6",
+          "sport": "basket",
+          "competition": "Betclic Elite",
+          "title": "Basket-ball : Betclic Elite",
+          "subtitle": null,
+          "description": "Après les matches aller, les quarts de finale retour peuvent déjà faire basculer ces séries disputées au meilleur des trois matches. Les équipes battues lors de la première manche n'ont plus le droit à l'erreur, tandis que les vainqueurs peuvent déjà valider leur billet pour le dernier carré de la compétition. Dans cette course au titre, chaque possession peut s'avérer décisive.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LEquipe21.fr",
+            "name": "La chaine l’Équipe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
+            "slug": "la-chaine-l-quipe",
+            "is_free": false
+          },
+          "start": "2026-05-27T20:58:00+02:00",
+          "end": "2026-05-27T22:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "35b0f98e01ab",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / Brentford",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-27T21:00:00+02:00",
+          "end": "2026-05-27T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d7791af2ffac",
+          "sport": "football",
+          "competition": "Ligue Conférence - Finale",
+          "title": "Crystal Palace / Rayo Vallecano",
+          "subtitle": "Ligue Conférence - Finale",
+          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusLive1.fr",
+            "name": "Canal+ Live 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1135/canal-ouah/CHN43FB/CHN43FB_1135_10092024-NNKZ?=.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-05-27T21:00:00+02:00",
+          "end": "2026-05-27T22:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "90327ebfa9a5",
+          "sport": "golf",
+          "competition": "HotelPlanner Tour, Challenge du Danemark",
+          "title": "Golf : HotelPlanner Tour, Challenge du Danemark",
+          "subtitle": "Golf",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-05-27T21:00:00+02:00",
+          "end": "2026-05-27T21:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1208a1fd5d08",
+          "sport": "tennis",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Résumé quotidien avec tous les résultats, les plus beaux échanges et toutes les séquences à ne pas manquer.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5Monde.fr",
+            "name": "TV5 Monde",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
+            "slug": "tv5-monde",
+            "is_free": false
+          },
+          "start": "2026-05-27T21:00:00+02:00",
+          "end": "2026-05-27T21:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "50790bd82f15",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Sunderland / Chelsea",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chelsea FC",
+            "type": "club",
+            "short": "Chelsea",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-27T21:03:00+02:00",
+          "end": "2026-05-27T21:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "57a96117780a",
+          "sport": "other",
+          "competition": null,
+          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
+          "subtitle": "Doc. Sport",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-05-27T21:48:00+02:00",
+          "end": "2026-05-27T22:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7ec701ece78e",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / Arsenal",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-27T21:54:00+02:00",
+          "end": "2026-05-27T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a699e9bb8fea",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-05-27T22:30:00+02:00",
+          "end": "2026-05-27T23:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
