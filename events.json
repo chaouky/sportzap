@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-28T02:48:49.999990+00:00",
+    "generated_at": "2026-05-28T08:14:02.144900+00:00",
     "total_events": 894,
     "total_days": 7,
     "sports": [
@@ -29,52 +29,12 @@
       },
       {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "srf-info",
-        "name": "SRF info",
-        "is_free": false
-      },
-      {
-        "slug": "amitv",
-        "name": "AMITV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
         "is_free": false
       },
       {
@@ -83,38 +43,18 @@
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "tv5-monde-pacifique",
-        "name": "TV5 Monde Pacifique",
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "afric-ble",
-        "name": "Africâble",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -133,6 +73,11 @@
         "is_free": false
       },
       {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
         "slug": "ligue-1",
         "name": "Ligue 1+",
         "is_free": false
@@ -143,13 +88,33 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "guadeloupe-1-re",
         "name": "Guadeloupe 1ère",
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "la-chaine-l-quipe",
         "name": "La chaine l’Équipe",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
         "is_free": false
       },
       {
@@ -163,13 +128,28 @@
         "is_free": false
       },
       {
+        "slug": "srf-info",
+        "name": "SRF info",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
         "is_free": false
       },
       {
+        "slug": "amitv",
+        "name": "AMITV",
+        "is_free": false
+      },
+      {
         "slug": "srf-zwei",
         "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "afric-ble",
+        "name": "Africâble",
         "is_free": false
       },
       {
@@ -210,6 +190,26 @@
       {
         "slug": "tv5mondeameriquelatine-fr",
         "name": "TV5MondeAmeriqueLatine.fr",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
+        "slug": "tv5-monde-pacifique",
+        "name": "TV5 Monde Pacifique",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
         "is_free": false
       },
       {
@@ -495,718 +495,6 @@
       "event_count": 123,
       "events": [
         {
-          "id": "2095766b862a",
-          "sport": "golf",
-          "competition": "PGA Tour Champions, Trophée Hassan II",
-          "title": "Golf : PGA Tour Champions, Trophée Hassan II",
-          "subtitle": "Golf",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-05-28T01:10:00+02:00",
-          "end": "2026-05-28T06:37:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e8153f61c304",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's - Barrage all",
-          "title": "Saint-Etienne / Nice",
-          "subtitle": "Ligue 1 McDonald's - Barrage all...",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "AS Saint-Étienne",
-            "type": "club",
-            "short": "ASSE",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-28T03:07:00+02:00",
-          "end": "2026-05-28T04:56:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6ca2abaf5976",
-          "sport": "other",
-          "competition": null,
-          "title": "Abyss, les plongeurs de l'impossible",
-          "subtitle": "En mer de Cortez (Basse-Californie)",
-          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-05-28T03:40:00+02:00",
-          "end": "2026-05-28T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d31fd88da0df",
-          "sport": "tennis",
-          "competition": "Roland-Garros",
-          "title": "Tennis : Roland-Garros",
-          "subtitle": "Tennis",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-05-28T04:00:00+02:00",
-          "end": "2026-05-28T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "454dbd582154",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-28T04:20:00+02:00",
-          "end": "2026-05-28T04:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "765a9641ee3d",
-          "sport": "other",
-          "competition": null,
-          "title": "Level Playing Field",
-          "subtitle": "Amy Burk & Alex-Bobbie Mason",
-          "description": "Features and interviews with athletes, community groups, healthcare professionals and innovators who are driving positive social change in the world of sports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "AMITV.ca",
-            "name": "AMITV",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s62670_h15_ab.png",
-            "slug": "amitv",
-            "is_free": false
-          },
-          "start": "2026-05-28T04:30:00+02:00",
-          "end": "2026-05-28T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d02abdbd26c0",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Sunderland / Chelsea",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chelsea FC",
-            "type": "club",
-            "short": "Chelsea",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-28T04:31:00+02:00",
-          "end": "2026-05-28T06:37:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4cb636039728",
-          "sport": "tennis",
-          "competition": null,
-          "title": "2e tour. 2e partie",
-          "subtitle": "Roland-Garros",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-28T04:37:00+02:00",
-          "end": "2026-05-28T06:38:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cf183b469736",
-          "sport": "football",
-          "competition": "Bundesliga - Barrage retour",
-          "title": "Paderborn / Wolfsburg",
-          "subtitle": "Bundesliga - Barrage retour",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Paderborn",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolfsburg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-28T04:44:00+02:00",
-          "end": "2026-05-28T07:26:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f1af93ac8107",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Athletic Bilbao",
-          "subtitle": "Liga - 38e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Athletic Bilbao",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-28T04:54:00+02:00",
-          "end": "2026-05-28T07:06:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "984d60fed367",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 17e étape. Cassano d'Adda - Andalo (202 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 17e étape. Cassano d'Adda - Andalo (202 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-28T05:00:00+02:00",
-          "end": "2026-05-28T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d5acdb0e5a8b",
-          "sport": "other",
-          "competition": null,
-          "title": "Fais ton sport à la maison !",
-          "subtitle": "Du cardio-training comme à l'école !",
-          "description": "Dans cet épisode, Elsa et Teric vous proposent un programme \"cour de récréation\" avec des jeux ludiques et cardio. Sauts à la corde, marelle avec des squats, pas chassés : retour en enfance garanti avec nos coachs ! Sonia, notre diététicienne, nous partage ensuite ses conseils pour un apéro sain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV7Bordeaux.fr",
-            "name": "TV7 Bordeaux",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4f1c8ecf76e8af37.png/480x480/quality/100/tv7-bordeaux.png",
-            "slug": "tv7-bordeaux",
-            "is_free": false
-          },
-          "start": "2026-05-28T06:10:00+02:00",
-          "end": "2026-05-28T06:58:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c45b8864ee17",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-28T06:15:00+02:00",
-          "end": "2026-05-28T06:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8d482f2472d0",
-          "sport": "other",
-          "competition": null,
-          "title": "Le P'tit Pac",
-          "subtitle": "Saison 3 - Episode 9",
-          "description": "Un jeu dérivé du célèbre \\\" Petit Bac \\\" qui va mettre vos connaissances à l'épreuve ! Cette semaine, Laurent Chiambretto, Nicolas Pussini, Mathis Desveaux et Yann Lemelle !",
-          "team1": {
-            "name": "Saison 3",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 9",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-28T06:25:00+02:00",
-          "end": "2026-05-28T07:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "136715e16849",
-          "sport": "basket",
-          "competition": "Africa League - Demi-finale",
-          "title": "Al Ahly / RSSB Tigers Basketball Club",
-          "subtitle": "Africa League - Demi-finale",
-          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
-          "team1": {
-            "name": "Al Ahly",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RSSB Tigers Basketball Club",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-28T06:46:00+02:00",
-          "end": "2026-05-28T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d3e3d08c7876",
-          "sport": "other",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondePacifique.fr",
-            "name": "TV5 Monde Pacifique",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-pacifique",
-            "is_free": false
-          },
-          "start": "2026-05-28T06:52:41+02:00",
-          "end": "2026-05-28T06:58:58+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1df8abec6032",
-          "sport": "other",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-05-28T06:53:13+02:00",
-          "end": "2026-05-28T06:59:29+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "854334997a1d",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale messieurs. Coupe du monde. 2e manche bloc.",
-          "description": "Coupe du monde. 2e manche bloc. Finale messieurs. A Berne (Suisse).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-28T07:00:00+02:00",
-          "end": "2026-05-28T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a231a5368e67",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Villarreal / Atlético Madrid",
-          "subtitle": "Liga - 38e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-28T07:04:00+02:00",
-          "end": "2026-05-28T08:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6009fad9bf5f",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-28T07:15:00+02:00",
-          "end": "2026-05-28T07:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2203010a78ce",
-          "sport": "football",
-          "competition": "Ligue Conférence - Finale",
-          "title": "Crystal Palace / Rayo Vallecano",
-          "subtitle": "Ligue Conférence - Finale",
-          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-05-28T07:23:00+02:00",
-          "end": "2026-05-28T09:07:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "48cd5ecea0d9",
-          "sport": "tennis",
-          "competition": null,
-          "title": "2e tour. 1re partie",
-          "subtitle": "Roland-Garros",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-28T07:37:00+02:00",
-          "end": "2026-05-28T09:44:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9ccb7da08f56",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris Saint-Germain - Liverpool",
-          "subtitle": null,
-          "description": "Match aller des quarts de finale de l'UEFA Champions League : Paris Saint-Germain - Liverpool.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-05-28T07:55:00+02:00",
-          "end": "2026-05-28T09:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d3131cdde745",
-          "sport": "other",
-          "competition": null,
-          "title": "Level Playing Field",
-          "subtitle": "Amy Burk & Alex-Bobbie Mason",
-          "description": "Features and interviews with athletes, community groups, healthcare professionals and innovators who are driving positive social change in the world of sports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "AMITV.ca",
-            "name": "AMITV",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s62670_h15_ab.png",
-            "slug": "amitv",
-            "is_free": false
-          },
-          "start": "2026-05-28T08:30:00+02:00",
-          "end": "2026-05-28T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "53f102085fa6",
-          "sport": "other",
-          "competition": "CHIO d'Aix-la-Chapelle",
-          "title": "Equitation : CHIO d'Aix-la-Chapelle",
-          "subtitle": "Saut d'obstacles. CHIO d'Aix-la-Chapelle.",
-          "description": "CHIO d'Aix-la-Chapelle. Saut d'obstacles. En Allemagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-05-28T08:30:00+02:00",
-          "end": "2026-05-28T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "38eea68ee3c6",
           "sport": "golf",
           "competition": "PGA Tour Champions, Trophée Hassan II",
@@ -1224,7 +512,7 @@
           },
           "start": "2026-05-28T09:07:00+02:00",
           "end": "2026-05-28T11:06:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1262,45 +550,7 @@
           },
           "start": "2026-05-28T09:10:00+02:00",
           "end": "2026-05-28T10:46:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8da2a3db6bf3",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-05-28T09:30:00+02:00",
-          "end": "2026-05-28T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1324,7 +574,7 @@
           },
           "start": "2026-05-28T09:30:00+02:00",
           "end": "2026-05-28T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1348,7 +598,7 @@
           },
           "start": "2026-05-28T09:30:00+02:00",
           "end": "2026-05-28T10:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1372,7 +622,7 @@
           },
           "start": "2026-05-28T09:44:00+02:00",
           "end": "2026-05-28T11:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1410,7 +660,7 @@
           },
           "start": "2026-05-28T09:45:00+02:00",
           "end": "2026-05-28T11:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1448,7 +698,7 @@
           },
           "start": "2026-05-28T09:52:00+02:00",
           "end": "2026-05-28T11:38:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1472,7 +722,7 @@
           },
           "start": "2026-05-28T10:00:00+02:00",
           "end": "2026-05-28T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3821,6 +3071,30 @@
           "result": null
         },
         {
+          "id": "2095766b862a",
+          "sport": "golf",
+          "competition": "PGA Tour Champions, Trophée Hassan II",
+          "title": "Golf : PGA Tour Champions, Trophée Hassan II",
+          "subtitle": "Golf",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-05-28T01:10:00+02:00",
+          "end": "2026-05-28T06:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "280fbb182351",
           "sport": "football",
           "competition": null,
@@ -4103,6 +3377,44 @@
           "result": null
         },
         {
+          "id": "e8153f61c304",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's - Barrage all",
+          "title": "Saint-Etienne / Nice",
+          "subtitle": "Ligue 1 McDonald's - Barrage all...",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "AS Saint-Étienne",
+            "type": "club",
+            "short": "ASSE",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-28T03:07:00+02:00",
+          "end": "2026-05-28T04:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "4f9ac4c9c756",
           "sport": "other",
           "competition": null,
@@ -4182,6 +3494,694 @@
           },
           "start": "2026-05-28T03:15:00+02:00",
           "end": "2026-05-28T03:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6ca2abaf5976",
+          "sport": "other",
+          "competition": null,
+          "title": "Abyss, les plongeurs de l'impossible",
+          "subtitle": "En mer de Cortez (Basse-Californie)",
+          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-05-28T03:40:00+02:00",
+          "end": "2026-05-28T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d31fd88da0df",
+          "sport": "tennis",
+          "competition": "Roland-Garros",
+          "title": "Tennis : Roland-Garros",
+          "subtitle": "Tennis",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-05-28T04:00:00+02:00",
+          "end": "2026-05-28T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "454dbd582154",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-28T04:20:00+02:00",
+          "end": "2026-05-28T04:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "765a9641ee3d",
+          "sport": "other",
+          "competition": null,
+          "title": "Level Playing Field",
+          "subtitle": "Amy Burk & Alex-Bobbie Mason",
+          "description": "Features and interviews with athletes, community groups, healthcare professionals and innovators who are driving positive social change in the world of sports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "AMITV.ca",
+            "name": "AMITV",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s62670_h15_ab.png",
+            "slug": "amitv",
+            "is_free": false
+          },
+          "start": "2026-05-28T04:30:00+02:00",
+          "end": "2026-05-28T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d02abdbd26c0",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Sunderland / Chelsea",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chelsea FC",
+            "type": "club",
+            "short": "Chelsea",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-28T04:31:00+02:00",
+          "end": "2026-05-28T06:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4cb636039728",
+          "sport": "tennis",
+          "competition": null,
+          "title": "2e tour. 2e partie",
+          "subtitle": "Roland-Garros",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-28T04:37:00+02:00",
+          "end": "2026-05-28T06:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cf183b469736",
+          "sport": "football",
+          "competition": "Bundesliga - Barrage retour",
+          "title": "Paderborn / Wolfsburg",
+          "subtitle": "Bundesliga - Barrage retour",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Paderborn",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolfsburg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-28T04:44:00+02:00",
+          "end": "2026-05-28T07:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f1af93ac8107",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Athletic Bilbao",
+          "subtitle": "Liga - 38e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Athletic Bilbao",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-28T04:54:00+02:00",
+          "end": "2026-05-28T07:06:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "984d60fed367",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 17e étape. Cassano d'Adda - Andalo (202 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 17e étape. Cassano d'Adda - Andalo (202 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-28T05:00:00+02:00",
+          "end": "2026-05-28T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d5acdb0e5a8b",
+          "sport": "other",
+          "competition": null,
+          "title": "Fais ton sport à la maison !",
+          "subtitle": "Du cardio-training comme à l'école !",
+          "description": "Dans cet épisode, Elsa et Teric vous proposent un programme \"cour de récréation\" avec des jeux ludiques et cardio. Sauts à la corde, marelle avec des squats, pas chassés : retour en enfance garanti avec nos coachs ! Sonia, notre diététicienne, nous partage ensuite ses conseils pour un apéro sain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV7Bordeaux.fr",
+            "name": "TV7 Bordeaux",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4f1c8ecf76e8af37.png/480x480/quality/100/tv7-bordeaux.png",
+            "slug": "tv7-bordeaux",
+            "is_free": false
+          },
+          "start": "2026-05-28T06:10:00+02:00",
+          "end": "2026-05-28T06:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c45b8864ee17",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-28T06:15:00+02:00",
+          "end": "2026-05-28T06:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8d482f2472d0",
+          "sport": "other",
+          "competition": null,
+          "title": "Le P'tit Pac",
+          "subtitle": "Saison 3 - Episode 9",
+          "description": "Un jeu dérivé du célèbre \\\" Petit Bac \\\" qui va mettre vos connaissances à l'épreuve ! Cette semaine, Laurent Chiambretto, Nicolas Pussini, Mathis Desveaux et Yann Lemelle !",
+          "team1": {
+            "name": "Saison 3",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 9",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-28T06:25:00+02:00",
+          "end": "2026-05-28T07:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "136715e16849",
+          "sport": "basket",
+          "competition": "Africa League - Demi-finale",
+          "title": "Al Ahly / RSSB Tigers Basketball Club",
+          "subtitle": "Africa League - Demi-finale",
+          "description": "Diffusion des matchs de la Basketball Africa League. C'est une nouvelle compétition de basket-ball, créée en 2019, avec le soutien de la FIBA et de la NBA, afin de remplacer la FIBA Africa Basketball League. Sa première édition a été reportée de 2020 à 2021 à cause de la pandémie. Les douze équipes qualifiées se battent en deux groupes de six pour les play-offs et avoir une chance de devenir le meilleur club en Afrique.",
+          "team1": {
+            "name": "Al Ahly",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RSSB Tigers Basketball Club",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-28T06:46:00+02:00",
+          "end": "2026-05-28T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d3e3d08c7876",
+          "sport": "other",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondePacifique.fr",
+            "name": "TV5 Monde Pacifique",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-pacifique",
+            "is_free": false
+          },
+          "start": "2026-05-28T06:52:41+02:00",
+          "end": "2026-05-28T06:58:58+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1df8abec6032",
+          "sport": "other",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-05-28T06:53:13+02:00",
+          "end": "2026-05-28T06:59:29+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "854334997a1d",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale messieurs. Coupe du monde. 2e manche bloc.",
+          "description": "Coupe du monde. 2e manche bloc. Finale messieurs. A Berne (Suisse).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-28T07:00:00+02:00",
+          "end": "2026-05-28T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a231a5368e67",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Villarreal / Atlético Madrid",
+          "subtitle": "Liga - 38e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-28T07:04:00+02:00",
+          "end": "2026-05-28T08:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6009fad9bf5f",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-28T07:15:00+02:00",
+          "end": "2026-05-28T07:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2203010a78ce",
+          "sport": "football",
+          "competition": "Ligue Conférence - Finale",
+          "title": "Crystal Palace / Rayo Vallecano",
+          "subtitle": "Ligue Conférence - Finale",
+          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-05-28T07:23:00+02:00",
+          "end": "2026-05-28T09:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "48cd5ecea0d9",
+          "sport": "tennis",
+          "competition": null,
+          "title": "2e tour. 1re partie",
+          "subtitle": "Roland-Garros",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-28T07:37:00+02:00",
+          "end": "2026-05-28T09:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9ccb7da08f56",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris Saint-Germain - Liverpool",
+          "subtitle": null,
+          "description": "Match aller des quarts de finale de l'UEFA Champions League : Paris Saint-Germain - Liverpool.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-05-28T07:55:00+02:00",
+          "end": "2026-05-28T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d3131cdde745",
+          "sport": "other",
+          "competition": null,
+          "title": "Level Playing Field",
+          "subtitle": "Amy Burk & Alex-Bobbie Mason",
+          "description": "Features and interviews with athletes, community groups, healthcare professionals and innovators who are driving positive social change in the world of sports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "AMITV.ca",
+            "name": "AMITV",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s62670_h15_ab.png",
+            "slug": "amitv",
+            "is_free": false
+          },
+          "start": "2026-05-28T08:30:00+02:00",
+          "end": "2026-05-28T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "53f102085fa6",
+          "sport": "other",
+          "competition": "CHIO d'Aix-la-Chapelle",
+          "title": "Equitation : CHIO d'Aix-la-Chapelle",
+          "subtitle": "Saut d'obstacles. CHIO d'Aix-la-Chapelle.",
+          "description": "CHIO d'Aix-la-Chapelle. Saut d'obstacles. En Allemagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-05-28T08:30:00+02:00",
+          "end": "2026-05-28T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8da2a3db6bf3",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-05-28T09:30:00+02:00",
+          "end": "2026-05-28T10:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
