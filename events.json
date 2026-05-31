@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-31T03:28:33.418949+00:00",
+    "generated_at": "2026-05-31T07:42:41.230450+00:00",
     "total_events": 1182,
     "total_days": 7,
     "sports": [
@@ -23,28 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
+        "slug": "tva-sports",
+        "name": "TVA Sports",
         "is_free": false
       },
       {
@@ -53,53 +33,8 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-afrique",
-        "name": "TV5 Monde Afrique",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-pacifique",
-        "name": "TV5 Monde Pacifique",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
-        "is_free": false
-      },
-      {
-        "slug": "srf-info",
-        "name": "SRF info",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
-        "is_free": false
-      },
-      {
-        "slug": "auto-plus-tv",
-        "name": "Auto Plus TV",
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -118,8 +53,18 @@
         "is_free": false
       },
       {
-        "slug": "tv5mondemaghreborient-fr",
-        "name": "TV5MondeMaghrebOrient.fr",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -128,9 +73,19 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "cheval-tv",
         "name": "Cheval TV",
         "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "eurosport-1",
@@ -143,6 +98,16 @@
         "is_free": false
       },
       {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "tv5mondemaghreborient-fr",
+        "name": "TV5MondeMaghrebOrient.fr",
+        "is_free": false
+      },
+      {
         "slug": "tipik",
         "name": "Tipik",
         "is_free": false
@@ -150,6 +115,16 @@
       {
         "slug": "rts-2",
         "name": "RTS 2",
+        "is_free": false
+      },
+      {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "srf-info",
+        "name": "SRF info",
         "is_free": false
       },
       {
@@ -175,6 +150,11 @@
       {
         "slug": "tracesportstars",
         "name": "TRACESportStars",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -210,6 +190,11 @@
       {
         "slug": "martinique-1-re",
         "name": "Martinique 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-afrique",
+        "name": "TV5 Monde Afrique",
         "is_free": false
       },
       {
@@ -305,6 +290,21 @@
       {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-pacifique",
+        "name": "TV5 Monde Pacifique",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
+        "is_free": false
+      },
+      {
+        "slug": "auto-plus-tv",
+        "name": "Auto Plus TV",
         "is_free": false
       },
       {
@@ -520,464 +520,6 @@
       "event_count": 178,
       "events": [
         {
-          "id": "439572db6721",
-          "sport": "mma",
-          "competition": "UFC",
-          "title": "MMA : UFC | Song Yadong / Deiveson Figueiredo",
-          "subtitle": null,
-          "description": "La Galaxy Arena de Macau, en Chine, accueille cet UFC Fight Night 277, dont l'évènement principal est le combat poids coqs entre le chinois Song Yadon et le brésilien et ancien champion de la catégorie des poids mouches Deiveson Figueiredo.",
-          "team1": {
-            "name": "Song Yadong",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Deiveson Figueiredo",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-05-31T03:30:00+02:00",
-          "end": "2026-05-31T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7828ed98bb36",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Pentathlon moderne : Coupe du monde",
-          "subtitle": null,
-          "description": "Finale femmes de la World Cup Pentathlon en Bulgarie (Pazardzhik).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-05-31T03:30:00+02:00",
-          "end": "2026-05-31T05:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "52abbe8ef406",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / Brentford",
-          "subtitle": "Premier League - 38e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brentford",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-31T03:45:00+02:00",
-          "end": "2026-05-31T06:21:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "78e326d970b1",
-          "sport": "tennis",
-          "competition": null,
-          "title": "3e tour. 2e partie",
-          "subtitle": "Roland-Garros",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-05-31T04:07:00+02:00",
-          "end": "2026-05-31T06:51:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "26ebc01b8c15",
-          "sport": "other",
-          "competition": null,
-          "title": "Historia que tú hiciste",
-          "subtitle": "Champions League 2021/22. Cuartos de final. Chelsea-Real Madrid",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-05-31T04:10:00+02:00",
-          "end": "2026-05-31T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2873c48e19ab",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Montpellier / Pau",
-          "subtitle": "Top 14 - 25e journée",
-          "description": "Choc du haut du tableau en Top 14 entre le Montpellier Hérault Rugby et la Section Paloise pour savoir qui peut être le dauphin de Toulouse à l'issue de la phase régulière.",
-          "team1": {
-            "name": "Montpellier HSC",
-            "type": "club",
-            "short": "Montpellier",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Section Paloise",
-            "type": "club",
-            "short": "Pau",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2579.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-05-31T04:30:00+02:00",
-          "end": "2026-05-31T07:11:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "27e2b93b5a44",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-05-31T05:00:00+02:00",
-          "end": "2026-05-31T07:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f026cbac440d",
-          "sport": "other",
-          "competition": null,
-          "title": "Podium",
-          "subtitle": "La planche de salut de Lily-Rose",
-          "description": "Affectée par un traumatisme en bas âge, la jeune Lily-Rose Chouinard explique comment la planche à roulettes lui a permis de reprendre confiance.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAfrique.fr",
-            "name": "TV5 Monde Afrique",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180105/canal-ouah/CHN43FB/TV5MONDEAFRIQUE_640x480-SLr8?=.png",
-            "slug": "tv5-monde-afrique",
-            "is_free": false
-          },
-          "start": "2026-05-31T06:20:00+02:00",
-          "end": "2026-05-31T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b7720639b7c4",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Athletic Bilbao",
-          "subtitle": "Liga - 38e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Athletic Bilbao",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-05-31T06:21:00+02:00",
-          "end": "2026-05-31T08:09:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "74ac6343beef",
-          "sport": "other",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondePacifique.fr",
-            "name": "TV5 Monde Pacifique",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-pacifique",
-            "is_free": false
-          },
-          "start": "2026-05-31T06:43:07+02:00",
-          "end": "2026-05-31T06:48:54+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "757e23170730",
-          "sport": "football",
-          "competition": "Ligue des champions - Finale",
-          "title": "Paris-SG / Arsenal",
-          "subtitle": "Ligue des champions - Finale",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-05-31T06:50:00+02:00",
-          "end": "2026-05-31T08:32:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "00e0a9109078",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Montauban / La Rochelle",
-          "subtitle": "Top 14 - 25e journée",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": {
-            "name": "Montauban",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "La Rochelle",
-            "type": "club",
-            "short": "La Rochelle",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-05-31T06:54:00+02:00",
-          "end": "2026-05-31T08:39:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a9fde75bb556",
-          "sport": "other",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-05-31T06:54:20+02:00",
-          "end": "2026-05-31T07:00:07+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9aa7e7d406ef",
-          "sport": "other",
-          "competition": null,
-          "title": "Eishockey-WM-Magazin",
-          "subtitle": "Das Magazin zur Heim-WM der Männer",
-          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-05-31T07:10:00+02:00",
-          "end": "2026-05-31T07:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "451b542128d1",
-          "sport": "other",
-          "competition": null,
-          "title": "UEFA Europa League",
-          "subtitle": "UEFA Europa League magazine - Bi...",
-          "description": null,
-          "team1": {
-            "name": "UEFA Europa League magazine",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bi...",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-05-31T07:30:00+02:00",
-          "end": "2026-05-31T08:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "c3b8990cf7bd",
           "sport": "other",
           "competition": null,
@@ -995,31 +537,7 @@
           },
           "start": "2026-05-31T07:30:00+02:00",
           "end": "2026-05-31T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9fc9b3eea244",
-          "sport": "other",
-          "competition": null,
-          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondePacifique.fr",
-            "name": "TV5 Monde Pacifique",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-pacifique",
-            "is_free": false
-          },
-          "start": "2026-05-31T07:38:46+02:00",
-          "end": "2026-05-31T07:49:46+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1057,7 +575,7 @@
           },
           "start": "2026-05-31T07:44:00+02:00",
           "end": "2026-05-31T09:48:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1081,31 +599,7 @@
           },
           "start": "2026-05-31T07:53:00+02:00",
           "end": "2026-05-31T09:58:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d940c93b70ab",
-          "sport": "f1",
-          "competition": null,
-          "title": "Auto-Ikonen - S01E25",
-          "subtitle": "Circuit de Formule 1 des années 50 de Cadours Laréole",
-          "description": "Dans cet épisode découvrez la rétrospective annuelle de l'ancien circuit de Formule 1 des années 50 de Cadours Laréole et les plus beaux véhicules de l'édition 2023, présentés par Angélique Rayssigier, Tanguy Lauzin et Freddy Prieto.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "AutoPlusTV.fr",
-            "name": "Auto Plus TV",
-            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
-            "slug": "auto-plus-tv",
-            "is_free": false
-          },
-          "start": "2026-05-31T07:57:00+02:00",
-          "end": "2026-05-31T08:23:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1143,7 +637,7 @@
           },
           "start": "2026-05-31T08:01:00+02:00",
           "end": "2026-05-31T09:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1181,7 +675,7 @@
           },
           "start": "2026-05-31T08:03:00+02:00",
           "end": "2026-05-31T09:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1205,7 +699,7 @@
           },
           "start": "2026-05-31T08:05:00+02:00",
           "end": "2026-05-31T10:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1243,31 +737,7 @@
           },
           "start": "2026-05-31T08:09:00+02:00",
           "end": "2026-05-31T09:56:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "301d6a88fcd6",
-          "sport": "other",
-          "competition": null,
-          "title": "Ligue 1 McDonald's - Face au jeu",
-          "subtitle": "Endrick, joueur électrique",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeMaghrebOrient.fr",
-            "name": "TV5MondeMaghrebOrient.fr",
-            "icon_url": null,
-            "slug": "tv5mondemaghreborient-fr",
-            "is_free": false
-          },
-          "start": "2026-05-31T08:14:37+02:00",
-          "end": "2026-05-31T08:26:25+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1291,7 +761,7 @@
           },
           "start": "2026-05-31T08:30:00+02:00",
           "end": "2026-05-31T10:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1329,31 +799,7 @@
           },
           "start": "2026-05-31T08:39:00+02:00",
           "end": "2026-05-31T10:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a988eac01395",
-          "sport": "other",
-          "competition": null,
-          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondePacifique.fr",
-            "name": "TV5 Monde Pacifique",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-pacifique",
-            "is_free": false
-          },
-          "start": "2026-05-31T08:52:08+02:00",
-          "end": "2026-05-31T09:00:32+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1391,7 +837,7 @@
           },
           "start": "2026-05-31T09:05:00+02:00",
           "end": "2026-05-31T10:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1429,7 +875,7 @@
           },
           "start": "2026-05-31T09:25:00+02:00",
           "end": "2026-05-31T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1453,7 +899,7 @@
           },
           "start": "2026-05-31T09:32:00+02:00",
           "end": "2026-05-31T10:28:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5616,6 +5062,130 @@
           "result": null
         },
         {
+          "id": "439572db6721",
+          "sport": "mma",
+          "competition": "UFC",
+          "title": "MMA : UFC | Song Yadong / Deiveson Figueiredo",
+          "subtitle": null,
+          "description": "La Galaxy Arena de Macau, en Chine, accueille cet UFC Fight Night 277, dont l'évènement principal est le combat poids coqs entre le chinois Song Yadon et le brésilien et ancien champion de la catégorie des poids mouches Deiveson Figueiredo.",
+          "team1": {
+            "name": "Song Yadong",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Deiveson Figueiredo",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-05-31T03:30:00+02:00",
+          "end": "2026-05-31T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7828ed98bb36",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Pentathlon moderne : Coupe du monde",
+          "subtitle": null,
+          "description": "Finale femmes de la World Cup Pentathlon en Bulgarie (Pazardzhik).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-05-31T03:30:00+02:00",
+          "end": "2026-05-31T05:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "52abbe8ef406",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / Brentford",
+          "subtitle": "Premier League - 38e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brentford",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-31T03:45:00+02:00",
+          "end": "2026-05-31T06:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "78e326d970b1",
+          "sport": "tennis",
+          "competition": null,
+          "title": "3e tour. 2e partie",
+          "subtitle": "Roland-Garros",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-05-31T04:07:00+02:00",
+          "end": "2026-05-31T06:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "16dba0c9655f",
           "sport": "tennis",
           "competition": "Roland-Garros",
@@ -5633,6 +5203,30 @@
           },
           "start": "2026-05-31T04:10:00+02:00",
           "end": "2026-05-31T04:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "26ebc01b8c15",
+          "sport": "other",
+          "competition": null,
+          "title": "Historia que tú hiciste",
+          "subtitle": "Champions League 2021/22. Cuartos de final. Chelsea-Real Madrid",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-05-31T04:10:00+02:00",
+          "end": "2026-05-31T06:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5664,6 +5258,44 @@
           "result": null
         },
         {
+          "id": "2873c48e19ab",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Montpellier / Pau",
+          "subtitle": "Top 14 - 25e journée",
+          "description": "Choc du haut du tableau en Top 14 entre le Montpellier Hérault Rugby et la Section Paloise pour savoir qui peut être le dauphin de Toulouse à l'issue de la phase régulière.",
+          "team1": {
+            "name": "Montpellier HSC",
+            "type": "club",
+            "short": "Montpellier",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Section Paloise",
+            "type": "club",
+            "short": "Pau",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2579.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-05-31T04:30:00+02:00",
+          "end": "2026-05-31T07:11:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "6486d5c3fb7b",
           "sport": "other",
           "competition": null,
@@ -5681,6 +5313,374 @@
           },
           "start": "2026-05-31T04:50:00+02:00",
           "end": "2026-05-31T05:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "27e2b93b5a44",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-05-31T05:00:00+02:00",
+          "end": "2026-05-31T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f026cbac440d",
+          "sport": "other",
+          "competition": null,
+          "title": "Podium",
+          "subtitle": "La planche de salut de Lily-Rose",
+          "description": "Affectée par un traumatisme en bas âge, la jeune Lily-Rose Chouinard explique comment la planche à roulettes lui a permis de reprendre confiance.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAfrique.fr",
+            "name": "TV5 Monde Afrique",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180105/canal-ouah/CHN43FB/TV5MONDEAFRIQUE_640x480-SLr8?=.png",
+            "slug": "tv5-monde-afrique",
+            "is_free": false
+          },
+          "start": "2026-05-31T06:20:00+02:00",
+          "end": "2026-05-31T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b7720639b7c4",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Athletic Bilbao",
+          "subtitle": "Liga - 38e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Athletic Bilbao",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-05-31T06:21:00+02:00",
+          "end": "2026-05-31T08:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "74ac6343beef",
+          "sport": "other",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondePacifique.fr",
+            "name": "TV5 Monde Pacifique",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-pacifique",
+            "is_free": false
+          },
+          "start": "2026-05-31T06:43:07+02:00",
+          "end": "2026-05-31T06:48:54+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "757e23170730",
+          "sport": "football",
+          "competition": "Ligue des champions - Finale",
+          "title": "Paris-SG / Arsenal",
+          "subtitle": "Ligue des champions - Finale",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-05-31T06:50:00+02:00",
+          "end": "2026-05-31T08:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "00e0a9109078",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Montauban / La Rochelle",
+          "subtitle": "Top 14 - 25e journée",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": {
+            "name": "Montauban",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "La Rochelle",
+            "type": "club",
+            "short": "La Rochelle",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-05-31T06:54:00+02:00",
+          "end": "2026-05-31T08:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a9fde75bb556",
+          "sport": "other",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-05-31T06:54:20+02:00",
+          "end": "2026-05-31T07:00:07+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9aa7e7d406ef",
+          "sport": "other",
+          "competition": null,
+          "title": "Eishockey-WM-Magazin",
+          "subtitle": "Das Magazin zur Heim-WM der Männer",
+          "description": "Fabienne Gyr und Lukas Studer empfangen im mobilen Studio prominente Gäste und vertiefen den WM-Tag.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-05-31T07:10:00+02:00",
+          "end": "2026-05-31T07:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "451b542128d1",
+          "sport": "other",
+          "competition": null,
+          "title": "UEFA Europa League",
+          "subtitle": "UEFA Europa League magazine - Bi...",
+          "description": null,
+          "team1": {
+            "name": "UEFA Europa League magazine",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bi...",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-05-31T07:30:00+02:00",
+          "end": "2026-05-31T08:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9fc9b3eea244",
+          "sport": "other",
+          "competition": null,
+          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondePacifique.fr",
+            "name": "TV5 Monde Pacifique",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-pacifique",
+            "is_free": false
+          },
+          "start": "2026-05-31T07:38:46+02:00",
+          "end": "2026-05-31T07:49:46+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d940c93b70ab",
+          "sport": "f1",
+          "competition": null,
+          "title": "Auto-Ikonen - S01E25",
+          "subtitle": "Circuit de Formule 1 des années 50 de Cadours Laréole",
+          "description": "Dans cet épisode découvrez la rétrospective annuelle de l'ancien circuit de Formule 1 des années 50 de Cadours Laréole et les plus beaux véhicules de l'édition 2023, présentés par Angélique Rayssigier, Tanguy Lauzin et Freddy Prieto.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "AutoPlusTV.fr",
+            "name": "Auto Plus TV",
+            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
+            "slug": "auto-plus-tv",
+            "is_free": false
+          },
+          "start": "2026-05-31T07:57:00+02:00",
+          "end": "2026-05-31T08:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "301d6a88fcd6",
+          "sport": "other",
+          "competition": null,
+          "title": "Ligue 1 McDonald's - Face au jeu",
+          "subtitle": "Endrick, joueur électrique",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeMaghrebOrient.fr",
+            "name": "TV5MondeMaghrebOrient.fr",
+            "icon_url": null,
+            "slug": "tv5mondemaghreborient-fr",
+            "is_free": false
+          },
+          "start": "2026-05-31T08:14:37+02:00",
+          "end": "2026-05-31T08:26:25+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a988eac01395",
+          "sport": "other",
+          "competition": null,
+          "title": "LIGUE 1 MCDONALD'S - FACE AU JEU",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondePacifique.fr",
+            "name": "TV5 Monde Pacifique",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-pacifique",
+            "is_free": false
+          },
+          "start": "2026-05-31T08:52:08+02:00",
+          "end": "2026-05-31T09:00:32+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
