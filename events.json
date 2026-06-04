@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-04T03:39:45.252026+00:00",
+    "generated_at": "2026-06-04T08:17:33.389545+00:00",
     "total_events": 1060,
     "total_days": 7,
     "sports": [
@@ -24,18 +24,8 @@
     ],
     "channels": [
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -44,38 +34,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-pacifique",
-        "name": "TV5 Monde Pacifique",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -89,23 +49,18 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1f-be",
         "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "afric-ble",
-        "name": "Africâble",
         "is_free": false
       },
       {
@@ -124,14 +79,34 @@
         "is_free": false
       },
       {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
+        "is_free": false
+      },
+      {
         "slug": "bein-3",
         "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
         "slug": "mgg-tv",
         "name": "MGG TV",
         "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "la-chaine-l-quipe",
@@ -141,6 +116,11 @@
       {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
         "is_free": false
       },
       {
@@ -204,6 +184,11 @@
         "is_free": false
       },
       {
+        "slug": "afric-ble",
+        "name": "Africâble",
+        "is_free": false
+      },
+      {
         "slug": "tv5-monde-afrique",
         "name": "TV5 Monde Afrique",
         "is_free": false
@@ -211,6 +196,11 @@
       {
         "slug": "eurosport-360-1",
         "name": "Eurosport 360 - 1",
+        "is_free": false
+      },
+      {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
         "is_free": false
       },
       {
@@ -286,6 +276,16 @@
       {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-pacifique",
+        "name": "TV5 Monde Pacifique",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
         "is_free": false
       },
       {
@@ -531,540 +531,6 @@
       "event_count": 177,
       "events": [
         {
-          "id": "2cd0f3164650",
-          "sport": "mma",
-          "competition": "PFL",
-          "title": "MMA : PFL | Patrick Habirora / Benson Henderson",
-          "subtitle": null,
-          "description": "L'ING Arena de Bruxelles accueille ce combat des poids welters entre Patrick Habirora et Benson Henderson. Le jeune espoir belge, pour le moment invaincu, affronte l'ancien champion de l'UFC. L'occasion pour le jeune Habirora de démontrer toutes ses qualités face à un combattant expérimenté.",
-          "team1": {
-            "name": "Patrick Habirora",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Benson Henderson",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-06-04T03:00:00+02:00",
-          "end": "2026-06-04T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "231d181882d1",
-          "sport": "football",
-          "competition": "Bundesliga - Barrage retour",
-          "title": "Paderborn / Wolfsburg",
-          "subtitle": "Bundesliga - Barrage retour",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Paderborn",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolfsburg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-04T04:07:00+02:00",
-          "end": "2026-06-04T06:42:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d315a2f51a61",
-          "sport": "volleyball",
-          "competition": null,
-          "title": "Ligue des nations féminine de Volleyball - Allemagne contre Canada",
-          "subtitle": "Allemagne contre Canada",
-          "description": "En provenance du Centre Vidéotron, à la ville de Québec, au Québec.",
-          "team1": {
-            "name": "Allemagne",
-            "type": "country",
-            "short": "Allemagne",
-            "country_code": "de",
-            "logo_url": "https://flagcdn.com/w80/de.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Canada",
-            "type": "country",
-            "short": "Canada",
-            "country_code": "ca",
-            "logo_url": "https://flagcdn.com/w80/ca.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-06-04T04:30:00+02:00",
-          "end": "2026-06-04T06:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e7346d544422",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Quart de finale. 3e partie",
-          "subtitle": "Roland-Garros",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-06-04T04:59:00+02:00",
-          "end": "2026-06-04T06:34:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a74793aac445",
-          "sport": "rugby",
-          "competition": null,
-          "title": "Multirugby",
-          "subtitle": "Top 14 - 25e journée",
-          "description": "Au programme : Stade Français Paris / Aviron Bayonnais, Stade Toulousain / LOU Rugby, US Montauban / Stade Rochelais et USA Perpignan / Castres Olympique.",
-          "team1": {
-            "name": "Top 14",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "25e journée",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-04T05:00:00+02:00",
-          "end": "2026-06-04T07:59:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "615d6d83c9f6",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames. Coupe du monde. 3e manche bloc.",
-          "description": "Coupe du monde. 3e manche bloc. Finale dames. A Madrid (Espagne).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-04T05:00:00+02:00",
-          "end": "2026-06-04T05:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6b50f7fd862e",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale messieurs. Coupe du monde. 3e manche bloc.",
-          "description": "Coupe du monde. 3e manche bloc. Finale messieurs. A Madrid (Espagne).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-04T05:45:00+02:00",
-          "end": "2026-06-04T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "07c8868a20ee",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Manchester City",
-          "subtitle": "Premier League - 9e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-04T06:05:00+02:00",
-          "end": "2026-06-04T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dce26508679c",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 2e manche vitesse.",
-          "description": "Coupe du monde. 2e manche vitesse. Finale dames et messieurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-04T06:30:00+02:00",
-          "end": "2026-06-04T07:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a9117fc547d4",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's - Barrage ret",
-          "title": "Nice / Saint-Etienne",
-          "subtitle": "Ligue 1 McDonald's - Barrage ret...",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Saint-Étienne",
-            "type": "club",
-            "short": "ASSE",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-04T06:42:00+02:00",
-          "end": "2026-06-04T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3f5024e2da78",
-          "sport": "other",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondePacifique.fr",
-            "name": "TV5 Monde Pacifique",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-pacifique",
-            "is_free": false
-          },
-          "start": "2026-06-04T06:44:48+02:00",
-          "end": "2026-06-04T06:50:48+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5a537bce2f59",
-          "sport": "football",
-          "competition": "Bundesliga - Barrage retour",
-          "title": "Paderborn / Wolfsburg",
-          "subtitle": "Bundesliga - Barrage retour",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Paderborn",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolfsburg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-06-04T06:53:00+02:00",
-          "end": "2026-06-04T09:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7355940f2cb7",
-          "sport": "other",
-          "competition": null,
-          "title": "L'instant Roland-Garros",
-          "subtitle": null,
-          "description": "Pas de description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-06-04T06:53:08+02:00",
-          "end": "2026-06-04T06:59:08+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9d2d082ba5a3",
-          "sport": "cyclisme",
-          "competition": "Tour d'Italie",
-          "title": "Cyclisme : Tour d'Italie",
-          "subtitle": "Tour d'Italie. 21e étape. Rome - Rome (131 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Italie. 21e étape. Rome - Rome (131 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-04T07:00:00+02:00",
-          "end": "2026-06-04T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c3cfe4e158a6",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Villarreal / Atlético Madrid",
-          "subtitle": "Liga - 38e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-04T07:12:00+02:00",
-          "end": "2026-06-04T08:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "785d1b015faf",
-          "sport": "football",
-          "competition": "Ligue Europa - Finale",
-          "title": "Fribourg / Aston Villa",
-          "subtitle": "Ligue Europa - Finale",
-          "description": "Depuis le Besiktas Park d'Istanbul, en Turquie. Les deux équipes se sont qualifiées après leurs succès respectifs face à Nottingham Forest et au SC Braga. Fribourg dispute la première finale européenne de son histoire, tandis qu'Aston Villa retrouve ce niveau 44 ans après son sacre en Coupe des clubs champions.",
-          "team1": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-04T07:44:00+02:00",
-          "end": "2026-06-04T09:24:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6de0a58d7fa9",
-          "sport": "football",
-          "competition": null,
-          "title": "PSV Eindhoven - Atlético Madrid",
-          "subtitle": null,
-          "description": "Sixième match de la phase de league de l'UEFA Champions League : PSV Eindhoven - Atlético Madrid.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-06-04T07:45:00+02:00",
-          "end": "2026-06-04T09:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "cb7d0ce9cc77",
           "sport": "basket",
           "competition": "NBA - Playoffs. Finale",
@@ -1096,165 +562,7 @@
           },
           "start": "2026-06-04T07:59:00+02:00",
           "end": "2026-06-04T10:47:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "979c553620d0",
-          "sport": "football",
-          "competition": null,
-          "title": "UEFA Europa League",
-          "subtitle": "UEFA Europa League magazine - Bi...",
-          "description": "L'UEFA Europa League et l'UEFA Conference League sous la loupe dans ce magazine. Toute l'actualité de ces deux compétitions européennes, avec des portraits des acteurs, des moments forts et des interviews.",
-          "team1": {
-            "name": "UEFA Europa League magazine",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bi...",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-04T08:00:00+02:00",
-          "end": "2026-06-04T08:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "321bf32701e0",
-          "sport": "voile",
-          "competition": null,
-          "title": "Vendée Globe",
-          "subtitle": "Season 2024/2025",
-          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-06-04T08:00:00+02:00",
-          "end": "2026-06-04T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c43ea0a9c8ff",
-          "sport": "football",
-          "competition": null,
-          "title": "Esprit Sport",
-          "subtitle": "Le Padel, la nouvelle obsession des ex-pros du foot !",
-          "description": "Immersion dans les coulisses de la 4Padel Football Cup à Boulogne-Billancourt, où d'anciens joueurs de Ligue 1 ont troqué les crampons pour la raquette. Entre punchlines, compétitions acharnées et fous rires sur les courts, le padel est devenu leur nouvelle obsession. Une deuxième vie de sportif, plus détendue… mais toujours avec le même esprit de gagnant !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-06-04T08:10:00+02:00",
-          "end": "2026-06-04T08:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "00646e57dcee",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "Course dames. Coupe du monde de descente. 2e manche.",
-          "description": "Coupe du monde de descente. 2e manche. Course dames. A Loudenvielle (Hautes-Pyrénées).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-04T08:30:00+02:00",
-          "end": "2026-06-04T09:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bfa477315fa9",
-          "sport": "voile",
-          "competition": null,
-          "title": "Vendée Globe",
-          "subtitle": "Season 2024/2025",
-          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-06-04T08:30:00+02:00",
-          "end": "2026-06-04T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0900509f7fc8",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-trail",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-06-04T08:30:00+02:00",
-          "end": "2026-06-04T09:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1278,45 +586,7 @@
           },
           "start": "2026-06-04T08:43:00+02:00",
           "end": "2026-06-04T10:49:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "047608ddbdd0",
-          "sport": "other",
-          "competition": null,
-          "title": "Un día en",
-          "subtitle": "Salón Internacional Barcelona - Ep6",
-          "description": "A day at...International Barcelona Boat Show.During the 4 days of the exhibition, you can discover more than 275 international exhibitors and almost 700 boats on the water, and many more boats at the show.",
-          "team1": {
-            "name": "Salón Internacional Barcelona",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ep6",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-06-04T09:00:00+02:00",
-          "end": "2026-06-04T09:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1354,31 +624,7 @@
           },
           "start": "2026-06-04T09:07:00+02:00",
           "end": "2026-06-04T10:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "04e2379cd9b7",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "Course messieurs. Coupe du monde de descente. 2e manche.",
-          "description": "Coupe du monde de descente. 2e manche. Course messieurs. A Loudenvielle (Hautes-Pyrénées).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-04T09:15:00+02:00",
-          "end": "2026-06-04T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1416,45 +662,7 @@
           },
           "start": "2026-06-04T09:24:00+02:00",
           "end": "2026-06-04T11:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e15842fc0064",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-06-04T09:30:00+02:00",
-          "end": "2026-06-04T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1492,7 +700,7 @@
           },
           "start": "2026-06-04T09:52:00+02:00",
           "end": "2026-06-04T11:42:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1530,7 +738,7 @@
           },
           "start": "2026-06-04T09:52:00+02:00",
           "end": "2026-06-04T11:29:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5681,6 +4889,44 @@
           "result": null
         },
         {
+          "id": "2cd0f3164650",
+          "sport": "mma",
+          "competition": "PFL",
+          "title": "MMA : PFL | Patrick Habirora / Benson Henderson",
+          "subtitle": null,
+          "description": "L'ING Arena de Bruxelles accueille ce combat des poids welters entre Patrick Habirora et Benson Henderson. Le jeune espoir belge, pour le moment invaincu, affronte l'ancien champion de l'UFC. L'occasion pour le jeune Habirora de démontrer toutes ses qualités face à un combattant expérimenté.",
+          "team1": {
+            "name": "Patrick Habirora",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Benson Henderson",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-06-04T03:00:00+02:00",
+          "end": "2026-06-04T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "8e194660da5a",
           "sport": "other",
           "competition": null,
@@ -5822,6 +5068,760 @@
           },
           "start": "2026-06-04T03:35:00+02:00",
           "end": "2026-06-04T04:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "231d181882d1",
+          "sport": "football",
+          "competition": "Bundesliga - Barrage retour",
+          "title": "Paderborn / Wolfsburg",
+          "subtitle": "Bundesliga - Barrage retour",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Paderborn",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolfsburg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-04T04:07:00+02:00",
+          "end": "2026-06-04T06:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d315a2f51a61",
+          "sport": "volleyball",
+          "competition": null,
+          "title": "Ligue des nations féminine de Volleyball - Allemagne contre Canada",
+          "subtitle": "Allemagne contre Canada",
+          "description": "En provenance du Centre Vidéotron, à la ville de Québec, au Québec.",
+          "team1": {
+            "name": "Allemagne",
+            "type": "country",
+            "short": "Allemagne",
+            "country_code": "de",
+            "logo_url": "https://flagcdn.com/w80/de.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Canada",
+            "type": "country",
+            "short": "Canada",
+            "country_code": "ca",
+            "logo_url": "https://flagcdn.com/w80/ca.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-06-04T04:30:00+02:00",
+          "end": "2026-06-04T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e7346d544422",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Quart de finale. 3e partie",
+          "subtitle": "Roland-Garros",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-06-04T04:59:00+02:00",
+          "end": "2026-06-04T06:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a74793aac445",
+          "sport": "rugby",
+          "competition": null,
+          "title": "Multirugby",
+          "subtitle": "Top 14 - 25e journée",
+          "description": "Au programme : Stade Français Paris / Aviron Bayonnais, Stade Toulousain / LOU Rugby, US Montauban / Stade Rochelais et USA Perpignan / Castres Olympique.",
+          "team1": {
+            "name": "Top 14",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "25e journée",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-04T05:00:00+02:00",
+          "end": "2026-06-04T07:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "615d6d83c9f6",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames. Coupe du monde. 3e manche bloc.",
+          "description": "Coupe du monde. 3e manche bloc. Finale dames. A Madrid (Espagne).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-04T05:00:00+02:00",
+          "end": "2026-06-04T05:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6b50f7fd862e",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale messieurs. Coupe du monde. 3e manche bloc.",
+          "description": "Coupe du monde. 3e manche bloc. Finale messieurs. A Madrid (Espagne).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-04T05:45:00+02:00",
+          "end": "2026-06-04T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "07c8868a20ee",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Manchester City",
+          "subtitle": "Premier League - 9e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-04T06:05:00+02:00",
+          "end": "2026-06-04T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dce26508679c",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames et messieurs. Coupe du monde. 2e manche vitesse.",
+          "description": "Coupe du monde. 2e manche vitesse. Finale dames et messieurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-04T06:30:00+02:00",
+          "end": "2026-06-04T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a9117fc547d4",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's - Barrage ret",
+          "title": "Nice / Saint-Etienne",
+          "subtitle": "Ligue 1 McDonald's - Barrage ret...",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Saint-Étienne",
+            "type": "club",
+            "short": "ASSE",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-04T06:42:00+02:00",
+          "end": "2026-06-04T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3f5024e2da78",
+          "sport": "other",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondePacifique.fr",
+            "name": "TV5 Monde Pacifique",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-pacifique",
+            "is_free": false
+          },
+          "start": "2026-06-04T06:44:48+02:00",
+          "end": "2026-06-04T06:50:48+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5a537bce2f59",
+          "sport": "football",
+          "competition": "Bundesliga - Barrage retour",
+          "title": "Paderborn / Wolfsburg",
+          "subtitle": "Bundesliga - Barrage retour",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Paderborn",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolfsburg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-06-04T06:53:00+02:00",
+          "end": "2026-06-04T09:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7355940f2cb7",
+          "sport": "other",
+          "competition": null,
+          "title": "L'instant Roland-Garros",
+          "subtitle": null,
+          "description": "Pas de description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-06-04T06:53:08+02:00",
+          "end": "2026-06-04T06:59:08+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9d2d082ba5a3",
+          "sport": "cyclisme",
+          "competition": "Tour d'Italie",
+          "title": "Cyclisme : Tour d'Italie",
+          "subtitle": "Tour d'Italie. 21e étape. Rome - Rome (131 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Italie. 21e étape. Rome - Rome (131 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-04T07:00:00+02:00",
+          "end": "2026-06-04T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c3cfe4e158a6",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Villarreal / Atlético Madrid",
+          "subtitle": "Liga - 38e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-04T07:12:00+02:00",
+          "end": "2026-06-04T08:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "785d1b015faf",
+          "sport": "football",
+          "competition": "Ligue Europa - Finale",
+          "title": "Fribourg / Aston Villa",
+          "subtitle": "Ligue Europa - Finale",
+          "description": "Depuis le Besiktas Park d'Istanbul, en Turquie. Les deux équipes se sont qualifiées après leurs succès respectifs face à Nottingham Forest et au SC Braga. Fribourg dispute la première finale européenne de son histoire, tandis qu'Aston Villa retrouve ce niveau 44 ans après son sacre en Coupe des clubs champions.",
+          "team1": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-04T07:44:00+02:00",
+          "end": "2026-06-04T09:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6de0a58d7fa9",
+          "sport": "football",
+          "competition": null,
+          "title": "PSV Eindhoven - Atlético Madrid",
+          "subtitle": null,
+          "description": "Sixième match de la phase de league de l'UEFA Champions League : PSV Eindhoven - Atlético Madrid.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-06-04T07:45:00+02:00",
+          "end": "2026-06-04T09:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "979c553620d0",
+          "sport": "football",
+          "competition": null,
+          "title": "UEFA Europa League",
+          "subtitle": "UEFA Europa League magazine - Bi...",
+          "description": "L'UEFA Europa League et l'UEFA Conference League sous la loupe dans ce magazine. Toute l'actualité de ces deux compétitions européennes, avec des portraits des acteurs, des moments forts et des interviews.",
+          "team1": {
+            "name": "UEFA Europa League magazine",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bi...",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-04T08:00:00+02:00",
+          "end": "2026-06-04T08:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "321bf32701e0",
+          "sport": "voile",
+          "competition": null,
+          "title": "Vendée Globe",
+          "subtitle": "Season 2024/2025",
+          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-06-04T08:00:00+02:00",
+          "end": "2026-06-04T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c43ea0a9c8ff",
+          "sport": "football",
+          "competition": null,
+          "title": "Esprit Sport",
+          "subtitle": "Le Padel, la nouvelle obsession des ex-pros du foot !",
+          "description": "Immersion dans les coulisses de la 4Padel Football Cup à Boulogne-Billancourt, où d'anciens joueurs de Ligue 1 ont troqué les crampons pour la raquette. Entre punchlines, compétitions acharnées et fous rires sur les courts, le padel est devenu leur nouvelle obsession. Une deuxième vie de sportif, plus détendue… mais toujours avec le même esprit de gagnant !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-06-04T08:10:00+02:00",
+          "end": "2026-06-04T08:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "00646e57dcee",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "Course dames. Coupe du monde de descente. 2e manche.",
+          "description": "Coupe du monde de descente. 2e manche. Course dames. A Loudenvielle (Hautes-Pyrénées).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-04T08:30:00+02:00",
+          "end": "2026-06-04T09:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bfa477315fa9",
+          "sport": "voile",
+          "competition": null,
+          "title": "Vendée Globe",
+          "subtitle": "Season 2024/2025",
+          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-06-04T08:30:00+02:00",
+          "end": "2026-06-04T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0900509f7fc8",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-trail",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-06-04T08:30:00+02:00",
+          "end": "2026-06-04T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "047608ddbdd0",
+          "sport": "other",
+          "competition": null,
+          "title": "Un día en",
+          "subtitle": "Salón Internacional Barcelona - Ep6",
+          "description": "A day at...International Barcelona Boat Show.During the 4 days of the exhibition, you can discover more than 275 international exhibitors and almost 700 boats on the water, and many more boats at the show.",
+          "team1": {
+            "name": "Salón Internacional Barcelona",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ep6",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-06-04T09:00:00+02:00",
+          "end": "2026-06-04T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "04e2379cd9b7",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "Course messieurs. Coupe du monde de descente. 2e manche.",
+          "description": "Coupe du monde de descente. 2e manche. Course messieurs. A Loudenvielle (Hautes-Pyrénées).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-04T09:15:00+02:00",
+          "end": "2026-06-04T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e15842fc0064",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-06-04T09:30:00+02:00",
+          "end": "2026-06-04T10:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
