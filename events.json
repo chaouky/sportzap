@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-09T17:59:24.391318+00:00",
+    "generated_at": "2026-06-09T21:44:24.713753+00:00",
     "total_events": 1212,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,13 @@
     ],
     "channels": [
       {
-        "slug": "zdf",
-        "name": "ZDF",
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -38,68 +43,8 @@
         "is_free": false
       },
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "srf-zwei",
-        "name": "SRF zwei",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "ketnetcanvas",
-        "name": "KetnetCanvas",
-        "is_free": false
-      },
-      {
-        "slug": "rts-2",
-        "name": "RTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "tipik",
-        "name": "Tipik",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
+        "slug": "golf",
+        "name": "Golf+",
         "is_free": false
       },
       {
@@ -108,53 +53,13 @@
         "is_free": true
       },
       {
-        "slug": "ketnet",
-        "name": "Ketnet",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "guadeloupe-1-re",
-        "name": "Guadeloupe 1ère",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
         "slug": "nautical-channel",
         "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
-        "is_free": false
-      },
-      {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-europe",
-        "name": "TV5 Monde Europe",
         "is_free": false
       },
       {
@@ -168,6 +73,11 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "tv5-monde-pacifique",
         "name": "TV5 Monde Pacifique",
         "is_free": false
@@ -175,6 +85,16 @@
       {
         "slug": "tv5mondeameriquelatine-fr",
         "name": "TV5MondeAmeriqueLatine.fr",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
         "is_free": false
       },
       {
@@ -193,6 +113,11 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
         "is_free": false
@@ -200,6 +125,11 @@
       {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -233,8 +163,38 @@
         "is_free": false
       },
       {
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "guadeloupe-1-re",
+        "name": "Guadeloupe 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
         "slug": "automoto-la-chaine",
         "name": "Automoto la chaine",
+        "is_free": false
+      },
+      {
+        "slug": "tipik",
+        "name": "Tipik",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -245,6 +205,46 @@
       {
         "slug": "eurosport-360-2",
         "name": "Eurosport 360 - 2",
+        "is_free": false
+      },
+      {
+        "slug": "zdf",
+        "name": "ZDF",
+        "is_free": false
+      },
+      {
+        "slug": "srf-zwei",
+        "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "ketnetcanvas",
+        "name": "KetnetCanvas",
+        "is_free": false
+      },
+      {
+        "slug": "rts-2",
+        "name": "RTS 2",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "ketnet",
+        "name": "Ketnet",
+        "is_free": false
+      },
+      {
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-europe",
+        "name": "TV5 Monde Europe",
         "is_free": false
       },
       {
@@ -540,420 +540,6 @@
       "event_count": 154,
       "events": [
         {
-          "id": "f6117d1af8ba",
-          "sport": "football",
-          "competition": null,
-          "title": "Slovénie / Allemagne",
-          "subtitle": null,
-          "description": "Die deutsche Auswahl geht heute eindeutig in der Favoritenrolle ins Spiel. Beim letzten Aufeinandertreffen gewann die DFB-Mannschaft deutlich mit 5:0. Vivien Endemann erzielte damals ein Tor und lieferte zwei Vorlagen gegen Slowenien. Auch Sjoeke Nüsken zeigte eine starke Leistung und bereitete die Tore von Linda Dallmann und Larissa Mühlhaus vor.",
-          "team1": {
-            "name": "Slovénie",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Allemagne",
-            "type": "country",
-            "short": "Allemagne",
-            "country_code": "de",
-            "logo_url": "https://flagcdn.com/w80/de.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ZDF.de",
-            "name": "ZDF",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3b2f1d529ed63984.png/480x480/quality/100/zdf.png",
-            "slug": "zdf",
-            "is_free": false
-          },
-          "start": "2026-06-09T17:45:00+02:00",
-          "end": "2026-06-09T20:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "48b8f6f8e67b",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Lens / Monaco",
-          "subtitle": null,
-          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant RC LENS et AS MONACO.",
-          "team1": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:00:00+02:00",
-          "end": "2026-06-09T20:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "294d7a236ebc",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Wolverhampton / Manchester City",
-          "subtitle": "Premier League - 1re journée",
-          "description": "Dès l'entame, les Wolves de Wolverhampton se frottent à Manchester City : un sacré défi pour les locaux qui s'attendent à un match difficile contre des Mancuniens favoris.",
-          "team1": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:20:00+02:00",
-          "end": "2026-06-09T20:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8b9a11f6b831",
-          "sport": "golf",
-          "competition": "Ronde finale",
-          "title": "Golf - Ronde finale",
-          "subtitle": "Ronde finale",
-          "description": "En provenance du Riviera Country Club à Pacific Palisades, en Californie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:30:00+02:00",
-          "end": "2026-06-09T22:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8ed66d27e1e0",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Irlande du Nord / Suisse",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Diffusion d'un match des éliminatoires de la Coupe du monde de football féminin, passage obligatoire pour chaque nation qui veut participer à la prestigieuse compétition organisée par la FIFA. Ces qualifications permettent de réduire à 23 le nombre d'équipes du tournoi final, le 24e participant étant le champion en titre. Elles sont gérées par les six confédérations continentales.",
-          "team1": {
-            "name": "Irlande",
-            "type": "club",
-            "short": "Irlande",
-            "country_code": "ie",
-            "logo_url": "https://flagcdn.com/w80/ie.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Suisse",
-            "type": "country",
-            "short": "Suisse",
-            "country_code": "ch",
-            "logo_url": "https://flagcdn.com/w80/ch.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:40:00+02:00",
-          "end": "2026-06-09T21:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e551e860feb6",
-          "sport": "handball",
-          "competition": "Ligue des champions féminine EHF",
-          "title": "Handball : Ligue des champions féminine EHF",
-          "subtitle": "Györ / Metz. Ligue des champions féminine. Finale.",
-          "description": "Ligue des champions féminine. Finale. Györ / Metz.",
-          "team1": {
-            "name": "Györ",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Metz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:45:00+02:00",
-          "end": "2026-06-09T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "157d32062cdf",
-          "sport": "handball",
-          "competition": "Ligue des champions féminine EHF",
-          "title": "Handball : Ligue des champions féminine EHF",
-          "subtitle": "Handball",
-          "description": "Retransmission des matchs de la Ligue des Champions féminine EHF, compétition de clubs de handball la plus importante en Europe. Organisée par la Fédération européenne de handball, la première saison de cette compétition a été jouée en 1961.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:45:00+02:00",
-          "end": "2026-06-09T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2ac4982fce11",
-          "sport": "football",
-          "competition": null,
-          "title": "Luxembourg / Belgique",
-          "subtitle": null,
-          "description": "Liveverslag van een kwalificatiewedstrijd van de Red Flames voor het WK 2027 in Brazilië.",
-          "team1": {
-            "name": "Luxembourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Belgique",
-            "type": "country",
-            "short": "Belgique",
-            "country_code": "be",
-            "logo_url": "https://flagcdn.com/w80/be.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "KetnetCanvas.be",
-            "name": "KetnetCanvas",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCzQGaETdejE-NT7weLYrKSwq_KF8f0H6Y2n57GLbVS_L2wGAqesv9l23izg&amp;s",
-            "slug": "ketnetcanvas",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:50:00+02:00",
-          "end": "2026-06-09T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e472c6fb4ebc",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Irlande du Nord / Suisse",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Pour cette 6e et dernière journée dans le groupe B2, la Suisse peut valider sa première place au classement contre des Nord Irlandaises à sa portée.",
-          "team1": {
-            "name": "Irlande",
-            "type": "club",
-            "short": "Irlande",
-            "country_code": "ie",
-            "logo_url": "https://flagcdn.com/w80/ie.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Suisse",
-            "type": "country",
-            "short": "Suisse",
-            "country_code": "ch",
-            "logo_url": "https://flagcdn.com/w80/ch.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:50:00+02:00",
-          "end": "2026-06-09T21:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "02013dd6bef2",
-          "sport": "football",
-          "competition": null,
-          "title": "Luxembourg / Belgique",
-          "subtitle": null,
-          "description": "Les Red Flames sont déjà assurées de disputer les barrages des qualifications pour la Coupe du monde 2027 et disputent ce match au Luxembourg pour l'honneur.",
-          "team1": {
-            "name": "Luxembourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Belgique",
-            "type": "country",
-            "short": "Belgique",
-            "country_code": "be",
-            "logo_url": "https://flagcdn.com/w80/be.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "LaDeux.be",
-            "name": "Tipik",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
-            "slug": "tipik",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:52:00+02:00",
-          "end": "2026-06-09T21:08:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "113e1f71c7af",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "Irlande du Nord / Suisse",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "Retransmission de matchs des qualifications pour le Championnat d'Europe féminin de football. Créé en 1984, ce Championnat est disputé par seize équipes réparties en quatre poules tous les quatre ans. Pour y accéder, les nations du Vieux Continent luttent à travers ces matchs disputés en format aller-retour avec des groupes tirés au sort. Seul le pays hôte est traditionnellement qualifié d'office.",
-          "team1": {
-            "name": "Irlande",
-            "type": "club",
-            "short": "Irlande",
-            "country_code": "ie",
-            "logo_url": "https://flagcdn.com/w80/ie.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Suisse",
-            "type": "country",
-            "short": "Suisse",
-            "country_code": "ch",
-            "logo_url": "https://flagcdn.com/w80/ch.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-06-09T18:53:00+02:00",
-          "end": "2026-06-09T20:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a856f5daaa92",
-          "sport": "tennis",
-          "competition": "Internationaux de France 2026 - Finale, femmes",
-          "title": "Tennis: Internationaux de France 2026 - Finale, femmes",
-          "subtitle": "Finale, femmes",
-          "description": "En provenance du stade Roland Garros à Paris.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-06-09T19:00:00+02:00",
-          "end": "2026-06-09T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "4a2a15aede35",
           "sport": "golf",
           "competition": "Open des Pays-Bas",
@@ -978,612 +564,6 @@
           "result": null
         },
         {
-          "id": "a9f30fd64cbe",
-          "sport": "f1",
-          "competition": "Grand Prix de Detroit",
-          "title": "Indycar : Grand Prix de Detroit",
-          "subtitle": "Les temps forts. Grand Prix de Detroit.",
-          "description": "Grand Prix de Detroit. Les temps forts.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-06-09T19:20:00+02:00",
-          "end": "2026-06-09T20:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "119f163f0fe5",
-          "sport": "tennis",
-          "competition": "Roland-Garros",
-          "title": "Finale dames . Maja Chwalinska / Mirra Andreeva",
-          "subtitle": "Roland-Garros",
-          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
-          "team1": {
-            "name": "Finale dames",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Mirra Andreeva",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-09T19:45:00+02:00",
-          "end": "2026-06-09T22:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "530cd1460a15",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-06-09T19:45:00+02:00",
-          "end": "2026-06-09T21:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5b37b5f13409",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-trail",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-06-09T19:55:00+02:00",
-          "end": "2026-06-09T20:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a901fc086892",
-          "sport": "football",
-          "competition": "Football. Eliminatoires de la Coupe du monde féminine. Groupe B4",
-          "title": "Luxembourg / Belgique",
-          "subtitle": "Football. Eliminatoires de la Coupe du monde féminine. Groupe B4.",
-          "description": "Eliminatoires de la Coupe du monde féminine. Groupe B4. Luxembourg / Belgique.",
-          "team1": {
-            "name": "Luxembourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Belgique",
-            "type": "country",
-            "short": "Belgique",
-            "country_code": "be",
-            "logo_url": "https://flagcdn.com/w80/be.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ketnet.be",
-            "name": "Ketnet",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ceff3f6a3454e7b7.png/480x480/quality/100/ketnet.png",
-            "slug": "ketnet",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:00:00+02:00",
-          "end": "2026-06-09T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e6af69e8a015",
-          "sport": "football",
-          "competition": null,
-          "title": "Souviens-toi 2018 - Ep. 1",
-          "subtitle": null,
-          "description": "Pickx+ Sports présente \"Souviens-toi 2018\". Deux soirées événement avec Thomas Meunier, Dedryck Boyata, Julien Cazarre et Lucie Drygalski. À l'approche de la Coupe du Monde, Pickx+ Sports dévoile Souviens-toi 2018, une création originale produite en deux épisodes. L'émission replonge les supporters belges au cœur de l'épopée des Diables Rouges lors de la Coupe du Monde 2018 en Russie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:00:00+02:00",
-          "end": "2026-06-09T20:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e887e00d11d8",
-          "sport": "football",
-          "competition": null,
-          "title": "Herinneringen aan 2018 - Afl. 1",
-          "subtitle": null,
-          "description": "Pickx+ Sports presenteert \"Herinneringen aan 2018\". Twee niet te missen avonden met Thomas Meunier en Dedryck Boyata. In aanloop naar de Wereldbeker stelt Pickx+ Sports U \" Herinneringen aan 2018 \" voor. Deze tweedelige special dompelt Belgische supporters opnieuw onder in het mythische avontuur van de Rode Duivels op het WK 2018 in Rusland. \" Herinneringen aan 2018 \" biedt een onuitgegeven blik achter de schermen van één van de mooiste pagina's in de Belgische sportgeschiedenis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:00:00+02:00",
-          "end": "2026-06-09T20:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "96af3a23ea33",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Paris SG / Metz",
-          "subtitle": null,
-          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS SG et FC METZ.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Metz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:15:00+02:00",
-          "end": "2026-06-09T22:08:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bdf6d3ee087c",
-          "sport": "basket",
-          "competition": "BNXT League",
-          "title": "Basket-ball : BNXT League",
-          "subtitle": "Anvers Giants / Filou Ostende. BNXT League.",
-          "description": "BNXT League. Anvers Giants / Filou Ostende.",
-          "team1": {
-            "name": "Anvers Giants",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Filou Ostende",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:15:00+02:00",
-          "end": "2026-06-09T22:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c9c446f3a8a2",
-          "sport": "other",
-          "competition": null,
-          "title": "UEFA Europa League",
-          "subtitle": "UEFA Europa League magazine - Bi...",
-          "description": null,
-          "team1": {
-            "name": "UEFA Europa League magazine",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bi...",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:30:00+02:00",
-          "end": "2026-06-09T21:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3087840d2176",
-          "sport": "football",
-          "competition": null,
-          "title": "Belgique - Italie",
-          "subtitle": null,
-          "description": "Finale du Championnat d'Europe U17 : Belgique - Italie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:45:00+02:00",
-          "end": "2026-06-09T22:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7b968a5371d7",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "France / Irlande",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "C'est au Stade des Alpes de Grenoble que les Bleues viennent accueillir les Irlandaises dans une rencontre qui peut éventuellement être cruciale pour les Françaises. Dans un groupe A2, où la concurrence vient essentiellement des Pays-Bas, les coéquipières de Sandy Baltimore et Marie-Antoinette Katoto doivent jouer serré et ne pas laisser trop de place aux doutes. Les joueuses du sélectionneur Laurent Bonadei vont-elles l'emporter devant leur public ?",
-          "team1": {
-            "name": "France",
-            "type": "country",
-            "short": "France",
-            "country_code": "fr",
-            "logo_url": "https://flagcdn.com/w80/fr.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Irlande",
-            "type": "country",
-            "short": "Irlande",
-            "country_code": "ie",
-            "logo_url": "https://flagcdn.com/w80/ie.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:50:00+02:00",
-          "end": "2026-06-09T21:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "694ae4bec395",
-          "sport": "football",
-          "competition": null,
-          "title": "België - Italië",
-          "subtitle": null,
-          "description": "Finale van het Europees Kampioenschap U17 : België - Italië.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:50:00+02:00",
-          "end": "2026-06-09T22:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f43d1acbba95",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Wolverhampton / Manchester City",
-          "subtitle": "Premier League - 1re journée",
-          "description": "Dès l'entame, les Wolves de Wolverhampton se frottent à Manchester City : un sacré défi pour les locaux qui s'attendent à un match difficile contre des Mancuniens favoris.",
-          "team1": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-09T20:58:00+02:00",
-          "end": "2026-06-09T21:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a9c3e91508ba",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific - Quart de f",
-          "title": "Crusaders / Blues",
-          "subtitle": "Super Rugby Pacific - Quart de f...",
-          "description": "La saison régulière de Super Rugby a livré son verdict et les équipes classées de la 3e à la 6e place s'affrontent pour les barrages. Alors que les Hurricanes se battent pour conserver leur place de leader, les Brumbies, les Queensland Reds ou encore les Waratahs pourraient bien se retrouver à lutter pour une place dans les six premiers.",
-          "team1": {
-            "name": "Crusaders",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Blues",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-09T21:00:00+02:00",
-          "end": "2026-06-09T22:42:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "869895000388",
-          "sport": "voile",
-          "competition": null,
-          "title": "Vendée Globe",
-          "subtitle": "Season 2024/2025",
-          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-06-09T21:00:00+02:00",
-          "end": "2026-06-09T21:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "758dbdef1d83",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 1",
-          "subtitle": "En milieu hostile",
-          "description": "Pour ce septième épisode, Léo Urban se lance un nouveau défi : survivre aux conditions les plus hostiles. Pour l’occasion, Alban Michon, un explorateur polaire chevronné, va partager toutes ses techniques de survie sur et sous la glace. Jazzon, alias “Jeezy”, va quant à lui imposer à Léo une rude série d’épreuves physiques dans un séjour en bootcamp extrême.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-09T21:00:00+02:00",
-          "end": "2026-06-09T21:38:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7ba57001834e",
-          "sport": "voile",
-          "competition": null,
-          "title": "Vendée Globe",
-          "subtitle": "Season 2024/2025",
-          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-06-09T21:30:00+02:00",
-          "end": "2026-06-09T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f1e5b9c4477d",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 1",
-          "subtitle": "Big ride",
-          "description": "Dans ce dernier épisode, Léo Urban se frotte au monde puissant du ride et de l’adrénaline. Guidé par les frères Mangiarotti, il va tenter de prendre sa première “Big Wave” en surf tracté. En parallèle, il se lance le défi fou de participer à la course de VTT “Megavalanche” seul un rider aussi compétent qu’Antoni Villoni saura lui faire relever ce challenge.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-09T21:38:00+02:00",
-          "end": "2026-06-09T22:22:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f3c5cda8e5a0",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Espanyol Barcelone / Atlético Madrid",
-          "subtitle": "Liga - 1re journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-09T21:52:00+02:00",
-          "end": "2026-06-09T21:53:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "8b5107a74cd4",
           "sport": "other",
           "competition": null,
@@ -1601,45 +581,7 @@
           },
           "start": "2026-06-09T22:00:00+02:00",
           "end": "2026-06-10T00:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e32cec2b22e9",
-          "sport": "football",
-          "competition": "Eliminatoires de la Coupe du mon",
-          "title": "France / Irlande",
-          "subtitle": "Eliminatoires de la Coupe du mon...",
-          "description": "C'est au Stade des Alpes de Grenoble que les Bleues viennent accueillir les Irlandaises dans une rencontre qui peut éventuellement être cruciale pour les Françaises. Dans un groupe A2, où la concurrence vient essentiellement des Pays-Bas, les coéquipières de Sandy Baltimore et Marie-Antoinette Katoto doivent jouer serré et ne pas laisser trop de place aux doutes. Les joueuses du sélectionneur Laurent Bonadei vont-elles l'emporter devant leur public ?",
-          "team1": {
-            "name": "France",
-            "type": "country",
-            "short": "France",
-            "country_code": "fr",
-            "logo_url": "https://flagcdn.com/w80/fr.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Irlande",
-            "type": "country",
-            "short": "Irlande",
-            "country_code": "ie",
-            "logo_url": "https://flagcdn.com/w80/ie.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-09T22:05:00+02:00",
-          "end": "2026-06-09T23:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1677,31 +619,7 @@
           },
           "start": "2026-06-09T22:08:00+02:00",
           "end": "2026-06-10T00:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9eeb5722e816",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 1",
-          "subtitle": "A la verticale",
-          "description": "Dans ce cinquième épisode, Léo Urban redécouvre la verticalité. Dans les Alpes, il s’équipe de piolets et de crampons pour défier les frères Ladevant sur une cascade de glace de 150 mètres de haut. En parallèle, il fait appel aux frères Mawem pour l’aider à battre le record de vitesse d’escalade d’une structure mythique, le berceau du parkour : “La Dame du Lac”.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-09T22:22:00+02:00",
-          "end": "2026-06-09T23:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1739,55 +657,7 @@
           },
           "start": "2026-06-09T22:30:00+02:00",
           "end": "2026-06-10T00:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "55eaa8d553db",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 2e manche difficulté.",
-          "description": "Coupe du monde. 2e manche difficulté. Finale dames et messieurs. A Prague (République tchèque).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-09T22:30:00+02:00",
-          "end": "2026-06-09T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e383b30e839f",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-trail",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-06-09T22:30:00+02:00",
-          "end": "2026-06-09T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1811,7 +681,7 @@
           },
           "start": "2026-06-09T22:58:00+02:00",
           "end": "2026-06-10T00:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1849,55 +719,7 @@
           },
           "start": "2026-06-09T23:00:00+02:00",
           "end": "2026-06-10T00:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "48c866ecb266",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 1",
-          "subtitle": "Dans les profondeurs",
-          "description": "Ce sixième épisode de Free Spirits plonge Léo Urban dans le monde inquiétant des profondeurs. Nico Matthieu, spéléologue de l’extrême, propose à Léo une descente à plus de 150 mètres sous terre pour cartographier une cavité inexplorée. Stéphane Tourreau, vice champion d’apnée, coache Léo pour descendre à plus de 30 mètres sous l’eau.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-09T23:02:00+02:00",
-          "end": "2026-06-09T23:42:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5174b07bc6af",
-          "sport": "other",
-          "competition": null,
-          "title": "Vendée Arctique - Les Sables d'Olonne 2026",
-          "subtitle": "09/06/2026",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeEurope.fr",
-            "name": "TV5 Monde Europe",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-232.png",
-            "slug": "tv5-monde-europe",
-            "is_free": false
-          },
-          "start": "2026-06-09T23:04:54+02:00",
-          "end": "2026-06-09T23:08:06+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1935,7 +757,7 @@
           },
           "start": "2026-06-09T23:28:00+02:00",
           "end": "2026-06-10T01:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1959,7 +781,7 @@
           },
           "start": "2026-06-09T23:30:00+02:00",
           "end": "2026-06-10T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5036,6 +3858,44 @@
           "result": null
         },
         {
+          "id": "f6117d1af8ba",
+          "sport": "football",
+          "competition": null,
+          "title": "Slovénie / Allemagne",
+          "subtitle": null,
+          "description": "Die deutsche Auswahl geht heute eindeutig in der Favoritenrolle ins Spiel. Beim letzten Aufeinandertreffen gewann die DFB-Mannschaft deutlich mit 5:0. Vivien Endemann erzielte damals ein Tor und lieferte zwei Vorlagen gegen Slowenien. Auch Sjoeke Nüsken zeigte eine starke Leistung und bereitete die Tore von Linda Dallmann und Larissa Mühlhaus vor.",
+          "team1": {
+            "name": "Slovénie",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Allemagne",
+            "type": "country",
+            "short": "Allemagne",
+            "country_code": "de",
+            "logo_url": "https://flagcdn.com/w80/de.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ZDF.de",
+            "name": "ZDF",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3b2f1d529ed63984.png/480x480/quality/100/zdf.png",
+            "slug": "zdf",
+            "is_free": false
+          },
+          "start": "2026-06-09T17:45:00+02:00",
+          "end": "2026-06-09T20:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "0b2955bd1427",
           "sport": "football",
           "competition": "Arkema Première Ligue - Finale",
@@ -5074,6 +3934,44 @@
           "result": null
         },
         {
+          "id": "48b8f6f8e67b",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Lens / Monaco",
+          "subtitle": null,
+          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant RC LENS et AS MONACO.",
+          "team1": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:00:00+02:00",
+          "end": "2026-06-09T20:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "89ae3d4b6b22",
           "sport": "football",
           "competition": null,
@@ -5091,6 +3989,68 @@
           },
           "start": "2026-06-09T18:10:00+02:00",
           "end": "2026-06-09T18:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "294d7a236ebc",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Wolverhampton / Manchester City",
+          "subtitle": "Premier League - 1re journée",
+          "description": "Dès l'entame, les Wolves de Wolverhampton se frottent à Manchester City : un sacré défi pour les locaux qui s'attendent à un match difficile contre des Mancuniens favoris.",
+          "team1": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:20:00+02:00",
+          "end": "2026-06-09T20:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8b9a11f6b831",
+          "sport": "golf",
+          "competition": "Ronde finale",
+          "title": "Golf - Ronde finale",
+          "subtitle": "Ronde finale",
+          "description": "En provenance du Riviera Country Club à Pacific Palisades, en Californie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:30:00+02:00",
+          "end": "2026-06-09T22:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5122,6 +4082,306 @@
           "result": null
         },
         {
+          "id": "8ed66d27e1e0",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Irlande du Nord / Suisse",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Diffusion d'un match des éliminatoires de la Coupe du monde de football féminin, passage obligatoire pour chaque nation qui veut participer à la prestigieuse compétition organisée par la FIFA. Ces qualifications permettent de réduire à 23 le nombre d'équipes du tournoi final, le 24e participant étant le champion en titre. Elles sont gérées par les six confédérations continentales.",
+          "team1": {
+            "name": "Irlande",
+            "type": "club",
+            "short": "Irlande",
+            "country_code": "ie",
+            "logo_url": "https://flagcdn.com/w80/ie.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Suisse",
+            "type": "country",
+            "short": "Suisse",
+            "country_code": "ch",
+            "logo_url": "https://flagcdn.com/w80/ch.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:40:00+02:00",
+          "end": "2026-06-09T21:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e551e860feb6",
+          "sport": "handball",
+          "competition": "Ligue des champions féminine EHF",
+          "title": "Handball : Ligue des champions féminine EHF",
+          "subtitle": "Györ / Metz. Ligue des champions féminine. Finale.",
+          "description": "Ligue des champions féminine. Finale. Györ / Metz.",
+          "team1": {
+            "name": "Györ",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Metz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:45:00+02:00",
+          "end": "2026-06-09T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "157d32062cdf",
+          "sport": "handball",
+          "competition": "Ligue des champions féminine EHF",
+          "title": "Handball : Ligue des champions féminine EHF",
+          "subtitle": "Handball",
+          "description": "Retransmission des matchs de la Ligue des Champions féminine EHF, compétition de clubs de handball la plus importante en Europe. Organisée par la Fédération européenne de handball, la première saison de cette compétition a été jouée en 1961.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:45:00+02:00",
+          "end": "2026-06-09T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2ac4982fce11",
+          "sport": "football",
+          "competition": null,
+          "title": "Luxembourg / Belgique",
+          "subtitle": null,
+          "description": "Liveverslag van een kwalificatiewedstrijd van de Red Flames voor het WK 2027 in Brazilië.",
+          "team1": {
+            "name": "Luxembourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Belgique",
+            "type": "country",
+            "short": "Belgique",
+            "country_code": "be",
+            "logo_url": "https://flagcdn.com/w80/be.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "KetnetCanvas.be",
+            "name": "KetnetCanvas",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCzQGaETdejE-NT7weLYrKSwq_KF8f0H6Y2n57GLbVS_L2wGAqesv9l23izg&amp;s",
+            "slug": "ketnetcanvas",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:50:00+02:00",
+          "end": "2026-06-09T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e472c6fb4ebc",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Irlande du Nord / Suisse",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Pour cette 6e et dernière journée dans le groupe B2, la Suisse peut valider sa première place au classement contre des Nord Irlandaises à sa portée.",
+          "team1": {
+            "name": "Irlande",
+            "type": "club",
+            "short": "Irlande",
+            "country_code": "ie",
+            "logo_url": "https://flagcdn.com/w80/ie.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Suisse",
+            "type": "country",
+            "short": "Suisse",
+            "country_code": "ch",
+            "logo_url": "https://flagcdn.com/w80/ch.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:50:00+02:00",
+          "end": "2026-06-09T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "02013dd6bef2",
+          "sport": "football",
+          "competition": null,
+          "title": "Luxembourg / Belgique",
+          "subtitle": null,
+          "description": "Les Red Flames sont déjà assurées de disputer les barrages des qualifications pour la Coupe du monde 2027 et disputent ce match au Luxembourg pour l'honneur.",
+          "team1": {
+            "name": "Luxembourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Belgique",
+            "type": "country",
+            "short": "Belgique",
+            "country_code": "be",
+            "logo_url": "https://flagcdn.com/w80/be.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "LaDeux.be",
+            "name": "Tipik",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
+            "slug": "tipik",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:52:00+02:00",
+          "end": "2026-06-09T21:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "113e1f71c7af",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "Irlande du Nord / Suisse",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "Retransmission de matchs des qualifications pour le Championnat d'Europe féminin de football. Créé en 1984, ce Championnat est disputé par seize équipes réparties en quatre poules tous les quatre ans. Pour y accéder, les nations du Vieux Continent luttent à travers ces matchs disputés en format aller-retour avec des groupes tirés au sort. Seul le pays hôte est traditionnellement qualifié d'office.",
+          "team1": {
+            "name": "Irlande",
+            "type": "club",
+            "short": "Irlande",
+            "country_code": "ie",
+            "logo_url": "https://flagcdn.com/w80/ie.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Suisse",
+            "type": "country",
+            "short": "Suisse",
+            "country_code": "ch",
+            "logo_url": "https://flagcdn.com/w80/ch.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-06-09T18:53:00+02:00",
+          "end": "2026-06-09T20:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a856f5daaa92",
+          "sport": "tennis",
+          "competition": "Internationaux de France 2026 - Finale, femmes",
+          "title": "Tennis: Internationaux de France 2026 - Finale, femmes",
+          "subtitle": "Finale, femmes",
+          "description": "En provenance du stade Roland Garros à Paris.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-06-09T19:00:00+02:00",
+          "end": "2026-06-09T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a9f30fd64cbe",
+          "sport": "f1",
+          "competition": "Grand Prix de Detroit",
+          "title": "Indycar : Grand Prix de Detroit",
+          "subtitle": "Les temps forts. Grand Prix de Detroit.",
+          "description": "Grand Prix de Detroit. Les temps forts.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-06-09T19:20:00+02:00",
+          "end": "2026-06-09T20:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "326446c21697",
           "sport": "basket",
           "competition": null,
@@ -5139,6 +4399,746 @@
           },
           "start": "2026-06-09T19:30:00+02:00",
           "end": "2026-06-09T19:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "119f163f0fe5",
+          "sport": "tennis",
+          "competition": "Roland-Garros",
+          "title": "Finale dames . Maja Chwalinska / Mirra Andreeva",
+          "subtitle": "Roland-Garros",
+          "description": "Roland-Garros est l'un des plus prestigieux tournois de tennis. Le tournoi de Roland-Garros a été créé en 1925. Avec l'Open d'Australie, Wimbledon et l'US Open, Roland-Garros est l'un des quatre tournois du Grand Chelem et le plus grand tournoi de la saison de tennis sur terre battue.",
+          "team1": {
+            "name": "Finale dames",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Mirra Andreeva",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-09T19:45:00+02:00",
+          "end": "2026-06-09T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "530cd1460a15",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-06-09T19:45:00+02:00",
+          "end": "2026-06-09T21:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5b37b5f13409",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-trail",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-06-09T19:55:00+02:00",
+          "end": "2026-06-09T20:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a901fc086892",
+          "sport": "football",
+          "competition": "Football. Eliminatoires de la Coupe du monde féminine. Groupe B4",
+          "title": "Luxembourg / Belgique",
+          "subtitle": "Football. Eliminatoires de la Coupe du monde féminine. Groupe B4.",
+          "description": "Eliminatoires de la Coupe du monde féminine. Groupe B4. Luxembourg / Belgique.",
+          "team1": {
+            "name": "Luxembourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Belgique",
+            "type": "country",
+            "short": "Belgique",
+            "country_code": "be",
+            "logo_url": "https://flagcdn.com/w80/be.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ketnet.be",
+            "name": "Ketnet",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ceff3f6a3454e7b7.png/480x480/quality/100/ketnet.png",
+            "slug": "ketnet",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:00:00+02:00",
+          "end": "2026-06-09T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e6af69e8a015",
+          "sport": "football",
+          "competition": null,
+          "title": "Souviens-toi 2018 - Ep. 1",
+          "subtitle": null,
+          "description": "Pickx+ Sports présente \"Souviens-toi 2018\". Deux soirées événement avec Thomas Meunier, Dedryck Boyata, Julien Cazarre et Lucie Drygalski. À l'approche de la Coupe du Monde, Pickx+ Sports dévoile Souviens-toi 2018, une création originale produite en deux épisodes. L'émission replonge les supporters belges au cœur de l'épopée des Diables Rouges lors de la Coupe du Monde 2018 en Russie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:00:00+02:00",
+          "end": "2026-06-09T20:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e887e00d11d8",
+          "sport": "football",
+          "competition": null,
+          "title": "Herinneringen aan 2018 - Afl. 1",
+          "subtitle": null,
+          "description": "Pickx+ Sports presenteert \"Herinneringen aan 2018\". Twee niet te missen avonden met Thomas Meunier en Dedryck Boyata. In aanloop naar de Wereldbeker stelt Pickx+ Sports U \" Herinneringen aan 2018 \" voor. Deze tweedelige special dompelt Belgische supporters opnieuw onder in het mythische avontuur van de Rode Duivels op het WK 2018 in Rusland. \" Herinneringen aan 2018 \" biedt een onuitgegeven blik achter de schermen van één van de mooiste pagina's in de Belgische sportgeschiedenis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:00:00+02:00",
+          "end": "2026-06-09T20:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "96af3a23ea33",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Paris SG / Metz",
+          "subtitle": null,
+          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS SG et FC METZ.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Metz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:15:00+02:00",
+          "end": "2026-06-09T22:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bdf6d3ee087c",
+          "sport": "basket",
+          "competition": "BNXT League",
+          "title": "Basket-ball : BNXT League",
+          "subtitle": "Anvers Giants / Filou Ostende. BNXT League.",
+          "description": "BNXT League. Anvers Giants / Filou Ostende.",
+          "team1": {
+            "name": "Anvers Giants",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Filou Ostende",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:15:00+02:00",
+          "end": "2026-06-09T22:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c9c446f3a8a2",
+          "sport": "other",
+          "competition": null,
+          "title": "UEFA Europa League",
+          "subtitle": "UEFA Europa League magazine - Bi...",
+          "description": null,
+          "team1": {
+            "name": "UEFA Europa League magazine",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bi...",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:30:00+02:00",
+          "end": "2026-06-09T21:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3087840d2176",
+          "sport": "football",
+          "competition": null,
+          "title": "Belgique - Italie",
+          "subtitle": null,
+          "description": "Finale du Championnat d'Europe U17 : Belgique - Italie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:45:00+02:00",
+          "end": "2026-06-09T22:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7b968a5371d7",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "France / Irlande",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "C'est au Stade des Alpes de Grenoble que les Bleues viennent accueillir les Irlandaises dans une rencontre qui peut éventuellement être cruciale pour les Françaises. Dans un groupe A2, où la concurrence vient essentiellement des Pays-Bas, les coéquipières de Sandy Baltimore et Marie-Antoinette Katoto doivent jouer serré et ne pas laisser trop de place aux doutes. Les joueuses du sélectionneur Laurent Bonadei vont-elles l'emporter devant leur public ?",
+          "team1": {
+            "name": "France",
+            "type": "country",
+            "short": "France",
+            "country_code": "fr",
+            "logo_url": "https://flagcdn.com/w80/fr.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Irlande",
+            "type": "country",
+            "short": "Irlande",
+            "country_code": "ie",
+            "logo_url": "https://flagcdn.com/w80/ie.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:50:00+02:00",
+          "end": "2026-06-09T21:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "694ae4bec395",
+          "sport": "football",
+          "competition": null,
+          "title": "België - Italië",
+          "subtitle": null,
+          "description": "Finale van het Europees Kampioenschap U17 : België - Italië.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:50:00+02:00",
+          "end": "2026-06-09T22:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f43d1acbba95",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Wolverhampton / Manchester City",
+          "subtitle": "Premier League - 1re journée",
+          "description": "Dès l'entame, les Wolves de Wolverhampton se frottent à Manchester City : un sacré défi pour les locaux qui s'attendent à un match difficile contre des Mancuniens favoris.",
+          "team1": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-09T20:58:00+02:00",
+          "end": "2026-06-09T21:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a9c3e91508ba",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific - Quart de f",
+          "title": "Crusaders / Blues",
+          "subtitle": "Super Rugby Pacific - Quart de f...",
+          "description": "La saison régulière de Super Rugby a livré son verdict et les équipes classées de la 3e à la 6e place s'affrontent pour les barrages. Alors que les Hurricanes se battent pour conserver leur place de leader, les Brumbies, les Queensland Reds ou encore les Waratahs pourraient bien se retrouver à lutter pour une place dans les six premiers.",
+          "team1": {
+            "name": "Crusaders",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Blues",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-09T21:00:00+02:00",
+          "end": "2026-06-09T22:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "869895000388",
+          "sport": "voile",
+          "competition": null,
+          "title": "Vendée Globe",
+          "subtitle": "Season 2024/2025",
+          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-06-09T21:00:00+02:00",
+          "end": "2026-06-09T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "758dbdef1d83",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 1",
+          "subtitle": "En milieu hostile",
+          "description": "Pour ce septième épisode, Léo Urban se lance un nouveau défi : survivre aux conditions les plus hostiles. Pour l’occasion, Alban Michon, un explorateur polaire chevronné, va partager toutes ses techniques de survie sur et sous la glace. Jazzon, alias “Jeezy”, va quant à lui imposer à Léo une rude série d’épreuves physiques dans un séjour en bootcamp extrême.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-09T21:00:00+02:00",
+          "end": "2026-06-09T21:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7ba57001834e",
+          "sport": "voile",
+          "competition": null,
+          "title": "Vendée Globe",
+          "subtitle": "Season 2024/2025",
+          "description": "To date, the VENDÉE GLOBE is the only solo sailing race around the world that is non-stop and without assistance. The event followed in the wake of the Golden Globe that initiated the first circumnavigation of this type via the three capes (Good Hope, Leeuwin and Horn) in 1968. 44,996 kilometres, or 24,296 miles. That is the circumference of the Earth. The Vendée Globe accomplishes in 74 days this planetary voyage as participants sail down the Atlantic, across the Indian and face the challenges of the Pacific Ocean. The public refer to this arduous competition as the Everest of the seas, and this 9th edition will see 33 contenders depart from Les Sables-d' Olonne to take part in a life changing competition.Follow the highlights of what happens weekly in the Vendée Globe as challengers sail to the journey of their lives.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-06-09T21:30:00+02:00",
+          "end": "2026-06-09T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f1e5b9c4477d",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 1",
+          "subtitle": "Big ride",
+          "description": "Dans ce dernier épisode, Léo Urban se frotte au monde puissant du ride et de l’adrénaline. Guidé par les frères Mangiarotti, il va tenter de prendre sa première “Big Wave” en surf tracté. En parallèle, il se lance le défi fou de participer à la course de VTT “Megavalanche” seul un rider aussi compétent qu’Antoni Villoni saura lui faire relever ce challenge.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-09T21:38:00+02:00",
+          "end": "2026-06-09T22:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f3c5cda8e5a0",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Espanyol Barcelone / Atlético Madrid",
+          "subtitle": "Liga - 1re journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-09T21:52:00+02:00",
+          "end": "2026-06-09T21:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e32cec2b22e9",
+          "sport": "football",
+          "competition": "Eliminatoires de la Coupe du mon",
+          "title": "France / Irlande",
+          "subtitle": "Eliminatoires de la Coupe du mon...",
+          "description": "C'est au Stade des Alpes de Grenoble que les Bleues viennent accueillir les Irlandaises dans une rencontre qui peut éventuellement être cruciale pour les Françaises. Dans un groupe A2, où la concurrence vient essentiellement des Pays-Bas, les coéquipières de Sandy Baltimore et Marie-Antoinette Katoto doivent jouer serré et ne pas laisser trop de place aux doutes. Les joueuses du sélectionneur Laurent Bonadei vont-elles l'emporter devant leur public ?",
+          "team1": {
+            "name": "France",
+            "type": "country",
+            "short": "France",
+            "country_code": "fr",
+            "logo_url": "https://flagcdn.com/w80/fr.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Irlande",
+            "type": "country",
+            "short": "Irlande",
+            "country_code": "ie",
+            "logo_url": "https://flagcdn.com/w80/ie.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-09T22:05:00+02:00",
+          "end": "2026-06-09T23:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9eeb5722e816",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 1",
+          "subtitle": "A la verticale",
+          "description": "Dans ce cinquième épisode, Léo Urban redécouvre la verticalité. Dans les Alpes, il s’équipe de piolets et de crampons pour défier les frères Ladevant sur une cascade de glace de 150 mètres de haut. En parallèle, il fait appel aux frères Mawem pour l’aider à battre le record de vitesse d’escalade d’une structure mythique, le berceau du parkour : “La Dame du Lac”.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-09T22:22:00+02:00",
+          "end": "2026-06-09T23:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "55eaa8d553db",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames et messieurs. Coupe du monde. 2e manche difficulté.",
+          "description": "Coupe du monde. 2e manche difficulté. Finale dames et messieurs. A Prague (République tchèque).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-09T22:30:00+02:00",
+          "end": "2026-06-09T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e383b30e839f",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-trail",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-06-09T22:30:00+02:00",
+          "end": "2026-06-09T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "48c866ecb266",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 1",
+          "subtitle": "Dans les profondeurs",
+          "description": "Ce sixième épisode de Free Spirits plonge Léo Urban dans le monde inquiétant des profondeurs. Nico Matthieu, spéléologue de l’extrême, propose à Léo une descente à plus de 150 mètres sous terre pour cartographier une cavité inexplorée. Stéphane Tourreau, vice champion d’apnée, coache Léo pour descendre à plus de 30 mètres sous l’eau.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-09T23:02:00+02:00",
+          "end": "2026-06-09T23:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5174b07bc6af",
+          "sport": "other",
+          "competition": null,
+          "title": "Vendée Arctique - Les Sables d'Olonne 2026",
+          "subtitle": "09/06/2026",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeEurope.fr",
+            "name": "TV5 Monde Europe",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-232.png",
+            "slug": "tv5-monde-europe",
+            "is_free": false
+          },
+          "start": "2026-06-09T23:04:54+02:00",
+          "end": "2026-06-09T23:08:06+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
