@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T09:06:02.257025+00:00",
+    "generated_at": "2026-06-19T14:57:02.057503+00:00",
     "total_events": 1283,
     "total_days": 7,
     "sports": [
@@ -22,13 +22,23 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
         "is_free": false
       },
       {
         "slug": "srf-zwei",
         "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-6",
+        "name": "Eurosport 360 - 6",
+        "is_free": false
+      },
+      {
+        "slug": "tipik",
+        "name": "Tipik",
         "is_free": false
       },
       {
@@ -47,18 +57,43 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
         "slug": "rts-2",
         "name": "RTS 2",
         "is_free": false
       },
       {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-7",
+        "name": "Eurosport 360 - 7",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canvas",
+        "name": "Canvas",
         "is_free": false
       },
       {
@@ -72,83 +107,13 @@
         "is_free": false
       },
       {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "nickelodeon-junior",
-        "name": "Nickelodeon Junior",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "guadeloupe-1-re",
-        "name": "Guadeloupe 1ère",
+        "slug": "rmc-talk-sport",
+        "name": "RMC Talk Sport",
         "is_free": false
       },
       {
         "slug": "eurosport-360-11",
         "name": "EUROSPORT 360 11",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-6",
-        "name": "Eurosport 360 - 6",
-        "is_free": false
-      },
-      {
-        "slug": "tipik",
-        "name": "Tipik",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-7",
-        "name": "Eurosport 360 - 7",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canvas",
-        "name": "Canvas",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-talk-sport",
-        "name": "RMC Talk Sport",
         "is_free": false
       },
       {
@@ -227,6 +192,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "tv5mondemaghreborient-fr",
         "name": "TV5MondeMaghrebOrient.fr",
         "is_free": false
@@ -252,6 +222,11 @@
         "is_free": false
       },
       {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
         "slug": "sport-en-france",
         "name": "Sport en France",
         "is_free": true
@@ -259,6 +234,16 @@
       {
         "slug": "nautical-channel",
         "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -279,6 +264,21 @@
       {
         "slug": "planete-aventure",
         "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "nickelodeon-junior",
+        "name": "Nickelodeon Junior",
+        "is_free": false
+      },
+      {
+        "slug": "guadeloupe-1-re",
+        "name": "Guadeloupe 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
         "is_free": false
       },
       {
@@ -474,898 +474,6 @@
       "event_count": 175,
       "events": [
         {
-          "id": "f3674b43647a",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Stuttgart / St. Pauli",
-          "subtitle": "Bundesliga - 4e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-19T09:44:00+02:00",
-          "end": "2026-06-19T11:26:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "311c99cf83cc",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "3e étape . Bad Ragaz - Bad Ragaz (157,9 km)",
-          "subtitle": "Tour de Suisse",
-          "description": "Le Tour de Suisse féminin a été créé en 2021 et se déroule quelques jours avant la course masculine. En 2023, le Tour de Suisse féminin devient une compétition du calendrier de l'UCI World Tour féminin.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-06-19T10:00:00+02:00",
-          "end": "2026-06-19T12:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1cb87ea20303",
-          "sport": "cyclisme",
-          "competition": "Tour de Suisse féminin",
-          "title": "Cyclisme : Tour de Suisse féminin",
-          "subtitle": "Tour de Suisse féminin. 3e étape . Bad Ragaz - Bad Ragaz (120,3 km). UCI World Tour Féminin.",
-          "description": "UCI World Tour Féminin. Tour de Suisse féminin. 3e étape . Bad Ragaz - Bad Ragaz (120,3 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-19T10:05:00+02:00",
-          "end": "2026-06-19T12:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1242e4ccbfb9",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "3e étape . Bad Ragaz - Bad Ragaz (157,9 km)",
-          "subtitle": "Tour de Suisse",
-          "description": "Découvrez les étapes du Tour de Suisse de cyclisme. Organisé depuis 1933, en préparation du Tour de France, il se déroule en Juin de chaque année, et parcourt les différentes étapes de hautes montagnes qui le compose. Intégré à l'UCI World Tour, et compte parmi ses fameux vainqueurs de grands noms comme l'éternel Eddie Merckx",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-06-19T10:07:00+02:00",
-          "end": "2026-06-19T12:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "66a880f4855f",
-          "sport": "football",
-          "competition": "Ligue Europa",
-          "title": "Lille / Dinamo Zagreb",
-          "subtitle": "Ligue Europa - 5e journée",
-          "description": "Après une bonne entame de Ligue Europa, Lille a enchaîné deux revers, face au PAOK Salonique puis sur la pelouse de l'Etoile Rouge de Belgrade. Ces contre-performances n'ont toutefois pas compromis les chances des Dogues de poursuivre leur aventure européenne. Olivier Giroud et ses partenaires devront retrouver, dès cette 5ᵉ journée face au Dinamo Zagreb, le chemin de la victoire.",
-          "team1": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Dinamo Zagreb",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-19T10:21:00+02:00",
-          "end": "2026-06-19T12:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9bfe0b2a2e1d",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Valence / Villarreal",
-          "subtitle": "Liga - 10e journée",
-          "description": "Alors que le classico occupe le Real Madrid, leader de la Liga, et le FC Barcelone, son dauphin, Villarreal se déplace à Valence avec l'ambition de préserver sa 3e place.",
-          "team1": {
-            "name": "Valence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-19T10:23:00+02:00",
-          "end": "2026-06-19T12:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2cb06d7a5909",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "3e étape . Bad Ragaz - Bad Ragaz (120,3 km)",
-          "subtitle": "Tour de Suisse féminin",
-          "description": "En direct de Bad Ragaz",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-06-19T10:30:00+02:00",
-          "end": "2026-06-19T13:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "24bf0108495a",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Stade Français Paris / La Rochelle",
-          "subtitle": "Top 14 - 2e barrage",
-          "description": "Le Stade Français et La Rochelle se retrouvent en barrage pour une place en demi-finale du Top 14 face à Montpellier. Déjà opposés lors de la dernière journée, les deux clubs remettent ça après le succès rochelais (27-22), qui a offert aux Maritimes la 6e place. Troisièmes, les Franciliens auront l'occasion de prendre leur revanche.",
-          "team1": {
-            "name": "Stade Français",
-            "type": "club",
-            "short": "Stade Français",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "La Rochelle",
-            "type": "club",
-            "short": "La Rochelle",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-19T10:56:00+02:00",
-          "end": "2026-06-19T12:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c26f7e0c4502",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "La grimpeuse française Zélia Avezou, 22 ans, a remporté la première manche de bloc de la saison, le 1er mai dernier, à Keqiao, en Chine. Elle a devancé la légende slovène Janja Garnbret et l'Australienne Oceana Mackenzie. Avezou va-t-elle récidiver à Innsbruck, en Autriche, à l'occasion de cette 5e manche de coupe du monde qui se déroule une semaine après celle de Prague, en Tchéquie ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-19T11:00:00+02:00",
-          "end": "2026-06-19T11:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c7ce9310e6b7",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Giro d'Italia Next Gen - Etape 5",
-          "subtitle": null,
-          "description": "Giro d'Italia Next Gen - Etape 5 : Bacoli - Bacoli. (135km)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-06-19T11:55:00+02:00",
-          "end": "2026-06-19T13:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7bb26f9579e1",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Giro d'Italia Next Gen - Rit 5",
-          "subtitle": null,
-          "description": "Giro d'Italia Next Gen - Rit 5: Bacoli - Bacoli. (135km)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-06-19T11:55:00+02:00",
-          "end": "2026-06-19T13:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5530969f525d",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Brest / Nice",
-          "subtitle": null,
-          "description": "En difficulté en ce début de saison, le Stade Brestois, avant-dernier, est l'hôte de l'OGC Nice, 9e, qui reste sur une courte mais précieuse victoire à domicile contre Nantes (1-0).",
-          "team1": {
-            "name": "Stade Brestois",
-            "type": "club",
-            "short": "Brest",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:00:00+02:00",
-          "end": "2026-06-19T13:56:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "778f8bdf87ed",
-          "sport": "football",
-          "competition": "Ligue Europa",
-          "title": "Maccabi Tel-Aviv / Lyon",
-          "subtitle": "Ligue Europa - 5e journée",
-          "description": "Malgré le revers concédé sur la pelouse du Betis Séville (2-0) lors de la dernière journée de Ligue Europa, Lyon occupe toujours la 7ᵉ place et peut encore espérer une qualification directe pour la deuxième phase de la compétition européenne. Toutefois, pour éviter de se faire des frayeurs, les hommes de Paulo Fonseca devront se relancer sur la pelouse du Maccabi Tel-Aviv.",
-          "team1": {
-            "name": "Maccabi Tel-Aviv",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:01:00+02:00",
-          "end": "2026-06-19T13:41:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a5ebe33fd0a3",
-          "sport": "f1",
-          "competition": null,
-          "title": "Paw Patrol, la Pat'Patrouille",
-          "subtitle": "Le Grand Prix / Le Concours de gâteaux",
-          "description": "\"Le Grand Prix\". Grande course entre les chiots juchés sur leurs engins. Alex décide d'y participer sur son tricycle. - \"Le concours de gâteaux\". Comme tous les ans, Mme Goodway voudrait remporter le concours de gâteaux, hélas régulièrement remporté par Hollinger le maire du village d'à côté...",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NickelodeonJunior.fr",
-            "name": "Nickelodeon Junior",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4978e09688e54ba3.png/480x480/quality/100/nickelodeon-junior.png",
-            "slug": "nickelodeon-junior",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:04:00+02:00",
-          "end": "2026-06-19T12:27:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ea31d7fdca78",
-          "sport": "other",
-          "competition": null,
-          "title": "Top Goals",
-          "subtitle": "2025/26 - UEFA Champions League",
-          "description": null,
-          "team1": {
-            "name": "2025/26",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "UEFA Champions League",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:10:00+02:00",
-          "end": "2026-06-19T12:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2434696e2b1a",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Hoffenheim / Bayern Munich",
-          "subtitle": "Bundesliga - 4e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Hoffenheim",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:20:00+02:00",
-          "end": "2026-06-19T14:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1cd534edbf5f",
-          "sport": "football",
-          "competition": "Liga 2 - Playoff. Finale",
-          "title": "Malaga / Almeria",
-          "subtitle": "Liga 2 - Playoff. Finale",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Malaga",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Almeria",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:23:00+02:00",
-          "end": "2026-06-19T14:04:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "74826a58a481",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Suisse / Bosnie-Herzégovine",
-          "subtitle": "Coupe du monde - 2e journée. Gro...",
-          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
-          "team1": {
-            "name": "Suisse",
-            "type": "country",
-            "short": "Suisse",
-            "country_code": "ch",
-            "logo_url": "https://flagcdn.com/w80/ch.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bosnie-Herzégovine",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:25:00+02:00",
-          "end": "2026-06-19T14:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6d6f5b4cd25d",
-          "sport": "other",
-          "competition": null,
-          "title": "Ride in 360 - la glisse immersive",
-          "subtitle": "Manon Wingsurfeuse : La Saline Guadeloupe",
-          "description": "Un magazine dédié aux sports extrêmes et à la culture urbaine. Reportages immersifs, portraits d'athlètes et défis spectaculaires pour vivre l'adrénaline en Martinique.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:26:00+02:00",
-          "end": "2026-06-19T12:29:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c37dd7ac1a4d",
-          "sport": "cyclisme",
-          "competition": "Tour de Slovénie",
-          "title": "Cyclisme : Tour de Slovénie",
-          "subtitle": "Radlje ob Dravi - Ormoz (181,8 km). Tour de Slovénie. 2e étape.",
-          "description": "Tour de Slovénie. 2e étape. Radlje ob Dravi - Ormoz (181,8 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:30:00+02:00",
-          "end": "2026-06-19T13:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "01a45b9245cd",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Tottenham",
-          "subtitle": "Premier League - 12e journée",
-          "description": "Et si 2025-2026 était enfin la saison d'Arsenal ? Les Gunners impressionnent en ce début d'exercice, aussi bien en Premier League qu'en Ligue des champions où, après quatre journées, ils demeurent invaincus. Mikel Merino et ses coéquipiers affrontent Tottenham pour la 12e journée de championnat, avec la ferme intention de préserver leur invincibilité à domicile.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-19T12:56:00+02:00",
-          "end": "2026-06-19T14:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "14f58c4d0ed0",
-          "sport": "cyclisme",
-          "competition": "Tour de Slovénie",
-          "title": "Cyclisme : Tour de Slovénie",
-          "subtitle": "Maribor - Celje (137,6 km). Tour de Slovénie. 3e étape.",
-          "description": "Tour de Slovénie. 3e étape. Maribor - Celje (137,6 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-19T13:00:00+02:00",
-          "end": "2026-06-19T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0856a0844ee1",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36011.fr",
-            "name": "EUROSPORT 360 11",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1107/canal-ouah/CHN43FB/CHN43FB_1107_20240716-EUam?=.png",
-            "slug": "eurosport-360-11",
-            "is_free": false
-          },
-          "start": "2026-06-19T13:00:00+02:00",
-          "end": "2026-06-19T15:46:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dea9ba4276bf",
-          "sport": "f1",
-          "competition": null,
-          "title": "La course",
-          "subtitle": "Grand Prix de Barcelone-Catalogne",
-          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-19T13:20:00+02:00",
-          "end": "2026-06-19T15:04:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4a5d39642064",
-          "sport": "f1",
-          "competition": "Grand Prix de Barcelone-Catalogne",
-          "title": "Formule 1 : Grand Prix de Barcelone-Catalogne",
-          "subtitle": null,
-          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-19T13:20:00+02:00",
-          "end": "2026-06-19T15:04:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4c45a8a5b505",
-          "sport": "basket",
-          "competition": "BNXT League",
-          "title": "Basket-ball : BNXT League",
-          "subtitle": "Anvers Giants / Filou Ostende. BNXT League.",
-          "description": "BNXT League. Anvers Giants / Filou Ostende.",
-          "team1": {
-            "name": "Anvers Giants",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Filou Ostende",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-06-19T13:55:00+02:00",
-          "end": "2026-06-19T16:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cdfc53dee9a5",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Monaco / Metz",
-          "subtitle": null,
-          "description": "1ère période du match de la 5ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant AS MONACO et FC METZ",
-          "team1": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Metz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-19T14:00:00+02:00",
-          "end": "2026-06-19T15:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f1eb45b418d",
-          "sport": "f1",
-          "competition": null,
-          "title": "Feature Race",
-          "subtitle": "Grand Prix de Barcelone-Catalogne",
-          "description": "Le Grand Prix de Barcelone-Catalogne de Formule 2 se tient sur le circuit de Montmeló et réunit les meilleurs espoirs du sport auto pour une épreuve stratégique intense.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-19T14:04:00+02:00",
-          "end": "2026-06-19T15:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f1be528f1b25",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Canada / Qatar",
-          "subtitle": "Coupe du monde - 2e journée. Gro...",
-          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
-          "team1": {
-            "name": "Canada",
-            "type": "country",
-            "short": "Canada",
-            "country_code": "ca",
-            "logo_url": "https://flagcdn.com/w80/ca.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Qatar",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-06-19T14:10:00+02:00",
-          "end": "2026-06-19T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "1b66bd5351f2",
           "sport": "equitation",
           "competition": null,
@@ -1383,155 +491,7 @@
           },
           "start": "2026-06-19T14:16:00+02:00",
           "end": "2026-06-19T18:18:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a1b373bb93cc",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E45",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-06-19T14:25:00+02:00",
-          "end": "2026-06-19T14:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "522057d26a68",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Celta Vigo / FC Barcelone",
-          "subtitle": "Liga - 12e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Celta Vigo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-19T14:37:00+02:00",
-          "end": "2026-06-19T16:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4976f2604059",
-          "sport": "other",
-          "competition": "FIH Pro League (dames)",
-          "title": "Hockey sur gazon : FIH Pro League (dames)",
-          "subtitle": "Belgique / Chine. Hockey Pro League féminine.",
-          "description": "Hockey Pro League féminine. Belgique / Chine.",
-          "team1": {
-            "name": "Belgique",
-            "type": "country",
-            "short": "Belgique",
-            "country_code": "be",
-            "logo_url": "https://flagcdn.com/w80/be.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chine",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-06-19T14:55:00+02:00",
-          "end": "2026-06-19T16:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "65de48668af0",
-          "sport": "cyclisme",
-          "competition": "Tour de Suisse",
-          "title": "Cyclisme : Tour de Suisse",
-          "subtitle": "Tour de Suisse. 2e étape . Locarno - Locarno (157,7 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de Suisse. 2e étape . Locarno - Locarno (157,7 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-19T15:00:00+02:00",
-          "end": "2026-06-19T15:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "77cec13152c9",
-          "sport": "f1",
-          "competition": null,
-          "title": "Le podium",
-          "subtitle": "Grand Prix de Barcelone-Catalogne",
-          "description": "Les hymnes, la remise des trophées aux pilotes ayant terminé aux trois premières places, le traditionnel champagne qui coule à flots : toute la cérémonie du podium du Grand Prix de Formule 1 du jour à suivre avec les équipes de Canal+ !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-19T15:04:00+02:00",
-          "end": "2026-06-19T15:26:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1555,7 +515,7 @@
           },
           "start": "2026-06-19T15:05:00+02:00",
           "end": "2026-06-19T18:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1579,7 +539,7 @@
           },
           "start": "2026-06-19T15:30:00+02:00",
           "end": "2026-06-19T17:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1603,7 +563,7 @@
           },
           "start": "2026-06-19T15:30:00+02:00",
           "end": "2026-06-19T17:46:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1627,7 +587,7 @@
           },
           "start": "2026-06-19T15:35:00+02:00",
           "end": "2026-06-19T17:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1651,7 +611,7 @@
           },
           "start": "2026-06-19T15:37:00+02:00",
           "end": "2026-06-19T17:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1689,7 +649,7 @@
           },
           "start": "2026-06-19T15:52:00+02:00",
           "end": "2026-06-19T17:37:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1713,7 +673,7 @@
           },
           "start": "2026-06-19T16:00:00+02:00",
           "end": "2026-06-19T18:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1751,7 +711,7 @@
           },
           "start": "2026-06-19T16:01:00+02:00",
           "end": "2026-06-19T18:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1775,7 +735,7 @@
           },
           "start": "2026-06-19T16:30:00+02:00",
           "end": "2026-06-19T18:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1813,7 +773,7 @@
           },
           "start": "2026-06-19T16:40:00+02:00",
           "end": "2026-06-19T18:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5774,6 +4734,44 @@
           "result": null
         },
         {
+          "id": "f3674b43647a",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Stuttgart / St. Pauli",
+          "subtitle": "Bundesliga - 4e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-19T09:44:00+02:00",
+          "end": "2026-06-19T11:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e06a822907d1",
           "sport": "f1",
           "competition": null,
@@ -5798,6 +4796,78 @@
           "result": null
         },
         {
+          "id": "311c99cf83cc",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "3e étape . Bad Ragaz - Bad Ragaz (157,9 km)",
+          "subtitle": "Tour de Suisse",
+          "description": "Le Tour de Suisse féminin a été créé en 2021 et se déroule quelques jours avant la course masculine. En 2023, le Tour de Suisse féminin devient une compétition du calendrier de l'UCI World Tour féminin.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-06-19T10:00:00+02:00",
+          "end": "2026-06-19T12:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1cb87ea20303",
+          "sport": "cyclisme",
+          "competition": "Tour de Suisse féminin",
+          "title": "Cyclisme : Tour de Suisse féminin",
+          "subtitle": "Tour de Suisse féminin. 3e étape . Bad Ragaz - Bad Ragaz (120,3 km). UCI World Tour Féminin.",
+          "description": "UCI World Tour Féminin. Tour de Suisse féminin. 3e étape . Bad Ragaz - Bad Ragaz (120,3 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-19T10:05:00+02:00",
+          "end": "2026-06-19T12:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1242e4ccbfb9",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "3e étape . Bad Ragaz - Bad Ragaz (157,9 km)",
+          "subtitle": "Tour de Suisse",
+          "description": "Découvrez les étapes du Tour de Suisse de cyclisme. Organisé depuis 1933, en préparation du Tour de France, il se déroule en Juin de chaque année, et parcourt les différentes étapes de hautes montagnes qui le compose. Intégré à l'UCI World Tour, et compte parmi ses fameux vainqueurs de grands noms comme l'éternel Eddie Merckx",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-06-19T10:07:00+02:00",
+          "end": "2026-06-19T12:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "19ee80d5eeb8",
           "sport": "voile",
           "competition": null,
@@ -5815,6 +4885,936 @@
           },
           "start": "2026-06-19T10:18:00+02:00",
           "end": "2026-06-19T10:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "66a880f4855f",
+          "sport": "football",
+          "competition": "Ligue Europa",
+          "title": "Lille / Dinamo Zagreb",
+          "subtitle": "Ligue Europa - 5e journée",
+          "description": "Après une bonne entame de Ligue Europa, Lille a enchaîné deux revers, face au PAOK Salonique puis sur la pelouse de l'Etoile Rouge de Belgrade. Ces contre-performances n'ont toutefois pas compromis les chances des Dogues de poursuivre leur aventure européenne. Olivier Giroud et ses partenaires devront retrouver, dès cette 5ᵉ journée face au Dinamo Zagreb, le chemin de la victoire.",
+          "team1": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Dinamo Zagreb",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-19T10:21:00+02:00",
+          "end": "2026-06-19T12:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9bfe0b2a2e1d",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Valence / Villarreal",
+          "subtitle": "Liga - 10e journée",
+          "description": "Alors que le classico occupe le Real Madrid, leader de la Liga, et le FC Barcelone, son dauphin, Villarreal se déplace à Valence avec l'ambition de préserver sa 3e place.",
+          "team1": {
+            "name": "Valence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-19T10:23:00+02:00",
+          "end": "2026-06-19T12:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2cb06d7a5909",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "3e étape . Bad Ragaz - Bad Ragaz (120,3 km)",
+          "subtitle": "Tour de Suisse féminin",
+          "description": "En direct de Bad Ragaz",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-06-19T10:30:00+02:00",
+          "end": "2026-06-19T13:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "24bf0108495a",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Stade Français Paris / La Rochelle",
+          "subtitle": "Top 14 - 2e barrage",
+          "description": "Le Stade Français et La Rochelle se retrouvent en barrage pour une place en demi-finale du Top 14 face à Montpellier. Déjà opposés lors de la dernière journée, les deux clubs remettent ça après le succès rochelais (27-22), qui a offert aux Maritimes la 6e place. Troisièmes, les Franciliens auront l'occasion de prendre leur revanche.",
+          "team1": {
+            "name": "Stade Français",
+            "type": "club",
+            "short": "Stade Français",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "La Rochelle",
+            "type": "club",
+            "short": "La Rochelle",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2577.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-19T10:56:00+02:00",
+          "end": "2026-06-19T12:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c26f7e0c4502",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "La grimpeuse française Zélia Avezou, 22 ans, a remporté la première manche de bloc de la saison, le 1er mai dernier, à Keqiao, en Chine. Elle a devancé la légende slovène Janja Garnbret et l'Australienne Oceana Mackenzie. Avezou va-t-elle récidiver à Innsbruck, en Autriche, à l'occasion de cette 5e manche de coupe du monde qui se déroule une semaine après celle de Prague, en Tchéquie ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-19T11:00:00+02:00",
+          "end": "2026-06-19T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c7ce9310e6b7",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Giro d'Italia Next Gen - Etape 5",
+          "subtitle": null,
+          "description": "Giro d'Italia Next Gen - Etape 5 : Bacoli - Bacoli. (135km)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-06-19T11:55:00+02:00",
+          "end": "2026-06-19T13:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7bb26f9579e1",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Giro d'Italia Next Gen - Rit 5",
+          "subtitle": null,
+          "description": "Giro d'Italia Next Gen - Rit 5: Bacoli - Bacoli. (135km)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-06-19T11:55:00+02:00",
+          "end": "2026-06-19T13:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5530969f525d",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Brest / Nice",
+          "subtitle": null,
+          "description": "En difficulté en ce début de saison, le Stade Brestois, avant-dernier, est l'hôte de l'OGC Nice, 9e, qui reste sur une courte mais précieuse victoire à domicile contre Nantes (1-0).",
+          "team1": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:00:00+02:00",
+          "end": "2026-06-19T13:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "778f8bdf87ed",
+          "sport": "football",
+          "competition": "Ligue Europa",
+          "title": "Maccabi Tel-Aviv / Lyon",
+          "subtitle": "Ligue Europa - 5e journée",
+          "description": "Malgré le revers concédé sur la pelouse du Betis Séville (2-0) lors de la dernière journée de Ligue Europa, Lyon occupe toujours la 7ᵉ place et peut encore espérer une qualification directe pour la deuxième phase de la compétition européenne. Toutefois, pour éviter de se faire des frayeurs, les hommes de Paulo Fonseca devront se relancer sur la pelouse du Maccabi Tel-Aviv.",
+          "team1": {
+            "name": "Maccabi Tel-Aviv",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:01:00+02:00",
+          "end": "2026-06-19T13:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a5ebe33fd0a3",
+          "sport": "f1",
+          "competition": null,
+          "title": "Paw Patrol, la Pat'Patrouille",
+          "subtitle": "Le Grand Prix / Le Concours de gâteaux",
+          "description": "\"Le Grand Prix\". Grande course entre les chiots juchés sur leurs engins. Alex décide d'y participer sur son tricycle. - \"Le concours de gâteaux\". Comme tous les ans, Mme Goodway voudrait remporter le concours de gâteaux, hélas régulièrement remporté par Hollinger le maire du village d'à côté...",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NickelodeonJunior.fr",
+            "name": "Nickelodeon Junior",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4978e09688e54ba3.png/480x480/quality/100/nickelodeon-junior.png",
+            "slug": "nickelodeon-junior",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:04:00+02:00",
+          "end": "2026-06-19T12:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ea31d7fdca78",
+          "sport": "other",
+          "competition": null,
+          "title": "Top Goals",
+          "subtitle": "2025/26 - UEFA Champions League",
+          "description": null,
+          "team1": {
+            "name": "2025/26",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "UEFA Champions League",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:10:00+02:00",
+          "end": "2026-06-19T12:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2434696e2b1a",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Hoffenheim / Bayern Munich",
+          "subtitle": "Bundesliga - 4e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Hoffenheim",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:20:00+02:00",
+          "end": "2026-06-19T14:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1cd534edbf5f",
+          "sport": "football",
+          "competition": "Liga 2 - Playoff. Finale",
+          "title": "Malaga / Almeria",
+          "subtitle": "Liga 2 - Playoff. Finale",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Malaga",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Almeria",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:23:00+02:00",
+          "end": "2026-06-19T14:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "74826a58a481",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Suisse / Bosnie-Herzégovine",
+          "subtitle": "Coupe du monde - 2e journée. Gro...",
+          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
+          "team1": {
+            "name": "Suisse",
+            "type": "country",
+            "short": "Suisse",
+            "country_code": "ch",
+            "logo_url": "https://flagcdn.com/w80/ch.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bosnie-Herzégovine",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:25:00+02:00",
+          "end": "2026-06-19T14:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6d6f5b4cd25d",
+          "sport": "other",
+          "competition": null,
+          "title": "Ride in 360 - la glisse immersive",
+          "subtitle": "Manon Wingsurfeuse : La Saline Guadeloupe",
+          "description": "Un magazine dédié aux sports extrêmes et à la culture urbaine. Reportages immersifs, portraits d'athlètes et défis spectaculaires pour vivre l'adrénaline en Martinique.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:26:00+02:00",
+          "end": "2026-06-19T12:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c37dd7ac1a4d",
+          "sport": "cyclisme",
+          "competition": "Tour de Slovénie",
+          "title": "Cyclisme : Tour de Slovénie",
+          "subtitle": "Radlje ob Dravi - Ormoz (181,8 km). Tour de Slovénie. 2e étape.",
+          "description": "Tour de Slovénie. 2e étape. Radlje ob Dravi - Ormoz (181,8 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:30:00+02:00",
+          "end": "2026-06-19T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "01a45b9245cd",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Tottenham",
+          "subtitle": "Premier League - 12e journée",
+          "description": "Et si 2025-2026 était enfin la saison d'Arsenal ? Les Gunners impressionnent en ce début d'exercice, aussi bien en Premier League qu'en Ligue des champions où, après quatre journées, ils demeurent invaincus. Mikel Merino et ses coéquipiers affrontent Tottenham pour la 12e journée de championnat, avec la ferme intention de préserver leur invincibilité à domicile.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-19T12:56:00+02:00",
+          "end": "2026-06-19T14:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "14f58c4d0ed0",
+          "sport": "cyclisme",
+          "competition": "Tour de Slovénie",
+          "title": "Cyclisme : Tour de Slovénie",
+          "subtitle": "Maribor - Celje (137,6 km). Tour de Slovénie. 3e étape.",
+          "description": "Tour de Slovénie. 3e étape. Maribor - Celje (137,6 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-19T13:00:00+02:00",
+          "end": "2026-06-19T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0856a0844ee1",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36011.fr",
+            "name": "EUROSPORT 360 11",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1107/canal-ouah/CHN43FB/CHN43FB_1107_20240716-EUam?=.png",
+            "slug": "eurosport-360-11",
+            "is_free": false
+          },
+          "start": "2026-06-19T13:00:00+02:00",
+          "end": "2026-06-19T15:46:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dea9ba4276bf",
+          "sport": "f1",
+          "competition": null,
+          "title": "La course",
+          "subtitle": "Grand Prix de Barcelone-Catalogne",
+          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-19T13:20:00+02:00",
+          "end": "2026-06-19T15:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4a5d39642064",
+          "sport": "f1",
+          "competition": "Grand Prix de Barcelone-Catalogne",
+          "title": "Formule 1 : Grand Prix de Barcelone-Catalogne",
+          "subtitle": null,
+          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-19T13:20:00+02:00",
+          "end": "2026-06-19T15:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4c45a8a5b505",
+          "sport": "basket",
+          "competition": "BNXT League",
+          "title": "Basket-ball : BNXT League",
+          "subtitle": "Anvers Giants / Filou Ostende. BNXT League.",
+          "description": "BNXT League. Anvers Giants / Filou Ostende.",
+          "team1": {
+            "name": "Anvers Giants",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Filou Ostende",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-06-19T13:55:00+02:00",
+          "end": "2026-06-19T16:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cdfc53dee9a5",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Monaco / Metz",
+          "subtitle": null,
+          "description": "1ère période du match de la 5ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant AS MONACO et FC METZ",
+          "team1": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Metz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-19T14:00:00+02:00",
+          "end": "2026-06-19T15:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f1eb45b418d",
+          "sport": "f1",
+          "competition": null,
+          "title": "Feature Race",
+          "subtitle": "Grand Prix de Barcelone-Catalogne",
+          "description": "Le Grand Prix de Barcelone-Catalogne de Formule 2 se tient sur le circuit de Montmeló et réunit les meilleurs espoirs du sport auto pour une épreuve stratégique intense.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-19T14:04:00+02:00",
+          "end": "2026-06-19T15:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f1be528f1b25",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Canada / Qatar",
+          "subtitle": "Coupe du monde - 2e journée. Gro...",
+          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
+          "team1": {
+            "name": "Canada",
+            "type": "country",
+            "short": "Canada",
+            "country_code": "ca",
+            "logo_url": "https://flagcdn.com/w80/ca.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Qatar",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-06-19T14:10:00+02:00",
+          "end": "2026-06-19T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a1b373bb93cc",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E45",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-06-19T14:25:00+02:00",
+          "end": "2026-06-19T14:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "522057d26a68",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Celta Vigo / FC Barcelone",
+          "subtitle": "Liga - 12e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Celta Vigo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-19T14:37:00+02:00",
+          "end": "2026-06-19T16:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4976f2604059",
+          "sport": "other",
+          "competition": "FIH Pro League (dames)",
+          "title": "Hockey sur gazon : FIH Pro League (dames)",
+          "subtitle": "Belgique / Chine. Hockey Pro League féminine.",
+          "description": "Hockey Pro League féminine. Belgique / Chine.",
+          "team1": {
+            "name": "Belgique",
+            "type": "country",
+            "short": "Belgique",
+            "country_code": "be",
+            "logo_url": "https://flagcdn.com/w80/be.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chine",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-06-19T14:55:00+02:00",
+          "end": "2026-06-19T16:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "65de48668af0",
+          "sport": "cyclisme",
+          "competition": "Tour de Suisse",
+          "title": "Cyclisme : Tour de Suisse",
+          "subtitle": "Tour de Suisse. 2e étape . Locarno - Locarno (157,7 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de Suisse. 2e étape . Locarno - Locarno (157,7 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-19T15:00:00+02:00",
+          "end": "2026-06-19T15:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "77cec13152c9",
+          "sport": "f1",
+          "competition": null,
+          "title": "Le podium",
+          "subtitle": "Grand Prix de Barcelone-Catalogne",
+          "description": "Les hymnes, la remise des trophées aux pilotes ayant terminé aux trois premières places, le traditionnel champagne qui coule à flots : toute la cérémonie du podium du Grand Prix de Formule 1 du jour à suivre avec les équipes de Canal+ !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-19T15:04:00+02:00",
+          "end": "2026-06-19T15:26:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
