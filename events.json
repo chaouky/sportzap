@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-24T07:36:35.026604+00:00",
+    "generated_at": "2026-06-24T10:45:28.132820+00:00",
     "total_events": 1176,
     "total_days": 7,
     "sports": [
@@ -22,41 +22,6 @@
       "volleyball"
     ],
     "channels": [
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
-        "is_free": false
-      },
       {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
@@ -93,6 +58,21 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "nautical-channel",
         "name": "Nautical Channel",
         "is_free": false
@@ -103,8 +83,23 @@
         "is_free": true
       },
       {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -226,6 +221,11 @@
         "slug": "m6",
         "name": "M6",
         "is_free": true
+      },
+      {
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
+        "is_free": false
       },
       {
         "slug": "rds-info",
@@ -420,482 +420,6 @@
       "event_count": 178,
       "events": [
         {
-          "id": "87df91287671",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / Liverpool",
-          "subtitle": "Premier League - 6e journée",
-          "description": "Les Reds de Liverpool, invaincus lors des cinq premières journées, voulaient poursuivre sur leur lancée, en déplacement sur la pelouse de Crystal Palace. Mais les Eagles sont la nouvelle bête noire de Liverpool, en Angleterre. Vont-ils récidiver, devant leur public du Selhurst Park ?",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-24T07:44:00+02:00",
-          "end": "2026-06-24T09:39:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "244851b0d7ba",
-          "sport": "basket",
-          "competition": "NBA - Playoffs. Finale",
-          "title": "New York Knicks / San Antonio Spurs",
-          "subtitle": "NBA - Playoffs. Finale. 3e match",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "New York Knicks",
-            "type": "club",
-            "short": "Knicks",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-24T07:54:00+02:00",
-          "end": "2026-06-24T10:22:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b4180ea7bd9f",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Marseille / Ajax Amsterdam",
-          "subtitle": "Ligue des champions - 2e journée",
-          "description": "En 2023, au bout d'un match fou, l'Olympique de Marseille avait arraché un succès précieux au Vélodrome face à l'Ajax Amsterdam en Ligue Europa (4-3). Deux ans plus tard, les Phocéens affrontent le même adversaire, mais cette fois en Ligue des champions. Après un match périlleux au Real Madrid, lors la première journée, Mason Greenwood et l'OM retrouvent leur public du Vélodrome pour leur grand retour en Champions League.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ajax Amsterdam",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-24T08:01:00+02:00",
-          "end": "2026-06-24T09:43:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d3f034594ccb",
-          "sport": "f1",
-          "competition": null,
-          "title": "La course",
-          "subtitle": "Grand Prix de Barcelone-Catalogne",
-          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-24T09:19:00+02:00",
-          "end": "2026-06-24T11:03:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e8f13293d45c",
-          "sport": "f1",
-          "competition": "Grand Prix de Barcelone-Catalogne",
-          "title": "Formule 1 : Grand Prix de Barcelone-Catalogne",
-          "subtitle": null,
-          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-24T09:19:00+02:00",
-          "end": "2026-06-24T11:03:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d0570ebb45b7",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Strasbourg / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 20e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-06-24T09:19:00+02:00",
-          "end": "2026-06-24T11:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "13127aa8096e",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "VTT",
-          "description": "Lenzerheide, en Suisse, accueille la 4e manche de la saison de Coupe du monde VTT de descente. Troisième la première manche disputée en Corée du Sud, la Française Myriam Nicole fait partie des favorites, aux côtés de l'Autrichienne Valentina Höll et de l'Italienne Gloria Scarsi. Valentina Höll est la tenante du titre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-24T09:30:00+02:00",
-          "end": "2026-06-24T10:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fb85a5c5850f",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "FC Barcelone / Paris-SG",
-          "subtitle": "Ligue des champions - 2e journée",
-          "description": "Revoilà donc un choc devenu un classique de la Ligue des champions entre le Barça et le PSG : les coéquipiers de Lamine Yamal espèrent surprendre le champion en titre !",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-24T09:43:00+02:00",
-          "end": "2026-06-24T11:24:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bb62d95dc423",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 2",
-          "subtitle": "Duos - patinage artistique & plongeon synchronisé",
-          "description": "Cass, une influenceuse audacieuse qui rêve de devenir cascadeuse, se lance dans l'apprentissage de plusieurs sports extrêmes. Du vélo au patin à glace, en passant par l'équitation, elle doit maîtriser équilibre et courage. Guidée par des athlètes professionnels, elle apprend les gestes techniques, la discipline et affronte ses peurs. Son parcours est un mélange de doutes, de chutes et de réussites.",
-          "team1": {
-            "name": "Duos",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "patinage artistique & plongeon synchronisé",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-24T09:55:00+02:00",
-          "end": "2026-06-24T10:38:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "364633e97ed9",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Borussia Dortmund / Leipzig",
-          "subtitle": "Bundesliga - 6e  journée",
-          "description": "A l'instar du Bayern Munich, le Borussia Dortmund est invaincu en championnat. Pour rester au contact du leader bavarois, les joueurs de Niko Kovac devront museler Leipzig.",
-          "team1": {
-            "name": "Borussia Dortmund",
-            "type": "club",
-            "short": "BVB",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leipzig",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-24T10:13:00+02:00",
-          "end": "2026-06-24T11:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a3fd71fc5406",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "VTT",
-          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-24T10:15:00+02:00",
-          "end": "2026-06-24T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ffb27d572b51",
-          "sport": "tennis",
-          "competition": "Tournoi ATP de Halle",
-          "title": "Finale . Taylor Fritz / Frances Tiafoe",
-          "subtitle": "Tournoi ATP de Halle",
-          "description": "Retransmission d'un match de tennis du tournoi ATP de Halle. Egalement connu sous le nom de Gerry Weber Open, ce tournoi sur gazon fait partie de la catégorie 500 dans le circuit ATP et se dispute depuis 1993 à Halle en Allemagne. Il sert de préparation au tournoi du Grand Chelem de Wimbledon, car disputé deux semaines auparavant.",
-          "team1": {
-            "name": "Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Frances Tiafoe",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-24T10:22:00+02:00",
-          "end": "2026-06-24T12:32:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "25cd0e07d61b",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Arsenal",
-          "subtitle": "Premier League - 15e journée",
-          "description": "Leaders de Premier League, les Gunners d'Arsenal se déplacent au Villa Park pour un match au sommet contre une équipe d'Aston Villa, entraînée par Unai Emery et qui joue les premiers rôles cette saison. Pour l'heure, William Saliba et ses coéquipiers d'Arsenal n'ont concédé qu'une défaite cette saison. Sont-ils en danger à l'occasion de cette 15e journée ?",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-24T10:32:00+02:00",
-          "end": "2026-06-24T12:12:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "df1668cd4adc",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 2",
-          "subtitle": "Technique - wingfoil & vélo de piste",
-          "description": "Cass, une influenceuse audacieuse, aspire à devenir cascadeuse. Pour réaliser son rêve, elle se lance dans un défi intense : maîtriser un nouveau sport extrême à chaque étape, du vélo à l'équitation. Sous la tutelle d'athlètes professionnels, elle apprend la technique et la discipline, affronte ses peurs, chute et se relève sans cesse. Son parcours mêle ses doutes personnels à des exploits spectaculaires.",
-          "team1": {
-            "name": "Technique",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "wingfoil & vélo de piste",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-24T10:38:00+02:00",
-          "end": "2026-06-24T11:22:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "1237ff9e54b2",
           "sport": "other",
           "competition": "Ligue des champions",
@@ -927,31 +451,7 @@
           },
           "start": "2026-06-24T11:00:00+02:00",
           "end": "2026-06-24T13:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d952e17f8e50",
-          "sport": "f1",
-          "competition": null,
-          "title": "Le podium",
-          "subtitle": "Grand Prix de Barcelone-Catalogne",
-          "description": "Les hymnes, la remise des trophées aux pilotes ayant terminé aux trois premières places, le traditionnel champagne qui coule à flots : toute la cérémonie du podium du Grand Prix de Formule 1 du jour à suivre avec les équipes de Canal+ !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-24T11:03:00+02:00",
-          "end": "2026-06-24T11:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -989,7 +489,7 @@
           },
           "start": "2026-06-24T11:14:00+02:00",
           "end": "2026-06-24T13:18:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1013,7 +513,7 @@
           },
           "start": "2026-06-24T11:25:00+02:00",
           "end": "2026-06-24T13:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1037,31 +537,7 @@
           },
           "start": "2026-06-24T11:25:00+02:00",
           "end": "2026-06-24T13:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cc4da749d10a",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "VTT",
-          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-24T11:30:00+02:00",
-          "end": "2026-06-24T12:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1099,7 +575,7 @@
           },
           "start": "2026-06-24T12:00:00+02:00",
           "end": "2026-06-24T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1137,7 +613,7 @@
           },
           "start": "2026-06-24T12:00:00+02:00",
           "end": "2026-06-24T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1161,7 +637,7 @@
           },
           "start": "2026-06-24T12:00:00+02:00",
           "end": "2026-06-24T15:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1199,7 +675,7 @@
           },
           "start": "2026-06-24T12:12:00+02:00",
           "end": "2026-06-24T13:51:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1237,7 +713,7 @@
           },
           "start": "2026-06-24T12:23:00+02:00",
           "end": "2026-06-24T14:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1261,7 +737,7 @@
           },
           "start": "2026-06-24T12:30:00+02:00",
           "end": "2026-06-24T13:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1285,7 +761,7 @@
           },
           "start": "2026-06-24T12:30:00+02:00",
           "end": "2026-06-24T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1309,7 +785,7 @@
           },
           "start": "2026-06-24T12:45:00+02:00",
           "end": "2026-06-24T12:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6070,6 +5546,44 @@
           "result": null
         },
         {
+          "id": "87df91287671",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / Liverpool",
+          "subtitle": "Premier League - 6e journée",
+          "description": "Les Reds de Liverpool, invaincus lors des cinq premières journées, voulaient poursuivre sur leur lancée, en déplacement sur la pelouse de Crystal Palace. Mais les Eagles sont la nouvelle bête noire de Liverpool, en Angleterre. Vont-ils récidiver, devant leur public du Selhurst Park ?",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-24T07:44:00+02:00",
+          "end": "2026-06-24T09:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "8aa73ed9ac6f",
           "sport": "football",
           "competition": null,
@@ -6166,6 +5680,82 @@
           "result": null
         },
         {
+          "id": "244851b0d7ba",
+          "sport": "basket",
+          "competition": "NBA - Playoffs. Finale",
+          "title": "New York Knicks / San Antonio Spurs",
+          "subtitle": "NBA - Playoffs. Finale. 3e match",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "New York Knicks",
+            "type": "club",
+            "short": "Knicks",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-24T07:54:00+02:00",
+          "end": "2026-06-24T10:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b4180ea7bd9f",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Marseille / Ajax Amsterdam",
+          "subtitle": "Ligue des champions - 2e journée",
+          "description": "En 2023, au bout d'un match fou, l'Olympique de Marseille avait arraché un succès précieux au Vélodrome face à l'Ajax Amsterdam en Ligue Europa (4-3). Deux ans plus tard, les Phocéens affrontent le même adversaire, mais cette fois en Ligue des champions. Après un match périlleux au Real Madrid, lors la première journée, Mason Greenwood et l'OM retrouvent leur public du Vélodrome pour leur grand retour en Champions League.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ajax Amsterdam",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-24T08:01:00+02:00",
+          "end": "2026-06-24T09:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f1e5bf45f916",
           "sport": "cyclisme",
           "competition": "Tour de Suisse",
@@ -6183,6 +5773,416 @@
           },
           "start": "2026-06-24T08:30:00+02:00",
           "end": "2026-06-24T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d3f034594ccb",
+          "sport": "f1",
+          "competition": null,
+          "title": "La course",
+          "subtitle": "Grand Prix de Barcelone-Catalogne",
+          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-24T09:19:00+02:00",
+          "end": "2026-06-24T11:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e8f13293d45c",
+          "sport": "f1",
+          "competition": "Grand Prix de Barcelone-Catalogne",
+          "title": "Formule 1 : Grand Prix de Barcelone-Catalogne",
+          "subtitle": null,
+          "description": "Qui arrêtera Kimi Antonelli ? A 19 ans (il aura 20 ans en août), le pilote de Mercedes réalise un début de saison exceptionnel, enchaînant les victoires au point d'avoir déjà pris une sérieuse option sur le titre de champion du monde. En Catalogne, l'Italien sera une fois de plus le favori du Grand Prix de Barcelone, sur un circuit qu'il a parfaitement apprivoisé lors des essais de présaison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-24T09:19:00+02:00",
+          "end": "2026-06-24T11:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d0570ebb45b7",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Strasbourg / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 20e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-06-24T09:19:00+02:00",
+          "end": "2026-06-24T11:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "13127aa8096e",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "VTT",
+          "description": "Lenzerheide, en Suisse, accueille la 4e manche de la saison de Coupe du monde VTT de descente. Troisième la première manche disputée en Corée du Sud, la Française Myriam Nicole fait partie des favorites, aux côtés de l'Autrichienne Valentina Höll et de l'Italienne Gloria Scarsi. Valentina Höll est la tenante du titre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-24T09:30:00+02:00",
+          "end": "2026-06-24T10:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fb85a5c5850f",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "FC Barcelone / Paris-SG",
+          "subtitle": "Ligue des champions - 2e journée",
+          "description": "Revoilà donc un choc devenu un classique de la Ligue des champions entre le Barça et le PSG : les coéquipiers de Lamine Yamal espèrent surprendre le champion en titre !",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-24T09:43:00+02:00",
+          "end": "2026-06-24T11:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bb62d95dc423",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 2",
+          "subtitle": "Duos - patinage artistique & plongeon synchronisé",
+          "description": "Cass, une influenceuse audacieuse qui rêve de devenir cascadeuse, se lance dans l'apprentissage de plusieurs sports extrêmes. Du vélo au patin à glace, en passant par l'équitation, elle doit maîtriser équilibre et courage. Guidée par des athlètes professionnels, elle apprend les gestes techniques, la discipline et affronte ses peurs. Son parcours est un mélange de doutes, de chutes et de réussites.",
+          "team1": {
+            "name": "Duos",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "patinage artistique & plongeon synchronisé",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-24T09:55:00+02:00",
+          "end": "2026-06-24T10:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "364633e97ed9",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Borussia Dortmund / Leipzig",
+          "subtitle": "Bundesliga - 6e  journée",
+          "description": "A l'instar du Bayern Munich, le Borussia Dortmund est invaincu en championnat. Pour rester au contact du leader bavarois, les joueurs de Niko Kovac devront museler Leipzig.",
+          "team1": {
+            "name": "Borussia Dortmund",
+            "type": "club",
+            "short": "BVB",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leipzig",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-24T10:13:00+02:00",
+          "end": "2026-06-24T11:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a3fd71fc5406",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "VTT",
+          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-24T10:15:00+02:00",
+          "end": "2026-06-24T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ffb27d572b51",
+          "sport": "tennis",
+          "competition": "Tournoi ATP de Halle",
+          "title": "Finale . Taylor Fritz / Frances Tiafoe",
+          "subtitle": "Tournoi ATP de Halle",
+          "description": "Retransmission d'un match de tennis du tournoi ATP de Halle. Egalement connu sous le nom de Gerry Weber Open, ce tournoi sur gazon fait partie de la catégorie 500 dans le circuit ATP et se dispute depuis 1993 à Halle en Allemagne. Il sert de préparation au tournoi du Grand Chelem de Wimbledon, car disputé deux semaines auparavant.",
+          "team1": {
+            "name": "Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Frances Tiafoe",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-24T10:22:00+02:00",
+          "end": "2026-06-24T12:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "25cd0e07d61b",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Arsenal",
+          "subtitle": "Premier League - 15e journée",
+          "description": "Leaders de Premier League, les Gunners d'Arsenal se déplacent au Villa Park pour un match au sommet contre une équipe d'Aston Villa, entraînée par Unai Emery et qui joue les premiers rôles cette saison. Pour l'heure, William Saliba et ses coéquipiers d'Arsenal n'ont concédé qu'une défaite cette saison. Sont-ils en danger à l'occasion de cette 15e journée ?",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-24T10:32:00+02:00",
+          "end": "2026-06-24T12:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "df1668cd4adc",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 2",
+          "subtitle": "Technique - wingfoil & vélo de piste",
+          "description": "Cass, une influenceuse audacieuse, aspire à devenir cascadeuse. Pour réaliser son rêve, elle se lance dans un défi intense : maîtriser un nouveau sport extrême à chaque étape, du vélo à l'équitation. Sous la tutelle d'athlètes professionnels, elle apprend la technique et la discipline, affronte ses peurs, chute et se relève sans cesse. Son parcours mêle ses doutes personnels à des exploits spectaculaires.",
+          "team1": {
+            "name": "Technique",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "wingfoil & vélo de piste",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-24T10:38:00+02:00",
+          "end": "2026-06-24T11:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d952e17f8e50",
+          "sport": "f1",
+          "competition": null,
+          "title": "Le podium",
+          "subtitle": "Grand Prix de Barcelone-Catalogne",
+          "description": "Les hymnes, la remise des trophées aux pilotes ayant terminé aux trois premières places, le traditionnel champagne qui coule à flots : toute la cérémonie du podium du Grand Prix de Formule 1 du jour à suivre avec les équipes de Canal+ !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-24T11:03:00+02:00",
+          "end": "2026-06-24T11:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cc4da749d10a",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "VTT",
+          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-24T11:30:00+02:00",
+          "end": "2026-06-24T12:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
