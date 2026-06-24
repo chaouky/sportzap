@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-24T14:23:21.385805+00:00",
+    "generated_at": "2026-06-24T17:51:36.977392+00:00",
     "total_events": 1176,
     "total_days": 7,
     "sports": [
@@ -23,53 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
         "slug": "rds2",
         "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -78,18 +33,48 @@
         "is_free": false
       },
       {
-        "slug": "la-chaine-l-quipe",
-        "name": "La chaine l’Équipe",
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "tipik",
+        "name": "Tipik",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
-        "slug": "bein-2",
-        "name": "beIN SPORTS 2",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -103,13 +88,8 @@
         "is_free": false
       },
       {
-        "slug": "tipik",
-        "name": "Tipik",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -158,6 +138,11 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
         "is_free": false
@@ -170,6 +155,11 @@
       {
         "slug": "bbc-one",
         "name": "BBC One",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -223,8 +213,18 @@
         "is_free": true
       },
       {
+        "slug": "bein-2",
+        "name": "beIN SPORTS 2",
+        "is_free": false
+      },
+      {
         "slug": "t-l-sud",
         "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "la-chaine-l-quipe",
+        "name": "La chaine l’Équipe",
         "is_free": false
       },
       {
@@ -420,120 +420,6 @@
       "event_count": 178,
       "events": [
         {
-          "id": "58ffeb7580cb",
-          "sport": "mma",
-          "competition": "UFC",
-          "title": "MMA : UFC",
-          "subtitle": "Manel Kape / Kyoji Horiguchi. MMA : Ultimate Fighting Championship. UFC Fight Night 279. Poids mouches.",
-          "description": "MMA : Ultimate Fighting Championship. UFC Fight Night 279. Poids mouches. Manel Kape / Kyoji Horiguchi.",
-          "team1": {
-            "name": "Manel Kape",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Kyoji Horiguchi",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-06-24T13:30:00+02:00",
-          "end": "2026-06-24T16:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9b61363e7246",
-          "sport": "basket",
-          "competition": "NBA - Playoffs. Finale",
-          "title": "New York Knicks / San Antonio Spurs",
-          "subtitle": "NBA - Playoffs. Finale. 3e match",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "New York Knicks",
-            "type": "club",
-            "short": "Knicks",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-24T14:00:00+02:00",
-          "end": "2026-06-24T16:28:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "025441cd5118",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Wolverhampton",
-          "subtitle": "Premier League - 16e journée",
-          "description": "Le leader, Arsenal, accueille, dans son antre de l'Emirates Stadium, la lanterne rouge, Wolverhampton. Un match des extrêmes qui devrait logiquement tourné à l'avantage des Gunners, irrésistibles cette saison. Emmenés par William Saliba, Declan Rice, Leandro Trossard et Eberechi Eze, les hommes de Mikel Arteta ne devraient faire qu'une bouchée des Loups de Jeanricner Bellegarde, toujours à la recherche d'une première victoire en championnat.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-24T14:51:00+02:00",
-          "end": "2026-06-24T16:36:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "dcf38382d7d0",
           "sport": "golf",
           "competition": "Ronde finale",
@@ -551,206 +437,6 @@
           },
           "start": "2026-06-24T15:00:00+02:00",
           "end": "2026-06-24T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4cc4c1bf9c9c",
-          "sport": "f1",
-          "competition": "Grand Prix du Canada",
-          "title": "Voile : Grand Prix du Canada",
-          "subtitle": "Grand Prix du Canada. 2e jour.",
-          "description": "Grand Prix du Canada. 2e jour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-06-24T15:00:00+02:00",
-          "end": "2026-06-24T16:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f1e6a1bff396",
-          "sport": "other",
-          "competition": "Ligue des champions",
-          "title": "Liverpool / Atlético Madrid",
-          "subtitle": "Ligue des champions - 1re journée",
-          "description": null,
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-24T15:10:00+02:00",
-          "end": "2026-06-24T17:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2f7644ea4ecf",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Werder Brême / Bayern Munich",
-          "subtitle": "Bundesliga - 22e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Werder Brême",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-06-24T15:25:00+02:00",
-          "end": "2026-06-24T17:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b4e624d97bf1",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Sporting Club Portugal / Marseille",
-          "subtitle": "Ligue des champions - 3e journée",
-          "description": "Dans ce déplacement à Lisbonne pour défier le Sporting Club Portugal, les Marseillais veulent confirmer leurs ambitions et faire encore plus rayonner le jeu marseillais.",
-          "team1": {
-            "name": "Sporting CP",
-            "type": "club",
-            "short": "Sporting",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-24T15:59:00+02:00",
-          "end": "2026-06-24T17:44:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "10a1c87bf17d",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "Course dames. Coupe du monde de cross-country. 4e manche.",
-          "description": "Coupe du monde de cross-country. 4e manche. Course dames. A Lenzerheide (Suisse).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-24T16:00:00+02:00",
-          "end": "2026-06-24T17:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2dafeb025f04",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Nice / Marseille",
-          "subtitle": null,
-          "description": "1ère période du match de la 13ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant OGC NICE et OM.",
-          "team1": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-24T16:00:00+02:00",
-          "end": "2026-06-24T18:00:00+02:00",
           "status": "live",
           "score1": null,
           "score2": null,
@@ -782,144 +468,6 @@
           "result": null
         },
         {
-          "id": "1480abb98f1c",
-          "sport": "cyclisme",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": null,
-          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LEquipe21.fr",
-            "name": "La chaine l’Équipe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
-            "slug": "la-chaine-l-quipe",
-            "is_free": false
-          },
-          "start": "2026-06-24T16:08:00+02:00",
-          "end": "2026-06-24T18:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bc21425d5483",
-          "sport": "rugby",
-          "competition": "Top 14 - Demi-finale",
-          "title": "Montpellier / Stade Français Paris",
-          "subtitle": "Top 14 - Demi-finale",
-          "description": "Montpellier, qui était déjà qualifié pour le dernier carré, affronte le Stade Français Paris, qui s'est débarrassé de La Rochelle lors des barrages. C'est une rencontre assez ouverte finalement qui prend place sur la pelouse du Stade Vélodrome de Marseille entre les deux clubs. Qui rejoindra la grande finale du 27 juin prochain au Stade de France ?",
-          "team1": {
-            "name": "Montpellier HSC",
-            "type": "club",
-            "short": "Montpellier",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Français",
-            "type": "club",
-            "short": "Stade Français",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-24T16:22:00+02:00",
-          "end": "2026-06-24T18:09:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe3b8799edac",
-          "sport": "tennis",
-          "competition": "Tournoi ATP du Queen's",
-          "title": "Tennis : Tournoi ATP du Queen's",
-          "subtitle": "Tournoi ATP du Queen's. Finale . Francisco Cerundolo / Tommy Paul. ATP Tour.",
-          "description": "ATP Tour. Tournoi ATP du Queen's. Finale . Francisco Cerundolo / Tommy Paul.",
-          "team1": {
-            "name": "Tournoi ATP du Queen's",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Tommy Paul",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-06-24T16:30:00+02:00",
-          "end": "2026-06-24T18:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "edb10afa0db8",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Osasuna",
-          "subtitle": "Liga - 16e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Osasuna",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-24T16:36:00+02:00",
-          "end": "2026-06-24T18:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "d4813d697d60",
           "sport": "golf",
           "competition": "US Open",
@@ -937,193 +485,7 @@
           },
           "start": "2026-06-24T16:55:00+02:00",
           "end": "2026-06-24T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7a8c820043ff",
-          "sport": "other",
-          "competition": "Coupe du monde de cross-country",
-          "title": "VTT : Coupe du monde de cross-country",
-          "subtitle": "Course messieurs. Coupe du monde de cross-country. 4e manche.",
-          "description": "Coupe du monde de cross-country. 4e manche. Course messieurs. A Lenzerheide (Suisse).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-24T17:00:00+02:00",
-          "end": "2026-06-24T18:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d2368eb359d6",
-          "sport": "football",
-          "competition": null,
-          "title": "Last Train to North America",
-          "subtitle": "Los Angeles - San Francisco",
-          "description": "\"Last Train to North America\" part à la découverte de certaines des villes hôtes les plus emblématiques du continent nord-américain, en explorant les cultures, les communautés et les histoires qui façonnent le chemin vers la Coupe du monde 2026.",
-          "team1": {
-            "name": "Los Angeles",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "San Francisco",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-06-24T17:15:00+02:00",
-          "end": "2026-06-24T17:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "96e1f36034d8",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Paris-SG / Lens",
-          "subtitle": "Ligue 1 McDonald's - 4e journée",
-          "description": "Le Paris Saint-Germain reçoit les Sang et Or du RC Lens : les Parisiens ne doivent pas sous-estimer le jeu collectif des hommes de Pierre Sage lors de cette 4e journée.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-24T17:20:00+02:00",
-          "end": "2026-06-24T19:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9e5a390b62d2",
-          "sport": "basket",
-          "competition": null,
-          "title": "Filou Ostende - Giants Antwerp",
-          "subtitle": null,
-          "description": "Finale du BNXT Basketball League - Game 2 : Filou Ostende - Giants Antwerp.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-06-24T17:35:00+02:00",
-          "end": "2026-06-24T19:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "813781988237",
-          "sport": "basket",
-          "competition": null,
-          "title": "Filou Oostende - Giants Antwerp",
-          "subtitle": null,
-          "description": "Finale van de BNXT Basketball League - Game 2: Filou Oostende - Giants Antwerp.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-06-24T17:35:00+02:00",
-          "end": "2026-06-24T19:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "879906f100a4",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "FC Barcelone / Olympiakos",
-          "subtitle": "Ligue des champions - 3e journée",
-          "description": "Victorieux à Newcastle pour son entrée en lice dans la Ligue des champions (1-2), le FC Barcelone a subi un coup d'arrête lors de la 2e journée, battu par le Paris-SG lors de la dernière journée de Ligue des champions (1-2). Le leader de la Liga compte bien renouer avec le succès à l'occasion de la réception de l'Olympiakos.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympiakos",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-24T17:44:00+02:00",
-          "end": "2026-06-24T19:26:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1161,7 +523,7 @@
           },
           "start": "2026-06-24T17:59:00+02:00",
           "end": "2026-06-24T20:09:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1199,45 +561,7 @@
           },
           "start": "2026-06-24T18:00:00+02:00",
           "end": "2026-06-24T19:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a6e524c40a80",
-          "sport": "rugby",
-          "competition": "Super Rugby Pacific - Finale",
-          "title": "Hurricanes / Chiefs",
-          "subtitle": "Super Rugby Pacific - Finale",
-          "description": "Suivez des rencontres de la Super Rugby Pacific, un championnat qui met en opposition douze équipes issues de plusieurs pays de la zone Océanie. Samoa, Tonga, Fidji, Australie et Nouvelle-Zélande : telles sont les nations représentées lors des différentes éditions disputées lors de cette compétition depuis 1996, année de sa création.",
-          "team1": {
-            "name": "Hurricanes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chiefs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-24T18:09:00+02:00",
-          "end": "2026-06-24T19:46:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1275,7 +599,7 @@
           },
           "start": "2026-06-24T18:30:00+02:00",
           "end": "2026-06-24T20:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1299,7 +623,7 @@
           },
           "start": "2026-06-24T19:00:00+02:00",
           "end": "2026-06-24T20:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1337,7 +661,7 @@
           },
           "start": "2026-06-24T19:08:00+02:00",
           "end": "2026-06-24T20:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1375,7 +699,7 @@
           },
           "start": "2026-06-24T19:21:00+02:00",
           "end": "2026-06-24T21:06:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1413,7 +737,7 @@
           },
           "start": "2026-06-24T19:30:00+02:00",
           "end": "2026-06-24T20:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1451,7 +775,7 @@
           },
           "start": "2026-06-24T19:35:00+02:00",
           "end": "2026-06-24T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1475,7 +799,7 @@
           },
           "start": "2026-06-24T19:35:00+02:00",
           "end": "2026-06-24T20:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1499,7 +823,7 @@
           },
           "start": "2026-06-24T19:35:00+02:00",
           "end": "2026-06-24T20:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5852,6 +5176,44 @@
           "result": null
         },
         {
+          "id": "58ffeb7580cb",
+          "sport": "mma",
+          "competition": "UFC",
+          "title": "MMA : UFC",
+          "subtitle": "Manel Kape / Kyoji Horiguchi. MMA : Ultimate Fighting Championship. UFC Fight Night 279. Poids mouches.",
+          "description": "MMA : Ultimate Fighting Championship. UFC Fight Night 279. Poids mouches. Manel Kape / Kyoji Horiguchi.",
+          "team1": {
+            "name": "Manel Kape",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Kyoji Horiguchi",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-06-24T13:30:00+02:00",
+          "end": "2026-06-24T16:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "4e5e8d2c7b05",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -5883,6 +5245,44 @@
           },
           "start": "2026-06-24T13:45:00+02:00",
           "end": "2026-06-24T15:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9b61363e7246",
+          "sport": "basket",
+          "competition": "NBA - Playoffs. Finale",
+          "title": "New York Knicks / San Antonio Spurs",
+          "subtitle": "NBA - Playoffs. Finale. 3e match",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "New York Knicks",
+            "type": "club",
+            "short": "Knicks",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-24T14:00:00+02:00",
+          "end": "2026-06-24T16:28:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6152,6 +5552,106 @@
           "result": null
         },
         {
+          "id": "025441cd5118",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Wolverhampton",
+          "subtitle": "Premier League - 16e journée",
+          "description": "Le leader, Arsenal, accueille, dans son antre de l'Emirates Stadium, la lanterne rouge, Wolverhampton. Un match des extrêmes qui devrait logiquement tourné à l'avantage des Gunners, irrésistibles cette saison. Emmenés par William Saliba, Declan Rice, Leandro Trossard et Eberechi Eze, les hommes de Mikel Arteta ne devraient faire qu'une bouchée des Loups de Jeanricner Bellegarde, toujours à la recherche d'une première victoire en championnat.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-24T14:51:00+02:00",
+          "end": "2026-06-24T16:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4cc4c1bf9c9c",
+          "sport": "f1",
+          "competition": "Grand Prix du Canada",
+          "title": "Voile : Grand Prix du Canada",
+          "subtitle": "Grand Prix du Canada. 2e jour.",
+          "description": "Grand Prix du Canada. 2e jour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-06-24T15:00:00+02:00",
+          "end": "2026-06-24T16:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f1e6a1bff396",
+          "sport": "other",
+          "competition": "Ligue des champions",
+          "title": "Liverpool / Atlético Madrid",
+          "subtitle": "Ligue des champions - 1re journée",
+          "description": null,
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-24T15:10:00+02:00",
+          "end": "2026-06-24T17:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "55989ee84eb9",
           "sport": "other",
           "competition": null,
@@ -6183,6 +5683,506 @@
           },
           "start": "2026-06-24T15:23:00+02:00",
           "end": "2026-06-24T16:16:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2f7644ea4ecf",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Werder Brême / Bayern Munich",
+          "subtitle": "Bundesliga - 22e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Werder Brême",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-06-24T15:25:00+02:00",
+          "end": "2026-06-24T17:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b4e624d97bf1",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Sporting Club Portugal / Marseille",
+          "subtitle": "Ligue des champions - 3e journée",
+          "description": "Dans ce déplacement à Lisbonne pour défier le Sporting Club Portugal, les Marseillais veulent confirmer leurs ambitions et faire encore plus rayonner le jeu marseillais.",
+          "team1": {
+            "name": "Sporting CP",
+            "type": "club",
+            "short": "Sporting",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-24T15:59:00+02:00",
+          "end": "2026-06-24T17:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "10a1c87bf17d",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "Course dames. Coupe du monde de cross-country. 4e manche.",
+          "description": "Coupe du monde de cross-country. 4e manche. Course dames. A Lenzerheide (Suisse).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-24T16:00:00+02:00",
+          "end": "2026-06-24T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2dafeb025f04",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Nice / Marseille",
+          "subtitle": null,
+          "description": "1ère période du match de la 13ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant OGC NICE et OM.",
+          "team1": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-24T16:00:00+02:00",
+          "end": "2026-06-24T18:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1480abb98f1c",
+          "sport": "cyclisme",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": null,
+          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LEquipe21.fr",
+            "name": "La chaine l’Équipe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
+            "slug": "la-chaine-l-quipe",
+            "is_free": false
+          },
+          "start": "2026-06-24T16:08:00+02:00",
+          "end": "2026-06-24T18:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bc21425d5483",
+          "sport": "rugby",
+          "competition": "Top 14 - Demi-finale",
+          "title": "Montpellier / Stade Français Paris",
+          "subtitle": "Top 14 - Demi-finale",
+          "description": "Montpellier, qui était déjà qualifié pour le dernier carré, affronte le Stade Français Paris, qui s'est débarrassé de La Rochelle lors des barrages. C'est une rencontre assez ouverte finalement qui prend place sur la pelouse du Stade Vélodrome de Marseille entre les deux clubs. Qui rejoindra la grande finale du 27 juin prochain au Stade de France ?",
+          "team1": {
+            "name": "Montpellier HSC",
+            "type": "club",
+            "short": "Montpellier",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Français",
+            "type": "club",
+            "short": "Stade Français",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2580.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-24T16:22:00+02:00",
+          "end": "2026-06-24T18:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe3b8799edac",
+          "sport": "tennis",
+          "competition": "Tournoi ATP du Queen's",
+          "title": "Tennis : Tournoi ATP du Queen's",
+          "subtitle": "Tournoi ATP du Queen's. Finale . Francisco Cerundolo / Tommy Paul. ATP Tour.",
+          "description": "ATP Tour. Tournoi ATP du Queen's. Finale . Francisco Cerundolo / Tommy Paul.",
+          "team1": {
+            "name": "Tournoi ATP du Queen's",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Tommy Paul",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-06-24T16:30:00+02:00",
+          "end": "2026-06-24T18:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "edb10afa0db8",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Osasuna",
+          "subtitle": "Liga - 16e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Osasuna",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-24T16:36:00+02:00",
+          "end": "2026-06-24T18:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7a8c820043ff",
+          "sport": "other",
+          "competition": "Coupe du monde de cross-country",
+          "title": "VTT : Coupe du monde de cross-country",
+          "subtitle": "Course messieurs. Coupe du monde de cross-country. 4e manche.",
+          "description": "Coupe du monde de cross-country. 4e manche. Course messieurs. A Lenzerheide (Suisse).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-24T17:00:00+02:00",
+          "end": "2026-06-24T18:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d2368eb359d6",
+          "sport": "football",
+          "competition": null,
+          "title": "Last Train to North America",
+          "subtitle": "Los Angeles - San Francisco",
+          "description": "\"Last Train to North America\" part à la découverte de certaines des villes hôtes les plus emblématiques du continent nord-américain, en explorant les cultures, les communautés et les histoires qui façonnent le chemin vers la Coupe du monde 2026.",
+          "team1": {
+            "name": "Los Angeles",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "San Francisco",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-06-24T17:15:00+02:00",
+          "end": "2026-06-24T17:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "96e1f36034d8",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Paris-SG / Lens",
+          "subtitle": "Ligue 1 McDonald's - 4e journée",
+          "description": "Le Paris Saint-Germain reçoit les Sang et Or du RC Lens : les Parisiens ne doivent pas sous-estimer le jeu collectif des hommes de Pierre Sage lors de cette 4e journée.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-24T17:20:00+02:00",
+          "end": "2026-06-24T19:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9e5a390b62d2",
+          "sport": "basket",
+          "competition": null,
+          "title": "Filou Ostende - Giants Antwerp",
+          "subtitle": null,
+          "description": "Finale du BNXT Basketball League - Game 2 : Filou Ostende - Giants Antwerp.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-06-24T17:35:00+02:00",
+          "end": "2026-06-24T19:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "813781988237",
+          "sport": "basket",
+          "competition": null,
+          "title": "Filou Oostende - Giants Antwerp",
+          "subtitle": null,
+          "description": "Finale van de BNXT Basketball League - Game 2: Filou Oostende - Giants Antwerp.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-06-24T17:35:00+02:00",
+          "end": "2026-06-24T19:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "879906f100a4",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "FC Barcelone / Olympiakos",
+          "subtitle": "Ligue des champions - 3e journée",
+          "description": "Victorieux à Newcastle pour son entrée en lice dans la Ligue des champions (1-2), le FC Barcelone a subi un coup d'arrête lors de la 2e journée, battu par le Paris-SG lors de la dernière journée de Ligue des champions (1-2). Le leader de la Liga compte bien renouer avec le succès à l'occasion de la réception de l'Olympiakos.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympiakos",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-24T17:44:00+02:00",
+          "end": "2026-06-24T19:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a6e524c40a80",
+          "sport": "rugby",
+          "competition": "Super Rugby Pacific - Finale",
+          "title": "Hurricanes / Chiefs",
+          "subtitle": "Super Rugby Pacific - Finale",
+          "description": "Suivez des rencontres de la Super Rugby Pacific, un championnat qui met en opposition douze équipes issues de plusieurs pays de la zone Océanie. Samoa, Tonga, Fidji, Australie et Nouvelle-Zélande : telles sont les nations représentées lors des différentes éditions disputées lors de cette compétition depuis 1996, année de sa création.",
+          "team1": {
+            "name": "Hurricanes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chiefs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-24T18:09:00+02:00",
+          "end": "2026-06-24T19:46:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
