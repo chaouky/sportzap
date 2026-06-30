@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T10:54:10.001514+00:00",
+    "generated_at": "2026-06-30T14:11:15.026825+00:00",
     "total_events": 1252,
     "total_days": 7,
     "sports": [
@@ -23,13 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS MAX 4",
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -38,13 +33,28 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "tipik",
+        "name": "Tipik",
         "is_free": false
       },
       {
@@ -58,43 +68,8 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
-        "is_free": false
-      },
-      {
         "slug": "ligue-1",
         "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -103,18 +78,23 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "canal-sport-360",
         "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
         "is_free": false
       },
       {
-        "slug": "tipik",
-        "name": "Tipik",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -140,6 +120,11 @@
       {
         "slug": "srf-zwei",
         "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
         "is_free": false
       },
       {
@@ -175,6 +160,11 @@
       {
         "slug": "la-chaine-l-quipe",
         "name": "La chaine l’Équipe",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -223,6 +213,11 @@
         "is_free": false
       },
       {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
         "is_free": false
@@ -246,6 +241,11 @@
         "slug": "m6",
         "name": "M6",
         "is_free": true
+      },
+      {
+        "slug": "bein-3",
+        "name": "beIN SPORTS MAX 4",
+        "is_free": false
       },
       {
         "slug": "kika",
@@ -405,240 +405,6 @@
       "event_count": 211,
       "events": [
         {
-          "id": "845e01cf8d06",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Pentathlon moderne : Coupe du monde",
-          "subtitle": null,
-          "description": "Finale femmes de l'UIPM 2026 Pentathlon world cup",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-06-30T10:00:00+02:00",
-          "end": "2026-06-30T12:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6d054dbc756f",
-          "sport": "basket",
-          "competition": "Coupe du monde U17",
-          "title": "Basket-ball : Coupe du monde U17",
-          "subtitle": null,
-          "description": "La coupe du monde masculine de basket-ball des moins de 17 ans est organisée tous les deux ans et met en présence seize équipes internationales.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTSMAX4.fr",
-            "name": "beIN SPORTS MAX 4",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~f477968320ad7f2d.png/480x480/quality/100/bein-sports-max-4.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-06-30T10:55:00+02:00",
-          "end": "2026-06-30T13:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5dabbb59f76f",
-          "sport": "other",
-          "competition": "Championnat du Royaume-Uni",
-          "title": "Snooker : Championnat du Royaume-Uni",
-          "subtitle": "Championnat du Royaume-Uni. Finale. Snooker Main Tour.",
-          "description": "Snooker Main Tour. Championnat du Royaume-Uni. Finale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T11:00:00+02:00",
-          "end": "2026-06-30T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ec0c8083cab4",
-          "sport": "other",
-          "competition": null,
-          "title": "Judd Trump - Mark Selby",
-          "subtitle": "Victorian Plumbing UK Championsh...",
-          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T11:00:00+02:00",
-          "end": "2026-06-30T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f1b7287123fb",
-          "sport": "rugby",
-          "competition": "Top 14 - Finale. Face B _ J'essa",
-          "title": "Toulouse / Montpellier",
-          "subtitle": "Top 14 - Finale. Face B _ J'essa...",
-          "description": "Au Stade de France, la finale du Top 14 vient conclure plusieurs mois d'une lutte intense pour le Bouclier de Brennus. Champion en titre et leader de la phase régulière, le Stade Toulousain a encore imposé son rythme au championnat. Mais après les barrages puis les demi-finales, cet ultime rendez-vous sacrera le champion de France.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Montpellier HSC",
-            "type": "club",
-            "short": "Montpellier",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T11:21:00+02:00",
-          "end": "2026-06-30T13:07:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6485d3f51c66",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Tottenham",
-          "subtitle": "Premier League - 12e journée",
-          "description": "Et si 2025-2026 était enfin la saison d'Arsenal ? Les Gunners impressionnent en ce début d'exercice, aussi bien en Premier League qu'en Ligue des champions où, après quatre journées, ils demeurent invaincus. Mikel Merino et ses coéquipiers affrontent Tottenham pour la 12e journée de championnat, avec la ferme intention de préserver leur invincibilité à domicile.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-30T11:23:00+02:00",
-          "end": "2026-06-30T13:04:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a0a650ef7824",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Sociedad / FC Barcelone",
-          "subtitle": "Liga - 20e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Sociedad",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-30T11:33:00+02:00",
-          "end": "2026-06-30T13:24:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2fbad80576d9",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Tour de France | 10e étape",
-          "subtitle": "Ennezat – Le Mont-Doré Puy de Sa...",
-          "description": "Une étape de montagne un jour de fête nationale, voilà qui mérite déjà un feu d'artifice avec sept côtes ou cols de deuxième catégorie. Ceux qui ont manqué le Tour 2023 auront un aperçu de la montée du Puy de Dôme, empruntée dans ses premiers kilomètres en début de programme. Il n'y aura ensuite aucun répit jusqu'à l'ascension finale menant à la station du Mont-Dore. Les 3,5 km de montée à 8% de moyenne porteront le dénivelé positif total à 4400 mètres !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:00:00+02:00",
-          "end": "2026-06-30T13:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "a9fd51e3c30a",
           "sport": "tennis",
           "competition": "Wimbledon 2026 - 1re ronde",
@@ -663,626 +429,6 @@
           "result": null
         },
         {
-          "id": "f81a7686d55d",
-          "sport": "football",
-          "competition": null,
-          "title": "Paesi Bassi - Marocco",
-          "subtitle": "Coupe du monde",
-          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:00:00+02:00",
-          "end": "2026-06-30T14:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "696690cc0e54",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Mets de New York c. Blue Jays de Toronto",
-          "subtitle": "Mets de New York c. Blue Jays de Toronto",
-          "description": "Les Blue Jays de Toronto accueillent les Mets de New York au Rogers Centre pour le premier match d'une série de trois rencontres.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:00:00+02:00",
-          "end": "2026-06-30T15:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ea9d1c41185d",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Paris FC / Lens",
-          "subtitle": null,
-          "description": "Match de la 22ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS FC et RC LENS.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:01:00+02:00",
-          "end": "2026-06-30T14:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c1ee6c7353b0",
-          "sport": "rugby",
-          "competition": "Top 14 - Finale",
-          "title": "Toulouse / Montpellier",
-          "subtitle": "Top 14 - Finale",
-          "description": "Sur la pelouse du Stade de France, Toulouse défend de nouveau son titre acquis en 2025 contre l'UBB, mais cette fois face au Montpellier Hérault Rugby.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Montpellier HSC",
-            "type": "club",
-            "short": "Montpellier",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:21:00+02:00",
-          "end": "2026-06-30T14:04:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "666f8ad08c18",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Leipzig / Werder Brême",
-          "subtitle": "Bundesliga - 11e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Leipzig",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Werder Brême",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:27:00+02:00",
-          "end": "2026-06-30T14:09:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "da624f4645b9",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Arsenal / Atlético Madrid",
-          "subtitle": "Ligue des champions - 3e journée",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:55:00+02:00",
-          "end": "2026-06-30T14:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0bde4089e05d",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 10e étape . Ennezat - Le Mont-Dore Puy de Sancy (165,3 km). UCI World Tour.",
-          "description": "En ce jour de fête nationale, les coureurs français auront à coeur de se montrer lors de cette étape de montagne qui propose sept côtes ou cols de deuxième catégorie. Les candidats au maillot à pois du meilleur grimpeur vont se livrer une âpre bataille tout au long de la journée sur un parcours qui ne laisse aucun répit jusqu'à l'ascension finale menant au Mont-Dore, avec ses 3,5 km de montée à 8% de moyenne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:00:00+02:00",
-          "end": "2026-06-30T14:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "406b8d632883",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:00:00+02:00",
-          "end": "2026-06-30T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "762f19c432d5",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Tour de France | 10e étape",
-          "subtitle": "Ennezat – Le Mont-Doré Puy de Sa...",
-          "description": "Une étape de montagne un jour de fête nationale, voilà qui mérite déjà un feu d'artifice avec sept côtes ou cols de deuxième catégorie. Ceux qui ont manqué le Tour 2023 auront un aperçu de la montée du Puy de Dôme, empruntée dans ses premiers kilomètres en début de programme. Il n'y aura ensuite aucun répit jusqu'à l'ascension finale menant à la station du Mont-Dore. Les 3,5 km de montée à 8% de moyenne porteront le dénivelé positif total à 4400 mètres !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:00:00+02:00",
-          "end": "2026-06-30T14:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c517327c08b1",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:09:00+02:00",
-          "end": "2026-06-30T13:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "344f031feb2d",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot Coupe du Monde 2026 - S01E08",
-          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
-          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:31:00+02:00",
-          "end": "2026-06-30T13:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0f015b6b657b",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Nice / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 27e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:45:00+02:00",
-          "end": "2026-06-30T15:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9c6d92ee316d",
-          "sport": "other",
-          "competition": null,
-          "title": "Alexia, une icône est née - Saison 1",
-          "subtitle": "Un rêve se réalise",
-          "description": "Alexia Putellas est l'une des meilleures footballeuses de sa génération. Après son rétablissement d'une blessure au genou, elle reprend sa place de titulaire au sein de l'équipe d'Espagne et participe à la Coupe du monde féminine de football qui a débuté le 20 juillet dernier.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:45:00+02:00",
-          "end": "2026-06-30T14:31:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ebd962eae29e",
-          "sport": "volleyball",
-          "competition": null,
-          "title": "Haasrode Leuven - Tectum Achel",
-          "subtitle": null,
-          "description": "Quart de Finale du Lotto Volley League - Game 3 : BDO Haasrode Leuven - Tectum Achel.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-06-30T13:45:00+02:00",
-          "end": "2026-06-30T15:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b01c31a557bc",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:00:00+02:00",
-          "end": "2026-06-30T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0c069bd02091",
-          "sport": "tennis",
-          "competition": "Wimbledon",
-          "title": "Tennis : Wimbledon",
-          "subtitle": "Tennis",
-          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:00:00+02:00",
-          "end": "2026-06-30T15:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e3e85deb4ba1",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Brest / Marseille",
-          "subtitle": null,
-          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant BREST et OM.",
-          "team1": {
-            "name": "Stade Brestois",
-            "type": "club",
-            "short": "Brest",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:04:00+02:00",
-          "end": "2026-06-30T16:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9940d92a2b97",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP03",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP03",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:09:00+02:00",
-          "end": "2026-06-30T14:44:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ebadfee464ca",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Newcastle / Manchester City",
-          "subtitle": "Premier League - 12e journée",
-          "description": "La bataille fait rage en tête de la Premier League entre Arsenal, Manchester City et Liverpool, les trois équipes réalisant en parallèle un très bon parcours en Ligue des champions. Pour parvenir à refaire leur retard sur les Gunners d'Arsenal en tête du classement, Erling Haaland et les Citizens doivent s'imposer sur la pelouse de Newcastle.",
-          "team1": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:17:00+02:00",
-          "end": "2026-06-30T16:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "843489890852",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Liverpool",
-          "subtitle": "Premier League - 21e journée",
-          "description": "Match de gala à l'Emirates Stadium : les Gunners d'Arsenal, leaders de Premier League, accueillent les Reds de Liverpool, bien décidés à se positionner durablement dans le Top 5. Avantage cependant aux Gunners, toujours intraitables à domicile et qui compteront, une nouvelle fois, sur leurs buteurs Leandro Trossard, Viktor Gyökeres et Bukayo Saka pour faire la différence.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:19:00+02:00",
-          "end": "2026-06-30T16:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "6414a8ab29c3",
           "sport": "cyclisme",
           "competition": "Tour de France",
@@ -1300,69 +446,7 @@
           },
           "start": "2026-06-30T14:30:00+02:00",
           "end": "2026-06-30T16:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9ddac05ebfb9",
-          "sport": "other",
-          "competition": null,
-          "title": "Alexia, une icône est née - Saison 1",
-          "subtitle": "La métamorphose",
-          "description": "En cette année 2022, Alexia Putellas triomphe. La capitaine du FC Barcelone remporte un second ballon d'or et sa victoire est double, car il s'agit d'une véritable avancée pour le foot féminin dans la société. Alexia devient la figure du football féminin pour le monde entier, et surtout pour toutes les jeunes filles qui rêvent de devenir joueuses professionnelles...",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:31:00+02:00",
-          "end": "2026-06-30T15:12:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a88f37c6847e",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP04",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP04",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T14:44:00+02:00",
-          "end": "2026-06-30T15:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1386,69 +470,7 @@
           },
           "start": "2026-06-30T15:00:00+02:00",
           "end": "2026-06-30T17:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "70ec90a5b4f9",
-          "sport": "other",
-          "competition": null,
-          "title": "Alexia, une icône est née - Saison 1",
-          "subtitle": "Tout en haut",
-          "description": "Le travail vient à bout de tout : tel est le mantra d'Alexia Putellas. Mais la finale de la Ligue des champions, en 2022, face à leurs grandes rivales de l'Olympique Lyonnais se solde par une défaite ; un coup dur pour la joueuse du Barça, qui a décidé de se servir de cet épisode pour continuer d'aller de l'avant et pour se dépasser...",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-06-30T15:12:00+02:00",
-          "end": "2026-06-30T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d29327bf6ad6",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP05",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP05",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T15:13:00+02:00",
-          "end": "2026-06-30T15:42:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1486,7 +508,7 @@
           },
           "start": "2026-06-30T15:25:00+02:00",
           "end": "2026-06-30T17:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1524,7 +546,7 @@
           },
           "start": "2026-06-30T15:52:00+02:00",
           "end": "2026-06-30T17:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1548,7 +570,7 @@
           },
           "start": "2026-06-30T15:55:00+02:00",
           "end": "2026-06-30T17:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1572,7 +594,7 @@
           },
           "start": "2026-06-30T15:59:00+02:00",
           "end": "2026-06-30T18:16:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1610,7 +632,7 @@
           },
           "start": "2026-06-30T16:02:00+02:00",
           "end": "2026-06-30T17:48:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1648,7 +670,7 @@
           },
           "start": "2026-06-30T16:02:00+02:00",
           "end": "2026-06-30T17:46:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1686,7 +708,7 @@
           },
           "start": "2026-06-30T16:02:00+02:00",
           "end": "2026-06-30T17:58:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6581,6 +5603,30 @@
           "result": null
         },
         {
+          "id": "845e01cf8d06",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Pentathlon moderne : Coupe du monde",
+          "subtitle": null,
+          "description": "Finale femmes de l'UIPM 2026 Pentathlon world cup",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-06-30T10:00:00+02:00",
+          "end": "2026-06-30T12:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f3e61cc5d39c",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -6667,6 +5713,78 @@
           "result": null
         },
         {
+          "id": "6d054dbc756f",
+          "sport": "basket",
+          "competition": "Coupe du monde U17",
+          "title": "Basket-ball : Coupe du monde U17",
+          "subtitle": null,
+          "description": "La coupe du monde masculine de basket-ball des moins de 17 ans est organisée tous les deux ans et met en présence seize équipes internationales.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTSMAX4.fr",
+            "name": "beIN SPORTS MAX 4",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~f477968320ad7f2d.png/480x480/quality/100/bein-sports-max-4.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-06-30T10:55:00+02:00",
+          "end": "2026-06-30T13:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5dabbb59f76f",
+          "sport": "other",
+          "competition": "Championnat du Royaume-Uni",
+          "title": "Snooker : Championnat du Royaume-Uni",
+          "subtitle": "Championnat du Royaume-Uni. Finale. Snooker Main Tour.",
+          "description": "Snooker Main Tour. Championnat du Royaume-Uni. Finale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T11:00:00+02:00",
+          "end": "2026-06-30T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ec0c8083cab4",
+          "sport": "other",
+          "competition": null,
+          "title": "Judd Trump - Mark Selby",
+          "subtitle": "Victorian Plumbing UK Championsh...",
+          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T11:00:00+02:00",
+          "end": "2026-06-30T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "62e0387f76b9",
           "sport": "cyclisme",
           "competition": "tous en vacances ! (Krabbeninvasion / Der Schwimm-Wettkampf / Fair-Play / Der Drachen / Die Urlaubs-Übungshefte / Tour de France / Papas Mathe-Problem) (22/52)",
@@ -6691,6 +5809,268 @@
           "result": null
         },
         {
+          "id": "f1b7287123fb",
+          "sport": "rugby",
+          "competition": "Top 14 - Finale. Face B _ J'essa",
+          "title": "Toulouse / Montpellier",
+          "subtitle": "Top 14 - Finale. Face B _ J'essa...",
+          "description": "Au Stade de France, la finale du Top 14 vient conclure plusieurs mois d'une lutte intense pour le Bouclier de Brennus. Champion en titre et leader de la phase régulière, le Stade Toulousain a encore imposé son rythme au championnat. Mais après les barrages puis les demi-finales, cet ultime rendez-vous sacrera le champion de France.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Montpellier HSC",
+            "type": "club",
+            "short": "Montpellier",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T11:21:00+02:00",
+          "end": "2026-06-30T13:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6485d3f51c66",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Tottenham",
+          "subtitle": "Premier League - 12e journée",
+          "description": "Et si 2025-2026 était enfin la saison d'Arsenal ? Les Gunners impressionnent en ce début d'exercice, aussi bien en Premier League qu'en Ligue des champions où, après quatre journées, ils demeurent invaincus. Mikel Merino et ses coéquipiers affrontent Tottenham pour la 12e journée de championnat, avec la ferme intention de préserver leur invincibilité à domicile.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-30T11:23:00+02:00",
+          "end": "2026-06-30T13:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a0a650ef7824",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Sociedad / FC Barcelone",
+          "subtitle": "Liga - 20e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Sociedad",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-30T11:33:00+02:00",
+          "end": "2026-06-30T13:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2fbad80576d9",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Tour de France | 10e étape",
+          "subtitle": "Ennezat – Le Mont-Doré Puy de Sa...",
+          "description": "Une étape de montagne un jour de fête nationale, voilà qui mérite déjà un feu d'artifice avec sept côtes ou cols de deuxième catégorie. Ceux qui ont manqué le Tour 2023 auront un aperçu de la montée du Puy de Dôme, empruntée dans ses premiers kilomètres en début de programme. Il n'y aura ensuite aucun répit jusqu'à l'ascension finale menant à la station du Mont-Dore. Les 3,5 km de montée à 8% de moyenne porteront le dénivelé positif total à 4400 mètres !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:00:00+02:00",
+          "end": "2026-06-30T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f81a7686d55d",
+          "sport": "football",
+          "competition": null,
+          "title": "Paesi Bassi - Marocco",
+          "subtitle": "Coupe du monde",
+          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:00:00+02:00",
+          "end": "2026-06-30T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "696690cc0e54",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Mets de New York c. Blue Jays de Toronto",
+          "subtitle": "Mets de New York c. Blue Jays de Toronto",
+          "description": "Les Blue Jays de Toronto accueillent les Mets de New York au Rogers Centre pour le premier match d'une série de trois rencontres.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:00:00+02:00",
+          "end": "2026-06-30T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ea9d1c41185d",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Paris FC / Lens",
+          "subtitle": null,
+          "description": "Match de la 22ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS FC et RC LENS.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:01:00+02:00",
+          "end": "2026-06-30T14:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c1ee6c7353b0",
+          "sport": "rugby",
+          "competition": "Top 14 - Finale",
+          "title": "Toulouse / Montpellier",
+          "subtitle": "Top 14 - Finale",
+          "description": "Sur la pelouse du Stade de France, Toulouse défend de nouveau son titre acquis en 2025 contre l'UBB, mais cette fois face au Montpellier Hérault Rugby.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Montpellier HSC",
+            "type": "club",
+            "short": "Montpellier",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:21:00+02:00",
+          "end": "2026-06-30T14:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "a1f2133107e6",
           "sport": "other",
           "competition": null,
@@ -6708,6 +6088,626 @@
           },
           "start": "2026-06-30T12:22:00+02:00",
           "end": "2026-06-30T12:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "666f8ad08c18",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Leipzig / Werder Brême",
+          "subtitle": "Bundesliga - 11e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Leipzig",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Werder Brême",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:27:00+02:00",
+          "end": "2026-06-30T14:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "da624f4645b9",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Arsenal / Atlético Madrid",
+          "subtitle": "Ligue des champions - 3e journée",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:55:00+02:00",
+          "end": "2026-06-30T14:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0bde4089e05d",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 10e étape . Ennezat - Le Mont-Dore Puy de Sancy (165,3 km). UCI World Tour.",
+          "description": "En ce jour de fête nationale, les coureurs français auront à coeur de se montrer lors de cette étape de montagne qui propose sept côtes ou cols de deuxième catégorie. Les candidats au maillot à pois du meilleur grimpeur vont se livrer une âpre bataille tout au long de la journée sur un parcours qui ne laisse aucun répit jusqu'à l'ascension finale menant au Mont-Dore, avec ses 3,5 km de montée à 8% de moyenne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:00:00+02:00",
+          "end": "2026-06-30T14:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "406b8d632883",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:00:00+02:00",
+          "end": "2026-06-30T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "762f19c432d5",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Tour de France | 10e étape",
+          "subtitle": "Ennezat – Le Mont-Doré Puy de Sa...",
+          "description": "Une étape de montagne un jour de fête nationale, voilà qui mérite déjà un feu d'artifice avec sept côtes ou cols de deuxième catégorie. Ceux qui ont manqué le Tour 2023 auront un aperçu de la montée du Puy de Dôme, empruntée dans ses premiers kilomètres en début de programme. Il n'y aura ensuite aucun répit jusqu'à l'ascension finale menant à la station du Mont-Dore. Les 3,5 km de montée à 8% de moyenne porteront le dénivelé positif total à 4400 mètres !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:00:00+02:00",
+          "end": "2026-06-30T14:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c517327c08b1",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:09:00+02:00",
+          "end": "2026-06-30T13:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "344f031feb2d",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot Coupe du Monde 2026 - S01E08",
+          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
+          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:31:00+02:00",
+          "end": "2026-06-30T13:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0f015b6b657b",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Nice / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 27e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:45:00+02:00",
+          "end": "2026-06-30T15:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9c6d92ee316d",
+          "sport": "other",
+          "competition": null,
+          "title": "Alexia, une icône est née - Saison 1",
+          "subtitle": "Un rêve se réalise",
+          "description": "Alexia Putellas est l'une des meilleures footballeuses de sa génération. Après son rétablissement d'une blessure au genou, elle reprend sa place de titulaire au sein de l'équipe d'Espagne et participe à la Coupe du monde féminine de football qui a débuté le 20 juillet dernier.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:45:00+02:00",
+          "end": "2026-06-30T14:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ebd962eae29e",
+          "sport": "volleyball",
+          "competition": null,
+          "title": "Haasrode Leuven - Tectum Achel",
+          "subtitle": null,
+          "description": "Quart de Finale du Lotto Volley League - Game 3 : BDO Haasrode Leuven - Tectum Achel.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-06-30T13:45:00+02:00",
+          "end": "2026-06-30T15:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b01c31a557bc",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:00:00+02:00",
+          "end": "2026-06-30T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0c069bd02091",
+          "sport": "tennis",
+          "competition": "Wimbledon",
+          "title": "Tennis : Wimbledon",
+          "subtitle": "Tennis",
+          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:00:00+02:00",
+          "end": "2026-06-30T15:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e3e85deb4ba1",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Brest / Marseille",
+          "subtitle": null,
+          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant BREST et OM.",
+          "team1": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:04:00+02:00",
+          "end": "2026-06-30T16:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9940d92a2b97",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP03",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP03",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:09:00+02:00",
+          "end": "2026-06-30T14:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ebadfee464ca",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Newcastle / Manchester City",
+          "subtitle": "Premier League - 12e journée",
+          "description": "La bataille fait rage en tête de la Premier League entre Arsenal, Manchester City et Liverpool, les trois équipes réalisant en parallèle un très bon parcours en Ligue des champions. Pour parvenir à refaire leur retard sur les Gunners d'Arsenal en tête du classement, Erling Haaland et les Citizens doivent s'imposer sur la pelouse de Newcastle.",
+          "team1": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:17:00+02:00",
+          "end": "2026-06-30T16:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "843489890852",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Liverpool",
+          "subtitle": "Premier League - 21e journée",
+          "description": "Match de gala à l'Emirates Stadium : les Gunners d'Arsenal, leaders de Premier League, accueillent les Reds de Liverpool, bien décidés à se positionner durablement dans le Top 5. Avantage cependant aux Gunners, toujours intraitables à domicile et qui compteront, une nouvelle fois, sur leurs buteurs Leandro Trossard, Viktor Gyökeres et Bukayo Saka pour faire la différence.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:19:00+02:00",
+          "end": "2026-06-30T16:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9ddac05ebfb9",
+          "sport": "other",
+          "competition": null,
+          "title": "Alexia, une icône est née - Saison 1",
+          "subtitle": "La métamorphose",
+          "description": "En cette année 2022, Alexia Putellas triomphe. La capitaine du FC Barcelone remporte un second ballon d'or et sa victoire est double, car il s'agit d'une véritable avancée pour le foot féminin dans la société. Alexia devient la figure du football féminin pour le monde entier, et surtout pour toutes les jeunes filles qui rêvent de devenir joueuses professionnelles...",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:31:00+02:00",
+          "end": "2026-06-30T15:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a88f37c6847e",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP04",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP04",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T14:44:00+02:00",
+          "end": "2026-06-30T15:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "70ec90a5b4f9",
+          "sport": "other",
+          "competition": null,
+          "title": "Alexia, une icône est née - Saison 1",
+          "subtitle": "Tout en haut",
+          "description": "Le travail vient à bout de tout : tel est le mantra d'Alexia Putellas. Mais la finale de la Ligue des champions, en 2022, face à leurs grandes rivales de l'Olympique Lyonnais se solde par une défaite ; un coup dur pour la joueuse du Barça, qui a décidé de se servir de cet épisode pour continuer d'aller de l'avant et pour se dépasser...",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-06-30T15:12:00+02:00",
+          "end": "2026-06-30T16:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d29327bf6ad6",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP05",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP05",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T15:13:00+02:00",
+          "end": "2026-06-30T15:42:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
