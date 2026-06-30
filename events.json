@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T17:50:11.470111+00:00",
+    "generated_at": "2026-06-30T21:25:12.863558+00:00",
     "total_events": 1252,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,13 @@
     ],
     "channels": [
       {
-        "slug": "rds2",
-        "name": "RDS2",
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
         "is_free": false
       },
       {
@@ -33,18 +38,13 @@
         "is_free": false
       },
       {
-        "slug": "ard",
-        "name": "ARD",
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
-        "slug": "das-erste",
-        "name": "Das Erste",
-        "is_free": false
-      },
-      {
-        "slug": "srf-info",
-        "name": "SRF info",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -53,18 +53,13 @@
         "is_free": false
       },
       {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
+        "slug": "een",
+        "name": "een",
         "is_free": false
       },
       {
-        "slug": "canvas",
-        "name": "Canvas",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -83,83 +78,13 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "guadeloupe-1-re",
-        "name": "Guadeloupe 1ère",
-        "is_free": false
-      },
-      {
-        "slug": "martinique-1-re",
-        "name": "Martinique 1ère",
-        "is_free": false
-      },
-      {
-        "slug": "guyane-1-re",
-        "name": "Guyane 1ère",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "la-chaine-l-quipe",
-        "name": "La chaine l’Équipe",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
         "slug": "planete-aventure",
         "name": "Planete+ Aventure",
         "is_free": false
       },
       {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -168,13 +93,13 @@
         "is_free": false
       },
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
-        "slug": "een",
-        "name": "een",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -188,8 +113,33 @@
         "is_free": false
       },
       {
+        "slug": "guadeloupe-1-re",
+        "name": "Guadeloupe 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "guyane-1-re",
+        "name": "Guyane 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "la-chaine-l-quipe",
+        "name": "La chaine l’Équipe",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "zdf",
         "name": "ZDF",
+        "is_free": false
+      },
+      {
+        "slug": "srf-info",
+        "name": "SRF info",
         "is_free": false
       },
       {
@@ -203,13 +153,33 @@
         "is_free": false
       },
       {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
+        "is_free": false
+      },
+      {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
         "slug": "t-l-sud",
         "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -223,6 +193,11 @@
         "is_free": false
       },
       {
+        "slug": "trek",
+        "name": "TREK",
+        "is_free": false
+      },
+      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
         "is_free": false
@@ -230,6 +205,11 @@
       {
         "slug": "m6",
         "name": "M6",
+        "is_free": true
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
         "is_free": true
       },
       {
@@ -248,8 +228,28 @@
         "is_free": false
       },
       {
+        "slug": "ard",
+        "name": "ARD",
+        "is_free": false
+      },
+      {
+        "slug": "das-erste",
+        "name": "Das Erste",
+        "is_free": false
+      },
+      {
         "slug": "piwi",
         "name": "Piwi+",
+        "is_free": false
+      },
+      {
+        "slug": "canvas",
+        "name": "Canvas",
+        "is_free": false
+      },
+      {
+        "slug": "martinique-1-re",
+        "name": "Martinique 1ère",
         "is_free": false
       },
       {
@@ -405,1238 +405,6 @@
       "event_count": 211,
       "events": [
         {
-          "id": "a9fd51e3c30a",
-          "sport": "tennis",
-          "competition": "Wimbledon 2026 - 1re ronde",
-          "title": "Tennis: Wimbledon 2026 - 1re ronde",
-          "subtitle": "1re ronde",
-          "description": "En provenance du All-England Lawn Tennis and Croquet Club à Londres, en Angleterre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-06-30T12:00:00+02:00",
-          "end": "2026-06-30T22:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2a8c5213d77f",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Strasbourg / Lyon",
-          "subtitle": null,
-          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant STRASBOURG et OL.",
-          "team1": {
-            "name": "RC Strasbourg",
-            "type": "club",
-            "short": "Strasbourg",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T17:58:00+02:00",
-          "end": "2026-06-30T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "82ee201f3598",
-          "sport": "football",
-          "competition": null,
-          "title": "Côte d'Ivoire / Norvège",
-          "subtitle": null,
-          "description": "Die Elfenbeinküste schreibt WM?Geschichte: Erstmals erreicht der Afrikameister die K.o.-Runde einer WM. In Philadelphia setzt sich das Team von Trainer Emerse Faé klar mit 2:0 gegen Aussenseiter Curaçao durch. Nicolas Pépé trifft doppelt, den ersten Treffer legt Yan Diomande auf. Trotz des Erfolgs bleibt wegen des direkten Vergleichs mit Deutschland nur Rang zwei in Gruppe E. Für Curaçao und Coach Dick Advocaat endete das überraschende Turniermärchen dagegen als Tabellenletzter bereits nach der Vorrunde.",
-          "team1": {
-            "name": "Côte D'Ivoire",
-            "type": "club",
-            "short": "Côte D'Ivoire",
-            "country_code": "ci",
-            "logo_url": "https://flagcdn.com/w80/ci.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Norvège",
-            "type": "country",
-            "short": "Norvège",
-            "country_code": "no",
-            "logo_url": "https://flagcdn.com/w80/no.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ARD.de",
-            "name": "ARD",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-13.png",
-            "slug": "ard",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:00:00+02:00",
-          "end": "2026-06-30T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8785320a52db",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football. Coupe du monde. 1re 16e de finale.",
-          "description": "Coupe du monde. 1re 16e de finale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "DasErste.de",
-            "name": "Das Erste",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~206435f2d1b85281.png/480x480/quality/100/das-erste.png",
-            "slug": "das-erste",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:00:00+02:00",
-          "end": "2026-06-30T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f951957e3543",
-          "sport": "tennis",
-          "competition": "Wimbledon",
-          "title": "Tennis: Wimbledon",
-          "subtitle": "Tennis – Wimbledon 1. Runde, Stan Wawrinka (SUI) – Matteo Berrettini (ITA), Camila Osorio (COL) – Simona Waltert (SUI), Serena Williams (USA) – Maya Joint (AUS)",
-          "description": "Stan Wawrinka (SUI) – Matteo Berrettini (ITA), \nCamila Osorio (COL) – Simona Waltert (SUI), \nSerena Williams (USA) – Maya Joint (AUS)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:20:00+02:00",
-          "end": "2026-06-30T20:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b09bc44ff3cd",
-          "sport": "football",
-          "competition": null,
-          "title": "Elfenbeinküste - Norwegen",
-          "subtitle": "Coupe du monde - Sechzehntelfinale",
-          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
-          "team1": {
-            "name": "Coupe du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Sechzehntelfinale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:30:00+02:00",
-          "end": "2026-06-30T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "be0a2410a10b",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Mets de New York c. Blue Jays de Toronto",
-          "subtitle": "Mets de New York c. Blue Jays de Toronto",
-          "description": "Les Blue Jays de Toronto accueillent les Mets de New York au Rogers Centre pour le premier match d'une série de trois rencontres.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:30:00+02:00",
-          "end": "2026-06-30T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9b6232d429ca",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football. Coupe du monde. 1/16° finale (verlengingen en strafschoppen mogelijk).",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Canvas.fr",
-            "name": "Canvas",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~86a0a6b6ce187d6b.png/480x480/quality/100/canvas.png",
-            "slug": "canvas",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:40:00+02:00",
-          "end": "2026-06-30T21:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9d5dfd6f4d31",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Nottingham Forest / Manchester United",
-          "subtitle": "Premier League - 10e journée",
-          "description": "Le 1er novembre 2025, Nottingham Forest recevait Manchester United dans un contexte de crise pour le club de City Ground. Forest, 18e avec seulement 5 points, avait tout à craindre des Red Devils de Manchester United, qui débarquaient en confiance à West Bridgford, avec une série de trois victoires consécutives.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:42:00+02:00",
-          "end": "2026-06-30T20:24:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "43321958a62c",
-          "sport": "football",
-          "competition": null,
-          "title": "Côte d'Ivoire - Norvège",
-          "subtitle": "Coupe du monde - 16e de finale",
-          "description": "En direct de Dallas (USA)",
-          "team1": {
-            "name": "Coupe du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "16e de finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:45:00+02:00",
-          "end": "2026-06-30T21:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c32e5b8e8542",
-          "sport": "football",
-          "competition": null,
-          "title": "Côte d'Ivoire - Norvège",
-          "subtitle": "Coupe du monde - 16e de finale",
-          "description": "Deux victoires, une défaite : le bilan est similaire à l'issue de la phase de poules pour la Côte d'Ivoire et la Norvège, qui ont respectivement fini deuxième du groupe E et du groupe I. Les Eléphants de Guéla Doué auront fort à faire face aux Norvégiens emmenés par Erling Haaland. A Dallas, qui des hommes d'Emerse Fae ou de ceux de Stale Solbakken verront les huitièmes de finale ? Attention, risque de prolongations et de tirs au but.",
-          "team1": {
-            "name": "Coupe du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "16e de finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EvenementsSports4KUHD.fr",
-            "name": "Evenements Sports 4K UHD",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
-            "slug": "evenements-sports-4k-uhd",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:50:00+02:00",
-          "end": "2026-06-30T21:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "deec73eda4ee",
-          "sport": "football",
-          "competition": null,
-          "title": "2e groupe E - 2e groupe I",
-          "subtitle": null,
-          "description": "Le 2e du groupe E (Allemagne, Curaçao, Côte d'Ivoire, Equateur) affronte le 2e du groupe I (France, Sénégal, Irak, Norvège) à l'AT&T Stadium d'Arlington, dans la banlieue ouest de Dallas, au Texas. L'Allemagne de Florian Wirtz partait favorite du groupe E, mais sa tâche s'annonçait cependant compliquée, avec la Côte d'Ivoire, tombeuse de la France en match de préparation et de l'Equateur de Willian Pacho. Dans le groupe I, si la France de Kylian Mbappé et Michael Olise a bien négocié son premier match face au Sénégal, Sénégalais et Norvégiens devaient normalement se disputer la deuxième place. ATTENTION : risque de prolongation et de tirs au but.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LaDeux.be",
-            "name": "Tipik",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
-            "slug": "tipik",
-            "is_free": false
-          },
-          "start": "2026-06-30T18:51:00+02:00",
-          "end": "2026-06-30T21:09:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "74a1d4557b43",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale messieurs. Coupe du monde. 4e manche bloc.",
-          "description": "Coupe du monde. 4e manche bloc. Finale messieurs. A Prague (République tchèque).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:00:00+02:00",
-          "end": "2026-06-30T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fd045757d505",
-          "sport": "voile",
-          "competition": "Grand Prix du Canada",
-          "title": "Voile : Grand Prix du Canada",
-          "subtitle": null,
-          "description": "Organisé les 20 et 21 juin, ce Grand Prix du Canada, septième manche du circuit SailGP, se dispute dans le port d'Halifax. Après des débuts difficiles dans la compétition, l'équipage canadien NorthStar est monté sur la troisième marche du podium du Grand Prix de New York, dernière course en date, remporté par les Australiens. A domicile, Giles Scott et les Canadiens ambitionnent de rééditer leur performance.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:06:00+02:00",
-          "end": "2026-06-30T20:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cfdd9cb60092",
-          "sport": "football",
-          "competition": "Coupe de la Confédération de la",
-          "title": "Zamalek / USM Alger",
-          "subtitle": "Coupe de la Confédération de la ...",
-          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
-          "team1": {
-            "name": "Zamalek",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "USM Alger",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:20:00+02:00",
-          "end": "2026-06-30T21:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "954b0b18ec0e",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:22:00+02:00",
-          "end": "2026-06-30T19:58:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ef4658ec14a0",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Martinique1.fr",
-            "name": "Martinique 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "martinique-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:23:00+02:00",
-          "end": "2026-06-30T19:52:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "81fa6d32e29a",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guyane1.fr",
-            "name": "Guyane 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guyane-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:25:00+02:00",
-          "end": "2026-06-30T19:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "30a9905088bc",
-          "sport": "football",
-          "competition": "Liga 2 - Playoff. Finale retour",
-          "title": "Almeria / Malaga",
-          "subtitle": "Liga 2 - Playoff. Finale retour",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Almeria",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Malaga",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:42:00+02:00",
-          "end": "2026-06-30T21:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "be90c5d61087",
-          "sport": "football",
-          "competition": null,
-          "title": "L'Equipe de la mi-temps",
-          "subtitle": null,
-          "description": "Suivez le débrief de la première mi-temps avec les journalistes et les experts en plateau : résultats, dernières news et réactions à chaud sont au menu de ce magazine.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LEquipe21.fr",
-            "name": "La chaine l’Équipe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
-            "slug": "la-chaine-l-quipe",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:45:00+02:00",
-          "end": "2026-06-30T20:02:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c5e20b1c17c5",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lille / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 7e journée",
-          "description": "Duel européen pour cette 7e journée de Ligue 1 entre le Paris-SG, qui est allé gagner à Barcelone, et Lille, vainqueur sur la pelouse de l'AS Roma, en Ligue des champions.",
-          "team1": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:54:00+02:00",
-          "end": "2026-06-30T21:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "96bf17a4a64a",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T19:58:00+02:00",
-          "end": "2026-06-30T20:24:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4322aece03b4",
-          "sport": "other",
-          "competition": "Championnat du Royaume-Uni",
-          "title": "Snooker : Championnat du Royaume-Uni",
-          "subtitle": "Championnat du Royaume-Uni. Finale. Snooker Main Tour.",
-          "description": "Snooker Main Tour. Championnat du Royaume-Uni. Finale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:00:00+02:00",
-          "end": "2026-06-30T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "39eb38c2d863",
-          "sport": "other",
-          "competition": null,
-          "title": "Judd Trump - Mark Selby",
-          "subtitle": "Victorian Plumbing UK Championsh...",
-          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:00:00+02:00",
-          "end": "2026-06-30T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3ab225e805ff",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Martinique1.fr",
-            "name": "Martinique 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "martinique-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:00:00+02:00",
-          "end": "2026-06-30T20:26:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e802c1cac3c1",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-trail",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-06-30T20:00:00+02:00",
-          "end": "2026-06-30T20:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0b90df895f0f",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guyane1.fr",
-            "name": "Guyane 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guyane-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:05:00+02:00",
-          "end": "2026-06-30T20:32:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f161dd74b86",
-          "sport": "volleyball",
-          "competition": null,
-          "title": "Darta Bevo Roeselare - Asterix Avo Beveren",
-          "subtitle": null,
-          "description": "Finale van de Lotto Volley League (vrouwen) - Game 2 : Darta Bevo Roeselare - Asterix Avo Beveren.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:15:00+02:00",
-          "end": "2026-06-30T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "21bf44279aa2",
-          "sport": "volleyball",
-          "competition": null,
-          "title": "Darta Bevo Roeselare - Asterix Avo Beveren",
-          "subtitle": null,
-          "description": "Finale du Lotto Volley League chez les femmes - Game 2 : Darta Bevo Roeselare - Asterix Avo Beveren.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:20:00+02:00",
-          "end": "2026-06-30T22:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "be3d4a41a929",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Real Oviedo",
-          "subtitle": "Liga - 21e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Oviedo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:24:00+02:00",
-          "end": "2026-06-30T22:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "851f47ec8f40",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:24:00+02:00",
-          "end": "2026-06-30T20:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "305bff75e9ce",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Martinique1.fr",
-            "name": "Martinique 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "martinique-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:26:00+02:00",
-          "end": "2026-06-30T21:07:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "65cd478560c3",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guyane1.fr",
-            "name": "Guyane 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guyane-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:32:00+02:00",
-          "end": "2026-06-30T21:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5f10c0d257ee",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Paris-SG / Bayern Munich",
-          "subtitle": "Ligue des champions - 4e journée",
-          "description": "Cette affiche entre le Paris-SG, champion en titre et actuel leader de la compétition européenne, et son dauphin le Bayern Munich, a un avant-goût de finale. Portés par une victoire convaincante à Barcelone (1-2) puis un large succès à Leverkusen (2-7), les Parisiens de Luis Enrique abordent ce choc avec confiance. Face à un Bayern toujours redoutable, ils auront l'occasion d'affirmer, une fois encore, leur statut de favori à leur propre succession.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-06-30T20:55:00+02:00",
-          "end": "2026-06-30T22:44:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "22574b271f27",
-          "sport": "rugby",
-          "competition": "AXA Elite 1 - Finale",
-          "title": "ASM Romagnat / Stade Bordelais",
-          "subtitle": "AXA Elite 1 - Finale",
-          "description": "Depuis le Stade Aguiléra à Biarritz. Lors des demi-finales, l'ASM Romagnat a battu Blagnac et le Stade Bordelais a pris le dessus sur Toulouse.",
-          "team1": {
-            "name": "ASM Romagnat",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Bordelais",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:00:00+02:00",
-          "end": "2026-06-30T22:43:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5b1bab5026f5",
-          "sport": "mma",
-          "competition": null,
-          "title": "Free Spirits - Saison 2",
-          "subtitle": "Impact - Dods & Mma",
-          "description": "Le parcours d'une influenceuse audacieuse qui rêve de devenir cascadeuse. Pour y parvenir, elle s'initie à une série de sports extrêmes, du vélo à l'équitation, où l'équilibre et le courage sont essentiels. Coachée par des professionnels, elle doit affronter ses peurs, apprendre la discipline, chuter et se relever. L'aventure alterne entre ses doutes intimes, ses réussites et des scènes d'action spectaculaires.",
-          "team1": {
-            "name": "Impact",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Dods & Mma",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:00:00+02:00",
-          "end": "2026-06-30T21:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d194221822fd",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:29:00+02:00",
-          "end": "2026-06-30T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "84d5fceaeca3",
-          "sport": "f1",
-          "competition": null,
-          "title": "La course des Moto 3",
-          "subtitle": "Grand Prix des Pays-Bas",
-          "description": "Diffusion du Grand Prix d'Assen, une course du championnat du monde de Moto3. Egalement appelé le Grand Prix moto des Pays-Bas, c'est une course qui se dispute chaque année depuis 2012 et la création de ce championnat sur le circuit d'Assen. Jusqu'à 2016, l'épreuve se déroulait le samedi pour des raisons religieuses, au contraire des autres courses qui sont traditionnellement le dimanche.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:29:00+02:00",
-          "end": "2026-06-30T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "72c0af1dca5d",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 2",
-          "subtitle": "Tout terrain - Rallye & Ice cross",
-          "description": "Cass, une influenceuse audacieuse, rêve de devenir cascadeuse. Elle se lance dans l'apprentissage de sports extrêmes comme le vélo, le patin à glace ou l'équitation. Guidée par des professionnels, elle doit maîtriser des techniques complexes, surmonter ses peurs et faire preuve de courage. Entre chutes et réussites, elle persévère pour atteindre son but, partageant ses doutes et ses victoires.",
-          "team1": {
-            "name": "Tout terrain",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rallye & Ice cross",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:30:00+02:00",
-          "end": "2026-06-30T22:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "26204914927c",
-          "sport": "football",
-          "competition": null,
-          "title": "FIFA WM 2026 Nati-Magazin",
-          "subtitle": "Invité : Benjamin Huggel",
-          "description": "Im täglichen Nati-Magazin blicken Moderator Paddy Kälin und Experte Benjamin Huggel hinter die Kulissen des Schweizer Fussball-Nationalteams. Sie präsentieren Analysen, News und Hintergründe zur Nati und beleuchten das weitere Geschehen der Weltmeisterschaft in Kanada, Mexiko und den USA.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:30:00+02:00",
-          "end": "2026-06-30T21:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0846eaf0b1e4",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine Trilogy - Doggystyle",
-          "subtitle": null,
-          "description": "Deux grimpeurs belges accompagnés de leur caméraman et de leurs chiens se lancent dans la Trilogie alpine pour relever le défi dans la bonne humeur.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:32:00+02:00",
-          "end": "2026-06-30T22:17:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b7a90080d6e5",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T21:33:00+02:00",
-          "end": "2026-06-30T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "a9017b9ceb96",
           "sport": "mma",
           "competition": "UFC",
@@ -1668,31 +436,7 @@
           },
           "start": "2026-06-30T21:45:00+02:00",
           "end": "2026-07-01T00:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a292cf2b15f2",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:00:00+02:00",
-          "end": "2026-06-30T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1716,45 +460,7 @@
           },
           "start": "2026-06-30T22:00:00+02:00",
           "end": "2026-06-30T23:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7b7d58238ec3",
-          "sport": "football",
-          "competition": null,
-          "title": "Niederlande - Marokko",
-          "subtitle": "Coupe du monde - Sechzehntelfinale",
-          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
-          "team1": {
-            "name": "Coupe du monde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Sechzehntelfinale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:00:00+02:00",
-          "end": "2026-06-30T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1792,7 +498,7 @@
           },
           "start": "2026-06-30T22:01:00+02:00",
           "end": "2026-06-30T23:57:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1816,131 +522,7 @@
           },
           "start": "2026-06-30T22:05:00+02:00",
           "end": "2026-06-30T23:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0b6c605a78dd",
-          "sport": "other",
-          "competition": null,
-          "title": "Der WM-Check",
-          "subtitle": "The Contenders '26",
-          "description": "Focus on the potential participants of the 2026 FIFA World Cup: The program examines teams, squads, and playing styles, highlighting which nations are considered favorites or dark horses. Concise analysis, statistics, and background information provide a quick overview of the main contenders for the title.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:10:00+02:00",
-          "end": "2026-06-30T22:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "91f6e153fc8f",
-          "sport": "other",
-          "competition": null,
-          "title": "Free Spirits - Saison 2",
-          "subtitle": "En selle - Saut d'obstacles & BMX",
-          "description": "Cass, une influenceuse, se lance un défi audacieux : devenir cascadeuse. Coachée par des professionnels, elle doit faire preuve de courage et de discipline pour maîtriser des techniques complexes. Son parcours est jalonné de doutes, de chutes, mais aussi de réussites personnelles et de scènes spectaculaires. Cette fois, elle se lance dans le saut d'obstacles et au BMX.",
-          "team1": {
-            "name": "En selle",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Saut d'obstacles & BMX",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:14:00+02:00",
-          "end": "2026-06-30T22:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "625ce7cc8209",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 11e étape . Toulouse - Toulouse (156,8 km). UCI World Tour.",
-          "description": "Cette boucle de 156,8 km autour de Toulouse est la dernière étape dédiée aux baroudeurs avant les Pyrénées. Une échappée décisive pourrait intervenir dans les cinquante derniers kilomètres, où plusieurs difficultés attendent les coureurs; notamment la côte de Pech David et ses passages à 5% de pente. Les sprinteurs-puncheurs devraient s'illustrer.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:15:00+02:00",
-          "end": "2026-06-30T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6182e85a1352",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP03",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP03",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:30:00+02:00",
-          "end": "2026-06-30T23:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1978,31 +560,7 @@
           },
           "start": "2026-06-30T22:30:00+02:00",
           "end": "2026-07-01T00:11:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7669b8c54947",
-          "sport": "motogp",
-          "competition": null,
-          "title": "La course des Moto GP",
-          "subtitle": "Grand Prix des Pays-Bas",
-          "description": "Le championnat du monde Moto GP est très ouvert cette saison. Si l'Italien Marco Bezzecchi et l'Espagnol Jorge Martin, tous deux pilotes Aprilia, dominent le classement des pilotes, le championnat été relancé en Hongrie, avec la victoire du champion du monde en titre Marc Marquez (Ducati), devant son compatriote Pedro Acosta (KTM). Qui va s'imposer sur le circuit d'Assen, là où Marc Marquez l'avait emporté l'an dernier ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:30:00+02:00",
-          "end": "2026-06-30T23:21:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2040,7 +598,7 @@
           },
           "start": "2026-06-30T22:30:00+02:00",
           "end": "2026-07-01T01:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2064,31 +622,7 @@
           },
           "start": "2026-06-30T22:35:00+02:00",
           "end": "2026-07-01T01:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d7fd1c506c21",
-          "sport": "other",
-          "competition": null,
-          "title": "Der WM-Check",
-          "subtitle": "The Contenders '26",
-          "description": "Focus on the potential participants of the 2026 FIFA World Cup: The program examines teams, squads, and playing styles, highlighting which nations are considered favorites or dark horses. Concise analysis, statistics, and background information provide a quick overview of the main contenders for the title.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:40:00+02:00",
-          "end": "2026-06-30T23:10:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2126,7 +660,7 @@
           },
           "start": "2026-06-30T22:43:00+02:00",
           "end": "2026-07-01T00:26:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2164,7 +698,7 @@
           },
           "start": "2026-06-30T22:45:00+02:00",
           "end": "2026-07-01T01:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2202,31 +736,7 @@
           },
           "start": "2026-06-30T22:50:00+02:00",
           "end": "2026-07-01T01:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "861387a1be9d",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "Football : Coupe du monde",
-          "subtitle": "Football",
-          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-06-30T22:50:00+02:00",
-          "end": "2026-06-30T23:23:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2250,7 +760,7 @@
           },
           "start": "2026-06-30T22:50:00+02:00",
           "end": "2026-07-01T01:12:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2288,7 +798,7 @@
           },
           "start": "2026-06-30T22:55:00+02:00",
           "end": "2026-06-30T23:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2312,7 +822,7 @@
           },
           "start": "2026-06-30T23:00:00+02:00",
           "end": "2026-07-01T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2336,7 +846,7 @@
           },
           "start": "2026-06-30T23:00:00+02:00",
           "end": "2026-07-01T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2360,7 +870,7 @@
           },
           "start": "2026-06-30T23:00:00+02:00",
           "end": "2026-07-01T06:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2398,7 +908,7 @@
           },
           "start": "2026-06-30T23:11:00+02:00",
           "end": "2026-07-01T00:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2422,7 +932,7 @@
           },
           "start": "2026-06-30T23:12:00+02:00",
           "end": "2026-07-01T00:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2446,7 +956,7 @@
           },
           "start": "2026-06-30T23:15:00+02:00",
           "end": "2026-07-01T02:27:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2484,7 +994,7 @@
           },
           "start": "2026-06-30T23:20:00+02:00",
           "end": "2026-06-30T23:49:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2508,7 +1018,7 @@
           },
           "start": "2026-06-30T23:23:00+02:00",
           "end": "2026-06-30T23:59:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2532,7 +1042,7 @@
           },
           "start": "2026-06-30T23:25:00+02:00",
           "end": "2026-06-30T23:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5279,6 +3789,30 @@
           "result": null
         },
         {
+          "id": "a9fd51e3c30a",
+          "sport": "tennis",
+          "competition": "Wimbledon 2026 - 1re ronde",
+          "title": "Tennis: Wimbledon 2026 - 1re ronde",
+          "subtitle": "1re ronde",
+          "description": "En provenance du All-England Lawn Tennis and Croquet Club à Londres, en Angleterre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-06-30T12:00:00+02:00",
+          "end": "2026-06-30T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f81a7686d55d",
           "sport": "football",
           "competition": null,
@@ -6581,6 +5115,106 @@
           "result": null
         },
         {
+          "id": "2a8c5213d77f",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Strasbourg / Lyon",
+          "subtitle": null,
+          "description": "Match de la 23ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant STRASBOURG et OL.",
+          "team1": {
+            "name": "RC Strasbourg",
+            "type": "club",
+            "short": "Strasbourg",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/178.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T17:58:00+02:00",
+          "end": "2026-06-30T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "82ee201f3598",
+          "sport": "football",
+          "competition": null,
+          "title": "Côte d'Ivoire / Norvège",
+          "subtitle": null,
+          "description": "Die Elfenbeinküste schreibt WM?Geschichte: Erstmals erreicht der Afrikameister die K.o.-Runde einer WM. In Philadelphia setzt sich das Team von Trainer Emerse Faé klar mit 2:0 gegen Aussenseiter Curaçao durch. Nicolas Pépé trifft doppelt, den ersten Treffer legt Yan Diomande auf. Trotz des Erfolgs bleibt wegen des direkten Vergleichs mit Deutschland nur Rang zwei in Gruppe E. Für Curaçao und Coach Dick Advocaat endete das überraschende Turniermärchen dagegen als Tabellenletzter bereits nach der Vorrunde.",
+          "team1": {
+            "name": "Côte D'Ivoire",
+            "type": "club",
+            "short": "Côte D'Ivoire",
+            "country_code": "ci",
+            "logo_url": "https://flagcdn.com/w80/ci.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Norvège",
+            "type": "country",
+            "short": "Norvège",
+            "country_code": "no",
+            "logo_url": "https://flagcdn.com/w80/no.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ARD.de",
+            "name": "ARD",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-13.png",
+            "slug": "ard",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:00:00+02:00",
+          "end": "2026-06-30T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8785320a52db",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football. Coupe du monde. 1re 16e de finale.",
+          "description": "Coupe du monde. 1re 16e de finale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "DasErste.de",
+            "name": "Das Erste",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~206435f2d1b85281.png/480x480/quality/100/das-erste.png",
+            "slug": "das-erste",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:00:00+02:00",
+          "end": "2026-06-30T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "119917e38928",
           "sport": "f1",
           "competition": null,
@@ -6605,6 +5239,92 @@
           "result": null
         },
         {
+          "id": "f951957e3543",
+          "sport": "tennis",
+          "competition": "Wimbledon",
+          "title": "Tennis: Wimbledon",
+          "subtitle": "Tennis – Wimbledon 1. Runde, Stan Wawrinka (SUI) – Matteo Berrettini (ITA), Camila Osorio (COL) – Simona Waltert (SUI), Serena Williams (USA) – Maya Joint (AUS)",
+          "description": "Stan Wawrinka (SUI) – Matteo Berrettini (ITA), \nCamila Osorio (COL) – Simona Waltert (SUI), \nSerena Williams (USA) – Maya Joint (AUS)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:20:00+02:00",
+          "end": "2026-06-30T20:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b09bc44ff3cd",
+          "sport": "football",
+          "competition": null,
+          "title": "Elfenbeinküste - Norwegen",
+          "subtitle": "Coupe du monde - Sechzehntelfinale",
+          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
+          "team1": {
+            "name": "Coupe du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Sechzehntelfinale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:30:00+02:00",
+          "end": "2026-06-30T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "be0a2410a10b",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Mets de New York c. Blue Jays de Toronto",
+          "subtitle": "Mets de New York c. Blue Jays de Toronto",
+          "description": "Les Blue Jays de Toronto accueillent les Mets de New York au Rogers Centre pour le premier match d'une série de trois rencontres.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:30:00+02:00",
+          "end": "2026-06-30T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f8964f979a6f",
           "sport": "football",
           "competition": null,
@@ -6622,6 +5342,106 @@
           },
           "start": "2026-06-30T18:30:00+02:00",
           "end": "2026-06-30T18:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9b6232d429ca",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football. Coupe du monde. 1/16° finale (verlengingen en strafschoppen mogelijk).",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Canvas.fr",
+            "name": "Canvas",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~86a0a6b6ce187d6b.png/480x480/quality/100/canvas.png",
+            "slug": "canvas",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:40:00+02:00",
+          "end": "2026-06-30T21:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9d5dfd6f4d31",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Nottingham Forest / Manchester United",
+          "subtitle": "Premier League - 10e journée",
+          "description": "Le 1er novembre 2025, Nottingham Forest recevait Manchester United dans un contexte de crise pour le club de City Ground. Forest, 18e avec seulement 5 points, avait tout à craindre des Red Devils de Manchester United, qui débarquaient en confiance à West Bridgford, avec une série de trois victoires consécutives.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:42:00+02:00",
+          "end": "2026-06-30T20:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "43321958a62c",
+          "sport": "football",
+          "competition": null,
+          "title": "Côte d'Ivoire - Norvège",
+          "subtitle": "Coupe du monde - 16e de finale",
+          "description": "En direct de Dallas (USA)",
+          "team1": {
+            "name": "Coupe du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "16e de finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:45:00+02:00",
+          "end": "2026-06-30T21:10:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6667,6 +5487,44 @@
           "result": null
         },
         {
+          "id": "c32e5b8e8542",
+          "sport": "football",
+          "competition": null,
+          "title": "Côte d'Ivoire - Norvège",
+          "subtitle": "Coupe du monde - 16e de finale",
+          "description": "Deux victoires, une défaite : le bilan est similaire à l'issue de la phase de poules pour la Côte d'Ivoire et la Norvège, qui ont respectivement fini deuxième du groupe E et du groupe I. Les Eléphants de Guéla Doué auront fort à faire face aux Norvégiens emmenés par Erling Haaland. A Dallas, qui des hommes d'Emerse Fae ou de ceux de Stale Solbakken verront les huitièmes de finale ? Attention, risque de prolongations et de tirs au but.",
+          "team1": {
+            "name": "Coupe du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "16e de finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EvenementsSports4KUHD.fr",
+            "name": "Evenements Sports 4K UHD",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
+            "slug": "evenements-sports-4k-uhd",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:50:00+02:00",
+          "end": "2026-06-30T21:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "6bcfb91fa21a",
           "sport": "football",
           "competition": "Coupe du monde",
@@ -6691,6 +5549,54 @@
           "result": null
         },
         {
+          "id": "deec73eda4ee",
+          "sport": "football",
+          "competition": null,
+          "title": "2e groupe E - 2e groupe I",
+          "subtitle": null,
+          "description": "Le 2e du groupe E (Allemagne, Curaçao, Côte d'Ivoire, Equateur) affronte le 2e du groupe I (France, Sénégal, Irak, Norvège) à l'AT&T Stadium d'Arlington, dans la banlieue ouest de Dallas, au Texas. L'Allemagne de Florian Wirtz partait favorite du groupe E, mais sa tâche s'annonçait cependant compliquée, avec la Côte d'Ivoire, tombeuse de la France en match de préparation et de l'Equateur de Willian Pacho. Dans le groupe I, si la France de Kylian Mbappé et Michael Olise a bien négocié son premier match face au Sénégal, Sénégalais et Norvégiens devaient normalement se disputer la deuxième place. ATTENTION : risque de prolongation et de tirs au but.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LaDeux.be",
+            "name": "Tipik",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0018a91b503e458f.png/480x480/quality/100/tipik.png",
+            "slug": "tipik",
+            "is_free": false
+          },
+          "start": "2026-06-30T18:51:00+02:00",
+          "end": "2026-06-30T21:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "74a1d4557b43",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale messieurs. Coupe du monde. 4e manche bloc.",
+          "description": "Coupe du monde. 4e manche bloc. Finale messieurs. A Prague (République tchèque).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:00:00+02:00",
+          "end": "2026-06-30T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "0b6bffac3a1c",
           "sport": "ski",
           "competition": "Coupe du monde de descente",
@@ -6708,6 +5614,1100 @@
           },
           "start": "2026-06-30T19:00:00+02:00",
           "end": "2026-06-30T19:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fd045757d505",
+          "sport": "voile",
+          "competition": "Grand Prix du Canada",
+          "title": "Voile : Grand Prix du Canada",
+          "subtitle": null,
+          "description": "Organisé les 20 et 21 juin, ce Grand Prix du Canada, septième manche du circuit SailGP, se dispute dans le port d'Halifax. Après des débuts difficiles dans la compétition, l'équipage canadien NorthStar est monté sur la troisième marche du podium du Grand Prix de New York, dernière course en date, remporté par les Australiens. A domicile, Giles Scott et les Canadiens ambitionnent de rééditer leur performance.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:06:00+02:00",
+          "end": "2026-06-30T20:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cfdd9cb60092",
+          "sport": "football",
+          "competition": "Coupe de la Confédération de la",
+          "title": "Zamalek / USM Alger",
+          "subtitle": "Coupe de la Confédération de la ...",
+          "description": "Diffusion de matchs de la Coupe de la Confédération de la CAF. Née en 2004 de la fusion entre la Coupe d'Afrique des vainqueurs de coupe et de la Coupe de la CAF, elle est disputée par les clubs vainqueurs de leurs coupes nationales respectives. Le gagnant de cette compétition obtient le droit de participer à la Supercoupe de la CAF.",
+          "team1": {
+            "name": "Zamalek",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "USM Alger",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:20:00+02:00",
+          "end": "2026-06-30T21:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "954b0b18ec0e",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:22:00+02:00",
+          "end": "2026-06-30T19:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ef4658ec14a0",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Martinique1.fr",
+            "name": "Martinique 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "martinique-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:23:00+02:00",
+          "end": "2026-06-30T19:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "81fa6d32e29a",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guyane1.fr",
+            "name": "Guyane 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guyane-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:25:00+02:00",
+          "end": "2026-06-30T19:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "30a9905088bc",
+          "sport": "football",
+          "competition": "Liga 2 - Playoff. Finale retour",
+          "title": "Almeria / Malaga",
+          "subtitle": "Liga 2 - Playoff. Finale retour",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Almeria",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Malaga",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:42:00+02:00",
+          "end": "2026-06-30T21:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "be90c5d61087",
+          "sport": "football",
+          "competition": null,
+          "title": "L'Equipe de la mi-temps",
+          "subtitle": null,
+          "description": "Suivez le débrief de la première mi-temps avec les journalistes et les experts en plateau : résultats, dernières news et réactions à chaud sont au menu de ce magazine.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LEquipe21.fr",
+            "name": "La chaine l’Équipe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~060edf53b072af43.png/480x480/quality/100/l-equipe.png",
+            "slug": "la-chaine-l-quipe",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:45:00+02:00",
+          "end": "2026-06-30T20:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c5e20b1c17c5",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lille / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 7e journée",
+          "description": "Duel européen pour cette 7e journée de Ligue 1 entre le Paris-SG, qui est allé gagner à Barcelone, et Lille, vainqueur sur la pelouse de l'AS Roma, en Ligue des champions.",
+          "team1": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:54:00+02:00",
+          "end": "2026-06-30T21:33:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "96bf17a4a64a",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T19:58:00+02:00",
+          "end": "2026-06-30T20:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4322aece03b4",
+          "sport": "other",
+          "competition": "Championnat du Royaume-Uni",
+          "title": "Snooker : Championnat du Royaume-Uni",
+          "subtitle": "Championnat du Royaume-Uni. Finale. Snooker Main Tour.",
+          "description": "Snooker Main Tour. Championnat du Royaume-Uni. Finale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:00:00+02:00",
+          "end": "2026-06-30T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "39eb38c2d863",
+          "sport": "other",
+          "competition": null,
+          "title": "Judd Trump - Mark Selby",
+          "subtitle": "Victorian Plumbing UK Championsh...",
+          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:00:00+02:00",
+          "end": "2026-06-30T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3ab225e805ff",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Martinique1.fr",
+            "name": "Martinique 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "martinique-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:00:00+02:00",
+          "end": "2026-06-30T20:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e802c1cac3c1",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-trail",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-06-30T20:00:00+02:00",
+          "end": "2026-06-30T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0b90df895f0f",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guyane1.fr",
+            "name": "Guyane 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guyane-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:05:00+02:00",
+          "end": "2026-06-30T20:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f161dd74b86",
+          "sport": "volleyball",
+          "competition": null,
+          "title": "Darta Bevo Roeselare - Asterix Avo Beveren",
+          "subtitle": null,
+          "description": "Finale van de Lotto Volley League (vrouwen) - Game 2 : Darta Bevo Roeselare - Asterix Avo Beveren.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:15:00+02:00",
+          "end": "2026-06-30T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "21bf44279aa2",
+          "sport": "volleyball",
+          "competition": null,
+          "title": "Darta Bevo Roeselare - Asterix Avo Beveren",
+          "subtitle": null,
+          "description": "Finale du Lotto Volley League chez les femmes - Game 2 : Darta Bevo Roeselare - Asterix Avo Beveren.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:20:00+02:00",
+          "end": "2026-06-30T22:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "be3d4a41a929",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Real Oviedo",
+          "subtitle": "Liga - 21e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Oviedo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:24:00+02:00",
+          "end": "2026-06-30T22:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "851f47ec8f40",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:24:00+02:00",
+          "end": "2026-06-30T20:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "305bff75e9ce",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Martinique1.fr",
+            "name": "Martinique 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150085/canal-ouah/CHN43FB/MARTINIQUE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "martinique-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:26:00+02:00",
+          "end": "2026-06-30T21:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "65cd478560c3",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guyane1.fr",
+            "name": "Guyane 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guyane-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:32:00+02:00",
+          "end": "2026-06-30T21:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5f10c0d257ee",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Paris-SG / Bayern Munich",
+          "subtitle": "Ligue des champions - 4e journée",
+          "description": "Cette affiche entre le Paris-SG, champion en titre et actuel leader de la compétition européenne, et son dauphin le Bayern Munich, a un avant-goût de finale. Portés par une victoire convaincante à Barcelone (1-2) puis un large succès à Leverkusen (2-7), les Parisiens de Luis Enrique abordent ce choc avec confiance. Face à un Bayern toujours redoutable, ils auront l'occasion d'affirmer, une fois encore, leur statut de favori à leur propre succession.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-06-30T20:55:00+02:00",
+          "end": "2026-06-30T22:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "22574b271f27",
+          "sport": "rugby",
+          "competition": "AXA Elite 1 - Finale",
+          "title": "ASM Romagnat / Stade Bordelais",
+          "subtitle": "AXA Elite 1 - Finale",
+          "description": "Depuis le Stade Aguiléra à Biarritz. Lors des demi-finales, l'ASM Romagnat a battu Blagnac et le Stade Bordelais a pris le dessus sur Toulouse.",
+          "team1": {
+            "name": "ASM Romagnat",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Bordelais",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:00:00+02:00",
+          "end": "2026-06-30T22:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5b1bab5026f5",
+          "sport": "mma",
+          "competition": null,
+          "title": "Free Spirits - Saison 2",
+          "subtitle": "Impact - Dods & Mma",
+          "description": "Le parcours d'une influenceuse audacieuse qui rêve de devenir cascadeuse. Pour y parvenir, elle s'initie à une série de sports extrêmes, du vélo à l'équitation, où l'équilibre et le courage sont essentiels. Coachée par des professionnels, elle doit affronter ses peurs, apprendre la discipline, chuter et se relever. L'aventure alterne entre ses doutes intimes, ses réussites et des scènes d'action spectaculaires.",
+          "team1": {
+            "name": "Impact",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Dods & Mma",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:00:00+02:00",
+          "end": "2026-06-30T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d194221822fd",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:29:00+02:00",
+          "end": "2026-06-30T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "84d5fceaeca3",
+          "sport": "f1",
+          "competition": null,
+          "title": "La course des Moto 3",
+          "subtitle": "Grand Prix des Pays-Bas",
+          "description": "Diffusion du Grand Prix d'Assen, une course du championnat du monde de Moto3. Egalement appelé le Grand Prix moto des Pays-Bas, c'est une course qui se dispute chaque année depuis 2012 et la création de ce championnat sur le circuit d'Assen. Jusqu'à 2016, l'épreuve se déroulait le samedi pour des raisons religieuses, au contraire des autres courses qui sont traditionnellement le dimanche.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:29:00+02:00",
+          "end": "2026-06-30T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "72c0af1dca5d",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 2",
+          "subtitle": "Tout terrain - Rallye & Ice cross",
+          "description": "Cass, une influenceuse audacieuse, rêve de devenir cascadeuse. Elle se lance dans l'apprentissage de sports extrêmes comme le vélo, le patin à glace ou l'équitation. Guidée par des professionnels, elle doit maîtriser des techniques complexes, surmonter ses peurs et faire preuve de courage. Entre chutes et réussites, elle persévère pour atteindre son but, partageant ses doutes et ses victoires.",
+          "team1": {
+            "name": "Tout terrain",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rallye & Ice cross",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:30:00+02:00",
+          "end": "2026-06-30T22:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "26204914927c",
+          "sport": "football",
+          "competition": null,
+          "title": "FIFA WM 2026 Nati-Magazin",
+          "subtitle": "Invité : Benjamin Huggel",
+          "description": "Im täglichen Nati-Magazin blicken Moderator Paddy Kälin und Experte Benjamin Huggel hinter die Kulissen des Schweizer Fussball-Nationalteams. Sie präsentieren Analysen, News und Hintergründe zur Nati und beleuchten das weitere Geschehen der Weltmeisterschaft in Kanada, Mexiko und den USA.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:30:00+02:00",
+          "end": "2026-06-30T21:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0846eaf0b1e4",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine Trilogy - Doggystyle",
+          "subtitle": null,
+          "description": "Deux grimpeurs belges accompagnés de leur caméraman et de leurs chiens se lancent dans la Trilogie alpine pour relever le défi dans la bonne humeur.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:32:00+02:00",
+          "end": "2026-06-30T22:17:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b7a90080d6e5",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T21:33:00+02:00",
+          "end": "2026-06-30T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a292cf2b15f2",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "Retransmission de manches de la Coupe du monde d'escalade. Organisée par l'IFSC depuis 1989, cette compétition annuelle se déroule à travers plusieurs étapes partout dans le monde. Trois catégories composent cette discipline : escalade de vitesse, de bloc, et de difficulté. Chacune d'entre elles donne un vainqueur dans sa catégorie. Il existe également un titre combiné pour les athlètes engagés dans deux catégories différentes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:00:00+02:00",
+          "end": "2026-06-30T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7b7d58238ec3",
+          "sport": "football",
+          "competition": null,
+          "title": "Niederlande - Marokko",
+          "subtitle": "Coupe du monde - Sechzehntelfinale",
+          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
+          "team1": {
+            "name": "Coupe du monde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Sechzehntelfinale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:00:00+02:00",
+          "end": "2026-06-30T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0b6c605a78dd",
+          "sport": "other",
+          "competition": null,
+          "title": "Der WM-Check",
+          "subtitle": "The Contenders '26",
+          "description": "Focus on the potential participants of the 2026 FIFA World Cup: The program examines teams, squads, and playing styles, highlighting which nations are considered favorites or dark horses. Concise analysis, statistics, and background information provide a quick overview of the main contenders for the title.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:10:00+02:00",
+          "end": "2026-06-30T22:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "91f6e153fc8f",
+          "sport": "other",
+          "competition": null,
+          "title": "Free Spirits - Saison 2",
+          "subtitle": "En selle - Saut d'obstacles & BMX",
+          "description": "Cass, une influenceuse, se lance un défi audacieux : devenir cascadeuse. Coachée par des professionnels, elle doit faire preuve de courage et de discipline pour maîtriser des techniques complexes. Son parcours est jalonné de doutes, de chutes, mais aussi de réussites personnelles et de scènes spectaculaires. Cette fois, elle se lance dans le saut d'obstacles et au BMX.",
+          "team1": {
+            "name": "En selle",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Saut d'obstacles & BMX",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:14:00+02:00",
+          "end": "2026-06-30T22:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "625ce7cc8209",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 11e étape . Toulouse - Toulouse (156,8 km). UCI World Tour.",
+          "description": "Cette boucle de 156,8 km autour de Toulouse est la dernière étape dédiée aux baroudeurs avant les Pyrénées. Une échappée décisive pourrait intervenir dans les cinquante derniers kilomètres, où plusieurs difficultés attendent les coureurs; notamment la côte de Pech David et ses passages à 5% de pente. Les sprinteurs-puncheurs devraient s'illustrer.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:15:00+02:00",
+          "end": "2026-06-30T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6182e85a1352",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP03",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP03",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:30:00+02:00",
+          "end": "2026-06-30T23:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7669b8c54947",
+          "sport": "motogp",
+          "competition": null,
+          "title": "La course des Moto GP",
+          "subtitle": "Grand Prix des Pays-Bas",
+          "description": "Le championnat du monde Moto GP est très ouvert cette saison. Si l'Italien Marco Bezzecchi et l'Espagnol Jorge Martin, tous deux pilotes Aprilia, dominent le classement des pilotes, le championnat été relancé en Hongrie, avec la victoire du champion du monde en titre Marc Marquez (Ducati), devant son compatriote Pedro Acosta (KTM). Qui va s'imposer sur le circuit d'Assen, là où Marc Marquez l'avait emporté l'an dernier ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:30:00+02:00",
+          "end": "2026-06-30T23:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d7fd1c506c21",
+          "sport": "other",
+          "competition": null,
+          "title": "Der WM-Check",
+          "subtitle": "The Contenders '26",
+          "description": "Focus on the potential participants of the 2026 FIFA World Cup: The program examines teams, squads, and playing styles, highlighting which nations are considered favorites or dark horses. Concise analysis, statistics, and background information provide a quick overview of the main contenders for the title.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:40:00+02:00",
+          "end": "2026-06-30T23:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "861387a1be9d",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "Football : Coupe du monde",
+          "subtitle": "Football",
+          "description": "La plus grande édition de l'histoire du tournoi planétaire voit pour la première fois 48 équipes participer. Un total record de 104 matches sont amenés à être disputés dans 16 villes hôtes de trois pays, le Canada, le Mexique et les États-Unis.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-06-30T22:50:00+02:00",
+          "end": "2026-06-30T23:23:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
