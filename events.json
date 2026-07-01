@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T03:28:31.206388+00:00",
+    "generated_at": "2026-07-01T08:08:21.675988+00:00",
     "total_events": 1186,
     "total_days": 7,
     "sports": [
@@ -23,78 +23,18 @@
     ],
     "channels": [
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
         "is_free": false
       },
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-afrique",
-        "name": "TV5 Monde Afrique",
-        "is_free": false
-      },
-      {
-        "slug": "srf-info",
-        "name": "SRF info",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
         "is_free": false
       },
       {
@@ -103,18 +43,28 @@
         "is_free": false
       },
       {
-        "slug": "m6",
-        "name": "M6",
-        "is_free": true
-      },
-      {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
-        "slug": "rmc-talk-sport",
-        "name": "RMC Talk Sport",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -123,8 +73,18 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
+        "slug": "srf-info",
+        "name": "SRF info",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -140,6 +100,11 @@
       {
         "slug": "rsi-2",
         "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
         "is_free": false
       },
       {
@@ -163,8 +128,23 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "tipik",
         "name": "Tipik",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
         "is_free": false
       },
       {
@@ -230,6 +210,26 @@
       {
         "slug": "een",
         "name": "een",
+        "is_free": false
+      },
+      {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-afrique",
+        "name": "TV5 Monde Afrique",
+        "is_free": false
+      },
+      {
+        "slug": "m6",
+        "name": "M6",
+        "is_free": true
+      },
+      {
+        "slug": "rmc-talk-sport",
+        "name": "RMC Talk Sport",
         "is_free": false
       },
       {
@@ -410,856 +410,6 @@
       "event_count": 192,
       "events": [
         {
-          "id": "0dbccfa0bb8e",
-          "sport": "mma",
-          "competition": "UFC",
-          "title": "MMA : UFC | Rafael Fiziev / Manuel Torres",
-          "subtitle": null,
-          "description": "L'UFC donne rendez-vous à la National Gymnastics Arena de Bakou, en Azerbaïdjan. Un combat de poids légers entre le local Rafael Fiziev et le Mexicain Manuel Torres est prévu en tête d'affiche de l'événement. A suivre également, en poids moyens, l'opposition entre le Russe Shara Magomedov et le Brésilien Michel Pereira.",
-          "team1": {
-            "name": "Rafael Fiziev",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manuel Torres",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-07-01T03:00:00+02:00",
-          "end": "2026-07-01T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ed3faba92efd",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / Burnley",
-          "subtitle": "Premier League - 22e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Burnley",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-01T04:00:00+02:00",
-          "end": "2026-07-01T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0fb157e1586f",
-          "sport": "other",
-          "competition": "Championnat du Royaume-Uni",
-          "title": "Snooker : Championnat du Royaume-Uni",
-          "subtitle": "Championnat du Royaume-Uni. Finale. Snooker Main Tour.",
-          "description": "Snooker Main Tour. Championnat du Royaume-Uni. Finale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-01T04:00:00+02:00",
-          "end": "2026-07-01T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e8696f61138f",
-          "sport": "other",
-          "competition": null,
-          "title": "Judd Trump - Mark Selby",
-          "subtitle": "Victorian Plumbing UK Championsh...",
-          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-07-01T04:00:00+02:00",
-          "end": "2026-07-01T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f6e32be3d3e0",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Liverpool",
-          "subtitle": "Premier League - 21e journée",
-          "description": "Match de gala à l'Emirates Stadium : les Gunners d'Arsenal, leaders de Premier League, accueillent les Reds de Liverpool, bien décidés à se positionner durablement dans le Top 5. Avantage cependant aux Gunners, toujours intraitables à domicile et qui compteront, une nouvelle fois, sur leurs buteurs Leandro Trossard, Viktor Gyökeres et Bukayo Saka pour faire la différence.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-01T04:13:00+02:00",
-          "end": "2026-07-01T07:42:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "98252796c571",
-          "sport": "other",
-          "competition": null,
-          "title": "Historia que tú hiciste",
-          "subtitle": "Champions League 2012/13. Real Madrid-Manchester City",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-07-01T04:15:00+02:00",
-          "end": "2026-07-01T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7e907a2433a2",
-          "sport": "basket",
-          "competition": null,
-          "title": "Filou Oostende - Brussels Basketball",
-          "subtitle": null,
-          "description": "BNXT Basketball League: Filou Oostende - Brussels Basketball.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-07-01T04:20:00+02:00",
-          "end": "2026-07-01T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "887d7339db22",
-          "sport": "basket",
-          "competition": null,
-          "title": "Filou Ostende - Brussels Basketball",
-          "subtitle": null,
-          "description": "BNXT Basketball League : Filou Ostende - Brussels Basketball.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-07-01T04:25:00+02:00",
-          "end": "2026-07-01T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f421ef554db8",
-          "sport": "other",
-          "competition": null,
-          "title": "Terrain de jeu - Saison 1",
-          "subtitle": "Les Etats-Unis",
-          "description": "A New York, Raed Hammoud visite le Brooklyn Bridge Park Stadium, un terrain magnifique avec vue panoramique imprenable. L'occasion de constater que dans cette ville traditionnellement dévolue au basket et au baseball, le soccer a une place de choix, sur les terrains comme dans les coeurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAfrique.fr",
-            "name": "TV5 Monde Afrique",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180105/canal-ouah/CHN43FB/TV5MONDEAFRIQUE_640x480-SLr8?=.png",
-            "slug": "tv5-monde-afrique",
-            "is_free": false
-          },
-          "start": "2026-07-01T05:14:00+02:00",
-          "end": "2026-07-01T06:06:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0feff77b18c6",
-          "sport": "other",
-          "competition": null,
-          "title": "FIFA WM 2026 Nati-Magazin",
-          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
-          "description": "Aucune description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-07-01T05:25:00+02:00",
-          "end": "2026-07-01T05:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "39fde781f656",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Bournemouth / Liverpool",
-          "subtitle": "Premier League - 23e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-01T06:00:00+02:00",
-          "end": "2026-07-01T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e15b13c31d08",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 11e étape . Toulouse - Toulouse (156,8 km). UCI World Tour.",
-          "description": "Cette boucle de 156,8 km autour de Toulouse est la dernière étape dédiée aux baroudeurs avant les Pyrénées. Une échappée décisive pourrait intervenir dans les cinquante derniers kilomètres, où plusieurs difficultés attendent les coureurs; notamment la côte de Pech David et ses passages à 5% de pente. Les sprinteurs-puncheurs devraient s'illustrer.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-01T06:00:00+02:00",
-          "end": "2026-07-01T07:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d6c061a90f7c",
-          "sport": "other",
-          "competition": null,
-          "title": "FIFA WM 2026 Nati-Magazin",
-          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
-          "description": "Aucune description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-07-01T06:10:00+02:00",
-          "end": "2026-07-01T06:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fdb5277a8b0a",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Mets de New York c. Blue Jays de Toronto",
-          "subtitle": "Mets de New York c. Blue Jays de Toronto",
-          "description": "Les Mets de New York et les Blue Jays de Toronto poursuivent leur série de trois matchs au Rogers Centre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-07-01T06:30:00+02:00",
-          "end": "2026-07-01T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4628ee9cd0a1",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP01",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP01",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-01T06:40:00+02:00",
-          "end": "2026-07-01T07:39:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2ffa42fffd73",
-          "sport": "other",
-          "competition": null,
-          "title": "Moteurs",
-          "subtitle": "Championnat de France de la Montagne 2026 - Etape 7",
-          "description": "Résumé de la 7ème manche du championnat de France de la montagne 2026 avec la course de côte de Marchampt en Beaujolais.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-07-01T06:40:00+02:00",
-          "end": "2026-07-01T07:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d82f9d1634ad",
-          "sport": "other",
-          "competition": null,
-          "title": "FIFA WM 2026 Nati-Magazin",
-          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
-          "description": "Aucune description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-07-01T06:50:00+02:00",
-          "end": "2026-07-01T07:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2f44d2f8a14c",
-          "sport": "mma",
-          "competition": "Grand Prix de Qingdao",
-          "title": "Judo : Grand Prix de Qingdao",
-          "subtitle": null,
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:00:00+02:00",
-          "end": "2026-07-01T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4427a8043f1e",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 03",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 03",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:08:00+02:00",
-          "end": "2026-07-01T08:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c87464d2ad21",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 12e étape . Auch - Hautacam (180,6 km). UCI World Tour.",
-          "description": "Un nouveau chapitre de la lutte pour le maillot jaune s'écrit aujourd'hui lors de cette première étape pyrénéenne mythique entre Auch et Hautacam. Les favoris devraient en découdre dans les 45 derniers kilomètres, avec l'ascension du col de Soulor, en passant par la Ferrière (11 km à 7,3%), avant d'enchaîner avec le col de Bordières, puis la montée d'Hautacam, longue de 13,6 km avec une pente moyenne de 7,8%.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:15:00+02:00",
-          "end": "2026-07-01T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f06987bd874",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Escalade",
-          "description": "La Coupe du monde de difficulté fait étape à Prague, pour la deuxième manche de la saison. L'Américaine Annie Sander et le Japonais Neo Suzuki se sont imposés en Chine, le 9 mai dernier, en ouverture de la saison. A suivre également la Slovène Janja Garnbret, l'Espagnol Alberto Ginés López et le Français Max Bertone.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:30:00+02:00",
-          "end": "2026-07-01T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4091727905dd",
-          "sport": "other",
-          "competition": null,
-          "title": "FIFA WM 2026 Nati-Magazin",
-          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
-          "description": "Aucune description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:30:00+02:00",
-          "end": "2026-07-01T07:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5d2d07db5656",
-          "sport": "f1",
-          "competition": "Grand Prix d'Autriche",
-          "title": "Formule 1 : Grand Prix d'Autriche",
-          "subtitle": null,
-          "description": "Alors que, course après course, il creuse un peu plus l'écart en tête du classement du championnat du monde, Kimi Antonelli sera à nouveau le grandissime favori de ce Grand Prix d'Autriche, disputé sur le circuit de Spielberg. Le principal rival de l'Italien sera… son coéquipier chez Mercedes, George Russell, l'un des rares pilotes à avoir contesté sa domination cette saison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:34:00+02:00",
-          "end": "2026-07-01T09:19:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "59035885eb15",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Paris-SG / Bayern Munich",
-          "subtitle": "Ligue des champions - 4e journée",
-          "description": "Cette affiche entre le Paris-SG, champion en titre et actuel leader de la compétition européenne, et son dauphin le Bayern Munich, a un avant-goût de finale. Portés par une victoire convaincante à Barcelone (1-2) puis un large succès à Leverkusen (2-7), les Parisiens de Luis Enrique abordent ce choc avec confiance. Face à un Bayern toujours redoutable, ils auront l'occasion d'affirmer, une fois encore, leur statut de favori à leur propre succession.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:39:00+02:00",
-          "end": "2026-07-01T09:29:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4716b2dccf03",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:39:00+02:00",
-          "end": "2026-07-01T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "213fc0b7f1d7",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Nottingham Forest / Manchester United",
-          "subtitle": "Premier League - 10e journée",
-          "description": "Le 1er novembre 2025, Nottingham Forest recevait Manchester United dans un contexte de crise pour le club de City Ground. Forest, 18e avec seulement 5 points, avait tout à craindre des Red Devils de Manchester United, qui débarquaient en confiance à West Bridgford, avec une série de trois victoires consécutives.",
-          "team1": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-01T07:42:00+02:00",
-          "end": "2026-07-01T09:28:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "591ad1c4eca5",
-          "sport": "football",
-          "competition": null,
-          "title": "Morning récap' - Coupe du monde de la FIFA 2026",
-          "subtitle": null,
-          "description": "Retour sur les temps forts de la journée écoulée, les résultats des rencontres et les réactions des joueurs comme des entraîneurs des différentes sélections nationales.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "M6.fr",
-            "name": "M6",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png",
-            "slug": "m6",
-            "is_free": true
-          },
-          "start": "2026-07-01T07:50:00+02:00",
-          "end": "2026-07-01T08:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dbe4244d8581",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Union Saint-Gilloise / Inter Milan",
-          "subtitle": "Ligue des champions - 3e journée",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Union Saint-Gilloise",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Inter Milan",
-            "type": "club",
-            "short": "Inter",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-01T08:00:00+02:00",
-          "end": "2026-07-01T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8bdff1b8297a",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "St. Pauli / Bayern Munich",
-          "subtitle": "Bundesliga - 29e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-01T08:01:00+02:00",
-          "end": "2026-07-01T09:43:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "0e3b210b10d0",
           "sport": "other",
           "competition": null,
@@ -1277,79 +427,7 @@
           },
           "start": "2026-07-01T08:30:00+02:00",
           "end": "2026-07-01T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d6f8aa2c14b9",
-          "sport": "other",
-          "competition": null,
-          "title": "Compton Magic - Saison 1",
-          "subtitle": "Episode 1",
-          "description": "Ce documentaire suit Compton Magic, l'équipe de basket-ball amateur la plus titrée, tandis qu'elle se prépare pour des matchs qui détermineront l'avenir de ses jeunes joueurs. L'histoire met en lumière le fait que les superstars ne naissent pas spontanément. Elles se construisent grâce à un entraînement intensif, un mentorat constant, un esprit de collaboration et un travail acharné pour atteindre l'excellence.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-07-01T08:38:00+02:00",
-          "end": "2026-07-01T09:27:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e94f14ea8167",
-          "sport": "other",
-          "competition": null,
-          "title": "FIFA WM 2026 Nati-Magazin",
-          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
-          "description": "Aucune description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-07-01T08:40:00+02:00",
-          "end": "2026-07-01T08:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5bc27756f684",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale messieurs. Coupe du monde. 4e manche bloc.",
-          "description": "Coupe du monde. 4e manche bloc. Finale messieurs. A Prague (République tchèque).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-01T09:00:00+02:00",
-          "end": "2026-07-01T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1373,31 +451,7 @@
           },
           "start": "2026-07-01T09:00:00+02:00",
           "end": "2026-07-01T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "eb0c3b58086b",
-          "sport": "other",
-          "competition": null,
-          "title": "After Coupe du monde",
-          "subtitle": "Etats-unis",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RMCTalkSport.fr",
-            "name": "RMC Talk Sport",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCTALKSPORTmono.png",
-            "slug": "rmc-talk-sport",
-            "is_free": false
-          },
-          "start": "2026-07-01T09:00:00+02:00",
-          "end": "2026-07-01T09:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1421,7 +475,7 @@
           },
           "start": "2026-07-01T09:27:00+02:00",
           "end": "2026-07-01T10:16:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1459,7 +513,7 @@
           },
           "start": "2026-07-01T09:29:00+02:00",
           "end": "2026-07-01T11:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1497,31 +551,7 @@
           },
           "start": "2026-07-01T09:33:00+02:00",
           "end": "2026-07-01T11:18:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "201b52d48cdf",
-          "sport": "motogp",
-          "competition": null,
-          "title": "La course Sprint des Moto GP",
-          "subtitle": "Grand Prix des Pays-Bas",
-          "description": "Diffusion du Grand Prix d'Assen, une course du championnat du monde de Moto GP. Autrement appelé le Grand Prix moto des Pays-Bas, c'est une course qui se dispute chaque année depuis 1949 sur le circuit d'Assen. Jusqu'à 2016, l'épreuve se déroulait le samedi pour des raisons religieuses, au contraire des autres courses qui sont traditionnellement le dimanche.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-07-01T09:35:00+02:00",
-          "end": "2026-07-01T10:01:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1559,7 +589,7 @@
           },
           "start": "2026-07-01T09:35:00+02:00",
           "end": "2026-07-01T12:06:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1597,31 +627,7 @@
           },
           "start": "2026-07-01T09:43:00+02:00",
           "end": "2026-07-01T11:23:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "62e7c9b2105d",
-          "sport": "other",
-          "competition": null,
-          "title": "FIFA WM 2026 Nati-Magazin",
-          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
-          "description": "Aucune description",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRFinfo.ch",
-            "name": "SRF info",
-            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
-            "slug": "srf-info",
-            "is_free": false
-          },
-          "start": "2026-07-01T09:50:00+02:00",
-          "end": "2026-07-01T10:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1645,7 +651,7 @@
           },
           "start": "2026-07-01T10:00:00+02:00",
           "end": "2026-07-01T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6018,6 +5024,44 @@
           "result": null
         },
         {
+          "id": "0dbccfa0bb8e",
+          "sport": "mma",
+          "competition": "UFC",
+          "title": "MMA : UFC | Rafael Fiziev / Manuel Torres",
+          "subtitle": null,
+          "description": "L'UFC donne rendez-vous à la National Gymnastics Arena de Bakou, en Azerbaïdjan. Un combat de poids légers entre le local Rafael Fiziev et le Mexicain Manuel Torres est prévu en tête d'affiche de l'événement. A suivre également, en poids moyens, l'opposition entre le Russe Shara Magomedov et le Brésilien Michel Pereira.",
+          "team1": {
+            "name": "Rafael Fiziev",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manuel Torres",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-07-01T03:00:00+02:00",
+          "end": "2026-07-01T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e7d6912bf06d",
           "sport": "motogp",
           "competition": null,
@@ -6066,6 +5110,92 @@
           "result": null
         },
         {
+          "id": "ed3faba92efd",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / Burnley",
+          "subtitle": "Premier League - 22e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Burnley",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-01T04:00:00+02:00",
+          "end": "2026-07-01T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0fb157e1586f",
+          "sport": "other",
+          "competition": "Championnat du Royaume-Uni",
+          "title": "Snooker : Championnat du Royaume-Uni",
+          "subtitle": "Championnat du Royaume-Uni. Finale. Snooker Main Tour.",
+          "description": "Snooker Main Tour. Championnat du Royaume-Uni. Finale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-01T04:00:00+02:00",
+          "end": "2026-07-01T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e8696f61138f",
+          "sport": "other",
+          "competition": null,
+          "title": "Judd Trump - Mark Selby",
+          "subtitle": "Victorian Plumbing UK Championsh...",
+          "description": "Le Championnat du Royaume-Uni de snooker se déroulait du 29 novembre au 7 décembre au York Barbican. Le numéro un mondial, Judd Trump, a-t-il doublé la mise après son succès remporté, l'an dernier, contre Barry Hawkins (10-8) ? Face à lui cette année, son compatriote de 42 ans Mark Selby, numéro 6 mondial.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-07-01T04:00:00+02:00",
+          "end": "2026-07-01T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "0db5527677d1",
           "sport": "f1",
           "competition": "Le podium",
@@ -6083,6 +5213,116 @@
           },
           "start": "2026-07-01T04:09:00+02:00",
           "end": "2026-07-01T04:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f6e32be3d3e0",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Liverpool",
+          "subtitle": "Premier League - 21e journée",
+          "description": "Match de gala à l'Emirates Stadium : les Gunners d'Arsenal, leaders de Premier League, accueillent les Reds de Liverpool, bien décidés à se positionner durablement dans le Top 5. Avantage cependant aux Gunners, toujours intraitables à domicile et qui compteront, une nouvelle fois, sur leurs buteurs Leandro Trossard, Viktor Gyökeres et Bukayo Saka pour faire la différence.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-01T04:13:00+02:00",
+          "end": "2026-07-01T07:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "98252796c571",
+          "sport": "other",
+          "competition": null,
+          "title": "Historia que tú hiciste",
+          "subtitle": "Champions League 2012/13. Real Madrid-Manchester City",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-07-01T04:15:00+02:00",
+          "end": "2026-07-01T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7e907a2433a2",
+          "sport": "basket",
+          "competition": null,
+          "title": "Filou Oostende - Brussels Basketball",
+          "subtitle": null,
+          "description": "BNXT Basketball League: Filou Oostende - Brussels Basketball.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-07-01T04:20:00+02:00",
+          "end": "2026-07-01T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "887d7339db22",
+          "sport": "basket",
+          "competition": null,
+          "title": "Filou Ostende - Brussels Basketball",
+          "subtitle": null,
+          "description": "BNXT Basketball League : Filou Ostende - Brussels Basketball.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-07-01T04:25:00+02:00",
+          "end": "2026-07-01T06:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6145,6 +5385,766 @@
           },
           "start": "2026-07-01T04:46:00+02:00",
           "end": "2026-07-01T05:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f421ef554db8",
+          "sport": "other",
+          "competition": null,
+          "title": "Terrain de jeu - Saison 1",
+          "subtitle": "Les Etats-Unis",
+          "description": "A New York, Raed Hammoud visite le Brooklyn Bridge Park Stadium, un terrain magnifique avec vue panoramique imprenable. L'occasion de constater que dans cette ville traditionnellement dévolue au basket et au baseball, le soccer a une place de choix, sur les terrains comme dans les coeurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAfrique.fr",
+            "name": "TV5 Monde Afrique",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180105/canal-ouah/CHN43FB/TV5MONDEAFRIQUE_640x480-SLr8?=.png",
+            "slug": "tv5-monde-afrique",
+            "is_free": false
+          },
+          "start": "2026-07-01T05:14:00+02:00",
+          "end": "2026-07-01T06:06:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0feff77b18c6",
+          "sport": "other",
+          "competition": null,
+          "title": "FIFA WM 2026 Nati-Magazin",
+          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
+          "description": "Aucune description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-07-01T05:25:00+02:00",
+          "end": "2026-07-01T05:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "39fde781f656",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Bournemouth / Liverpool",
+          "subtitle": "Premier League - 23e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-01T06:00:00+02:00",
+          "end": "2026-07-01T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e15b13c31d08",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 11e étape . Toulouse - Toulouse (156,8 km). UCI World Tour.",
+          "description": "Cette boucle de 156,8 km autour de Toulouse est la dernière étape dédiée aux baroudeurs avant les Pyrénées. Une échappée décisive pourrait intervenir dans les cinquante derniers kilomètres, où plusieurs difficultés attendent les coureurs; notamment la côte de Pech David et ses passages à 5% de pente. Les sprinteurs-puncheurs devraient s'illustrer.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-01T06:00:00+02:00",
+          "end": "2026-07-01T07:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d6c061a90f7c",
+          "sport": "other",
+          "competition": null,
+          "title": "FIFA WM 2026 Nati-Magazin",
+          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
+          "description": "Aucune description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-07-01T06:10:00+02:00",
+          "end": "2026-07-01T06:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fdb5277a8b0a",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Mets de New York c. Blue Jays de Toronto",
+          "subtitle": "Mets de New York c. Blue Jays de Toronto",
+          "description": "Les Mets de New York et les Blue Jays de Toronto poursuivent leur série de trois matchs au Rogers Centre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-07-01T06:30:00+02:00",
+          "end": "2026-07-01T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4628ee9cd0a1",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP01",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP01",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-01T06:40:00+02:00",
+          "end": "2026-07-01T07:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2ffa42fffd73",
+          "sport": "other",
+          "competition": null,
+          "title": "Moteurs",
+          "subtitle": "Championnat de France de la Montagne 2026 - Etape 7",
+          "description": "Résumé de la 7ème manche du championnat de France de la montagne 2026 avec la course de côte de Marchampt en Beaujolais.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-07-01T06:40:00+02:00",
+          "end": "2026-07-01T07:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d82f9d1634ad",
+          "sport": "other",
+          "competition": null,
+          "title": "FIFA WM 2026 Nati-Magazin",
+          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
+          "description": "Aucune description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-07-01T06:50:00+02:00",
+          "end": "2026-07-01T07:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2f44d2f8a14c",
+          "sport": "mma",
+          "competition": "Grand Prix de Qingdao",
+          "title": "Judo : Grand Prix de Qingdao",
+          "subtitle": null,
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:00:00+02:00",
+          "end": "2026-07-01T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4427a8043f1e",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 03",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 03",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:08:00+02:00",
+          "end": "2026-07-01T08:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c87464d2ad21",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 12e étape . Auch - Hautacam (180,6 km). UCI World Tour.",
+          "description": "Un nouveau chapitre de la lutte pour le maillot jaune s'écrit aujourd'hui lors de cette première étape pyrénéenne mythique entre Auch et Hautacam. Les favoris devraient en découdre dans les 45 derniers kilomètres, avec l'ascension du col de Soulor, en passant par la Ferrière (11 km à 7,3%), avant d'enchaîner avec le col de Bordières, puis la montée d'Hautacam, longue de 13,6 km avec une pente moyenne de 7,8%.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:15:00+02:00",
+          "end": "2026-07-01T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f06987bd874",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Escalade",
+          "description": "La Coupe du monde de difficulté fait étape à Prague, pour la deuxième manche de la saison. L'Américaine Annie Sander et le Japonais Neo Suzuki se sont imposés en Chine, le 9 mai dernier, en ouverture de la saison. A suivre également la Slovène Janja Garnbret, l'Espagnol Alberto Ginés López et le Français Max Bertone.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:30:00+02:00",
+          "end": "2026-07-01T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4091727905dd",
+          "sport": "other",
+          "competition": null,
+          "title": "FIFA WM 2026 Nati-Magazin",
+          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
+          "description": "Aucune description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:30:00+02:00",
+          "end": "2026-07-01T07:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5d2d07db5656",
+          "sport": "f1",
+          "competition": "Grand Prix d'Autriche",
+          "title": "Formule 1 : Grand Prix d'Autriche",
+          "subtitle": null,
+          "description": "Alors que, course après course, il creuse un peu plus l'écart en tête du classement du championnat du monde, Kimi Antonelli sera à nouveau le grandissime favori de ce Grand Prix d'Autriche, disputé sur le circuit de Spielberg. Le principal rival de l'Italien sera… son coéquipier chez Mercedes, George Russell, l'un des rares pilotes à avoir contesté sa domination cette saison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:34:00+02:00",
+          "end": "2026-07-01T09:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "59035885eb15",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Paris-SG / Bayern Munich",
+          "subtitle": "Ligue des champions - 4e journée",
+          "description": "Cette affiche entre le Paris-SG, champion en titre et actuel leader de la compétition européenne, et son dauphin le Bayern Munich, a un avant-goût de finale. Portés par une victoire convaincante à Barcelone (1-2) puis un large succès à Leverkusen (2-7), les Parisiens de Luis Enrique abordent ce choc avec confiance. Face à un Bayern toujours redoutable, ils auront l'occasion d'affirmer, une fois encore, leur statut de favori à leur propre succession.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:39:00+02:00",
+          "end": "2026-07-01T09:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4716b2dccf03",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:39:00+02:00",
+          "end": "2026-07-01T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "213fc0b7f1d7",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Nottingham Forest / Manchester United",
+          "subtitle": "Premier League - 10e journée",
+          "description": "Le 1er novembre 2025, Nottingham Forest recevait Manchester United dans un contexte de crise pour le club de City Ground. Forest, 18e avec seulement 5 points, avait tout à craindre des Red Devils de Manchester United, qui débarquaient en confiance à West Bridgford, avec une série de trois victoires consécutives.",
+          "team1": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-01T07:42:00+02:00",
+          "end": "2026-07-01T09:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "591ad1c4eca5",
+          "sport": "football",
+          "competition": null,
+          "title": "Morning récap' - Coupe du monde de la FIFA 2026",
+          "subtitle": null,
+          "description": "Retour sur les temps forts de la journée écoulée, les résultats des rencontres et les réactions des joueurs comme des entraîneurs des différentes sélections nationales.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "M6.fr",
+            "name": "M6",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png",
+            "slug": "m6",
+            "is_free": true
+          },
+          "start": "2026-07-01T07:50:00+02:00",
+          "end": "2026-07-01T08:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dbe4244d8581",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Union Saint-Gilloise / Inter Milan",
+          "subtitle": "Ligue des champions - 3e journée",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Union Saint-Gilloise",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Inter Milan",
+            "type": "club",
+            "short": "Inter",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-01T08:00:00+02:00",
+          "end": "2026-07-01T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8bdff1b8297a",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "St. Pauli / Bayern Munich",
+          "subtitle": "Bundesliga - 29e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-01T08:01:00+02:00",
+          "end": "2026-07-01T09:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d6f8aa2c14b9",
+          "sport": "other",
+          "competition": null,
+          "title": "Compton Magic - Saison 1",
+          "subtitle": "Episode 1",
+          "description": "Ce documentaire suit Compton Magic, l'équipe de basket-ball amateur la plus titrée, tandis qu'elle se prépare pour des matchs qui détermineront l'avenir de ses jeunes joueurs. L'histoire met en lumière le fait que les superstars ne naissent pas spontanément. Elles se construisent grâce à un entraînement intensif, un mentorat constant, un esprit de collaboration et un travail acharné pour atteindre l'excellence.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-07-01T08:38:00+02:00",
+          "end": "2026-07-01T09:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e94f14ea8167",
+          "sport": "other",
+          "competition": null,
+          "title": "FIFA WM 2026 Nati-Magazin",
+          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
+          "description": "Aucune description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-07-01T08:40:00+02:00",
+          "end": "2026-07-01T08:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5bc27756f684",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale messieurs. Coupe du monde. 4e manche bloc.",
+          "description": "Coupe du monde. 4e manche bloc. Finale messieurs. A Prague (République tchèque).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-01T09:00:00+02:00",
+          "end": "2026-07-01T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "eb0c3b58086b",
+          "sport": "other",
+          "competition": null,
+          "title": "After Coupe du monde",
+          "subtitle": "Etats-unis",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RMCTalkSport.fr",
+            "name": "RMC Talk Sport",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/img300RMCTALKSPORTmono.png",
+            "slug": "rmc-talk-sport",
+            "is_free": false
+          },
+          "start": "2026-07-01T09:00:00+02:00",
+          "end": "2026-07-01T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "201b52d48cdf",
+          "sport": "motogp",
+          "competition": null,
+          "title": "La course Sprint des Moto GP",
+          "subtitle": "Grand Prix des Pays-Bas",
+          "description": "Diffusion du Grand Prix d'Assen, une course du championnat du monde de Moto GP. Autrement appelé le Grand Prix moto des Pays-Bas, c'est une course qui se dispute chaque année depuis 1949 sur le circuit d'Assen. Jusqu'à 2016, l'épreuve se déroulait le samedi pour des raisons religieuses, au contraire des autres courses qui sont traditionnellement le dimanche.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-07-01T09:35:00+02:00",
+          "end": "2026-07-01T10:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "62e7c9b2105d",
+          "sport": "other",
+          "competition": null,
+          "title": "FIFA WM 2026 Nati-Magazin",
+          "subtitle": "Das Magazin zur Schweizer Nationalmannschaft",
+          "description": "Aucune description",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRFinfo.ch",
+            "name": "SRF info",
+            "icon_url": "https://static.teleboy.ch/shared/stations/5/icon320_light.png?v2023_48_0",
+            "slug": "srf-info",
+            "is_free": false
+          },
+          "start": "2026-07-01T09:50:00+02:00",
+          "end": "2026-07-01T10:05:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
