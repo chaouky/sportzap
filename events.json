@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T06:10:01.915161+00:00",
+    "generated_at": "2026-07-11T09:24:34.456380+00:00",
     "total_events": 1133,
     "total_days": 7,
     "sports": [
@@ -23,13 +23,13 @@
     ],
     "channels": [
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
+        "slug": "canal9",
+        "name": "Canal9",
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -38,23 +38,43 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-4",
+        "name": "Eurosport 360 - 4",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
         "is_free": false
       },
       {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -68,64 +88,14 @@
         "is_free": false
       },
       {
-        "slug": "golf",
-        "name": "Golf+",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal9",
-        "name": "Canal9",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
         "slug": "sport-en-france",
         "name": "Sport en France",
         "is_free": true
-      },
-      {
-        "slug": "eurosport-360-4",
-        "name": "Eurosport 360 - 4",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
-        "is_free": false
-      },
-      {
-        "slug": "tahiti-nui-tv",
-        "name": "Tahiti Nui TV",
-        "is_free": false
-      },
-      {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
       },
       {
         "slug": "guadeloupe-1-re",
@@ -135,6 +105,11 @@
       {
         "slug": "voo-sport-world-2",
         "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -155,6 +130,11 @@
       {
         "slug": "tv5-monde-afrique",
         "name": "TV5 Monde Afrique",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sud",
+        "name": "Télésud",
         "is_free": false
       },
       {
@@ -180,6 +160,11 @@
       {
         "slug": "eurosport-360-7",
         "name": "Eurosport 360 - 7",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -220,6 +205,11 @@
       {
         "slug": "canal-plus-sport-2",
         "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -321,6 +311,16 @@
         "slug": "m6",
         "name": "M6",
         "is_free": true
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
+        "is_free": false
+      },
+      {
+        "slug": "tahiti-nui-tv",
+        "name": "Tahiti Nui TV",
+        "is_free": false
       },
       {
         "slug": "voo",
@@ -450,664 +450,6 @@
       "event_count": 213,
       "events": [
         {
-          "id": "dc292596bc78",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Paris-SG / Newcastle",
-          "subtitle": "Ligue des champions - 8e journée",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-11T06:00:00+02:00",
-          "end": "2026-07-11T08:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "db5095f5cd86",
-          "sport": "other",
-          "competition": "Open mondial",
-          "title": "Snooker : Open mondial",
-          "subtitle": "Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh. Snooker Main Tour.",
-          "description": "Snooker Main Tour. Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh.",
-          "team1": {
-            "name": "Open mondial",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Thepchaiya Un-Nooh",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-11T06:30:00+02:00",
-          "end": "2026-07-11T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "46f94d8cd1b6",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Cyclisme",
-          "description": "Pour mettre le cap sur Bordeaux en quittant les Pyrénées, le peloton s'offre une traversée de la forêt landaise qui laisse peu de prise à des coureurs échappés pour piéger les équipes des cadors du sprint. Si elles sont appliquées et concentrées sur cet objectif, les trains arriveront à l'heure sur les quais de la Garonne pour une explication à haute vitesse devant la place des Quinconces. Un classique du genre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-11T06:30:00+02:00",
-          "end": "2026-07-11T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aa72ccfd8e5c",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP01",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP01",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-11T07:17:00+02:00",
-          "end": "2026-07-11T08:16:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1379b66a04f5",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Demi-finale messieurs",
-          "subtitle": "Wimbledon",
-          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-07-11T07:35:00+02:00",
-          "end": "2026-07-11T09:41:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "19260d82cb82",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Marseille / Paris FC",
-          "subtitle": "Arkema Première Ligue - 14e jour...",
-          "description": "Les Marseillaises, bien calées en milieu de classement, accueillent les Parisiennes du PFC, dauphines du leader lyonnais. Mathilde Bourdieu et ses coéquipières de l'OM ne partent pas favorites face à un Paris FC qui comptera sur ses buteuses Clara Mateo, Lorena Azzaro et Anaëlle Le Moguédec pour faire la différence dans les Bouches-du-Rhône.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-11T07:36:00+02:00",
-          "end": "2026-07-11T09:22:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7f4ba62db947",
-          "sport": "other",
-          "competition": null,
-          "title": "Back 2 Back - Paris dans la légende",
-          "subtitle": "Doc. Sport",
-          "description": "Ce soir-là, au bout du suspense et de 120 minutes indécises, le Paris-SG de Luis Enrique est entré dans la légende. Une deuxième victoire consécutive en finale de Ligue des Champions qui propulse le club parisien dans une autre dimension. De la Puskas Arena au Parc des Princes, en passant par la Géorgie sur les traces de Kvaratskhelia, l’Espagne dans la ville d’Enrique, le Portugal chez João Neves, le Brésil avec l’ancien attaquant de Paris Lucas Moura, les rues de Budapest en compagnie de la famille Zaïre-Emery… les caméras de Canal+ vous font revivre l’histoire de ce « Back 2 back » de façon inédite !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-11T07:41:00+02:00",
-          "end": "2026-07-11T08:43:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ae6348d5d7ae",
-          "sport": "football",
-          "competition": null,
-          "title": "FC Bruges - FC Barcelona",
-          "subtitle": null,
-          "description": "Quatrième match de la phase de league de l'UEFA Champions League : FC Bruges - FC Barcelona.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-07-11T07:50:00+02:00",
-          "end": "2026-07-11T09:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f563125228dd",
-          "sport": "football",
-          "competition": null,
-          "title": "Club Brugge - FC Barcelona",
-          "subtitle": null,
-          "description": "Vierde match van de League Phase in de UEFA Champions League: Club Brugge - FC Barcelona.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-07-11T07:50:00+02:00",
-          "end": "2026-07-11T09:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6cb68a375f6a",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-11T08:16:00+02:00",
-          "end": "2026-07-11T09:08:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4fb835ad5b46",
-          "sport": "golf",
-          "competition": null,
-          "title": "Golf Duel à Evian",
-          "subtitle": "Verhaeghe - Calmels",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-07-11T08:29:00+02:00",
-          "end": "2026-07-11T08:51:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e586f8204e03",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 7e étape . Hagetmau - Bordeaux (175,1 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de France. 7e étape . Hagetmau - Bordeaux (175,1 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-11T08:30:00+02:00",
-          "end": "2026-07-11T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a8c0e16d3910",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot Coupe du Monde 2026 - S01E16",
-          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
-          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-07-11T08:30:00+02:00",
-          "end": "2026-07-11T08:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "58d73aef783d",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Wolverhampton / Arsenal",
-          "subtitle": "Premier League - 31e journée",
-          "description": "Comme Arsenal est qualifié pour la finale de l'EFL Cup, ce match de la 31e journée contre les Wolves de Wolverhampton est avancé.",
-          "team1": {
-            "name": "Wolverhampton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-11T08:47:00+02:00",
-          "end": "2026-07-11T10:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "19381a1e3cb7",
-          "sport": "football",
-          "competition": null,
-          "title": "Top Goals",
-          "subtitle": "2025/26 - Swiss Football League",
-          "description": null,
-          "team1": {
-            "name": "2025/26",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Swiss Football League",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-11T08:55:00+02:00",
-          "end": "2026-07-11T09:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "550cd4f62445",
-          "sport": "other",
-          "competition": null,
-          "title": "Frozen Waterfalls - Icekayaking",
-          "subtitle": null,
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:00:00+02:00",
-          "end": "2026-07-11T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "01e3a39ef551",
-          "sport": "golf",
-          "competition": "HotelPlanner Tour, Le Vaudreuil Golf Challenge",
-          "title": "Golf : HotelPlanner Tour, Le Vaudreuil Golf Challenge",
-          "subtitle": "Golf",
-          "description": "Diffusion du Vaudreuil Golf Challenge, un tournoi de l'HotelPlanner Tour de golf. La première édition de ce tournoi s'est déroulée en 2013. Il se dispute sur le domaine du Golf PGA France du Vaudreuil et réunit les meilleurs golfeurs de l'HotelPlanner Tour, l'équivalent de la seconde division de golf.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:05:00+02:00",
-          "end": "2026-07-11T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "80fc255a266f",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP03",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP03",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:08:00+02:00",
-          "end": "2026-07-11T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8fdf50a513a6",
-          "sport": "football",
-          "competition": "Coupe du monde - Quart de finale",
-          "title": "Espagne / Belgique",
-          "subtitle": "Coupe du monde - Quart de finale",
-          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
-          "team1": {
-            "name": "Espagne",
-            "type": "country",
-            "short": "Espagne",
-            "country_code": "es",
-            "logo_url": "https://flagcdn.com/w80/es.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Belgique",
-            "type": "country",
-            "short": "Belgique",
-            "country_code": "be",
-            "logo_url": "https://flagcdn.com/w80/be.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:10:00+02:00",
-          "end": "2026-07-11T10:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9bed0ce63cba",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Benfica Lisbonne / Real Madrid",
-          "subtitle": "Ligue des champions - 8e journée",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "SL Benfica",
-            "type": "club",
-            "short": "Benfica",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/745.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:15:00+02:00",
-          "end": "2026-07-11T11:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "16e037b45e8a",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Paris-SG / Lyon",
-          "subtitle": "Arkema Première Ligue - 14e jour...",
-          "description": "Le traditionnel duel du sommet de l'Arkema Première Ligue avec le Paris Saint-Germain qui accueille les Lyonnes de l'OL, leaders au classement. Wendie Renard et ses coéquipières lyonnaises semblent favorites mais dans ce choc, les Parisiennes comptent bien prendre des points sur leur pelouse et relancer le suspense.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:22:00+02:00",
-          "end": "2026-07-11T11:04:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "12ca70517ee8",
           "sport": "other",
           "competition": "UTMB World Series",
@@ -1125,31 +467,7 @@
           },
           "start": "2026-07-11T09:30:00+02:00",
           "end": "2026-07-11T14:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d21de70414e6",
-          "sport": "other",
-          "competition": null,
-          "title": "Back 2 Back - Paris dans la légende",
-          "subtitle": "Doc. Sport",
-          "description": "Ce soir-là, au bout du suspense et de 120 minutes indécises, le Paris-SG de Luis Enrique est entré dans la légende. Une deuxième victoire consécutive en finale de Ligue des Champions qui propulse le club parisien dans une autre dimension. De la Puskas Arena au Parc des Princes, en passant par la Géorgie sur les traces de Kvaratskhelia, l’Espagne dans la ville d’Enrique, le Portugal chez João Neves, le Brésil avec l’ancien attaquant de Paris Lucas Moura, les rues de Budapest en compagnie de la famille Zaïre-Emery… les caméras de Canal+ vous font revivre l’histoire de ce « Back 2 back » de façon inédite !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:41:00+02:00",
-          "end": "2026-07-11T10:44:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1187,55 +505,7 @@
           },
           "start": "2026-07-11T09:48:00+02:00",
           "end": "2026-07-11T11:36:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "31a92c4bf3d6",
-          "sport": "golf",
-          "competition": null,
-          "title": "Golf Divers",
-          "subtitle": "Pastille KMA - Routing",
-          "description": "Retour en images sur les derniers tournois de Golf du tour féminin et masculin.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-11T09:49:00+02:00",
-          "end": "2026-07-11T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6db7e04d9b0c",
-          "sport": "other",
-          "competition": "Coupe du monde de short track",
-          "title": "VTT : Coupe du monde de short track",
-          "subtitle": "Course dames. Coupe du monde de short track. 6e manche.",
-          "description": "Coupe du monde de short track. 6e manche. Course dames. A Pal Arinsal (Andorre).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-11T10:00:00+02:00",
-          "end": "2026-07-11T10:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1259,55 +529,7 @@
           },
           "start": "2026-07-11T10:00:00+02:00",
           "end": "2026-07-11T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8fb80611f503",
-          "sport": "football",
-          "competition": "Coupe du Monde",
-          "title": "Football unifié : Coupe du Monde",
-          "subtitle": null,
-          "description": "Finale hommes de la Coupe du Monde de football unifié.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-07-11T10:00:00+02:00",
-          "end": "2026-07-11T10:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "da7c63a47146",
-          "sport": "other",
-          "competition": "Coupe du monde de short track",
-          "title": "VTT : Coupe du monde de short track",
-          "subtitle": "Course messieurs. Coupe du monde de short track. 6e manche.",
-          "description": "Coupe du monde de short track. 6e manche. Course messieurs. A Vallnord Pal-Arinsal (Andorre).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-11T10:30:00+02:00",
-          "end": "2026-07-11T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1345,7 +567,7 @@
           },
           "start": "2026-07-11T10:30:00+02:00",
           "end": "2026-07-11T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1383,31 +605,7 @@
           },
           "start": "2026-07-11T10:33:00+02:00",
           "end": "2026-07-11T12:19:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e8a38cc8fc54",
-          "sport": "other",
-          "competition": null,
-          "title": "Paroles de président",
-          "subtitle": "Henri-Claude Lambert",
-          "description": "Président de la Fédération Française de hockey, Henri-Claude Lambert est face à Patrick Chêne. Un an après son élection, il évoque l'évolution de sa fédération, les bonnes performances récentes des équipes de France hommes et femmes, conséquence direct du recrutement des nouvelles personnes dans le staff.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-07-11T10:35:00+02:00",
-          "end": "2026-07-11T10:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1431,31 +629,7 @@
           },
           "start": "2026-07-11T10:45:00+02:00",
           "end": "2026-07-11T11:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f5b074120b29",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot Coupe du Monde 2026 - S01E16",
-          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
-          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-07-11T10:45:00+02:00",
-          "end": "2026-07-11T11:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1479,7 +653,7 @@
           },
           "start": "2026-07-11T10:55:00+02:00",
           "end": "2026-07-11T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1503,7 +677,7 @@
           },
           "start": "2026-07-11T11:00:00+02:00",
           "end": "2026-07-11T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1527,45 +701,7 @@
           },
           "start": "2026-07-11T11:00:00+02:00",
           "end": "2026-07-11T12:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f29de181c698",
-          "sport": "other",
-          "competition": null,
-          "title": "Génération 2024",
-          "subtitle": "Bouger pour mieux vivre - Dispositif APQ",
-          "description": "Des portraits d'athlètes qui vont tenter de décrocher les plus belles médailles aux Jeux olympiques et paralympiques mais aussi des rencontres avec les travailleurs de l'ombre de ces JO de Paris.",
-          "team1": {
-            "name": "Bouger pour mieux vivre",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Dispositif APQ",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "TahitiNuiTV.fr",
-            "name": "Tahiti Nui TV",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4f89934309c38843.png/480x480/quality/100/tntv-france.png",
-            "slug": "tahiti-nui-tv",
-            "is_free": false
-          },
-          "start": "2026-07-11T11:18:00+02:00",
-          "end": "2026-07-11T11:23:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6510,6 +5646,44 @@
           "result": null
         },
         {
+          "id": "dc292596bc78",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Paris-SG / Newcastle",
+          "subtitle": "Ligue des champions - 8e journée",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-11T06:00:00+02:00",
+          "end": "2026-07-11T08:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "23c7683c446d",
           "sport": "football",
           "competition": "Premier League",
@@ -6565,6 +5739,68 @@
           },
           "start": "2026-07-11T06:20:00+02:00",
           "end": "2026-07-11T06:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "db5095f5cd86",
+          "sport": "other",
+          "competition": "Open mondial",
+          "title": "Snooker : Open mondial",
+          "subtitle": "Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh. Snooker Main Tour.",
+          "description": "Snooker Main Tour. Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh.",
+          "team1": {
+            "name": "Open mondial",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Thepchaiya Un-Nooh",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-11T06:30:00+02:00",
+          "end": "2026-07-11T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "46f94d8cd1b6",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Cyclisme",
+          "description": "Pour mettre le cap sur Bordeaux en quittant les Pyrénées, le peloton s'offre une traversée de la forêt landaise qui laisse peu de prise à des coureurs échappés pour piéger les équipes des cadors du sprint. Si elles sont appliquées et concentrées sur cet objectif, les trains arriveront à l'heure sur les quais de la Garonne pour une explication à haute vitesse devant la place des Quinconces. Un classique du genre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-11T06:30:00+02:00",
+          "end": "2026-07-11T08:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6634,6 +5870,44 @@
           "result": null
         },
         {
+          "id": "aa72ccfd8e5c",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP01",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP01",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-11T07:17:00+02:00",
+          "end": "2026-07-11T08:16:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "20cf4bc25e6b",
           "sport": "motogp",
           "competition": null,
@@ -6658,6 +5932,30 @@
           "result": null
         },
         {
+          "id": "1379b66a04f5",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Demi-finale messieurs",
+          "subtitle": "Wimbledon",
+          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-07-11T07:35:00+02:00",
+          "end": "2026-07-11T09:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "5357b9e5251f",
           "sport": "football",
           "competition": null,
@@ -6675,6 +5973,708 @@
           },
           "start": "2026-07-11T07:35:00+02:00",
           "end": "2026-07-11T07:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "19260d82cb82",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Marseille / Paris FC",
+          "subtitle": "Arkema Première Ligue - 14e jour...",
+          "description": "Les Marseillaises, bien calées en milieu de classement, accueillent les Parisiennes du PFC, dauphines du leader lyonnais. Mathilde Bourdieu et ses coéquipières de l'OM ne partent pas favorites face à un Paris FC qui comptera sur ses buteuses Clara Mateo, Lorena Azzaro et Anaëlle Le Moguédec pour faire la différence dans les Bouches-du-Rhône.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-11T07:36:00+02:00",
+          "end": "2026-07-11T09:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7f4ba62db947",
+          "sport": "other",
+          "competition": null,
+          "title": "Back 2 Back - Paris dans la légende",
+          "subtitle": "Doc. Sport",
+          "description": "Ce soir-là, au bout du suspense et de 120 minutes indécises, le Paris-SG de Luis Enrique est entré dans la légende. Une deuxième victoire consécutive en finale de Ligue des Champions qui propulse le club parisien dans une autre dimension. De la Puskas Arena au Parc des Princes, en passant par la Géorgie sur les traces de Kvaratskhelia, l’Espagne dans la ville d’Enrique, le Portugal chez João Neves, le Brésil avec l’ancien attaquant de Paris Lucas Moura, les rues de Budapest en compagnie de la famille Zaïre-Emery… les caméras de Canal+ vous font revivre l’histoire de ce « Back 2 back » de façon inédite !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-11T07:41:00+02:00",
+          "end": "2026-07-11T08:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ae6348d5d7ae",
+          "sport": "football",
+          "competition": null,
+          "title": "FC Bruges - FC Barcelona",
+          "subtitle": null,
+          "description": "Quatrième match de la phase de league de l'UEFA Champions League : FC Bruges - FC Barcelona.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-07-11T07:50:00+02:00",
+          "end": "2026-07-11T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f563125228dd",
+          "sport": "football",
+          "competition": null,
+          "title": "Club Brugge - FC Barcelona",
+          "subtitle": null,
+          "description": "Vierde match van de League Phase in de UEFA Champions League: Club Brugge - FC Barcelona.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-07-11T07:50:00+02:00",
+          "end": "2026-07-11T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6cb68a375f6a",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-11T08:16:00+02:00",
+          "end": "2026-07-11T09:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4fb835ad5b46",
+          "sport": "golf",
+          "competition": null,
+          "title": "Golf Duel à Evian",
+          "subtitle": "Verhaeghe - Calmels",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-07-11T08:29:00+02:00",
+          "end": "2026-07-11T08:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e586f8204e03",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 7e étape . Hagetmau - Bordeaux (175,1 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de France. 7e étape . Hagetmau - Bordeaux (175,1 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-11T08:30:00+02:00",
+          "end": "2026-07-11T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a8c0e16d3910",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot Coupe du Monde 2026 - S01E16",
+          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
+          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-07-11T08:30:00+02:00",
+          "end": "2026-07-11T08:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "58d73aef783d",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Wolverhampton / Arsenal",
+          "subtitle": "Premier League - 31e journée",
+          "description": "Comme Arsenal est qualifié pour la finale de l'EFL Cup, ce match de la 31e journée contre les Wolves de Wolverhampton est avancé.",
+          "team1": {
+            "name": "Wolverhampton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-11T08:47:00+02:00",
+          "end": "2026-07-11T10:33:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "19381a1e3cb7",
+          "sport": "football",
+          "competition": null,
+          "title": "Top Goals",
+          "subtitle": "2025/26 - Swiss Football League",
+          "description": null,
+          "team1": {
+            "name": "2025/26",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Swiss Football League",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-11T08:55:00+02:00",
+          "end": "2026-07-11T09:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "550cd4f62445",
+          "sport": "other",
+          "competition": null,
+          "title": "Frozen Waterfalls - Icekayaking",
+          "subtitle": null,
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:00:00+02:00",
+          "end": "2026-07-11T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "01e3a39ef551",
+          "sport": "golf",
+          "competition": "HotelPlanner Tour, Le Vaudreuil Golf Challenge",
+          "title": "Golf : HotelPlanner Tour, Le Vaudreuil Golf Challenge",
+          "subtitle": "Golf",
+          "description": "Diffusion du Vaudreuil Golf Challenge, un tournoi de l'HotelPlanner Tour de golf. La première édition de ce tournoi s'est déroulée en 2013. Il se dispute sur le domaine du Golf PGA France du Vaudreuil et réunit les meilleurs golfeurs de l'HotelPlanner Tour, l'équivalent de la seconde division de golf.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:05:00+02:00",
+          "end": "2026-07-11T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "80fc255a266f",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP03",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP03",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:08:00+02:00",
+          "end": "2026-07-11T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8fdf50a513a6",
+          "sport": "football",
+          "competition": "Coupe du monde - Quart de finale",
+          "title": "Espagne / Belgique",
+          "subtitle": "Coupe du monde - Quart de finale",
+          "description": "La 23e édition de la Coupe du monde de la FIFA se déroule conjointement aux Etats-Unis, au Mexique et au Canada et la grande finale aura lieu au MetLife Stadium à New York.",
+          "team1": {
+            "name": "Espagne",
+            "type": "country",
+            "short": "Espagne",
+            "country_code": "es",
+            "logo_url": "https://flagcdn.com/w80/es.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Belgique",
+            "type": "country",
+            "short": "Belgique",
+            "country_code": "be",
+            "logo_url": "https://flagcdn.com/w80/be.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:10:00+02:00",
+          "end": "2026-07-11T10:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9bed0ce63cba",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Benfica Lisbonne / Real Madrid",
+          "subtitle": "Ligue des champions - 8e journée",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "SL Benfica",
+            "type": "club",
+            "short": "Benfica",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/745.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:15:00+02:00",
+          "end": "2026-07-11T11:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "16e037b45e8a",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Paris-SG / Lyon",
+          "subtitle": "Arkema Première Ligue - 14e jour...",
+          "description": "Le traditionnel duel du sommet de l'Arkema Première Ligue avec le Paris Saint-Germain qui accueille les Lyonnes de l'OL, leaders au classement. Wendie Renard et ses coéquipières lyonnaises semblent favorites mais dans ce choc, les Parisiennes comptent bien prendre des points sur leur pelouse et relancer le suspense.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:22:00+02:00",
+          "end": "2026-07-11T11:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d21de70414e6",
+          "sport": "other",
+          "competition": null,
+          "title": "Back 2 Back - Paris dans la légende",
+          "subtitle": "Doc. Sport",
+          "description": "Ce soir-là, au bout du suspense et de 120 minutes indécises, le Paris-SG de Luis Enrique est entré dans la légende. Une deuxième victoire consécutive en finale de Ligue des Champions qui propulse le club parisien dans une autre dimension. De la Puskas Arena au Parc des Princes, en passant par la Géorgie sur les traces de Kvaratskhelia, l’Espagne dans la ville d’Enrique, le Portugal chez João Neves, le Brésil avec l’ancien attaquant de Paris Lucas Moura, les rues de Budapest en compagnie de la famille Zaïre-Emery… les caméras de Canal+ vous font revivre l’histoire de ce « Back 2 back » de façon inédite !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:41:00+02:00",
+          "end": "2026-07-11T10:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "31a92c4bf3d6",
+          "sport": "golf",
+          "competition": null,
+          "title": "Golf Divers",
+          "subtitle": "Pastille KMA - Routing",
+          "description": "Retour en images sur les derniers tournois de Golf du tour féminin et masculin.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-11T09:49:00+02:00",
+          "end": "2026-07-11T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6db7e04d9b0c",
+          "sport": "other",
+          "competition": "Coupe du monde de short track",
+          "title": "VTT : Coupe du monde de short track",
+          "subtitle": "Course dames. Coupe du monde de short track. 6e manche.",
+          "description": "Coupe du monde de short track. 6e manche. Course dames. A Pal Arinsal (Andorre).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-11T10:00:00+02:00",
+          "end": "2026-07-11T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8fb80611f503",
+          "sport": "football",
+          "competition": "Coupe du Monde",
+          "title": "Football unifié : Coupe du Monde",
+          "subtitle": null,
+          "description": "Finale hommes de la Coupe du Monde de football unifié.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-07-11T10:00:00+02:00",
+          "end": "2026-07-11T10:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "da7c63a47146",
+          "sport": "other",
+          "competition": "Coupe du monde de short track",
+          "title": "VTT : Coupe du monde de short track",
+          "subtitle": "Course messieurs. Coupe du monde de short track. 6e manche.",
+          "description": "Coupe du monde de short track. 6e manche. Course messieurs. A Vallnord Pal-Arinsal (Andorre).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-11T10:30:00+02:00",
+          "end": "2026-07-11T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e8a38cc8fc54",
+          "sport": "other",
+          "competition": null,
+          "title": "Paroles de président",
+          "subtitle": "Henri-Claude Lambert",
+          "description": "Président de la Fédération Française de hockey, Henri-Claude Lambert est face à Patrick Chêne. Un an après son élection, il évoque l'évolution de sa fédération, les bonnes performances récentes des équipes de France hommes et femmes, conséquence direct du recrutement des nouvelles personnes dans le staff.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-07-11T10:35:00+02:00",
+          "end": "2026-07-11T10:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f5b074120b29",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot Coupe du Monde 2026 - S01E16",
+          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
+          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-07-11T10:45:00+02:00",
+          "end": "2026-07-11T11:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f29de181c698",
+          "sport": "other",
+          "competition": null,
+          "title": "Génération 2024",
+          "subtitle": "Bouger pour mieux vivre - Dispositif APQ",
+          "description": "Des portraits d'athlètes qui vont tenter de décrocher les plus belles médailles aux Jeux olympiques et paralympiques mais aussi des rencontres avec les travailleurs de l'ombre de ces JO de Paris.",
+          "team1": {
+            "name": "Bouger pour mieux vivre",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Dispositif APQ",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "TahitiNuiTV.fr",
+            "name": "Tahiti Nui TV",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4f89934309c38843.png/480x480/quality/100/tntv-france.png",
+            "slug": "tahiti-nui-tv",
+            "is_free": false
+          },
+          "start": "2026-07-11T11:18:00+02:00",
+          "end": "2026-07-11T11:23:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
