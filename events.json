@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-14T06:07:37.683258+00:00",
+    "generated_at": "2026-07-14T09:54:19.384902+00:00",
     "total_events": 1014,
     "total_days": 7,
     "sports": [
@@ -24,6 +24,41 @@
     ],
     "channels": [
       {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
         "is_free": false
@@ -34,28 +69,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "auto-plus-tv",
-        "name": "Auto Plus TV",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -64,43 +79,8 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sambre",
-        "name": "TéléSambre",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -121,6 +101,16 @@
       {
         "slug": "guadeloupe-1-re",
         "name": "Guadeloupe 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -252,6 +242,16 @@
         "slug": "m6",
         "name": "M6",
         "is_free": true
+      },
+      {
+        "slug": "auto-plus-tv",
+        "name": "Auto Plus TV",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sambre",
+        "name": "TéléSambre",
+        "is_free": false
       },
       {
         "slug": "golf",
@@ -446,702 +446,6 @@
       "event_count": 187,
       "events": [
         {
-          "id": "505d4f441341",
-          "sport": "tennis",
-          "competition": "Wimbledon",
-          "title": "Finale dames . Karolina Muchova / Linda Noskova",
-          "subtitle": "Wimbledon",
-          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
-          "team1": {
-            "name": "Finale dames",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Linda Noskova",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-07-14T06:31:00+02:00",
-          "end": "2026-07-14T08:34:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5088fe3d9296",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Fulham / Liverpool",
-          "subtitle": "Premier League - 20e journée",
-          "description": "En déplacement sur la pelouse de Fulham, les Reds de Liverpool et leur avant-centre français Hugo Ekitiké ne doivent pas trop tergiverser lors de cette 20e journée de Premier League. Toujours en course pour une place européenne en fin de saison, les Reds doivent aller chercher la victoire au Craven Cottage.",
-          "team1": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-14T07:07:00+02:00",
-          "end": "2026-07-14T08:52:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "970669517970",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Bournemouth / Arsenal",
-          "subtitle": "Premier League - 20e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-14T07:14:00+02:00",
-          "end": "2026-07-14T08:58:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8266ad8a0131",
-          "sport": "ski",
-          "competition": null,
-          "title": "Vallnord-Pal Arinsal | Descente Élite (H)",
-          "subtitle": "UCI Mountain Bike World Series",
-          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-14T07:30:00+02:00",
-          "end": "2026-07-14T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ac09eb76b355",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Augsbourg / Bayern Munich",
-          "subtitle": "Bundesliga - 2e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Augsbourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-14T07:51:00+02:00",
-          "end": "2026-07-14T09:43:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c654d7610dee",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Atlético Madrid / Arsenal",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:00:00+02:00",
-          "end": "2026-07-14T10:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cff8e8e07b2a",
-          "sport": "f1",
-          "competition": null,
-          "title": "Auto-Ikonen - S01E21",
-          "subtitle": "Grand Prix Historique d'Albi",
-          "description": "Dans cet épisode découvrez le Grand Prix Historique d'Albi en 2022 et la présentation d'une Mercedes 300SL \"Papillon\" et d'une Jaguar Type E série 2, présentés par Angélique Rayssiger.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "AutoPlusTV.fr",
-            "name": "Auto Plus TV",
-            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
-            "slug": "auto-plus-tv",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:06:00+02:00",
-          "end": "2026-07-14T08:32:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a3a7bbaeb2cf",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Gérone",
-          "subtitle": "Liga - 9e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Gérone",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:10:00+02:00",
-          "end": "2026-07-14T09:53:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3f51b0c00920",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "Course dames. Coupe du monde de descente. 6e manche.",
-          "description": "Coupe du monde de descente. 6e manche. Course dames. A Vallnord Pal-Arinsal (Andorre).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:30:00+02:00",
-          "end": "2026-07-14T09:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1b10dbd9dbf7",
-          "sport": "other",
-          "competition": null,
-          "title": "Chamonix | Difficulté (H/F) – Finale",
-          "subtitle": "World Climbing Series",
-          "description": "Chamonix accueille la 4e manche de la Coupe du monde de difficulté de la saison. Chez les dames, la Française Zélia Avezou tentera de briller devant son public. Mais la favorite sera la Slovène Janja Garnbret. Côté masculin, le Japonais Neo Suzuki voudra confirmer son excellent début de saison. L'Espagnol Alberto Ginés López et l'Autrichien Jakob Schubert seront ses principaux adversaires.",
-          "team1": {
-            "name": "Difficulté (H",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "F) – Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:30:00+02:00",
-          "end": "2026-07-14T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "758d9a091fb4",
-          "sport": "ski",
-          "competition": null,
-          "title": "Vallnord-Pal Arinsal | Descente Élite (F)",
-          "subtitle": "UCI Mountain Bike World Series",
-          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:30:00+02:00",
-          "end": "2026-07-14T09:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f5c9bea2351",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot Coupe du Monde 2026 - S01E20",
-          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
-          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:30:00+02:00",
-          "end": "2026-07-14T09:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2bf85027e455",
-          "sport": "football",
-          "competition": null,
-          "title": "Espagne - Belgique",
-          "subtitle": null,
-          "description": "Retour sur la dernière rencontre des Diables Rouges.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TeleSambre.be",
-            "name": "TéléSambre",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9DzJg4y8CuWT8cLVxumr0Orv-gpJWA7-RTX5z8lkfTXT5lK1mzEEl3RABFA&amp;s",
-            "slug": "t-l-sambre",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:40:00+02:00",
-          "end": "2026-07-14T09:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0fae6bc441ed",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Bournemouth / Tottenham",
-          "subtitle": "Premier League - 21e journée",
-          "description": "Le 7 janvier 2026, Bournemouth accueillait Tottenham au Vitality Stadium pour la 21e journée de Premier League. Portés par Evanilson puis Eli Junior Kroupi, les Cherries ont longtemps cru tenir un succès maîtrisé, avant le retour des Spurs, lancés par Mathys Tel puis relancés par le retourné de João Palhinha. Mais dans les dernières secondes du temps additionnel, Antoine Semenyo a offert la victoire à Bournemouth d'une frappe lointaine, au terme d'un match spectaculaire.",
-          "team1": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-14T08:58:00+02:00",
-          "end": "2026-07-14T10:48:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "373ea92f1d9a",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "Course messieurs. Coupe du monde de descente. 6e manche.",
-          "description": "Coupe du monde de descente. 6e manche. Course messieurs. A Vallnord Pal-Arinsal (Andorre).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-14T09:15:00+02:00",
-          "end": "2026-07-14T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2ca266f3dff8",
-          "sport": "ski",
-          "competition": null,
-          "title": "Vallnord-Pal Arinsal | Descente Élite (H)",
-          "subtitle": "UCI Mountain Bike World Series",
-          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-07-14T09:15:00+02:00",
-          "end": "2026-07-14T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d532ffd1bfa8",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lorient / Rennes",
-          "subtitle": "Ligue 1 McDonald's - 2e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Lorient",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Rennais",
-            "type": "club",
-            "short": "Rennes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-14T09:43:00+02:00",
-          "end": "2026-07-14T11:28:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ae3d69b0c555",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Hambourg / Bayern Munich",
-          "subtitle": "Bundesliga - 20e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Hambourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-14T09:44:00+02:00",
-          "end": "2026-07-14T11:34:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "383af7987a7b",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Arsenal",
-          "subtitle": "Premier League - 33e journée",
-          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-14T09:54:00+02:00",
-          "end": "2026-07-14T11:39:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "20f327097502",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 4e manche vitesse.",
-          "description": "Coupe du monde. 4e manche vitesse. Finale dames et messieurs. A Chamonix (Haute-Savoie).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-14T10:00:00+02:00",
-          "end": "2026-07-14T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7a616136da90",
-          "sport": "other",
-          "competition": null,
-          "title": "Vallnord-Pal Arinsal | Cross-country Olympique (F)",
-          "subtitle": "UCI Mountain Bike World Series",
-          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-14T10:00:00+02:00",
-          "end": "2026-07-14T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4b5d771a38be",
-          "sport": "other",
-          "competition": null,
-          "title": "Chamonix | Vitesse (H/F) – Finale",
-          "subtitle": "World Climbing Series",
-          "description": "Chamonix accueille la 4e manche de la Coupe du monde de vitesse. Chez les dames, la Chinoise Zhang Shaoqin mène actuellement le classement, devant l'Ukrainienne Polina Khalkevych et la Polonaise Natalia Kalucka. Chez les messieurs, la Chine place deux représentants aux deux premières places avec Chu Shouhong et Long Jianguo. L'Américain Michael Hom complète provisoirement le podium.",
-          "team1": {
-            "name": "Vitesse (H",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "F) – Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-07-14T10:00:00+02:00",
-          "end": "2026-07-14T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "7d9ca891f5e8",
           "sport": "mma",
           "competition": "Grand Prix de Qingdao",
@@ -1159,55 +463,7 @@
           },
           "start": "2026-07-14T10:00:00+02:00",
           "end": "2026-07-14T12:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a8751f13755d",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot Coupe du Monde 2026 - S01E20",
-          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
-          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-07-14T10:46:00+02:00",
-          "end": "2026-07-14T11:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d1606f6b5781",
-          "sport": "other",
-          "competition": null,
-          "title": "Kroupi Jr. - Sang 9",
-          "subtitle": "Doc. Sport",
-          "description": "Meilleur buteur de Ligue 2 la saison passée, Eli Junior Kroupi se lance à la conquête du meilleur championnat du monde, la Premier League anglaise. Un défi dans lequel le jeune homme de 19 ans est épaulé par son père, ancien buteur emblématique de Lorient et par le reste de sa famille.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-14T10:48:00+02:00",
-          "end": "2026-07-14T11:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1231,7 +487,7 @@
           },
           "start": "2026-07-14T11:00:00+02:00",
           "end": "2026-07-14T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1255,7 +511,7 @@
           },
           "start": "2026-07-14T11:00:00+02:00",
           "end": "2026-07-14T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1293,7 +549,7 @@
           },
           "start": "2026-07-14T11:00:00+02:00",
           "end": "2026-07-14T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1317,7 +573,7 @@
           },
           "start": "2026-07-14T11:00:00+02:00",
           "end": "2026-07-14T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1341,7 +597,7 @@
           },
           "start": "2026-07-14T11:07:00+02:00",
           "end": "2026-07-14T12:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1365,7 +621,7 @@
           },
           "start": "2026-07-14T11:07:00+02:00",
           "end": "2026-07-14T12:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1403,7 +659,7 @@
           },
           "start": "2026-07-14T11:20:00+02:00",
           "end": "2026-07-14T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1427,7 +683,7 @@
           },
           "start": "2026-07-14T11:33:00+02:00",
           "end": "2026-07-14T12:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1465,7 +721,7 @@
           },
           "start": "2026-07-14T11:39:00+02:00",
           "end": "2026-07-14T13:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6034,6 +5290,44 @@
           "result": null
         },
         {
+          "id": "505d4f441341",
+          "sport": "tennis",
+          "competition": "Wimbledon",
+          "title": "Finale dames . Karolina Muchova / Linda Noskova",
+          "subtitle": "Wimbledon",
+          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
+          "team1": {
+            "name": "Finale dames",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Linda Noskova",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-07-14T06:31:00+02:00",
+          "end": "2026-07-14T08:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e0e801658a9c",
           "sport": "other",
           "competition": null,
@@ -6058,6 +5352,182 @@
           "result": null
         },
         {
+          "id": "5088fe3d9296",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Fulham / Liverpool",
+          "subtitle": "Premier League - 20e journée",
+          "description": "En déplacement sur la pelouse de Fulham, les Reds de Liverpool et leur avant-centre français Hugo Ekitiké ne doivent pas trop tergiverser lors de cette 20e journée de Premier League. Toujours en course pour une place européenne en fin de saison, les Reds doivent aller chercher la victoire au Craven Cottage.",
+          "team1": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-14T07:07:00+02:00",
+          "end": "2026-07-14T08:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "970669517970",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Bournemouth / Arsenal",
+          "subtitle": "Premier League - 20e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-14T07:14:00+02:00",
+          "end": "2026-07-14T08:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8266ad8a0131",
+          "sport": "ski",
+          "competition": null,
+          "title": "Vallnord-Pal Arinsal | Descente Élite (H)",
+          "subtitle": "UCI Mountain Bike World Series",
+          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-14T07:30:00+02:00",
+          "end": "2026-07-14T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ac09eb76b355",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Augsbourg / Bayern Munich",
+          "subtitle": "Bundesliga - 2e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Augsbourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-14T07:51:00+02:00",
+          "end": "2026-07-14T09:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c654d7610dee",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Atlético Madrid / Arsenal",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:00:00+02:00",
+          "end": "2026-07-14T10:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "07965e8adb18",
           "sport": "football",
           "competition": null,
@@ -6075,6 +5545,536 @@
           },
           "start": "2026-07-14T08:00:00+02:00",
           "end": "2026-07-14T08:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cff8e8e07b2a",
+          "sport": "f1",
+          "competition": null,
+          "title": "Auto-Ikonen - S01E21",
+          "subtitle": "Grand Prix Historique d'Albi",
+          "description": "Dans cet épisode découvrez le Grand Prix Historique d'Albi en 2022 et la présentation d'une Mercedes 300SL \"Papillon\" et d'une Jaguar Type E série 2, présentés par Angélique Rayssiger.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "AutoPlusTV.fr",
+            "name": "Auto Plus TV",
+            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
+            "slug": "auto-plus-tv",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:06:00+02:00",
+          "end": "2026-07-14T08:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a3a7bbaeb2cf",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Gérone",
+          "subtitle": "Liga - 9e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Gérone",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:10:00+02:00",
+          "end": "2026-07-14T09:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3f51b0c00920",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "Course dames. Coupe du monde de descente. 6e manche.",
+          "description": "Coupe du monde de descente. 6e manche. Course dames. A Vallnord Pal-Arinsal (Andorre).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:30:00+02:00",
+          "end": "2026-07-14T09:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1b10dbd9dbf7",
+          "sport": "other",
+          "competition": null,
+          "title": "Chamonix | Difficulté (H/F) – Finale",
+          "subtitle": "World Climbing Series",
+          "description": "Chamonix accueille la 4e manche de la Coupe du monde de difficulté de la saison. Chez les dames, la Française Zélia Avezou tentera de briller devant son public. Mais la favorite sera la Slovène Janja Garnbret. Côté masculin, le Japonais Neo Suzuki voudra confirmer son excellent début de saison. L'Espagnol Alberto Ginés López et l'Autrichien Jakob Schubert seront ses principaux adversaires.",
+          "team1": {
+            "name": "Difficulté (H",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "F) – Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:30:00+02:00",
+          "end": "2026-07-14T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "758d9a091fb4",
+          "sport": "ski",
+          "competition": null,
+          "title": "Vallnord-Pal Arinsal | Descente Élite (F)",
+          "subtitle": "UCI Mountain Bike World Series",
+          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:30:00+02:00",
+          "end": "2026-07-14T09:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f5c9bea2351",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot Coupe du Monde 2026 - S01E20",
+          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
+          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:30:00+02:00",
+          "end": "2026-07-14T09:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2bf85027e455",
+          "sport": "football",
+          "competition": null,
+          "title": "Espagne - Belgique",
+          "subtitle": null,
+          "description": "Retour sur la dernière rencontre des Diables Rouges.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TeleSambre.be",
+            "name": "TéléSambre",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9DzJg4y8CuWT8cLVxumr0Orv-gpJWA7-RTX5z8lkfTXT5lK1mzEEl3RABFA&amp;s",
+            "slug": "t-l-sambre",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:40:00+02:00",
+          "end": "2026-07-14T09:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0fae6bc441ed",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Bournemouth / Tottenham",
+          "subtitle": "Premier League - 21e journée",
+          "description": "Le 7 janvier 2026, Bournemouth accueillait Tottenham au Vitality Stadium pour la 21e journée de Premier League. Portés par Evanilson puis Eli Junior Kroupi, les Cherries ont longtemps cru tenir un succès maîtrisé, avant le retour des Spurs, lancés par Mathys Tel puis relancés par le retourné de João Palhinha. Mais dans les dernières secondes du temps additionnel, Antoine Semenyo a offert la victoire à Bournemouth d'une frappe lointaine, au terme d'un match spectaculaire.",
+          "team1": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-14T08:58:00+02:00",
+          "end": "2026-07-14T10:48:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "373ea92f1d9a",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "Course messieurs. Coupe du monde de descente. 6e manche.",
+          "description": "Coupe du monde de descente. 6e manche. Course messieurs. A Vallnord Pal-Arinsal (Andorre).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-14T09:15:00+02:00",
+          "end": "2026-07-14T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2ca266f3dff8",
+          "sport": "ski",
+          "competition": null,
+          "title": "Vallnord-Pal Arinsal | Descente Élite (H)",
+          "subtitle": "UCI Mountain Bike World Series",
+          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-07-14T09:15:00+02:00",
+          "end": "2026-07-14T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d532ffd1bfa8",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lorient / Rennes",
+          "subtitle": "Ligue 1 McDonald's - 2e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Lorient",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Rennais",
+            "type": "club",
+            "short": "Rennes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-14T09:43:00+02:00",
+          "end": "2026-07-14T11:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ae3d69b0c555",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Hambourg / Bayern Munich",
+          "subtitle": "Bundesliga - 20e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Hambourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-14T09:44:00+02:00",
+          "end": "2026-07-14T11:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "383af7987a7b",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Arsenal",
+          "subtitle": "Premier League - 33e journée",
+          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-14T09:54:00+02:00",
+          "end": "2026-07-14T11:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "20f327097502",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames et messieurs. Coupe du monde. 4e manche vitesse.",
+          "description": "Coupe du monde. 4e manche vitesse. Finale dames et messieurs. A Chamonix (Haute-Savoie).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-14T10:00:00+02:00",
+          "end": "2026-07-14T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7a616136da90",
+          "sport": "other",
+          "competition": null,
+          "title": "Vallnord-Pal Arinsal | Cross-country Olympique (F)",
+          "subtitle": "UCI Mountain Bike World Series",
+          "description": "Suivez la Coupe du monde de cross-country, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-14T10:00:00+02:00",
+          "end": "2026-07-14T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4b5d771a38be",
+          "sport": "other",
+          "competition": null,
+          "title": "Chamonix | Vitesse (H/F) – Finale",
+          "subtitle": "World Climbing Series",
+          "description": "Chamonix accueille la 4e manche de la Coupe du monde de vitesse. Chez les dames, la Chinoise Zhang Shaoqin mène actuellement le classement, devant l'Ukrainienne Polina Khalkevych et la Polonaise Natalia Kalucka. Chez les messieurs, la Chine place deux représentants aux deux premières places avec Chu Shouhong et Long Jianguo. L'Américain Michael Hom complète provisoirement le podium.",
+          "team1": {
+            "name": "Vitesse (H",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "F) – Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-07-14T10:00:00+02:00",
+          "end": "2026-07-14T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a8751f13755d",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot Coupe du Monde 2026 - S01E20",
+          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
+          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-07-14T10:46:00+02:00",
+          "end": "2026-07-14T11:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d1606f6b5781",
+          "sport": "other",
+          "competition": null,
+          "title": "Kroupi Jr. - Sang 9",
+          "subtitle": "Doc. Sport",
+          "description": "Meilleur buteur de Ligue 2 la saison passée, Eli Junior Kroupi se lance à la conquête du meilleur championnat du monde, la Premier League anglaise. Un défi dans lequel le jeune homme de 19 ans est épaulé par son père, ancien buteur emblématique de Lorient et par le reste de sa famille.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-14T10:48:00+02:00",
+          "end": "2026-07-14T11:20:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
