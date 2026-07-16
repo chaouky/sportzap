@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-16T17:11:19.141463+00:00",
+    "generated_at": "2026-07-16T20:53:33.995117+00:00",
     "total_events": 879,
     "total_days": 7,
     "sports": [
@@ -23,63 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "lmtv-sarthe",
-        "name": "LMtv Sarthe",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -98,8 +43,8 @@
         "is_free": false
       },
       {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -108,8 +53,28 @@
         "is_free": false
       },
       {
-        "slug": "canal-docs",
-        "name": "Canal+ Docs",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -123,6 +88,16 @@
         "is_free": false
       },
       {
+        "slug": "canal-docs",
+        "name": "Canal+ Docs",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
         "slug": "rds2",
         "name": "RDS2",
         "is_free": false
@@ -130,6 +105,11 @@
       {
         "slug": "motorvision-tv",
         "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
         "is_free": false
       },
       {
@@ -151,6 +131,11 @@
         "slug": "france-3",
         "name": "France 3",
         "is_free": true
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
       },
       {
         "slug": "bein-2",
@@ -188,6 +173,11 @@
         "is_free": false
       },
       {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-5",
         "name": "Eurosport 360 - 5",
         "is_free": false
@@ -220,6 +210,16 @@
       {
         "slug": "rts-1",
         "name": "RTS 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "lmtv-sarthe",
+        "name": "LMtv Sarthe",
         "is_free": false
       },
       {
@@ -410,520 +410,6 @@
       "event_count": 153,
       "events": [
         {
-          "id": "efabf8d3196c",
-          "sport": "golf",
-          "competition": "1re ronde",
-          "title": "Golf - 1re ronde",
-          "subtitle": "1re ronde",
-          "description": "En provenance du Royal Birkdale Golf Club, à Southport, au Merseyside, en Angleterre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-07-16T13:00:00+02:00",
-          "end": "2026-07-16T21:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fd466242cfca",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Paris-SG / Rennes",
-          "subtitle": null,
-          "description": "1ère période du match de la 15ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS SG et RENNES.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Rennais",
-            "type": "club",
-            "short": "Rennes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-07-16T17:58:00+02:00",
-          "end": "2026-07-16T19:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dd6dbda22930",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Atlético Madrid / FC Séville",
-          "subtitle": "Liga - 11e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-16T18:08:00+02:00",
-          "end": "2026-07-16T19:52:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0ce5bc2f75cd",
-          "sport": "football",
-          "competition": "Ligue Europa",
-          "title": "Celta Vigo / Lyon",
-          "subtitle": "Ligue Europa - 8e de finale aller",
-          "description": "L'Olympique Lyonnais, qui a un bon coup à jouer dans cette édition de la Ligue Europa 2025/2026, se déplace en Espagne pour défier le Celta Vigo. Les hommes de Paulo Fonseca semblent avoir les moyens de prendre l'avantage dès ce match aller des 8es de finale. Toutefois, à domicile, les joueurs de Claudio Giraldez demeurent solides comme l'atteste leur bonne saison dans leur championnat national. Match retour le 19 mars prochain.",
-          "team1": {
-            "name": "Celta Vigo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-16T18:17:00+02:00",
-          "end": "2026-07-16T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "22cfb4d21138",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Manchester City",
-          "subtitle": "Premier League - 22e journée",
-          "description": "Le derby mancunien devrait faire le plein à l'Etihad Stadium. Les Citizens de Pep Guardiola, emmenés par leur buteur vedette Erling Haaland, sont à la lutte pour le titre, avec Arsenal. De leur côté, les Red Devils visent le Top 5. Bruno Fernandes et les siens vont-ils bousculer Rayan Cherki et City ?",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-16T18:38:00+02:00",
-          "end": "2026-07-16T20:21:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "08d11c6651ed",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 4e manche vitesse.",
-          "description": "Coupe du monde. 4e manche vitesse. Finale dames et messieurs. A Chamonix (Haute-Savoie).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-16T19:00:00+02:00",
-          "end": "2026-07-16T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bc5124c3db5f",
-          "sport": "other",
-          "competition": null,
-          "title": "Chamonix | Vitesse (H/F) – Finale",
-          "subtitle": "World Climbing Series",
-          "description": "Chamonix accueille la 4e manche de la Coupe du monde de vitesse. Chez les dames, la Chinoise Zhang Shaoqin mène actuellement le classement, devant l'Ukrainienne Polina Khalkevych et la Polonaise Natalia Kalucka. Chez les messieurs, la Chine place deux représentants aux deux premières places avec Chu Shouhong et Long Jianguo. L'Américain Michael Hom complète provisoirement le podium.",
-          "team1": {
-            "name": "Vitesse (H",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "F) – Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-07-16T19:00:00+02:00",
-          "end": "2026-07-16T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ffbadd1b6f22",
-          "sport": "other",
-          "competition": null,
-          "title": "Sport Reporter - Saison 1 - Saison 1",
-          "subtitle": "Au pied du mur -  Le Raidillon d...",
-          "description": "Micro d’or 2017 du meilleur reportage dans un magazine de sport.  Il est redouté par tous les pilotes de Formule 1 : le raidillon de Spa. Sport Reporter vous emmène en Belgique pour vous faire découvrir le virage le plus mythique du sport automobile et les raisons de sa renommée.",
-          "team1": {
-            "name": "Au pied du mur",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Le Raidillon d...",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-07-16T19:29:00+02:00",
-          "end": "2026-07-16T19:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fcfe17c41a21",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Paris-SG / Lens",
-          "subtitle": "Ligue 1 McDonald's - 4e journée",
-          "description": "Le Paris Saint-Germain reçoit les Sang et Or du RC Lens : les Parisiens ne doivent pas sous-estimer le jeu collectif des hommes de Pierre Sage lors de cette 4e journée.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-16T19:42:00+02:00",
-          "end": "2026-07-16T21:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "80decf345b8e",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Leeds",
-          "subtitle": "Premier League - 13e journée",
-          "description": "Deuxièmes de Premier League, derrière Arsenal, Erling Haaland et Manchester City accueillent une formation de Leeds United qui se bat pour le maintien. Les trois points de la victoire sont impératifs pour les Citizens pour pouvoir continuer à envisager le titre et ne pas se faire distancer au classement par les Gunners.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leeds",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-16T19:52:00+02:00",
-          "end": "2026-07-16T21:41:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8bb958ee57d1",
-          "sport": "other",
-          "competition": "Open mondial",
-          "title": "Snooker : Open mondial",
-          "subtitle": "Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh. Snooker Main Tour.",
-          "description": "Snooker Main Tour. Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh.",
-          "team1": {
-            "name": "Open mondial",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Thepchaiya Un-Nooh",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-16T20:00:00+02:00",
-          "end": "2026-07-16T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3836786c926c",
-          "sport": "tennis",
-          "competition": null,
-          "title": "Carlos Alcaraz - Novak Djokovic",
-          "subtitle": "Open d'Australie | Finale (H)",
-          "description": "L'histoire est au bout : Alcaraz peut devenir le plus jeune joueur de l'histoire à avoir gagné les quatre Grands Chelems, Djoko vise un historique 25e majeur.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-16T20:00:00+02:00",
-          "end": "2026-07-16T21:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "07c6acd4efd2",
-          "sport": "other",
-          "competition": null,
-          "title": "L'Odyssée Samouraï 2000",
-          "subtitle": "Best-of de l'été",
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LMTVSarthe.fr",
-            "name": "LMtv Sarthe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
-            "slug": "lmtv-sarthe",
-            "is_free": false
-          },
-          "start": "2026-07-16T20:00:00+02:00",
-          "end": "2026-07-16T20:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "12f69ba10cd2",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Monaco / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 14e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-16T20:01:00+02:00",
-          "end": "2026-07-16T21:46:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bbcd457ef292",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Osasuna / FC Barcelone",
-          "subtitle": "Liga - 34e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Osasuna",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-16T20:21:00+02:00",
-          "end": "2026-07-16T22:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "38bed04808a3",
           "sport": "football",
           "competition": "Ligue Europa",
@@ -955,7 +441,7 @@
           },
           "start": "2026-07-16T20:55:00+02:00",
           "end": "2026-07-16T23:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -979,7 +465,7 @@
           },
           "start": "2026-07-16T20:56:00+02:00",
           "end": "2026-07-16T23:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1017,7 +503,7 @@
           },
           "start": "2026-07-16T21:00:00+02:00",
           "end": "2026-07-17T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1055,93 +541,7 @@
           },
           "start": "2026-07-16T21:20:00+02:00",
           "end": "2026-07-17T00:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "30b31fd1f3d2",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-16T21:25:00+02:00",
-          "end": "2026-07-16T22:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "34f6a893fe43",
-          "sport": "golf",
-          "competition": "HotelPlanner Tour, Open d'Allemagne",
-          "title": "Golf : HotelPlanner Tour, Open d'Allemagne",
-          "subtitle": "HotelPlanner Tour, Open d'Allemagne.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-07-16T21:40:00+02:00",
-          "end": "2026-07-16T22:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8e196f25d513",
-          "sport": "other",
-          "competition": null,
-          "title": "Fierté Burkinabè - Edmond Tapsoba",
-          "subtitle": "Edmond Tapsoba fierté Burkinabé",
-          "description": ".",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-16T21:46:00+02:00",
-          "end": "2026-07-16T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1165,31 +565,7 @@
           },
           "start": "2026-07-16T22:00:00+02:00",
           "end": "2026-07-16T23:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "49f4cdf8c139",
-          "sport": "other",
-          "competition": null,
-          "title": "L'Odyssée Samouraï 2000",
-          "subtitle": "Best-of de l'été",
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LMTVSarthe.fr",
-            "name": "LMtv Sarthe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
-            "slug": "lmtv-sarthe",
-            "is_free": false
-          },
-          "start": "2026-07-16T22:00:00+02:00",
-          "end": "2026-07-16T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1227,7 +603,7 @@
           },
           "start": "2026-07-16T22:00:00+02:00",
           "end": "2026-07-16T22:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1265,31 +641,7 @@
           },
           "start": "2026-07-16T22:08:00+02:00",
           "end": "2026-07-17T00:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "13f0118ecb83",
-          "sport": "other",
-          "competition": null,
-          "title": "Un outsider sur le Vendée Globe - Saison 1",
-          "subtitle": "Anatomie d'un rêve",
-          "description": "Rien ne prédestinait Benjamin Ferré à embarquer un jour sur un bateau de course. Après avoir monté un projet pour faire le tour du monde en stop, il veut se lancer dans la course du Vendée Globe. Sa rencontre avec la légende Jean Le Cam va être déterminante.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusDocs.fr",
-            "name": "Canal+ Docs",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~b0dab3f2632272a9.png/480x480/quality/100/canal-docs.png",
-            "slug": "canal-docs",
-            "is_free": false
-          },
-          "start": "2026-07-16T22:20:00+02:00",
-          "end": "2026-07-16T22:46:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1327,7 +679,7 @@
           },
           "start": "2026-07-16T22:30:00+02:00",
           "end": "2026-07-16T23:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1365,7 +717,7 @@
           },
           "start": "2026-07-16T22:30:00+02:00",
           "end": "2026-07-17T00:10:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1403,7 +755,7 @@
           },
           "start": "2026-07-16T22:30:00+02:00",
           "end": "2026-07-17T00:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1441,7 +793,7 @@
           },
           "start": "2026-07-16T22:30:00+02:00",
           "end": "2026-07-17T00:32:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1465,7 +817,7 @@
           },
           "start": "2026-07-16T22:30:00+02:00",
           "end": "2026-07-17T00:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1503,7 +855,7 @@
           },
           "start": "2026-07-16T22:37:00+02:00",
           "end": "2026-07-17T00:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1527,7 +879,7 @@
           },
           "start": "2026-07-16T22:46:00+02:00",
           "end": "2026-07-16T23:11:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3866,6 +3218,30 @@
           "result": null
         },
         {
+          "id": "efabf8d3196c",
+          "sport": "golf",
+          "competition": "1re ronde",
+          "title": "Golf - 1re ronde",
+          "subtitle": "1re ronde",
+          "description": "En provenance du Royal Birkdale Golf Club, à Southport, au Merseyside, en Angleterre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-07-16T13:00:00+02:00",
+          "end": "2026-07-16T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "fa77e641e034",
           "sport": "cyclisme",
           "competition": "Tour de France",
@@ -5004,6 +4380,120 @@
           "result": null
         },
         {
+          "id": "fd466242cfca",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Paris-SG / Rennes",
+          "subtitle": null,
+          "description": "1ère période du match de la 15ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant PARIS SG et RENNES.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Rennais",
+            "type": "club",
+            "short": "Rennes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-07-16T17:58:00+02:00",
+          "end": "2026-07-16T19:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dd6dbda22930",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Atlético Madrid / FC Séville",
+          "subtitle": "Liga - 11e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-16T18:08:00+02:00",
+          "end": "2026-07-16T19:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0ce5bc2f75cd",
+          "sport": "football",
+          "competition": "Ligue Europa",
+          "title": "Celta Vigo / Lyon",
+          "subtitle": "Ligue Europa - 8e de finale aller",
+          "description": "L'Olympique Lyonnais, qui a un bon coup à jouer dans cette édition de la Ligue Europa 2025/2026, se déplace en Espagne pour défier le Celta Vigo. Les hommes de Paulo Fonseca semblent avoir les moyens de prendre l'avantage dès ce match aller des 8es de finale. Toutefois, à domicile, les joueurs de Claudio Giraldez demeurent solides comme l'atteste leur bonne saison dans leur championnat national. Match retour le 19 mars prochain.",
+          "team1": {
+            "name": "Celta Vigo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-16T18:17:00+02:00",
+          "end": "2026-07-16T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "8be29896601b",
           "sport": "ski",
           "competition": "Coupe du monde de descente",
@@ -5069,6 +4559,516 @@
           },
           "start": "2026-07-16T18:30:00+02:00",
           "end": "2026-07-16T18:58:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "22cfb4d21138",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Manchester City",
+          "subtitle": "Premier League - 22e journée",
+          "description": "Le derby mancunien devrait faire le plein à l'Etihad Stadium. Les Citizens de Pep Guardiola, emmenés par leur buteur vedette Erling Haaland, sont à la lutte pour le titre, avec Arsenal. De leur côté, les Red Devils visent le Top 5. Bruno Fernandes et les siens vont-ils bousculer Rayan Cherki et City ?",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-16T18:38:00+02:00",
+          "end": "2026-07-16T20:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "08d11c6651ed",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames et messieurs. Coupe du monde. 4e manche vitesse.",
+          "description": "Coupe du monde. 4e manche vitesse. Finale dames et messieurs. A Chamonix (Haute-Savoie).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-16T19:00:00+02:00",
+          "end": "2026-07-16T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bc5124c3db5f",
+          "sport": "other",
+          "competition": null,
+          "title": "Chamonix | Vitesse (H/F) – Finale",
+          "subtitle": "World Climbing Series",
+          "description": "Chamonix accueille la 4e manche de la Coupe du monde de vitesse. Chez les dames, la Chinoise Zhang Shaoqin mène actuellement le classement, devant l'Ukrainienne Polina Khalkevych et la Polonaise Natalia Kalucka. Chez les messieurs, la Chine place deux représentants aux deux premières places avec Chu Shouhong et Long Jianguo. L'Américain Michael Hom complète provisoirement le podium.",
+          "team1": {
+            "name": "Vitesse (H",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "F) – Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-07-16T19:00:00+02:00",
+          "end": "2026-07-16T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ffbadd1b6f22",
+          "sport": "other",
+          "competition": null,
+          "title": "Sport Reporter - Saison 1 - Saison 1",
+          "subtitle": "Au pied du mur -  Le Raidillon d...",
+          "description": "Micro d’or 2017 du meilleur reportage dans un magazine de sport.  Il est redouté par tous les pilotes de Formule 1 : le raidillon de Spa. Sport Reporter vous emmène en Belgique pour vous faire découvrir le virage le plus mythique du sport automobile et les raisons de sa renommée.",
+          "team1": {
+            "name": "Au pied du mur",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Le Raidillon d...",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-07-16T19:29:00+02:00",
+          "end": "2026-07-16T19:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fcfe17c41a21",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Paris-SG / Lens",
+          "subtitle": "Ligue 1 McDonald's - 4e journée",
+          "description": "Le Paris Saint-Germain reçoit les Sang et Or du RC Lens : les Parisiens ne doivent pas sous-estimer le jeu collectif des hommes de Pierre Sage lors de cette 4e journée.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-16T19:42:00+02:00",
+          "end": "2026-07-16T21:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "80decf345b8e",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Leeds",
+          "subtitle": "Premier League - 13e journée",
+          "description": "Deuxièmes de Premier League, derrière Arsenal, Erling Haaland et Manchester City accueillent une formation de Leeds United qui se bat pour le maintien. Les trois points de la victoire sont impératifs pour les Citizens pour pouvoir continuer à envisager le titre et ne pas se faire distancer au classement par les Gunners.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leeds",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-16T19:52:00+02:00",
+          "end": "2026-07-16T21:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8bb958ee57d1",
+          "sport": "other",
+          "competition": "Open mondial",
+          "title": "Snooker : Open mondial",
+          "subtitle": "Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh. Snooker Main Tour.",
+          "description": "Snooker Main Tour. Open mondial. Finale . Ronnie O'Sullivan / Thepchaiya Un-Nooh.",
+          "team1": {
+            "name": "Open mondial",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Thepchaiya Un-Nooh",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-16T20:00:00+02:00",
+          "end": "2026-07-16T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3836786c926c",
+          "sport": "tennis",
+          "competition": null,
+          "title": "Carlos Alcaraz - Novak Djokovic",
+          "subtitle": "Open d'Australie | Finale (H)",
+          "description": "L'histoire est au bout : Alcaraz peut devenir le plus jeune joueur de l'histoire à avoir gagné les quatre Grands Chelems, Djoko vise un historique 25e majeur.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-16T20:00:00+02:00",
+          "end": "2026-07-16T21:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "07c6acd4efd2",
+          "sport": "other",
+          "competition": null,
+          "title": "L'Odyssée Samouraï 2000",
+          "subtitle": "Best-of de l'été",
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LMTVSarthe.fr",
+            "name": "LMtv Sarthe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
+            "slug": "lmtv-sarthe",
+            "is_free": false
+          },
+          "start": "2026-07-16T20:00:00+02:00",
+          "end": "2026-07-16T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "12f69ba10cd2",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Monaco / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 14e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-16T20:01:00+02:00",
+          "end": "2026-07-16T21:46:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bbcd457ef292",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Osasuna / FC Barcelone",
+          "subtitle": "Liga - 34e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Osasuna",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-16T20:21:00+02:00",
+          "end": "2026-07-16T22:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "30b31fd1f3d2",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-16T21:25:00+02:00",
+          "end": "2026-07-16T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "34f6a893fe43",
+          "sport": "golf",
+          "competition": "HotelPlanner Tour, Open d'Allemagne",
+          "title": "Golf : HotelPlanner Tour, Open d'Allemagne",
+          "subtitle": "HotelPlanner Tour, Open d'Allemagne.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-07-16T21:40:00+02:00",
+          "end": "2026-07-16T22:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8e196f25d513",
+          "sport": "other",
+          "competition": null,
+          "title": "Fierté Burkinabè - Edmond Tapsoba",
+          "subtitle": "Edmond Tapsoba fierté Burkinabé",
+          "description": ".",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-16T21:46:00+02:00",
+          "end": "2026-07-16T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "49f4cdf8c139",
+          "sport": "other",
+          "competition": null,
+          "title": "L'Odyssée Samouraï 2000",
+          "subtitle": "Best-of de l'été",
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LMTVSarthe.fr",
+            "name": "LMtv Sarthe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
+            "slug": "lmtv-sarthe",
+            "is_free": false
+          },
+          "start": "2026-07-16T22:00:00+02:00",
+          "end": "2026-07-16T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "13f0118ecb83",
+          "sport": "other",
+          "competition": null,
+          "title": "Un outsider sur le Vendée Globe - Saison 1",
+          "subtitle": "Anatomie d'un rêve",
+          "description": "Rien ne prédestinait Benjamin Ferré à embarquer un jour sur un bateau de course. Après avoir monté un projet pour faire le tour du monde en stop, il veut se lancer dans la course du Vendée Globe. Sa rencontre avec la légende Jean Le Cam va être déterminante.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusDocs.fr",
+            "name": "Canal+ Docs",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~b0dab3f2632272a9.png/480x480/quality/100/canal-docs.png",
+            "slug": "canal-docs",
+            "is_free": false
+          },
+          "start": "2026-07-16T22:20:00+02:00",
+          "end": "2026-07-16T22:46:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
