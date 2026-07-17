@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-17T02:21:15.698475+00:00",
+    "generated_at": "2026-07-17T06:12:19.498324+00:00",
     "total_events": 978,
     "total_days": 7,
     "sports": [
@@ -28,13 +28,8 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
         "is_free": false
       },
       {
@@ -43,43 +38,8 @@
         "is_free": false
       },
       {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "lmtv-sarthe",
-        "name": "LMtv Sarthe",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "automoto-la-chaine",
-        "name": "Automoto la chaine",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -88,13 +48,18 @@
         "is_free": false
       },
       {
-        "slug": "m6",
-        "name": "M6",
-        "is_free": true
+        "slug": "lmtv-sarthe",
+        "name": "LMtv Sarthe",
+        "is_free": false
       },
       {
         "slug": "bein-3",
         "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -115,6 +80,11 @@
       {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -178,6 +148,11 @@
         "is_free": false
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
         "slug": "srf-zwei",
         "name": "SRF zwei",
         "is_free": false
@@ -203,6 +178,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
         "slug": "rds2",
         "name": "RDS2",
         "is_free": false
@@ -211,6 +191,11 @@
         "slug": "rds-info",
         "name": "RDS Info",
         "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "canal-plus-sport-5",
@@ -233,6 +218,11 @@
         "is_free": false
       },
       {
+        "slug": "automoto-la-chaine",
+        "name": "Automoto la chaine",
+        "is_free": false
+      },
+      {
         "slug": "cheval-tv",
         "name": "Cheval TV",
         "is_free": false
@@ -241,6 +231,16 @@
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
         "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "m6",
+        "name": "M6",
+        "is_free": true
       },
       {
         "slug": "france-3-nouvelle-aquitaine",
@@ -440,516 +440,6 @@
       "event_count": 161,
       "events": [
         {
-          "id": "142403ba1ddb",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 4e manche vitesse.",
-          "description": "Coupe du monde. 4e manche vitesse. Finale dames et messieurs. A Chamonix (Haute-Savoie).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-17T03:00:00+02:00",
-          "end": "2026-07-17T04:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5e333ce45446",
-          "sport": "other",
-          "competition": null,
-          "title": "Chamonix | Vitesse (H/F) – Finale",
-          "subtitle": "World Climbing Series",
-          "description": "Chamonix accueille la 4e manche de la Coupe du monde de vitesse. Chez les dames, la Chinoise Zhang Shaoqin mène actuellement le classement, devant l'Ukrainienne Polina Khalkevych et la Polonaise Natalia Kalucka. Chez les messieurs, la Chine place deux représentants aux deux premières places avec Chu Shouhong et Long Jianguo. L'Américain Michael Hom complète provisoirement le podium.",
-          "team1": {
-            "name": "Vitesse (H",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "F) – Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-07-17T03:00:00+02:00",
-          "end": "2026-07-17T04:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "eda8fd027d00",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayern Munich / Werder Brême",
-          "subtitle": "Bundesliga - 5e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Werder Brême",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-17T03:32:00+02:00",
-          "end": "2026-07-17T05:13:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ac29c06b7aa3",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Atlético Madrid / FC Séville",
-          "subtitle": "Liga - 11e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-17T03:32:00+02:00",
-          "end": "2026-07-17T05:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "498d3f7b6f41",
-          "sport": "tennis",
-          "competition": null,
-          "title": "A.Shevchenko (KAZ) - D.Stricker (SUI)",
-          "subtitle": "Tournoi ATP de Gstaad",
-          "description": "Suivez des matchs du Tennis Swiss Open, également connu sous le nom de tournoi de Gstaad, classé dans la catégorie 250 sur l'ATP Tour de tennis. Créé dès 1915, ce tournoi se dispute actuellement au mois de juillet sur les courts en terre battue situés au centre du village de la célèbre et huppée station de ski suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-07-17T03:50:00+02:00",
-          "end": "2026-07-17T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5fe572cfaf92",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 01",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 01",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-17T03:52:00+02:00",
-          "end": "2026-07-17T04:36:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3275a09d3d9b",
-          "sport": "other",
-          "competition": null,
-          "title": "L'Odyssée Samouraï 2000",
-          "subtitle": "Best-of de l'été",
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LMTVSarthe.fr",
-            "name": "LMtv Sarthe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
-            "slug": "lmtv-sarthe",
-            "is_free": false
-          },
-          "start": "2026-07-17T04:00:00+02:00",
-          "end": "2026-07-17T04:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "adcb1550cd7c",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Manchester City",
-          "subtitle": "Premier League - 22e journée",
-          "description": "Le derby mancunien devrait faire le plein à l'Etihad Stadium. Les Citizens de Pep Guardiola, emmenés par leur buteur vedette Erling Haaland, sont à la lutte pour le titre, avec Arsenal. De leur côté, les Red Devils visent le Top 5. Bruno Fernandes et les siens vont-ils bousculer Rayan Cherki et City ?",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-17T04:15:00+02:00",
-          "end": "2026-07-17T05:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7a79c961b245",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 12e étape . Circuit Nevers Magny-Cours - Chalon-sur-Saône (179,1 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de France. 12e étape . Circuit Nevers Magny-Cours - Chalon-sur-Saône (179,1 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-17T04:30:00+02:00",
-          "end": "2026-07-17T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3507f0335544",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP01",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP01",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-17T04:36:00+02:00",
-          "end": "2026-07-17T05:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c44e88718b39",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-17T05:13:00+02:00",
-          "end": "2026-07-17T07:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e6505597a284",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP04",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP04",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-17T05:15:00+02:00",
-          "end": "2026-07-17T06:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "124d550734c6",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Manchester City",
-          "subtitle": "Premier League - 22e journée",
-          "description": "Le derby mancunien devrait faire le plein à l'Etihad Stadium. Les Citizens de Pep Guardiola, emmenés par leur buteur vedette Erling Haaland, sont à la lutte pour le titre, avec Arsenal. De leur côté, les Red Devils visent le Top 5. Bruno Fernandes et les siens vont-ils bousculer Rayan Cherki et City ?",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-17T05:25:00+02:00",
-          "end": "2026-07-17T07:11:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "de41475ba64a",
-          "sport": "other",
-          "competition": null,
-          "title": "La saga Lorraine-Dietrich",
-          "subtitle": null,
-          "description": "Durant la Belle Époque, la jeune industrie automobile prend une singulière avance en Alsace avec les maîtres de forge de Dietrich. Créateur de voitures de grand luxe et animateur des Grands Prix à la Belle Epoque, motoriste aéronautique de renom international et double vainqueur des 24 Heures du Mans dans les Années Folles, à l'origine d'un consortium géant de l'aviation et constructeur de vedettes. Les automobiles Lorraine-Dietrich furent une référence du luxe à la française. Elle a été la première voiture à rouler au-dessus des 100 km/h pendant 24 heures. Il y avait des points de vente partout, jusqu'à New York. Même la cour de Russie possédait une Lorraine- Dietrich à la fin du XIXe siècle.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ABMoteurs.fr",
-            "name": "Automoto la chaine",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~af9996c05345acc0.png/480x480/quality/100/automoto.png",
-            "slug": "automoto-la-chaine",
-            "is_free": false
-          },
-          "start": "2026-07-17T05:57:00+02:00",
-          "end": "2026-07-17T06:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aa43850544ce",
-          "sport": "other",
-          "competition": null,
-          "title": "L'Odyssée Samouraï 2000",
-          "subtitle": "Best-of de l'été",
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LMTVSarthe.fr",
-            "name": "LMtv Sarthe",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
-            "slug": "lmtv-sarthe",
-            "is_free": false
-          },
-          "start": "2026-07-17T06:00:00+02:00",
-          "end": "2026-07-17T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7ef8c3dca142",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-17T06:00:00+02:00",
-          "end": "2026-07-17T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "347476c66a2d",
           "sport": "other",
           "competition": "Open du Pays de Galles",
@@ -981,93 +471,7 @@
           },
           "start": "2026-07-17T06:30:00+02:00",
           "end": "2026-07-17T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e10ad980c713",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-17T06:30:00+02:00",
-          "end": "2026-07-17T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "17c187bf6e44",
-          "sport": "football",
-          "competition": "Coupe du Monde",
-          "title": "Football unifié : Coupe du Monde",
-          "subtitle": null,
-          "description": "Le stade Charléty de Paris reçoit les 24 équipes de la 3e édition de la Coupe du monde de football unifié Special Olympics en juillet 2026.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-07-17T06:35:00+02:00",
-          "end": "2026-07-17T07:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f823e0ef332f",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-17T06:42:00+02:00",
-          "end": "2026-07-17T07:17:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1105,107 +509,7 @@
           },
           "start": "2026-07-17T07:00:00+02:00",
           "end": "2026-07-17T10:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4118da02184a",
-          "sport": "other",
-          "competition": null,
-          "title": "Més que une finale - 2016, le Top 14 illumine le Camp Nou",
-          "subtitle": "Doc. Sport",
-          "description": "Il y a 10 ans, la finale du Top 14 était délocalisée à Barcelone, dans le mythique Camp Nou. Racontée par les principaux acteurs, retour sur cette finale à l’étranger historique, gagnée par le Racing à 14 contre 15 la quasi-totalité de la rencontre, dans une ambiance survoltée.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-17T07:01:00+02:00",
-          "end": "2026-07-17T07:32:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3d7a1422c68b",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP03",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP03",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-17T07:02:00+02:00",
-          "end": "2026-07-17T07:38:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "34a93f588fa8",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Paris FC - EP02",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "EP02",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-17T07:17:00+02:00",
-          "end": "2026-07-17T08:08:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1243,7 +547,7 @@
           },
           "start": "2026-07-17T07:32:00+02:00",
           "end": "2026-07-17T09:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1281,7 +585,7 @@
           },
           "start": "2026-07-17T07:38:00+02:00",
           "end": "2026-07-17T09:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1319,31 +623,7 @@
           },
           "start": "2026-07-17T07:40:00+02:00",
           "end": "2026-07-17T10:06:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f6a9032e1a9c",
-          "sport": "football",
-          "competition": null,
-          "title": "Morning récap' - Coupe du monde de la FIFA 2026",
-          "subtitle": null,
-          "description": "Retour sur les temps forts de la journée écoulée, les résultats des rencontres et les réactions des joueurs comme des entraîneurs des différentes sélections nationales.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "M6.fr",
-            "name": "M6",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png",
-            "slug": "m6",
-            "is_free": true
-          },
-          "start": "2026-07-17T07:55:00+02:00",
-          "end": "2026-07-17T08:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1367,7 +647,7 @@
           },
           "start": "2026-07-17T08:00:00+02:00",
           "end": "2026-07-17T08:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1391,7 +671,7 @@
           },
           "start": "2026-07-17T08:00:00+02:00",
           "end": "2026-07-17T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5194,6 +4474,68 @@
           "result": null
         },
         {
+          "id": "142403ba1ddb",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames et messieurs. Coupe du monde. 4e manche vitesse.",
+          "description": "Coupe du monde. 4e manche vitesse. Finale dames et messieurs. A Chamonix (Haute-Savoie).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-17T03:00:00+02:00",
+          "end": "2026-07-17T04:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5e333ce45446",
+          "sport": "other",
+          "competition": null,
+          "title": "Chamonix | Vitesse (H/F) – Finale",
+          "subtitle": "World Climbing Series",
+          "description": "Chamonix accueille la 4e manche de la Coupe du monde de vitesse. Chez les dames, la Chinoise Zhang Shaoqin mène actuellement le classement, devant l'Ukrainienne Polina Khalkevych et la Polonaise Natalia Kalucka. Chez les messieurs, la Chine place deux représentants aux deux premières places avec Chu Shouhong et Long Jianguo. L'Américain Michael Hom complète provisoirement le podium.",
+          "team1": {
+            "name": "Vitesse (H",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "F) – Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-07-17T03:00:00+02:00",
+          "end": "2026-07-17T04:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "7ade9ebdc94b",
           "sport": "cyclisme",
           "competition": null,
@@ -5235,6 +4577,664 @@
           },
           "start": "2026-07-17T03:29:00+02:00",
           "end": "2026-07-17T04:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "eda8fd027d00",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayern Munich / Werder Brême",
+          "subtitle": "Bundesliga - 5e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Werder Brême",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-17T03:32:00+02:00",
+          "end": "2026-07-17T05:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ac29c06b7aa3",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Atlético Madrid / FC Séville",
+          "subtitle": "Liga - 11e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-17T03:32:00+02:00",
+          "end": "2026-07-17T05:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "498d3f7b6f41",
+          "sport": "tennis",
+          "competition": null,
+          "title": "A.Shevchenko (KAZ) - D.Stricker (SUI)",
+          "subtitle": "Tournoi ATP de Gstaad",
+          "description": "Suivez des matchs du Tennis Swiss Open, également connu sous le nom de tournoi de Gstaad, classé dans la catégorie 250 sur l'ATP Tour de tennis. Créé dès 1915, ce tournoi se dispute actuellement au mois de juillet sur les courts en terre battue situés au centre du village de la célèbre et huppée station de ski suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-07-17T03:50:00+02:00",
+          "end": "2026-07-17T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5fe572cfaf92",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 01",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 01",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-17T03:52:00+02:00",
+          "end": "2026-07-17T04:36:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3275a09d3d9b",
+          "sport": "other",
+          "competition": null,
+          "title": "L'Odyssée Samouraï 2000",
+          "subtitle": "Best-of de l'été",
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LMTVSarthe.fr",
+            "name": "LMtv Sarthe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
+            "slug": "lmtv-sarthe",
+            "is_free": false
+          },
+          "start": "2026-07-17T04:00:00+02:00",
+          "end": "2026-07-17T04:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "adcb1550cd7c",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Manchester City",
+          "subtitle": "Premier League - 22e journée",
+          "description": "Le derby mancunien devrait faire le plein à l'Etihad Stadium. Les Citizens de Pep Guardiola, emmenés par leur buteur vedette Erling Haaland, sont à la lutte pour le titre, avec Arsenal. De leur côté, les Red Devils visent le Top 5. Bruno Fernandes et les siens vont-ils bousculer Rayan Cherki et City ?",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-17T04:15:00+02:00",
+          "end": "2026-07-17T05:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7a79c961b245",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 12e étape . Circuit Nevers Magny-Cours - Chalon-sur-Saône (179,1 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de France. 12e étape . Circuit Nevers Magny-Cours - Chalon-sur-Saône (179,1 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-17T04:30:00+02:00",
+          "end": "2026-07-17T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3507f0335544",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP01",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP01",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-17T04:36:00+02:00",
+          "end": "2026-07-17T05:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c44e88718b39",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-17T05:13:00+02:00",
+          "end": "2026-07-17T07:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e6505597a284",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP04",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP04",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-17T05:15:00+02:00",
+          "end": "2026-07-17T06:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "124d550734c6",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Manchester City",
+          "subtitle": "Premier League - 22e journée",
+          "description": "Le derby mancunien devrait faire le plein à l'Etihad Stadium. Les Citizens de Pep Guardiola, emmenés par leur buteur vedette Erling Haaland, sont à la lutte pour le titre, avec Arsenal. De leur côté, les Red Devils visent le Top 5. Bruno Fernandes et les siens vont-ils bousculer Rayan Cherki et City ?",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-17T05:25:00+02:00",
+          "end": "2026-07-17T07:11:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "de41475ba64a",
+          "sport": "other",
+          "competition": null,
+          "title": "La saga Lorraine-Dietrich",
+          "subtitle": null,
+          "description": "Durant la Belle Époque, la jeune industrie automobile prend une singulière avance en Alsace avec les maîtres de forge de Dietrich. Créateur de voitures de grand luxe et animateur des Grands Prix à la Belle Epoque, motoriste aéronautique de renom international et double vainqueur des 24 Heures du Mans dans les Années Folles, à l'origine d'un consortium géant de l'aviation et constructeur de vedettes. Les automobiles Lorraine-Dietrich furent une référence du luxe à la française. Elle a été la première voiture à rouler au-dessus des 100 km/h pendant 24 heures. Il y avait des points de vente partout, jusqu'à New York. Même la cour de Russie possédait une Lorraine- Dietrich à la fin du XIXe siècle.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ABMoteurs.fr",
+            "name": "Automoto la chaine",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~af9996c05345acc0.png/480x480/quality/100/automoto.png",
+            "slug": "automoto-la-chaine",
+            "is_free": false
+          },
+          "start": "2026-07-17T05:57:00+02:00",
+          "end": "2026-07-17T06:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aa43850544ce",
+          "sport": "other",
+          "competition": null,
+          "title": "L'Odyssée Samouraï 2000",
+          "subtitle": "Best-of de l'été",
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LMTVSarthe.fr",
+            "name": "LMtv Sarthe",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6db902fe1c335a98.png/480x480/quality/100/lm-tv-sarthe.png",
+            "slug": "lmtv-sarthe",
+            "is_free": false
+          },
+          "start": "2026-07-17T06:00:00+02:00",
+          "end": "2026-07-17T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7ef8c3dca142",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-17T06:00:00+02:00",
+          "end": "2026-07-17T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e10ad980c713",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-17T06:30:00+02:00",
+          "end": "2026-07-17T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "17c187bf6e44",
+          "sport": "football",
+          "competition": "Coupe du Monde",
+          "title": "Football unifié : Coupe du Monde",
+          "subtitle": null,
+          "description": "Le stade Charléty de Paris reçoit les 24 équipes de la 3e édition de la Coupe du monde de football unifié Special Olympics en juillet 2026.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-07-17T06:35:00+02:00",
+          "end": "2026-07-17T07:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f823e0ef332f",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-17T06:42:00+02:00",
+          "end": "2026-07-17T07:17:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4118da02184a",
+          "sport": "other",
+          "competition": null,
+          "title": "Més que une finale - 2016, le Top 14 illumine le Camp Nou",
+          "subtitle": "Doc. Sport",
+          "description": "Il y a 10 ans, la finale du Top 14 était délocalisée à Barcelone, dans le mythique Camp Nou. Racontée par les principaux acteurs, retour sur cette finale à l’étranger historique, gagnée par le Racing à 14 contre 15 la quasi-totalité de la rencontre, dans une ambiance survoltée.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-17T07:01:00+02:00",
+          "end": "2026-07-17T07:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3d7a1422c68b",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP03",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP03",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-17T07:02:00+02:00",
+          "end": "2026-07-17T07:38:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "34a93f588fa8",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Paris FC - EP02",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "EP02",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-17T07:17:00+02:00",
+          "end": "2026-07-17T08:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f6a9032e1a9c",
+          "sport": "football",
+          "competition": null,
+          "title": "Morning récap' - Coupe du monde de la FIFA 2026",
+          "subtitle": null,
+          "description": "Retour sur les temps forts de la journée écoulée, les résultats des rencontres et les réactions des joueurs comme des entraîneurs des différentes sélections nationales.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "M6.fr",
+            "name": "M6",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~46c2dbade9ac9fed.png/480x480/quality/100/m6.png",
+            "slug": "m6",
+            "is_free": true
+          },
+          "start": "2026-07-17T07:55:00+02:00",
+          "end": "2026-07-17T08:05:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
