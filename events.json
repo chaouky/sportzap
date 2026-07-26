@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-26T02:26:50.498897+00:00",
+    "generated_at": "2026-07-26T06:32:33.918262+00:00",
     "total_events": 897,
     "total_days": 7,
     "sports": [
@@ -24,8 +24,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
         "is_free": false
       },
       {
@@ -34,13 +34,13 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -54,78 +54,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-2",
         "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-pacifique",
-        "name": "TV5 Monde Pacifique",
-        "is_free": false
-      },
-      {
-        "slug": "automoto-la-chaine",
-        "name": "Automoto la chaine",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "a-bola-tv",
-        "name": "A BOLA TV",
-        "is_free": false
-      },
-      {
-        "slug": "france-24",
-        "name": "France 24",
-        "is_free": false
-      },
-      {
-        "slug": "tv5-monde-asie",
-        "name": "TV5 Monde Asie",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -134,14 +64,34 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
         "slug": "canal-sport-360",
         "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
         "slug": "sport-en-france",
         "name": "Sport en France",
         "is_free": true
+      },
+      {
+        "slug": "france-24",
+        "name": "France 24",
+        "is_free": false
       },
       {
         "slug": "ard",
@@ -154,8 +104,23 @@
         "is_free": false
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
         "slug": "bein-3",
         "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -181,6 +146,11 @@
       {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -249,6 +219,11 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
         "slug": "trek",
         "name": "TREK",
         "is_free": false
@@ -261,6 +236,31 @@
       {
         "slug": "een",
         "name": "een",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-pacifique",
+        "name": "TV5 Monde Pacifique",
+        "is_free": false
+      },
+      {
+        "slug": "automoto-la-chaine",
+        "name": "Automoto la chaine",
+        "is_free": false
+      },
+      {
+        "slug": "a-bola-tv",
+        "name": "A BOLA TV",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde-asie",
+        "name": "TV5 Monde Asie",
         "is_free": false
       },
       {
@@ -411,684 +411,6 @@
       "event_count": 159,
       "events": [
         {
-          "id": "0a96c892bfde",
-          "sport": "basket",
-          "competition": "NBA - Playoffs. Finale",
-          "title": "San Antonio Spurs / New York Knicks",
-          "subtitle": "NBA - Playoffs. Finale. 2e match",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "New York Knicks",
-            "type": "club",
-            "short": "Knicks",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-07-26T02:54:00+02:00",
-          "end": "2026-07-26T04:32:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f65de79f0168",
-          "sport": "mma",
-          "competition": "PFL",
-          "title": "MMA : PFL",
-          "subtitle": "PFL Washington 25/07",
-          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-26T03:00:00+02:00",
-          "end": "2026-07-26T06:17:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ab43b9d29e22",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Cyclisme",
-          "description": "La plus grosse étape de montagne du Tour, avec 5600 mètres de dénivelé positif cumulé, se présente pour la première fois à la veille de l'arrivée finale sur les Champs-Elysées.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-26T03:00:00+02:00",
-          "end": "2026-07-26T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a935363657aa",
-          "sport": "mma",
-          "competition": "PFL",
-          "title": "MMA : PFL | Thad Jean / Shamil Musaev",
-          "subtitle": null,
-          "description": "L'Américain Thad Jean, 27 ans et invaincu en sept combats, affronte le Russe Shamil Musaev, 32 ans, pour le titre mondial vacant des poids welters, lors du PFL de Washington, à la Carefirst Arena. L'ancien champion Ramazan Kuramagomedov avait été déchu du titre lorsqu'il avait immédiatement annoncé sa retraite après avoir remporté le titre contre Musaev en février dernier.",
-          "team1": {
-            "name": "Thad Jean",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Shamil Musaev",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-07-26T03:00:00+02:00",
-          "end": "2026-07-26T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b72266507a2c",
-          "sport": "basket",
-          "competition": null,
-          "title": "Giants Antwerp - Filou Ostende",
-          "subtitle": null,
-          "description": "Finale du BNXT Basketball League - Game 5 : Giants Antwerp - Filou Ostende.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-07-26T03:05:00+02:00",
-          "end": "2026-07-26T05:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2da6e8f7d708",
-          "sport": "basket",
-          "competition": null,
-          "title": "Giants Antwerp - Filou Oostende",
-          "subtitle": null,
-          "description": "Finale van de BNXT Basketball League - Game 5: Giants Antwerp - Filou Oostende.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-07-26T03:05:00+02:00",
-          "end": "2026-07-26T05:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8eb4c1c178f1",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Betis Séville",
-          "subtitle": "Liga - 18e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Betis Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-26T03:48:00+02:00",
-          "end": "2026-07-26T05:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d9f4c834d3c5",
-          "sport": "golf",
-          "competition": null,
-          "title": "Omnium britannique senior 2026 - 3e ronde",
-          "subtitle": "3e ronde",
-          "description": "En provenance du Gleneagles Golf Club à Perthshire, en Écosse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-07-26T04:00:00+02:00",
-          "end": "2026-07-26T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5443c169155a",
-          "sport": "voile",
-          "competition": null,
-          "title": "1er jour",
-          "subtitle": "Grand Prix de Grande-Bretagne",
-          "description": "Le SailGP retrouve Portsmouth les 25 et 26 juillet pour la huitième étape du circuit et l'ouverture de la séquence européenne de la saison. Championne en titre, la formation britannique de Dylan Fletcher espère s'imposer devant son public après sa deuxième place obtenue ici en 2025. Les Emirates GBR devront notamment contenir les Bonds Flying Roos de Tom Slingsby, leaders du championnat, et les Espagnols de Diego Botin, vainqueurs à Halifax et revenus au deuxième rang.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-26T04:08:00+02:00",
-          "end": "2026-07-26T06:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "abbc38c6a925",
-          "sport": "f1",
-          "competition": "Grand Prix de Hongrie, qualifications",
-          "title": "Formule 1 - Grand Prix de Hongrie, qualifications",
-          "subtitle": "Grand Prix de Hongrie, qualifications",
-          "description": "Le meilleur de la Formule 1.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-07-26T04:15:00+02:00",
-          "end": "2026-07-26T06:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "177ae5e1fc6d",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP03",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP03",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-26T04:20:00+02:00",
-          "end": "2026-07-26T04:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9a8bfabfc79e",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP04",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP04",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-26T04:55:00+02:00",
-          "end": "2026-07-26T05:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0543d7713020",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-26T05:00:00+02:00",
-          "end": "2026-07-26T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "074308a342e5",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP05",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP05",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-26T05:25:00+02:00",
-          "end": "2026-07-26T07:06:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a01c891cddff",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E49",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-07-26T05:35:00+02:00",
-          "end": "2026-07-26T06:01:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6e7fd8c19be1",
-          "sport": "other",
-          "competition": null,
-          "title": "Top 14 - Meilleurs moments",
-          "subtitle": null,
-          "description": "Highlights from the French rugby championship (Top 14).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondePacifique.fr",
-            "name": "TV5 Monde Pacifique",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-pacifique",
-            "is_free": false
-          },
-          "start": "2026-07-26T05:59:59+02:00",
-          "end": "2026-07-26T06:52:08+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "28e018a73de2",
-          "sport": "other",
-          "competition": null,
-          "title": "La saga Lorraine-Dietrich",
-          "subtitle": null,
-          "description": "Durant la Belle Époque, la jeune industrie automobile prend une singulière avance en Alsace avec les maîtres de forge de Dietrich. Créateur de voitures de grand luxe et animateur des Grands Prix à la Belle Epoque, motoriste aéronautique de renom international et double vainqueur des 24 Heures du Mans dans les Années Folles, à l'origine d'un consortium géant de l'aviation et constructeur de vedettes. Les automobiles Lorraine-Dietrich furent une référence du luxe à la française. Elle a été la première voiture à rouler au-dessus des 100 km/h pendant 24 heures. Il y avait des points de vente partout, jusqu'à New York. Même la cour de Russie possédait une Lorraine- Dietrich à la fin du XIXe siècle.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ABMoteurs.fr",
-            "name": "Automoto la chaine",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~af9996c05345acc0.png/480x480/quality/100/automoto.png",
-            "slug": "automoto-la-chaine",
-            "is_free": false
-          },
-          "start": "2026-07-26T06:00:00+02:00",
-          "end": "2026-07-26T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cde00348648c",
-          "sport": "football",
-          "competition": "Challenge League -  journée",
-          "title": "Winterthur / Yverdon Sport",
-          "subtitle": "Challenge League -  journée",
-          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
-          "team1": {
-            "name": "Inter Milan",
-            "type": "club",
-            "short": "Inter",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Yverdon Sport",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-26T06:05:00+02:00",
-          "end": "2026-07-26T08:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "773f8cc69200",
-          "sport": "golf",
-          "competition": null,
-          "title": "Omnium britannique senior 2026 - 3e ronde",
-          "subtitle": "3e ronde",
-          "description": "En provenance du Gleneagles Golf Club à Perthshire, en Écosse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-07-26T06:15:00+02:00",
-          "end": "2026-07-26T08:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "edf2dbbb4504",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Sibenik - Vodice",
-          "description": "We will visit the beautiful historical city of Šibenik, explore fascinating Šibenik channel and the Krka river, learn a bit about unique coral handmade jewelry, visit a very interesting museum on the island of Prvić and much more!",
-          "team1": {
-            "name": "Sibenik",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Vodice",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-26T06:30:00+02:00",
-          "end": "2026-07-26T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3a52f1e738fb",
-          "sport": "other",
-          "competition": null,
-          "title": "Memórias",
-          "subtitle": "Belenenses - Salésias",
-          "description": "Espaço de entrevistas às estrelas do passado. As personalidades que fizeram a história do desporto.",
-          "team1": {
-            "name": "Belenenses",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Salésias",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ABOLATV.pt",
-            "name": "A BOLA TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/logos/tv_services/A_BOLA_TV_color.png",
-            "slug": "a-bola-tv",
-            "is_free": false
-          },
-          "start": "2026-07-26T06:35:00+02:00",
-          "end": "2026-07-26T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7ca90b84da33",
-          "sport": "other",
-          "competition": null,
-          "title": "Sports week-end",
-          "subtitle": null,
-          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "France24.fr",
-            "name": "France 24",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
-            "slug": "france-24",
-            "is_free": false
-          },
-          "start": "2026-07-26T06:50:00+02:00",
-          "end": "2026-07-26T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8bfa9247778c",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Cyclisme",
-          "description": "La plus grosse étape de montagne du Tour, avec 5600 mètres de dénivelé positif cumulé, se présente pour la première fois à la veille de l'arrivée finale sur les Champs-Elysées.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-26T07:00:00+02:00",
-          "end": "2026-07-26T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "5ebbc1304baa",
           "sport": "boxe",
           "competition": "Championnat du monde WBC",
@@ -1120,31 +442,7 @@
           },
           "start": "2026-07-26T07:00:00+02:00",
           "end": "2026-07-26T10:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9456ea9219f6",
-          "sport": "other",
-          "competition": null,
-          "title": "Top 14 - Meilleurs moments",
-          "subtitle": null,
-          "description": "Highlights from the French rugby championship (Top 14).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeAsie.fr",
-            "name": "TV5 Monde Asie",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
-            "slug": "tv5-monde-asie",
-            "is_free": false
-          },
-          "start": "2026-07-26T07:09:28+02:00",
-          "end": "2026-07-26T08:01:36+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1182,45 +480,7 @@
           },
           "start": "2026-07-26T07:14:00+02:00",
           "end": "2026-07-26T08:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9cb9eebd5fac",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP05",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP05",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-26T07:21:00+02:00",
-          "end": "2026-07-26T07:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1258,7 +518,7 @@
           },
           "start": "2026-07-26T07:38:00+02:00",
           "end": "2026-07-26T09:29:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1282,31 +542,7 @@
           },
           "start": "2026-07-26T07:50:00+02:00",
           "end": "2026-07-26T08:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ae2e7c25d7c6",
-          "sport": "other",
-          "competition": null,
-          "title": "Sports week-end",
-          "subtitle": null,
-          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "France24.fr",
-            "name": "France 24",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
-            "slug": "france-24",
-            "is_free": false
-          },
-          "start": "2026-07-26T07:50:00+02:00",
-          "end": "2026-07-26T08:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1330,7 +566,7 @@
           },
           "start": "2026-07-26T07:50:00+02:00",
           "end": "2026-07-26T09:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1354,7 +590,7 @@
           },
           "start": "2026-07-26T07:50:00+02:00",
           "end": "2026-07-26T09:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1392,7 +628,7 @@
           },
           "start": "2026-07-26T07:58:00+02:00",
           "end": "2026-07-26T09:43:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1416,7 +652,7 @@
           },
           "start": "2026-07-26T08:00:00+02:00",
           "end": "2026-07-26T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1440,7 +676,7 @@
           },
           "start": "2026-07-26T08:30:00+02:00",
           "end": "2026-07-26T09:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1464,7 +700,7 @@
           },
           "start": "2026-07-26T08:30:00+02:00",
           "end": "2026-07-26T08:58:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4945,6 +4181,178 @@
           "result": null
         },
         {
+          "id": "0a96c892bfde",
+          "sport": "basket",
+          "competition": "NBA - Playoffs. Finale",
+          "title": "San Antonio Spurs / New York Knicks",
+          "subtitle": "NBA - Playoffs. Finale. 2e match",
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "New York Knicks",
+            "type": "club",
+            "short": "Knicks",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-07-26T02:54:00+02:00",
+          "end": "2026-07-26T04:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f65de79f0168",
+          "sport": "mma",
+          "competition": "PFL",
+          "title": "MMA : PFL",
+          "subtitle": "PFL Washington 25/07",
+          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-26T03:00:00+02:00",
+          "end": "2026-07-26T06:17:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ab43b9d29e22",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Cyclisme",
+          "description": "La plus grosse étape de montagne du Tour, avec 5600 mètres de dénivelé positif cumulé, se présente pour la première fois à la veille de l'arrivée finale sur les Champs-Elysées.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-26T03:00:00+02:00",
+          "end": "2026-07-26T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a935363657aa",
+          "sport": "mma",
+          "competition": "PFL",
+          "title": "MMA : PFL | Thad Jean / Shamil Musaev",
+          "subtitle": null,
+          "description": "L'Américain Thad Jean, 27 ans et invaincu en sept combats, affronte le Russe Shamil Musaev, 32 ans, pour le titre mondial vacant des poids welters, lors du PFL de Washington, à la Carefirst Arena. L'ancien champion Ramazan Kuramagomedov avait été déchu du titre lorsqu'il avait immédiatement annoncé sa retraite après avoir remporté le titre contre Musaev en février dernier.",
+          "team1": {
+            "name": "Thad Jean",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Shamil Musaev",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-07-26T03:00:00+02:00",
+          "end": "2026-07-26T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b72266507a2c",
+          "sport": "basket",
+          "competition": null,
+          "title": "Giants Antwerp - Filou Ostende",
+          "subtitle": null,
+          "description": "Finale du BNXT Basketball League - Game 5 : Giants Antwerp - Filou Ostende.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-07-26T03:05:00+02:00",
+          "end": "2026-07-26T05:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2da6e8f7d708",
+          "sport": "basket",
+          "competition": null,
+          "title": "Giants Antwerp - Filou Oostende",
+          "subtitle": null,
+          "description": "Finale van de BNXT Basketball League - Game 5: Giants Antwerp - Filou Oostende.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-07-26T03:05:00+02:00",
+          "end": "2026-07-26T05:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "867ffe049c75",
           "sport": "football",
           "competition": null,
@@ -4962,6 +4370,598 @@
           },
           "start": "2026-07-26T03:30:00+02:00",
           "end": "2026-07-26T04:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8eb4c1c178f1",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Betis Séville",
+          "subtitle": "Liga - 18e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Betis Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-26T03:48:00+02:00",
+          "end": "2026-07-26T05:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d9f4c834d3c5",
+          "sport": "golf",
+          "competition": null,
+          "title": "Omnium britannique senior 2026 - 3e ronde",
+          "subtitle": "3e ronde",
+          "description": "En provenance du Gleneagles Golf Club à Perthshire, en Écosse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-07-26T04:00:00+02:00",
+          "end": "2026-07-26T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5443c169155a",
+          "sport": "voile",
+          "competition": null,
+          "title": "1er jour",
+          "subtitle": "Grand Prix de Grande-Bretagne",
+          "description": "Le SailGP retrouve Portsmouth les 25 et 26 juillet pour la huitième étape du circuit et l'ouverture de la séquence européenne de la saison. Championne en titre, la formation britannique de Dylan Fletcher espère s'imposer devant son public après sa deuxième place obtenue ici en 2025. Les Emirates GBR devront notamment contenir les Bonds Flying Roos de Tom Slingsby, leaders du championnat, et les Espagnols de Diego Botin, vainqueurs à Halifax et revenus au deuxième rang.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-26T04:08:00+02:00",
+          "end": "2026-07-26T06:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "abbc38c6a925",
+          "sport": "f1",
+          "competition": "Grand Prix de Hongrie, qualifications",
+          "title": "Formule 1 - Grand Prix de Hongrie, qualifications",
+          "subtitle": "Grand Prix de Hongrie, qualifications",
+          "description": "Le meilleur de la Formule 1.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-07-26T04:15:00+02:00",
+          "end": "2026-07-26T06:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "177ae5e1fc6d",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP03",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP03",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-26T04:20:00+02:00",
+          "end": "2026-07-26T04:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9a8bfabfc79e",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP04",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP04",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-26T04:55:00+02:00",
+          "end": "2026-07-26T05:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0543d7713020",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-26T05:00:00+02:00",
+          "end": "2026-07-26T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "074308a342e5",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP05",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP05",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-26T05:25:00+02:00",
+          "end": "2026-07-26T07:06:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a01c891cddff",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E49",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-07-26T05:35:00+02:00",
+          "end": "2026-07-26T06:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6e7fd8c19be1",
+          "sport": "other",
+          "competition": null,
+          "title": "Top 14 - Meilleurs moments",
+          "subtitle": null,
+          "description": "Highlights from the French rugby championship (Top 14).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondePacifique.fr",
+            "name": "TV5 Monde Pacifique",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-pacifique",
+            "is_free": false
+          },
+          "start": "2026-07-26T05:59:59+02:00",
+          "end": "2026-07-26T06:52:08+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "28e018a73de2",
+          "sport": "other",
+          "competition": null,
+          "title": "La saga Lorraine-Dietrich",
+          "subtitle": null,
+          "description": "Durant la Belle Époque, la jeune industrie automobile prend une singulière avance en Alsace avec les maîtres de forge de Dietrich. Créateur de voitures de grand luxe et animateur des Grands Prix à la Belle Epoque, motoriste aéronautique de renom international et double vainqueur des 24 Heures du Mans dans les Années Folles, à l'origine d'un consortium géant de l'aviation et constructeur de vedettes. Les automobiles Lorraine-Dietrich furent une référence du luxe à la française. Elle a été la première voiture à rouler au-dessus des 100 km/h pendant 24 heures. Il y avait des points de vente partout, jusqu'à New York. Même la cour de Russie possédait une Lorraine- Dietrich à la fin du XIXe siècle.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ABMoteurs.fr",
+            "name": "Automoto la chaine",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~af9996c05345acc0.png/480x480/quality/100/automoto.png",
+            "slug": "automoto-la-chaine",
+            "is_free": false
+          },
+          "start": "2026-07-26T06:00:00+02:00",
+          "end": "2026-07-26T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cde00348648c",
+          "sport": "football",
+          "competition": "Challenge League -  journée",
+          "title": "Winterthur / Yverdon Sport",
+          "subtitle": "Challenge League -  journée",
+          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
+          "team1": {
+            "name": "Inter Milan",
+            "type": "club",
+            "short": "Inter",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Yverdon Sport",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-26T06:05:00+02:00",
+          "end": "2026-07-26T08:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "773f8cc69200",
+          "sport": "golf",
+          "competition": null,
+          "title": "Omnium britannique senior 2026 - 3e ronde",
+          "subtitle": "3e ronde",
+          "description": "En provenance du Gleneagles Golf Club à Perthshire, en Écosse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-07-26T06:15:00+02:00",
+          "end": "2026-07-26T08:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "edf2dbbb4504",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Sibenik - Vodice",
+          "description": "We will visit the beautiful historical city of Šibenik, explore fascinating Šibenik channel and the Krka river, learn a bit about unique coral handmade jewelry, visit a very interesting museum on the island of Prvić and much more!",
+          "team1": {
+            "name": "Sibenik",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Vodice",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-26T06:30:00+02:00",
+          "end": "2026-07-26T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3a52f1e738fb",
+          "sport": "other",
+          "competition": null,
+          "title": "Memórias",
+          "subtitle": "Belenenses - Salésias",
+          "description": "Espaço de entrevistas às estrelas do passado. As personalidades que fizeram a história do desporto.",
+          "team1": {
+            "name": "Belenenses",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Salésias",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ABOLATV.pt",
+            "name": "A BOLA TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/logos/tv_services/A_BOLA_TV_color.png",
+            "slug": "a-bola-tv",
+            "is_free": false
+          },
+          "start": "2026-07-26T06:35:00+02:00",
+          "end": "2026-07-26T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7ca90b84da33",
+          "sport": "other",
+          "competition": null,
+          "title": "Sports week-end",
+          "subtitle": null,
+          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "France24.fr",
+            "name": "France 24",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
+            "slug": "france-24",
+            "is_free": false
+          },
+          "start": "2026-07-26T06:50:00+02:00",
+          "end": "2026-07-26T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8bfa9247778c",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Cyclisme",
+          "description": "La plus grosse étape de montagne du Tour, avec 5600 mètres de dénivelé positif cumulé, se présente pour la première fois à la veille de l'arrivée finale sur les Champs-Elysées.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-26T07:00:00+02:00",
+          "end": "2026-07-26T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9456ea9219f6",
+          "sport": "other",
+          "competition": null,
+          "title": "Top 14 - Meilleurs moments",
+          "subtitle": null,
+          "description": "Highlights from the French rugby championship (Top 14).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeAsie.fr",
+            "name": "TV5 Monde Asie",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp5gn02MpoZFNnXjMbIY8RwgAw56wNab_U0Ci0T7uh0oD8kfMUkRQdo443WU&amp;s",
+            "slug": "tv5-monde-asie",
+            "is_free": false
+          },
+          "start": "2026-07-26T07:09:28+02:00",
+          "end": "2026-07-26T08:01:36+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9cb9eebd5fac",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP05",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP05",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-26T07:21:00+02:00",
+          "end": "2026-07-26T07:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ae2e7c25d7c6",
+          "sport": "other",
+          "competition": null,
+          "title": "Sports week-end",
+          "subtitle": null,
+          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "France24.fr",
+            "name": "France 24",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
+            "slug": "france-24",
+            "is_free": false
+          },
+          "start": "2026-07-26T07:50:00+02:00",
+          "end": "2026-07-26T08:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
