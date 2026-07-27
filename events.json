@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T14:24:27.333240+00:00",
+    "generated_at": "2026-07-27T17:38:58.596825+00:00",
     "total_events": 904,
     "total_days": 7,
     "sports": [
@@ -23,53 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "la-une",
-        "name": "La Une",
-        "is_free": false
-      },
-      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
         "is_free": false
       },
       {
@@ -78,38 +33,18 @@
         "is_free": false
       },
       {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-4",
         "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "motorvision-tv",
-        "name": "MotorVision TV",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -118,8 +53,33 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-international-1",
         "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "motorvision-tv",
+        "name": "MotorVision TV",
         "is_free": false
       },
       {
@@ -133,8 +93,23 @@
         "is_free": false
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "rds",
         "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -145,6 +120,11 @@
       {
         "slug": "rsi-2",
         "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -188,8 +168,18 @@
         "is_free": false
       },
       {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-8",
         "name": "Eurosport 360 - 8",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -200,6 +190,16 @@
       {
         "slug": "planete-aventure",
         "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "la-une",
+        "name": "La Une",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
         "is_free": false
       },
       {
@@ -410,536 +410,6 @@
       "event_count": 145,
       "events": [
         {
-          "id": "83b3ee43e4f7",
-          "sport": "other",
-          "competition": "Masters de Shanghaï",
-          "title": "Snooker : Masters de Shanghaï",
-          "subtitle": "Masters de Shanghaï. 1er tour.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-27T13:30:00+02:00",
-          "end": "2026-07-27T17:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8ddabf9d9121",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Edgar Berlanga / Steven Butler",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Edgar Berlanga",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Steven Butler",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-07-27T14:30:00+02:00",
-          "end": "2026-07-27T17:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "10c1c584dca0",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Aston Villa",
-          "subtitle": "Premier League - 30e journée",
-          "description": "C'est l'affiche de la 30e journée de Premier League entre deux équipes qui luttent pour une place dans le Top 4, synonyme de qualification directe pour la Ligue des champions. Les Red Devils de Manchester United, emmenés par Bruno Fernandes, accueillent Ollie Watkins et Aston Villa, avec l'avantage d'évoluer devant leur public d'Old Trafford.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-27T14:43:00+02:00",
-          "end": "2026-07-27T16:26:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "457fd433cde9",
-          "sport": "tennis",
-          "competition": "Wimbledon",
-          "title": "Finale messieurs. Jannik Sinner / Alexander Zverev",
-          "subtitle": "Wimbledon",
-          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
-          "team1": {
-            "name": "Finale messieurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Alexander Zverev",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-07-27T14:53:00+02:00",
-          "end": "2026-07-27T17:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5be1145f3123",
-          "sport": "tennis",
-          "competition": "Tournoi de Prague 2026 - Finale",
-          "title": "Tennis: Tournoi de Prague 2026 - Finale",
-          "subtitle": "Finale",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-07-27T15:00:00+02:00",
-          "end": "2026-07-27T17:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "86d754d33ddd",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Borussia Dortmund / Werder Brême",
-          "subtitle": "Bundesliga - 17e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Borussia Dortmund",
-            "type": "club",
-            "short": "BVB",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Werder Brême",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-27T15:26:00+02:00",
-          "end": "2026-07-27T17:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1f99184e333a",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "LaUne.be",
-            "name": "La Une",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~224690346063da36.png/480x480/quality/100/la-une.png",
-            "slug": "la-une",
-            "is_free": false
-          },
-          "start": "2026-07-27T15:30:00+02:00",
-          "end": "2026-07-27T19:23:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9b7271aa5b75",
-          "sport": "f1",
-          "competition": "Grand Prix de Grande-Bretagne",
-          "title": "Voile : Grand Prix de Grande-Bretagne",
-          "subtitle": "Grand Prix de Grande-Bretagne. 2e jour.",
-          "description": "Grand Prix de Grande-Bretagne. 2e jour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-07-27T15:35:00+02:00",
-          "end": "2026-07-27T17:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "27f2acc22b4c",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Séville / Atlético Madrid",
-          "subtitle": "Liga - 31e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-27T15:37:00+02:00",
-          "end": "2026-07-27T17:24:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "462629bc0e36",
-          "sport": "f1",
-          "competition": "Grand Prix de Nashville",
-          "title": "Indycar : Grand Prix de Nashville",
-          "subtitle": "Les temps forts. Grand Prix de Nashville.",
-          "description": "Grand Prix de Nashville. Les temps forts.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-07-27T15:40:00+02:00",
-          "end": "2026-07-27T16:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e91863b7c07a",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Toulouse / Lyon",
-          "subtitle": null,
-          "description": "Match de la 33ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et OL.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-07-27T15:57:00+02:00",
-          "end": "2026-07-27T17:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6bc98b765974",
-          "sport": "golf",
-          "competition": null,
-          "title": "Golf PGA - Omnium 3M, ronde finale",
-          "subtitle": "Omnium 3M, ronde finale",
-          "description": "L'action du golf de la PGA.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-07-27T16:00:00+02:00",
-          "end": "2026-07-27T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dcb207b38376",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot Coupe du Monde 2026 - S01E23",
-          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
-          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-07-27T16:15:00+02:00",
-          "end": "2026-07-27T16:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "235f6392f9bc",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Manchester United",
-          "subtitle": "Premier League - 17e journée",
-          "description": "C'est un match serré dans le haut du classement qui s'annonce entre les Villans et les Red Devils dans cette 17e journée : les hommes d'Unai Emery vont-ils l'emporter à domicile ? Dans le trio de tête de la Premier league, Aston Villa est en course pour le titre avec Arsenal, qu'ils ont fait tomber le 6 décembre dernier (2-1) et Manchester City. De leur côté, Bruno Fernandes et les Mancuniens vont tenter de créer la surprise au Villa Park.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-27T16:20:00+02:00",
-          "end": "2026-07-27T18:04:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cc07f222a85e",
-          "sport": "f1",
-          "competition": "Grand Prix du Canada",
-          "title": "Voile : Grand Prix du Canada",
-          "subtitle": "Les temps forts. Grand Prix du Canada.",
-          "description": "Grand Prix du Canada. Les temps forts.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-07-27T16:35:00+02:00",
-          "end": "2026-07-27T17:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1a9c698695b7",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-27T17:00:00+02:00",
-          "end": "2026-07-27T18:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d647387908fc",
-          "sport": "tennis",
-          "competition": "Tournoi de Hambourg 2026 - Finale",
-          "title": "Tennis: Tournoi de Hambourg 2026 - Finale",
-          "subtitle": "Finale",
-          "description": "En provenance du stade de tennis Rothenbaum à Hambourg, en Allemagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-07-27T17:00:00+02:00",
-          "end": "2026-07-27T19:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0b2843273d5a",
-          "sport": "other",
-          "competition": null,
-          "title": "Master 2 à Saint-Jean-de-Luz. Finale",
-          "subtitle": "Cesta Punta Summer League",
-          "description": "Dans la série de la Cesta Punta Summer League, Biarritz adopte désormais le même format que les autres Masters : demi‑finales et finales directes à chaque étape. Les valeurs sûres du circuit sont présentes, dont l'Américain Gorka Sorozabal, qui décrit la compétition comme un marathon en raison du rythme intense. Qui va s'illustrer dans cet événement incontournable du genre ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-27T17:02:00+02:00",
-          "end": "2026-07-27T18:31:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "405d28eb8d36",
           "sport": "mma",
           "competition": "UFC Fight Night",
@@ -957,117 +427,7 @@
           },
           "start": "2026-07-27T17:05:00+02:00",
           "end": "2026-07-27T20:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a7fd8e7e0717",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Toulouse / Nice",
-          "subtitle": "Ligue 1 McDonald's - 18e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-27T17:14:00+02:00",
-          "end": "2026-07-27T18:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6739913c99c0",
-          "sport": "f1",
-          "competition": null,
-          "title": "Stage 3 & 4, Tagounite-Touizgui / Touizgui-Laayoune",
-          "subtitle": null,
-          "description": "The Africa Eco Race takes adventurers through Africa's deserts and wilderness, testing endurance and navigation in a grueling rally-raid from Morocco to Dakar. Epic motorsport moments await.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MotorVisionTV.fr",
-            "name": "MotorVision TV",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
-            "slug": "motorvision-tv",
-            "is_free": false
-          },
-          "start": "2026-07-27T17:15:00+02:00",
-          "end": "2026-07-27T17:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8348cba7846f",
-          "sport": "f1",
-          "competition": "Grand Prix de Grande-Bretagne",
-          "title": "Voile : Grand Prix de Grande-Bretagne",
-          "subtitle": "Grand Prix de Grande-Bretagne. 2e jour.",
-          "description": "Grand Prix de Grande-Bretagne. 2e jour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-07-27T17:30:00+02:00",
-          "end": "2026-07-27T19:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "08cbbc3b200e",
-          "sport": "other",
-          "competition": null,
-          "title": "Abyss, les plongeurs de l'impossible",
-          "subtitle": "En mer de Cortez (Basse-Californie)",
-          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-07-27T17:37:00+02:00",
-          "end": "2026-07-27T18:32:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1105,55 +465,7 @@
           },
           "start": "2026-07-27T17:59:00+02:00",
           "end": "2026-07-27T19:57:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "358e0a8b5856",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-27T18:00:00+02:00",
-          "end": "2026-07-27T18:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "42a912c590c5",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-27T18:00:00+02:00",
-          "end": "2026-07-27T18:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1191,7 +503,7 @@
           },
           "start": "2026-07-27T18:04:00+02:00",
           "end": "2026-07-27T19:58:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1229,7 +541,7 @@
           },
           "start": "2026-07-27T18:19:00+02:00",
           "end": "2026-07-27T20:07:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1267,55 +579,7 @@
           },
           "start": "2026-07-27T18:26:00+02:00",
           "end": "2026-07-27T20:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2cf9719741b6",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot Coupe du Monde 2026 - S01E23",
-          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
-          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-07-27T18:27:00+02:00",
-          "end": "2026-07-27T19:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "82fe4a150e06",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-27T18:30:00+02:00",
-          "end": "2026-07-27T19:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1339,7 +603,7 @@
           },
           "start": "2026-07-27T19:30:00+02:00",
           "end": "2026-07-27T21:03:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1377,7 +641,7 @@
           },
           "start": "2026-07-27T19:36:00+02:00",
           "end": "2026-07-27T21:23:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4430,6 +3694,30 @@
           "result": null
         },
         {
+          "id": "83b3ee43e4f7",
+          "sport": "other",
+          "competition": "Masters de Shanghaï",
+          "title": "Snooker : Masters de Shanghaï",
+          "subtitle": "Masters de Shanghaï. 1er tour.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-27T13:30:00+02:00",
+          "end": "2026-07-27T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "fd1af5f786d8",
           "sport": "football",
           "competition": null,
@@ -4616,6 +3904,44 @@
           "result": null
         },
         {
+          "id": "8ddabf9d9121",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Edgar Berlanga / Steven Butler",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Edgar Berlanga",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Steven Butler",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-07-27T14:30:00+02:00",
+          "end": "2026-07-27T17:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "801db8480ba8",
           "sport": "f1",
           "competition": "Grand Prix de Hongrie",
@@ -4633,6 +3959,82 @@
           },
           "start": "2026-07-27T14:32:00+02:00",
           "end": "2026-07-27T16:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "10c1c584dca0",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Aston Villa",
+          "subtitle": "Premier League - 30e journée",
+          "description": "C'est l'affiche de la 30e journée de Premier League entre deux équipes qui luttent pour une place dans le Top 4, synonyme de qualification directe pour la Ligue des champions. Les Red Devils de Manchester United, emmenés par Bruno Fernandes, accueillent Ollie Watkins et Aston Villa, avec l'avantage d'évoluer devant leur public d'Old Trafford.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-27T14:43:00+02:00",
+          "end": "2026-07-27T16:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "457fd433cde9",
+          "sport": "tennis",
+          "competition": "Wimbledon",
+          "title": "Finale messieurs. Jannik Sinner / Alexander Zverev",
+          "subtitle": "Wimbledon",
+          "description": "A suivre, les matchs de Wimbledon, un des quatre tournois du Grand Chelem, le plus grand tournoi sur herbe de l'année. Les joueurs doivent se vêtir de blanc.",
+          "team1": {
+            "name": "Finale messieurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Alexander Zverev",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-07-27T14:53:00+02:00",
+          "end": "2026-07-27T17:01:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -4664,6 +4066,30 @@
           "result": null
         },
         {
+          "id": "5be1145f3123",
+          "sport": "tennis",
+          "competition": "Tournoi de Prague 2026 - Finale",
+          "title": "Tennis: Tournoi de Prague 2026 - Finale",
+          "subtitle": "Finale",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-07-27T15:00:00+02:00",
+          "end": "2026-07-27T17:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "8a30b7352ab6",
           "sport": "golf",
           "competition": "HotelPlanner Tour, Open d'Allemagne",
@@ -4681,6 +4107,580 @@
           },
           "start": "2026-07-27T15:15:00+02:00",
           "end": "2026-07-27T15:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "86d754d33ddd",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Borussia Dortmund / Werder Brême",
+          "subtitle": "Bundesliga - 17e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Borussia Dortmund",
+            "type": "club",
+            "short": "BVB",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Werder Brême",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-27T15:26:00+02:00",
+          "end": "2026-07-27T17:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1f99184e333a",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "LaUne.be",
+            "name": "La Une",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~224690346063da36.png/480x480/quality/100/la-une.png",
+            "slug": "la-une",
+            "is_free": false
+          },
+          "start": "2026-07-27T15:30:00+02:00",
+          "end": "2026-07-27T19:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9b7271aa5b75",
+          "sport": "f1",
+          "competition": "Grand Prix de Grande-Bretagne",
+          "title": "Voile : Grand Prix de Grande-Bretagne",
+          "subtitle": "Grand Prix de Grande-Bretagne. 2e jour.",
+          "description": "Grand Prix de Grande-Bretagne. 2e jour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-07-27T15:35:00+02:00",
+          "end": "2026-07-27T17:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "27f2acc22b4c",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Séville / Atlético Madrid",
+          "subtitle": "Liga - 31e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-27T15:37:00+02:00",
+          "end": "2026-07-27T17:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "462629bc0e36",
+          "sport": "f1",
+          "competition": "Grand Prix de Nashville",
+          "title": "Indycar : Grand Prix de Nashville",
+          "subtitle": "Les temps forts. Grand Prix de Nashville.",
+          "description": "Grand Prix de Nashville. Les temps forts.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-07-27T15:40:00+02:00",
+          "end": "2026-07-27T16:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e91863b7c07a",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Toulouse / Lyon",
+          "subtitle": null,
+          "description": "Match de la 33ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant TOULOUSE FC et OL.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-07-27T15:57:00+02:00",
+          "end": "2026-07-27T17:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6bc98b765974",
+          "sport": "golf",
+          "competition": null,
+          "title": "Golf PGA - Omnium 3M, ronde finale",
+          "subtitle": "Omnium 3M, ronde finale",
+          "description": "L'action du golf de la PGA.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-07-27T16:00:00+02:00",
+          "end": "2026-07-27T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dcb207b38376",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot Coupe du Monde 2026 - S01E23",
+          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
+          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-07-27T16:15:00+02:00",
+          "end": "2026-07-27T16:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "235f6392f9bc",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Manchester United",
+          "subtitle": "Premier League - 17e journée",
+          "description": "C'est un match serré dans le haut du classement qui s'annonce entre les Villans et les Red Devils dans cette 17e journée : les hommes d'Unai Emery vont-ils l'emporter à domicile ? Dans le trio de tête de la Premier league, Aston Villa est en course pour le titre avec Arsenal, qu'ils ont fait tomber le 6 décembre dernier (2-1) et Manchester City. De leur côté, Bruno Fernandes et les Mancuniens vont tenter de créer la surprise au Villa Park.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-27T16:20:00+02:00",
+          "end": "2026-07-27T18:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cc07f222a85e",
+          "sport": "f1",
+          "competition": "Grand Prix du Canada",
+          "title": "Voile : Grand Prix du Canada",
+          "subtitle": "Les temps forts. Grand Prix du Canada.",
+          "description": "Grand Prix du Canada. Les temps forts.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-07-27T16:35:00+02:00",
+          "end": "2026-07-27T17:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1a9c698695b7",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de France. 20e étape . Le Bourg d'Oisans - Alpe d'Huez (170,9 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-27T17:00:00+02:00",
+          "end": "2026-07-27T18:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d647387908fc",
+          "sport": "tennis",
+          "competition": "Tournoi de Hambourg 2026 - Finale",
+          "title": "Tennis: Tournoi de Hambourg 2026 - Finale",
+          "subtitle": "Finale",
+          "description": "En provenance du stade de tennis Rothenbaum à Hambourg, en Allemagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-07-27T17:00:00+02:00",
+          "end": "2026-07-27T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0b2843273d5a",
+          "sport": "other",
+          "competition": null,
+          "title": "Master 2 à Saint-Jean-de-Luz. Finale",
+          "subtitle": "Cesta Punta Summer League",
+          "description": "Dans la série de la Cesta Punta Summer League, Biarritz adopte désormais le même format que les autres Masters : demi‑finales et finales directes à chaque étape. Les valeurs sûres du circuit sont présentes, dont l'Américain Gorka Sorozabal, qui décrit la compétition comme un marathon en raison du rythme intense. Qui va s'illustrer dans cet événement incontournable du genre ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-27T17:02:00+02:00",
+          "end": "2026-07-27T18:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a7fd8e7e0717",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Toulouse / Nice",
+          "subtitle": "Ligue 1 McDonald's - 18e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-27T17:14:00+02:00",
+          "end": "2026-07-27T18:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6739913c99c0",
+          "sport": "f1",
+          "competition": null,
+          "title": "Stage 3 & 4, Tagounite-Touizgui / Touizgui-Laayoune",
+          "subtitle": null,
+          "description": "The Africa Eco Race takes adventurers through Africa's deserts and wilderness, testing endurance and navigation in a grueling rally-raid from Morocco to Dakar. Epic motorsport moments await.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MotorVisionTV.fr",
+            "name": "MotorVision TV",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
+            "slug": "motorvision-tv",
+            "is_free": false
+          },
+          "start": "2026-07-27T17:15:00+02:00",
+          "end": "2026-07-27T17:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8348cba7846f",
+          "sport": "f1",
+          "competition": "Grand Prix de Grande-Bretagne",
+          "title": "Voile : Grand Prix de Grande-Bretagne",
+          "subtitle": "Grand Prix de Grande-Bretagne. 2e jour.",
+          "description": "Grand Prix de Grande-Bretagne. 2e jour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-07-27T17:30:00+02:00",
+          "end": "2026-07-27T19:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "08cbbc3b200e",
+          "sport": "other",
+          "competition": null,
+          "title": "Abyss, les plongeurs de l'impossible",
+          "subtitle": "En mer de Cortez (Basse-Californie)",
+          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-07-27T17:37:00+02:00",
+          "end": "2026-07-27T18:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "358e0a8b5856",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de France. 21e étape . Paris Champs-Elysées - Paris Champs-Elysées (89 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-27T18:00:00+02:00",
+          "end": "2026-07-27T18:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "42a912c590c5",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-27T18:00:00+02:00",
+          "end": "2026-07-27T18:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2cf9719741b6",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot Coupe du Monde 2026 - S01E23",
+          "subtitle": "Quotidienne spéciale pour la coupe du monde de football",
+          "description": "Désiré Camara & Lucas Dru débriefent l'actualité de la coupe du monde de football aux Etats-Unis, Canada et Mexique",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-07-27T18:27:00+02:00",
+          "end": "2026-07-27T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "82fe4a150e06",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-27T18:30:00+02:00",
+          "end": "2026-07-27T19:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
