@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-28T06:23:06.611284+00:00",
+    "generated_at": "2026-07-28T10:30:36.102902+00:00",
     "total_events": 856,
     "total_days": 7,
     "sports": [
@@ -23,68 +23,18 @@
     ],
     "channels": [
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
-        "is_free": false
-      },
-      {
-        "slug": "motorvision-tv",
-        "name": "MotorVision TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
         "slug": "eurosport-international-1",
         "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -95,6 +45,11 @@
       {
         "slug": "canal-plus-sport-4",
         "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -113,8 +68,23 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-10",
         "name": "EUROSPORT 360 10",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -138,6 +108,11 @@
         "is_free": false
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
         "slug": "rsi-2",
         "name": "RSI 2",
         "is_free": false
@@ -153,6 +128,16 @@
         "is_free": false
       },
       {
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "real-madrid-tv",
         "name": "REAL MADRID TV",
         "is_free": false
@@ -160,6 +145,21 @@
       {
         "slug": "nouvellecaledonie",
         "name": "NouvelleCaledonie",
+        "is_free": false
+      },
+      {
+        "slug": "motorvision-tv",
+        "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
         "is_free": false
       },
       {
@@ -385,444 +385,6 @@
       "event_count": 110,
       "events": [
         {
-          "id": "a8d514c503c8",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Paris-SG / Paris FC",
-          "subtitle": "Ligue 1 McDonald's - 17e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-28T06:25:00+02:00",
-          "end": "2026-07-28T08:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2b926fe8a70e",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "West Ham / Manchester United",
-          "subtitle": "Premier League - 26e journée",
-          "description": "A la lutte pour leur maintien en Premier League, les Hammers de West Ham United accueillent des Red Devils de Manchester, en grande forme et de retour dans le Top 5 du classement. La mission semble compliquée pour Alphonse Areola et les siens, même s'ils sont capables d'exploit, à l'image de leur victoire à Tottenham (1-2), le 17 janvier dernier.",
-          "team1": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-28T07:07:00+02:00",
-          "end": "2026-07-28T08:52:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4ac54d8102c8",
-          "sport": "other",
-          "competition": "Premier League",
-          "title": "Arsenal / Everton",
-          "subtitle": "Premier League - 30e journée",
-          "description": null,
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-28T07:28:00+02:00",
-          "end": "2026-07-28T09:16:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "00b399ed4fe3",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "St. Pauli / Hambourg",
-          "subtitle": "Bundesliga - 19e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hambourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-28T07:46:00+02:00",
-          "end": "2026-07-28T09:27:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "189932c2d039",
-          "sport": "other",
-          "competition": "Masters de Shanghaï",
-          "title": "Snooker : Masters de Shanghaï",
-          "subtitle": "Masters de Shanghaï. 2e tour.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-28T08:00:00+02:00",
-          "end": "2026-07-28T11:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5ac65acaa476",
-          "sport": "basket",
-          "competition": "NBA Summer League",
-          "title": "Basket-ball : NBA Summer League",
-          "subtitle": null,
-          "description": "Suivez les matchs de la plus célèbre ligue de basketball, même pendant l'été, avec la NBA Summer League. C'est le moment idéal pour les équipes de tester leurs joueurs qui ont eu peu de temps de jeu pendant la saison régulière, et l'occasion pour ces derniers de montrer tout leur talent et leur savoir-faire.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-07-28T08:00:00+02:00",
-          "end": "2026-07-28T09:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "86563a87b3a4",
-          "sport": "f1",
-          "competition": null,
-          "title": "Grand Prix of Chalone S/Saone, France",
-          "subtitle": null,
-          "description": "The FIM X-Trial World Championship is an international indoor motorcycle trials championship that features some of the best riders in the world competing in highly technical and challenging obstacle courses. In X-Trial events, riders navigate through a series of sections that include obstacles such as rocks, logs, and other challenging terrain, aiming to complete the course with the fewest penalties.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MotorVisionTV.fr",
-            "name": "MotorVision TV",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
-            "slug": "motorvision-tv",
-            "is_free": false
-          },
-          "start": "2026-07-28T08:35:00+02:00",
-          "end": "2026-07-28T09:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1fe037746236",
-          "sport": "f1",
-          "competition": "Grand Prix de Hongrie",
-          "title": "Formule 1 : Grand Prix de Hongrie",
-          "subtitle": null,
-          "description": "Qui s'imposera sur le Hungaroring ? Après un début de saison dominé par Kimi Antonelli, la concurrence s'est rapprochée et au moins quatre pilotes différents parmi lesquels le Monégasque Charles Leclerc ont déjà remporté un Grand Prix lors de cette saison 2026. Sur un circuit où les dépassements sont difficiles, la position sur la grille, la stratégie et la gestion des pneus pourraient décider du vainqueur.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-28T08:40:00+02:00",
-          "end": "2026-07-28T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "174f0a744373",
-          "sport": "football",
-          "competition": "Challenge League -  journée",
-          "title": "Winterthur / Yverdon Sport",
-          "subtitle": "Challenge League -  journée",
-          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
-          "team1": {
-            "name": "Inter Milan",
-            "type": "club",
-            "short": "Inter",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Yverdon Sport",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-28T09:25:00+02:00",
-          "end": "2026-07-28T11:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "db8b20740a8f",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Toulouse / Nice",
-          "subtitle": "Ligue 1 McDonald's - 18e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-28T09:27:00+02:00",
-          "end": "2026-07-28T11:11:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d6724de2e88a",
-          "sport": "other",
-          "competition": "Premier League",
-          "title": "Newcastle / Sunderland",
-          "subtitle": "Premier League - 31e journée",
-          "description": null,
-          "team1": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-28T09:29:00+02:00",
-          "end": "2026-07-28T11:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c92f8ee4b0b8",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Edgar Berlanga / Steven Butler",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Edgar Berlanga",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Steven Butler",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-07-28T09:30:00+02:00",
-          "end": "2026-07-28T12:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d8515cc3863f",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Augsbourg / Hoffenheim",
-          "subtitle": "Bundesliga - 29e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Augsbourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hoffenheim",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-28T09:47:00+02:00",
-          "end": "2026-07-28T11:31:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "47480e66f81e",
           "sport": "mma",
           "competition": "PFL",
@@ -840,141 +402,7 @@
           },
           "start": "2026-07-28T10:11:00+02:00",
           "end": "2026-07-28T12:59:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dfafc147ee87",
-          "sport": "other",
-          "competition": null,
-          "title": "Compton Magic - Saison 1",
-          "subtitle": "Episode 3",
-          "description": "Les superstars du basket-ball ne naissent pas : elles se construisent progressivement grâce à l'entraînement, au mentorat, à la collaboration et au travail acharné !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-07-28T10:25:00+02:00",
-          "end": "2026-07-28T11:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "59d4ba6afc30",
-          "sport": "other",
-          "competition": null,
-          "title": "Abyss, les plongeurs de l'impossible",
-          "subtitle": "En mer de Cortez (Basse-Californie)",
-          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-07-28T10:52:00+02:00",
-          "end": "2026-07-28T11:47:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2d4906bc00e9",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Biograd - Ugljan",
-          "description": "We are continuing our adventure journeying through beautiful islands of the Zadar archipelago, but our first stop is Biograd, a host of the largest Boat Show in this part of Europe. After that, we'll visit some stunning islands of Olib, Silba and Premuda and head over to Ugljan and Pašman. Stay with us!",
-          "team1": {
-            "name": "Biograd",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ugljan",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-28T11:00:00+02:00",
-          "end": "2026-07-28T11:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "093622364188",
-          "sport": "other",
-          "competition": null,
-          "title": "Compton Magic - Saison 1",
-          "subtitle": "Episode 4",
-          "description": "Les superstars du basket-ball ne naissent pas : elles se construisent progressivement grâce à l'entraînement, au mentorat, à la collaboration et au travail acharné !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-07-28T11:10:00+02:00",
-          "end": "2026-07-28T11:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "47f394725726",
-          "sport": "f1",
-          "competition": "Grand Prix de Hongrie",
-          "title": "Formule 2 : Grand Prix de Hongrie",
-          "subtitle": null,
-          "description": "9e course de la saison 2024, le Grand Prix de Hongrie de Formule 2 se déroule sur le célèbre circuit du Hungaroring, à Budapest. Le classement est dominé par le Français Isack Hadjar.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-28T11:14:00+02:00",
-          "end": "2026-07-28T12:29:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -998,45 +426,7 @@
           },
           "start": "2026-07-28T11:30:00+02:00",
           "end": "2026-07-28T13:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "db28820f0490",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Zadar - Nin",
-          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
-          "team1": {
-            "name": "Zadar",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-28T11:30:00+02:00",
-          "end": "2026-07-28T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1074,7 +464,7 @@
           },
           "start": "2026-07-28T11:32:00+02:00",
           "end": "2026-07-28T13:18:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1112,7 +502,7 @@
           },
           "start": "2026-07-28T12:00:00+02:00",
           "end": "2026-07-28T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1150,7 +540,7 @@
           },
           "start": "2026-07-28T12:16:00+02:00",
           "end": "2026-07-28T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1188,7 +578,7 @@
           },
           "start": "2026-07-28T12:20:00+02:00",
           "end": "2026-07-28T14:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1212,7 +602,7 @@
           },
           "start": "2026-07-28T12:29:00+02:00",
           "end": "2026-07-28T13:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3737,6 +3127,44 @@
           "result": null
         },
         {
+          "id": "a8d514c503c8",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Paris-SG / Paris FC",
+          "subtitle": "Ligue 1 McDonald's - 17e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-28T06:25:00+02:00",
+          "end": "2026-07-28T08:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "496bf5edf52c",
           "sport": "other",
           "competition": "Coupe du monde de sprint",
@@ -3754,6 +3182,44 @@
           },
           "start": "2026-07-28T07:00:00+02:00",
           "end": "2026-07-28T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2b926fe8a70e",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "West Ham / Manchester United",
+          "subtitle": "Premier League - 26e journée",
+          "description": "A la lutte pour leur maintien en Premier League, les Hammers de West Ham United accueillent des Red Devils de Manchester, en grande forme et de retour dans le Top 5 du classement. La mission semble compliquée pour Alphonse Areola et les siens, même s'ils sont capables d'exploit, à l'image de leur victoire à Tottenham (1-2), le 17 janvier dernier.",
+          "team1": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-28T07:07:00+02:00",
+          "end": "2026-07-28T08:52:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -3799,6 +3265,44 @@
           "result": null
         },
         {
+          "id": "4ac54d8102c8",
+          "sport": "other",
+          "competition": "Premier League",
+          "title": "Arsenal / Everton",
+          "subtitle": "Premier League - 30e journée",
+          "description": null,
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-28T07:28:00+02:00",
+          "end": "2026-07-28T09:16:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "2c5eed88a05d",
           "sport": "other",
           "competition": "Coupe du monde de sprint",
@@ -3816,6 +3320,502 @@
           },
           "start": "2026-07-28T07:30:00+02:00",
           "end": "2026-07-28T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "00b399ed4fe3",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "St. Pauli / Hambourg",
+          "subtitle": "Bundesliga - 19e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hambourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-28T07:46:00+02:00",
+          "end": "2026-07-28T09:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "189932c2d039",
+          "sport": "other",
+          "competition": "Masters de Shanghaï",
+          "title": "Snooker : Masters de Shanghaï",
+          "subtitle": "Masters de Shanghaï. 2e tour.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-28T08:00:00+02:00",
+          "end": "2026-07-28T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5ac65acaa476",
+          "sport": "basket",
+          "competition": "NBA Summer League",
+          "title": "Basket-ball : NBA Summer League",
+          "subtitle": null,
+          "description": "Suivez les matchs de la plus célèbre ligue de basketball, même pendant l'été, avec la NBA Summer League. C'est le moment idéal pour les équipes de tester leurs joueurs qui ont eu peu de temps de jeu pendant la saison régulière, et l'occasion pour ces derniers de montrer tout leur talent et leur savoir-faire.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-07-28T08:00:00+02:00",
+          "end": "2026-07-28T09:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "86563a87b3a4",
+          "sport": "f1",
+          "competition": null,
+          "title": "Grand Prix of Chalone S/Saone, France",
+          "subtitle": null,
+          "description": "The FIM X-Trial World Championship is an international indoor motorcycle trials championship that features some of the best riders in the world competing in highly technical and challenging obstacle courses. In X-Trial events, riders navigate through a series of sections that include obstacles such as rocks, logs, and other challenging terrain, aiming to complete the course with the fewest penalties.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MotorVisionTV.fr",
+            "name": "MotorVision TV",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
+            "slug": "motorvision-tv",
+            "is_free": false
+          },
+          "start": "2026-07-28T08:35:00+02:00",
+          "end": "2026-07-28T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1fe037746236",
+          "sport": "f1",
+          "competition": "Grand Prix de Hongrie",
+          "title": "Formule 1 : Grand Prix de Hongrie",
+          "subtitle": null,
+          "description": "Qui s'imposera sur le Hungaroring ? Après un début de saison dominé par Kimi Antonelli, la concurrence s'est rapprochée et au moins quatre pilotes différents parmi lesquels le Monégasque Charles Leclerc ont déjà remporté un Grand Prix lors de cette saison 2026. Sur un circuit où les dépassements sont difficiles, la position sur la grille, la stratégie et la gestion des pneus pourraient décider du vainqueur.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-28T08:40:00+02:00",
+          "end": "2026-07-28T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "174f0a744373",
+          "sport": "football",
+          "competition": "Challenge League -  journée",
+          "title": "Winterthur / Yverdon Sport",
+          "subtitle": "Challenge League -  journée",
+          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
+          "team1": {
+            "name": "Inter Milan",
+            "type": "club",
+            "short": "Inter",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Yverdon Sport",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-28T09:25:00+02:00",
+          "end": "2026-07-28T11:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "db8b20740a8f",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Toulouse / Nice",
+          "subtitle": "Ligue 1 McDonald's - 18e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-28T09:27:00+02:00",
+          "end": "2026-07-28T11:11:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d6724de2e88a",
+          "sport": "other",
+          "competition": "Premier League",
+          "title": "Newcastle / Sunderland",
+          "subtitle": "Premier League - 31e journée",
+          "description": null,
+          "team1": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-28T09:29:00+02:00",
+          "end": "2026-07-28T11:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c92f8ee4b0b8",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Edgar Berlanga / Steven Butler",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Edgar Berlanga",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Steven Butler",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-07-28T09:30:00+02:00",
+          "end": "2026-07-28T12:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d8515cc3863f",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Augsbourg / Hoffenheim",
+          "subtitle": "Bundesliga - 29e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Augsbourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hoffenheim",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-28T09:47:00+02:00",
+          "end": "2026-07-28T11:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dfafc147ee87",
+          "sport": "other",
+          "competition": null,
+          "title": "Compton Magic - Saison 1",
+          "subtitle": "Episode 3",
+          "description": "Les superstars du basket-ball ne naissent pas : elles se construisent progressivement grâce à l'entraînement, au mentorat, à la collaboration et au travail acharné !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-07-28T10:25:00+02:00",
+          "end": "2026-07-28T11:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "59d4ba6afc30",
+          "sport": "other",
+          "competition": null,
+          "title": "Abyss, les plongeurs de l'impossible",
+          "subtitle": "En mer de Cortez (Basse-Californie)",
+          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-07-28T10:52:00+02:00",
+          "end": "2026-07-28T11:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2d4906bc00e9",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Biograd - Ugljan",
+          "description": "We are continuing our adventure journeying through beautiful islands of the Zadar archipelago, but our first stop is Biograd, a host of the largest Boat Show in this part of Europe. After that, we'll visit some stunning islands of Olib, Silba and Premuda and head over to Ugljan and Pašman. Stay with us!",
+          "team1": {
+            "name": "Biograd",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ugljan",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-28T11:00:00+02:00",
+          "end": "2026-07-28T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "093622364188",
+          "sport": "other",
+          "competition": null,
+          "title": "Compton Magic - Saison 1",
+          "subtitle": "Episode 4",
+          "description": "Les superstars du basket-ball ne naissent pas : elles se construisent progressivement grâce à l'entraînement, au mentorat, à la collaboration et au travail acharné !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-07-28T11:10:00+02:00",
+          "end": "2026-07-28T11:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "47f394725726",
+          "sport": "f1",
+          "competition": "Grand Prix de Hongrie",
+          "title": "Formule 2 : Grand Prix de Hongrie",
+          "subtitle": null,
+          "description": "9e course de la saison 2024, le Grand Prix de Hongrie de Formule 2 se déroule sur le célèbre circuit du Hungaroring, à Budapest. Le classement est dominé par le Français Isack Hadjar.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-28T11:14:00+02:00",
+          "end": "2026-07-28T12:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "db28820f0490",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Zadar - Nin",
+          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
+          "team1": {
+            "name": "Zadar",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-28T11:30:00+02:00",
+          "end": "2026-07-28T12:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
