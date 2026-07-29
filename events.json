@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-29T02:13:18.507167+00:00",
+    "generated_at": "2026-07-29T06:27:57.513571+00:00",
     "total_events": 876,
     "total_days": 7,
     "sports": [
@@ -23,23 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -48,43 +33,8 @@
         "is_free": false
       },
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-4",
         "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "motorvision-tv",
-        "name": "MotorVision TV",
-        "is_free": false
-      },
-      {
-        "slug": "my-zen-tv",
-        "name": "My Zen TV",
         "is_free": false
       },
       {
@@ -95,6 +45,11 @@
       {
         "slug": "evenements-sports-4k-uhd",
         "name": "Evenements Sports 4K UHD",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -113,6 +68,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "bein-3",
         "name": "beIN SPORTS 3",
         "is_free": false
@@ -120,6 +80,11 @@
       {
         "slug": "t-l-sud",
         "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -163,6 +128,16 @@
         "is_free": true
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "motorvision-tv",
+        "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
         "slug": "martinique-1-re",
         "name": "Martinique 1ère",
         "is_free": false
@@ -170,6 +145,21 @@
       {
         "slug": "voo-sport-world-2",
         "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
         "is_free": false
       },
       {
@@ -225,6 +215,16 @@
       {
         "slug": "eurosport-international-1",
         "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "my-zen-tv",
+        "name": "My Zen TV",
         "is_free": false
       },
       {
@@ -420,378 +420,6 @@
       "event_count": 137,
       "events": [
         {
-          "id": "ce63bd1edab1",
-          "sport": "mma",
-          "competition": "UFC",
-          "title": "MMA : UFC",
-          "subtitle": null,
-          "description": "L'UFC Fight Night 282 se déroule à l'Etihad Arena d'Abu Dhabi, aux Emirats arabes unis. Un combat des mi-lourds entre l'ancien champion de l'UFC Magomed Ankalaev et l'ancien challenger au titre Khalil Rountree Jr. est la tête d'affiche de l'événement. Un combat poids lourd entre Rizvan Kuniev et Tyrell Fortune est également à l'affiche.",
-          "team1": {
-            "name": "Rizvan Kuniev",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Tyrell Fortune est également",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-07-29T02:00:00+02:00",
-          "end": "2026-07-29T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9477e415819b",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris Saint-Germain - Arsenal",
-          "subtitle": null,
-          "description": "Finale de l'UEFA Champions League : Paris Saint-Germain - Arsenal.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-07-29T02:30:00+02:00",
-          "end": "2026-07-29T05:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "10d53b75f7e2",
-          "sport": "other",
-          "competition": null,
-          "title": "Historia que tú hiciste",
-          "subtitle": "La Novena. Final Champions League 2001/2002. Bayer Leverkusen-Real Madrid",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-07-29T03:10:00+02:00",
-          "end": "2026-07-29T05:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c474b90da12f",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Red Sox de Boston c. Athletics d'Oakland",
-          "subtitle": "Red Sox de Boston c. Athletics d'Oakland",
-          "description": "Couverture de tous les plus grands matchs de la MLB dans leur intégralité.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-07-29T03:30:00+02:00",
-          "end": "2026-07-29T06:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ed0f4590587d",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "FC Union Berlin / Eintracht Francfort",
-          "subtitle": "Bundesliga - 21e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "FC Union Berlin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Eintracht Francfort",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-29T03:36:00+02:00",
-          "end": "2026-07-29T05:22:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "974e340efe55",
-          "sport": "football",
-          "competition": "Match amical - Match amical",
-          "title": "Liverpool / Sunderland",
-          "subtitle": "Match amical - Match amical",
-          "description": "Retransmission d'un match amical des équipes de football. Regardez vos équipes de football préférées se préparer pour la saison régulière ou pendant les trèves internationales.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-29T04:00:00+02:00",
-          "end": "2026-07-29T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ac071b641680",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-29T04:00:00+02:00",
-          "end": "2026-07-29T04:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "32303f933b61",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Atlético Madrid / Betis Séville",
-          "subtitle": "Liga - 23e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Betis Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-29T04:03:00+02:00",
-          "end": "2026-07-29T05:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "24559f72bd57",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Tottenham / Arsenal",
-          "subtitle": "Premier League - 27e journée",
-          "description": "Les Gunners d'Arsenal, leaders inaccessibles de Premier League, se déplacent chez les Spurs de Tottenham qui font du surplace dans le ventre mou du classement. Lors du match aller, en novembre dernier, Arsenal avait dominé Tottenham (4-1), grâce à un triplé d'Eberechi Eze. William Saliba et les siens vont-ils confirmer leur supériorité au Tottenham Hotspur Stadium ?",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-29T04:10:00+02:00",
-          "end": "2026-07-29T06:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "864abab18422",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-29T04:30:00+02:00",
-          "end": "2026-07-29T05:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ae7f512f7178",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Tour de l'Ain | 1re étape",
-          "subtitle": "Parc des Oiseaux – Bourg-en-Bres...",
-          "description": "Retransmission du Tour de l'Ain, course de cyclisme de route, faisant partie de l'UCI Europe Tour. Appelée aussi le Prix de l'Amitié, cette course a été créée en 1989 et se déroule chaque année. Cette course par étapes est organisée dans le département de l'Ain aux nombreuses plaines et relief montagneux.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-07-29T05:00:00+02:00",
-          "end": "2026-07-29T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f9a87c548c50",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Biograd - Ugljan",
-          "description": "We are continuing our adventure journeying through beautiful islands of the Zadar archipelago, but our first stop is Biograd, a host of the largest Boat Show in this part of Europe. After that, we'll visit some stunning islands of Olib, Silba and Premuda and head over to Ugljan and Pašman. Stay with us!",
-          "team1": {
-            "name": "Biograd",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ugljan",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-29T05:00:00+02:00",
-          "end": "2026-07-29T05:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "5f2b3ace2052",
           "sport": "tennis",
           "competition": "Mubadala Citi DC Open 2026 - 1re ronde, ATP",
@@ -809,155 +437,7 @@
           },
           "start": "2026-07-29T05:00:00+02:00",
           "end": "2026-07-29T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3b270a0eb765",
-          "sport": "f1",
-          "competition": null,
-          "title": "Stage 3 & 4, Tagounite-Touizgui / Touizgui-Laayoune",
-          "subtitle": null,
-          "description": "The Africa Eco Race takes adventurers through Africa's deserts and wilderness, testing endurance and navigation in a grueling rally-raid from Morocco to Dakar. Epic motorsport moments await.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MotorVisionTV.fr",
-            "name": "MotorVision TV",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
-            "slug": "motorvision-tv",
-            "is_free": false
-          },
-          "start": "2026-07-29T05:20:00+02:00",
-          "end": "2026-07-29T05:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ffd693346131",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Zadar - Nin",
-          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
-          "team1": {
-            "name": "Zadar",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-29T05:30:00+02:00",
-          "end": "2026-07-29T06:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "470c0e17bb17",
-          "sport": "basket",
-          "competition": null,
-          "title": "Fais ton sport à la maison !",
-          "subtitle": "Spécial basket-ball",
-          "description": "Une séance spéciale basket-ball vous est proposé par les coachs Teric et Elsa. Aucun accessoire n'est nécessaire mais vous allez reproduire des déplacements, des dribbles ou des doubles pas comme si vous étiez à un entrainement de basket afin de vous dépenser au maximum !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MyZenTV.fr",
-            "name": "My Zen TV",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
-            "slug": "my-zen-tv",
-            "is_free": false
-          },
-          "start": "2026-07-29T07:00:00+02:00",
-          "end": "2026-07-29T07:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "86ebd839a238",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Biograd - Ugljan",
-          "description": "We have arrived at the heart of the Croatian coast, the royal town of Biograd and the island Ugljan known for top quality olive and fish products. We are going to visit the beautiful Crvena Luka resort, the indescribably pretty Telašćica nature park and reveal one little island lost in time.",
-          "team1": {
-            "name": "Biograd",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ugljan",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-29T07:00:00+02:00",
-          "end": "2026-07-29T07:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7009ccd32c80",
-          "sport": "other",
-          "competition": null,
-          "title": "Premier League Preview",
-          "subtitle": "Calendrier 2026/2027",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-29T07:25:00+02:00",
-          "end": "2026-07-29T07:41:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -995,45 +475,7 @@
           },
           "start": "2026-07-29T07:30:00+02:00",
           "end": "2026-07-29T09:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1561efecd0c6",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Zadar - Nin",
-          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
-          "team1": {
-            "name": "Zadar",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-29T07:30:00+02:00",
-          "end": "2026-07-29T08:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1071,7 +513,7 @@
           },
           "start": "2026-07-29T07:32:00+02:00",
           "end": "2026-07-29T09:17:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1109,7 +551,7 @@
           },
           "start": "2026-07-29T07:41:00+02:00",
           "end": "2026-07-29T09:21:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1147,7 +589,7 @@
           },
           "start": "2026-07-29T07:41:00+02:00",
           "end": "2026-07-29T09:21:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1185,7 +627,7 @@
           },
           "start": "2026-07-29T07:42:00+02:00",
           "end": "2026-07-29T09:28:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1223,7 +665,7 @@
           },
           "start": "2026-07-29T07:43:00+02:00",
           "end": "2026-07-29T09:37:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1247,7 +689,7 @@
           },
           "start": "2026-07-29T08:00:00+02:00",
           "end": "2026-07-29T09:59:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1271,7 +713,7 @@
           },
           "start": "2026-07-29T08:00:00+02:00",
           "end": "2026-07-29T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1295,7 +737,7 @@
           },
           "start": "2026-07-29T08:00:00+02:00",
           "end": "2026-07-29T09:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1319,7 +761,7 @@
           },
           "start": "2026-07-29T08:00:00+02:00",
           "end": "2026-07-29T09:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4470,6 +3912,44 @@
           "result": null
         },
         {
+          "id": "ce63bd1edab1",
+          "sport": "mma",
+          "competition": "UFC",
+          "title": "MMA : UFC",
+          "subtitle": null,
+          "description": "L'UFC Fight Night 282 se déroule à l'Etihad Arena d'Abu Dhabi, aux Emirats arabes unis. Un combat des mi-lourds entre l'ancien champion de l'UFC Magomed Ankalaev et l'ancien challenger au titre Khalil Rountree Jr. est la tête d'affiche de l'événement. Un combat poids lourd entre Rizvan Kuniev et Tyrell Fortune est également à l'affiche.",
+          "team1": {
+            "name": "Rizvan Kuniev",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Tyrell Fortune est également",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-07-29T02:00:00+02:00",
+          "end": "2026-07-29T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "a6dc652fa5d6",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -4546,6 +4026,30 @@
           "result": null
         },
         {
+          "id": "9477e415819b",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris Saint-Germain - Arsenal",
+          "subtitle": null,
+          "description": "Finale de l'UEFA Champions League : Paris Saint-Germain - Arsenal.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-07-29T02:30:00+02:00",
+          "end": "2026-07-29T05:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "b97afad5fcf4",
           "sport": "cyclisme",
           "competition": "Tour de l'Ain",
@@ -4594,6 +4098,30 @@
           "result": null
         },
         {
+          "id": "10d53b75f7e2",
+          "sport": "other",
+          "competition": null,
+          "title": "Historia que tú hiciste",
+          "subtitle": "La Novena. Final Champions League 2001/2002. Bayer Leverkusen-Real Madrid",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-07-29T03:10:00+02:00",
+          "end": "2026-07-29T05:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "9665a673cb3b",
           "sport": "football",
           "competition": null,
@@ -4611,6 +4139,478 @@
           },
           "start": "2026-07-29T03:15:00+02:00",
           "end": "2026-07-29T03:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c474b90da12f",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Red Sox de Boston c. Athletics d'Oakland",
+          "subtitle": "Red Sox de Boston c. Athletics d'Oakland",
+          "description": "Couverture de tous les plus grands matchs de la MLB dans leur intégralité.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-07-29T03:30:00+02:00",
+          "end": "2026-07-29T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ed0f4590587d",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "FC Union Berlin / Eintracht Francfort",
+          "subtitle": "Bundesliga - 21e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "FC Union Berlin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Eintracht Francfort",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-29T03:36:00+02:00",
+          "end": "2026-07-29T05:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "974e340efe55",
+          "sport": "football",
+          "competition": "Match amical - Match amical",
+          "title": "Liverpool / Sunderland",
+          "subtitle": "Match amical - Match amical",
+          "description": "Retransmission d'un match amical des équipes de football. Regardez vos équipes de football préférées se préparer pour la saison régulière ou pendant les trèves internationales.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-29T04:00:00+02:00",
+          "end": "2026-07-29T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ac071b641680",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-29T04:00:00+02:00",
+          "end": "2026-07-29T04:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "32303f933b61",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Atlético Madrid / Betis Séville",
+          "subtitle": "Liga - 23e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Betis Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-29T04:03:00+02:00",
+          "end": "2026-07-29T05:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "24559f72bd57",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Tottenham / Arsenal",
+          "subtitle": "Premier League - 27e journée",
+          "description": "Les Gunners d'Arsenal, leaders inaccessibles de Premier League, se déplacent chez les Spurs de Tottenham qui font du surplace dans le ventre mou du classement. Lors du match aller, en novembre dernier, Arsenal avait dominé Tottenham (4-1), grâce à un triplé d'Eberechi Eze. William Saliba et les siens vont-ils confirmer leur supériorité au Tottenham Hotspur Stadium ?",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-29T04:10:00+02:00",
+          "end": "2026-07-29T06:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "864abab18422",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-29T04:30:00+02:00",
+          "end": "2026-07-29T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ae7f512f7178",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Tour de l'Ain | 1re étape",
+          "subtitle": "Parc des Oiseaux – Bourg-en-Bres...",
+          "description": "Retransmission du Tour de l'Ain, course de cyclisme de route, faisant partie de l'UCI Europe Tour. Appelée aussi le Prix de l'Amitié, cette course a été créée en 1989 et se déroule chaque année. Cette course par étapes est organisée dans le département de l'Ain aux nombreuses plaines et relief montagneux.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-07-29T05:00:00+02:00",
+          "end": "2026-07-29T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f9a87c548c50",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Biograd - Ugljan",
+          "description": "We are continuing our adventure journeying through beautiful islands of the Zadar archipelago, but our first stop is Biograd, a host of the largest Boat Show in this part of Europe. After that, we'll visit some stunning islands of Olib, Silba and Premuda and head over to Ugljan and Pašman. Stay with us!",
+          "team1": {
+            "name": "Biograd",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ugljan",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-29T05:00:00+02:00",
+          "end": "2026-07-29T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3b270a0eb765",
+          "sport": "f1",
+          "competition": null,
+          "title": "Stage 3 & 4, Tagounite-Touizgui / Touizgui-Laayoune",
+          "subtitle": null,
+          "description": "The Africa Eco Race takes adventurers through Africa's deserts and wilderness, testing endurance and navigation in a grueling rally-raid from Morocco to Dakar. Epic motorsport moments await.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MotorVisionTV.fr",
+            "name": "MotorVision TV",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEKF4mLTy1d2W3Jw4NQR47ODPSzbhQkjli_roOyw8xlF7pJsf-8jbcXwY3iI&amp;s",
+            "slug": "motorvision-tv",
+            "is_free": false
+          },
+          "start": "2026-07-29T05:20:00+02:00",
+          "end": "2026-07-29T05:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ffd693346131",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Zadar - Nin",
+          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
+          "team1": {
+            "name": "Zadar",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-29T05:30:00+02:00",
+          "end": "2026-07-29T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "470c0e17bb17",
+          "sport": "basket",
+          "competition": null,
+          "title": "Fais ton sport à la maison !",
+          "subtitle": "Spécial basket-ball",
+          "description": "Une séance spéciale basket-ball vous est proposé par les coachs Teric et Elsa. Aucun accessoire n'est nécessaire mais vous allez reproduire des déplacements, des dribbles ou des doubles pas comme si vous étiez à un entrainement de basket afin de vous dépenser au maximum !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MyZenTV.fr",
+            "name": "My Zen TV",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
+            "slug": "my-zen-tv",
+            "is_free": false
+          },
+          "start": "2026-07-29T07:00:00+02:00",
+          "end": "2026-07-29T07:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "86ebd839a238",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Biograd - Ugljan",
+          "description": "We have arrived at the heart of the Croatian coast, the royal town of Biograd and the island Ugljan known for top quality olive and fish products. We are going to visit the beautiful Crvena Luka resort, the indescribably pretty Telašćica nature park and reveal one little island lost in time.",
+          "team1": {
+            "name": "Biograd",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ugljan",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-29T07:00:00+02:00",
+          "end": "2026-07-29T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7009ccd32c80",
+          "sport": "other",
+          "competition": null,
+          "title": "Premier League Preview",
+          "subtitle": "Calendrier 2026/2027",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-29T07:25:00+02:00",
+          "end": "2026-07-29T07:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1561efecd0c6",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Zadar - Nin",
+          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
+          "team1": {
+            "name": "Zadar",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-29T07:30:00+02:00",
+          "end": "2026-07-29T08:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
