@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-30T10:21:09.407928+00:00",
+    "generated_at": "2026-07-30T13:50:21.386957+00:00",
     "total_events": 892,
     "total_days": 7,
     "sports": [
@@ -22,68 +22,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "a-bola-tv",
-        "name": "A BOLA TV",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
         "slug": "eurosport-360-10",
         "name": "EUROSPORT 360 10",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -97,8 +37,8 @@
         "is_free": false
       },
       {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -112,9 +52,14 @@
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
       },
       {
         "slug": "voo-sport-world-2",
@@ -122,8 +67,23 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
         "slug": "martinique-1-re",
         "name": "Martinique 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -144,6 +104,16 @@
       {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
         "is_free": false
       },
       {
@@ -182,6 +152,11 @@
         "is_free": false
       },
       {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
         "is_free": false
@@ -197,8 +172,23 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
         "slug": "cheval-tv",
         "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -210,6 +200,16 @@
         "slug": "canal-plus",
         "name": "Canal+ UHD",
         "is_free": false
+      },
+      {
+        "slug": "a-bola-tv",
+        "name": "A BOLA TV",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "tva-sports-2",
@@ -444,368 +444,6 @@
       "event_count": 126,
       "events": [
         {
-          "id": "2531a6614803",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Betis Séville / Real Madrid",
-          "subtitle": "Liga - 32e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Betis Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-30T11:19:00+02:00",
-          "end": "2026-07-30T13:06:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "115ff5adfcee",
-          "sport": "football",
-          "competition": "Ligue des champions - Quart de f",
-          "title": "Paris-SG / Liverpool",
-          "subtitle": "Ligue des champions - Quart de f...",
-          "description": "Après avoir dominé les Blues de Chelsea en 8es de finale, le Paris Saint-Germain retrouve un autre club anglais en quarts avec la réception des Reds de Liverpool.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-07-30T11:33:00+02:00",
-          "end": "2026-07-30T13:13:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f8543dcf8673",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Lorient / Lille",
-          "subtitle": null,
-          "description": "Match de football comptant pour la 3ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant FC LORIENT et LOSC LILLE",
-          "team1": {
-            "name": "Lorient",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-07-30T12:00:00+02:00",
-          "end": "2026-07-30T13:42:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "18c8720babeb",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Tottenham / Manchester City",
-          "subtitle": "Premier League - 24e journée",
-          "description": "En se rendant à Londres défier les Spurs de Tottenham, dont la saison est un chemin de croix, Manchester City espère bien prendre trois points et rester au contact d'Arsenal, le leader. Emmenés par le meilleur buteur du championnat, l'international Norvégien Erling Haaland, les Citizens devront cependant se méfier d'une réaction d'orgueil de Randal Kolo Muani et des siens.",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-07-30T12:09:00+02:00",
-          "end": "2026-07-30T14:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8353f2f6bbe9",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Edgar Berlanga / Steven Butler",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Edgar Berlanga",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Steven Butler",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-07-30T12:15:00+02:00",
-          "end": "2026-07-30T15:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d3414a0fe389",
-          "sport": "voile",
-          "competition": null,
-          "title": "2e jour",
-          "subtitle": "Grand Prix de Grande-Bretagne",
-          "description": "Après les premières courses disputées dans le Solent, le Sail Grand Prix de Grande-Bretagne livre son verdict à Portsmouth, lors de cette deuxième journée de compétition. Leaders du championnat, les Bonds Flying Roos de Tom Slingsby restent les principaux favoris. A domicile et soutenus par leur public, Dylan Fletcher et Emirates GBR tenteront de se mêler à la lutte pour la victoire tout comme Quentin Delapierre et les Français de DS Automobiles.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-30T12:16:00+02:00",
-          "end": "2026-07-30T13:43:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c646a33b9165",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Borussia Dortmund / Fribourg",
-          "subtitle": "Bundesliga - 31e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Borussia Dortmund",
-            "type": "club",
-            "short": "BVB",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-30T12:27:00+02:00",
-          "end": "2026-07-30T14:08:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "157e3e74e67c",
-          "sport": "voile",
-          "competition": null,
-          "title": "2e jour",
-          "subtitle": "Grand Prix de Grande-Bretagne",
-          "description": "Après les premières courses disputées dans le Solent, le Sail Grand Prix de Grande-Bretagne livre son verdict à Portsmouth, lors de cette deuxième journée de compétition. Leaders du championnat, les Bonds Flying Roos de Tom Slingsby restent les principaux favoris. A domicile et soutenus par leur public, Dylan Fletcher et Emirates GBR tenteront de se mêler à la lutte pour la victoire tout comme Quentin Delapierre et les Français de DS Automobiles.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-07-30T12:45:00+02:00",
-          "end": "2026-07-30T14:11:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ffec06c219ce",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Young Boys Berne / FC Sion",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Young Boys Berne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Sion",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-07-30T12:55:00+02:00",
-          "end": "2026-07-30T15:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5136a46e5aea",
-          "sport": "cyclisme",
-          "competition": "UCI Tour Of Qinghai",
-          "title": "Ciclismo: UCI Tour Of Qinghai",
-          "subtitle": null,
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ABOLATV.pt",
-            "name": "A BOLA TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/logos/tv_services/A_BOLA_TV_color.png",
-            "slug": "a-bola-tv",
-            "is_free": false
-          },
-          "start": "2026-07-30T13:00:00+02:00",
-          "end": "2026-07-30T14:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "af524fa94591",
-          "sport": "cyclisme",
-          "competition": "Tour de l'Ain",
-          "title": "Cyclisme : Tour de l'Ain",
-          "subtitle": "Saint-Vulbas - Lagnieu (161,9 km). Tour de l'Ain. 2e étape.",
-          "description": "Tour de l'Ain. 2e étape. Saint-Vulbas - Lagnieu (161,9 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-07-30T13:30:00+02:00",
-          "end": "2026-07-30T14:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "bf34d3ca29f0",
           "sport": "other",
           "competition": "Masters de Shanghaï",
@@ -823,69 +461,7 @@
           },
           "start": "2026-07-30T13:30:00+02:00",
           "end": "2026-07-30T17:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "66dee3183210",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Tour de l'Ain | 2e étape",
-          "subtitle": "Saint-Vulbas – Lagnieu (161,9km)",
-          "description": "Retransmission du Tour de l'Ain, course de cyclisme de route, faisant partie de l'UCI Europe Tour. Appelée aussi le Prix de l'Amitié, cette course a été créée en 1989 et se déroule chaque année. Cette course par étapes est organisée dans le département de l'Ain aux nombreuses plaines et relief montagneux.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-07-30T13:30:00+02:00",
-          "end": "2026-07-30T14:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b515a35f1676",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lorient / Angers",
-          "subtitle": "Ligue 1 McDonald's - 22e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Lorient",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Angers SCO",
-            "type": "club",
-            "short": "Angers",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-07-30T13:43:00+02:00",
-          "end": "2026-07-30T15:26:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -909,7 +485,7 @@
           },
           "start": "2026-07-30T13:45:00+02:00",
           "end": "2026-07-30T17:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -933,45 +509,7 @@
           },
           "start": "2026-07-30T13:45:00+02:00",
           "end": "2026-07-30T16:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9da17a6fb254",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / West Ham",
-          "subtitle": "Premier League - 28e journée",
-          "description": "En accueillant West Ham, qui lutte pour son maintien en Premier League, les Reds de Liverpool visent les trois points de la victoire pour rester au contact du Top 5 au classement. Mohamed Salah et les siens alternent le bon et le moins bon en ce début d'année. Le public d'Anfield attend le meilleur des Reds face à West Ham.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-07-30T14:00:00+02:00",
-          "end": "2026-07-30T15:46:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1009,31 +547,7 @@
           },
           "start": "2026-07-30T14:00:00+02:00",
           "end": "2026-07-30T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "19b4090ed9e6",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": "Coupe du monde de sprint. Sprint 2 World Cup Duisburg.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-30T14:00:00+02:00",
-          "end": "2026-07-30T14:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1057,7 +571,7 @@
           },
           "start": "2026-07-30T14:00:00+02:00",
           "end": "2026-07-30T18:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1095,31 +609,7 @@
           },
           "start": "2026-07-30T14:00:00+02:00",
           "end": "2026-07-30T16:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0064b52a94de",
-          "sport": "other",
-          "competition": null,
-          "title": "Fierté Burkinabè - Edmond Tapsoba",
-          "subtitle": "Edmond Tapsoba fierté Burkinabé",
-          "description": ".",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-07-30T14:08:00+02:00",
-          "end": "2026-07-30T14:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1143,55 +633,7 @@
           },
           "start": "2026-07-30T14:30:00+02:00",
           "end": "2026-07-30T16:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "78a997270bdf",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": "Coupe du monde de sprint. Sprint 3 World Cup Montemor.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-07-30T14:30:00+02:00",
-          "end": "2026-07-30T15:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1abdbca86a9b",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-trail",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-07-30T14:30:00+02:00",
-          "end": "2026-07-30T15:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1229,7 +671,7 @@
           },
           "start": "2026-07-30T14:55:00+02:00",
           "end": "2026-07-30T16:37:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1267,7 +709,7 @@
           },
           "start": "2026-07-30T15:10:00+02:00",
           "end": "2026-07-30T17:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1291,7 +733,7 @@
           },
           "start": "2026-07-30T15:20:00+02:00",
           "end": "2026-07-30T16:15:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1329,31 +771,7 @@
           },
           "start": "2026-07-30T15:26:00+02:00",
           "end": "2026-07-30T17:09:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe8f90a830b1",
-          "sport": "other",
-          "competition": null,
-          "title": "Team Zarco - Saison 4",
-          "subtitle": "Episode 1",
-          "description": "Cet épisode s'ouvre sur un moment charnière de la carrière de Johann Zarco. Victime d'une lourde chute lors du Grand Prix de Barcelone, le 17 mai dernier, le pilote Honda LCR a été contraint de s'éloigner des circuits pour la première fois en dix-sept ans de carrière. Une épreuve inédite qu'il a choisi de partager sans filtre avec les caméras de CANAL+.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-07-30T15:26:00+02:00",
-          "end": "2026-07-30T15:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1377,7 +795,7 @@
           },
           "start": "2026-07-30T15:40:00+02:00",
           "end": "2026-07-30T16:42:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1415,7 +833,7 @@
           },
           "start": "2026-07-30T15:46:00+02:00",
           "end": "2026-07-30T17:32:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4326,6 +3744,44 @@
           "result": null
         },
         {
+          "id": "2531a6614803",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Betis Séville / Real Madrid",
+          "subtitle": "Liga - 32e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Betis Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-30T11:19:00+02:00",
+          "end": "2026-07-30T13:06:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "3440dc8c0790",
           "sport": "ski",
           "competition": "Aquabike",
@@ -4343,6 +3799,550 @@
           },
           "start": "2026-07-30T11:30:00+02:00",
           "end": "2026-07-30T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "115ff5adfcee",
+          "sport": "football",
+          "competition": "Ligue des champions - Quart de f",
+          "title": "Paris-SG / Liverpool",
+          "subtitle": "Ligue des champions - Quart de f...",
+          "description": "Après avoir dominé les Blues de Chelsea en 8es de finale, le Paris Saint-Germain retrouve un autre club anglais en quarts avec la réception des Reds de Liverpool.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-07-30T11:33:00+02:00",
+          "end": "2026-07-30T13:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f8543dcf8673",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Lorient / Lille",
+          "subtitle": null,
+          "description": "Match de football comptant pour la 3ème journée du Championnat de France de Ligue 1 McDonald's 2025/26 opposant FC LORIENT et LOSC LILLE",
+          "team1": {
+            "name": "Lorient",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-07-30T12:00:00+02:00",
+          "end": "2026-07-30T13:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "18c8720babeb",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Tottenham / Manchester City",
+          "subtitle": "Premier League - 24e journée",
+          "description": "En se rendant à Londres défier les Spurs de Tottenham, dont la saison est un chemin de croix, Manchester City espère bien prendre trois points et rester au contact d'Arsenal, le leader. Emmenés par le meilleur buteur du championnat, l'international Norvégien Erling Haaland, les Citizens devront cependant se méfier d'une réaction d'orgueil de Randal Kolo Muani et des siens.",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-07-30T12:09:00+02:00",
+          "end": "2026-07-30T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8353f2f6bbe9",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Edgar Berlanga / Steven Butler",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Edgar Berlanga",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Steven Butler",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-07-30T12:15:00+02:00",
+          "end": "2026-07-30T15:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d3414a0fe389",
+          "sport": "voile",
+          "competition": null,
+          "title": "2e jour",
+          "subtitle": "Grand Prix de Grande-Bretagne",
+          "description": "Après les premières courses disputées dans le Solent, le Sail Grand Prix de Grande-Bretagne livre son verdict à Portsmouth, lors de cette deuxième journée de compétition. Leaders du championnat, les Bonds Flying Roos de Tom Slingsby restent les principaux favoris. A domicile et soutenus par leur public, Dylan Fletcher et Emirates GBR tenteront de se mêler à la lutte pour la victoire tout comme Quentin Delapierre et les Français de DS Automobiles.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-30T12:16:00+02:00",
+          "end": "2026-07-30T13:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c646a33b9165",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Borussia Dortmund / Fribourg",
+          "subtitle": "Bundesliga - 31e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Borussia Dortmund",
+            "type": "club",
+            "short": "BVB",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-30T12:27:00+02:00",
+          "end": "2026-07-30T14:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "157e3e74e67c",
+          "sport": "voile",
+          "competition": null,
+          "title": "2e jour",
+          "subtitle": "Grand Prix de Grande-Bretagne",
+          "description": "Après les premières courses disputées dans le Solent, le Sail Grand Prix de Grande-Bretagne livre son verdict à Portsmouth, lors de cette deuxième journée de compétition. Leaders du championnat, les Bonds Flying Roos de Tom Slingsby restent les principaux favoris. A domicile et soutenus par leur public, Dylan Fletcher et Emirates GBR tenteront de se mêler à la lutte pour la victoire tout comme Quentin Delapierre et les Français de DS Automobiles.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-07-30T12:45:00+02:00",
+          "end": "2026-07-30T14:11:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ffec06c219ce",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Young Boys Berne / FC Sion",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Young Boys Berne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Sion",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-07-30T12:55:00+02:00",
+          "end": "2026-07-30T15:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5136a46e5aea",
+          "sport": "cyclisme",
+          "competition": "UCI Tour Of Qinghai",
+          "title": "Ciclismo: UCI Tour Of Qinghai",
+          "subtitle": null,
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ABOLATV.pt",
+            "name": "A BOLA TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/logos/tv_services/A_BOLA_TV_color.png",
+            "slug": "a-bola-tv",
+            "is_free": false
+          },
+          "start": "2026-07-30T13:00:00+02:00",
+          "end": "2026-07-30T14:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "af524fa94591",
+          "sport": "cyclisme",
+          "competition": "Tour de l'Ain",
+          "title": "Cyclisme : Tour de l'Ain",
+          "subtitle": "Saint-Vulbas - Lagnieu (161,9 km). Tour de l'Ain. 2e étape.",
+          "description": "Tour de l'Ain. 2e étape. Saint-Vulbas - Lagnieu (161,9 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-07-30T13:30:00+02:00",
+          "end": "2026-07-30T14:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "66dee3183210",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Tour de l'Ain | 2e étape",
+          "subtitle": "Saint-Vulbas – Lagnieu (161,9km)",
+          "description": "Retransmission du Tour de l'Ain, course de cyclisme de route, faisant partie de l'UCI Europe Tour. Appelée aussi le Prix de l'Amitié, cette course a été créée en 1989 et se déroule chaque année. Cette course par étapes est organisée dans le département de l'Ain aux nombreuses plaines et relief montagneux.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-07-30T13:30:00+02:00",
+          "end": "2026-07-30T14:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b515a35f1676",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lorient / Angers",
+          "subtitle": "Ligue 1 McDonald's - 22e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Lorient",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Angers SCO",
+            "type": "club",
+            "short": "Angers",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-07-30T13:43:00+02:00",
+          "end": "2026-07-30T15:26:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9da17a6fb254",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / West Ham",
+          "subtitle": "Premier League - 28e journée",
+          "description": "En accueillant West Ham, qui lutte pour son maintien en Premier League, les Reds de Liverpool visent les trois points de la victoire pour rester au contact du Top 5 au classement. Mohamed Salah et les siens alternent le bon et le moins bon en ce début d'année. Le public d'Anfield attend le meilleur des Reds face à West Ham.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-07-30T14:00:00+02:00",
+          "end": "2026-07-30T15:46:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "19b4090ed9e6",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": "Coupe du monde de sprint. Sprint 2 World Cup Duisburg.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-30T14:00:00+02:00",
+          "end": "2026-07-30T14:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0064b52a94de",
+          "sport": "other",
+          "competition": null,
+          "title": "Fierté Burkinabè - Edmond Tapsoba",
+          "subtitle": "Edmond Tapsoba fierté Burkinabé",
+          "description": ".",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-07-30T14:08:00+02:00",
+          "end": "2026-07-30T14:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "78a997270bdf",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": "Coupe du monde de sprint. Sprint 3 World Cup Montemor.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-07-30T14:30:00+02:00",
+          "end": "2026-07-30T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1abdbca86a9b",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-trail",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-07-30T14:30:00+02:00",
+          "end": "2026-07-30T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe8f90a830b1",
+          "sport": "other",
+          "competition": null,
+          "title": "Team Zarco - Saison 4",
+          "subtitle": "Episode 1",
+          "description": "Cet épisode s'ouvre sur un moment charnière de la carrière de Johann Zarco. Victime d'une lourde chute lors du Grand Prix de Barcelone, le 17 mai dernier, le pilote Honda LCR a été contraint de s'éloigner des circuits pour la première fois en dix-sept ans de carrière. Une épreuve inédite qu'il a choisi de partager sans filtre avec les caméras de CANAL+.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-07-30T15:26:00+02:00",
+          "end": "2026-07-30T15:45:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
