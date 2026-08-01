@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-01T02:28:15.136117+00:00",
+    "generated_at": "2026-08-01T06:25:01.403537+00:00",
     "total_events": 1048,
     "total_days": 7,
     "sports": [
@@ -22,66 +22,6 @@
     ],
     "channels": [
       {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "rds-info",
-        "name": "RDS Info",
-        "is_free": false
-      },
-      {
-        "slug": "france-3-nouvelle-aquitaine",
-        "name": "France 3 Nouvelle Aquitaine",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "bein-2",
-        "name": "beIN SPORTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tv7-bordeaux",
-        "name": "TV7 Bordeaux",
-        "is_free": false
-      },
-      {
-        "slug": "france-24",
-        "name": "France 24",
-        "is_free": false
-      },
-      {
         "slug": "tva-sports-2",
         "name": "TVA Sports 2",
         "is_free": false
@@ -92,8 +32,18 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-foot",
         "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -119,6 +69,26 @@
       {
         "slug": "nautical-channel",
         "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "tv7-bordeaux",
+        "name": "TV7 Bordeaux",
+        "is_free": false
+      },
+      {
+        "slug": "france-24",
+        "name": "France 24",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -194,6 +164,11 @@
       {
         "slug": "eurosport-360-6",
         "name": "Eurosport 360 - 6",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -274,6 +249,31 @@
       {
         "slug": "ligue-1-3",
         "name": "Ligue 1+ 3",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "rds-info",
+        "name": "RDS Info",
+        "is_free": false
+      },
+      {
+        "slug": "france-3-nouvelle-aquitaine",
+        "name": "France 3 Nouvelle Aquitaine",
+        "is_free": false
+      },
+      {
+        "slug": "bein-2",
+        "name": "beIN SPORTS 2",
         "is_free": false
       },
       {
@@ -404,374 +404,6 @@
       "event_count": 151,
       "events": [
         {
-          "id": "92620402962c",
-          "sport": "tennis",
-          "competition": "Mubadala Citi DC Open 2026 - Quarts de finale, ATP",
-          "title": "Tennis: Mubadala Citi DC Open 2026 - Quarts de finale, ATP",
-          "subtitle": "Quarts de finale, ATP",
-          "description": "En provenance du Rock Creek Park Tennis Center dans le District de Columbia.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-08-01T00:00:00+02:00",
-          "end": "2026-08-01T04:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "094a61d51d3a",
-          "sport": "golf",
-          "competition": null,
-          "title": "Omnium britannique féminin 2026 - 2e ronde",
-          "subtitle": "2e ronde",
-          "description": "En provenance du Royal Lytham & St. Annes Golf Course à Lytham St Annes, en Angleterre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDSInfo.ca",
-            "name": "RDS Info",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s39080_h15_ab.png",
-            "slug": "rds-info",
-            "is_free": false
-          },
-          "start": "2026-08-01T01:00:00+02:00",
-          "end": "2026-08-01T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a034a6299c84",
-          "sport": "equitation",
-          "competition": "Coupe du monde FEI de saut d'obstacles à Bordeaux",
-          "title": "Equitation : Coupe du monde FEI de saut d'obstacles à Bordeaux",
-          "subtitle": null,
-          "description": "Le résumé n'est pas disponible",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "France3NouvelleAquitaine.fr",
-            "name": "France 3 Nouvelle Aquitaine",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/998/canal-ouah/CHN43FB/CHN43FB_998_20220112?=.png",
-            "slug": "france-3-nouvelle-aquitaine",
-            "is_free": false
-          },
-          "start": "2026-08-01T03:13:00+02:00",
-          "end": "2026-08-01T05:23:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9b9d120c4890",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Villarreal",
-          "subtitle": "Liga - 26e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Villarreal",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-01T03:23:00+02:00",
-          "end": "2026-08-01T05:07:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "17b2f8f33c02",
-          "sport": "mma",
-          "competition": "PFL",
-          "title": "MMA : PFL",
-          "subtitle": "PFL New York 31/07",
-          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-01T03:26:00+02:00",
-          "end": "2026-08-01T06:49:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "79747b3302b2",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Chelsea",
-          "subtitle": "Premier League - 29e journée",
-          "description": "Légèrement distancé par Arsenal, Aston Villa peut nourrir l'ambition de contester la deuxième place du classement de Premier League à Manchester City. La réception de Chelsea, pour cette 29e journée, n'a rien d'une promenade de santé pour Lucas Digne et ses partenaires, qui devront livrer un match plein pour empocher les points de la victoire.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chelsea FC",
-            "type": "club",
-            "short": "Chelsea",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-01T03:40:00+02:00",
-          "end": "2026-08-01T06:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fb57cbf29afb",
-          "sport": "cyclisme",
-          "competition": "Tour de France",
-          "title": "Cyclisme : Tour de France",
-          "subtitle": "Tour de France. Les meilleurs moments. UCI World Tour.",
-          "description": "UCI World Tour. Tour de France. Les meilleurs moments.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-01T04:00:00+02:00",
-          "end": "2026-08-01T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "21caab4781f2",
-          "sport": "football",
-          "competition": "Coupe du monde",
-          "title": "FootVolley : Coupe du monde",
-          "subtitle": null,
-          "description": "Découvrez des matchs de la Coupe du Monde de FootVolley, ce sport combinant le beachvolley et le football. Regroupant 16 équipes réparties en quatre groupes, avec les meilleures nations mondiales, ils se battront tous pour obtenir le titre de champion du monde de la catégorie, et finiront la soirée par une belle fête sur la plage.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-08-01T05:00:00+02:00",
-          "end": "2026-08-01T06:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "eb5c72d5a6ce",
-          "sport": "football",
-          "competition": null,
-          "title": "Benfica - San Gallo",
-          "subtitle": "Qualifications pour la Ligue Eur...",
-          "description": "Avant d'entamer la phase principale de la Ligue Europa entre la fin de l'été et le début de l'automne, certains clubs en passent par ces tours de qualification et de barrages.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-08-01T05:20:00+02:00",
-          "end": "2026-08-01T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6b70e81300f3",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Dante - OGC Nice EP05",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Dante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice EP05",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-01T05:51:00+02:00",
-          "end": "2026-08-01T06:59:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6de512d8bf33",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / West Ham",
-          "subtitle": "Premier League - 28e journée",
-          "description": "En accueillant West Ham, qui lutte pour son maintien en Premier League, les Reds de Liverpool visent les trois points de la victoire pour rester au contact du Top 5 au classement. Mohamed Salah et les siens alternent le bon et le moins bon en ce début d'année. Le public d'Anfield attend le meilleur des Reds face à West Ham.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "West Ham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-01T06:01:00+02:00",
-          "end": "2026-08-01T07:46:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3273e0ae4086",
-          "sport": "other",
-          "competition": null,
-          "title": "Fais ton sport à la maison !",
-          "subtitle": "Bien-être full body",
-          "description": "Une séance bien-être douce pour mobiliser vos articulations, respirer pleinement et relâcher les tensions. Renforcement léger, étirements et mobilité au programme. Idéal pour commencer la journée ou s'offrir un moment pour soi.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV7Bordeaux.fr",
-            "name": "TV7 Bordeaux",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4f1c8ecf76e8af37.png/480x480/quality/100/tv7-bordeaux.png",
-            "slug": "tv7-bordeaux",
-            "is_free": false
-          },
-          "start": "2026-08-01T06:10:00+02:00",
-          "end": "2026-08-01T06:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe64830628a6",
-          "sport": "other",
-          "competition": null,
-          "title": "Sports week-end",
-          "subtitle": null,
-          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "France24.fr",
-            "name": "France 24",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
-            "slug": "france-24",
-            "is_free": false
-          },
-          "start": "2026-08-01T06:50:00+02:00",
-          "end": "2026-08-01T07:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "4432674c3960",
           "sport": "other",
           "competition": null,
@@ -789,7 +421,7 @@
           },
           "start": "2026-08-01T07:00:00+02:00",
           "end": "2026-08-01T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -827,7 +459,7 @@
           },
           "start": "2026-08-01T07:34:00+02:00",
           "end": "2026-08-01T09:16:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -865,7 +497,7 @@
           },
           "start": "2026-08-01T07:38:00+02:00",
           "end": "2026-08-01T09:21:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -903,31 +535,7 @@
           },
           "start": "2026-08-01T07:43:00+02:00",
           "end": "2026-08-01T09:24:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a3f47b5e2f18",
-          "sport": "other",
-          "competition": null,
-          "title": "Sports week-end",
-          "subtitle": null,
-          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "France24.fr",
-            "name": "France 24",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
-            "slug": "france-24",
-            "is_free": false
-          },
-          "start": "2026-08-01T07:50:00+02:00",
-          "end": "2026-08-01T08:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -951,7 +559,7 @@
           },
           "start": "2026-08-01T08:00:00+02:00",
           "end": "2026-08-01T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -989,7 +597,7 @@
           },
           "start": "2026-08-01T08:00:00+02:00",
           "end": "2026-08-01T11:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1013,7 +621,7 @@
           },
           "start": "2026-08-01T08:00:00+02:00",
           "end": "2026-08-01T09:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4600,6 +4208,30 @@
           "result": null
         },
         {
+          "id": "92620402962c",
+          "sport": "tennis",
+          "competition": "Mubadala Citi DC Open 2026 - Quarts de finale, ATP",
+          "title": "Tennis: Mubadala Citi DC Open 2026 - Quarts de finale, ATP",
+          "subtitle": "Quarts de finale, ATP",
+          "description": "En provenance du Rock Creek Park Tennis Center dans le District de Columbia.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-08-01T00:00:00+02:00",
+          "end": "2026-08-01T04:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e6481bdcea25",
           "sport": "mma",
           "competition": "PFL",
@@ -4776,6 +4408,30 @@
           "result": null
         },
         {
+          "id": "094a61d51d3a",
+          "sport": "golf",
+          "competition": null,
+          "title": "Omnium britannique féminin 2026 - 2e ronde",
+          "subtitle": "2e ronde",
+          "description": "En provenance du Royal Lytham & St. Annes Golf Course à Lytham St Annes, en Angleterre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDSInfo.ca",
+            "name": "RDS Info",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s39080_h15_ab.png",
+            "slug": "rds-info",
+            "is_free": false
+          },
+          "start": "2026-08-01T01:00:00+02:00",
+          "end": "2026-08-01T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "da9b67f6ae62",
           "sport": "mma",
           "competition": "PFL",
@@ -4917,6 +4573,350 @@
           },
           "start": "2026-08-01T02:28:00+02:00",
           "end": "2026-08-01T04:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a034a6299c84",
+          "sport": "equitation",
+          "competition": "Coupe du monde FEI de saut d'obstacles à Bordeaux",
+          "title": "Equitation : Coupe du monde FEI de saut d'obstacles à Bordeaux",
+          "subtitle": null,
+          "description": "Le résumé n'est pas disponible",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "France3NouvelleAquitaine.fr",
+            "name": "France 3 Nouvelle Aquitaine",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/998/canal-ouah/CHN43FB/CHN43FB_998_20220112?=.png",
+            "slug": "france-3-nouvelle-aquitaine",
+            "is_free": false
+          },
+          "start": "2026-08-01T03:13:00+02:00",
+          "end": "2026-08-01T05:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9b9d120c4890",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Villarreal",
+          "subtitle": "Liga - 26e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Villarreal",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-01T03:23:00+02:00",
+          "end": "2026-08-01T05:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "17b2f8f33c02",
+          "sport": "mma",
+          "competition": "PFL",
+          "title": "MMA : PFL",
+          "subtitle": "PFL New York 31/07",
+          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-01T03:26:00+02:00",
+          "end": "2026-08-01T06:49:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "79747b3302b2",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Chelsea",
+          "subtitle": "Premier League - 29e journée",
+          "description": "Légèrement distancé par Arsenal, Aston Villa peut nourrir l'ambition de contester la deuxième place du classement de Premier League à Manchester City. La réception de Chelsea, pour cette 29e journée, n'a rien d'une promenade de santé pour Lucas Digne et ses partenaires, qui devront livrer un match plein pour empocher les points de la victoire.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chelsea FC",
+            "type": "club",
+            "short": "Chelsea",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-01T03:40:00+02:00",
+          "end": "2026-08-01T06:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fb57cbf29afb",
+          "sport": "cyclisme",
+          "competition": "Tour de France",
+          "title": "Cyclisme : Tour de France",
+          "subtitle": "Tour de France. Les meilleurs moments. UCI World Tour.",
+          "description": "UCI World Tour. Tour de France. Les meilleurs moments.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-01T04:00:00+02:00",
+          "end": "2026-08-01T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "21caab4781f2",
+          "sport": "football",
+          "competition": "Coupe du monde",
+          "title": "FootVolley : Coupe du monde",
+          "subtitle": null,
+          "description": "Découvrez des matchs de la Coupe du Monde de FootVolley, ce sport combinant le beachvolley et le football. Regroupant 16 équipes réparties en quatre groupes, avec les meilleures nations mondiales, ils se battront tous pour obtenir le titre de champion du monde de la catégorie, et finiront la soirée par une belle fête sur la plage.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-08-01T05:00:00+02:00",
+          "end": "2026-08-01T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "eb5c72d5a6ce",
+          "sport": "football",
+          "competition": null,
+          "title": "Benfica - San Gallo",
+          "subtitle": "Qualifications pour la Ligue Eur...",
+          "description": "Avant d'entamer la phase principale de la Ligue Europa entre la fin de l'été et le début de l'automne, certains clubs en passent par ces tours de qualification et de barrages.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-08-01T05:20:00+02:00",
+          "end": "2026-08-01T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6b70e81300f3",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Dante - OGC Nice EP05",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Dante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice EP05",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-01T05:51:00+02:00",
+          "end": "2026-08-01T06:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6de512d8bf33",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / West Ham",
+          "subtitle": "Premier League - 28e journée",
+          "description": "En accueillant West Ham, qui lutte pour son maintien en Premier League, les Reds de Liverpool visent les trois points de la victoire pour rester au contact du Top 5 au classement. Mohamed Salah et les siens alternent le bon et le moins bon en ce début d'année. Le public d'Anfield attend le meilleur des Reds face à West Ham.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "West Ham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-01T06:01:00+02:00",
+          "end": "2026-08-01T07:46:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3273e0ae4086",
+          "sport": "other",
+          "competition": null,
+          "title": "Fais ton sport à la maison !",
+          "subtitle": "Bien-être full body",
+          "description": "Une séance bien-être douce pour mobiliser vos articulations, respirer pleinement et relâcher les tensions. Renforcement léger, étirements et mobilité au programme. Idéal pour commencer la journée ou s'offrir un moment pour soi.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV7Bordeaux.fr",
+            "name": "TV7 Bordeaux",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~4f1c8ecf76e8af37.png/480x480/quality/100/tv7-bordeaux.png",
+            "slug": "tv7-bordeaux",
+            "is_free": false
+          },
+          "start": "2026-08-01T06:10:00+02:00",
+          "end": "2026-08-01T06:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe64830628a6",
+          "sport": "other",
+          "competition": null,
+          "title": "Sports week-end",
+          "subtitle": null,
+          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "France24.fr",
+            "name": "France 24",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
+            "slug": "france-24",
+            "is_free": false
+          },
+          "start": "2026-08-01T06:50:00+02:00",
+          "end": "2026-08-01T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a3f47b5e2f18",
+          "sport": "other",
+          "competition": null,
+          "title": "Sports week-end",
+          "subtitle": null,
+          "description": "L'essentiel de l'actualité sportive avec les chroniqueurs de France 24 de la Ligue des champions, à la NBA, en passant par le tennis, le cyclisme ou encore le cricket.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "France24.fr",
+            "name": "France 24",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~afbbeba076c073d9.png/480x480/quality/100/france-24.png",
+            "slug": "france-24",
+            "is_free": false
+          },
+          "start": "2026-08-01T07:50:00+02:00",
+          "end": "2026-08-01T08:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
