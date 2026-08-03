@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-03T06:55:38.366685+00:00",
+    "generated_at": "2026-08-03T11:18:27.748428+00:00",
     "total_events": 1228,
     "total_days": 7,
     "sports": [
@@ -23,6 +23,26 @@
     ],
     "channels": [
       {
+        "slug": "eurosport-360-7",
+        "name": "Eurosport 360 - 7",
+        "is_free": false
+      },
+      {
+        "slug": "elevenprol1",
+        "name": "ElevenProL1",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
         "is_free": false
@@ -33,8 +53,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
@@ -43,63 +63,13 @@
         "is_free": false
       },
       {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "elevenprol1",
-        "name": "ElevenProL1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-7",
-        "name": "Eurosport 360 - 7",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
         "slug": "eurosport-1",
         "name": "Eurosport 1",
         "is_free": false
       },
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -115,6 +85,16 @@
       {
         "slug": "pickxplussports1n-be",
         "name": "PickxPlusSports1N.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -193,6 +173,11 @@
         "is_free": false
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
         "slug": "bbc-two",
         "name": "BBC Two",
         "is_free": false
@@ -203,6 +188,11 @@
         "is_free": false
       },
       {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
         "slug": "national-geographic",
         "name": "National Geographic",
         "is_free": false
@@ -210,6 +200,11 @@
       {
         "slug": "golf",
         "name": "Golf+",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
         "is_free": false
       },
       {
@@ -260,6 +255,11 @@
       {
         "slug": "automoto-la-chaine",
         "name": "Automoto la chaine",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -460,596 +460,6 @@
       "event_count": 168,
       "events": [
         {
-          "id": "c2e78ea4604f",
-          "sport": "mma",
-          "competition": "Grand Prix de Qingdao",
-          "title": "Judo : Grand Prix de Qingdao",
-          "subtitle": null,
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-08-03T07:00:00+02:00",
-          "end": "2026-08-03T09:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "37854701f3ce",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Rayo Vallecano",
-          "subtitle": "Liga - 22e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-03T07:25:00+02:00",
-          "end": "2026-08-03T09:19:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fb6426b157f8",
-          "sport": "other",
-          "competition": null,
-          "title": "Le Club - Saison 2",
-          "subtitle": "Episode 6",
-          "description": "A la tête du club, on retrouve le trio composé d'Alexandre Mulliez, héritier de l'empire Auchan, écarté de l'aventure familiale et décidé à se réinventer dans un univers où personne ne l'attendait : le football, Fabien Lazare, entrepreneur issu du monde rural, son opposé, alter ego et partenaire dans ce défi hors norme et Pierre Gasly, pilote de Formule 1® et star de l'écurie Alpine.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-03T07:28:00+02:00",
-          "end": "2026-08-03T08:59:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e0f21be27844",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Eintracht Francfort / Cologne",
-          "subtitle": "Bundesliga - 28e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Eintracht Francfort",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cologne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-03T07:56:00+02:00",
-          "end": "2026-08-03T09:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "79199f63e116",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Union Saint-Gilloise / Lille",
-          "subtitle": null,
-          "description": "1ère période du match amical opposant le Royal Union Saint-Gilloise et le LOSC.",
-          "team1": {
-            "name": "Union Saint-Gilloise",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-03T08:00:00+02:00",
-          "end": "2026-08-03T09:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9db314cadd1c",
-          "sport": "football",
-          "competition": null,
-          "title": "Racing Genk / Royale Union Saint-Gilloise",
-          "subtitle": null,
-          "description": "KRC Genk - R. Union SG.",
-          "team1": {
-            "name": "Racing Genk",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Royale Union Saint-Gilloise",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-03T08:20:00+02:00",
-          "end": "2026-08-03T10:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b70364b4531d",
-          "sport": "other",
-          "competition": null,
-          "title": "Kyren Wilson - Judd Trump",
-          "subtitle": "Shanghai Masters | Finale – 2e p...",
-          "description": "Le numéro 8 mondial, l'Anglais Kyren Wilson, remet son titre en jeu à Shanghai. L'an dernier, il s'était imposé en finale face à son compatriote Ali Carter (11-9). Il succédait ainsi au palmarès du tournoi chinois à l'actuel numéro un mondial, Judd Trump, vainqueur en 2024. La légende Ronnie O'Sullivan est le joueur le plus titré à Shanghai. Il a remporté les Masters à cinq reprises (en 2009, 2017, 2018, 2019 et 2023).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-03T08:30:00+02:00",
-          "end": "2026-08-03T10:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7b01083ac085",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Biograd - Ugljan",
-          "description": "We are continuing our adventure journeying through beautiful islands of the Zadar archipelago, but our first stop is Biograd, a host of the largest Boat Show in this part of Europe. After that, we'll visit some stunning islands of Olib, Silba and Premuda and head over to Ugljan and Pašman. Stay with us!",
-          "team1": {
-            "name": "Biograd",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ugljan",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:00:00+02:00",
-          "end": "2026-08-03T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "48001bc1c1b7",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "FC Zurich / Servette Genève",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "FC Zurich",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Servette Genève",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:05:00+02:00",
-          "end": "2026-08-03T11:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0db9167737ce",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Arsenal",
-          "subtitle": "Premier League - 33e journée",
-          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:09:00+02:00",
-          "end": "2026-08-03T10:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ce7cadfa406e",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / FC Séville",
-          "subtitle": "Liga - 17e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:19:00+02:00",
-          "end": "2026-08-03T11:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c687b6f1b6be",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Chelsea",
-          "subtitle": "Premier League - 29e journée",
-          "description": "Légèrement distancé par Arsenal, Aston Villa peut nourrir l'ambition de contester la deuxième place du classement de Premier League à Manchester City. La réception de Chelsea, pour cette 29e journée, n'a rien d'une promenade de santé pour Lucas Digne et ses partenaires, qui devront livrer un match plein pour empocher les points de la victoire.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chelsea FC",
-            "type": "club",
-            "short": "Chelsea",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:20:00+02:00",
-          "end": "2026-08-03T11:06:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e97e406677e0",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Zadar - Nin",
-          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
-          "team1": {
-            "name": "Zadar",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:30:00+02:00",
-          "end": "2026-08-03T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9d5a2905f044",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Nice / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 27e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:35:00+02:00",
-          "end": "2026-08-03T11:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e99fb39f6a21",
-          "sport": "f1",
-          "competition": "Grand Prix de Hongrie",
-          "title": "Formule 1 : Grand Prix de Hongrie",
-          "subtitle": null,
-          "description": "Qui s'imposera sur le Hungaroring ? Après un début de saison dominé par Kimi Antonelli, la concurrence s'est rapprochée et au moins quatre pilotes différents parmi lesquels le Monégasque Charles Leclerc ont déjà remporté un Grand Prix lors de cette saison 2026. Sur un circuit où les dépassements sont difficiles, la position sur la grille, la stratégie et la gestion des pneus pourraient décider du vainqueur.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:51:00+02:00",
-          "end": "2026-08-03T11:42:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "82a7db4dc899",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayern Munich / Cologne",
-          "subtitle": "Bundesliga - 34e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cologne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-03T09:52:00+02:00",
-          "end": "2026-08-03T11:34:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "468afc98157e",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Marseille / Nice",
-          "subtitle": null,
-          "description": "Match amical opposant l'Olympique de Marseille et l'OGC Nice.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-03T10:00:00+02:00",
-          "end": "2026-08-03T11:42:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "d17c0ee7baa5",
           "sport": "cyclisme",
           "competition": "Tour de Pologne",
@@ -1067,69 +477,7 @@
           },
           "start": "2026-08-03T10:30:00+02:00",
           "end": "2026-08-03T17:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f2874e508308",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E51",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-08-03T10:45:00+02:00",
-          "end": "2026-08-03T11:09:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "17f426a757ba",
-          "sport": "football",
-          "competition": "Ligue des champions - Demi-final",
-          "title": "Atlético Madrid / Arsenal",
-          "subtitle": "Ligue des champions - Demi-final...",
-          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-03T11:06:00+02:00",
-          "end": "2026-08-03T12:51:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1167,93 +515,7 @@
           },
           "start": "2026-08-03T11:25:00+02:00",
           "end": "2026-08-03T13:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "50cebd739149",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Sunderland",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Revigoré par sa qualification en demi-finale de la Ligue Europa, Aston Villa était motivé face à Sunderland, à l'occasion de la 33e journée de Premier League. Avant d'aborder ce match, Ollie Watkins et les siens étaient classé 4es, tandis qu'Enzo Le Fée et Sunderland occupaient la 7e place.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Sunderland",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-03T11:28:00+02:00",
-          "end": "2026-08-03T13:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bdf53f2ef0c4",
-          "sport": "other",
-          "competition": "Masters de Shanghaï",
-          "title": "Snooker : Masters de Shanghaï",
-          "subtitle": "Masters de Shanghaï. Finale.",
-          "description": "Masters de Shanghaï. Finale. En Chine.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-03T12:00:00+02:00",
-          "end": "2026-08-03T13:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "293eaa2f5dae",
-          "sport": "other",
-          "competition": null,
-          "title": "Kyren Wilson - Judd Trump",
-          "subtitle": "Shanghai Masters | Finale – 2e p...",
-          "description": "Le numéro 8 mondial, l'Anglais Kyren Wilson, remet son titre en jeu à Shanghai. L'an dernier, il s'était imposé en finale face à son compatriote Ali Carter (11-9). Il succédait ainsi au palmarès du tournoi chinois à l'actuel numéro un mondial, Judd Trump, vainqueur en 2024. La légende Ronnie O'Sullivan est le joueur le plus titré à Shanghai. Il a remporté les Masters à cinq reprises (en 2009, 2017, 2018, 2019 et 2023).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-03T12:00:00+02:00",
-          "end": "2026-08-03T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1291,31 +553,7 @@
           },
           "start": "2026-08-03T12:00:00+02:00",
           "end": "2026-08-03T13:46:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "95573de0398c",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-03T12:00:00+02:00",
-          "end": "2026-08-03T12:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1353,7 +591,7 @@
           },
           "start": "2026-08-03T12:05:00+02:00",
           "end": "2026-08-03T15:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1391,7 +629,7 @@
           },
           "start": "2026-08-03T12:15:00+02:00",
           "end": "2026-08-03T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1429,31 +667,7 @@
           },
           "start": "2026-08-03T12:17:00+02:00",
           "end": "2026-08-03T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3a1dc9aad369",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-03T12:30:00+02:00",
-          "end": "2026-08-03T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1491,31 +705,7 @@
           },
           "start": "2026-08-03T12:31:00+02:00",
           "end": "2026-08-03T14:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "41ed3231115a",
-          "sport": "other",
-          "competition": null,
-          "title": "Més que une finale - 2016, le Top 14 illumine le Camp Nou",
-          "subtitle": "Doc. Sport",
-          "description": "Il y a 10 ans, la finale du Top 14 était délocalisée à Barcelone, dans le mythique Camp Nou. Racontée par les principaux acteurs, retour sur cette finale à l’étranger historique, gagnée par le Racing à 14 contre 15 la quasi-totalité de la rencontre, dans une ambiance survoltée.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-03T12:37:00+02:00",
-          "end": "2026-08-03T13:11:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1539,7 +729,7 @@
           },
           "start": "2026-08-03T12:43:00+02:00",
           "end": "2026-08-03T13:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1563,7 +753,7 @@
           },
           "start": "2026-08-03T13:00:00+02:00",
           "end": "2026-08-03T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5532,6 +4722,30 @@
           "result": null
         },
         {
+          "id": "c2e78ea4604f",
+          "sport": "mma",
+          "competition": "Grand Prix de Qingdao",
+          "title": "Judo : Grand Prix de Qingdao",
+          "subtitle": null,
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-08-03T07:00:00+02:00",
+          "end": "2026-08-03T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "5ef093d1c733",
           "sport": "other",
           "competition": null,
@@ -5549,6 +4763,792 @@
           },
           "start": "2026-08-03T07:12:00+02:00",
           "end": "2026-08-03T08:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "37854701f3ce",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Rayo Vallecano",
+          "subtitle": "Liga - 22e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-03T07:25:00+02:00",
+          "end": "2026-08-03T09:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fb6426b157f8",
+          "sport": "other",
+          "competition": null,
+          "title": "Le Club - Saison 2",
+          "subtitle": "Episode 6",
+          "description": "A la tête du club, on retrouve le trio composé d'Alexandre Mulliez, héritier de l'empire Auchan, écarté de l'aventure familiale et décidé à se réinventer dans un univers où personne ne l'attendait : le football, Fabien Lazare, entrepreneur issu du monde rural, son opposé, alter ego et partenaire dans ce défi hors norme et Pierre Gasly, pilote de Formule 1® et star de l'écurie Alpine.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-03T07:28:00+02:00",
+          "end": "2026-08-03T08:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e0f21be27844",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Eintracht Francfort / Cologne",
+          "subtitle": "Bundesliga - 28e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Eintracht Francfort",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cologne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-03T07:56:00+02:00",
+          "end": "2026-08-03T09:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "79199f63e116",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Union Saint-Gilloise / Lille",
+          "subtitle": null,
+          "description": "1ère période du match amical opposant le Royal Union Saint-Gilloise et le LOSC.",
+          "team1": {
+            "name": "Union Saint-Gilloise",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-03T08:00:00+02:00",
+          "end": "2026-08-03T09:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9db314cadd1c",
+          "sport": "football",
+          "competition": null,
+          "title": "Racing Genk / Royale Union Saint-Gilloise",
+          "subtitle": null,
+          "description": "KRC Genk - R. Union SG.",
+          "team1": {
+            "name": "Racing Genk",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Royale Union Saint-Gilloise",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-03T08:20:00+02:00",
+          "end": "2026-08-03T10:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b70364b4531d",
+          "sport": "other",
+          "competition": null,
+          "title": "Kyren Wilson - Judd Trump",
+          "subtitle": "Shanghai Masters | Finale – 2e p...",
+          "description": "Le numéro 8 mondial, l'Anglais Kyren Wilson, remet son titre en jeu à Shanghai. L'an dernier, il s'était imposé en finale face à son compatriote Ali Carter (11-9). Il succédait ainsi au palmarès du tournoi chinois à l'actuel numéro un mondial, Judd Trump, vainqueur en 2024. La légende Ronnie O'Sullivan est le joueur le plus titré à Shanghai. Il a remporté les Masters à cinq reprises (en 2009, 2017, 2018, 2019 et 2023).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-03T08:30:00+02:00",
+          "end": "2026-08-03T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7b01083ac085",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Biograd - Ugljan",
+          "description": "We are continuing our adventure journeying through beautiful islands of the Zadar archipelago, but our first stop is Biograd, a host of the largest Boat Show in this part of Europe. After that, we'll visit some stunning islands of Olib, Silba and Premuda and head over to Ugljan and Pašman. Stay with us!",
+          "team1": {
+            "name": "Biograd",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ugljan",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:00:00+02:00",
+          "end": "2026-08-03T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "48001bc1c1b7",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "FC Zurich / Servette Genève",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "FC Zurich",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Servette Genève",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:05:00+02:00",
+          "end": "2026-08-03T11:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0db9167737ce",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Arsenal",
+          "subtitle": "Premier League - 33e journée",
+          "description": "A six journées de la fin de la saison, la rencontre entre Manchester City et Arsenal sera-t-elle le tournant décisif du championnat ? Les Gunners, leaders de Premier League, viennent défier leur dauphin mancunien sur leur pelouse, pour toucher du doigt la couronne d'Angleterre. C'est le clash royal à l'Etihad Stadium.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:09:00+02:00",
+          "end": "2026-08-03T10:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ce7cadfa406e",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / FC Séville",
+          "subtitle": "Liga - 17e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:19:00+02:00",
+          "end": "2026-08-03T11:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c687b6f1b6be",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Chelsea",
+          "subtitle": "Premier League - 29e journée",
+          "description": "Légèrement distancé par Arsenal, Aston Villa peut nourrir l'ambition de contester la deuxième place du classement de Premier League à Manchester City. La réception de Chelsea, pour cette 29e journée, n'a rien d'une promenade de santé pour Lucas Digne et ses partenaires, qui devront livrer un match plein pour empocher les points de la victoire.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chelsea FC",
+            "type": "club",
+            "short": "Chelsea",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:20:00+02:00",
+          "end": "2026-08-03T11:06:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e97e406677e0",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Zadar - Nin",
+          "description": "Today we will be exploring the historical city of Zadar, its numerous attractions and some very special secrets. You will also discover with us the biggest marina in Croatia and the amazing old city of Nin.",
+          "team1": {
+            "name": "Zadar",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:30:00+02:00",
+          "end": "2026-08-03T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9d5a2905f044",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Nice / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 27e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:35:00+02:00",
+          "end": "2026-08-03T11:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e99fb39f6a21",
+          "sport": "f1",
+          "competition": "Grand Prix de Hongrie",
+          "title": "Formule 1 : Grand Prix de Hongrie",
+          "subtitle": null,
+          "description": "Qui s'imposera sur le Hungaroring ? Après un début de saison dominé par Kimi Antonelli, la concurrence s'est rapprochée et au moins quatre pilotes différents parmi lesquels le Monégasque Charles Leclerc ont déjà remporté un Grand Prix lors de cette saison 2026. Sur un circuit où les dépassements sont difficiles, la position sur la grille, la stratégie et la gestion des pneus pourraient décider du vainqueur.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:51:00+02:00",
+          "end": "2026-08-03T11:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "82a7db4dc899",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayern Munich / Cologne",
+          "subtitle": "Bundesliga - 34e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cologne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-03T09:52:00+02:00",
+          "end": "2026-08-03T11:34:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "468afc98157e",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Marseille / Nice",
+          "subtitle": null,
+          "description": "Match amical opposant l'Olympique de Marseille et l'OGC Nice.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-03T10:00:00+02:00",
+          "end": "2026-08-03T11:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f2874e508308",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E51",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-08-03T10:45:00+02:00",
+          "end": "2026-08-03T11:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "17f426a757ba",
+          "sport": "football",
+          "competition": "Ligue des champions - Demi-final",
+          "title": "Atlético Madrid / Arsenal",
+          "subtitle": "Ligue des champions - Demi-final...",
+          "description": "L'UEFA Champions League version 2025/2026, dans son format plus concurrentiel, voit la crème de la crème des clubs européens, et les challengers aussi, se défier pour succéder au Paris Saint-Germain sacré en mai 2025. Qui sera en finale le 30 mai 2026 au stade Ferenc-Puskas à Budapest, en Hongrie ?",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-03T11:06:00+02:00",
+          "end": "2026-08-03T12:51:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "50cebd739149",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Sunderland",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Revigoré par sa qualification en demi-finale de la Ligue Europa, Aston Villa était motivé face à Sunderland, à l'occasion de la 33e journée de Premier League. Avant d'aborder ce match, Ollie Watkins et les siens étaient classé 4es, tandis qu'Enzo Le Fée et Sunderland occupaient la 7e place.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-03T11:28:00+02:00",
+          "end": "2026-08-03T13:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bdf53f2ef0c4",
+          "sport": "other",
+          "competition": "Masters de Shanghaï",
+          "title": "Snooker : Masters de Shanghaï",
+          "subtitle": "Masters de Shanghaï. Finale.",
+          "description": "Masters de Shanghaï. Finale. En Chine.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-03T12:00:00+02:00",
+          "end": "2026-08-03T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "293eaa2f5dae",
+          "sport": "other",
+          "competition": null,
+          "title": "Kyren Wilson - Judd Trump",
+          "subtitle": "Shanghai Masters | Finale – 2e p...",
+          "description": "Le numéro 8 mondial, l'Anglais Kyren Wilson, remet son titre en jeu à Shanghai. L'an dernier, il s'était imposé en finale face à son compatriote Ali Carter (11-9). Il succédait ainsi au palmarès du tournoi chinois à l'actuel numéro un mondial, Judd Trump, vainqueur en 2024. La légende Ronnie O'Sullivan est le joueur le plus titré à Shanghai. Il a remporté les Masters à cinq reprises (en 2009, 2017, 2018, 2019 et 2023).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-03T12:00:00+02:00",
+          "end": "2026-08-03T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "95573de0398c",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-03T12:00:00+02:00",
+          "end": "2026-08-03T12:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3a1dc9aad369",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-03T12:30:00+02:00",
+          "end": "2026-08-03T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "41ed3231115a",
+          "sport": "other",
+          "competition": null,
+          "title": "Més que une finale - 2016, le Top 14 illumine le Camp Nou",
+          "subtitle": "Doc. Sport",
+          "description": "Il y a 10 ans, la finale du Top 14 était délocalisée à Barcelone, dans le mythique Camp Nou. Racontée par les principaux acteurs, retour sur cette finale à l’étranger historique, gagnée par le Racing à 14 contre 15 la quasi-totalité de la rencontre, dans une ambiance survoltée.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-03T12:37:00+02:00",
+          "end": "2026-08-03T13:11:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
