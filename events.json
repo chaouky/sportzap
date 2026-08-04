@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-04T06:24:22.356048+00:00",
+    "generated_at": "2026-08-04T10:33:53.111072+00:00",
     "total_events": 1179,
     "total_days": 7,
     "sports": [
@@ -22,38 +22,8 @@
     ],
     "channels": [
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -62,13 +32,18 @@
         "is_free": false
       },
       {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
-        "slug": "evenements-sports-4k-uhd",
-        "name": "Evenements Sports 4K UHD",
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -77,8 +52,33 @@
         "is_free": false
       },
       {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "t-l-sud",
         "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "evenements-sports-4k-uhd",
+        "name": "Evenements Sports 4K UHD",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -434,596 +434,6 @@
       "event_count": 149,
       "events": [
         {
-          "id": "71f2ea52fc18",
-          "sport": "other",
-          "competition": "Masters de Shanghaï",
-          "title": "Snooker : Masters de Shanghaï",
-          "subtitle": "Masters de Shanghai. Finale . Kyren Wilson / Judd Trump. Snooker Main Tour.",
-          "description": "Snooker Main Tour. Masters de Shanghai. Finale . Kyren Wilson / Judd Trump.",
-          "team1": {
-            "name": "Masters de Shanghai",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Judd Trump",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-04T06:30:00+02:00",
-          "end": "2026-08-04T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "056f82d1bb52",
-          "sport": "football",
-          "competition": "Football. Premier League",
-          "title": "Tottenham / Brighton & Hove Albion",
-          "subtitle": "Football. Premier League. 33e journée.",
-          "description": "Premier League. 33e journée. Tottenham / Brighton &amp; Hove Albion.",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brighton & Hove Albion",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-04T06:54:00+02:00",
-          "end": "2026-08-04T08:41:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d073e89c3ef4",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Nottingham Forest",
-          "subtitle": "Premier League - 29e journée",
-          "description": "Manchester City poursuit le double objectif de revenir à hauteur d'Arsenal, en tête de la Premier League, tout en creusant l'écart sur des poursuivants à l'affût du moindre faux pas. Dans ce contexte, la réception de Nottingham Forest, qui lutte pour le maintien, apparaît comme une belle opportunité pour Erling Haaland et les Citizens, vainqueurs à l'aller (1-2), de confirmer leur supériorité et d'entretenir la pression dans la course au titre.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-04T07:07:00+02:00",
-          "end": "2026-08-04T08:52:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6609b453be24",
-          "sport": "cyclisme",
-          "competition": "Tour de France Femmes",
-          "title": "Cyclisme : Tour de France Femmes",
-          "subtitle": "Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km). UCI World Tour Féminin.",
-          "description": "UCI World Tour Féminin. Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-04T07:30:00+02:00",
-          "end": "2026-08-04T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fc7fca5ef7ee",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Atlético Madrid / Betis Séville",
-          "subtitle": "Liga - 23e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Betis Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-04T07:33:00+02:00",
-          "end": "2026-08-04T09:12:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "deef641528ba",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "St. Pauli / Bayern Munich",
-          "subtitle": "Bundesliga - 29e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stade Toulousain",
-            "type": "club",
-            "short": "Toulouse",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-04T07:40:00+02:00",
-          "end": "2026-08-04T09:19:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "28bde391defd",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Galatasaray / Rennes",
-          "subtitle": null,
-          "description": "1ère période du match amical opposant Galatasaray à Rennes.",
-          "team1": {
-            "name": "Galatasaray",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Rennais",
-            "type": "club",
-            "short": "Rennes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-04T08:00:00+02:00",
-          "end": "2026-08-04T09:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d13a74f3c173",
-          "sport": "football",
-          "competition": null,
-          "title": "KVC Westerlo / Saint-Trond",
-          "subtitle": null,
-          "description": "KVC Westerlo - STVV.",
-          "team1": {
-            "name": "KVC Westerlo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Saint-Trond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-04T08:16:00+02:00",
-          "end": "2026-08-04T10:18:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0cdf4e4a2bc3",
-          "sport": "cyclisme",
-          "competition": "Tour de Pologne",
-          "title": "Cyclisme : Tour de Pologne",
-          "subtitle": "Tour de Pologne. 1re étape . Gdynia - Koszalin (234 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour de Pologne. 1re étape . Gdynia - Koszalin (234 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-04T08:30:00+02:00",
-          "end": "2026-08-04T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "391710d48baf",
-          "sport": "other",
-          "competition": "Open du Pays de Galles",
-          "title": "Snooker : Open du Pays de Galles",
-          "subtitle": "Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski. Home Nations Series.",
-          "description": "Home Nations Series. Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski.",
-          "team1": {
-            "name": "Open du Pays de Galles",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Jack Lisowski",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-04T08:30:00+02:00",
-          "end": "2026-08-04T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "14e049b73114",
-          "sport": "football",
-          "competition": "Challenge League",
-          "title": "SC Kriens / Winterthur",
-          "subtitle": "Challenge League - 2e  journée",
-          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
-          "team1": {
-            "name": "SC Kriens",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Inter Milan",
-            "type": "club",
-            "short": "Inter",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-08-04T09:10:00+02:00",
-          "end": "2026-08-04T11:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aa3cdec3ebd8",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Espanyol Barcelone / FC Barcelone",
-          "subtitle": "Liga - 18e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-04T09:12:00+02:00",
-          "end": "2026-08-04T10:53:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f9faa574ebe9",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lille / Lens",
-          "subtitle": "Ligue 1 McDonald's - 28e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-04T09:19:00+02:00",
-          "end": "2026-08-04T11:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a29859c2155f",
-          "sport": "cyclisme",
-          "competition": "Tour de France Femmes",
-          "title": "Cyclisme : Tour de France Femmes",
-          "subtitle": "Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km). UCI World Tour Féminin.",
-          "description": "UCI World Tour Féminin. Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-04T09:30:00+02:00",
-          "end": "2026-08-04T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9e88187466cf",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Football : Premier League",
-          "subtitle": "Football. Premier League. 35e journée.",
-          "description": "Le leader, Arsenal, reçoit les Cottagers de Fulham, avec l'intention de décrocher une nouvelle victoire et de se rapprocher un peu plus du titre de champion d'Angleterre. A l'aller, les Gunners s'étaient imposés (0-1) sur la pelouse de Craven Cottage, grâce à un but signé Leandro Trossard, à l'heure de jeu.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-04T09:41:00+02:00",
-          "end": "2026-08-04T11:24:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5987afb6b715",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Fulham",
-          "subtitle": "Premier League - 35e journée",
-          "description": "Le leader, Arsenal, reçoit les Cottagers de Fulham, avec l'intention de décrocher une nouvelle victoire et de se rapprocher un peu plus du titre de champion d'Angleterre. A l'aller, les Gunners s'étaient imposés (0-1) sur la pelouse de Craven Cottage, grâce à un but signé Leandro Trossard, à l'heure de jeu.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EvenementsSports4KUHD.fr",
-            "name": "Evenements Sports 4K UHD",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
-            "slug": "evenements-sports-4k-uhd",
-            "is_free": false
-          },
-          "start": "2026-08-04T09:41:00+02:00",
-          "end": "2026-08-04T11:24:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dfae0d06364c",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester City / Nottingham Forest",
-          "subtitle": "Premier League - 29e journée",
-          "description": "Manchester City poursuit le double objectif de revenir à hauteur d'Arsenal, en tête de la Premier League, tout en creusant l'écart sur des poursuivants à l'affût du moindre faux pas. Dans ce contexte, la réception de Nottingham Forest, qui lutte pour le maintien, apparaît comme une belle opportunité pour Erling Haaland et les Citizens, vainqueurs à l'aller (1-2), de confirmer leur supériorité et d'entretenir la pression dans la course au titre.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-04T09:53:00+02:00",
-          "end": "2026-08-04T09:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "95c5d8b70056",
           "sport": "football",
           "competition": "Liga",
@@ -1055,69 +465,7 @@
           },
           "start": "2026-08-04T09:54:00+02:00",
           "end": "2026-08-04T13:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "abd12bc8b4f2",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames. Coupe du monde. 4e manche bloc.",
-          "description": "Coupe du monde. 4e manche bloc. Finale dames. A Prague (République tchèque).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-04T10:00:00+02:00",
-          "end": "2026-08-04T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "68f9715ce266",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Sochaux / Auxerre",
-          "subtitle": null,
-          "description": "1ère période du match amical opposant le FC Sochaux à l'AJ Auxerre.",
-          "team1": {
-            "name": "Sochaux",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AJ Auxerre",
-            "type": "club",
-            "short": "Auxerre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-04T10:00:00+02:00",
-          "end": "2026-08-04T11:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1155,93 +503,7 @@
           },
           "start": "2026-08-04T10:56:00+02:00",
           "end": "2026-08-04T13:06:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "966a600dac93",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale messieurs. Coupe du monde. 4e manche bloc.",
-          "description": "Coupe du monde. 4e manche bloc. Finale messieurs. A Prague (République tchèque).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-04T11:00:00+02:00",
-          "end": "2026-08-04T12:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0bf51e085a43",
-          "sport": "cyclisme",
-          "competition": "Tour de France Femmes",
-          "title": "Cyclisme : Tour de France Femmes",
-          "subtitle": "Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km). UCI World Tour Féminin.",
-          "description": "UCI World Tour Féminin. Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-04T11:00:00+02:00",
-          "end": "2026-08-04T12:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4aee1ae16541",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 01",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 01",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-04T11:05:00+02:00",
-          "end": "2026-08-04T11:48:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1265,7 +527,7 @@
           },
           "start": "2026-08-04T12:00:00+02:00",
           "end": "2026-08-04T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1289,7 +551,7 @@
           },
           "start": "2026-08-04T12:00:00+02:00",
           "end": "2026-08-04T13:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1327,7 +589,7 @@
           },
           "start": "2026-08-04T12:00:00+02:00",
           "end": "2026-08-04T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1351,7 +613,7 @@
           },
           "start": "2026-08-04T12:00:00+02:00",
           "end": "2026-08-04T15:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1389,7 +651,7 @@
           },
           "start": "2026-08-04T12:11:00+02:00",
           "end": "2026-08-04T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1413,7 +675,7 @@
           },
           "start": "2026-08-04T12:21:00+02:00",
           "end": "2026-08-04T12:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5002,6 +4264,44 @@
           "result": null
         },
         {
+          "id": "71f2ea52fc18",
+          "sport": "other",
+          "competition": "Masters de Shanghaï",
+          "title": "Snooker : Masters de Shanghaï",
+          "subtitle": "Masters de Shanghai. Finale . Kyren Wilson / Judd Trump. Snooker Main Tour.",
+          "description": "Snooker Main Tour. Masters de Shanghai. Finale . Kyren Wilson / Judd Trump.",
+          "team1": {
+            "name": "Masters de Shanghai",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Judd Trump",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-04T06:30:00+02:00",
+          "end": "2026-08-04T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "a7efe07790c7",
           "sport": "cyclisme",
           "competition": "Tour de Pologne",
@@ -5019,6 +4319,44 @@
           },
           "start": "2026-08-04T06:30:00+02:00",
           "end": "2026-08-04T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "056f82d1bb52",
+          "sport": "football",
+          "competition": "Football. Premier League",
+          "title": "Tottenham / Brighton & Hove Albion",
+          "subtitle": "Football. Premier League. 33e journée.",
+          "description": "Premier League. 33e journée. Tottenham / Brighton &amp; Hove Albion.",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brighton & Hove Albion",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-04T06:54:00+02:00",
+          "end": "2026-08-04T08:41:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5050,6 +4388,68 @@
           "result": null
         },
         {
+          "id": "d073e89c3ef4",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Nottingham Forest",
+          "subtitle": "Premier League - 29e journée",
+          "description": "Manchester City poursuit le double objectif de revenir à hauteur d'Arsenal, en tête de la Premier League, tout en creusant l'écart sur des poursuivants à l'affût du moindre faux pas. Dans ce contexte, la réception de Nottingham Forest, qui lutte pour le maintien, apparaît comme une belle opportunité pour Erling Haaland et les Citizens, vainqueurs à l'aller (1-2), de confirmer leur supériorité et d'entretenir la pression dans la course au titre.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-04T07:07:00+02:00",
+          "end": "2026-08-04T08:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6609b453be24",
+          "sport": "cyclisme",
+          "competition": "Tour de France Femmes",
+          "title": "Cyclisme : Tour de France Femmes",
+          "subtitle": "Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km). UCI World Tour Féminin.",
+          "description": "UCI World Tour Féminin. Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-04T07:30:00+02:00",
+          "end": "2026-08-04T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "882e7e0f87aa",
           "sport": "other",
           "competition": "Coupe du monde de sprint",
@@ -5067,6 +4467,606 @@
           },
           "start": "2026-08-04T07:30:00+02:00",
           "end": "2026-08-04T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fc7fca5ef7ee",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Atlético Madrid / Betis Séville",
+          "subtitle": "Liga - 23e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Betis Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-04T07:33:00+02:00",
+          "end": "2026-08-04T09:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "deef641528ba",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "St. Pauli / Bayern Munich",
+          "subtitle": "Bundesliga - 29e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stade Toulousain",
+            "type": "club",
+            "short": "Toulouse",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2584.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-04T07:40:00+02:00",
+          "end": "2026-08-04T09:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "28bde391defd",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Galatasaray / Rennes",
+          "subtitle": null,
+          "description": "1ère période du match amical opposant Galatasaray à Rennes.",
+          "team1": {
+            "name": "Galatasaray",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Rennais",
+            "type": "club",
+            "short": "Rennes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-04T08:00:00+02:00",
+          "end": "2026-08-04T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d13a74f3c173",
+          "sport": "football",
+          "competition": null,
+          "title": "KVC Westerlo / Saint-Trond",
+          "subtitle": null,
+          "description": "KVC Westerlo - STVV.",
+          "team1": {
+            "name": "KVC Westerlo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Saint-Trond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-04T08:16:00+02:00",
+          "end": "2026-08-04T10:18:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0cdf4e4a2bc3",
+          "sport": "cyclisme",
+          "competition": "Tour de Pologne",
+          "title": "Cyclisme : Tour de Pologne",
+          "subtitle": "Tour de Pologne. 1re étape . Gdynia - Koszalin (234 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de Pologne. 1re étape . Gdynia - Koszalin (234 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-04T08:30:00+02:00",
+          "end": "2026-08-04T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "391710d48baf",
+          "sport": "other",
+          "competition": "Open du Pays de Galles",
+          "title": "Snooker : Open du Pays de Galles",
+          "subtitle": "Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski. Home Nations Series.",
+          "description": "Home Nations Series. Open du Pays de Galles. Finale . Barry Hawkins / Jack Lisowski.",
+          "team1": {
+            "name": "Open du Pays de Galles",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Jack Lisowski",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-04T08:30:00+02:00",
+          "end": "2026-08-04T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "14e049b73114",
+          "sport": "football",
+          "competition": "Challenge League",
+          "title": "SC Kriens / Winterthur",
+          "subtitle": "Challenge League - 2e  journée",
+          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
+          "team1": {
+            "name": "SC Kriens",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Inter Milan",
+            "type": "club",
+            "short": "Inter",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-08-04T09:10:00+02:00",
+          "end": "2026-08-04T11:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aa3cdec3ebd8",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Espanyol Barcelone / FC Barcelone",
+          "subtitle": "Liga - 18e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-04T09:12:00+02:00",
+          "end": "2026-08-04T10:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f9faa574ebe9",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lille / Lens",
+          "subtitle": "Ligue 1 McDonald's - 28e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-04T09:19:00+02:00",
+          "end": "2026-08-04T11:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a29859c2155f",
+          "sport": "cyclisme",
+          "competition": "Tour de France Femmes",
+          "title": "Cyclisme : Tour de France Femmes",
+          "subtitle": "Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km). UCI World Tour Féminin.",
+          "description": "UCI World Tour Féminin. Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-04T09:30:00+02:00",
+          "end": "2026-08-04T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9e88187466cf",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Football : Premier League",
+          "subtitle": "Football. Premier League. 35e journée.",
+          "description": "Le leader, Arsenal, reçoit les Cottagers de Fulham, avec l'intention de décrocher une nouvelle victoire et de se rapprocher un peu plus du titre de champion d'Angleterre. A l'aller, les Gunners s'étaient imposés (0-1) sur la pelouse de Craven Cottage, grâce à un but signé Leandro Trossard, à l'heure de jeu.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-04T09:41:00+02:00",
+          "end": "2026-08-04T11:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5987afb6b715",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Fulham",
+          "subtitle": "Premier League - 35e journée",
+          "description": "Le leader, Arsenal, reçoit les Cottagers de Fulham, avec l'intention de décrocher une nouvelle victoire et de se rapprocher un peu plus du titre de champion d'Angleterre. A l'aller, les Gunners s'étaient imposés (0-1) sur la pelouse de Craven Cottage, grâce à un but signé Leandro Trossard, à l'heure de jeu.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EvenementsSports4KUHD.fr",
+            "name": "Evenements Sports 4K UHD",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
+            "slug": "evenements-sports-4k-uhd",
+            "is_free": false
+          },
+          "start": "2026-08-04T09:41:00+02:00",
+          "end": "2026-08-04T11:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dfae0d06364c",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Nottingham Forest",
+          "subtitle": "Premier League - 29e journée",
+          "description": "Manchester City poursuit le double objectif de revenir à hauteur d'Arsenal, en tête de la Premier League, tout en creusant l'écart sur des poursuivants à l'affût du moindre faux pas. Dans ce contexte, la réception de Nottingham Forest, qui lutte pour le maintien, apparaît comme une belle opportunité pour Erling Haaland et les Citizens, vainqueurs à l'aller (1-2), de confirmer leur supériorité et d'entretenir la pression dans la course au titre.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-04T09:53:00+02:00",
+          "end": "2026-08-04T09:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "abd12bc8b4f2",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames. Coupe du monde. 4e manche bloc.",
+          "description": "Coupe du monde. 4e manche bloc. Finale dames. A Prague (République tchèque).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-04T10:00:00+02:00",
+          "end": "2026-08-04T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "68f9715ce266",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Sochaux / Auxerre",
+          "subtitle": null,
+          "description": "1ère période du match amical opposant le FC Sochaux à l'AJ Auxerre.",
+          "team1": {
+            "name": "Sochaux",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AJ Auxerre",
+            "type": "club",
+            "short": "Auxerre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-04T10:00:00+02:00",
+          "end": "2026-08-04T11:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "966a600dac93",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale messieurs. Coupe du monde. 4e manche bloc.",
+          "description": "Coupe du monde. 4e manche bloc. Finale messieurs. A Prague (République tchèque).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-04T11:00:00+02:00",
+          "end": "2026-08-04T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0bf51e085a43",
+          "sport": "cyclisme",
+          "competition": "Tour de France Femmes",
+          "title": "Cyclisme : Tour de France Femmes",
+          "subtitle": "Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km). UCI World Tour Féminin.",
+          "description": "UCI World Tour Féminin. Tour de France Femmes. 3e étape . Genève - Poligny (156,5 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-04T11:00:00+02:00",
+          "end": "2026-08-04T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4aee1ae16541",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 01",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 01",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-04T11:05:00+02:00",
+          "end": "2026-08-04T11:48:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
