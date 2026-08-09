@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-09T05:00:22.054402+00:00",
+    "generated_at": "2026-08-09T08:37:18.112444+00:00",
     "total_events": 1185,
     "total_days": 7,
     "sports": [
@@ -25,63 +25,8 @@
     ],
     "channels": [
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
         "slug": "elevenprol1",
         "name": "ElevenProL1",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "cheval-tv",
-        "name": "Cheval TV",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "elevensports1fr",
-        "name": "ElevenSports1FR",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -95,13 +40,38 @@
         "is_free": false
       },
       {
-        "slug": "tv5-monde",
-        "name": "TV5 Monde",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
         "slug": "canal-plus-sport",
         "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "elevensports1fr",
+        "name": "ElevenSports1FR",
         "is_free": false
       },
       {
@@ -162,6 +132,16 @@
       {
         "slug": "voo-sport-world-2",
         "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -240,6 +220,11 @@
         "is_free": false
       },
       {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
         "slug": "tv5-monde-afrique",
         "name": "TV5 Monde Afrique",
         "is_free": false
@@ -247,6 +232,11 @@
       {
         "slug": "wallis-et-futuna-1-re",
         "name": "Wallis Et Futuna 1ère",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
@@ -327,6 +317,16 @@
       {
         "slug": "nouvellecaledonie",
         "name": "NouvelleCaledonie",
+        "is_free": false
+      },
+      {
+        "slug": "cheval-tv",
+        "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "tv5-monde",
+        "name": "TV5 Monde",
         "is_free": false
       },
       {
@@ -487,444 +487,6 @@
       "event_count": 220,
       "events": [
         {
-          "id": "b8a7874db878",
-          "sport": "golf",
-          "competition": null,
-          "title": "Golf PGA - Championnat Wyndham, 3e ronde",
-          "subtitle": "Championnat Wyndham, 3e ronde",
-          "description": "L'action du golf de la PGA.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-08-09T05:00:00+02:00",
-          "end": "2026-08-09T08:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "84047e04f986",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Bourg-en-Bresse / Villefranche",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 1 du Championnat de France de Ligue 3 2026/27 opposant FC Bourg en Bresse P01 et FC Villefranche Beaujolais",
-          "team1": {
-            "name": "Bourg-en-Bresse",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Villefranche",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-09T05:25:00+02:00",
-          "end": "2026-08-09T07:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7bc734a8adee",
-          "sport": "football",
-          "competition": "Challenge League",
-          "title": "FC Aarau / Stade Nyonnais",
-          "subtitle": "Challenge League - 3e  journée",
-          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
-          "team1": {
-            "name": "FC Aarau",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Nyonnais",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-08-09T06:00:00+02:00",
-          "end": "2026-08-09T08:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4e09cd9449f0",
-          "sport": "football",
-          "competition": null,
-          "title": "STVV / Lommel SK",
-          "subtitle": null,
-          "description": "STVV - Lommel SK.",
-          "team1": {
-            "name": "STVV",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Lommel SK",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-09T06:00:00+02:00",
-          "end": "2026-08-09T08:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "26bb29b87cdd",
-          "sport": "football",
-          "competition": null,
-          "title": "Liverpool - Paris Saint-Germain",
-          "subtitle": null,
-          "description": "Match retour des quarts de finale de l'UEFA Champions League : Liverpool - Paris Saint-Germain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-08-09T06:00:00+02:00",
-          "end": "2026-08-09T08:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fcea5e024513",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Chelsea / Manchester City",
-          "subtitle": "Premier League - 32e journée",
-          "description": "Match de haut de tableau à l'occasion de la 32e journée de Premier League : les Blues de Chelsea, 6es, accueillent les Citizens de Manchester, dauphins d'Arsenal. En nette baisse de forme, Malo Gusto et les siens doivent hausser leur niveau de jeu pour espérer venir à bout de Mancuniens qui n'ont pas encore renoncé au titre.",
-          "team1": {
-            "name": "Chelsea FC",
-            "type": "club",
-            "short": "Chelsea",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-09T06:58:00+02:00",
-          "end": "2026-08-09T08:42:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "612b415593dc",
-          "sport": "other",
-          "competition": null,
-          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
-          "subtitle": "Doc. Sport",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-08-09T07:00:00+02:00",
-          "end": "2026-08-09T07:55:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2d55fb66fcd1",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Fleury / Amiens",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 1 du Championnat de France de Ligue 3 2026/27 opposant FC Fleury 91 et Amiens SC",
-          "team1": {
-            "name": "Fleury",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Amiens",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-09T07:25:00+02:00",
-          "end": "2026-08-09T09:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b9600175bda9",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / FC Séville",
-          "subtitle": "Liga - 28e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-09T07:31:00+02:00",
-          "end": "2026-08-09T09:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0b5bf509c566",
-          "sport": "other",
-          "competition": "Premier League",
-          "title": "Manchester United / Liverpool",
-          "subtitle": "Premier League - 35e journée",
-          "description": null,
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-09T07:32:00+02:00",
-          "end": "2026-08-09T09:16:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b704e56533b8",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Mönchengladbach / Hoffenheim",
-          "subtitle": "Bundesliga - 34e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Mönchengladbach",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hoffenheim",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-09T07:49:00+02:00",
-          "end": "2026-08-09T09:28:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5cfa301930ec",
-          "sport": "football",
-          "competition": "Match amical - Match amical",
-          "title": "Liverpool / Leeds",
-          "subtitle": "Match amical - Match amical",
-          "description": "Retransmission d'un match amical des équipes de football. Regardez vos équipes de football préférées se préparer pour la saison régulière ou pendant les trèves internationales.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Leeds",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-08-09T08:00:00+02:00",
-          "end": "2026-08-09T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ed6428aeafbb",
-          "sport": "football",
-          "competition": null,
-          "title": "Inter - Genoa",
-          "subtitle": null,
-          "description": "Suivez en direct ou en différé le match Inter - Genoa de la Serie A 2025-26, journée 27.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-09T08:00:00+02:00",
-          "end": "2026-08-09T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "ec4e2b9a6683",
           "sport": "football",
           "competition": null,
@@ -956,31 +518,7 @@
           },
           "start": "2026-08-09T08:20:00+02:00",
           "end": "2026-08-09T10:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "61bb5c7f1432",
-          "sport": "motogp",
-          "competition": null,
-          "title": "Essais qualificatifs 1 et 2 des Moto GP",
-          "subtitle": "Grand Prix de Grande-Bretagne",
-          "description": "Suivez le Grand Prix de Grande-Bretagne, une des manches du championnat du monde de MotoGP. Epreuve apparue dès 1949, elle se dispute depuis 1987 sur le circuit de Donington Park, situé à Castle Donington dans le Leicestershire, et long de 4 km.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-08-09T08:30:00+02:00",
-          "end": "2026-08-09T09:32:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1004,7 +542,7 @@
           },
           "start": "2026-08-09T08:30:00+02:00",
           "end": "2026-08-09T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1042,7 +580,7 @@
           },
           "start": "2026-08-09T09:05:00+02:00",
           "end": "2026-08-09T10:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1080,7 +618,7 @@
           },
           "start": "2026-08-09T09:14:00+02:00",
           "end": "2026-08-09T10:54:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1118,45 +656,7 @@
           },
           "start": "2026-08-09T09:16:00+02:00",
           "end": "2026-08-09T11:02:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "14bba905c6af",
-          "sport": "natation",
-          "competition": null,
-          "title": "Zoom",
-          "subtitle": "Marie Graftiaux - Para natation adaptée",
-          "description": "\\\" Plonge, nage, vit \\\" est sa devise. Marie Graftiaux est championne internationale de para natation adaptée. Porteuse d'une trisomie 21, elle ne peut pas participer aux jeux paralympiques. Une injustice pour laquelle elle milite.",
-          "team1": {
-            "name": "Marie Graftiaux",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Para natation adaptée",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "TV5Monde.fr",
-            "name": "TV5 Monde",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
-            "slug": "tv5-monde",
-            "is_free": false
-          },
-          "start": "2026-08-09T09:17:00+02:00",
-          "end": "2026-08-09T09:31:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1194,7 +694,7 @@
           },
           "start": "2026-08-09T09:25:00+02:00",
           "end": "2026-08-09T11:09:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1232,31 +732,7 @@
           },
           "start": "2026-08-09T09:25:00+02:00",
           "end": "2026-08-09T11:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f7d9ab7f05f3",
-          "sport": "motogp",
-          "competition": null,
-          "title": "Course Sprint des Moto GP",
-          "subtitle": "Grand Prix de Grande-Bretagne",
-          "description": "Après quatre semaines de trêve, les pilotes MotoGP retrouvent la piste à Silverstone pour la course sprint du Grand Prix de Grande-Bretagne, 12e manche du championnat du monde. Sur l'un des tracés les plus rapides du calendrier, Jorge Martin, leader du classement des pilotes, Marc Marquez, Ai Ogura et leurs rivaux tenteront de marquer des points, précieux dans une compétition particulièrement serrée.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-08-09T09:32:00+02:00",
-          "end": "2026-08-09T10:04:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1294,7 +770,7 @@
           },
           "start": "2026-08-09T09:39:00+02:00",
           "end": "2026-08-09T11:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1318,7 +794,7 @@
           },
           "start": "2026-08-09T09:50:00+02:00",
           "end": "2026-08-09T11:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1342,55 +818,7 @@
           },
           "start": "2026-08-09T10:00:00+02:00",
           "end": "2026-08-09T11:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c22ee73bfc1c",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-09T10:00:00+02:00",
-          "end": "2026-08-09T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "10b7a87fd14b",
-          "sport": "f1",
-          "competition": null,
-          "title": "Fractionné Moto",
-          "subtitle": "Moto Format Grand Prix Des Pays-bas",
-          "description": "Pour les passionnés de grosses cyclindrées, ce magazine propose des anecdotes et des histoires insolites, ainsi que des informations liées à l'univers de la MotoGP.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-09T10:21:00+02:00",
-          "end": "2026-08-09T10:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1414,7 +842,7 @@
           },
           "start": "2026-08-09T10:30:00+02:00",
           "end": "2026-08-09T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1438,7 +866,7 @@
           },
           "start": "2026-08-09T10:35:00+02:00",
           "end": "2026-08-09T10:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6819,6 +6247,68 @@
           "result": null
         },
         {
+          "id": "b8a7874db878",
+          "sport": "golf",
+          "competition": null,
+          "title": "Golf PGA - Championnat Wyndham, 3e ronde",
+          "subtitle": "Championnat Wyndham, 3e ronde",
+          "description": "L'action du golf de la PGA.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-08-09T05:00:00+02:00",
+          "end": "2026-08-09T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "84047e04f986",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Bourg-en-Bresse / Villefranche",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 1 du Championnat de France de Ligue 3 2026/27 opposant FC Bourg en Bresse P01 et FC Villefranche Beaujolais",
+          "team1": {
+            "name": "Bourg-en-Bresse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Villefranche",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-09T05:25:00+02:00",
+          "end": "2026-08-09T07:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "4d79fbaa3e0f",
           "sport": "f1",
           "competition": null,
@@ -6905,6 +6395,82 @@
           "result": null
         },
         {
+          "id": "7bc734a8adee",
+          "sport": "football",
+          "competition": "Challenge League",
+          "title": "FC Aarau / Stade Nyonnais",
+          "subtitle": "Challenge League - 3e  journée",
+          "description": "Retransmission d'un match de la Challenge League de football, la deuxième division suisse de football. Le championnat, qui a été disputé pour la première fois en 1898, est composé de 10 clubs, les 2 premiers montent en Super League, les 2 derniers descendent en Promotion League.",
+          "team1": {
+            "name": "FC Aarau",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Nyonnais",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-08-09T06:00:00+02:00",
+          "end": "2026-08-09T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4e09cd9449f0",
+          "sport": "football",
+          "competition": null,
+          "title": "STVV / Lommel SK",
+          "subtitle": null,
+          "description": "STVV - Lommel SK.",
+          "team1": {
+            "name": "STVV",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Lommel SK",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-09T06:00:00+02:00",
+          "end": "2026-08-09T08:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "8bab2a575e41",
           "sport": "other",
           "competition": null,
@@ -6936,6 +6502,440 @@
           },
           "start": "2026-08-09T06:00:00+02:00",
           "end": "2026-08-09T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "26bb29b87cdd",
+          "sport": "football",
+          "competition": null,
+          "title": "Liverpool - Paris Saint-Germain",
+          "subtitle": null,
+          "description": "Match retour des quarts de finale de l'UEFA Champions League : Liverpool - Paris Saint-Germain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-08-09T06:00:00+02:00",
+          "end": "2026-08-09T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fcea5e024513",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Chelsea / Manchester City",
+          "subtitle": "Premier League - 32e journée",
+          "description": "Match de haut de tableau à l'occasion de la 32e journée de Premier League : les Blues de Chelsea, 6es, accueillent les Citizens de Manchester, dauphins d'Arsenal. En nette baisse de forme, Malo Gusto et les siens doivent hausser leur niveau de jeu pour espérer venir à bout de Mancuniens qui n'ont pas encore renoncé au titre.",
+          "team1": {
+            "name": "Chelsea FC",
+            "type": "club",
+            "short": "Chelsea",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-09T06:58:00+02:00",
+          "end": "2026-08-09T08:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "612b415593dc",
+          "sport": "other",
+          "competition": null,
+          "title": "Le Mulet des Alpes - Le Retour de l'Hybride",
+          "subtitle": "Doc. Sport",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-08-09T07:00:00+02:00",
+          "end": "2026-08-09T07:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2d55fb66fcd1",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Fleury / Amiens",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 1 du Championnat de France de Ligue 3 2026/27 opposant FC Fleury 91 et Amiens SC",
+          "team1": {
+            "name": "Fleury",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Amiens",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-09T07:25:00+02:00",
+          "end": "2026-08-09T09:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b9600175bda9",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / FC Séville",
+          "subtitle": "Liga - 28e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-09T07:31:00+02:00",
+          "end": "2026-08-09T09:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0b5bf509c566",
+          "sport": "other",
+          "competition": "Premier League",
+          "title": "Manchester United / Liverpool",
+          "subtitle": "Premier League - 35e journée",
+          "description": null,
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-09T07:32:00+02:00",
+          "end": "2026-08-09T09:16:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b704e56533b8",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Mönchengladbach / Hoffenheim",
+          "subtitle": "Bundesliga - 34e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Mönchengladbach",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hoffenheim",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-09T07:49:00+02:00",
+          "end": "2026-08-09T09:28:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5cfa301930ec",
+          "sport": "football",
+          "competition": "Match amical - Match amical",
+          "title": "Liverpool / Leeds",
+          "subtitle": "Match amical - Match amical",
+          "description": "Retransmission d'un match amical des équipes de football. Regardez vos équipes de football préférées se préparer pour la saison régulière ou pendant les trèves internationales.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Leeds",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-08-09T08:00:00+02:00",
+          "end": "2026-08-09T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ed6428aeafbb",
+          "sport": "football",
+          "competition": null,
+          "title": "Inter - Genoa",
+          "subtitle": null,
+          "description": "Suivez en direct ou en différé le match Inter - Genoa de la Serie A 2025-26, journée 27.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-09T08:00:00+02:00",
+          "end": "2026-08-09T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "61bb5c7f1432",
+          "sport": "motogp",
+          "competition": null,
+          "title": "Essais qualificatifs 1 et 2 des Moto GP",
+          "subtitle": "Grand Prix de Grande-Bretagne",
+          "description": "Suivez le Grand Prix de Grande-Bretagne, une des manches du championnat du monde de MotoGP. Epreuve apparue dès 1949, elle se dispute depuis 1987 sur le circuit de Donington Park, situé à Castle Donington dans le Leicestershire, et long de 4 km.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-08-09T08:30:00+02:00",
+          "end": "2026-08-09T09:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "14bba905c6af",
+          "sport": "natation",
+          "competition": null,
+          "title": "Zoom",
+          "subtitle": "Marie Graftiaux - Para natation adaptée",
+          "description": "\\\" Plonge, nage, vit \\\" est sa devise. Marie Graftiaux est championne internationale de para natation adaptée. Porteuse d'une trisomie 21, elle ne peut pas participer aux jeux paralympiques. Une injustice pour laquelle elle milite.",
+          "team1": {
+            "name": "Marie Graftiaux",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Para natation adaptée",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "TV5Monde.fr",
+            "name": "TV5 Monde",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~0231873fab336015.png/480x480/quality/100/tv5monde.png",
+            "slug": "tv5-monde",
+            "is_free": false
+          },
+          "start": "2026-08-09T09:17:00+02:00",
+          "end": "2026-08-09T09:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f7d9ab7f05f3",
+          "sport": "motogp",
+          "competition": null,
+          "title": "Course Sprint des Moto GP",
+          "subtitle": "Grand Prix de Grande-Bretagne",
+          "description": "Après quatre semaines de trêve, les pilotes MotoGP retrouvent la piste à Silverstone pour la course sprint du Grand Prix de Grande-Bretagne, 12e manche du championnat du monde. Sur l'un des tracés les plus rapides du calendrier, Jorge Martin, leader du classement des pilotes, Marc Marquez, Ai Ogura et leurs rivaux tenteront de marquer des points, précieux dans une compétition particulièrement serrée.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-08-09T09:32:00+02:00",
+          "end": "2026-08-09T10:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c22ee73bfc1c",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-09T10:00:00+02:00",
+          "end": "2026-08-09T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "10b7a87fd14b",
+          "sport": "f1",
+          "competition": null,
+          "title": "Fractionné Moto",
+          "subtitle": "Moto Format Grand Prix Des Pays-bas",
+          "description": "Pour les passionnés de grosses cyclindrées, ce magazine propose des anecdotes et des histoires insolites, ainsi que des informations liées à l'univers de la MotoGP.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-09T10:21:00+02:00",
+          "end": "2026-08-09T10:35:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
