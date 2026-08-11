@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-11T12:54:58.492304+00:00",
+    "generated_at": "2026-08-11T16:54:11.833586+00:00",
     "total_events": 1099,
     "total_days": 7,
     "sports": [
@@ -24,53 +24,18 @@
     ],
     "channels": [
       {
-        "slug": "elevenprol1",
-        "name": "ElevenProL1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
         "slug": "blue-zoom-fr",
         "name": "blue Zoom fr",
         "is_free": false
       },
       {
-        "slug": "srf-1",
-        "name": "SRF 1",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "elevenprol1",
+        "name": "ElevenProL1",
         "is_free": false
       },
       {
@@ -79,18 +44,8 @@
         "is_free": false
       },
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -99,19 +54,9 @@
         "is_free": false
       },
       {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
       },
       {
         "slug": "t-l-sud",
@@ -124,13 +69,28 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "france-3-nouvelle-aquitaine",
         "name": "France 3 Nouvelle Aquitaine",
         "is_free": false
       },
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "rds2",
         "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
@@ -149,6 +109,11 @@
         "is_free": false
       },
       {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-1",
         "name": "Eurosport 360 - 1",
         "is_free": false
@@ -156,6 +121,21 @@
       {
         "slug": "voo-sport-world-2",
         "name": "VOO Sport World 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -171,6 +151,16 @@
       {
         "slug": "cheval-tv",
         "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
         "is_free": false
       },
       {
@@ -191,6 +181,16 @@
       {
         "slug": "motorvision-tv",
         "name": "MotorVision TV",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "srf-1",
+        "name": "SRF 1",
         "is_free": false
       },
       {
@@ -456,678 +456,6 @@
       "event_count": 144,
       "events": [
         {
-          "id": "99d962426f7e",
-          "sport": "football",
-          "competition": null,
-          "title": "STVV / Lommel SK",
-          "subtitle": null,
-          "description": "STVV - Lommel SK.",
-          "team1": {
-            "name": "STVV",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Lommel SK",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-11T13:00:00+02:00",
-          "end": "2026-08-11T15:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7cdef255e4bd",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Tour de France Femmes avec Zwift",
-          "subtitle": "7e étape | La Voulte-sur-Rhône –...",
-          "description": "Franchir le Rhône, c'est se retrouver immédiatement dans la Drôme et ses moutonnements, les cols de la Grande Limite (6,6 km à 5%) et du Colombier (3,2 km à 6,4%). Les routes accidentées qui contournent les Dentelles de Montmirail serviront ensuite de marchepied au Mont Ventoux (15,7 km à 8,8%), désigné prestigieux sommet de ce 5e Tour de France Femmes. Escaladé par Bédoin, il offrira ses rudes pentes aux pures grimpeuses décidées à y creuser d'importantes différences.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-11T13:30:00+02:00",
-          "end": "2026-08-11T15:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "33d24550698b",
-          "sport": "football",
-          "competition": "Arkema Première Ligue - Playoffs",
-          "title": "Paris FC / Paris-SG",
-          "subtitle": "Arkema Première Ligue - Playoffs...",
-          "description": "Dans ce duel 100% parisien, le PFC espérait réaliser un gros coup et priver le PSG de la finale dans une rencontre qui s'annonçait très ouverte entre les deux clubs. A Jean-Bouin, dans un derby longtemps verrouillé, l'unique but de la rencontre est arrivé à la 88e minute.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-11T13:32:00+02:00",
-          "end": "2026-08-11T15:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "729a07f2ea14",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Nice / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 27e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-11T13:45:00+02:00",
-          "end": "2026-08-11T15:24:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5bfd22180d98",
-          "sport": "mma",
-          "competition": "UFC",
-          "title": "MMA : UFC",
-          "subtitle": "Mateusz Gamrot / Quillan Salkilld. MMA : Ultimate Fighting Championship. UFC Fight Night 284. Poids légers.",
-          "description": "MMA : Ultimate Fighting Championship. UFC Fight Night 284. Poids légers. Mateusz Gamrot / Quillan Salkilld.",
-          "team1": {
-            "name": "Mateusz Gamrot",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Quillan Salkilld",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "VOOSportWorld1.be",
-            "name": "VOO Sport World 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
-            "slug": "voo-sport-world-1",
-            "is_free": false
-          },
-          "start": "2026-08-11T13:45:00+02:00",
-          "end": "2026-08-11T16:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8eb2e63f454f",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Brest / Venezia",
-          "subtitle": null,
-          "description": "Match amical opposant Brest à Venise",
-          "team1": {
-            "name": "Stade Brestois",
-            "type": "club",
-            "short": "Brest",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Venezia",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-11T14:00:00+02:00",
-          "end": "2026-08-11T15:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3e58a0b8f1a1",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Vuelta a Burgos - Etape 1",
-          "subtitle": null,
-          "description": "Vuelta a Burgos - Etape 1 : Gumiel de Izan - Alto del Castillo (165km)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-08-11T14:00:00+02:00",
-          "end": "2026-08-11T15:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "83d94bcf20bb",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Vuelta a Burgos - Rit 1",
-          "subtitle": null,
-          "description": "Vuelta a Burgos - Rit 1: Gumiel de Izan - Alto del Castillo (165km)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-08-11T14:00:00+02:00",
-          "end": "2026-08-11T15:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "847ac856012a",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Lugano / FC Zurich",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Lugano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Zurich",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-08-11T14:15:00+02:00",
-          "end": "2026-08-11T16:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "28b15f0de363",
-          "sport": "other",
-          "competition": null,
-          "title": "Mission ImBüssible - Am Ball im Balkan",
-          "subtitle": "Episode 1",
-          "description": "Zwei Freunde, eine Balkanreise auf den Spuren unserer Stars der Fussballnationalmannschaft: Stefan Büssi Büsser und Manuel Manu Rothmund machen in einer dreiteiligen Serie einen Roadtrip von Zürich nach Kroatien, Bosnien, Albanien, Mazedonien bis nach Gjilan im Kosovo, dem Geburtsort von Xherdan Shaqiri. Die beiden wollen im Vorfeld der Fussballweltmeisterschaft wissen, woher die besten Kicker der Nation ursprünglich stammen.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SRF1.ch",
-            "name": "SRF 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452700?=.png",
-            "slug": "srf-1",
-            "is_free": false
-          },
-          "start": "2026-08-11T14:15:00+02:00",
-          "end": "2026-08-11T15:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f25ec847a338",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Everton / Liverpool",
-          "subtitle": "Premier League - 33e journée",
-          "description": "Le derby entre les deux clubs de Liverpool promet d'être disputé, Everton et les Reds visant tous deux une place qualificative européenne, dans le Top 6 de la Premier League. Lors du match aller, en septembre dernier, Hugo Ekitiké et les siens s'étaient diffficilement imposés à Anfield (2-1). L'heure de la revanche pour les hommes de David Moyes ?",
-          "team1": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-11T14:21:00+02:00",
-          "end": "2026-08-11T16:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "26cf9bb20ef2",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Mets de New York c. Braves d'Atlanta",
-          "subtitle": "Mets de New York c. Braves d'Atlanta",
-          "description": "Les Braves accueillent les Mets au Truist Park pour un match de la Ligue nationale. New York arrive avec une série de trois victoires consécutives.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-08-11T15:00:00+02:00",
-          "end": "2026-08-11T17:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "eaa8094a7e06",
-          "sport": "football",
-          "competition": null,
-          "title": "La Gantoise / Malines",
-          "subtitle": null,
-          "description": "LIVE: KAA Gent - KV Mechelen.",
-          "team1": {
-            "name": "La Gantoise",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Malines",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-11T15:20:00+02:00",
-          "end": "2026-08-11T17:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1e9f22e2e583",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Stuttgart / Hambourg",
-          "subtitle": "Bundesliga - 29e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hambourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-11T15:24:00+02:00",
-          "end": "2026-08-11T17:04:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b6f65b2257a2",
-          "sport": "voile",
-          "competition": "Grand Prix de Grande-Bretagne",
-          "title": "Voile : Grand Prix de Grande-Bretagne",
-          "subtitle": null,
-          "description": "Le Grand Prix de Grande-Bretagne de voile, étape européenne du circuit SailGP, se déroule dans les eaux de Portsmouth, sur la côte sud de l'Angleterre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-11T15:53:00+02:00",
-          "end": "2026-08-11T16:47:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5dee9fb2e14e",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Cagliari / Nice",
-          "subtitle": null,
-          "description": "Match amical opposant Cagliari à Nice",
-          "team1": {
-            "name": "Cagliari",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "OGC Nice",
-            "type": "club",
-            "short": "Nice",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-11T16:00:00+02:00",
-          "end": "2026-08-11T17:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c132514a94ba",
-          "sport": "mma",
-          "competition": "Grand Prix de Qingdao",
-          "title": "Judo : Grand Prix de Qingdao",
-          "subtitle": null,
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-08-11T16:00:00+02:00",
-          "end": "2026-08-11T18:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "56000395e427",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Valence",
-          "subtitle": "Liga - 4e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Valence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-11T16:10:00+02:00",
-          "end": "2026-08-11T17:48:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c8bec4f465e2",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Tottenham / Arsenal",
-          "subtitle": "Premier League - 27e journée",
-          "description": "Les Gunners d'Arsenal, leaders inaccessibles de Premier League, se déplacent chez les Spurs de Tottenham qui font du surplace dans le ventre mou du classement. Lors du match aller, en novembre dernier, Arsenal avait dominé Tottenham (4-1), grâce à un triplé d'Eberechi Eze. William Saliba et les siens vont-ils confirmer leur supériorité au Tottenham Hotspur Stadium ?",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-11T16:25:00+02:00",
-          "end": "2026-08-11T18:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "80abfb42af44",
-          "sport": "motogp",
-          "competition": null,
-          "title": "La course des Moto GP",
-          "subtitle": "Grand Prix de Grande-Bretagne",
-          "description": "Silverstone accueille le Grand Prix de Grande-Bretagne, première manche disputée après la trêve estivale. Vainqueur de trois des quatre dernières courses, Marc Marquez tentera de poursuivre sa série après son succès, en juillet, au Grand Prix d'Allemagne. Opéré d'une fracture de la clavicule gauche après sa chute lors des qualifications de cette même épreuve, Marco Bezzecchi espère être rétabli et retrouver la compétition sur le tracé britannique.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-08-11T16:30:00+02:00",
-          "end": "2026-08-11T17:17:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6cf49252a482",
-          "sport": "mma",
-          "competition": "PFL",
-          "title": "MMA : PFL",
-          "subtitle": "PFL Charlotte 08/08",
-          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport5.af",
-            "name": "CANAL+ SPORT 5",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
-            "slug": "canal-plus-sport-5",
-            "is_free": false
-          },
-          "start": "2026-08-11T16:40:00+02:00",
-          "end": "2026-08-11T18:41:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "e5bc355302fb",
           "sport": "football",
           "competition": "Championnat de Suisse Super Leag",
@@ -1159,7 +487,7 @@
           },
           "start": "2026-08-11T17:10:00+02:00",
           "end": "2026-08-11T19:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1197,7 +525,7 @@
           },
           "start": "2026-08-11T17:15:00+02:00",
           "end": "2026-08-11T18:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1235,7 +563,7 @@
           },
           "start": "2026-08-11T17:40:00+02:00",
           "end": "2026-08-11T20:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1273,7 +601,7 @@
           },
           "start": "2026-08-11T17:48:00+02:00",
           "end": "2026-08-11T19:29:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1311,31 +639,7 @@
           },
           "start": "2026-08-11T18:00:00+02:00",
           "end": "2026-08-11T19:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aaf58b91b661",
-          "sport": "handball",
-          "competition": null,
-          "title": "A vos marques",
-          "subtitle": "Para-trail",
-          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-08-11T18:05:00+02:00",
-          "end": "2026-08-11T18:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1373,7 +677,7 @@
           },
           "start": "2026-08-11T18:15:00+02:00",
           "end": "2026-08-11T20:07:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1411,7 +715,7 @@
           },
           "start": "2026-08-11T18:29:00+02:00",
           "end": "2026-08-11T20:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1435,7 +739,7 @@
           },
           "start": "2026-08-11T18:30:00+02:00",
           "end": "2026-08-11T18:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1473,7 +777,7 @@
           },
           "start": "2026-08-11T18:52:00+02:00",
           "end": "2026-08-11T20:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -4894,6 +4198,68 @@
           "result": null
         },
         {
+          "id": "99d962426f7e",
+          "sport": "football",
+          "competition": null,
+          "title": "STVV / Lommel SK",
+          "subtitle": null,
+          "description": "STVV - Lommel SK.",
+          "team1": {
+            "name": "STVV",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Lommel SK",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-11T13:00:00+02:00",
+          "end": "2026-08-11T15:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7cdef255e4bd",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Tour de France Femmes avec Zwift",
+          "subtitle": "7e étape | La Voulte-sur-Rhône –...",
+          "description": "Franchir le Rhône, c'est se retrouver immédiatement dans la Drôme et ses moutonnements, les cols de la Grande Limite (6,6 km à 5%) et du Colombier (3,2 km à 6,4%). Les routes accidentées qui contournent les Dentelles de Montmirail serviront ensuite de marchepied au Mont Ventoux (15,7 km à 8,8%), désigné prestigieux sommet de ce 5e Tour de France Femmes. Escaladé par Bédoin, il offrira ses rudes pentes aux pures grimpeuses décidées à y creuser d'importantes différences.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-11T13:30:00+02:00",
+          "end": "2026-08-11T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "c770e08119a3",
           "sport": "football",
           "competition": null,
@@ -4918,6 +4284,44 @@
           "result": null
         },
         {
+          "id": "33d24550698b",
+          "sport": "football",
+          "competition": "Arkema Première Ligue - Playoffs",
+          "title": "Paris FC / Paris-SG",
+          "subtitle": "Arkema Première Ligue - Playoffs...",
+          "description": "Dans ce duel 100% parisien, le PFC espérait réaliser un gros coup et priver le PSG de la finale dans une rencontre qui s'annonçait très ouverte entre les deux clubs. A Jean-Bouin, dans un derby longtemps verrouillé, l'unique but de la rencontre est arrivé à la 88e minute.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-11T13:32:00+02:00",
+          "end": "2026-08-11T15:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "fdd521f470dc",
           "sport": "other",
           "competition": null,
@@ -4935,6 +4339,82 @@
           },
           "start": "2026-08-11T13:35:00+02:00",
           "end": "2026-08-11T14:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "729a07f2ea14",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Nice / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 27e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-11T13:45:00+02:00",
+          "end": "2026-08-11T15:24:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5bfd22180d98",
+          "sport": "mma",
+          "competition": "UFC",
+          "title": "MMA : UFC",
+          "subtitle": "Mateusz Gamrot / Quillan Salkilld. MMA : Ultimate Fighting Championship. UFC Fight Night 284. Poids légers.",
+          "description": "MMA : Ultimate Fighting Championship. UFC Fight Night 284. Poids légers. Mateusz Gamrot / Quillan Salkilld.",
+          "team1": {
+            "name": "Mateusz Gamrot",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Quillan Salkilld",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "VOOSportWorld1.be",
+            "name": "VOO Sport World 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8534ffe50925cbb8.png/480x480/quality/100/voosport-world-1.png",
+            "slug": "voo-sport-world-1",
+            "is_free": false
+          },
+          "start": "2026-08-11T13:45:00+02:00",
+          "end": "2026-08-11T16:45:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -4983,6 +4463,526 @@
           },
           "start": "2026-08-11T13:55:00+02:00",
           "end": "2026-08-11T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8eb2e63f454f",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Brest / Venezia",
+          "subtitle": null,
+          "description": "Match amical opposant Brest à Venise",
+          "team1": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Venezia",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-11T14:00:00+02:00",
+          "end": "2026-08-11T15:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3e58a0b8f1a1",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Vuelta a Burgos - Etape 1",
+          "subtitle": null,
+          "description": "Vuelta a Burgos - Etape 1 : Gumiel de Izan - Alto del Castillo (165km)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-08-11T14:00:00+02:00",
+          "end": "2026-08-11T15:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "83d94bcf20bb",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Vuelta a Burgos - Rit 1",
+          "subtitle": null,
+          "description": "Vuelta a Burgos - Rit 1: Gumiel de Izan - Alto del Castillo (165km)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-08-11T14:00:00+02:00",
+          "end": "2026-08-11T15:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "847ac856012a",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Lugano / FC Zurich",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Lugano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Zurich",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-08-11T14:15:00+02:00",
+          "end": "2026-08-11T16:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "28b15f0de363",
+          "sport": "other",
+          "competition": null,
+          "title": "Mission ImBüssible - Am Ball im Balkan",
+          "subtitle": "Episode 1",
+          "description": "Zwei Freunde, eine Balkanreise auf den Spuren unserer Stars der Fussballnationalmannschaft: Stefan Büssi Büsser und Manuel Manu Rothmund machen in einer dreiteiligen Serie einen Roadtrip von Zürich nach Kroatien, Bosnien, Albanien, Mazedonien bis nach Gjilan im Kosovo, dem Geburtsort von Xherdan Shaqiri. Die beiden wollen im Vorfeld der Fussballweltmeisterschaft wissen, woher die besten Kicker der Nation ursprünglich stammen.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SRF1.ch",
+            "name": "SRF 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452700?=.png",
+            "slug": "srf-1",
+            "is_free": false
+          },
+          "start": "2026-08-11T14:15:00+02:00",
+          "end": "2026-08-11T15:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f25ec847a338",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Everton / Liverpool",
+          "subtitle": "Premier League - 33e journée",
+          "description": "Le derby entre les deux clubs de Liverpool promet d'être disputé, Everton et les Reds visant tous deux une place qualificative européenne, dans le Top 6 de la Premier League. Lors du match aller, en septembre dernier, Hugo Ekitiké et les siens s'étaient diffficilement imposés à Anfield (2-1). L'heure de la revanche pour les hommes de David Moyes ?",
+          "team1": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-11T14:21:00+02:00",
+          "end": "2026-08-11T16:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "26cf9bb20ef2",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Mets de New York c. Braves d'Atlanta",
+          "subtitle": "Mets de New York c. Braves d'Atlanta",
+          "description": "Les Braves accueillent les Mets au Truist Park pour un match de la Ligue nationale. New York arrive avec une série de trois victoires consécutives.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-08-11T15:00:00+02:00",
+          "end": "2026-08-11T17:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "eaa8094a7e06",
+          "sport": "football",
+          "competition": null,
+          "title": "La Gantoise / Malines",
+          "subtitle": null,
+          "description": "LIVE: KAA Gent - KV Mechelen.",
+          "team1": {
+            "name": "La Gantoise",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Malines",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-11T15:20:00+02:00",
+          "end": "2026-08-11T17:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1e9f22e2e583",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Stuttgart / Hambourg",
+          "subtitle": "Bundesliga - 29e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hambourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-11T15:24:00+02:00",
+          "end": "2026-08-11T17:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b6f65b2257a2",
+          "sport": "voile",
+          "competition": "Grand Prix de Grande-Bretagne",
+          "title": "Voile : Grand Prix de Grande-Bretagne",
+          "subtitle": null,
+          "description": "Le Grand Prix de Grande-Bretagne de voile, étape européenne du circuit SailGP, se déroule dans les eaux de Portsmouth, sur la côte sud de l'Angleterre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-11T15:53:00+02:00",
+          "end": "2026-08-11T16:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5dee9fb2e14e",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Cagliari / Nice",
+          "subtitle": null,
+          "description": "Match amical opposant Cagliari à Nice",
+          "team1": {
+            "name": "Cagliari",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-11T16:00:00+02:00",
+          "end": "2026-08-11T17:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c132514a94ba",
+          "sport": "mma",
+          "competition": "Grand Prix de Qingdao",
+          "title": "Judo : Grand Prix de Qingdao",
+          "subtitle": null,
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-08-11T16:00:00+02:00",
+          "end": "2026-08-11T18:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "56000395e427",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Valence",
+          "subtitle": "Liga - 4e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Valence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-11T16:10:00+02:00",
+          "end": "2026-08-11T17:48:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c8bec4f465e2",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Tottenham / Arsenal",
+          "subtitle": "Premier League - 27e journée",
+          "description": "Les Gunners d'Arsenal, leaders inaccessibles de Premier League, se déplacent chez les Spurs de Tottenham qui font du surplace dans le ventre mou du classement. Lors du match aller, en novembre dernier, Arsenal avait dominé Tottenham (4-1), grâce à un triplé d'Eberechi Eze. William Saliba et les siens vont-ils confirmer leur supériorité au Tottenham Hotspur Stadium ?",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-11T16:25:00+02:00",
+          "end": "2026-08-11T18:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "80abfb42af44",
+          "sport": "motogp",
+          "competition": null,
+          "title": "La course des Moto GP",
+          "subtitle": "Grand Prix de Grande-Bretagne",
+          "description": "Silverstone accueille le Grand Prix de Grande-Bretagne, première manche disputée après la trêve estivale. Vainqueur de trois des quatre dernières courses, Marc Marquez tentera de poursuivre sa série après son succès, en juillet, au Grand Prix d'Allemagne. Opéré d'une fracture de la clavicule gauche après sa chute lors des qualifications de cette même épreuve, Marco Bezzecchi espère être rétabli et retrouver la compétition sur le tracé britannique.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-08-11T16:30:00+02:00",
+          "end": "2026-08-11T17:17:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6cf49252a482",
+          "sport": "mma",
+          "competition": "PFL",
+          "title": "MMA : PFL",
+          "subtitle": "PFL Charlotte 08/08",
+          "description": "Suivez des combats de la Professionnal Fighters League de MMA, une des fédérations de ce sport de combat. Créée en 2018, cette compétition est la première à comptabiliser les points acquis par les combattants sur une durée indéfinie, contrairement aux autres qui fonctionnent par saisons. Initialement lancée au Madison Square Garden de New-York, chacune des six catégories de poids dispose d'une récompense impressionnante d'un million de dollars.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-08-11T16:40:00+02:00",
+          "end": "2026-08-11T18:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aaf58b91b661",
+          "sport": "handball",
+          "competition": null,
+          "title": "A vos marques",
+          "subtitle": "Para-trail",
+          "description": "Dans A vos marques, Salim EJNAINI s'intéresse à tous les parasports. Aujourd'hui, il reçoit le para-traileur Julien VEYSSEYRE et son entraîneur Patrick BRINGER. Dans \"Mon défi\", il sera question de découvrir la discipline de l'Ultra trail ainsi que ses spécificités. Dans la deuxième partie de l'émission, retour sur le parcours de Julien et son défi de taille : terminer l'UTMB face aux sportifs valides.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-08-11T18:05:00+02:00",
+          "end": "2026-08-11T18:35:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
