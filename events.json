@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-14T16:48:50.187339+00:00",
+    "generated_at": "2026-08-14T20:26:28.046245+00:00",
     "total_events": 1236,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,18 @@
     ],
     "channels": [
       {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "das-erste",
+        "name": "Das Erste",
         "is_free": false
       },
       {
@@ -33,28 +43,13 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
+        "slug": "eurosport-360-4",
+        "name": "Eurosport 360 - 4",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1-2",
-        "name": "Ligue 1+ 2",
-        "is_free": false
-      },
-      {
-        "slug": "elevensports1fr",
-        "name": "ElevenSports1FR",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
         "is_free": false
       },
       {
@@ -68,18 +63,93 @@
         "is_free": false
       },
       {
-        "slug": "das-erste",
-        "name": "Das Erste",
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
         "is_free": false
       },
       {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
+        "slug": "eurosport-360-10",
+        "name": "EUROSPORT 360 10",
+        "is_free": false
+      },
+      {
+        "slug": "elevensports1fr",
+        "name": "ElevenSports1FR",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-9",
+        "name": "EUROSPORT 360 9",
+        "is_free": false
+      },
+      {
+        "slug": "rds-info",
+        "name": "RDS Info",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
         "is_free": false
       },
       {
@@ -88,8 +158,53 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "trek",
+        "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "a-bola-tv",
+        "name": "A BOLA TV",
+        "is_free": false
+      },
+      {
+        "slug": "france-3-nouvelle-aquitaine",
+        "name": "France 3 Nouvelle Aquitaine",
+        "is_free": false
+      },
+      {
+        "slug": "cdirect",
+        "name": "CDIRECT",
+        "is_free": false
+      },
+      {
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "canal-docs",
+        "name": "Canal+ Docs",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1-2",
+        "name": "Ligue 1+ 2",
         "is_free": false
       },
       {
@@ -128,16 +243,6 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
         "slug": "sport-en-france",
         "name": "Sport en France",
         "is_free": true
@@ -145,111 +250,6 @@
       {
         "slug": "elevenprol2",
         "name": "ElevenProL2",
-        "is_free": false
-      },
-      {
-        "slug": "france-3-nouvelle-aquitaine",
-        "name": "France 3 Nouvelle Aquitaine",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-4",
-        "name": "Eurosport 360 - 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-10",
-        "name": "EUROSPORT 360 10",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-9",
-        "name": "EUROSPORT 360 9",
-        "is_free": false
-      },
-      {
-        "slug": "rds-info",
-        "name": "RDS Info",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
-        "is_free": false
-      },
-      {
-        "slug": "a-bola-tv",
-        "name": "A BOLA TV",
-        "is_free": false
-      },
-      {
-        "slug": "cdirect",
-        "name": "CDIRECT",
-        "is_free": false
-      },
-      {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
-        "is_free": false
-      },
-      {
-        "slug": "canal-docs",
-        "name": "Canal+ Docs",
         "is_free": false
       },
       {
@@ -545,810 +545,6 @@
       "event_count": 182,
       "events": [
         {
-          "id": "d756c7514395",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Aaron McKenna / Etinosa Oliha",
-          "subtitle": null,
-          "description": "Zuffa Boxing 10 se déroule à Dublin, en Irlande. En tête d'affiche, l'Irlandais Aaron McKenna contre l'Italien Etinosa Oliha pour le titre vacant IBF des poids moyens dans un combat en 12 rounds. Evénement co-principal, en poids moyens (10 rounds) ; l'Irlandais Callum Walsh affronte le Britannique contre Tyler Denny.",
-          "team1": {
-            "name": "Aaron McKenna",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Etinosa Oliha",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-08-14T16:30:00+02:00",
-          "end": "2026-08-14T20:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b0b6b84eb65d",
-          "sport": "football",
-          "competition": null,
-          "title": "Club Bruges / Courtrai",
-          "subtitle": null,
-          "description": "Club Brugge - KV Kortrijk.",
-          "team1": {
-            "name": "Club Bruges",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Courtrai",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:00:00+02:00",
-          "end": "2026-08-14T19:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7c32b2e30e9d",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Cincinnati",
-          "title": "Tennis : Masters 1000 de Cincinnati",
-          "subtitle": "Masters 1000 de Cincinnati. 1er tour.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:00:00+02:00",
-          "end": "2026-08-14T19:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "810f1b2be0ac",
-          "sport": "football",
-          "competition": "Supercoupe de l'UEFA - Finale",
-          "title": "Paris-SG / Aston Villa",
-          "subtitle": "Supercoupe de l'UEFA - Finale",
-          "description": "A suivre la prestigieuse affiche de la Supercoupe de l'UEFA. Créée en 1972 par le journaliste hollandais Anton Witkamp avec l'idée de départager enfin les différents vainqueurs des coupes d'Europe de son époque et désigner un champion ultime, cette finale se dispute depuis tous les ans dans les plus beaux stades du Vieux Continent et oppose depuis 1999 le vainqueur de la Ligue des Champions à celui de la Coupe de l'UEFA, renommée Ligue Europa en 2009.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:10:00+02:00",
-          "end": "2026-08-14T18:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c970183461ec",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Marseille / Atlético Madrid",
-          "subtitle": null,
-          "description": "1ère période du match amical opposant l'Olympique de Marseille à l'Atletico de Madrid",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus2.fr",
-            "name": "Ligue 1+ 2",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-2",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:15:00+02:00",
-          "end": "2026-08-14T19:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2ab354ec6609",
-          "sport": "football",
-          "competition": null,
-          "title": "Lyon / Paris-SG",
-          "subtitle": null,
-          "description": "Retrouvez les plus belles affiches du championnat de France et vivez toute l'intensité de la Ligue 1.",
-          "team1": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:20:00+02:00",
-          "end": "2026-08-14T19:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7160e5a7d7bb",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Marseille / Lyon",
-          "subtitle": "Ligue 1 McDonald's - 24e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:36:00+02:00",
-          "end": "2026-08-14T19:27:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "54f77207b1f9",
-          "sport": "football",
-          "competition": "Ligue Conférence - Finale",
-          "title": "Crystal Palace / Rayo Vallecano",
-          "subtitle": "Ligue Conférence - Finale",
-          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:44:00+02:00",
-          "end": "2026-08-14T19:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ffee3504823f",
-          "sport": "football",
-          "competition": null,
-          "title": "Crystal Palace - Rayo Vallecano",
-          "subtitle": "Ligue Conférence - Finale",
-          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
-          "team1": {
-            "name": "Ligue Conférence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EvenementsSports4KUHD.fr",
-            "name": "Evenements Sports 4K UHD",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
-            "slug": "evenements-sports-4k-uhd",
-            "is_free": false
-          },
-          "start": "2026-08-14T17:44:00+02:00",
-          "end": "2026-08-14T19:29:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e65c3566296b",
-          "sport": "f1",
-          "competition": null,
-          "title": "Sportschau",
-          "subtitle": "Pferdesport: Weltmeisterschaften, Dressur Einzel, Grand Prix Spécial Reporter: Carsten Sostmeier Moderation: Sabine Hartelt Zusammenfassung aus Aachen / ca.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "DasErste.de",
-            "name": "Das Erste",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~206435f2d1b85281.png/480x480/quality/100/das-erste.png",
-            "slug": "das-erste",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:00:00+02:00",
-          "end": "2026-08-14T20:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "927eb7e932d4",
-          "sport": "tennis",
-          "competition": "Masters 1000 du Canada",
-          "title": "Tennis : Masters 1000 du Canada",
-          "subtitle": "Masters 1000 du Canada. 2e demi-finale.",
-          "description": "Masters 1000 du Canada. 2e demi-finale.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "VOOSportWorld2.be",
-            "name": "VOO Sport World 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
-            "slug": "voo-sport-world-2",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:00:00+02:00",
-          "end": "2026-08-14T20:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b01ae8308976",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Celta Vigo",
-          "subtitle": "Liga - 33e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Celta Vigo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:18:00+02:00",
-          "end": "2026-08-14T20:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "36b5ef4fd5e2",
-          "sport": "football",
-          "competition": null,
-          "title": "Atlético Madrid / Getafe",
-          "subtitle": null,
-          "description": "Retrouvez toute l'intensité du championnat espagnol avec les plus belles affiches de Liga.",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Getafe",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:25:00+02:00",
-          "end": "2026-08-14T20:25:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d5b33bba8cc4",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Arsenal / Fulham",
-          "subtitle": "Premier League - 35e journée",
-          "description": "Le leader, Arsenal, reçoit les Cottagers de Fulham, avec l'intention de décrocher une nouvelle victoire et de se rapprocher un peu plus du titre de champion d'Angleterre. A l'aller, les Gunners s'étaient imposés (0-1) sur la pelouse de Craven Cottage, grâce à un but signé Leandro Trossard, à l'heure de jeu.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fulham",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:35:00+02:00",
-          "end": "2026-08-14T20:19:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e3d23ef9bd19",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Amiens / La Roche VF",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant Amiens SC et Vendée FC La Roche/Yon",
-          "team1": {
-            "name": "Amiens",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "La Roche VF",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus10.fr",
-            "name": "Ligue 1+ 10",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-10",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:53:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "671922a37634",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Aubagne / Bastia",
-          "subtitle": "Ligue 3",
-          "description": "Match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant SC Aubagne Air Bel et SC Bastia",
-          "team1": {
-            "name": "Aubagne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bastia",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus4.fr",
-            "name": "Ligue 1+ 4",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-4",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:53:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "808d827fcc92",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Valenciennes / Bourg-en-Bresse",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant Valenciennes FC et FC Bourg en Bresse P01",
-          "team1": {
-            "name": "Valenciennes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bourg-en-Bresse",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus5.fr",
-            "name": "Ligue 1+ 5",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-5",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:53:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "124d06ecaa52",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Orléans / Rouen",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant US Orléans et FC Rouen 1899",
-          "team1": {
-            "name": "Orléans",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rouen",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus6.fr",
-            "name": "Ligue 1+ 6",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-6",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:53:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b409c8ff9d68",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Cannes / Fleury",
-          "subtitle": "Ligue 3",
-          "description": "Match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant AS Cannes et FC Fleury 91",
-          "team1": {
-            "name": "Cannes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fleury",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus7.fr",
-            "name": "Ligue 1+ 7",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-7",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:53:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "66c6d3c757c8",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Quevilly Rouen / Concarneau",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant QRM et US Concarneau",
-          "team1": {
-            "name": "Quevilly Rouen",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Concarneau",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus8.fr",
-            "name": "Ligue 1+ 8",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-8",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:53:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6df313af0522",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Versailles / Le Puy-en-Velay",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant FC Versailles et Le Puy-en-Velay FC",
-          "team1": {
-            "name": "Versailles",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Le Puy-en-Velay",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus9.fr",
-            "name": "Ligue 1+ 9",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1-9",
-            "is_free": false
-          },
-          "start": "2026-08-14T18:53:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d4f002781399",
-          "sport": "tennis",
-          "competition": "Masters 1000 de Cincinnati",
-          "title": "Tennis : Masters 1000 de Cincinnati",
-          "subtitle": "Masters 1000 de Cincinnati. 1er tour.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-14T19:00:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "078401a35f07",
-          "sport": "athletisme",
-          "competition": null,
-          "title": "Championnats d'Europe | 4e journée - Session de soirée",
-          "subtitle": "Birmingham",
-          "description": "Les 27es Championnats d'Europe d'athlétisme se déroulent, du 10 au 16 août 2026, à Birmingham, en Angleterre, au sein de l'Alexander Stadium. Pas moins de sept finales sont au programme de cette quatrième soirée : triple saut dames, saut à la perche dames, 3000 m steeple dames, disque messieurs, décathlon (avec la dernière épreuve du 1500 m), 800 m messieurs et 200 m dames. A suivre également les demi-finales du 200 m messieurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-14T19:00:00+02:00",
-          "end": "2026-08-14T20:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "8e64e010a8e2",
           "sport": "tennis",
           "competition": "Cincinnati Open 2026 - 1re ronde, ATP",
@@ -1366,131 +562,7 @@
           },
           "start": "2026-08-14T19:00:00+02:00",
           "end": "2026-08-15T05:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "58f69af2d0fa",
-          "sport": "football",
-          "competition": "Coupe d'Afrique des Nations fémi",
-          "title": "Maroc / Cameroun",
-          "subtitle": "Coupe d'Afrique des Nations fémi...",
-          "description": "Retransmission d'un match de la Coupe d'Afrique des nations de football. La WAFCON, organisée par la CAF, a lieu tous les deux ans, depuis 1991. L'édition de 2020 a été annulée à cause du Covid. Les huits meilleurs pays africains se battent pour devenir la meilleure nation du continent.",
-          "team1": {
-            "name": "Maroc",
-            "type": "country",
-            "short": "Maroc",
-            "country_code": "ma",
-            "logo_url": "https://flagcdn.com/w80/ma.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cameroun",
-            "type": "country",
-            "short": "Cameroun",
-            "country_code": "cm",
-            "logo_url": "https://flagcdn.com/w80/cm.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-14T19:06:00+02:00",
-          "end": "2026-08-14T21:41:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "77f1b09da6f5",
-          "sport": "basket",
-          "competition": "World Tour",
-          "title": "3x3 Basketball : World Tour",
-          "subtitle": null,
-          "description": "Anvers - Bordeaux, rencontre du groupe B de la phase de poules de l'étape de Lausanne du FIBA 3X3 World Tour 2026.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-08-14T19:15:00+02:00",
-          "end": "2026-08-14T21:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e80016f84ddf",
-          "sport": "football",
-          "competition": null,
-          "title": "Sporting Hasselt / FCV Dender EH",
-          "subtitle": null,
-          "description": "LIVE: Sporting Hasselt - FCV Dender EH.",
-          "team1": {
-            "name": "AS Saint-Étienne",
-            "type": "club",
-            "short": "ASSE",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FCV Dender EH",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL2.be",
-            "name": "ElevenProL2",
-            "icon_url": null,
-            "slug": "elevenprol2",
-            "is_free": false
-          },
-          "start": "2026-08-14T19:45:00+02:00",
-          "end": "2026-08-14T22:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e5feb2fda0b4",
-          "sport": "other",
-          "competition": null,
-          "title": "Ride in 360 - la glisse immersive",
-          "subtitle": "Wake skate avec Julien, Lac de Lacanau 33",
-          "description": "Le wake skate est une discipline hybride entre le wake board et le skate. La plus grande difficulté est de ne pas avoir les pieds attachés à la planche lors des futures aériennes. Une dextérité qui ressemble au skate terrestre. Julien notre moniteur pratique beaucoup de sports de glisse ce qui lui permet d'être performant dans ce sport pas si facile. Il peut se pratiquer derriere un bateau ou en cable park.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "France3NouvelleAquitaine.fr",
-            "name": "France 3 Nouvelle Aquitaine",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/998/canal-ouah/CHN43FB/CHN43FB_998_20220112?=.png",
-            "slug": "france-3-nouvelle-aquitaine",
-            "is_free": false
-          },
-          "start": "2026-08-14T19:46:00+02:00",
-          "end": "2026-08-14T19:52:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1514,83 +586,7 @@
           },
           "start": "2026-08-14T20:00:00+02:00",
           "end": "2026-08-15T00:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "45e779fa93a4",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Everton / Manchester City",
-          "subtitle": "Premier League - 35e journée",
-          "description": "Clôture de la 35e journée de Premier League, avec l'opposition entre deux candidats aux places européennes, les Toffees d'Everton et les Cityzens de Manchester. Si ces derniers espèrent encore disputer le titre de champion d'Angleterre à Arsenal, les premiers visent un accessit en Ligue Europa ou en Ligue Conférence. Lors du match aller, Erling Haaland avait inscrit les deux buts de la victoire (2-0) des Mancuniens.",
-          "team1": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-14T20:01:00+02:00",
-          "end": "2026-08-14T21:47:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "19774410a6d5",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Paris-SG / Monaco",
-          "subtitle": "Ligue 1 McDonald's - 25e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-14T20:14:00+02:00",
-          "end": "2026-08-14T22:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1628,45 +624,7 @@
           },
           "start": "2026-08-14T20:15:00+02:00",
           "end": "2026-08-14T23:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f0d504a8cd17",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Valence",
-          "subtitle": "Liga - 11e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Valence",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-14T20:19:00+02:00",
-          "end": "2026-08-14T22:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1704,45 +662,7 @@
           },
           "start": "2026-08-14T20:25:00+02:00",
           "end": "2026-08-14T23:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cf71846d40db",
-          "sport": "football",
-          "competition": null,
-          "title": "Real Madrid / Atlético Madrid",
-          "subtitle": null,
-          "description": "Retrouvez toute l'intensité du championnat espagnol avec les plus belles affiches de Liga.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-08-14T20:25:00+02:00",
-          "end": "2026-08-14T22:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1780,7 +700,7 @@
           },
           "start": "2026-08-14T20:30:00+02:00",
           "end": "2026-08-14T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1804,7 +724,7 @@
           },
           "start": "2026-08-14T20:45:00+02:00",
           "end": "2026-08-14T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1842,7 +762,7 @@
           },
           "start": "2026-08-14T20:55:00+02:00",
           "end": "2026-08-14T22:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1880,7 +800,7 @@
           },
           "start": "2026-08-14T20:55:00+02:00",
           "end": "2026-08-14T22:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1918,7 +838,7 @@
           },
           "start": "2026-08-14T20:56:00+02:00",
           "end": "2026-08-14T22:59:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1942,7 +862,7 @@
           },
           "start": "2026-08-14T21:00:00+02:00",
           "end": "2026-08-14T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1966,7 +886,7 @@
           },
           "start": "2026-08-14T21:00:00+02:00",
           "end": "2026-08-14T23:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2004,7 +924,7 @@
           },
           "start": "2026-08-14T21:05:00+02:00",
           "end": "2026-08-14T23:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2042,7 +962,7 @@
           },
           "start": "2026-08-14T21:15:00+02:00",
           "end": "2026-08-14T23:22:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2080,7 +1000,7 @@
           },
           "start": "2026-08-14T21:45:00+02:00",
           "end": "2026-08-15T00:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6415,6 +5335,44 @@
           "result": null
         },
         {
+          "id": "d756c7514395",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Aaron McKenna / Etinosa Oliha",
+          "subtitle": null,
+          "description": "Zuffa Boxing 10 se déroule à Dublin, en Irlande. En tête d'affiche, l'Irlandais Aaron McKenna contre l'Italien Etinosa Oliha pour le titre vacant IBF des poids moyens dans un combat en 12 rounds. Evénement co-principal, en poids moyens (10 rounds) ; l'Irlandais Callum Walsh affronte le Britannique contre Tyler Denny.",
+          "team1": {
+            "name": "Aaron McKenna",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Etinosa Oliha",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-08-14T16:30:00+02:00",
+          "end": "2026-08-14T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "98813810ae5a",
           "sport": "football",
           "competition": "Premier League",
@@ -6446,6 +5404,1048 @@
           },
           "start": "2026-08-14T16:35:00+02:00",
           "end": "2026-08-14T18:18:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b0b6b84eb65d",
+          "sport": "football",
+          "competition": null,
+          "title": "Club Bruges / Courtrai",
+          "subtitle": null,
+          "description": "Club Brugge - KV Kortrijk.",
+          "team1": {
+            "name": "Club Bruges",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Courtrai",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:00:00+02:00",
+          "end": "2026-08-14T19:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7c32b2e30e9d",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Cincinnati",
+          "title": "Tennis : Masters 1000 de Cincinnati",
+          "subtitle": "Masters 1000 de Cincinnati. 1er tour.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:00:00+02:00",
+          "end": "2026-08-14T19:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "810f1b2be0ac",
+          "sport": "football",
+          "competition": "Supercoupe de l'UEFA - Finale",
+          "title": "Paris-SG / Aston Villa",
+          "subtitle": "Supercoupe de l'UEFA - Finale",
+          "description": "A suivre la prestigieuse affiche de la Supercoupe de l'UEFA. Créée en 1972 par le journaliste hollandais Anton Witkamp avec l'idée de départager enfin les différents vainqueurs des coupes d'Europe de son époque et désigner un champion ultime, cette finale se dispute depuis tous les ans dans les plus beaux stades du Vieux Continent et oppose depuis 1999 le vainqueur de la Ligue des Champions à celui de la Coupe de l'UEFA, renommée Ligue Europa en 2009.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:10:00+02:00",
+          "end": "2026-08-14T18:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c970183461ec",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Marseille / Atlético Madrid",
+          "subtitle": null,
+          "description": "1ère période du match amical opposant l'Olympique de Marseille à l'Atletico de Madrid",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus2.fr",
+            "name": "Ligue 1+ 2",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-2",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:15:00+02:00",
+          "end": "2026-08-14T19:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2ab354ec6609",
+          "sport": "football",
+          "competition": null,
+          "title": "Lyon / Paris-SG",
+          "subtitle": null,
+          "description": "Retrouvez les plus belles affiches du championnat de France et vivez toute l'intensité de la Ligue 1.",
+          "team1": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:20:00+02:00",
+          "end": "2026-08-14T19:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7160e5a7d7bb",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Marseille / Lyon",
+          "subtitle": "Ligue 1 McDonald's - 24e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:36:00+02:00",
+          "end": "2026-08-14T19:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "54f77207b1f9",
+          "sport": "football",
+          "competition": "Ligue Conférence - Finale",
+          "title": "Crystal Palace / Rayo Vallecano",
+          "subtitle": "Ligue Conférence - Finale",
+          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:44:00+02:00",
+          "end": "2026-08-14T19:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ffee3504823f",
+          "sport": "football",
+          "competition": null,
+          "title": "Crystal Palace - Rayo Vallecano",
+          "subtitle": "Ligue Conférence - Finale",
+          "description": "Après l'AS Rome, West Ham, l'Olympiakos et Chelsea, quel sera le cinquième club à inscrire son nom au palmarès de la plus récente des compétitions européennes ? Solides à défaut d'avoir été particulièrement brillants, Crystal Palace et le Rayo Vallecano ont réussi à se hisser en finale et ont gagné le droit de s'affronter sur la pelouse de Leipzig pour un trophée et surtout une place assurée la saison prochaine, en Ligue Europa.",
+          "team1": {
+            "name": "Ligue Conférence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EvenementsSports4KUHD.fr",
+            "name": "Evenements Sports 4K UHD",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
+            "slug": "evenements-sports-4k-uhd",
+            "is_free": false
+          },
+          "start": "2026-08-14T17:44:00+02:00",
+          "end": "2026-08-14T19:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e65c3566296b",
+          "sport": "f1",
+          "competition": null,
+          "title": "Sportschau",
+          "subtitle": "Pferdesport: Weltmeisterschaften, Dressur Einzel, Grand Prix Spécial Reporter: Carsten Sostmeier Moderation: Sabine Hartelt Zusammenfassung aus Aachen / ca.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "DasErste.de",
+            "name": "Das Erste",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~206435f2d1b85281.png/480x480/quality/100/das-erste.png",
+            "slug": "das-erste",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:00:00+02:00",
+          "end": "2026-08-14T20:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "927eb7e932d4",
+          "sport": "tennis",
+          "competition": "Masters 1000 du Canada",
+          "title": "Tennis : Masters 1000 du Canada",
+          "subtitle": "Masters 1000 du Canada. 2e demi-finale.",
+          "description": "Masters 1000 du Canada. 2e demi-finale.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "VOOSportWorld2.be",
+            "name": "VOO Sport World 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3234807dd29dcf3f.png/480x480/quality/100/voosport-world-2.png",
+            "slug": "voo-sport-world-2",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:00:00+02:00",
+          "end": "2026-08-14T20:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b01ae8308976",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Barcelone / Celta Vigo",
+          "subtitle": "Liga - 33e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Celta Vigo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:18:00+02:00",
+          "end": "2026-08-14T20:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "36b5ef4fd5e2",
+          "sport": "football",
+          "competition": null,
+          "title": "Atlético Madrid / Getafe",
+          "subtitle": null,
+          "description": "Retrouvez toute l'intensité du championnat espagnol avec les plus belles affiches de Liga.",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Getafe",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:25:00+02:00",
+          "end": "2026-08-14T20:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d5b33bba8cc4",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Arsenal / Fulham",
+          "subtitle": "Premier League - 35e journée",
+          "description": "Le leader, Arsenal, reçoit les Cottagers de Fulham, avec l'intention de décrocher une nouvelle victoire et de se rapprocher un peu plus du titre de champion d'Angleterre. A l'aller, les Gunners s'étaient imposés (0-1) sur la pelouse de Craven Cottage, grâce à un but signé Leandro Trossard, à l'heure de jeu.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fulham",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:35:00+02:00",
+          "end": "2026-08-14T20:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e3d23ef9bd19",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Amiens / La Roche VF",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant Amiens SC et Vendée FC La Roche/Yon",
+          "team1": {
+            "name": "Amiens",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "La Roche VF",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus10.fr",
+            "name": "Ligue 1+ 10",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-10",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:53:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "671922a37634",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Aubagne / Bastia",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant SC Aubagne Air Bel et SC Bastia",
+          "team1": {
+            "name": "Aubagne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bastia",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus4.fr",
+            "name": "Ligue 1+ 4",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-4",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:53:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "808d827fcc92",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Valenciennes / Bourg-en-Bresse",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant Valenciennes FC et FC Bourg en Bresse P01",
+          "team1": {
+            "name": "Valenciennes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bourg-en-Bresse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus5.fr",
+            "name": "Ligue 1+ 5",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-5",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:53:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "124d06ecaa52",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Orléans / Rouen",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant US Orléans et FC Rouen 1899",
+          "team1": {
+            "name": "Orléans",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rouen",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus6.fr",
+            "name": "Ligue 1+ 6",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-6",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:53:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b409c8ff9d68",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Cannes / Fleury",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant AS Cannes et FC Fleury 91",
+          "team1": {
+            "name": "Cannes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fleury",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus7.fr",
+            "name": "Ligue 1+ 7",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-7",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:53:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "66c6d3c757c8",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Quevilly Rouen / Concarneau",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant QRM et US Concarneau",
+          "team1": {
+            "name": "Quevilly Rouen",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Concarneau",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus8.fr",
+            "name": "Ligue 1+ 8",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-8",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:53:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6df313af0522",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Versailles / Le Puy-en-Velay",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant FC Versailles et Le Puy-en-Velay FC",
+          "team1": {
+            "name": "Versailles",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Le Puy-en-Velay",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus9.fr",
+            "name": "Ligue 1+ 9",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1-9",
+            "is_free": false
+          },
+          "start": "2026-08-14T18:53:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d4f002781399",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Cincinnati",
+          "title": "Tennis : Masters 1000 de Cincinnati",
+          "subtitle": "Masters 1000 de Cincinnati. 1er tour.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-14T19:00:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "078401a35f07",
+          "sport": "athletisme",
+          "competition": null,
+          "title": "Championnats d'Europe | 4e journée - Session de soirée",
+          "subtitle": "Birmingham",
+          "description": "Les 27es Championnats d'Europe d'athlétisme se déroulent, du 10 au 16 août 2026, à Birmingham, en Angleterre, au sein de l'Alexander Stadium. Pas moins de sept finales sont au programme de cette quatrième soirée : triple saut dames, saut à la perche dames, 3000 m steeple dames, disque messieurs, décathlon (avec la dernière épreuve du 1500 m), 800 m messieurs et 200 m dames. A suivre également les demi-finales du 200 m messieurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-14T19:00:00+02:00",
+          "end": "2026-08-14T20:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "58f69af2d0fa",
+          "sport": "football",
+          "competition": "Coupe d'Afrique des Nations fémi",
+          "title": "Maroc / Cameroun",
+          "subtitle": "Coupe d'Afrique des Nations fémi...",
+          "description": "Retransmission d'un match de la Coupe d'Afrique des nations de football. La WAFCON, organisée par la CAF, a lieu tous les deux ans, depuis 1991. L'édition de 2020 a été annulée à cause du Covid. Les huits meilleurs pays africains se battent pour devenir la meilleure nation du continent.",
+          "team1": {
+            "name": "Maroc",
+            "type": "country",
+            "short": "Maroc",
+            "country_code": "ma",
+            "logo_url": "https://flagcdn.com/w80/ma.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cameroun",
+            "type": "country",
+            "short": "Cameroun",
+            "country_code": "cm",
+            "logo_url": "https://flagcdn.com/w80/cm.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-14T19:06:00+02:00",
+          "end": "2026-08-14T21:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "77f1b09da6f5",
+          "sport": "basket",
+          "competition": "World Tour",
+          "title": "3x3 Basketball : World Tour",
+          "subtitle": null,
+          "description": "Anvers - Bordeaux, rencontre du groupe B de la phase de poules de l'étape de Lausanne du FIBA 3X3 World Tour 2026.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-08-14T19:15:00+02:00",
+          "end": "2026-08-14T21:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e80016f84ddf",
+          "sport": "football",
+          "competition": null,
+          "title": "Sporting Hasselt / FCV Dender EH",
+          "subtitle": null,
+          "description": "LIVE: Sporting Hasselt - FCV Dender EH.",
+          "team1": {
+            "name": "AS Saint-Étienne",
+            "type": "club",
+            "short": "ASSE",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FCV Dender EH",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL2.be",
+            "name": "ElevenProL2",
+            "icon_url": null,
+            "slug": "elevenprol2",
+            "is_free": false
+          },
+          "start": "2026-08-14T19:45:00+02:00",
+          "end": "2026-08-14T22:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e5feb2fda0b4",
+          "sport": "other",
+          "competition": null,
+          "title": "Ride in 360 - la glisse immersive",
+          "subtitle": "Wake skate avec Julien, Lac de Lacanau 33",
+          "description": "Le wake skate est une discipline hybride entre le wake board et le skate. La plus grande difficulté est de ne pas avoir les pieds attachés à la planche lors des futures aériennes. Une dextérité qui ressemble au skate terrestre. Julien notre moniteur pratique beaucoup de sports de glisse ce qui lui permet d'être performant dans ce sport pas si facile. Il peut se pratiquer derriere un bateau ou en cable park.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "France3NouvelleAquitaine.fr",
+            "name": "France 3 Nouvelle Aquitaine",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/998/canal-ouah/CHN43FB/CHN43FB_998_20220112?=.png",
+            "slug": "france-3-nouvelle-aquitaine",
+            "is_free": false
+          },
+          "start": "2026-08-14T19:46:00+02:00",
+          "end": "2026-08-14T19:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "45e779fa93a4",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Everton / Manchester City",
+          "subtitle": "Premier League - 35e journée",
+          "description": "Clôture de la 35e journée de Premier League, avec l'opposition entre deux candidats aux places européennes, les Toffees d'Everton et les Cityzens de Manchester. Si ces derniers espèrent encore disputer le titre de champion d'Angleterre à Arsenal, les premiers visent un accessit en Ligue Europa ou en Ligue Conférence. Lors du match aller, Erling Haaland avait inscrit les deux buts de la victoire (2-0) des Mancuniens.",
+          "team1": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-14T20:01:00+02:00",
+          "end": "2026-08-14T21:47:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "19774410a6d5",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Paris-SG / Monaco",
+          "subtitle": "Ligue 1 McDonald's - 25e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-14T20:14:00+02:00",
+          "end": "2026-08-14T22:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f0d504a8cd17",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Valence",
+          "subtitle": "Liga - 11e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Valence",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-14T20:19:00+02:00",
+          "end": "2026-08-14T22:02:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cf71846d40db",
+          "sport": "football",
+          "competition": null,
+          "title": "Real Madrid / Atlético Madrid",
+          "subtitle": null,
+          "description": "Retrouvez toute l'intensité du championnat espagnol avec les plus belles affiches de Liga.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-08-14T20:25:00+02:00",
+          "end": "2026-08-14T22:20:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
