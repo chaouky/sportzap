@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-17T08:37:34.854102+00:00",
+    "generated_at": "2026-08-17T12:35:26.874752+00:00",
     "total_events": 1418,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,13 @@
     ],
     "channels": [
       {
-        "slug": "elevensports1fr",
-        "name": "ElevenSports1FR",
+        "slug": "das-erste",
+        "name": "Das Erste",
+        "is_free": false
+      },
+      {
+        "slug": "voo-sport-world-2",
+        "name": "VOO Sport World 2",
         "is_free": false
       },
       {
@@ -33,38 +38,13 @@
         "is_free": false
       },
       {
-        "slug": "das-erste",
-        "name": "Das Erste",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
         "is_free": false
       },
       {
-        "slug": "elevensports2fr",
-        "name": "ElevenSports2FR",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -78,13 +58,13 @@
         "is_free": false
       },
       {
-        "slug": "golf",
-        "name": "Golf+",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
-        "slug": "t-l-sud",
-        "name": "Télésud",
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -98,13 +78,8 @@
         "is_free": true
       },
       {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
+        "slug": "elevensports1fr",
+        "name": "ElevenSports1FR",
         "is_free": false
       },
       {
@@ -113,28 +88,28 @@
         "is_free": false
       },
       {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-2",
-        "name": "VOO Sport World 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
         "slug": "nouvellecaledonie",
         "name": "NouvelleCaledonie",
         "is_free": false
       },
       {
+        "slug": "elevensports2fr",
+        "name": "ElevenSports2FR",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
         "slug": "evenements-sports-4k-uhd",
         "name": "Evenements Sports 4K UHD",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -153,6 +128,11 @@
         "is_free": false
       },
       {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
         "slug": "rds2",
         "name": "RDS2",
         "is_free": false
@@ -163,6 +143,11 @@
         "is_free": false
       },
       {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
         "slug": "een",
         "name": "een",
         "is_free": false
@@ -170,6 +155,11 @@
       {
         "slug": "club-rtl",
         "name": "Club RTL",
+        "is_free": false
+      },
+      {
+        "slug": "golf",
+        "name": "Golf+",
         "is_free": false
       },
       {
@@ -243,6 +233,11 @@
         "is_free": false
       },
       {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
         "slug": "auto-plus-tv",
         "name": "Auto Plus TV",
         "is_free": false
@@ -250,6 +245,11 @@
       {
         "slug": "trek",
         "name": "TREK",
+        "is_free": false
+      },
+      {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
         "is_free": false
       },
       {
@@ -500,82 +500,6 @@
       "event_count": 182,
       "events": [
         {
-          "id": "408f8848a61a",
-          "sport": "football",
-          "competition": null,
-          "title": "Stuttgart / Fribourg",
-          "subtitle": null,
-          "description": "Des matches couperets, des stades remplis. Les stars de la DFB Pokal n'ont pas manqué à l'appel cette saison.",
-          "team1": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-17T08:00:00+02:00",
-          "end": "2026-08-17T10:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "98fa7dfa3d8f",
-          "sport": "football",
-          "competition": null,
-          "title": "Union Saint-Gilloise / Zulte Waregem",
-          "subtitle": null,
-          "description": "LIVE: R. Union SG - SV Zulte Waregem.",
-          "team1": {
-            "name": "Union Saint-Gilloise",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Zulte Waregem",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-17T08:20:00+02:00",
-          "end": "2026-08-17T10:40:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "2e4b3ee2151a",
           "sport": "other",
           "competition": null,
@@ -614,878 +538,6 @@
           "result": null
         },
         {
-          "id": "9c2b7770e661",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lyon / Auxerre",
-          "subtitle": "Ligue 1 McDonald's - 31e journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AJ Auxerre",
-            "type": "club",
-            "short": "Auxerre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-17T09:07:00+02:00",
-          "end": "2026-08-17T10:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "470914f1b36a",
-          "sport": "f1",
-          "competition": "Grand Prix de Markham",
-          "title": "Indycar : Grand Prix de Markham",
-          "subtitle": null,
-          "description": "Direction le circuit urbain de Markham, dans l'Ontario, au Canada, pour le Honda Indy Markham, 14e Grand Prix de la saison. Une saison dominée par l'inévitable Alex Palou.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-17T09:14:00+02:00",
-          "end": "2026-08-17T11:46:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a04b225e8a15",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Crystal Palace / Arsenal",
-          "subtitle": "Premier League - 38e journée",
-          "description": "Le 24 mai dernier, les Gunners d'Arsenal ont bouclé leur saison victorieuse en Premier League par un succès (1-2) contre Crystal Palace, à Selhurst Park. Déjà sacré avant le match, Arsenal a pris les trois points grâce à des buts de Gabriel Jesus et Noni Madueke. Jean-Philippe Mateta a relancé le suspense en toute fin de match, en réduisant l'écart d'une tête piquée.",
-          "team1": {
-            "name": "Crystal Palace",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-17T09:17:00+02:00",
-          "end": "2026-08-17T11:04:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8a1a3c05c208",
-          "sport": "boxe",
-          "competition": "Championnat du monde WBC",
-          "title": "Boxe : Championnat du monde WBC | Bakary Samaké / Ermal Hadribeaj et Mourad Aliev / Raphael Akpejiori",
-          "subtitle": null,
-          "description": "Suivez des combats de boxe se disputant dans le cadre du Championnat du monde organisé pa la WBC.",
-          "team1": {
-            "name": "Bakary Samaké",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ermal Hadribeaj et Mourad Aliev / Raphael Akpejiori",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-08-17T09:30:00+02:00",
-          "end": "2026-08-17T13:15:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f2920f20a229",
-          "sport": "basket",
-          "competition": null,
-          "title": "Golden State Warriors / Los Angeles Lakers",
-          "subtitle": null,
-          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
-          "team1": {
-            "name": "Golden State Warriors",
-            "type": "club",
-            "short": "Warriors",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/9.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Los Angeles Lakers",
-            "type": "club",
-            "short": "Lakers",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/13.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-08-17T09:40:00+02:00",
-          "end": "2026-08-17T11:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a6fa489b4423",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Atlético Madrid",
-          "subtitle": "Liga - 29e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-17T09:48:00+02:00",
-          "end": "2026-08-17T11:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c7607e16b4b5",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "FC Union Berlin / Bayern Munich",
-          "subtitle": "Bundesliga - 10e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "FC Union Berlin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-17T09:50:00+02:00",
-          "end": "2026-08-17T11:37:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f775eaf5ad4e",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Thionville / Caen",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant US Thionville Lusitanos et SM Caen",
-          "team1": {
-            "name": "Thionville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Caen",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-17T10:00:00+02:00",
-          "end": "2026-08-17T11:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aae701591d6b",
-          "sport": "football",
-          "competition": "Championnat du Portugal",
-          "title": "Football : Championnat du Portugal | Sporting Club Portugal / Vitoria",
-          "subtitle": null,
-          "description": "Retransmission d'un match du Championnat du Portugal de football. Fondée en 1934, il s'agit de la plus haute compétition de football du Portugal.",
-          "team1": {
-            "name": "Sporting CP",
-            "type": "club",
-            "short": "Sporting",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Vitoria",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-08-17T10:00:00+02:00",
-          "end": "2026-08-17T12:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5dc328bf79e1",
-          "sport": "golf",
-          "competition": "HotelPlanner Tour, Challenge d'Ecosse",
-          "title": "Golf : HotelPlanner Tour, Challenge d'Ecosse",
-          "subtitle": "Golf",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "GolfPlus.fr",
-            "name": "Golf+",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
-            "slug": "golf",
-            "is_free": false
-          },
-          "start": "2026-08-17T10:35:00+02:00",
-          "end": "2026-08-17T11:01:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b7ace4f1f07e",
-          "sport": "football",
-          "competition": null,
-          "title": "Courtrai / Royal Antwerp",
-          "subtitle": null,
-          "description": "LIVE: KV Kortrijk - Royal Antwerp FC.",
-          "team1": {
-            "name": "Courtrai",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Royal Antwerp",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-17T10:40:00+02:00",
-          "end": "2026-08-17T13:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6630dc003178",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E51",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-08-17T10:45:00+02:00",
-          "end": "2026-08-17T11:09:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "80ca0257c41e",
-          "sport": "football",
-          "competition": null,
-          "title": "Bayer Leverkusen / Bayern Munich",
-          "subtitle": null,
-          "description": "Des matches couperets, des stades remplis. Les stars de la DFB Pokal n'ont pas manqué à l'appel cette saison.",
-          "team1": {
-            "name": "Bayer Leverkusen",
-            "type": "club",
-            "short": "Leverkusen",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-17T10:50:00+02:00",
-          "end": "2026-08-17T12:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d74dc5391ff3",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Dans la tempête",
-          "description": "Juste après Noël, les défis s’accumulent. Jean-Philippe Mateta pourrait être transféré dans un grand club européen. Bryan MBeumo découvre un nouvel entraîneur à l’approche d’un choc crucial. Iliman Ndiaye doit retrouver le rythme de la Premier League après une Coupe d’Afrique triomphale avec le Sénégal. Junior Kroupi et Georginio Rutter, eux, se battent pour leur place à Bournemouth et Brighton.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-17T10:53:00+02:00",
-          "end": "2026-08-17T11:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1c71aa8d53a9",
-          "sport": "football",
-          "competition": null,
-          "title": "Premier League Preview",
-          "subtitle": "Calendrier 2026/2027",
-          "description": "Présentation des matchs de la prochaine journée du championnat d'Angleterre.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-17T11:04:00+02:00",
-          "end": "2026-08-17T11:19:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0cbf6c294cf6",
-          "sport": "football",
-          "competition": "Community Shield - Finale",
-          "title": "Arsenal / Manchester City",
-          "subtitle": "Community Shield - Finale",
-          "description": "Retransmission en direct ou en différé du match du Community Shield de football en Angleterre. C'est le premier trophée de la saison en Angleterre, un match, entre le vainqueur de la Premier league et le vainqueur de la Coupe d'Angleterre.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-17T11:28:00+02:00",
-          "end": "2026-08-17T13:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2e2396682637",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Nouveaux buts",
-          "description": "La Premier League est l'un des championnats les plus spectaculaires et les plus relevés du monde. Durant cette compétition serrée et trépidante, les buteurs jouent un rôle capital. Les meilleurs y ont joué, de Henry à Cristiano Ronaldo, de Drogba à Salah. Coup de projecteur sur la trajectoire de cinq attaquants cette saison.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-17T11:30:00+02:00",
-          "end": "2026-08-17T12:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e9892ad9f2dc",
-          "sport": "ski",
-          "competition": "Grand Prix d'été à Courchevel",
-          "title": "Saut à ski : Grand Prix d'été à Courchevel",
-          "subtitle": null,
-          "description": "Les meilleures sauteuses et les meilleurs sauteurs du monde se donnent rendez-vous sur les tremplins olympiques du Praz pour les compétitions de l'unique étape française de la Coupe du Monde de saut à ski. Plus de 100 athlètes représentant vingt nations seront présents.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-08-17T11:30:00+02:00",
-          "end": "2026-08-17T13:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "750ede14f444",
-          "sport": "f1",
-          "competition": null,
-          "title": "On Board Express Moto",
-          "subtitle": "Grand Prix de Grande-Bretagne",
-          "description": "Un magazine court et intense dédié aux sports mécaniques, qui propose, grâce aux caméras embarquées, une immersion totale dans les coulisses des Grands Prix MotoGP.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-08-17T11:33:00+02:00",
-          "end": "2026-08-17T11:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "43907f48fd2f",
-          "sport": "basket",
-          "competition": null,
-          "title": "Philadelphia 76ers / San Antonio Spurs",
-          "subtitle": null,
-          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
-          "team1": {
-            "name": "Philadelphia 76ers",
-            "type": "club",
-            "short": "76ers",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/20.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-08-17T11:35:00+02:00",
-          "end": "2026-08-17T13:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "17c98d4bcb63",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Buteurs-nés ?",
-          "description": "Alors que la fin de saison approche, nos 5 attaquants redoublent d’efforts hors des terrains. Récupération, finition, physique : chaque aspect est travaillé, avec des méthodes parfois inattendues. Dans le sprint final, pas question de s’en remettre au seul \" instinct du buteur \".",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-17T11:37:00+02:00",
-          "end": "2026-08-17T12:21:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "78ae86c916b6",
-          "sport": "football",
-          "competition": null,
-          "title": "Galatasaray - Juventus",
-          "subtitle": null,
-          "description": "Match aller des barrages à élimination directe de l'UEFA Champions League : Galatasaray - Juventus.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-08-17T11:45:00+02:00",
-          "end": "2026-08-17T13:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "201f521d9969",
-          "sport": "other",
-          "competition": null,
-          "title": "Mark Selby - Noppon Saengkham",
-          "subtitle": "Open de Chine | Finale - 2e partie",
-          "description": "L'Open de Chine de snooker, ou China Open en anglais, a été créé en 1997 et se déroule chaque année, depuis 2005, dans la capitale, à Pékin.",
-          "team1": {
-            "name": "Open de Chine | Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "2e partie",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:00:00+02:00",
-          "end": "2026-08-17T12:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "19d2f51c1506",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Cannes / Fleury 91",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant AS Cannes et FC Fleury 91",
-          "team1": {
-            "name": "Cannes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fleury 91",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:00:00+02:00",
-          "end": "2026-08-17T13:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bcac9d1419e5",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:00:00+02:00",
-          "end": "2026-08-17T12:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "63349f597c6d",
-          "sport": "football",
-          "competition": "Ligue 2 BKT",
-          "title": "Football : Ligue 2 BKT | Saint-Etienne / Clermont",
-          "subtitle": null,
-          "description": "Dans le cadre de la 2e journée de la nouvelle saison de Ligue 2 BKT, les Stéphanois reçoivent leurs voisins Clermontois. Malgré la déception de sa non-présence à la Coupe du monde, le Belge Lucas Stassin compte sur ce nouvel exercice pour aider son club à remonter en Ligue 1.",
-          "team1": {
-            "name": "AS Saint-Étienne",
-            "type": "club",
-            "short": "ASSE",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "ASM Clermont",
-            "type": "club",
-            "short": "Clermont",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:00:00+02:00",
-          "end": "2026-08-17T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1d134828ea3c",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Liverpool",
-          "subtitle": "Premier League - 35e journée",
-          "description": "C'est le match au sommet de la 35e journée de Premier League, entre deux candidats à la Ligue des champions la saison prochaine. Les Reds ont une revanche à prendre sur les Red Devils, après leur défaite concédée à domicile lors du match aller (1-2), en octobre dernier. Ce jour-là, Harry Maguire avait inscrit le but de la victoire des Mancuniens, à quelques minutes de la fin du match.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:15:00+02:00",
-          "end": "2026-08-17T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "8308f1cb1e02",
           "sport": "mma",
           "competition": "UFC",
@@ -1517,155 +569,7 @@
           },
           "start": "2026-08-17T12:20:00+02:00",
           "end": "2026-08-17T15:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "344c779a9a97",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Toucher au but",
-          "description": "Dernières journées, derniers matchs. Le moment de concrétiser ses ambitions : une qualification en Coupe d’Europe pour Bryan MBeumo, un record pour Junior Kroupi, une place en sélection pour la Coupe du monde pour Jean-Philippe Mateta… Et alors qu’il vise le haut du tableau avec Brighton, Georginio Rutter lève le voile sur son année éprouvante et contrastée.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:21:00+02:00",
-          "end": "2026-08-17T13:08:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e2f372d8a92a",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 2e étape",
-          "subtitle": "Alba - Limone Piemonte (157km)",
-          "description": "La 2e étape de la 80e édition du Tour d'Espagne se déroulait en Italie, avec une première arrivée au sommet, la montée (col de 2e catégorie) vers Limone Piemonte (altitude de 1381 m), une commune frontalière voisine de Tende, en France. Le 24 août 2025, Jonas Vingegaard s'imposait en réglant le sprint des favoris et s'emparait, du même coup, du maillot rouge de leader.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:30:00+02:00",
-          "end": "2026-08-17T14:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b15844cf9995",
-          "sport": "other",
-          "competition": null,
-          "title": "Mark Selby - Noppon Saengkham",
-          "subtitle": "Open de Chine | Finale - 2e partie",
-          "description": "L'Open de Chine de snooker, ou China Open en anglais, a été créé en 1997 et se déroule chaque année, depuis 2005, dans la capitale, à Pékin.",
-          "team1": {
-            "name": "Open de Chine | Finale",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "2e partie",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:30:00+02:00",
-          "end": "2026-08-17T14:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a4168adc2b7b",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:30:00+02:00",
-          "end": "2026-08-17T13:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "438986dc5d18",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayern Munich / Fribourg",
-          "subtitle": "Bundesliga - 11e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-17T12:31:00+02:00",
-          "end": "2026-08-17T14:17:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1703,7 +607,7 @@
           },
           "start": "2026-08-17T13:00:00+02:00",
           "end": "2026-08-17T15:20:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1727,7 +631,7 @@
           },
           "start": "2026-08-17T13:15:00+02:00",
           "end": "2026-08-17T15:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1765,7 +669,7 @@
           },
           "start": "2026-08-17T13:45:00+02:00",
           "end": "2026-08-17T15:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1803,7 +707,7 @@
           },
           "start": "2026-08-17T14:00:00+02:00",
           "end": "2026-08-17T15:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1841,7 +745,7 @@
           },
           "start": "2026-08-17T14:00:00+02:00",
           "end": "2026-08-17T16:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1879,7 +783,7 @@
           },
           "start": "2026-08-17T14:17:00+02:00",
           "end": "2026-08-17T16:04:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1903,7 +807,7 @@
           },
           "start": "2026-08-17T14:30:00+02:00",
           "end": "2026-08-17T15:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1927,7 +831,7 @@
           },
           "start": "2026-08-17T14:35:00+02:00",
           "end": "2026-08-17T15:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6066,6 +4970,44 @@
           "result": null
         },
         {
+          "id": "408f8848a61a",
+          "sport": "football",
+          "competition": null,
+          "title": "Stuttgart / Fribourg",
+          "subtitle": null,
+          "description": "Des matches couperets, des stades remplis. Les stars de la DFB Pokal n'ont pas manqué à l'appel cette saison.",
+          "team1": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-17T08:00:00+02:00",
+          "end": "2026-08-17T10:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "c6ac6d3f915a",
           "sport": "football",
           "competition": "Coupe d'Afrique des Nations féminine",
@@ -6159,6 +5101,44 @@
           },
           "start": "2026-08-17T08:13:00+02:00",
           "end": "2026-08-17T09:48:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "98fa7dfa3d8f",
+          "sport": "football",
+          "competition": null,
+          "title": "Union Saint-Gilloise / Zulte Waregem",
+          "subtitle": null,
+          "description": "LIVE: R. Union SG - SV Zulte Waregem.",
+          "team1": {
+            "name": "Union Saint-Gilloise",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Zulte Waregem",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-17T08:20:00+02:00",
+          "end": "2026-08-17T10:40:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6290,6 +5270,44 @@
           "result": null
         },
         {
+          "id": "9c2b7770e661",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lyon / Auxerre",
+          "subtitle": "Ligue 1 McDonald's - 31e journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AJ Auxerre",
+            "type": "club",
+            "short": "Auxerre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/159.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-17T09:07:00+02:00",
+          "end": "2026-08-17T10:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "e9a2c539895f",
           "sport": "other",
           "competition": null,
@@ -6307,6 +5325,68 @@
           },
           "start": "2026-08-17T09:10:00+02:00",
           "end": "2026-08-17T09:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "470914f1b36a",
+          "sport": "f1",
+          "competition": "Grand Prix de Markham",
+          "title": "Indycar : Grand Prix de Markham",
+          "subtitle": null,
+          "description": "Direction le circuit urbain de Markham, dans l'Ontario, au Canada, pour le Honda Indy Markham, 14e Grand Prix de la saison. Une saison dominée par l'inévitable Alex Palou.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-17T09:14:00+02:00",
+          "end": "2026-08-17T11:46:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a04b225e8a15",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Crystal Palace / Arsenal",
+          "subtitle": "Premier League - 38e journée",
+          "description": "Le 24 mai dernier, les Gunners d'Arsenal ont bouclé leur saison victorieuse en Premier League par un succès (1-2) contre Crystal Palace, à Selhurst Park. Déjà sacré avant le match, Arsenal a pris les trois points grâce à des buts de Gabriel Jesus et Noni Madueke. Jean-Philippe Mateta a relancé le suspense en toute fin de match, en réduisant l'écart d'une tête piquée.",
+          "team1": {
+            "name": "Crystal Palace",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-17T09:17:00+02:00",
+          "end": "2026-08-17T11:04:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6345,6 +5425,926 @@
           },
           "start": "2026-08-17T09:30:00+02:00",
           "end": "2026-08-17T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8a1a3c05c208",
+          "sport": "boxe",
+          "competition": "Championnat du monde WBC",
+          "title": "Boxe : Championnat du monde WBC | Bakary Samaké / Ermal Hadribeaj et Mourad Aliev / Raphael Akpejiori",
+          "subtitle": null,
+          "description": "Suivez des combats de boxe se disputant dans le cadre du Championnat du monde organisé pa la WBC.",
+          "team1": {
+            "name": "Bakary Samaké",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ermal Hadribeaj et Mourad Aliev / Raphael Akpejiori",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-08-17T09:30:00+02:00",
+          "end": "2026-08-17T13:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f2920f20a229",
+          "sport": "basket",
+          "competition": null,
+          "title": "Golden State Warriors / Los Angeles Lakers",
+          "subtitle": null,
+          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
+          "team1": {
+            "name": "Golden State Warriors",
+            "type": "club",
+            "short": "Warriors",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/9.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Los Angeles Lakers",
+            "type": "club",
+            "short": "Lakers",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/13.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-08-17T09:40:00+02:00",
+          "end": "2026-08-17T11:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a6fa489b4423",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Atlético Madrid",
+          "subtitle": "Liga - 29e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-17T09:48:00+02:00",
+          "end": "2026-08-17T11:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c7607e16b4b5",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "FC Union Berlin / Bayern Munich",
+          "subtitle": "Bundesliga - 10e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "FC Union Berlin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-17T09:50:00+02:00",
+          "end": "2026-08-17T11:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f775eaf5ad4e",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Thionville / Caen",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant US Thionville Lusitanos et SM Caen",
+          "team1": {
+            "name": "Thionville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Caen",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-17T10:00:00+02:00",
+          "end": "2026-08-17T11:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aae701591d6b",
+          "sport": "football",
+          "competition": "Championnat du Portugal",
+          "title": "Football : Championnat du Portugal | Sporting Club Portugal / Vitoria",
+          "subtitle": null,
+          "description": "Retransmission d'un match du Championnat du Portugal de football. Fondée en 1934, il s'agit de la plus haute compétition de football du Portugal.",
+          "team1": {
+            "name": "Sporting CP",
+            "type": "club",
+            "short": "Sporting",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Vitoria",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-08-17T10:00:00+02:00",
+          "end": "2026-08-17T12:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5dc328bf79e1",
+          "sport": "golf",
+          "competition": "HotelPlanner Tour, Challenge d'Ecosse",
+          "title": "Golf : HotelPlanner Tour, Challenge d'Ecosse",
+          "subtitle": "Golf",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
+            "is_free": false
+          },
+          "start": "2026-08-17T10:35:00+02:00",
+          "end": "2026-08-17T11:01:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b7ace4f1f07e",
+          "sport": "football",
+          "competition": null,
+          "title": "Courtrai / Royal Antwerp",
+          "subtitle": null,
+          "description": "LIVE: KV Kortrijk - Royal Antwerp FC.",
+          "team1": {
+            "name": "Courtrai",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Royal Antwerp",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-17T10:40:00+02:00",
+          "end": "2026-08-17T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6630dc003178",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E51",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-08-17T10:45:00+02:00",
+          "end": "2026-08-17T11:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "80ca0257c41e",
+          "sport": "football",
+          "competition": null,
+          "title": "Bayer Leverkusen / Bayern Munich",
+          "subtitle": null,
+          "description": "Des matches couperets, des stades remplis. Les stars de la DFB Pokal n'ont pas manqué à l'appel cette saison.",
+          "team1": {
+            "name": "Bayer Leverkusen",
+            "type": "club",
+            "short": "Leverkusen",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-17T10:50:00+02:00",
+          "end": "2026-08-17T12:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d74dc5391ff3",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Dans la tempête",
+          "description": "Juste après Noël, les défis s’accumulent. Jean-Philippe Mateta pourrait être transféré dans un grand club européen. Bryan MBeumo découvre un nouvel entraîneur à l’approche d’un choc crucial. Iliman Ndiaye doit retrouver le rythme de la Premier League après une Coupe d’Afrique triomphale avec le Sénégal. Junior Kroupi et Georginio Rutter, eux, se battent pour leur place à Bournemouth et Brighton.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-17T10:53:00+02:00",
+          "end": "2026-08-17T11:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1c71aa8d53a9",
+          "sport": "football",
+          "competition": null,
+          "title": "Premier League Preview",
+          "subtitle": "Calendrier 2026/2027",
+          "description": "Présentation des matchs de la prochaine journée du championnat d'Angleterre.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-17T11:04:00+02:00",
+          "end": "2026-08-17T11:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0cbf6c294cf6",
+          "sport": "football",
+          "competition": "Community Shield - Finale",
+          "title": "Arsenal / Manchester City",
+          "subtitle": "Community Shield - Finale",
+          "description": "Retransmission en direct ou en différé du match du Community Shield de football en Angleterre. C'est le premier trophée de la saison en Angleterre, un match, entre le vainqueur de la Premier league et le vainqueur de la Coupe d'Angleterre.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-17T11:28:00+02:00",
+          "end": "2026-08-17T13:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2e2396682637",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Nouveaux buts",
+          "description": "La Premier League est l'un des championnats les plus spectaculaires et les plus relevés du monde. Durant cette compétition serrée et trépidante, les buteurs jouent un rôle capital. Les meilleurs y ont joué, de Henry à Cristiano Ronaldo, de Drogba à Salah. Coup de projecteur sur la trajectoire de cinq attaquants cette saison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-17T11:30:00+02:00",
+          "end": "2026-08-17T12:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e9892ad9f2dc",
+          "sport": "ski",
+          "competition": "Grand Prix d'été à Courchevel",
+          "title": "Saut à ski : Grand Prix d'été à Courchevel",
+          "subtitle": null,
+          "description": "Les meilleures sauteuses et les meilleurs sauteurs du monde se donnent rendez-vous sur les tremplins olympiques du Praz pour les compétitions de l'unique étape française de la Coupe du Monde de saut à ski. Plus de 100 athlètes représentant vingt nations seront présents.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-08-17T11:30:00+02:00",
+          "end": "2026-08-17T13:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "750ede14f444",
+          "sport": "f1",
+          "competition": null,
+          "title": "On Board Express Moto",
+          "subtitle": "Grand Prix de Grande-Bretagne",
+          "description": "Un magazine court et intense dédié aux sports mécaniques, qui propose, grâce aux caméras embarquées, une immersion totale dans les coulisses des Grands Prix MotoGP.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-08-17T11:33:00+02:00",
+          "end": "2026-08-17T11:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "43907f48fd2f",
+          "sport": "basket",
+          "competition": null,
+          "title": "Philadelphia 76ers / San Antonio Spurs",
+          "subtitle": null,
+          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
+          "team1": {
+            "name": "Philadelphia 76ers",
+            "type": "club",
+            "short": "76ers",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/20.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-08-17T11:35:00+02:00",
+          "end": "2026-08-17T13:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "17c98d4bcb63",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Buteurs-nés ?",
+          "description": "Alors que la fin de saison approche, nos 5 attaquants redoublent d’efforts hors des terrains. Récupération, finition, physique : chaque aspect est travaillé, avec des méthodes parfois inattendues. Dans le sprint final, pas question de s’en remettre au seul \" instinct du buteur \".",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-17T11:37:00+02:00",
+          "end": "2026-08-17T12:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "78ae86c916b6",
+          "sport": "football",
+          "competition": null,
+          "title": "Galatasaray - Juventus",
+          "subtitle": null,
+          "description": "Match aller des barrages à élimination directe de l'UEFA Champions League : Galatasaray - Juventus.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-08-17T11:45:00+02:00",
+          "end": "2026-08-17T13:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "201f521d9969",
+          "sport": "other",
+          "competition": null,
+          "title": "Mark Selby - Noppon Saengkham",
+          "subtitle": "Open de Chine | Finale - 2e partie",
+          "description": "L'Open de Chine de snooker, ou China Open en anglais, a été créé en 1997 et se déroule chaque année, depuis 2005, dans la capitale, à Pékin.",
+          "team1": {
+            "name": "Open de Chine | Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "2e partie",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:00:00+02:00",
+          "end": "2026-08-17T12:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "19d2f51c1506",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Cannes / Fleury 91",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 2 du Championnat de France de Ligue 3 2026/27 opposant AS Cannes et FC Fleury 91",
+          "team1": {
+            "name": "Cannes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fleury 91",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:00:00+02:00",
+          "end": "2026-08-17T13:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bcac9d1419e5",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:00:00+02:00",
+          "end": "2026-08-17T12:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "63349f597c6d",
+          "sport": "football",
+          "competition": "Ligue 2 BKT",
+          "title": "Football : Ligue 2 BKT | Saint-Etienne / Clermont",
+          "subtitle": null,
+          "description": "Dans le cadre de la 2e journée de la nouvelle saison de Ligue 2 BKT, les Stéphanois reçoivent leurs voisins Clermontois. Malgré la déception de sa non-présence à la Coupe du monde, le Belge Lucas Stassin compte sur ce nouvel exercice pour aider son club à remonter en Ligue 1.",
+          "team1": {
+            "name": "AS Saint-Étienne",
+            "type": "club",
+            "short": "ASSE",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "ASM Clermont",
+            "type": "club",
+            "short": "Clermont",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2570.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:00:00+02:00",
+          "end": "2026-08-17T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1d134828ea3c",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Liverpool",
+          "subtitle": "Premier League - 35e journée",
+          "description": "C'est le match au sommet de la 35e journée de Premier League, entre deux candidats à la Ligue des champions la saison prochaine. Les Reds ont une revanche à prendre sur les Red Devils, après leur défaite concédée à domicile lors du match aller (1-2), en octobre dernier. Ce jour-là, Harry Maguire avait inscrit le but de la victoire des Mancuniens, à quelques minutes de la fin du match.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:15:00+02:00",
+          "end": "2026-08-17T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "344c779a9a97",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Toucher au but",
+          "description": "Dernières journées, derniers matchs. Le moment de concrétiser ses ambitions : une qualification en Coupe d’Europe pour Bryan MBeumo, un record pour Junior Kroupi, une place en sélection pour la Coupe du monde pour Jean-Philippe Mateta… Et alors qu’il vise le haut du tableau avec Brighton, Georginio Rutter lève le voile sur son année éprouvante et contrastée.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:21:00+02:00",
+          "end": "2026-08-17T13:08:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e2f372d8a92a",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 2e étape",
+          "subtitle": "Alba - Limone Piemonte (157km)",
+          "description": "La 2e étape de la 80e édition du Tour d'Espagne se déroulait en Italie, avec une première arrivée au sommet, la montée (col de 2e catégorie) vers Limone Piemonte (altitude de 1381 m), une commune frontalière voisine de Tende, en France. Le 24 août 2025, Jonas Vingegaard s'imposait en réglant le sprint des favoris et s'emparait, du même coup, du maillot rouge de leader.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:30:00+02:00",
+          "end": "2026-08-17T14:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b15844cf9995",
+          "sport": "other",
+          "competition": null,
+          "title": "Mark Selby - Noppon Saengkham",
+          "subtitle": "Open de Chine | Finale - 2e partie",
+          "description": "L'Open de Chine de snooker, ou China Open en anglais, a été créé en 1997 et se déroule chaque année, depuis 2005, dans la capitale, à Pékin.",
+          "team1": {
+            "name": "Open de Chine | Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "2e partie",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:30:00+02:00",
+          "end": "2026-08-17T14:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a4168adc2b7b",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:30:00+02:00",
+          "end": "2026-08-17T13:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "438986dc5d18",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayern Munich / Fribourg",
+          "subtitle": "Bundesliga - 11e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-17T12:31:00+02:00",
+          "end": "2026-08-17T14:17:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
