@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-19T04:32:34.600369+00:00",
+    "generated_at": "2026-08-19T08:32:06.106708+00:00",
     "total_events": 1462,
     "total_days": 7,
     "sports": [
@@ -23,38 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "guadeloupe-1-re",
-        "name": "Guadeloupe 1ère",
-        "is_free": false
-      },
-      {
-        "slug": "elevensports1fr",
-        "name": "ElevenSports1FR",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "elevensports2fr",
-        "name": "ElevenSports2FR",
+        "slug": "guyane-1-re",
+        "name": "Guyane 1ère",
         "is_free": false
       },
       {
@@ -63,18 +33,18 @@
         "is_free": false
       },
       {
-        "slug": "guyane-1-re",
-        "name": "Guyane 1ère",
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -83,48 +53,33 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1n-be",
-        "name": "PickxPlusSports1N.be",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
         "slug": "golf",
         "name": "Golf+",
+        "is_free": false
+      },
+      {
+        "slug": "elevensports1fr",
+        "name": "ElevenSports1FR",
+        "is_free": false
+      },
+      {
+        "slug": "elevensports2fr",
+        "name": "ElevenSports2FR",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -133,13 +88,53 @@
         "is_free": false
       },
       {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-6",
         "name": "Eurosport 360 - 6",
         "is_free": false
       },
       {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
         "slug": "voo-sport-world-1",
         "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1n-be",
+        "name": "PickxPlusSports1N.be",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -245,6 +240,11 @@
       {
         "slug": "cheval-tv",
         "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "guadeloupe-1-re",
+        "name": "Guadeloupe 1ère",
         "is_free": false
       },
       {
@@ -550,296 +550,6 @@
       "event_count": 196,
       "events": [
         {
-          "id": "11132cb2740d",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Nottingham Forest",
-          "subtitle": "Premier League - 37e journée",
-          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-19T03:25:00+02:00",
-          "end": "2026-08-19T06:43:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0190d97787d6",
-          "sport": "handball",
-          "competition": "Cécifoot : Championnat d'Europe",
-          "title": "Groupe A - France cécifoot / Grèce cécifoot",
-          "subtitle": "Cécifoot : Championnat d'Europe",
-          "description": "Le Cécifoot européen retrouve le territoire français dans un contexte exceptionnel, celui de la médaille d'or remportée par l'équipe de France aux Jeux paralympiques de Paris 2024.",
-          "team1": {
-            "name": "Groupe A - France cécifoot",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Grèce cécifoot",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Guadeloupe1.fr",
-            "name": "Guadeloupe 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guadeloupe-1-re",
-            "is_free": false
-          },
-          "start": "2026-08-19T04:36:00+02:00",
-          "end": "2026-08-19T06:37:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cee728cf05fc",
-          "sport": "basket",
-          "competition": null,
-          "title": "Los Angeles Lakers / New York Knicks",
-          "subtitle": null,
-          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
-          "team1": {
-            "name": "Los Angeles Lakers",
-            "type": "club",
-            "short": "Lakers",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/13.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "New York Knicks",
-            "type": "club",
-            "short": "Knicks",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-19T04:50:00+02:00",
-          "end": "2026-08-19T07:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f292c81729a",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 13e étape",
-          "subtitle": "Cabezón de la Sal - L'Angliru (2...",
-          "description": "Il s'agit de l'étape la plus longue de cette Vuelta. Les difficultés sont concentrées dans le dernier tronçon. La Mozqueta et El Cordal, deux cols de 1re catégorie, serviront de prélude à la montée vers le redoutable Altu de L'Angliru.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-19T05:00:00+02:00",
-          "end": "2026-08-19T07:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e5600cf6dd47",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Angers / Paris FC",
-          "subtitle": null,
-          "description": "1ère période du match amical opposant Angers au Paris FC",
-          "team1": {
-            "name": "Angers SCO",
-            "type": "club",
-            "short": "Angers",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-19T05:00:00+02:00",
-          "end": "2026-08-19T06:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a4ce9a5116b2",
-          "sport": "football",
-          "competition": "Trophée des champions",
-          "title": "Lens / Paris-SG",
-          "subtitle": "Trophée des champions",
-          "description": "Retransmission d'un match du Trophée des Champions de France de football. C'est une compétition de football qui oppose le vainqueur du championnat de France au vainqueur de la coupe de France.",
-          "team1": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-19T05:07:00+02:00",
-          "end": "2026-08-19T07:12:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "257e01d0c761",
-          "sport": "football",
-          "competition": null,
-          "title": "FC Barcelone / Elche",
-          "subtitle": null,
-          "description": "Retrouvez toute l'intensité du championnat espagnol avec les plus belles affiches de Liga.",
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Elche",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-08-19T05:40:00+02:00",
-          "end": "2026-08-19T07:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "23f8151ffe22",
-          "sport": "football",
-          "competition": null,
-          "title": "Cercle Bruges / Saint-Trond",
-          "subtitle": null,
-          "description": "Cercle Brugge - STVV.",
-          "team1": {
-            "name": "Cercle Bruges",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Saint-Trond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-19T06:00:00+02:00",
-          "end": "2026-08-19T08:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "675dfb090215",
           "sport": "cyclisme",
           "competition": null,
@@ -858,540 +568,6 @@
           "start": "2026-08-19T06:32:00+02:00",
           "end": "2026-08-19T10:44:00+02:00",
           "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a67d4e954fe4",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Dans la tempête",
-          "description": "Juste après Noël, les défis s’accumulent. Jean-Philippe Mateta pourrait être transféré dans un grand club européen. Bryan MBeumo découvre un nouvel entraîneur à l’approche d’un choc crucial. Iliman Ndiaye doit retrouver le rythme de la Premier League après une Coupe d’Afrique triomphale avec le Sénégal. Junior Kroupi et Georginio Rutter, eux, se battent pour leur place à Bournemouth et Brighton.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-19T06:43:00+02:00",
-          "end": "2026-08-19T07:27:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a9b1f38430ea",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayern Munich / Wolfsburg",
-          "subtitle": "Bundesliga - 16e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Wolfsburg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-19T06:46:00+02:00",
-          "end": "2026-08-19T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fd9e81b2bdac",
-          "sport": "football",
-          "competition": "Qualifications pour la Ligue des",
-          "title": "Levski Sofia / AEK Athènes",
-          "subtitle": "Qualifications pour la Ligue des...",
-          "description": "Dernier écueil avant la phase de Ligue, les Bulgares du Levski Sofia, tombeurs tour à tour de Craiova et du Kairat Almaty, accueillent l'AEK Athènes en barrage aller de la Ligue des champions. Après avoir franchi deux tours qualificatifs, le club de Sofia tentera de profiter de l'avantage du terrain avant un match retour qui s'annonce décisif en Grèce.",
-          "team1": {
-            "name": "Levski Sofia",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AEK Athènes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-19T06:52:00+02:00",
-          "end": "2026-08-19T08:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e1b2a5054b15",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Une question de confiance",
-          "description": "Avoir et inspirer confiance : deux clés de la réussite pour un attaquant. Alors que le milieu de saison approche, Bryan MBeumo aimante les passes de ses partenaires et enchaîne les buts. Jean-Philippe Mateta, lui, semble soudainement en difficulté après une période faste. Pour eux comme pour les autres, la quête de confiance continue.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-19T06:57:00+02:00",
-          "end": "2026-08-19T07:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "004f47a2ddae",
-          "sport": "cyclisme",
-          "competition": "Tour de République tchèque",
-          "title": "Cyclisme : Tour de République tchèque",
-          "subtitle": "Kromeriz - Pustevny (160,23 km). Tour de République tchèque. 4e étape.",
-          "description": "Tour de République tchèque. 4e étape. Kromeriz - Pustevny (160,23 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:00:00+02:00",
-          "end": "2026-08-19T07:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "20e42bfe6377",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Czech Tour | 4e étape",
-          "subtitle": "Kroměříž - Pustevny (160,2km)",
-          "description": "Créé en 2010, le Czech Cycling Tour, puis Sazka Tour et finalement Czech Tour en 2024, est une course cycliste sur route par étapes disputée, chaque été, en République tchèque.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:00:00+02:00",
-          "end": "2026-08-19T07:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d7145ff5a485",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Korcula - Stari Grad",
-          "description": "Korcula is often referred as a little Dubrovnik and we will show you why is that. We will taste some amazing cuisine and attend Moreska dance that is preserved from the Middle Ages and it is performed only here on island of Korcula. After Korcula we visit beautiful Stari Grad town on the island of Hvar and wonder it's amazing old streets.",
-          "team1": {
-            "name": "Korcula",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stari Grad",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:00:00+02:00",
-          "end": "2026-08-19T07:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "edf2189fbbaa",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Buteurs-nés ?",
-          "description": "Alors que la fin de saison approche, nos 5 attaquants redoublent d’efforts hors des terrains. Récupération, finition, physique : chaque aspect est travaillé, avec des méthodes parfois inattendues. Dans le sprint final, pas question de s’en remettre au seul \" instinct du buteur \".",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:27:00+02:00",
-          "end": "2026-08-19T08:12:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e8c0ae4d3397",
-          "sport": "other",
-          "competition": null,
-          "title": "Sail-Ho",
-          "subtitle": "Vrboska - Split",
-          "description": "Small city of Vrboska is a little piece of paradise for yachtsmen and Split is the biggest city in Dalmatia. We will show you where to go, what to see, and of course, some amazing food suggestions.",
-          "team1": {
-            "name": "Vrboska",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Split",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:30:00+02:00",
-          "end": "2026-08-19T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6dad619614a3",
-          "sport": "other",
-          "competition": null,
-          "title": "3-2-1 régates",
-          "subtitle": null,
-          "description": "",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:30:00+02:00",
-          "end": "2026-08-19T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "956342857a82",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Bayern Munich / Cologne",
-          "subtitle": "Bundesliga - 34e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cologne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:34:00+02:00",
-          "end": "2026-08-19T09:16:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a998dc29fd6e",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Osasuna / Atlético Madrid",
-          "subtitle": "Liga - 36e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Osasuna",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:37:00+02:00",
-          "end": "2026-08-19T09:27:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0d6dd4801746",
-          "sport": "rugby",
-          "competition": "Rugby's Greatest Rivalry",
-          "title": "Blue Bulls / Nouvelle-Zélande",
-          "subtitle": "Rugby's Greatest Rivalry - 3e ma...",
-          "description": "Troisième étape de la tournée Rugby's Greatest Rivalry pour les All Blacks, opposés aux Bulls à Pretoria. Après avoir affronté les Stormers puis les Sharks, les Néo-Zélandais découvrent l'ambiance de Loftus Versfeld face à une nouvelle franchise sud-africaine, avant de défier les Lions puis les Springboks lors de quatre tests.",
-          "team1": {
-            "name": "Blue Bulls",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nouvelle-Zélande",
-            "type": "country",
-            "short": null,
-            "country_code": "nz",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-19T07:38:00+02:00",
-          "end": "2026-08-19T09:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "732802186298",
-          "sport": "football",
-          "competition": null,
-          "title": "Manchester City / Liverpool",
-          "subtitle": null,
-          "description": "La vraie magie, c'est celle que provoque les clubs anglais lorsqu'ils se retrouvent pour s'affronter en FA Cup. Revivez ces matches sans modération.",
-          "team1": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:00:00+02:00",
-          "end": "2026-08-19T09:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b139113b0471",
-          "sport": "football",
-          "competition": null,
-          "title": "Levski Sofia - AEK Athènes",
-          "subtitle": null,
-          "description": "Match aller des barrages de l'UEFA Champions League : Levski Sofia - AEK Athènes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:00:00+02:00",
-          "end": "2026-08-19T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8819f14a96cd",
-          "sport": "football",
-          "competition": null,
-          "title": "Levski Sofia - AEK Athene",
-          "subtitle": null,
-          "description": "Heenwedstrijd van de play-offs in de UEFA Champions League: Levski Sofia - AEK Athene.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:00:00+02:00",
-          "end": "2026-08-19T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "91788fa6c817",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Liverpool",
-          "subtitle": "Premier League - 37e journée",
-          "description": "Large vainqueur (4-2) des Reds de Liverpool, le 15 mai dernier, Aston Villa assurait du même coup sa qualification pour la prochaine Ligue des Champions. Grâce à ce succès, l'équipe d'Unai Emery s'assurait une place dans le top 5, comptant alors trois points d'avance sur leur adversaire du jour.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:12:00+02:00",
-          "end": "2026-08-19T09:57:00+02:00",
-          "status": "upcoming",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1429,131 +605,7 @@
           },
           "start": "2026-08-19T08:20:00+02:00",
           "end": "2026-08-19T10:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "626188bebcc0",
-          "sport": "other",
-          "competition": "Open d'Irlande du Nord",
-          "title": "Snooker : Open d'Irlande du Nord",
-          "subtitle": "Open d'Irlande du Nord. Finale . Jack Lisowski / Judd Trump. Home Nations Series.",
-          "description": "Home Nations Series. Open d'Irlande du Nord. Finale . Jack Lisowski / Judd Trump.",
-          "team1": {
-            "name": "Open d'Irlande du Nord",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Judd Trump",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:30:00+02:00",
-          "end": "2026-08-19T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "73ef5f155d4e",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 13e étape",
-          "subtitle": "Cabezón de la Sal - L'Angliru (2...",
-          "description": "Il s'agit de l'étape la plus longue de cette Vuelta. Les difficultés sont concentrées dans le dernier tronçon. La Mozqueta et El Cordal, deux cols de 1re catégorie, serviront de prélude à la montée vers le redoutable Altu de L'Angliru.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:30:00+02:00",
-          "end": "2026-08-19T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "756952768d7b",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E51",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:30:00+02:00",
-          "end": "2026-08-19T08:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "adc8f323ce80",
-          "sport": "football",
-          "competition": "Qualifications pour la Ligue des",
-          "title": "Dinamo Zagreb / Viking FK",
-          "subtitle": "Qualifications pour la Ligue des...",
-          "description": "A deux matches de la phase de ligue, le Dinamo Zagreb reçoit Viking Stavanger pour la première manche des barrages de Ligue des champions. Habitués aux joutes européennes, les Croates voudront faire la différence devant leur public et prendre une option sur la qualification. Les Norvégiens tenteront, eux, de rester au contact avant le match retour à Stavanger.",
-          "team1": {
-            "name": "Dinamo Zagreb",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Viking FK",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-19T08:37:00+02:00",
-          "end": "2026-08-19T10:23:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1577,7 +629,7 @@
           },
           "start": "2026-08-19T09:15:00+02:00",
           "end": "2026-08-19T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1615,7 +667,7 @@
           },
           "start": "2026-08-19T09:16:00+02:00",
           "end": "2026-08-19T11:02:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1653,7 +705,7 @@
           },
           "start": "2026-08-19T09:20:00+02:00",
           "end": "2026-08-19T10:51:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1691,7 +743,7 @@
           },
           "start": "2026-08-19T09:27:00+02:00",
           "end": "2026-08-19T11:14:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1715,7 +767,7 @@
           },
           "start": "2026-08-19T09:40:00+02:00",
           "end": "2026-08-19T11:38:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1753,7 +805,7 @@
           },
           "start": "2026-08-19T09:50:00+02:00",
           "end": "2026-08-19T12:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1791,7 +843,7 @@
           },
           "start": "2026-08-19T09:50:00+02:00",
           "end": "2026-08-19T11:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1829,7 +881,7 @@
           },
           "start": "2026-08-19T09:53:00+02:00",
           "end": "2026-08-19T11:38:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1853,7 +905,7 @@
           },
           "start": "2026-08-19T09:57:00+02:00",
           "end": "2026-08-19T10:42:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1891,7 +943,7 @@
           },
           "start": "2026-08-19T10:00:00+02:00",
           "end": "2026-08-19T11:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1929,7 +981,7 @@
           },
           "start": "2026-08-19T10:23:00+02:00",
           "end": "2026-08-19T12:07:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6362,6 +5414,44 @@
           "result": null
         },
         {
+          "id": "11132cb2740d",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Nottingham Forest",
+          "subtitle": "Premier League - 37e journée",
+          "description": "La saison 2025/2026 de la Premier League s'annonce passionnante. Liverpool, tenant du titre, cherchera à prolonger sa domination, tandis qu'Arsenal, Manchester City et Chelsea ambitionnent de bousculer la hiérarchie. Avec des outsiders prêts à créer la surprise, chaque journée promet suspense et intensité dans l'un des championnats les plus disputés au monde.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-19T03:25:00+02:00",
+          "end": "2026-08-19T06:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "0a24bfa3ddc7",
           "sport": "football",
           "competition": "Liga 2",
@@ -6548,6 +5638,144 @@
           "result": null
         },
         {
+          "id": "0190d97787d6",
+          "sport": "handball",
+          "competition": "Cécifoot : Championnat d'Europe",
+          "title": "Groupe A - France cécifoot / Grèce cécifoot",
+          "subtitle": "Cécifoot : Championnat d'Europe",
+          "description": "Le Cécifoot européen retrouve le territoire français dans un contexte exceptionnel, celui de la médaille d'or remportée par l'équipe de France aux Jeux paralympiques de Paris 2024.",
+          "team1": {
+            "name": "Groupe A - France cécifoot",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Grèce cécifoot",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Guadeloupe1.fr",
+            "name": "Guadeloupe 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150083/canal-ouah/CHN43FB/GUADELOUPE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guadeloupe-1-re",
+            "is_free": false
+          },
+          "start": "2026-08-19T04:36:00+02:00",
+          "end": "2026-08-19T06:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cee728cf05fc",
+          "sport": "basket",
+          "competition": null,
+          "title": "Los Angeles Lakers / New York Knicks",
+          "subtitle": null,
+          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
+          "team1": {
+            "name": "Los Angeles Lakers",
+            "type": "club",
+            "short": "Lakers",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/13.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "New York Knicks",
+            "type": "club",
+            "short": "Knicks",
+            "country_code": "us",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-19T04:50:00+02:00",
+          "end": "2026-08-19T07:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f292c81729a",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 13e étape",
+          "subtitle": "Cabezón de la Sal - L'Angliru (2...",
+          "description": "Il s'agit de l'étape la plus longue de cette Vuelta. Les difficultés sont concentrées dans le dernier tronçon. La Mozqueta et El Cordal, deux cols de 1re catégorie, serviront de prélude à la montée vers le redoutable Altu de L'Angliru.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-19T05:00:00+02:00",
+          "end": "2026-08-19T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e5600cf6dd47",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Angers / Paris FC",
+          "subtitle": null,
+          "description": "1ère période du match amical opposant Angers au Paris FC",
+          "team1": {
+            "name": "Angers SCO",
+            "type": "club",
+            "short": "Angers",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-19T05:00:00+02:00",
+          "end": "2026-08-19T06:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "cf0c4b7a4049",
           "sport": "other",
           "competition": null,
@@ -6579,6 +5807,44 @@
           },
           "start": "2026-08-19T05:00:00+02:00",
           "end": "2026-08-19T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a4ce9a5116b2",
+          "sport": "football",
+          "competition": "Trophée des champions",
+          "title": "Lens / Paris-SG",
+          "subtitle": "Trophée des champions",
+          "description": "Retransmission d'un match du Trophée des Champions de France de football. C'est une compétition de football qui oppose le vainqueur du championnat de France au vainqueur de la coupe de France.",
+          "team1": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-19T05:07:00+02:00",
+          "end": "2026-08-19T07:12:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -6672,6 +5938,82 @@
           "result": null
         },
         {
+          "id": "257e01d0c761",
+          "sport": "football",
+          "competition": null,
+          "title": "FC Barcelone / Elche",
+          "subtitle": null,
+          "description": "Retrouvez toute l'intensité du championnat espagnol avec les plus belles affiches de Liga.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Elche",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-08-19T05:40:00+02:00",
+          "end": "2026-08-19T07:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "23f8151ffe22",
+          "sport": "football",
+          "competition": null,
+          "title": "Cercle Bruges / Saint-Trond",
+          "subtitle": null,
+          "description": "Cercle Brugge - STVV.",
+          "team1": {
+            "name": "Cercle Bruges",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Saint-Trond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-19T06:00:00+02:00",
+          "end": "2026-08-19T08:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "4535c376c731",
           "sport": "other",
           "competition": null,
@@ -6689,6 +6031,664 @@
           },
           "start": "2026-08-19T06:00:00+02:00",
           "end": "2026-08-19T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a67d4e954fe4",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Dans la tempête",
+          "description": "Juste après Noël, les défis s’accumulent. Jean-Philippe Mateta pourrait être transféré dans un grand club européen. Bryan MBeumo découvre un nouvel entraîneur à l’approche d’un choc crucial. Iliman Ndiaye doit retrouver le rythme de la Premier League après une Coupe d’Afrique triomphale avec le Sénégal. Junior Kroupi et Georginio Rutter, eux, se battent pour leur place à Bournemouth et Brighton.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-19T06:43:00+02:00",
+          "end": "2026-08-19T07:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a9b1f38430ea",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayern Munich / Wolfsburg",
+          "subtitle": "Bundesliga - 16e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Wolfsburg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-19T06:46:00+02:00",
+          "end": "2026-08-19T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fd9e81b2bdac",
+          "sport": "football",
+          "competition": "Qualifications pour la Ligue des",
+          "title": "Levski Sofia / AEK Athènes",
+          "subtitle": "Qualifications pour la Ligue des...",
+          "description": "Dernier écueil avant la phase de Ligue, les Bulgares du Levski Sofia, tombeurs tour à tour de Craiova et du Kairat Almaty, accueillent l'AEK Athènes en barrage aller de la Ligue des champions. Après avoir franchi deux tours qualificatifs, le club de Sofia tentera de profiter de l'avantage du terrain avant un match retour qui s'annonce décisif en Grèce.",
+          "team1": {
+            "name": "Levski Sofia",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AEK Athènes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-19T06:52:00+02:00",
+          "end": "2026-08-19T08:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e1b2a5054b15",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Une question de confiance",
+          "description": "Avoir et inspirer confiance : deux clés de la réussite pour un attaquant. Alors que le milieu de saison approche, Bryan MBeumo aimante les passes de ses partenaires et enchaîne les buts. Jean-Philippe Mateta, lui, semble soudainement en difficulté après une période faste. Pour eux comme pour les autres, la quête de confiance continue.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-19T06:57:00+02:00",
+          "end": "2026-08-19T07:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "004f47a2ddae",
+          "sport": "cyclisme",
+          "competition": "Tour de République tchèque",
+          "title": "Cyclisme : Tour de République tchèque",
+          "subtitle": "Kromeriz - Pustevny (160,23 km). Tour de République tchèque. 4e étape.",
+          "description": "Tour de République tchèque. 4e étape. Kromeriz - Pustevny (160,23 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:00:00+02:00",
+          "end": "2026-08-19T07:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "20e42bfe6377",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Czech Tour | 4e étape",
+          "subtitle": "Kroměříž - Pustevny (160,2km)",
+          "description": "Créé en 2010, le Czech Cycling Tour, puis Sazka Tour et finalement Czech Tour en 2024, est une course cycliste sur route par étapes disputée, chaque été, en République tchèque.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:00:00+02:00",
+          "end": "2026-08-19T07:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d7145ff5a485",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Korcula - Stari Grad",
+          "description": "Korcula is often referred as a little Dubrovnik and we will show you why is that. We will taste some amazing cuisine and attend Moreska dance that is preserved from the Middle Ages and it is performed only here on island of Korcula. After Korcula we visit beautiful Stari Grad town on the island of Hvar and wonder it's amazing old streets.",
+          "team1": {
+            "name": "Korcula",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stari Grad",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:00:00+02:00",
+          "end": "2026-08-19T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "edf2189fbbaa",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Buteurs-nés ?",
+          "description": "Alors que la fin de saison approche, nos 5 attaquants redoublent d’efforts hors des terrains. Récupération, finition, physique : chaque aspect est travaillé, avec des méthodes parfois inattendues. Dans le sprint final, pas question de s’en remettre au seul \" instinct du buteur \".",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:27:00+02:00",
+          "end": "2026-08-19T08:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e8c0ae4d3397",
+          "sport": "other",
+          "competition": null,
+          "title": "Sail-Ho",
+          "subtitle": "Vrboska - Split",
+          "description": "Small city of Vrboska is a little piece of paradise for yachtsmen and Split is the biggest city in Dalmatia. We will show you where to go, what to see, and of course, some amazing food suggestions.",
+          "team1": {
+            "name": "Vrboska",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Split",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:30:00+02:00",
+          "end": "2026-08-19T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6dad619614a3",
+          "sport": "other",
+          "competition": null,
+          "title": "3-2-1 régates",
+          "subtitle": null,
+          "description": "",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:30:00+02:00",
+          "end": "2026-08-19T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "956342857a82",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Bayern Munich / Cologne",
+          "subtitle": "Bundesliga - 34e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cologne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:34:00+02:00",
+          "end": "2026-08-19T09:16:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a998dc29fd6e",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Osasuna / Atlético Madrid",
+          "subtitle": "Liga - 36e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Osasuna",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:37:00+02:00",
+          "end": "2026-08-19T09:27:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0d6dd4801746",
+          "sport": "rugby",
+          "competition": "Rugby's Greatest Rivalry",
+          "title": "Blue Bulls / Nouvelle-Zélande",
+          "subtitle": "Rugby's Greatest Rivalry - 3e ma...",
+          "description": "Troisième étape de la tournée Rugby's Greatest Rivalry pour les All Blacks, opposés aux Bulls à Pretoria. Après avoir affronté les Stormers puis les Sharks, les Néo-Zélandais découvrent l'ambiance de Loftus Versfeld face à une nouvelle franchise sud-africaine, avant de défier les Lions puis les Springboks lors de quatre tests.",
+          "team1": {
+            "name": "Blue Bulls",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nouvelle-Zélande",
+            "type": "country",
+            "short": null,
+            "country_code": "nz",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-19T07:38:00+02:00",
+          "end": "2026-08-19T09:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "732802186298",
+          "sport": "football",
+          "competition": null,
+          "title": "Manchester City / Liverpool",
+          "subtitle": null,
+          "description": "La vraie magie, c'est celle que provoque les clubs anglais lorsqu'ils se retrouvent pour s'affronter en FA Cup. Revivez ces matches sans modération.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:00:00+02:00",
+          "end": "2026-08-19T09:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b139113b0471",
+          "sport": "football",
+          "competition": null,
+          "title": "Levski Sofia - AEK Athènes",
+          "subtitle": null,
+          "description": "Match aller des barrages de l'UEFA Champions League : Levski Sofia - AEK Athènes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:00:00+02:00",
+          "end": "2026-08-19T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8819f14a96cd",
+          "sport": "football",
+          "competition": null,
+          "title": "Levski Sofia - AEK Athene",
+          "subtitle": null,
+          "description": "Heenwedstrijd van de play-offs in de UEFA Champions League: Levski Sofia - AEK Athene.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:00:00+02:00",
+          "end": "2026-08-19T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "91788fa6c817",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Liverpool",
+          "subtitle": "Premier League - 37e journée",
+          "description": "Large vainqueur (4-2) des Reds de Liverpool, le 15 mai dernier, Aston Villa assurait du même coup sa qualification pour la prochaine Ligue des Champions. Grâce à ce succès, l'équipe d'Unai Emery s'assurait une place dans le top 5, comptant alors trois points d'avance sur leur adversaire du jour.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:12:00+02:00",
+          "end": "2026-08-19T09:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "626188bebcc0",
+          "sport": "other",
+          "competition": "Open d'Irlande du Nord",
+          "title": "Snooker : Open d'Irlande du Nord",
+          "subtitle": "Open d'Irlande du Nord. Finale . Jack Lisowski / Judd Trump. Home Nations Series.",
+          "description": "Home Nations Series. Open d'Irlande du Nord. Finale . Jack Lisowski / Judd Trump.",
+          "team1": {
+            "name": "Open d'Irlande du Nord",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Judd Trump",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:30:00+02:00",
+          "end": "2026-08-19T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "73ef5f155d4e",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 13e étape",
+          "subtitle": "Cabezón de la Sal - L'Angliru (2...",
+          "description": "Il s'agit de l'étape la plus longue de cette Vuelta. Les difficultés sont concentrées dans le dernier tronçon. La Mozqueta et El Cordal, deux cols de 1re catégorie, serviront de prélude à la montée vers le redoutable Altu de L'Angliru.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:30:00+02:00",
+          "end": "2026-08-19T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "756952768d7b",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E51",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:30:00+02:00",
+          "end": "2026-08-19T08:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "adc8f323ce80",
+          "sport": "football",
+          "competition": "Qualifications pour la Ligue des",
+          "title": "Dinamo Zagreb / Viking FK",
+          "subtitle": "Qualifications pour la Ligue des...",
+          "description": "A deux matches de la phase de ligue, le Dinamo Zagreb reçoit Viking Stavanger pour la première manche des barrages de Ligue des champions. Habitués aux joutes européennes, les Croates voudront faire la différence devant leur public et prendre une option sur la qualification. Les Norvégiens tenteront, eux, de rester au contact avant le match retour à Stavanger.",
+          "team1": {
+            "name": "Dinamo Zagreb",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Viking FK",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-19T08:37:00+02:00",
+          "end": "2026-08-19T10:23:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
