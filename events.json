@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-20T04:32:47.223515+00:00",
+    "generated_at": "2026-08-20T08:33:09.149650+00:00",
     "total_events": 1470,
     "total_days": 7,
     "sports": [
@@ -23,33 +23,13 @@
     ],
     "channels": [
       {
+        "slug": "elevenprol1",
+        "name": "ElevenProL1",
+        "is_free": false
+      },
+      {
         "slug": "elevensports1fr",
         "name": "ElevenSports1FR",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tva-sports",
-        "name": "TVA Sports",
         "is_free": false
       },
       {
@@ -58,43 +38,8 @@
         "is_free": false
       },
       {
-        "slug": "guyane-1-re",
-        "name": "Guyane 1ère",
-        "is_free": false
-      },
-      {
-        "slug": "elevenprol1",
-        "name": "ElevenProL1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -103,18 +48,18 @@
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
-        "slug": "afric-ble",
-        "name": "Africâble",
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
@@ -128,13 +73,53 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
+        "is_free": false
+      },
+      {
         "slug": "golf",
         "name": "Golf+",
         "is_free": false
       },
       {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-5",
         "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
+        "slug": "tva-sports",
+        "name": "TVA Sports",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
         "is_free": false
       },
       {
@@ -145,6 +130,11 @@
       {
         "slug": "eurosport-360-5",
         "name": "Eurosport 360 - 5",
+        "is_free": false
+      },
+      {
+        "slug": "guyane-1-re",
+        "name": "Guyane 1ère",
         "is_free": false
       },
       {
@@ -181,6 +171,16 @@
         "slug": "canal-docs",
         "name": "Canal+ Docs",
         "is_free": false
+      },
+      {
+        "slug": "afric-ble",
+        "name": "Africâble",
+        "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "vtm2",
@@ -565,678 +565,6 @@
       "event_count": 224,
       "events": [
         {
-          "id": "cda858c704c1",
-          "sport": "basket",
-          "competition": null,
-          "title": "San Antonio Spurs / Minnesota Timberwolves",
-          "subtitle": null,
-          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
-          "team1": {
-            "name": "San Antonio Spurs",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Minnesota Timberwolves",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-20T04:45:00+02:00",
-          "end": "2026-08-20T07:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f1b41c739f00",
-          "sport": "other",
-          "competition": null,
-          "title": "Chris Wakelin - Chang Bingyu",
-          "subtitle": "BetVictor Scottish Open | Finale...",
-          "description": "L'Open d'Ecosse 2025 connaît son épilogue au Meadowbank Sports Centre d'Edimbourg. L'Anglais Chris Wakelin part favori pour s'adjuger le titre, face au Chinois Chang Bingyu.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-20T05:00:00+02:00",
-          "end": "2026-08-20T07:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "06ad8f337d82",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 16e étape",
-          "subtitle": "Poio - Mos.Castro de Herville (1...",
-          "description": "Une étape avec quatre cols comptant pour le classement par points et un terrain très accidenté dans la seconde moitié qui compliquera grandement le contrôle de l'échappée du jour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-20T05:00:00+02:00",
-          "end": "2026-08-20T07:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0d626032086d",
-          "sport": "football",
-          "competition": "Match amical",
-          "title": "Football : Match amical | Le Mans / Le Havre",
-          "subtitle": null,
-          "description": "1ère période du match amical opposant Le Mans au Havre AC",
-          "team1": {
-            "name": "Le Mans",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Le Havre AC",
-            "type": "club",
-            "short": "Le Havre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-08-20T05:00:00+02:00",
-          "end": "2026-08-20T06:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "02317b5c4521",
-          "sport": "other",
-          "competition": null,
-          "title": "Alpine, le Mans en héritage",
-          "subtitle": "Retro Ligue 1 - PSG Destiny EP 01",
-          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
-          "team1": {
-            "name": "Retro Ligue 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "PSG Destiny EP 01",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-20T05:15:00+02:00",
-          "end": "2026-08-20T06:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bf5d4ff028b2",
-          "sport": "other",
-          "competition": null,
-          "title": "MLB - Blue Jays de Toronto c. Rays de Tampa Bay",
-          "subtitle": "Blue Jays de Toronto c. Rays de Tampa Bay",
-          "description": "Les Blue Jays de Toronto poursuivent leur série de trois matchs contre les Rays de Tampa Bay au Tropicana Field.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVASports.ca",
-            "name": "TVA Sports",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
-            "slug": "tva-sports",
-            "is_free": false
-          },
-          "start": "2026-08-20T05:30:00+02:00",
-          "end": "2026-08-20T08:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "488627e3afc0",
-          "sport": "football",
-          "competition": null,
-          "title": "Pays-Bas / Norvège",
-          "subtitle": null,
-          "description": "Retrouvez les stars mondiales du ballon rond dans leur préparation avant la nouvelle Coupe du monde.",
-          "team1": {
-            "name": "Pays-Bas",
-            "type": "country",
-            "short": "Pays-Bas",
-            "country_code": "nl",
-            "logo_url": "https://flagcdn.com/w80/nl.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Norvège",
-            "type": "country",
-            "short": "Norvège",
-            "country_code": "no",
-            "logo_url": "https://flagcdn.com/w80/no.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-08-20T05:40:00+02:00",
-          "end": "2026-08-20T07:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cc36ae889435",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Mana_Saint-Laurent",
-          "subtitle": "Tour de Guyane",
-          "description": "Résumé de l'étape, analyses, enjeux, classements, réactions : focus sur le Tour cycliste de Guyane.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Guyane1.fr",
-            "name": "Guyane 1ère",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
-            "slug": "guyane-1-re",
-            "is_free": false
-          },
-          "start": "2026-08-20T05:41:00+02:00",
-          "end": "2026-08-20T10:22:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d6f124f1f95c",
-          "sport": "football",
-          "competition": null,
-          "title": "Union Saint-Gilloise / Zulte Waregem",
-          "subtitle": null,
-          "description": "R. Union SG - SV Zulte Waregem.",
-          "team1": {
-            "name": "Union Saint-Gilloise",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Zulte Waregem",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-08-20T06:00:00+02:00",
-          "end": "2026-08-20T08:20:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c4f8a7eea50c",
-          "sport": "football",
-          "competition": "Community Shield - Finale",
-          "title": "Arsenal / Manchester City",
-          "subtitle": "Community Shield - Finale",
-          "description": "Retransmission en direct ou en différé du match du Community Shield de football en Angleterre. C'est le premier trophée de la saison en Angleterre, un match, entre le vainqueur de la Premier league et le vainqueur de la Coupe d'Angleterre.",
-          "team1": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Manchester City",
-            "type": "club",
-            "short": "Man City",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-20T06:15:00+02:00",
-          "end": "2026-08-20T07:53:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d6a919a11e9c",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Eintracht Francfort / Bayer Leverkusen",
-          "subtitle": "Bundesliga - 20e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Eintracht Francfort",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayer Leverkusen",
-            "type": "club",
-            "short": "Leverkusen",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-08-20T06:45:00+02:00",
-          "end": "2026-08-20T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "18913c1890e7",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Dans la tempête",
-          "description": "Juste après Noël, les défis s’accumulent. Jean-Philippe Mateta pourrait être transféré dans un grand club européen. Bryan MBeumo découvre un nouvel entraîneur à l’approche d’un choc crucial. Iliman Ndiaye doit retrouver le rythme de la Premier League après une Coupe d’Afrique triomphale avec le Sénégal. Junior Kroupi et Georginio Rutter, eux, se battent pour leur place à Bournemouth et Brighton.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-20T07:00:00+02:00",
-          "end": "2026-08-20T07:43:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "22af174f1155",
-          "sport": "cyclisme",
-          "competition": "Renewi Tour",
-          "title": "Cyclisme : Renewi Tour",
-          "subtitle": "Renewi Tour. 1re étape . Diest - Diest (188,3 km). UCI World Tour.",
-          "description": "UCI World Tour. Renewi Tour. 1re étape . Diest - Diest (188,3 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-20T07:00:00+02:00",
-          "end": "2026-08-20T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6b6d5b0a833d",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Renewi Tour",
-          "subtitle": "1re étape | Diest - Diest (191,3...",
-          "description": "21e édition du Renewi tour, la seule épreuve à étapes de l'UCI WorldTour disputée entièrement en Belgique. La ville de Diest accueille le départ et l'arrivée de la première étape. Au terme des cinq jours de course, le vainqueur succédera au palmarès au Wallon Arnaud De Lie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-20T07:00:00+02:00",
-          "end": "2026-08-20T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "21b8d57225e6",
-          "sport": "football",
-          "competition": "Qualifications pour la Ligue des",
-          "title": "Celtic Glasgow / LASK Linz",
-          "subtitle": "Qualifications pour la Ligue des...",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
-          "team1": {
-            "name": "Celtic Glasgow",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "LASK Linz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-08-20T07:30:00+02:00",
-          "end": "2026-08-20T09:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cee55f39df90",
-          "sport": "football",
-          "competition": null,
-          "title": "Hapoel Beer-Sheva- Sabah FC",
-          "subtitle": null,
-          "description": "Match aller des barrages de l'UEFA Champions League : Hapoel Beer-Sheva- Sabah FC.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-08-20T07:50:00+02:00",
-          "end": "2026-08-20T09:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9e3353b74b3e",
-          "sport": "football",
-          "competition": "Qualifications pour la Ligue des",
-          "title": "Celtic Glasgow / LASK Linz",
-          "subtitle": "Qualifications pour la Ligue des...",
-          "description": "A suivre, des matchs disputés dans le cadre des qualifications pour la Ligue des champions, la plus prestigieuse des compétitions de football sur le Vieux Continent. Si les équipes classées aux meilleures places dans les grands championnats y accèdent automatiquement, ce n'est pas le cas pour les clubs issus de pays moins bien lotis au classement UEFA. Parfois exotiques, ces chocs manquent rarement de piquant, les millions promis aux participants décuplant leur motivation.",
-          "team1": {
-            "name": "Celtic Glasgow",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "LASK Linz",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-08-20T07:53:00+02:00",
-          "end": "2026-08-20T09:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bb31395fffbe",
-          "sport": "football",
-          "competition": null,
-          "title": "Inter Milan / AS Roma",
-          "subtitle": null,
-          "description": "Retrouvez les plus belles affiches du championnat italien et vivez toute l'intensité de la Serie A.",
-          "team1": {
-            "name": "Inter Milan",
-            "type": "club",
-            "short": "Inter",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Roma",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:00:00+02:00",
-          "end": "2026-08-20T09:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d56af466eb0d",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:00:00+02:00",
-          "end": "2026-08-20T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a600f4f49a38",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Mönchengladbach / Hoffenheim",
-          "subtitle": "Bundesliga - 34e  journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Mönchengladbach",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hoffenheim",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:12:00+02:00",
-          "end": "2026-08-20T09:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f097d60d7676",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Séville / Real Madrid",
-          "subtitle": "Liga - 37e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "FC Séville",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:15:00+02:00",
-          "end": "2026-08-20T09:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "2e5632630df9",
           "sport": "football",
           "competition": null,
@@ -1268,251 +596,7 @@
           },
           "start": "2026-08-20T08:20:00+02:00",
           "end": "2026-08-20T10:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ab9780f07cf0",
-          "sport": "other",
-          "competition": null,
-          "title": "Moteurs",
-          "subtitle": "Course de Côte du Mont-Doré",
-          "description": "Résumé de la 10ème manche du championnat de France de la montagne 2026 avec la mythique course Le Mont-Dore - Chambon-sur-Lac.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-08-20T08:25:00+02:00",
-          "end": "2026-08-20T08:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8f9ed95013d1",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "Renewi Tour",
-          "subtitle": "1re étape | Diest - Diest (191,3...",
-          "description": "21e édition du Renewi tour, la seule épreuve à étapes de l'UCI WorldTour disputée entièrement en Belgique. La ville de Diest accueille le départ et l'arrivée de la première étape. Au terme des cinq jours de course, le vainqueur succédera au palmarès au Wallon Arnaud De Lie.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:30:00+02:00",
-          "end": "2026-08-20T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6dc6dbdf9963",
-          "sport": "golf",
-          "competition": null,
-          "title": "Discovery Golf",
-          "subtitle": "Magazine - Golf | Épisode 27",
-          "description": "Discovery Golf est premier sur la diffusion du PGA TOUR et en partenariat de contenu exclusif avec Tiger Woods.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:30:00+02:00",
-          "end": "2026-08-20T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a6bcaa0a625a",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": null,
-          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:30:00+02:00",
-          "end": "2026-08-20T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cbb5050d0b8c",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E51",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-08-20T08:31:00+02:00",
-          "end": "2026-08-20T08:54:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ee9c1edddfa0",
-          "sport": "other",
-          "competition": "Open d'Ecosse",
-          "title": "Snooker : Open d'Ecosse",
-          "subtitle": "Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu. Home Nations Series.",
-          "description": "Home Nations Series. Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu.",
-          "team1": {
-            "name": "Open d'Ecosse",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chang Bingyu",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-08-20T09:00:00+02:00",
-          "end": "2026-08-20T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b86facbf89f5",
-          "sport": "other",
-          "competition": null,
-          "title": "Chris Wakelin - Chang Bingyu",
-          "subtitle": "BetVictor Scottish Open | Finale...",
-          "description": "L'Open d'Ecosse 2025 connaît son épilogue au Meadowbank Sports Centre d'Edimbourg. L'Anglais Chris Wakelin part favori pour s'adjuger le titre, face au Chinois Chang Bingyu.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-08-20T09:00:00+02:00",
-          "end": "2026-08-20T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "beb007ebb644",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-08-20T09:30:00+02:00",
-          "end": "2026-08-20T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6187aadf72de",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 16e étape",
-          "subtitle": "Poio - Mos.Castro de Herville (1...",
-          "description": "Une étape avec quatre cols comptant pour le classement par points et un terrain très accidenté dans la seconde moitié qui compliquera grandement le contrôle de l'échappée du jour.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-08-20T09:30:00+02:00",
-          "end": "2026-08-20T10:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1550,7 +634,7 @@
           },
           "start": "2026-08-20T09:45:00+02:00",
           "end": "2026-08-20T11:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1588,7 +672,7 @@
           },
           "start": "2026-08-20T09:45:00+02:00",
           "end": "2026-08-20T11:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1612,7 +696,7 @@
           },
           "start": "2026-08-20T09:51:00+02:00",
           "end": "2026-08-20T11:27:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1650,7 +734,7 @@
           },
           "start": "2026-08-20T09:51:00+02:00",
           "end": "2026-08-20T11:34:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1688,7 +772,7 @@
           },
           "start": "2026-08-20T09:52:00+02:00",
           "end": "2026-08-20T11:35:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1726,7 +810,7 @@
           },
           "start": "2026-08-20T09:54:00+02:00",
           "end": "2026-08-20T11:40:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1750,7 +834,7 @@
           },
           "start": "2026-08-20T09:55:00+02:00",
           "end": "2026-08-20T11:55:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1788,7 +872,7 @@
           },
           "start": "2026-08-20T10:00:00+02:00",
           "end": "2026-08-20T11:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1812,7 +896,7 @@
           },
           "start": "2026-08-20T10:00:00+02:00",
           "end": "2026-08-20T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1836,7 +920,7 @@
           },
           "start": "2026-08-20T10:15:00+02:00",
           "end": "2026-08-20T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1860,7 +944,7 @@
           },
           "start": "2026-08-20T10:30:00+02:00",
           "end": "2026-08-20T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1884,7 +968,7 @@
           },
           "start": "2026-08-20T10:30:00+02:00",
           "end": "2026-08-20T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1908,7 +992,7 @@
           },
           "start": "2026-08-20T10:30:00+02:00",
           "end": "2026-08-20T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1946,7 +1030,7 @@
           },
           "start": "2026-08-20T10:31:00+02:00",
           "end": "2026-08-20T12:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -7447,6 +6531,168 @@
           "result": null
         },
         {
+          "id": "cda858c704c1",
+          "sport": "basket",
+          "competition": null,
+          "title": "San Antonio Spurs / Minnesota Timberwolves",
+          "subtitle": null,
+          "description": "Retrouvez les plus belles affiches de la dernière saison de NBA, avec des scénarios souvent déroutants.",
+          "team1": {
+            "name": "San Antonio Spurs",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Minnesota Timberwolves",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-20T04:45:00+02:00",
+          "end": "2026-08-20T07:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f1b41c739f00",
+          "sport": "other",
+          "competition": null,
+          "title": "Chris Wakelin - Chang Bingyu",
+          "subtitle": "BetVictor Scottish Open | Finale...",
+          "description": "L'Open d'Ecosse 2025 connaît son épilogue au Meadowbank Sports Centre d'Edimbourg. L'Anglais Chris Wakelin part favori pour s'adjuger le titre, face au Chinois Chang Bingyu.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-20T05:00:00+02:00",
+          "end": "2026-08-20T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "06ad8f337d82",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 16e étape",
+          "subtitle": "Poio - Mos.Castro de Herville (1...",
+          "description": "Une étape avec quatre cols comptant pour le classement par points et un terrain très accidenté dans la seconde moitié qui compliquera grandement le contrôle de l'échappée du jour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-20T05:00:00+02:00",
+          "end": "2026-08-20T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0d626032086d",
+          "sport": "football",
+          "competition": "Match amical",
+          "title": "Football : Match amical | Le Mans / Le Havre",
+          "subtitle": null,
+          "description": "1ère période du match amical opposant Le Mans au Havre AC",
+          "team1": {
+            "name": "Le Mans",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Le Havre AC",
+            "type": "club",
+            "short": "Le Havre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-08-20T05:00:00+02:00",
+          "end": "2026-08-20T06:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "02317b5c4521",
+          "sport": "other",
+          "competition": null,
+          "title": "Alpine, le Mans en héritage",
+          "subtitle": "Retro Ligue 1 - PSG Destiny EP 01",
+          "description": "Un documentaire sportif qui peut être le portrait précis d'un champion, d'une équipe, ou un focus sur un sport en particulier. Des images d'archives peuvent être présentées.",
+          "team1": {
+            "name": "Retro Ligue 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "PSG Destiny EP 01",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-20T05:15:00+02:00",
+          "end": "2026-08-20T06:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "f095722839be",
           "sport": "other",
           "competition": null,
@@ -7488,6 +6734,760 @@
           },
           "start": "2026-08-20T05:29:00+02:00",
           "end": "2026-08-20T06:23:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bf5d4ff028b2",
+          "sport": "other",
+          "competition": null,
+          "title": "MLB - Blue Jays de Toronto c. Rays de Tampa Bay",
+          "subtitle": "Blue Jays de Toronto c. Rays de Tampa Bay",
+          "description": "Les Blue Jays de Toronto poursuivent leur série de trois matchs contre les Rays de Tampa Bay au Tropicana Field.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVASports.ca",
+            "name": "TVA Sports",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73141_h15_ad.png",
+            "slug": "tva-sports",
+            "is_free": false
+          },
+          "start": "2026-08-20T05:30:00+02:00",
+          "end": "2026-08-20T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "488627e3afc0",
+          "sport": "football",
+          "competition": null,
+          "title": "Pays-Bas / Norvège",
+          "subtitle": null,
+          "description": "Retrouvez les stars mondiales du ballon rond dans leur préparation avant la nouvelle Coupe du monde.",
+          "team1": {
+            "name": "Pays-Bas",
+            "type": "country",
+            "short": "Pays-Bas",
+            "country_code": "nl",
+            "logo_url": "https://flagcdn.com/w80/nl.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Norvège",
+            "type": "country",
+            "short": "Norvège",
+            "country_code": "no",
+            "logo_url": "https://flagcdn.com/w80/no.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-08-20T05:40:00+02:00",
+          "end": "2026-08-20T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cc36ae889435",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Mana_Saint-Laurent",
+          "subtitle": "Tour de Guyane",
+          "description": "Résumé de l'étape, analyses, enjeux, classements, réactions : focus sur le Tour cycliste de Guyane.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Guyane1.fr",
+            "name": "Guyane 1ère",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/150084/canal-ouah/CHN43FB/GUYANE_1ER_FB_myCANAL_640x480?=.png",
+            "slug": "guyane-1-re",
+            "is_free": false
+          },
+          "start": "2026-08-20T05:41:00+02:00",
+          "end": "2026-08-20T10:22:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d6f124f1f95c",
+          "sport": "football",
+          "competition": null,
+          "title": "Union Saint-Gilloise / Zulte Waregem",
+          "subtitle": null,
+          "description": "R. Union SG - SV Zulte Waregem.",
+          "team1": {
+            "name": "Union Saint-Gilloise",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Zulte Waregem",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-08-20T06:00:00+02:00",
+          "end": "2026-08-20T08:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c4f8a7eea50c",
+          "sport": "football",
+          "competition": "Community Shield - Finale",
+          "title": "Arsenal / Manchester City",
+          "subtitle": "Community Shield - Finale",
+          "description": "Retransmission en direct ou en différé du match du Community Shield de football en Angleterre. C'est le premier trophée de la saison en Angleterre, un match, entre le vainqueur de la Premier league et le vainqueur de la Coupe d'Angleterre.",
+          "team1": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-20T06:15:00+02:00",
+          "end": "2026-08-20T07:53:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d6a919a11e9c",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Eintracht Francfort / Bayer Leverkusen",
+          "subtitle": "Bundesliga - 20e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Eintracht Francfort",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayer Leverkusen",
+            "type": "club",
+            "short": "Leverkusen",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-08-20T06:45:00+02:00",
+          "end": "2026-08-20T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "18913c1890e7",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Dans la tempête",
+          "description": "Juste après Noël, les défis s’accumulent. Jean-Philippe Mateta pourrait être transféré dans un grand club européen. Bryan MBeumo découvre un nouvel entraîneur à l’approche d’un choc crucial. Iliman Ndiaye doit retrouver le rythme de la Premier League après une Coupe d’Afrique triomphale avec le Sénégal. Junior Kroupi et Georginio Rutter, eux, se battent pour leur place à Bournemouth et Brighton.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-20T07:00:00+02:00",
+          "end": "2026-08-20T07:43:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "22af174f1155",
+          "sport": "cyclisme",
+          "competition": "Renewi Tour",
+          "title": "Cyclisme : Renewi Tour",
+          "subtitle": "Renewi Tour. 1re étape . Diest - Diest (188,3 km). UCI World Tour.",
+          "description": "UCI World Tour. Renewi Tour. 1re étape . Diest - Diest (188,3 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-20T07:00:00+02:00",
+          "end": "2026-08-20T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6b6d5b0a833d",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Renewi Tour",
+          "subtitle": "1re étape | Diest - Diest (191,3...",
+          "description": "21e édition du Renewi tour, la seule épreuve à étapes de l'UCI WorldTour disputée entièrement en Belgique. La ville de Diest accueille le départ et l'arrivée de la première étape. Au terme des cinq jours de course, le vainqueur succédera au palmarès au Wallon Arnaud De Lie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-20T07:00:00+02:00",
+          "end": "2026-08-20T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "21b8d57225e6",
+          "sport": "football",
+          "competition": "Qualifications pour la Ligue des",
+          "title": "Celtic Glasgow / LASK Linz",
+          "subtitle": "Qualifications pour la Ligue des...",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
+          "team1": {
+            "name": "Celtic Glasgow",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "LASK Linz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-08-20T07:30:00+02:00",
+          "end": "2026-08-20T09:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cee55f39df90",
+          "sport": "football",
+          "competition": null,
+          "title": "Hapoel Beer-Sheva- Sabah FC",
+          "subtitle": null,
+          "description": "Match aller des barrages de l'UEFA Champions League : Hapoel Beer-Sheva- Sabah FC.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-08-20T07:50:00+02:00",
+          "end": "2026-08-20T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9e3353b74b3e",
+          "sport": "football",
+          "competition": "Qualifications pour la Ligue des",
+          "title": "Celtic Glasgow / LASK Linz",
+          "subtitle": "Qualifications pour la Ligue des...",
+          "description": "A suivre, des matchs disputés dans le cadre des qualifications pour la Ligue des champions, la plus prestigieuse des compétitions de football sur le Vieux Continent. Si les équipes classées aux meilleures places dans les grands championnats y accèdent automatiquement, ce n'est pas le cas pour les clubs issus de pays moins bien lotis au classement UEFA. Parfois exotiques, ces chocs manquent rarement de piquant, les millions promis aux participants décuplant leur motivation.",
+          "team1": {
+            "name": "Celtic Glasgow",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "LASK Linz",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-08-20T07:53:00+02:00",
+          "end": "2026-08-20T09:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bb31395fffbe",
+          "sport": "football",
+          "competition": null,
+          "title": "Inter Milan / AS Roma",
+          "subtitle": null,
+          "description": "Retrouvez les plus belles affiches du championnat italien et vivez toute l'intensité de la Serie A.",
+          "team1": {
+            "name": "Inter Milan",
+            "type": "club",
+            "short": "Inter",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Roma",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:00:00+02:00",
+          "end": "2026-08-20T09:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d56af466eb0d",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:00:00+02:00",
+          "end": "2026-08-20T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a600f4f49a38",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Mönchengladbach / Hoffenheim",
+          "subtitle": "Bundesliga - 34e  journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Mönchengladbach",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hoffenheim",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:12:00+02:00",
+          "end": "2026-08-20T09:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f097d60d7676",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "FC Séville / Real Madrid",
+          "subtitle": "Liga - 37e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Séville",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:15:00+02:00",
+          "end": "2026-08-20T09:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ab9780f07cf0",
+          "sport": "other",
+          "competition": null,
+          "title": "Moteurs",
+          "subtitle": "Course de Côte du Mont-Doré",
+          "description": "Résumé de la 10ème manche du championnat de France de la montagne 2026 avec la mythique course Le Mont-Dore - Chambon-sur-Lac.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-08-20T08:25:00+02:00",
+          "end": "2026-08-20T08:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8f9ed95013d1",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "Renewi Tour",
+          "subtitle": "1re étape | Diest - Diest (191,3...",
+          "description": "21e édition du Renewi tour, la seule épreuve à étapes de l'UCI WorldTour disputée entièrement en Belgique. La ville de Diest accueille le départ et l'arrivée de la première étape. Au terme des cinq jours de course, le vainqueur succédera au palmarès au Wallon Arnaud De Lie.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:30:00+02:00",
+          "end": "2026-08-20T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6dc6dbdf9963",
+          "sport": "golf",
+          "competition": null,
+          "title": "Discovery Golf",
+          "subtitle": "Magazine - Golf | Épisode 27",
+          "description": "Discovery Golf est premier sur la diffusion du PGA TOUR et en partenariat de contenu exclusif avec Tiger Woods.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:30:00+02:00",
+          "end": "2026-08-20T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a6bcaa0a625a",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": null,
+          "description": "Découvrez des épreuves de la Coupe du monde de canoë-kayak de sprint. Cette compétition se déroule tous les ans sous l'égide de la Fédération internationale de canoë (ICF). La fédération a été fondée en 1946 et son siège se situe à Lausanne, en Suisse.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:30:00+02:00",
+          "end": "2026-08-20T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cbb5050d0b8c",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E51",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-08-20T08:31:00+02:00",
+          "end": "2026-08-20T08:54:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ee9c1edddfa0",
+          "sport": "other",
+          "competition": "Open d'Ecosse",
+          "title": "Snooker : Open d'Ecosse",
+          "subtitle": "Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu. Home Nations Series.",
+          "description": "Home Nations Series. Open d'Ecosse. Finale . Chris Wakelin / Chang Bingyu.",
+          "team1": {
+            "name": "Open d'Ecosse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chang Bingyu",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-08-20T09:00:00+02:00",
+          "end": "2026-08-20T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b86facbf89f5",
+          "sport": "other",
+          "competition": null,
+          "title": "Chris Wakelin - Chang Bingyu",
+          "subtitle": "BetVictor Scottish Open | Finale...",
+          "description": "L'Open d'Ecosse 2025 connaît son épilogue au Meadowbank Sports Centre d'Edimbourg. L'Anglais Chris Wakelin part favori pour s'adjuger le titre, face au Chinois Chang Bingyu.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-08-20T09:00:00+02:00",
+          "end": "2026-08-20T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "beb007ebb644",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-08-20T09:30:00+02:00",
+          "end": "2026-08-20T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6187aadf72de",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 16e étape",
+          "subtitle": "Poio - Mos.Castro de Herville (1...",
+          "description": "Une étape avec quatre cols comptant pour le classement par points et un terrain très accidenté dans la seconde moitié qui compliquera grandement le contrôle de l'échappée du jour.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-08-20T09:30:00+02:00",
+          "end": "2026-08-20T10:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
