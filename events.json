@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-02T19:11:21.221758+00:00",
+    "generated_at": "2026-09-02T22:18:35.833234+00:00",
     "total_events": 1209,
     "total_days": 7,
     "sports": [
@@ -33,8 +33,13 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-360-10",
-        "name": "EUROSPORT 360 10",
+        "slug": "voo-sport-world-1",
+        "name": "VOO Sport World 1",
+        "is_free": false
+      },
+      {
+        "slug": "elevensports1fr",
+        "name": "ElevenSports1FR",
         "is_free": false
       },
       {
@@ -44,87 +49,7 @@
       },
       {
         "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "elevensports1fr",
-        "name": "ElevenSports1FR",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "elevenprol1",
-        "name": "ElevenProL1",
-        "is_free": false
-      },
-      {
-        "slug": "srf-zwei",
-        "name": "SRF zwei",
-        "is_free": false
-      },
-      {
-        "slug": "ard",
-        "name": "ARD",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
-        "is_free": false
-      },
-      {
-        "slug": "rts-2",
-        "name": "RTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-13",
-        "name": "EUROSPORT 360 13",
-        "is_free": false
-      },
-      {
-        "slug": "voo-sport-world-1",
-        "name": "VOO Sport World 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
-        "slug": "afric-ble",
-        "name": "Africâble",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -135,6 +60,16 @@
       {
         "slug": "elevensports2fr",
         "name": "ElevenSports2FR",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -153,8 +88,28 @@
         "is_free": false
       },
       {
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
+        "is_free": false
+      },
+      {
+        "slug": "elevenprol1",
+        "name": "ElevenProL1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
         "slug": "t-l-sud",
         "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
@@ -213,6 +168,11 @@
         "is_free": false
       },
       {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-22",
         "name": "EUROSPORT 360 22",
         "is_free": false
@@ -238,13 +198,53 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-360-13",
+        "name": "EUROSPORT 360 13",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-2",
         "name": "Eurosport 360 - 2",
         "is_free": false
       },
       {
+        "slug": "srf-zwei",
+        "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "rts-2",
+        "name": "RTS 2",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-10",
+        "name": "EUROSPORT 360 10",
+        "is_free": false
+      },
+      {
         "slug": "eurosport-360-14",
         "name": "EUROSPORT 360 14",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
+        "is_free": false
+      },
+      {
+        "slug": "ard",
+        "name": "ARD",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
+        "is_free": false
+      },
+      {
+        "slug": "afric-ble",
+        "name": "Africâble",
         "is_free": false
       },
       {
@@ -554,482 +554,6 @@
           "result": null
         },
         {
-          "id": "6aaf4546983b",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "Tennis",
-          "description": "Aryna Sabalenka est la grande favorite pour remporter l'US Open 2026. Numéro un mondiale et double tenante du titre, la Biélorusse vise un triplé historique à New York.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-09-02T19:00:00+02:00",
-          "end": "2026-09-02T22:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "300abf2c2760",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "Tennis",
-          "description": "Suivez les principaux matchs de ce prestigieux tournoi. Dernier Grand Chelem de l'année, l'US Open de tennis se déroule dans le parc municipal de Flushing Meadows-Corona Park à New York, au sein de l'USTA National Tennis Center. Se jouant sur une surface dure de type Decoturf, le jeu est particulièrement rapide et avantage plutôt les joueurs de type offensif comme les serveurs-volleyeurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36010.fr",
-            "name": "EUROSPORT 360 10",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1106/canal-ouah/CHN43FB/CHN43FB_1106_07162024-6UID?=.png",
-            "slug": "eurosport-360-10",
-            "is_free": false
-          },
-          "start": "2026-09-02T19:30:00+02:00",
-          "end": "2026-09-02T22:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6e000092ab8b",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "US Open. 2e tour.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-09-02T19:45:00+02:00",
-          "end": "2026-09-02T22:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "56b3e957b538",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Borussia Dortmund / Hambourg",
-          "subtitle": "Bundesliga - 1re journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Borussia Dortmund",
-            "type": "club",
-            "short": "BVB",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hambourg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-02T19:50:00+02:00",
-          "end": "2026-09-02T21:32:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "06616238e507",
-          "sport": "football",
-          "competition": null,
-          "title": "Lille / Paris-SG",
-          "subtitle": null,
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:00:00+02:00",
-          "end": "2026-09-02T22:10:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b560b1ee289c",
-          "sport": "football",
-          "competition": null,
-          "title": "LCF - Lions de la Colombie-Britannique c. Rouge et Noir d'Ottawa",
-          "subtitle": "Lions de la Colombie-Britannique c. Rouge et Noir d'Ottawa",
-          "description": "Les matchs de football de la Ligue canadienne de football.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:00:00+02:00",
-          "end": "2026-09-02T23:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "44ed76c8c77d",
-          "sport": "football",
-          "competition": null,
-          "title": "Saint-Trond / Union Saint-Gilloise",
-          "subtitle": null,
-          "description": "LIVE: STVV - R. Union SG.",
-          "team1": {
-            "name": "Saint-Trond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Union Saint-Gilloise",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:10:00+02:00",
-          "end": "2026-09-02T23:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "90f6442ba75e",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Grasshopper Zurich / Saint-Gall",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Grasshopper Zurich",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Saint-Gall",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SRF2.ch",
-            "name": "SRF zwei",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
-            "slug": "srf-zwei",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:10:00+02:00",
-          "end": "2026-09-02T22:35:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a9bb46eed776",
-          "sport": "football",
-          "competition": null,
-          "title": "Osnabruck / Bayern Munich",
-          "subtitle": null,
-          "description": "Die Osnabrücker um David Kopacz stehen vor einer schwierigen Aufgabe: Um in die nächste Runde einzuziehen, müssen sie die Doublesieger bezwingen. Bislang trafen die beiden Mannschaften dreimal im DFB-Pokal aufeinander. Die Lila-Weissen gewannen nur einmal - im fernen Jahr 1978. Damals gab es ein 5:4 für die Niedersachsen.",
-          "team1": {
-            "name": "Osnabruck",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ARD.de",
-            "name": "ARD",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-13.png",
-            "slug": "ard",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:15:00+02:00",
-          "end": "2026-09-02T23:05:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c57300792b3a",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Grasshopper Zurich / Saint-Gall",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
-          "team1": {
-            "name": "Grasshopper Zurich",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Saint-Gall",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:27:00+02:00",
-          "end": "2026-09-02T22:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e37d7706f2bf",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Liverpool / Nottingham Forest",
-          "subtitle": "Premier League - 2e journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:30:00+02:00",
-          "end": "2026-09-02T22:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8620e6d0c084",
-          "sport": "football",
-          "competition": "Championnat de Suisse Super Leag",
-          "title": "Grasshopper Zurich / Saint-Gall",
-          "subtitle": "Championnat de Suisse Super Leag...",
-          "description": "En direct de Zurich",
-          "team1": {
-            "name": "Grasshopper Zurich",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Saint-Gall",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RTSDeux.ch",
-            "name": "RTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
-            "slug": "rts-2",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:40:00+02:00",
-          "end": "2026-09-02T22:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e3bc423c3a60",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Manchester United / Ipswich Town",
-          "subtitle": "Premier League - 2e journée",
-          "description": "Après un déplacement à Hull City, les Red Devils de Manchester United, qualifiés pour la Ligue des champions, accueillent un autre promu, Ipswich Town, avec l'intention de faire le plein de points en ce début de saison de Premier League. Bryan Mbeumo et les Mancuniens ne peuvent envisager autre chose que la victoire face aux Tractor Boys.",
-          "team1": {
-            "name": "Manchester United",
-            "type": "club",
-            "short": "Man Utd",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Ipswich Town",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-09-02T20:55:00+02:00",
-          "end": "2026-09-02T22:39:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "04c804bad1c6",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "Real Madrid / Malaga",
-          "subtitle": "Liga - 3e journée",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Malaga",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-09-02T21:56:00+02:00",
-          "end": "2026-09-02T22:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "4c8a42c1721f",
           "sport": "tennis",
           "competition": "US Open",
@@ -1047,31 +571,7 @@
           },
           "start": "2026-09-02T22:00:00+02:00",
           "end": "2026-09-03T01:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "18743193c78a",
-          "sport": "other",
-          "competition": "Open de Grande-Bretagne",
-          "title": "Snooker : Open de Grande-Bretagne",
-          "subtitle": "Snooker",
-          "description": "Diffusion de l'Open de Grande-Bretagne de snooker professionnel. La première édition de ce tournoi date de 1980, et fût organisé jusqu'en 2004, avant d'effectuer une pause longue de 17 années et de revenir en 2021. Au gré des changements de sponsors, il changea également de noms avant de définitivement devenir l'Open de Grande-Bretagne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36013.fr",
-            "name": "EUROSPORT 360 13",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1109/canal-ouah/CHN43FB/CHN43FB_1109_20240716-fSFm?=.png",
-            "slug": "eurosport-360-13",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:00:00+02:00",
-          "end": "2026-09-03T00:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1109,45 +609,7 @@
           },
           "start": "2026-09-02T22:00:00+02:00",
           "end": "2026-09-03T01:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "aa3ffdccbb74",
-          "sport": "football",
-          "competition": "Review",
-          "title": "Ligue 1 : Review",
-          "subtitle": "LIGUE 1 REVIEW - J2 (01/09)",
-          "description": ".",
-          "team1": {
-            "name": "LIGUE 1 REVIEW",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "J2 (01/09)",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:02:00+02:00",
-          "end": "2026-09-02T22:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1185,231 +647,7 @@
           },
           "start": "2026-09-02T22:10:00+02:00",
           "end": "2026-09-03T00:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b03357a83d64",
-          "sport": "football",
-          "competition": "Review",
-          "title": "Ligue 1 : Review",
-          "subtitle": "LIGUE 1 REVIEW - J2 (01/09)",
-          "description": ".",
-          "team1": {
-            "name": "LIGUE 1 REVIEW",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "J2 (01/09)",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:26:00+02:00",
-          "end": "2026-09-02T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d380b7ba517e",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:30:00+02:00",
-          "end": "2026-09-02T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "00d33cf6d1ac",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Lille / Paris-SG",
-          "subtitle": "Ligue 1 McDonald's - 2e  journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "LOSC Lille",
-            "type": "club",
-            "short": "LOSC",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:30:00+02:00",
-          "end": "2026-09-03T00:12:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3a18b4a56a25",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Arsenal",
-          "subtitle": "Premier League - 2e journée",
-          "description": "Pour leur premier match à domicile en championnat, les Villans d'Unai Emery accueillent le champion d'Angleterre en titre, les Gunners d'Arsenal. Face aux grosses équipes, Aston Villa a déçu lors des matches de préparation, avec notamment deux défaites concédées, toutes deux sur le score de 2-1, contre le Bayern Munich, puis le Paris-SG en Supercoupe de l'UEFA.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Arsenal FC",
-            "type": "club",
-            "short": "Arsenal",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:30:00+02:00",
-          "end": "2026-09-03T00:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a1bc248bd87b",
-          "sport": "other",
-          "competition": null,
-          "title": "Platini - Saison 1",
-          "subtitle": "Le fils de l'Aldo",
-          "description": "A 27 ans, Michel Platini part dans l'inconnu, à la Juventus de Turin. Son intégration s'avère beaucoup plus difficile que prévue. Mais le numéro 10 français n'entend renoncer ni à sa vision du football, ni à son tempérament, bâtis en Lorraine dans une famille d'immigrés italiens.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:30:00+02:00",
-          "end": "2026-09-02T23:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e793f96361ad",
-          "sport": "other",
-          "competition": null,
-          "title": "Més que une finale - 2016, le Top 14 illumine le Camp Nou",
-          "subtitle": "Doc. Sport",
-          "description": "Il y a 10 ans, la finale du Top 14 était délocalisée à Barcelone, dans le mythique Camp Nou. Racontée par les principaux acteurs, retour sur cette finale à l’étranger historique, gagnée par le Racing à 14 contre 15 la quasi-totalité de la rencontre, dans une ambiance survoltée.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-09-02T22:49:00+02:00",
-          "end": "2026-09-02T23:19:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "eeda399c904e",
-          "sport": "other",
-          "competition": null,
-          "title": "Platini - Saison 1",
-          "subtitle": "Devenir Platini",
-          "description": "En 1975, la France est un pays mineur du football mondial, quand un jeune meneur de jeu commence à faire parler de lui à Nancy. Rapidement, il devient le leader qui doit permettre aux Bleus de retrouver la Coupe du Monde. Mais la nouvelle star du football français est-elle prête à supporter la pression liée à son nouveau statut ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-09-02T23:00:00+02:00",
-          "end": "2026-09-02T23:32:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1433,7 +671,7 @@
           },
           "start": "2026-09-02T23:00:00+02:00",
           "end": "2026-09-03T00:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1471,7 +709,7 @@
           },
           "start": "2026-09-02T23:28:00+02:00",
           "end": "2026-09-03T01:28:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1509,31 +747,7 @@
           },
           "start": "2026-09-02T23:30:00+02:00",
           "end": "2026-09-03T01:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2259d817c153",
-          "sport": "other",
-          "competition": null,
-          "title": "Platini - Saison 1",
-          "subtitle": "Toujours gagner",
-          "description": "La tension monte quand le nouveau leader des Bleus ne peut empêcher un début de Coupe du monde calamiteux, en 1982. Lors d'une demi-finale devenue mythique contre l'Allemagne, ou pendant le Championnat d'Europe pour la première fois disputé en France, Platini tente de transmettre à ses coéquipiers son obsession de la victoire.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-09-02T23:32:00+02:00",
-          "end": "2026-09-03T00:04:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1571,7 +785,7 @@
           },
           "start": "2026-09-02T23:33:00+02:00",
           "end": "2026-09-03T01:13:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1595,7 +809,7 @@
           },
           "start": "2026-09-02T23:45:00+02:00",
           "end": "2026-09-03T02:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5776,6 +4990,30 @@
           "result": null
         },
         {
+          "id": "6aaf4546983b",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "Tennis",
+          "description": "Aryna Sabalenka est la grande favorite pour remporter l'US Open 2026. Numéro un mondiale et double tenante du titre, la Biélorusse vise un triplé historique à New York.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-09-02T19:00:00+02:00",
+          "end": "2026-09-02T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "d8fdc4e5dc9f",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -5814,6 +5052,130 @@
           "result": null
         },
         {
+          "id": "300abf2c2760",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "Tennis",
+          "description": "Suivez les principaux matchs de ce prestigieux tournoi. Dernier Grand Chelem de l'année, l'US Open de tennis se déroule dans le parc municipal de Flushing Meadows-Corona Park à New York, au sein de l'USTA National Tennis Center. Se jouant sur une surface dure de type Decoturf, le jeu est particulièrement rapide et avantage plutôt les joueurs de type offensif comme les serveurs-volleyeurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36010.fr",
+            "name": "EUROSPORT 360 10",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1106/canal-ouah/CHN43FB/CHN43FB_1106_07162024-6UID?=.png",
+            "slug": "eurosport-360-10",
+            "is_free": false
+          },
+          "start": "2026-09-02T19:30:00+02:00",
+          "end": "2026-09-02T22:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6e000092ab8b",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "US Open. 2e tour.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-09-02T19:45:00+02:00",
+          "end": "2026-09-02T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "56b3e957b538",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Borussia Dortmund / Hambourg",
+          "subtitle": "Bundesliga - 1re journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Borussia Dortmund",
+            "type": "club",
+            "short": "BVB",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hambourg",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-02T19:50:00+02:00",
+          "end": "2026-09-02T21:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "06616238e507",
+          "sport": "football",
+          "competition": null,
+          "title": "Lille / Paris-SG",
+          "subtitle": null,
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:00:00+02:00",
+          "end": "2026-09-02T22:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "8b61619696b6",
           "sport": "other",
           "competition": "Open de Grande-Bretagne",
@@ -5838,6 +5200,220 @@
           "result": null
         },
         {
+          "id": "b560b1ee289c",
+          "sport": "football",
+          "competition": null,
+          "title": "LCF - Lions de la Colombie-Britannique c. Rouge et Noir d'Ottawa",
+          "subtitle": "Lions de la Colombie-Britannique c. Rouge et Noir d'Ottawa",
+          "description": "Les matchs de football de la Ligue canadienne de football.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:00:00+02:00",
+          "end": "2026-09-02T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "44ed76c8c77d",
+          "sport": "football",
+          "competition": null,
+          "title": "Saint-Trond / Union Saint-Gilloise",
+          "subtitle": null,
+          "description": "LIVE: STVV - R. Union SG.",
+          "team1": {
+            "name": "Saint-Trond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Union Saint-Gilloise",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:10:00+02:00",
+          "end": "2026-09-02T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "90f6442ba75e",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Grasshopper Zurich / Saint-Gall",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Grasshopper Zurich",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Saint-Gall",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SRF2.ch",
+            "name": "SRF zwei",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452702?=.png",
+            "slug": "srf-zwei",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:10:00+02:00",
+          "end": "2026-09-02T22:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a9bb46eed776",
+          "sport": "football",
+          "competition": null,
+          "title": "Osnabruck / Bayern Munich",
+          "subtitle": null,
+          "description": "Die Osnabrücker um David Kopacz stehen vor einer schwierigen Aufgabe: Um in die nächste Runde einzuziehen, müssen sie die Doublesieger bezwingen. Bislang trafen die beiden Mannschaften dreimal im DFB-Pokal aufeinander. Die Lila-Weissen gewannen nur einmal - im fernen Jahr 1978. Damals gab es ein 5:4 für die Niedersachsen.",
+          "team1": {
+            "name": "Osnabruck",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ARD.de",
+            "name": "ARD",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-13.png",
+            "slug": "ard",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:15:00+02:00",
+          "end": "2026-09-02T23:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c57300792b3a",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Grasshopper Zurich / Saint-Gall",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "Retransmission d'un match de la Super League, la division élite du football professionnel suisse. Dix équipes constituent ce championnat, chacune d'elle disputant 36 matchs. Placée sous l'égide de la Swiss Football League, la première édition de cette compétition s'est déroulée en 1897.",
+          "team1": {
+            "name": "Grasshopper Zurich",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Saint-Gall",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:27:00+02:00",
+          "end": "2026-09-02T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e37d7706f2bf",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Liverpool / Nottingham Forest",
+          "subtitle": "Premier League - 2e journée",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:30:00+02:00",
+          "end": "2026-09-02T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "4c353f6914c0",
           "sport": "golf",
           "competition": "HotelPlanner Tour, Challenge d'Upsala",
@@ -5855,6 +5431,430 @@
           },
           "start": "2026-09-02T20:30:00+02:00",
           "end": "2026-09-02T20:57:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8620e6d0c084",
+          "sport": "football",
+          "competition": "Championnat de Suisse Super Leag",
+          "title": "Grasshopper Zurich / Saint-Gall",
+          "subtitle": "Championnat de Suisse Super Leag...",
+          "description": "En direct de Zurich",
+          "team1": {
+            "name": "Grasshopper Zurich",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Saint-Gall",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RTSDeux.ch",
+            "name": "RTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~96e7582dedb5aa8e.png/480x480/quality/100/rts-deux.png",
+            "slug": "rts-2",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:40:00+02:00",
+          "end": "2026-09-02T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e3bc423c3a60",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester United / Ipswich Town",
+          "subtitle": "Premier League - 2e journée",
+          "description": "Après un déplacement à Hull City, les Red Devils de Manchester United, qualifiés pour la Ligue des champions, accueillent un autre promu, Ipswich Town, avec l'intention de faire le plein de points en ce début de saison de Premier League. Bryan Mbeumo et les Mancuniens ne peuvent envisager autre chose que la victoire face aux Tractor Boys.",
+          "team1": {
+            "name": "Manchester United",
+            "type": "club",
+            "short": "Man Utd",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Ipswich Town",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-09-02T20:55:00+02:00",
+          "end": "2026-09-02T22:39:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "04c804bad1c6",
+          "sport": "football",
+          "competition": "Liga",
+          "title": "Real Madrid / Malaga",
+          "subtitle": "Liga - 3e journée",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Malaga",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-09-02T21:56:00+02:00",
+          "end": "2026-09-02T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "18743193c78a",
+          "sport": "other",
+          "competition": "Open de Grande-Bretagne",
+          "title": "Snooker : Open de Grande-Bretagne",
+          "subtitle": "Snooker",
+          "description": "Diffusion de l'Open de Grande-Bretagne de snooker professionnel. La première édition de ce tournoi date de 1980, et fût organisé jusqu'en 2004, avant d'effectuer une pause longue de 17 années et de revenir en 2021. Au gré des changements de sponsors, il changea également de noms avant de définitivement devenir l'Open de Grande-Bretagne.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36013.fr",
+            "name": "EUROSPORT 360 13",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1109/canal-ouah/CHN43FB/CHN43FB_1109_20240716-fSFm?=.png",
+            "slug": "eurosport-360-13",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:00:00+02:00",
+          "end": "2026-09-03T00:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "aa3ffdccbb74",
+          "sport": "football",
+          "competition": "Review",
+          "title": "Ligue 1 : Review",
+          "subtitle": "LIGUE 1 REVIEW - J2 (01/09)",
+          "description": ".",
+          "team1": {
+            "name": "LIGUE 1 REVIEW",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "J2 (01/09)",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:02:00+02:00",
+          "end": "2026-09-02T22:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b03357a83d64",
+          "sport": "football",
+          "competition": "Review",
+          "title": "Ligue 1 : Review",
+          "subtitle": "LIGUE 1 REVIEW - J2 (01/09)",
+          "description": ".",
+          "team1": {
+            "name": "LIGUE 1 REVIEW",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "J2 (01/09)",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:26:00+02:00",
+          "end": "2026-09-02T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d380b7ba517e",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:30:00+02:00",
+          "end": "2026-09-02T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "00d33cf6d1ac",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Lille / Paris-SG",
+          "subtitle": "Ligue 1 McDonald's - 2e  journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "LOSC Lille",
+            "type": "club",
+            "short": "LOSC",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:30:00+02:00",
+          "end": "2026-09-03T00:12:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3a18b4a56a25",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Arsenal",
+          "subtitle": "Premier League - 2e journée",
+          "description": "Pour leur premier match à domicile en championnat, les Villans d'Unai Emery accueillent le champion d'Angleterre en titre, les Gunners d'Arsenal. Face aux grosses équipes, Aston Villa a déçu lors des matches de préparation, avec notamment deux défaites concédées, toutes deux sur le score de 2-1, contre le Bayern Munich, puis le Paris-SG en Supercoupe de l'UEFA.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Arsenal FC",
+            "type": "club",
+            "short": "Arsenal",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:30:00+02:00",
+          "end": "2026-09-03T00:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a1bc248bd87b",
+          "sport": "other",
+          "competition": null,
+          "title": "Platini - Saison 1",
+          "subtitle": "Le fils de l'Aldo",
+          "description": "A 27 ans, Michel Platini part dans l'inconnu, à la Juventus de Turin. Son intégration s'avère beaucoup plus difficile que prévue. Mais le numéro 10 français n'entend renoncer ni à sa vision du football, ni à son tempérament, bâtis en Lorraine dans une famille d'immigrés italiens.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:30:00+02:00",
+          "end": "2026-09-02T23:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e793f96361ad",
+          "sport": "other",
+          "competition": null,
+          "title": "Més que une finale - 2016, le Top 14 illumine le Camp Nou",
+          "subtitle": "Doc. Sport",
+          "description": "Il y a 10 ans, la finale du Top 14 était délocalisée à Barcelone, dans le mythique Camp Nou. Racontée par les principaux acteurs, retour sur cette finale à l’étranger historique, gagnée par le Racing à 14 contre 15 la quasi-totalité de la rencontre, dans une ambiance survoltée.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-09-02T22:49:00+02:00",
+          "end": "2026-09-02T23:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "eeda399c904e",
+          "sport": "other",
+          "competition": null,
+          "title": "Platini - Saison 1",
+          "subtitle": "Devenir Platini",
+          "description": "En 1975, la France est un pays mineur du football mondial, quand un jeune meneur de jeu commence à faire parler de lui à Nancy. Rapidement, il devient le leader qui doit permettre aux Bleus de retrouver la Coupe du Monde. Mais la nouvelle star du football français est-elle prête à supporter la pression liée à son nouveau statut ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-09-02T23:00:00+02:00",
+          "end": "2026-09-02T23:32:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2259d817c153",
+          "sport": "other",
+          "competition": null,
+          "title": "Platini - Saison 1",
+          "subtitle": "Toujours gagner",
+          "description": "La tension monte quand le nouveau leader des Bleus ne peut empêcher un début de Coupe du monde calamiteux, en 1982. Lors d'une demi-finale devenue mythique contre l'Allemagne, ou pendant le Championnat d'Europe pour la première fois disputé en France, Platini tente de transmettre à ses coéquipiers son obsession de la victoire.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-09-02T23:32:00+02:00",
+          "end": "2026-09-03T00:04:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -5899,7 +5899,7 @@
           },
           "start": "2026-09-03T00:03:00+02:00",
           "end": "2026-09-03T01:44:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5923,7 +5923,7 @@
           },
           "start": "2026-09-03T00:04:00+02:00",
           "end": "2026-09-03T00:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5961,7 +5961,7 @@
           },
           "start": "2026-09-03T00:04:00+02:00",
           "end": "2026-09-03T01:44:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5999,7 +5999,7 @@
           },
           "start": "2026-09-03T00:10:00+02:00",
           "end": "2026-09-03T02:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6037,7 +6037,7 @@
           },
           "start": "2026-09-03T00:15:00+02:00",
           "end": "2026-09-03T01:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
