@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-10T02:53:53.846333+00:00",
+    "generated_at": "2026-09-10T08:36:56.568106+00:00",
     "total_events": 1180,
     "total_days": 7,
     "sports": [
@@ -22,48 +22,8 @@
     ],
     "channels": [
       {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "rds2",
-        "name": "RDS2",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-360-27",
-        "name": "EUROSPORT 360 27",
-        "is_free": false
-      },
-      {
-        "slug": "bein-2",
-        "name": "beIN SPORTS 2",
-        "is_free": false
-      },
-      {
-        "slug": "rsi-2",
-        "name": "RSI 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
-        "is_free": false
-      },
-      {
         "slug": "elevenprol1",
         "name": "ElevenProL1",
-        "is_free": false
-      },
-      {
-        "slug": "trek",
-        "name": "TREK",
         "is_free": false
       },
       {
@@ -72,33 +32,13 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "blue-zoom-fr",
-        "name": "blue Zoom fr",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
         "is_free": false
       },
       {
@@ -107,18 +47,28 @@
         "is_free": false
       },
       {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
-        "slug": "my-zen-tv",
-        "name": "My Zen TV",
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
+        "slug": "bein-2",
+        "name": "beIN SPORTS 2",
         "is_free": false
       },
       {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
+        "slug": "elevensports1fr",
+        "name": "ElevenSports1FR",
         "is_free": false
       },
       {
@@ -132,28 +82,8 @@
         "is_free": false
       },
       {
-        "slug": "pickxplussports1f-be",
-        "name": "PickxPlusSports1F.be",
-        "is_free": false
-      },
-      {
-        "slug": "elevensports1fr",
-        "name": "ElevenSports1FR",
-        "is_free": false
-      },
-      {
-        "slug": "auto-plus-tv",
-        "name": "Auto Plus TV",
-        "is_free": false
-      },
-      {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
-        "slug": "afric-ble",
-        "name": "Africâble",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -162,18 +92,48 @@
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
       },
       {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
+        "slug": "blue-zoom-fr",
+        "name": "blue Zoom fr",
         "is_free": false
       },
       {
         "slug": "bein-1",
         "name": "beIN SPORTS 1",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sud",
+        "name": "Télésud",
+        "is_free": false
+      },
+      {
+        "slug": "pickxplussports1f-be",
+        "name": "PickxPlusSports1F.be",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
+        "is_free": false
+      },
+      {
+        "slug": "rsi-2",
+        "name": "RSI 2",
         "is_free": false
       },
       {
@@ -187,6 +147,11 @@
         "is_free": false
       },
       {
+        "slug": "rds",
+        "name": "RDS",
+        "is_free": false
+      },
+      {
         "slug": "rts-2",
         "name": "RTS 2",
         "is_free": false
@@ -194,6 +159,16 @@
       {
         "slug": "srf-zwei",
         "name": "SRF zwei",
+        "is_free": false
+      },
+      {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "afric-ble",
+        "name": "Africâble",
         "is_free": false
       },
       {
@@ -224,6 +199,11 @@
       {
         "slug": "nickelodeonplus1-fr",
         "name": "NickelodeonPlus1.fr",
+        "is_free": false
+      },
+      {
+        "slug": "rds2",
+        "name": "RDS2",
         "is_free": false
       },
       {
@@ -272,6 +252,11 @@
         "is_free": false
       },
       {
+        "slug": "trek",
+        "name": "TREK",
+        "is_free": false
+      },
+      {
         "slug": "canal-suisse",
         "name": "Canal+ Suisse",
         "is_free": false
@@ -279,6 +264,21 @@
       {
         "slug": "eurosport-360-26",
         "name": "EUROSPORT 360 26",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-27",
+        "name": "EUROSPORT 360 27",
+        "is_free": false
+      },
+      {
+        "slug": "my-zen-tv",
+        "name": "My Zen TV",
+        "is_free": false
+      },
+      {
+        "slug": "auto-plus-tv",
+        "name": "Auto Plus TV",
         "is_free": false
       },
       {
@@ -604,1222 +604,6 @@
       "event_count": 209,
       "events": [
         {
-          "id": "238e62a394bf",
-          "sport": "tennis",
-          "competition": "Internationaux des États-Unis 2026",
-          "title": "Tennis: Internationaux des États-Unis 2026",
-          "subtitle": "Quarts de finale, hommes",
-          "description": "En provenance de USTA Billie Jean King National Tennis Center &#150; Flushing, NY, USA En provenance du USTA Billie Jean King National Tennis Center, à Flushing, dans l'État de New York. <p>(EN DIRECT)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-09-10T01:30:00+02:00",
-          "end": "2026-09-10T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fb7c8621f8f8",
-          "sport": "football",
-          "competition": null,
-          "title": "Football NFL",
-          "subtitle": "Patriots de la Nouvelle-Angleterre c. Seahawks de Seattle",
-          "description": "En provenance de Lumen Field &#150; Seattle, Washington, USA En provenance du Lumen Field, à Seattle, dans l'État de Washington. <p>(EN DIRECT)",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS2.ca",
-            "name": "RDS2",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
-            "slug": "rds2",
-            "is_free": false
-          },
-          "start": "2026-09-10T01:30:00+02:00",
-          "end": "2026-09-10T05:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "50d8d3cb0dec",
-          "sport": "mma",
-          "competition": "UFC",
-          "title": "MMA : UFC | Dan Hooker / Salahdine Parnasse",
-          "subtitle": null,
-          "description": "Star du MMA français, Salahdine Parnasse est la tête d'affiche de l'UFC Paris pour son premier combat dans la ligue américaine, à l'Accor Arena. Le combattant de 28 ans a les honneurs du main event face au Néo-zélandais Dan Hooker, battu par Benoît Saint Denis en début d'année.",
-          "team1": {
-            "name": "Dan Hooker",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Salahdine Parnasse",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-09-10T02:30:00+02:00",
-          "end": "2026-09-10T05:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ff9916c1b014",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "Tennis",
-          "description": "Suivez les principaux matchs de ce prestigieux tournoi. Dernier Grand Chelem de l'année, l'US Open de tennis se déroule dans le parc municipal de Flushing Meadows-Corona Park à New York, au sein de l'USTA National Tennis Center. Se jouant sur une surface dure de type Decoturf, le jeu est particulièrement rapide et avantage plutôt les joueurs de type offensif comme les serveurs-volleyeurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36027.fr",
-            "name": "EUROSPORT 360 27",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1123/canal-ouah/CHN43FB/CHN43FB_1123_20240716-uSCT?=.png",
-            "slug": "eurosport-360-27",
-            "is_free": false
-          },
-          "start": "2026-09-10T03:00:00+02:00",
-          "end": "2026-09-10T05:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "21f931123590",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Football : Bundesliga | Stuttgart / Cologne",
-          "subtitle": null,
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne.",
-          "team1": {
-            "name": "Stuttgart",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cologne",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T03:00:00+02:00",
-          "end": "2026-09-10T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cd71135523fe",
-          "sport": "football",
-          "competition": null,
-          "title": "Liverpool - Atletico Madrid",
-          "subtitle": "Ligue des champions",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RSI2.ch",
-            "name": "RSI 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
-            "slug": "rsi-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T03:15:00+02:00",
-          "end": "2026-09-10T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6ce0c60f0626",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Liverpool / Atlético Madrid",
-          "subtitle": "Ligue des champions - 1re journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T03:30:00+02:00",
-          "end": "2026-09-10T05:13:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fb5899ca2d98",
-          "sport": "football",
-          "competition": null,
-          "title": "Malines / Westerlo",
-          "subtitle": null,
-          "description": "KV Mechelen - KVC Westerlo.",
-          "team1": {
-            "name": "Malines",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Westerlo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-09-10T03:45:00+02:00",
-          "end": "2026-09-10T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9b84280f1a1d",
-          "sport": "other",
-          "competition": null,
-          "title": "Abyss, les plongeurs de l'impossible",
-          "subtitle": "En mer de Cortez (Basse-Californie)",
-          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-09-10T03:55:00+02:00",
-          "end": "2026-09-10T05:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "42f92825804f",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 17e étape",
-          "subtitle": "Dos Hermanas - Sevilla (189,2km)",
-          "description": "L'étape la plus plate de cette édition 2026 de la Vuelta. Une échappée dès le départ devrait marquer une journée pendant laquelle les équipes de sprinteurs ne devraient pas rencontrer trop de difficultés pour contrôler la course et garantir un sprint dans les rues de Séville.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T04:00:00+02:00",
-          "end": "2026-09-10T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a51b8ccdaa3e",
-          "sport": "rugby",
-          "competition": "Top 14",
-          "title": "Castres / Vannes",
-          "subtitle": "Top 14 - 1re journée",
-          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
-          "team1": {
-            "name": "Castres Olympique",
-            "type": "club",
-            "short": "Castres",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2568.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Vannes",
-            "type": "club",
-            "short": "Vannes",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-09-10T04:18:00+02:00",
-          "end": "2026-09-10T06:59:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "409ea38c7a1a",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Angers / Rennes",
-          "subtitle": "Ligue 1 McDonald's - 3e  journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Angers SCO",
-            "type": "club",
-            "short": "Angers",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Rennais",
-            "type": "club",
-            "short": "Rennes",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-10T04:20:00+02:00",
-          "end": "2026-09-10T06:31:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "40b04bfee348",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "US Open. Quart de finale messieurs.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-09-10T04:30:00+02:00",
-          "end": "2026-09-10T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "58e6f8f61cad",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Ipswich Town / Liverpool",
-          "subtitle": "Premier League - 3e journée",
-          "description": "Coup d'envoi de la 3e journée de Premier League, avec le déplacement des Reds de Liverpool chez un promu, les Tractor Boys d'Ipswich Town, 2es de Championship la saison dernière. Après une première visite à Newcastle, puis la réception de Nottingham Forest, Cody Gakpo et les siens espèrent faire le plein de points en ce début de saison.",
-          "team1": {
-            "name": "Ipswich Town",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-09-10T04:41:00+02:00",
-          "end": "2026-09-10T06:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "be1be8536873",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Le Havre / Brest",
-          "subtitle": null,
-          "description": "1ère période du match de la Journée 3 du Championnat de France de Ligue 1 McDonald's 2026/27 opposant Havre AC et Stade Brestois 29",
-          "team1": {
-            "name": "Le Havre AC",
-            "type": "club",
-            "short": "Le Havre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Stade Brestois",
-            "type": "club",
-            "short": "Brest",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-09-10T05:00:00+02:00",
-          "end": "2026-09-10T06:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f76a21a9dc03",
-          "sport": "other",
-          "competition": null,
-          "title": "30 images/seconde",
-          "subtitle": null,
-          "description": "Des palmarès percutants réunissant les moments forts du monde du sport.",
-          "team1": {
-            "name": "30 images",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "seconde",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-09-10T05:30:00+02:00",
-          "end": "2026-09-10T06:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "55672019c1ae",
-          "sport": "other",
-          "competition": null,
-          "title": "Ipswich Town - Liverpool FC",
-          "subtitle": "Premier League - 3ème journée",
-          "description": null,
-          "team1": {
-            "name": "Premier League",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "3ème journée",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "BLUEZOOM.ch",
-            "name": "blue Zoom fr",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
-            "slug": "blue-zoom-fr",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:00:00+02:00",
-          "end": "2026-09-10T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "372949525ff3",
-          "sport": "football",
-          "competition": null,
-          "title": "Saint-Trond / La Louvière",
-          "subtitle": null,
-          "description": "LIVE: Standard de Liège - Royal Antwerp FC.",
-          "team1": {
-            "name": "Saint-Trond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "La Louvière",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:00:00+02:00",
-          "end": "2026-09-10T08:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1bc8458fad3e",
-          "sport": "football",
-          "competition": null,
-          "title": "Paris-SG / Monaco",
-          "subtitle": null,
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AS Monaco",
-            "type": "club",
-            "short": "Monaco",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:00:00+02:00",
-          "end": "2026-09-10T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bff519804aac",
-          "sport": "cyclisme",
-          "competition": "Tour d'Espagne",
-          "title": "Cyclisme : Tour d'Espagne",
-          "subtitle": "Tour d'Espagne. 17e étape . Dos Hermanas - Séville (185 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour d'Espagne. 17e étape . Dos Hermanas - Séville (185 km).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:00:00+02:00",
-          "end": "2026-09-10T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cdec26531d6d",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "Tennis",
-          "description": "Suivez les principaux matchs de ce prestigieux tournoi. Dernier Grand Chelem de l'année, l'US Open de tennis se déroule dans le parc municipal de Flushing Meadows-Corona Park à New York, au sein de l'USTA National Tennis Center. Se jouant sur une surface dure de type Decoturf, le jeu est particulièrement rapide et avantage plutôt les joueurs de type offensif comme les serveurs-volleyeurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:00:00+02:00",
-          "end": "2026-09-10T06:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e9d9e675dd44",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 17e étape",
-          "subtitle": "Dos Hermanas - Sevilla (189,2km)",
-          "description": "L'étape la plus plate de cette édition 2026 de la Vuelta. Une échappée dès le départ devrait marquer une journée pendant laquelle les équipes de sprinteurs ne devraient pas rencontrer trop de difficultés pour contrôler la course et garantir un sprint dans les rues de Séville.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:00:00+02:00",
-          "end": "2026-09-10T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2721bed1be7d",
-          "sport": "football",
-          "competition": "Championnat du Portugal",
-          "title": "Football : Championnat du Portugal | Sporting Club Portugal / Nacional Madeira",
-          "subtitle": null,
-          "description": "Retransmission d'un match du Championnat du Portugal de football. Fondée en 1934, il s'agit de la plus haute compétition de football du Portugal.",
-          "team1": {
-            "name": "Sporting CP",
-            "type": "club",
-            "short": "Sporting",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nacional Madeira",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:00:00+02:00",
-          "end": "2026-09-10T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f9e1ac2aa336",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Liverpool / Atlético Madrid",
-          "subtitle": "Ligue des champions - 1re journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
-          "team1": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:30:00+02:00",
-          "end": "2026-09-10T08:14:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8f9aeff1ead9",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Hoffenheim / Borussia Dortmund",
-          "subtitle": "Bundesliga - 2e journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Hoffenheim",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Borussia Dortmund",
-            "type": "club",
-            "short": "BVB",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:31:00+02:00",
-          "end": "2026-09-10T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c8f9840c94cf",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "Tennis",
-          "description": "Les huit premières têtes de série du tableau féminin seront-elles présentes en quart de finale ? A savoir Aryna Sabalenka, Elena Rybakina, Jessica Pegula, Coco Gauff, Iga Swiatek, Mirra Andreeva, Karolina Muchova et Linda Noskova ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T06:45:00+02:00",
-          "end": "2026-09-10T07:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "dff09aee2fca",
-          "sport": "other",
-          "competition": null,
-          "title": "Fais ton sport à la maison !",
-          "subtitle": "Du cardio-training comme à l'école !",
-          "description": "Dans cet épisode, Elsa et Teric vous proposent un programme \"cour de récréation\" avec des jeux ludiques et cardio. Sauts à la corde, marelle avec des squats, pas chassés : retour en enfance garanti avec nos coachs ! Sonia, notre diététicienne, nous partage ensuite ses conseils pour un apéro sain.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "MyZenTV.fr",
-            "name": "My Zen TV",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
-            "slug": "my-zen-tv",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:00:00+02:00",
-          "end": "2026-09-10T07:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b1b903169bdc",
-          "sport": "other",
-          "competition": null,
-          "title": "IQFOiL International Games - Cádiz",
-          "subtitle": null,
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:00:00+02:00",
-          "end": "2026-09-10T07:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d98b31244cb5",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "Tennis",
-          "description": "Les huit premières têtes de série du tableau masculin seront-elles présentes en quart de finale ? A savoir Carlos Alcaraz, Alexander Zverev, Félix Auger-Aliassime, Novak Djokovic, Ben Shelton, Daniil Medvedev, Alex de Minaur et Taylor Fritz ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:30:00+02:00",
-          "end": "2026-09-10T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bb708632c68b",
-          "sport": "voile",
-          "competition": "The Ocean Race",
-          "title": "Voile : The Ocean Race",
-          "subtitle": "The Ocean Race. Leg 4 Newport - HL.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:30:00+02:00",
-          "end": "2026-09-10T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a18b3a9df276",
-          "sport": "f1",
-          "competition": null,
-          "title": "Challenge Canada 2026",
-          "subtitle": "Grand Prix Trois-Rivières (Québec)",
-          "description": "Chaque voiture du Challenge Canada est monotype, offrant des courses où le talent des pilotes prime. Les véhicules sont préparés pour maximiser performance et sécurité tout en conservant l'égalité mécanique entre tous les compétiteurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:30:00+02:00",
-          "end": "2026-09-10T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "5bf506064785",
-          "sport": "other",
-          "competition": "Ligue des champions",
-          "title": "Paris-SG / Slovan Bratislava",
-          "subtitle": "Ligue des champions - 1re journée",
-          "description": null,
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Slovan Bratislava",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "EvenementsSports4KUHD.fr",
-            "name": "Evenements Sports 4K UHD",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
-            "slug": "evenements-sports-4k-uhd",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:51:00+02:00",
-          "end": "2026-09-10T09:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7ba7fa1ad3da",
-          "sport": "football",
-          "competition": "Ligue des champions",
-          "title": "Paris-SG / Slovan Bratislava",
-          "subtitle": "Ligue des champions - 1re journée",
-          "description": "Pour le PSG, double champion d'Europe en titre, cette première affiche à domicile contre les Slovaques de Bratislava apparaît comme la plus abordable de son calendrier européen.",
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Slovan Bratislava",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:53:00+02:00",
-          "end": "2026-09-10T09:37:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "09be33b828cd",
-          "sport": "football",
-          "competition": null,
-          "title": "Napoli - Arsenal",
-          "subtitle": null,
-          "description": "Premier match du League Phase de l'UEFA Champions League : Napoli - Arsenal.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-09-10T07:55:00+02:00",
-          "end": "2026-09-10T09:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ec16825f9603",
-          "sport": "football",
-          "competition": null,
-          "title": "Athletic Club / Atlético de Madrid",
-          "subtitle": null,
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Athletic Club",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:00:00+02:00",
-          "end": "2026-09-10T10:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "92ec13c007aa",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": "Coupe du monde de sprint. Sprint 1 World Cup Szeged.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:00:00+02:00",
-          "end": "2026-09-10T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "699ae2cb1355",
-          "sport": "football",
-          "competition": "Süper Lig",
-          "title": "Football : Süper Lig | Basaksehir / Galatasaray",
-          "subtitle": null,
-          "description": "Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig.",
-          "team1": {
-            "name": "Basaksehir",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Galatasaray",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:00:00+02:00",
-          "end": "2026-09-10T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b69696f1a57e",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Marseille / Le Havre",
-          "subtitle": "Arkema Première Ligue - 1re jour...",
-          "description": "Toutes deux sauvées de justesse la saison dernière, les équipes de Marseille et du Havre entament une nouvelle saison d'Arkema Première Ligue en se rencontrant, dès la première journée, au stade Francis-Turcan de Martigues. Nicolas Chabot est le nouvel entraîneur de l'OM. Il succède à ce poste à Corinne Diacre.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Le Havre AC",
-            "type": "club",
-            "short": "Le Havre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:01:00+02:00",
-          "end": "2026-09-10T09:42:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "51f8682d54f1",
-          "sport": "f1",
-          "competition": null,
-          "title": "Auto-Ikonen - S01E25",
-          "subtitle": "Circuit de Formule 1 des années 50 de Cadours Laréole",
-          "description": "Dans cet épisode découvrez la rétrospective annuelle de l'ancien circuit de Formule 1 des années 50 de Cadours Laréole et les plus beaux véhicules de l'édition 2023, présentés par Angélique Rayssigier, Tanguy Lauzin et Freddy Prieto.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "AutoPlusTV.fr",
-            "name": "Auto Plus TV",
-            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
-            "slug": "auto-plus-tv",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:07:00+02:00",
-          "end": "2026-09-10T08:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "a703930fdd7d",
           "sport": "football",
           "competition": null,
@@ -1851,31 +635,7 @@
           },
           "start": "2026-09-10T08:20:00+02:00",
           "end": "2026-09-10T10:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "be10139bd4ab",
-          "sport": "tennis",
-          "competition": "US Open",
-          "title": "Tennis : US Open",
-          "subtitle": "US Open. Quart de finale dames.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:30:00+02:00",
-          "end": "2026-09-10T10:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1899,55 +659,7 @@
           },
           "start": "2026-09-10T08:30:00+02:00",
           "end": "2026-09-10T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9d455a553b0a",
-          "sport": "other",
-          "competition": "Coupe du monde de sprint",
-          "title": "Canoë-kayak : Coupe du monde de sprint",
-          "subtitle": "Coupe du monde de sprint. Sprint 2 World Cup Barnaul.",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:30:00+02:00",
-          "end": "2026-09-10T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9cfad205242d",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S01E51",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-09-10T08:30:00+02:00",
-          "end": "2026-09-10T08:56:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1985,69 +697,7 @@
           },
           "start": "2026-09-10T09:10:00+02:00",
           "end": "2026-09-10T10:56:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "28be3d33e3fc",
-          "sport": "other",
-          "competition": null,
-          "title": "Arnaud de Rosnay, au-delà du défi",
-          "subtitle": null,
-          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Trek.fr",
-            "name": "TREK",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
-            "slug": "trek",
-            "is_free": false
-          },
-          "start": "2026-09-10T09:12:00+02:00",
-          "end": "2026-09-10T10:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "421986120f39",
-          "sport": "other",
-          "competition": "Mag. Sport",
-          "title": "Rebond / Afrobasket",
-          "subtitle": "Mag. Sport",
-          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
-          "team1": {
-            "name": "Rebond",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Afrobasket",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Africable.af",
-            "name": "Africâble",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
-            "slug": "afric-ble",
-            "is_free": false
-          },
-          "start": "2026-09-10T09:30:00+02:00",
-          "end": "2026-09-10T10:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2071,7 +721,7 @@
           },
           "start": "2026-09-10T09:42:00+02:00",
           "end": "2026-09-10T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2109,31 +759,7 @@
           },
           "start": "2026-09-10T09:45:00+02:00",
           "end": "2026-09-10T11:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "813aaf8c082e",
-          "sport": "other",
-          "competition": null,
-          "title": "Phil tout-terrain",
-          "subtitle": "Découvertes inattendues à Parent",
-          "description": "Philippe est accueilli à la Pourvoirie Fer à Cheval à Parent dans les Hautes-Laurentides; on le guide à une heure de quad jusqu'à une ancienne base militaire érigée pendant la guerre froide dont les vestiges sont encore bien visibles.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Evasion.ca",
-            "name": "Evasion",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s21545_h15_ab.png",
-            "slug": "evasion",
-            "is_free": false
-          },
-          "start": "2026-09-10T10:00:00+02:00",
-          "end": "2026-09-10T10:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2171,7 +797,7 @@
           },
           "start": "2026-09-10T10:00:00+02:00",
           "end": "2026-09-10T11:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2195,7 +821,7 @@
           },
           "start": "2026-09-10T10:00:00+02:00",
           "end": "2026-09-10T15:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2233,7 +859,7 @@
           },
           "start": "2026-09-10T10:00:00+02:00",
           "end": "2026-09-10T12:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2257,7 +883,7 @@
           },
           "start": "2026-09-10T10:00:00+02:00",
           "end": "2026-09-10T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2295,7 +921,7 @@
           },
           "start": "2026-09-10T10:10:00+02:00",
           "end": "2026-09-10T12:25:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2333,7 +959,7 @@
           },
           "start": "2026-09-10T10:25:00+02:00",
           "end": "2026-09-10T12:09:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2371,7 +997,7 @@
           },
           "start": "2026-09-10T10:26:00+02:00",
           "end": "2026-09-10T12:10:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2395,7 +1021,7 @@
           },
           "start": "2026-09-10T10:30:00+02:00",
           "end": "2026-09-10T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2419,7 +1045,7 @@
           },
           "start": "2026-09-10T10:30:00+02:00",
           "end": "2026-09-10T11:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2457,7 +1083,7 @@
           },
           "start": "2026-09-10T10:30:00+02:00",
           "end": "2026-09-10T14:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6920,6 +5546,54 @@
           "result": null
         },
         {
+          "id": "238e62a394bf",
+          "sport": "tennis",
+          "competition": "Internationaux des États-Unis 2026",
+          "title": "Tennis: Internationaux des États-Unis 2026",
+          "subtitle": "Quarts de finale, hommes",
+          "description": "En provenance de USTA Billie Jean King National Tennis Center &#150; Flushing, NY, USA En provenance du USTA Billie Jean King National Tennis Center, à Flushing, dans l'État de New York. <p>(EN DIRECT)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-09-10T01:30:00+02:00",
+          "end": "2026-09-10T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fb7c8621f8f8",
+          "sport": "football",
+          "competition": null,
+          "title": "Football NFL",
+          "subtitle": "Patriots de la Nouvelle-Angleterre c. Seahawks de Seattle",
+          "description": "En provenance de Lumen Field &#150; Seattle, Washington, USA En provenance du Lumen Field, à Seattle, dans l'État de Washington. <p>(EN DIRECT)",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS2.ca",
+            "name": "RDS2",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s73271_h6_aa.png",
+            "slug": "rds2",
+            "is_free": false
+          },
+          "start": "2026-09-10T01:30:00+02:00",
+          "end": "2026-09-10T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "d078c6fd03c8",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -7134,6 +5808,44 @@
           "result": null
         },
         {
+          "id": "50d8d3cb0dec",
+          "sport": "mma",
+          "competition": "UFC",
+          "title": "MMA : UFC | Dan Hooker / Salahdine Parnasse",
+          "subtitle": null,
+          "description": "Star du MMA français, Salahdine Parnasse est la tête d'affiche de l'UFC Paris pour son premier combat dans la ligue américaine, à l'Accor Arena. Le combattant de 28 ans a les honneurs du main event face au Néo-zélandais Dan Hooker, battu par Benoît Saint Denis en début d'année.",
+          "team1": {
+            "name": "Dan Hooker",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Salahdine Parnasse",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-09-10T02:30:00+02:00",
+          "end": "2026-09-10T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "7499ce2f40f4",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -7279,6 +5991,1294 @@
           },
           "start": "2026-09-10T02:55:00+02:00",
           "end": "2026-09-10T04:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ff9916c1b014",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "Tennis",
+          "description": "Suivez les principaux matchs de ce prestigieux tournoi. Dernier Grand Chelem de l'année, l'US Open de tennis se déroule dans le parc municipal de Flushing Meadows-Corona Park à New York, au sein de l'USTA National Tennis Center. Se jouant sur une surface dure de type Decoturf, le jeu est particulièrement rapide et avantage plutôt les joueurs de type offensif comme les serveurs-volleyeurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36027.fr",
+            "name": "EUROSPORT 360 27",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1123/canal-ouah/CHN43FB/CHN43FB_1123_20240716-uSCT?=.png",
+            "slug": "eurosport-360-27",
+            "is_free": false
+          },
+          "start": "2026-09-10T03:00:00+02:00",
+          "end": "2026-09-10T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "21f931123590",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Football : Bundesliga | Stuttgart / Cologne",
+          "subtitle": null,
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne.",
+          "team1": {
+            "name": "Stuttgart",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cologne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T03:00:00+02:00",
+          "end": "2026-09-10T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cd71135523fe",
+          "sport": "football",
+          "competition": null,
+          "title": "Liverpool - Atletico Madrid",
+          "subtitle": "Ligue des champions",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RSI2.ch",
+            "name": "RSI 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/80452698?=.png",
+            "slug": "rsi-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T03:15:00+02:00",
+          "end": "2026-09-10T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6ce0c60f0626",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Liverpool / Atlético Madrid",
+          "subtitle": "Ligue des champions - 1re journée",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T03:30:00+02:00",
+          "end": "2026-09-10T05:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fb5899ca2d98",
+          "sport": "football",
+          "competition": null,
+          "title": "Malines / Westerlo",
+          "subtitle": null,
+          "description": "KV Mechelen - KVC Westerlo.",
+          "team1": {
+            "name": "Malines",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Westerlo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-09-10T03:45:00+02:00",
+          "end": "2026-09-10T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9b84280f1a1d",
+          "sport": "other",
+          "competition": null,
+          "title": "Abyss, les plongeurs de l'impossible",
+          "subtitle": "En mer de Cortez (Basse-Californie)",
+          "description": "Sur la mer de Cortez, les plus grands champions d'apnée se rassemblent pour participer au Big Blue, une compétition où le physique et le mental sont mis à rude épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-09-10T03:55:00+02:00",
+          "end": "2026-09-10T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "42f92825804f",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 17e étape",
+          "subtitle": "Dos Hermanas - Sevilla (189,2km)",
+          "description": "L'étape la plus plate de cette édition 2026 de la Vuelta. Une échappée dès le départ devrait marquer une journée pendant laquelle les équipes de sprinteurs ne devraient pas rencontrer trop de difficultés pour contrôler la course et garantir un sprint dans les rues de Séville.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T04:00:00+02:00",
+          "end": "2026-09-10T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a51b8ccdaa3e",
+          "sport": "rugby",
+          "competition": "Top 14",
+          "title": "Castres / Vannes",
+          "subtitle": "Top 14 - 1re journée",
+          "description": "Retransmission d'un match du Top 14, championnat de France de rugby qui, chaque journée, voit s'affronter quatorze clubs professionnels.",
+          "team1": {
+            "name": "Castres Olympique",
+            "type": "club",
+            "short": "Castres",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/rugby/500/2568.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Vannes",
+            "type": "club",
+            "short": "Vannes",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-09-10T04:18:00+02:00",
+          "end": "2026-09-10T06:59:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "409ea38c7a1a",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Angers / Rennes",
+          "subtitle": "Ligue 1 McDonald's - 3e  journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Angers SCO",
+            "type": "club",
+            "short": "Angers",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/158.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Rennais",
+            "type": "club",
+            "short": "Rennes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-10T04:20:00+02:00",
+          "end": "2026-09-10T06:31:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "40b04bfee348",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "US Open. Quart de finale messieurs.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-09-10T04:30:00+02:00",
+          "end": "2026-09-10T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "58e6f8f61cad",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Ipswich Town / Liverpool",
+          "subtitle": "Premier League - 3e journée",
+          "description": "Coup d'envoi de la 3e journée de Premier League, avec le déplacement des Reds de Liverpool chez un promu, les Tractor Boys d'Ipswich Town, 2es de Championship la saison dernière. Après une première visite à Newcastle, puis la réception de Nottingham Forest, Cody Gakpo et les siens espèrent faire le plein de points en ce début de saison.",
+          "team1": {
+            "name": "Ipswich Town",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-09-10T04:41:00+02:00",
+          "end": "2026-09-10T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "be1be8536873",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Le Havre / Brest",
+          "subtitle": null,
+          "description": "1ère période du match de la Journée 3 du Championnat de France de Ligue 1 McDonald's 2026/27 opposant Havre AC et Stade Brestois 29",
+          "team1": {
+            "name": "Le Havre AC",
+            "type": "club",
+            "short": "Le Havre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/161.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-09-10T05:00:00+02:00",
+          "end": "2026-09-10T06:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f76a21a9dc03",
+          "sport": "other",
+          "competition": null,
+          "title": "30 images/seconde",
+          "subtitle": null,
+          "description": "Des palmarès percutants réunissant les moments forts du monde du sport.",
+          "team1": {
+            "name": "30 images",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "seconde",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-09-10T05:30:00+02:00",
+          "end": "2026-09-10T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "55672019c1ae",
+          "sport": "other",
+          "competition": null,
+          "title": "Ipswich Town - Liverpool FC",
+          "subtitle": "Premier League - 3ème journée",
+          "description": null,
+          "team1": {
+            "name": "Premier League",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "3ème journée",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "BLUEZOOM.ch",
+            "name": "blue Zoom fr",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/893/canal-ouah/CHN43FB/bluezoomfb?=.png",
+            "slug": "blue-zoom-fr",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:00:00+02:00",
+          "end": "2026-09-10T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "372949525ff3",
+          "sport": "football",
+          "competition": null,
+          "title": "Saint-Trond / La Louvière",
+          "subtitle": null,
+          "description": "LIVE: Standard de Liège - Royal Antwerp FC.",
+          "team1": {
+            "name": "Saint-Trond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "La Louvière",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:00:00+02:00",
+          "end": "2026-09-10T08:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1bc8458fad3e",
+          "sport": "football",
+          "competition": null,
+          "title": "Paris-SG / Monaco",
+          "subtitle": null,
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AS Monaco",
+            "type": "club",
+            "short": "Monaco",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:00:00+02:00",
+          "end": "2026-09-10T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bff519804aac",
+          "sport": "cyclisme",
+          "competition": "Tour d'Espagne",
+          "title": "Cyclisme : Tour d'Espagne",
+          "subtitle": "Tour d'Espagne. 17e étape . Dos Hermanas - Séville (185 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour d'Espagne. 17e étape . Dos Hermanas - Séville (185 km).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:00:00+02:00",
+          "end": "2026-09-10T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cdec26531d6d",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "Tennis",
+          "description": "Suivez les principaux matchs de ce prestigieux tournoi. Dernier Grand Chelem de l'année, l'US Open de tennis se déroule dans le parc municipal de Flushing Meadows-Corona Park à New York, au sein de l'USTA National Tennis Center. Se jouant sur une surface dure de type Decoturf, le jeu est particulièrement rapide et avantage plutôt les joueurs de type offensif comme les serveurs-volleyeurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:00:00+02:00",
+          "end": "2026-09-10T06:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e9d9e675dd44",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 17e étape",
+          "subtitle": "Dos Hermanas - Sevilla (189,2km)",
+          "description": "L'étape la plus plate de cette édition 2026 de la Vuelta. Une échappée dès le départ devrait marquer une journée pendant laquelle les équipes de sprinteurs ne devraient pas rencontrer trop de difficultés pour contrôler la course et garantir un sprint dans les rues de Séville.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:00:00+02:00",
+          "end": "2026-09-10T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2721bed1be7d",
+          "sport": "football",
+          "competition": "Championnat du Portugal",
+          "title": "Football : Championnat du Portugal | Sporting Club Portugal / Nacional Madeira",
+          "subtitle": null,
+          "description": "Retransmission d'un match du Championnat du Portugal de football. Fondée en 1934, il s'agit de la plus haute compétition de football du Portugal.",
+          "team1": {
+            "name": "Sporting CP",
+            "type": "club",
+            "short": "Sporting",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nacional Madeira",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:00:00+02:00",
+          "end": "2026-09-10T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f9e1ac2aa336",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Liverpool / Atlético Madrid",
+          "subtitle": "Ligue des champions - 1re journée",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Ligue des Champions, compétition européenne de football organisée par l'UEFA. C'est la compétition de clubs la plus célèbre dans le monde, fondée en 1955. Désormais ce sont 36 équipes, réparties dans une poule unique, qui se battent pour devenir la meilleure équipe en Europe. Le vainqueur est directement qualifié pour l'édition suivante. Il participe également à la Supercoupe de l'UEFA.",
+          "team1": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:30:00+02:00",
+          "end": "2026-09-10T08:14:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8f9aeff1ead9",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Hoffenheim / Borussia Dortmund",
+          "subtitle": "Bundesliga - 2e journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "Hoffenheim",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Borussia Dortmund",
+            "type": "club",
+            "short": "BVB",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:31:00+02:00",
+          "end": "2026-09-10T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c8f9840c94cf",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "Tennis",
+          "description": "Les huit premières têtes de série du tableau féminin seront-elles présentes en quart de finale ? A savoir Aryna Sabalenka, Elena Rybakina, Jessica Pegula, Coco Gauff, Iga Swiatek, Mirra Andreeva, Karolina Muchova et Linda Noskova ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T06:45:00+02:00",
+          "end": "2026-09-10T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "dff09aee2fca",
+          "sport": "other",
+          "competition": null,
+          "title": "Fais ton sport à la maison !",
+          "subtitle": "Du cardio-training comme à l'école !",
+          "description": "Dans cet épisode, Elsa et Teric vous proposent un programme \"cour de récréation\" avec des jeux ludiques et cardio. Sauts à la corde, marelle avec des squats, pas chassés : retour en enfance garanti avec nos coachs ! Sonia, notre diététicienne, nous partage ensuite ses conseils pour un apéro sain.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "MyZenTV.fr",
+            "name": "My Zen TV",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~ec3f9d3c15d50776.png/480x480/quality/100/myzen-tv.png",
+            "slug": "my-zen-tv",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:00:00+02:00",
+          "end": "2026-09-10T07:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b1b903169bdc",
+          "sport": "other",
+          "competition": null,
+          "title": "IQFOiL International Games - Cádiz",
+          "subtitle": null,
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:00:00+02:00",
+          "end": "2026-09-10T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d98b31244cb5",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "Tennis",
+          "description": "Les huit premières têtes de série du tableau masculin seront-elles présentes en quart de finale ? A savoir Carlos Alcaraz, Alexander Zverev, Félix Auger-Aliassime, Novak Djokovic, Ben Shelton, Daniil Medvedev, Alex de Minaur et Taylor Fritz ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:30:00+02:00",
+          "end": "2026-09-10T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bb708632c68b",
+          "sport": "voile",
+          "competition": "The Ocean Race",
+          "title": "Voile : The Ocean Race",
+          "subtitle": "The Ocean Race. Leg 4 Newport - HL.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:30:00+02:00",
+          "end": "2026-09-10T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a18b3a9df276",
+          "sport": "f1",
+          "competition": null,
+          "title": "Challenge Canada 2026",
+          "subtitle": "Grand Prix Trois-Rivières (Québec)",
+          "description": "Chaque voiture du Challenge Canada est monotype, offrant des courses où le talent des pilotes prime. Les véhicules sont préparés pour maximiser performance et sécurité tout en conservant l'égalité mécanique entre tous les compétiteurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:30:00+02:00",
+          "end": "2026-09-10T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "5bf506064785",
+          "sport": "other",
+          "competition": "Ligue des champions",
+          "title": "Paris-SG / Slovan Bratislava",
+          "subtitle": "Ligue des champions - 1re journée",
+          "description": null,
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Slovan Bratislava",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "EvenementsSports4KUHD.fr",
+            "name": "Evenements Sports 4K UHD",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/74042707?=.png",
+            "slug": "evenements-sports-4k-uhd",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:51:00+02:00",
+          "end": "2026-09-10T09:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "7ba7fa1ad3da",
+          "sport": "football",
+          "competition": "Ligue des champions",
+          "title": "Paris-SG / Slovan Bratislava",
+          "subtitle": "Ligue des champions - 1re journée",
+          "description": "Pour le PSG, double champion d'Europe en titre, cette première affiche à domicile contre les Slovaques de Bratislava apparaît comme la plus abordable de son calendrier européen.",
+          "team1": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Slovan Bratislava",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:53:00+02:00",
+          "end": "2026-09-10T09:37:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "09be33b828cd",
+          "sport": "football",
+          "competition": null,
+          "title": "Napoli - Arsenal",
+          "subtitle": null,
+          "description": "Premier match du League Phase de l'UEFA Champions League : Napoli - Arsenal.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-09-10T07:55:00+02:00",
+          "end": "2026-09-10T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ec16825f9603",
+          "sport": "football",
+          "competition": null,
+          "title": "Athletic Club / Atlético de Madrid",
+          "subtitle": null,
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Athletic Club",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:00:00+02:00",
+          "end": "2026-09-10T10:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "92ec13c007aa",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": "Coupe du monde de sprint. Sprint 1 World Cup Szeged.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:00:00+02:00",
+          "end": "2026-09-10T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "699ae2cb1355",
+          "sport": "football",
+          "competition": "Süper Lig",
+          "title": "Football : Süper Lig | Basaksehir / Galatasaray",
+          "subtitle": null,
+          "description": "Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig.",
+          "team1": {
+            "name": "Basaksehir",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Galatasaray",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:00:00+02:00",
+          "end": "2026-09-10T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b69696f1a57e",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Marseille / Le Havre",
+          "subtitle": "Arkema Première Ligue - 1re jour...",
+          "description": "Toutes deux sauvées de justesse la saison dernière, les équipes de Marseille et du Havre entament une nouvelle saison d'Arkema Première Ligue en se rencontrant, dès la première journée, au stade Francis-Turcan de Martigues. Nicolas Chabot est le nouvel entraîneur de l'OM. Il succède à ce poste à Corinne Diacre.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Le Havre AC",
+            "type": "club",
+            "short": "Le Havre",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:01:00+02:00",
+          "end": "2026-09-10T09:42:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "51f8682d54f1",
+          "sport": "f1",
+          "competition": null,
+          "title": "Auto-Ikonen - S01E25",
+          "subtitle": "Circuit de Formule 1 des années 50 de Cadours Laréole",
+          "description": "Dans cet épisode découvrez la rétrospective annuelle de l'ancien circuit de Formule 1 des années 50 de Cadours Laréole et les plus beaux véhicules de l'édition 2023, présentés par Angélique Rayssigier, Tanguy Lauzin et Freddy Prieto.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "AutoPlusTV.fr",
+            "name": "Auto Plus TV",
+            "icon_url": "https://freebox.cdn.scw.iliad.fr/large_AUTOPLUS_61b02519b4.png",
+            "slug": "auto-plus-tv",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:07:00+02:00",
+          "end": "2026-09-10T08:33:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "be10139bd4ab",
+          "sport": "tennis",
+          "competition": "US Open",
+          "title": "Tennis : US Open",
+          "subtitle": "US Open. Quart de finale dames.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:30:00+02:00",
+          "end": "2026-09-10T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9d455a553b0a",
+          "sport": "other",
+          "competition": "Coupe du monde de sprint",
+          "title": "Canoë-kayak : Coupe du monde de sprint",
+          "subtitle": "Coupe du monde de sprint. Sprint 2 World Cup Barnaul.",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:30:00+02:00",
+          "end": "2026-09-10T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9cfad205242d",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S01E51",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-09-10T08:30:00+02:00",
+          "end": "2026-09-10T08:56:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "28be3d33e3fc",
+          "sport": "other",
+          "competition": null,
+          "title": "Arnaud de Rosnay, au-delà du défi",
+          "subtitle": null,
+          "description": "Retour sur le parcours exceptionnel d'Arnaud de Rosnay, disparu en mer de Chine en 1984, alors qu'il tentait de traverser le détroit de Formose en planche à voile.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Trek.fr",
+            "name": "TREK",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~12312ff19aafd42a.png/480x480/quality/100/trek.png",
+            "slug": "trek",
+            "is_free": false
+          },
+          "start": "2026-09-10T09:12:00+02:00",
+          "end": "2026-09-10T10:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "421986120f39",
+          "sport": "other",
+          "competition": "Mag. Sport",
+          "title": "Rebond / Afrobasket",
+          "subtitle": "Mag. Sport",
+          "description": "Rebond, c'est le magazine du Basket africain et mondial. Rebond c'est une série de reportages, de chroniques, de portraits, etc. Rebond, c'est aussi le coté people de la Balle au panier. Le menu se déroule en présence d'un invité qui sera sur le plateau tout le long de l'émission.",
+          "team1": {
+            "name": "Rebond",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Afrobasket",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Africable.af",
+            "name": "Africâble",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180166/canal-ouah/CHN43FB/AFRICABLE_myCANAL_640x480?=.png",
+            "slug": "afric-ble",
+            "is_free": false
+          },
+          "start": "2026-09-10T09:30:00+02:00",
+          "end": "2026-09-10T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "813aaf8c082e",
+          "sport": "other",
+          "competition": null,
+          "title": "Phil tout-terrain",
+          "subtitle": "Découvertes inattendues à Parent",
+          "description": "Philippe est accueilli à la Pourvoirie Fer à Cheval à Parent dans les Hautes-Laurentides; on le guide à une heure de quad jusqu'à une ancienne base militaire érigée pendant la guerre froide dont les vestiges sont encore bien visibles.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Evasion.ca",
+            "name": "Evasion",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s21545_h15_ab.png",
+            "slug": "evasion",
+            "is_free": false
+          },
+          "start": "2026-09-10T10:00:00+02:00",
+          "end": "2026-09-10T10:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
