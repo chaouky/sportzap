@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-14T03:09:54.450491+00:00",
+    "generated_at": "2026-09-14T09:31:12.615338+00:00",
     "total_events": 1386,
     "total_days": 7,
     "sports": [
@@ -23,43 +23,8 @@
     ],
     "channels": [
       {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
-      },
-      {
-        "slug": "elevenprol1",
-        "name": "ElevenProL1",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "olplay",
-        "name": "OLPLAY",
-        "is_free": false
-      },
-      {
-        "slug": "infosportplus",
-        "name": "InfosportPlus",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "tv-lux",
-        "name": "TV Lux",
+        "slug": "canal-plus-sport-3",
+        "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
@@ -68,33 +33,43 @@
         "is_free": false
       },
       {
-        "slug": "elevensports2fr",
-        "name": "ElevenSports2FR",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport",
+        "is_free": false
+      },
+      {
+        "slug": "elevenprol1",
+        "name": "ElevenProL1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-5",
+        "name": "CANAL+ SPORT 5",
+        "is_free": false
+      },
+      {
+        "slug": "olplay",
+        "name": "OLPLAY",
+        "is_free": false
+      },
+      {
+        "slug": "tv-lux",
+        "name": "TV Lux",
         "is_free": false
       },
       {
         "slug": "eurosport-2",
         "name": "Eurosport 2",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-3",
-        "name": "Canal+ Sport 3",
-        "is_free": false
-      },
-      {
-        "slug": "rds",
-        "name": "RDS",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-2",
-        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -108,23 +83,8 @@
         "is_free": false
       },
       {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "bein-3",
-        "name": "beIN SPORTS 3",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-5",
-        "name": "CANAL+ SPORT 5",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -138,8 +98,23 @@
         "is_free": false
       },
       {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "elevensports2fr",
+        "name": "ElevenSports2FR",
+        "is_free": false
+      },
+      {
         "slug": "rmc-sport-1",
         "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-sport-2",
+        "name": "Canal+ Sport 2",
         "is_free": false
       },
       {
@@ -153,8 +128,18 @@
         "is_free": false
       },
       {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
+      },
+      {
         "slug": "tv5-monde-pacifique",
         "name": "TV5 Monde Pacifique",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -193,6 +178,11 @@
         "is_free": false
       },
       {
+        "slug": "bein-3",
+        "name": "beIN SPORTS 3",
+        "is_free": false
+      },
+      {
         "slug": "tfo",
         "name": "TFO",
         "is_free": false
@@ -213,6 +203,11 @@
         "is_free": false
       },
       {
+        "slug": "infosportplus",
+        "name": "InfosportPlus",
+        "is_free": false
+      },
+      {
         "slug": "rds-info",
         "name": "RDS Info",
         "is_free": false
@@ -220,6 +215,11 @@
       {
         "slug": "cheval-tv",
         "name": "Cheval TV",
+        "is_free": false
+      },
+      {
+        "slug": "rds",
+        "name": "RDS",
         "is_free": false
       },
       {
@@ -545,1440 +545,6 @@
       "event_count": 207,
       "events": [
         {
-          "id": "dd2f2a981961",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Le Mans / Lens",
-          "subtitle": "Ligue 1 McDonald's - 4e  journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
-          "team1": {
-            "name": "Le Mans",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "RC Lens",
-            "type": "club",
-            "short": "Lens",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-14T01:41:00+02:00",
-          "end": "2026-09-14T06:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "7e6e1831348f",
-          "sport": "motogp",
-          "competition": "Coupe de France U18",
-          "title": "Motoball : Coupe de France U18",
-          "subtitle": null,
-          "description": "Neuville voit double ! Déjà représentés dans la finale senior, les poitevins peuvent rêver d'un doublé en une journée avec les juniors qui seront opposés aux Poitevins de Vojeancourt !",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T03:15:00+02:00",
-          "end": "2026-09-14T05:45:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8b3b0fdcf4b2",
-          "sport": "football",
-          "competition": null,
-          "title": "Zulte Waregem / Sporting de Charleroi",
-          "subtitle": null,
-          "description": "LIVE: SV Zulte Waregem - Sporting Charleroi.",
-          "team1": {
-            "name": "Zulte Waregem",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Sporting CP",
-            "type": "club",
-            "short": "Sporting",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-09-14T03:45:00+02:00",
-          "end": "2026-09-14T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "07df53f9ed1e",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 20e étape",
-          "subtitle": "La Calahorra - Collado del Algua...",
-          "description": "Dernière grande étape de montagne. Très dure, avec plus de 5000 mètres de dénivelé cumulé. La double ascension de Hazallanas (1re catégorie), avec le Purche (1480 m, 1re catégorie) entre les deux, mettra à rude épreuve les jambes des cyclistes qui devront affronter l'ascension finale vers le Collado del Alguacil (1880 m) sur 8,3 kilomètres à 9,8 %.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-09-14T04:00:00+02:00",
-          "end": "2026-09-14T05:30:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4bcebba917fc",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Paris FC / Lyon",
-          "subtitle": null,
-          "description": "Revivez la rencontre entre le Paris FC et l'OL lors de la 4ème journée de Ligue 1 McDonald's 2026/2027.",
-          "team1": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "OLTV.fr",
-            "name": "OLPLAY",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
-            "slug": "olplay",
-            "is_free": false
-          },
-          "start": "2026-09-14T04:00:00+02:00",
-          "end": "2026-09-14T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2fa862bd52a5",
-          "sport": "other",
-          "competition": null,
-          "title": "Club Week-end",
-          "subtitle": "Emission du 14 sept. 2026",
-          "description": "Frédéric Brindelle revient sur toute l'actualité sportive du week-end pendant trente minutes à travers les images des faits les plus marquants.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "InfosportPlus.fr",
-            "name": "InfosportPlus",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~fa910210e6776e9a.png/480x480/quality/100/infosport.png",
-            "slug": "infosportplus",
-            "is_free": false
-          },
-          "start": "2026-09-14T05:00:00+02:00",
-          "end": "2026-09-14T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1d15bc0fc603",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Marseille / Paris-SG",
-          "subtitle": null,
-          "description": "Le fameux classico entre l'OM et le PSG clôture cette 5e journée de Ligue 1. Les Parisiens, leaders invaincus au classement, se déplacent au Vélodrome pour y affronter des Marseillais moribonds, seulement 7es.",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-09-14T05:00:00+02:00",
-          "end": "2026-09-14T07:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a5219520d8a1",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-09-14T05:00:00+02:00",
-          "end": "2026-09-14T05:52:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "14550b48d244",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 21e étape",
-          "subtitle": "Carrefour Granada - Granada (99,...",
-          "description": "Grenade accueille l'étape finale de La Vuelta 2026, dont le principal attrait sera la montée vers l'Alhambra sur un circuit à travers les rues de la cité nasride. Le monument de Grenade couronnera le vainqueur final de la course lors d'une étape où le gagnant devrait être un cycliste explosif. Qui succèdera au palmarès de la Vuelta au Danois Jonas Vingegaard ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-09-14T05:30:00+02:00",
-          "end": "2026-09-14T06:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cc1f84610121",
-          "sport": "other",
-          "competition": null,
-          "title": "Moteurs",
-          "subtitle": "Rallye Terre de Lozère - Etape 5",
-          "description": "Résumé de la 5ème étape du championnat de France FFSA 2026 de Rallye Terre en Lozère.",
-          "team1": {
-            "name": "Rallye Terre de Lozère",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Etape 5",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T05:45:00+02:00",
-          "end": "2026-09-14T06:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3db39fb73af7",
-          "sport": "football",
-          "competition": null,
-          "title": "La Louvière / Courtrai",
-          "subtitle": null,
-          "description": "RAAL La Louvière - KV Kortrijk.",
-          "team1": {
-            "name": "La Louvière",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Courtrai",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:00:00+02:00",
-          "end": "2026-09-14T08:15:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "de65fa515250",
-          "sport": "football",
-          "competition": null,
-          "title": "Sassuolo / Juventus Turin",
-          "subtitle": null,
-          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
-          "team1": {
-            "name": "Sassuolo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Juventus FC",
-            "type": "club",
-            "short": "Juventus",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:00:00+02:00",
-          "end": "2026-09-14T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fca4ebb291ff",
-          "sport": "football",
-          "competition": null,
-          "title": "Levante / FC Barcelone",
-          "subtitle": null,
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Levante",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports2FR.be",
-            "name": "ElevenSports2FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
-            "slug": "elevensports2fr",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:00:00+02:00",
-          "end": "2026-09-14T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8959416a3bf2",
-          "sport": "football",
-          "competition": "Ligue 1 Ivoirienne",
-          "title": "Football : Ligue 1 Ivoirienne",
-          "subtitle": "Football",
-          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:30:00+02:00",
-          "end": "2026-09-14T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b6f2b388f299",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 5e manche vitesse.",
-          "description": "Coupe du monde. 5e manche vitesse. Finale dames et messieurs. A Guiyang (Chine).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:30:00+02:00",
-          "end": "2026-09-14T07:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "6876c5570222",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 20e étape",
-          "subtitle": "La Calahorra - Collado del Algua...",
-          "description": "Dernière grande étape de montagne. Très dure, avec plus de 5000 mètres de dénivelé cumulé. La double ascension de Hazallanas (1re catégorie), avec le Purche (1480 m, 1re catégorie) entre les deux, mettra à rude épreuve les jambes des cyclistes qui devront affronter l'ascension finale vers le Collado del Alguacil (1880 m) sur 8,3 kilomètres à 9,8 %.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:30:00+02:00",
-          "end": "2026-09-14T07:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "be08e3352e0d",
-          "sport": "football",
-          "competition": "National 2",
-          "title": "Football : National 2 | US Feur / OL",
-          "subtitle": null,
-          "description": "Vivez la rencontre entre l'US Feur et l'OL lors de la 2ème journée de National 2 2026/2027.",
-          "team1": {
-            "name": "US Feur",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "OLTV.fr",
-            "name": "OLPLAY",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
-            "slug": "olplay",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:30:00+02:00",
-          "end": "2026-09-14T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "80b91457c010",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Tottenham / Everton",
-          "subtitle": "Premier League - 4e journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
-          "team1": {
-            "name": "Tottenham Hotspur",
-            "type": "club",
-            "short": "Tottenham",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Everton",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-09-14T06:32:00+02:00",
-          "end": "2026-09-14T08:19:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ee444925d37e",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Coventry City / Brighton & Hove Albion",
-          "subtitle": "Premier League - 4e journée",
-          "description": "De retour parmi l'élite après 25 ans d'absence, les Sky Blues de Frank Lampard doivent prouver qu'ils ont le niveau de la Premier League. Mais Brighton part logiquement favori.",
-          "team1": {
-            "name": "Coventry City",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brighton & Hove Albion",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-14T07:08:00+02:00",
-          "end": "2026-09-14T08:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "87ecc2154ec0",
-          "sport": "other",
-          "competition": "Coupe du monde",
-          "title": "Escalade : Coupe du monde",
-          "subtitle": "Relais dames et messieurs. Coupe du monde. 5e manche vitesse.",
-          "description": "Coupe du monde. 5e manche vitesse. Relais dames et messieurs. A Guiyang (Chine).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-09-14T07:30:00+02:00",
-          "end": "2026-09-14T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e1614dcfc346",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 21e étape",
-          "subtitle": "Carrefour Granada - Granada (99,...",
-          "description": "Grenade accueille l'étape finale de La Vuelta 2026, dont le principal attrait sera la montée vers l'Alhambra sur un circuit à travers les rues de la cité nasride. Le monument de Grenade couronnera le vainqueur final de la course lors d'une étape où le gagnant devrait être un cycliste explosif. Qui succèdera au palmarès de la Vuelta au Danois Jonas Vingegaard ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-09-14T07:30:00+02:00",
-          "end": "2026-09-14T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "35dfe94d3cc7",
-          "sport": "f1",
-          "competition": null,
-          "title": "Challenge Canada 2026",
-          "subtitle": "Grand Prix Trois-Rivières (Québec)",
-          "description": "Chaque voiture du Challenge Canada est monotype, offrant des courses où le talent des pilotes prime. Les véhicules sont préparés pour maximiser performance et sécurité tout en conservant l'égalité mécanique entre tous les compétiteurs.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "RDS.ca",
-            "name": "RDS",
-            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
-            "slug": "rds",
-            "is_free": false
-          },
-          "start": "2026-09-14T07:30:00+02:00",
-          "end": "2026-09-14T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3f6470ef6d1a",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "FC Union Berlin / Schalke 04",
-          "subtitle": "Bundesliga - 3e journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "FC Union Berlin",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Schalke 04",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport2.af",
-            "name": "Canal+ Sport 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
-            "slug": "canal-plus-sport-2",
-            "is_free": false
-          },
-          "start": "2026-09-14T07:46:00+02:00",
-          "end": "2026-09-14T09:25:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "76750c0d2e11",
-          "sport": "football",
-          "competition": null,
-          "title": "AEK Athènes - LASK Linz",
-          "subtitle": null,
-          "description": "Premier match du League Phase de l'UEFA Champions League : AEK Athènes - LASK Linz.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-09-14T07:55:00+02:00",
-          "end": "2026-09-14T09:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "ce8f8b4a1d61",
-          "sport": "football",
-          "competition": null,
-          "title": "AEK Athene - LASK Linz",
-          "subtitle": null,
-          "description": "Eerste match van de League Phase in de UEFA Champions League: AEK Athene - LASK Linz.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-09-14T07:55:00+02:00",
-          "end": "2026-09-14T09:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bb47184b7a30",
-          "sport": "football",
-          "competition": null,
-          "title": "Sassuolo / Juventus Turin",
-          "subtitle": null,
-          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
-          "team1": {
-            "name": "Sassuolo",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Juventus FC",
-            "type": "club",
-            "short": "Juventus",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenSports1FR.be",
-            "name": "ElevenSports1FR",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
-            "slug": "elevensports1fr",
-            "is_free": false
-          },
-          "start": "2026-09-14T08:00:00+02:00",
-          "end": "2026-09-14T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4902704bd1a7",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 2",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 2",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T08:00:00+02:00",
-          "end": "2026-09-14T08:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "756eac94ee33",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 3",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 3",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T08:10:00+02:00",
-          "end": "2026-09-14T08:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "3de036af72d8",
-          "sport": "football",
-          "competition": null,
-          "title": "Malines / Anderlecht",
-          "subtitle": null,
-          "description": "KV Mechelen - RSC Anderlecht.",
-          "team1": {
-            "name": "Malines",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Anderlecht",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-09-14T08:15:00+02:00",
-          "end": "2026-09-14T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fe461fed61d5",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Coventry City / Brighton & Hove Albion",
-          "subtitle": "Premier League - 4e journée",
-          "description": "De retour parmi l'élite après 25 ans d'absence, les Sky Blues de Frank Lampard doivent prouver qu'ils ont le niveau de la Premier League. Mais Brighton part logiquement favori.",
-          "team1": {
-            "name": "Coventry City",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Brighton & Hove Albion",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusFoot.fr",
-            "name": "Canal+ Foot",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
-            "slug": "canal-plus-foot",
-            "is_free": false
-          },
-          "start": "2026-09-14T08:18:00+02:00",
-          "end": "2026-09-14T10:03:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "28ffcf4dcb01",
-          "sport": "f1",
-          "competition": "Grand Prix de San Marin",
-          "title": "Moto GP : Grand Prix de San Marin",
-          "subtitle": "Grand Prix de San Marin. La course des Moto GP. Championnat du monde de vitesse.",
-          "description": "Championnat du monde de vitesse. Grand Prix de San Marin. La course des Moto GP.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-09-14T08:19:00+02:00",
-          "end": "2026-09-14T09:13:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d83b2bd0f76a",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 4",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 4",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T08:20:00+02:00",
-          "end": "2026-09-14T08:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "cc35e4d0ff08",
-          "sport": "rugby",
-          "competition": "Currie Cup - Finale",
-          "title": "Griquas / Pumas",
-          "subtitle": "Currie Cup - Finale",
-          "description": "Le championnat de rugby de première division sud-africain se conclut avec cette finale très attendue. Après avoir largement défait les Lions (52-12) en demie, les Griquas de Kimberley sont en finale pour défendre leur titre. De leur côté, les Pumas ont arraché leur qualification (24-27) sur le terrain des Cheetahs, et espèrent une nouvelle fois soulever le trophée de la Currie Cup, quatre ans après leur dernier sacre en 2022.",
-          "team1": {
-            "name": "Griquas",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Pumas",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport.ch",
-            "name": "Canal+ Sport",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-14T08:23:00+02:00",
-          "end": "2026-09-14T10:07:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "165f1615d41b",
-          "sport": "cyclisme",
-          "competition": null,
-          "title": "La Vuelta | 21e étape",
-          "subtitle": "Carrefour Granada - Granada (99,...",
-          "description": "Grenade accueille l'étape finale de La Vuelta 2026, dont le principal attrait sera la montée vers l'Alhambra sur un circuit à travers les rues de la cité nasride. Le monument de Grenade couronnera le vainqueur final de la course lors d'une étape où le gagnant devrait être un cycliste explosif. Qui succèdera au palmarès de la Vuelta au Danois Jonas Vingegaard ?",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-09-14T08:30:00+02:00",
-          "end": "2026-09-14T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "1a9ceb92e962",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 5",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 5",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T08:30:00+02:00",
-          "end": "2026-09-14T08:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "073eab9b245a",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 6",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 6",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T08:40:00+02:00",
-          "end": "2026-09-14T08:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c425294460f8",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 7",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 7",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T08:50:00+02:00",
-          "end": "2026-09-14T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b7731287b519",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Aston Villa / Nottingham Forest",
-          "subtitle": "Premier League - 4e journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
-          "team1": {
-            "name": "Aston Villa",
-            "type": "club",
-            "short": "Aston Villa",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Nottingham Forest",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-14T08:51:00+02:00",
-          "end": "2026-09-14T10:33:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c55514b06b8b",
-          "sport": "football",
-          "competition": "Arkema Première Ligue",
-          "title": "Football : Arkema Première Ligue | Lyon / Paris FC",
-          "subtitle": null,
-          "description": "Vivez la rencontre entre OL Lyonnes et le Paris FC lors de la 2ème journée d'Arkema Première Ligue 2026-2027.",
-          "team1": {
-            "name": "Olympique Lyonnais",
-            "type": "club",
-            "short": "OL",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris FC",
-            "type": "club",
-            "short": "Paris FC",
-            "country_code": "fr",
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "OLTV.fr",
-            "name": "OLPLAY",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
-            "slug": "olplay",
-            "is_free": false
-          },
-          "start": "2026-09-14T09:00:00+02:00",
-          "end": "2026-09-14T11:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "0bc03442733b",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 8",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 8",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T09:00:00+02:00",
-          "end": "2026-09-14T09:10:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "61a034db4cb3",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-09-14T09:00:00+02:00",
-          "end": "2026-09-14T09:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "bda14b40ecaf",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 1",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 1",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T09:10:00+02:00",
-          "end": "2026-09-14T09:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "c805ad36c531",
-          "sport": "other",
-          "competition": null,
-          "title": "BikingMan",
-          "subtitle": "IncaDivide - Episode 9",
-          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
-          "team1": {
-            "name": "IncaDivide",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Episode 9",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-09-14T09:20:00+02:00",
-          "end": "2026-09-14T09:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f85f99b7e761",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Football : Bundesliga",
-          "subtitle": "Football",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-09-14T09:23:00+02:00",
-          "end": "2026-09-14T11:04:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "7126bf4e9869",
           "sport": "football",
           "competition": "Premier League",
@@ -2010,7 +576,7 @@
           },
           "start": "2026-09-14T09:50:00+02:00",
           "end": "2026-09-14T11:36:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2048,7 +614,7 @@
           },
           "start": "2026-09-14T10:00:00+02:00",
           "end": "2026-09-14T12:05:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2086,55 +652,7 @@
           },
           "start": "2026-09-14T10:00:00+02:00",
           "end": "2026-09-14T12:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a37cb45fc4e1",
-          "sport": "football",
-          "competition": null,
-          "title": "TV Lux Sport - Le Direct",
-          "subtitle": null,
-          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TVLux.be",
-            "name": "TV Lux",
-            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
-            "slug": "tv-lux",
-            "is_free": false
-          },
-          "start": "2026-09-14T10:00:00+02:00",
-          "end": "2026-09-14T10:52:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f1ffcde543af",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-09-14T10:00:00+02:00",
-          "end": "2026-09-14T11:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2172,7 +690,7 @@
           },
           "start": "2026-09-14T10:03:00+02:00",
           "end": "2026-09-14T11:47:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2210,7 +728,7 @@
           },
           "start": "2026-09-14T10:07:00+02:00",
           "end": "2026-09-14T11:53:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2248,7 +766,7 @@
           },
           "start": "2026-09-14T10:30:00+02:00",
           "end": "2026-09-14T12:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2272,7 +790,7 @@
           },
           "start": "2026-09-14T10:32:00+02:00",
           "end": "2026-09-14T12:33:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2310,7 +828,7 @@
           },
           "start": "2026-09-14T10:35:00+02:00",
           "end": "2026-09-14T12:17:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2348,7 +866,7 @@
           },
           "start": "2026-09-14T11:00:00+02:00",
           "end": "2026-09-14T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2372,7 +890,7 @@
           },
           "start": "2026-09-14T11:00:00+02:00",
           "end": "2026-09-14T11:52:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2396,7 +914,7 @@
           },
           "start": "2026-09-14T11:30:00+02:00",
           "end": "2026-09-14T12:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -6883,6 +5401,44 @@
           "result": null
         },
         {
+          "id": "dd2f2a981961",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Le Mans / Lens",
+          "subtitle": "Ligue 1 McDonald's - 4e  journée",
+          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "team1": {
+            "name": "Le Mans",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "RC Lens",
+            "type": "club",
+            "short": "Lens",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-14T01:41:00+02:00",
+          "end": "2026-09-14T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "6677d043f363",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -7107,6 +5663,30 @@
           "result": null
         },
         {
+          "id": "7e6e1831348f",
+          "sport": "motogp",
+          "competition": "Coupe de France U18",
+          "title": "Motoball : Coupe de France U18",
+          "subtitle": null,
+          "description": "Neuville voit double ! Déjà représentés dans la finale senior, les poitevins peuvent rêver d'un doublé en une journée avec les juniors qui seront opposés aux Poitevins de Vojeancourt !",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T03:15:00+02:00",
+          "end": "2026-09-14T05:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "637feb94d6ae",
           "sport": "other",
           "competition": "Coupe du monde de sprint",
@@ -7124,6 +5704,106 @@
           },
           "start": "2026-09-14T03:30:00+02:00",
           "end": "2026-09-14T04:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8b3b0fdcf4b2",
+          "sport": "football",
+          "competition": null,
+          "title": "Zulte Waregem / Sporting de Charleroi",
+          "subtitle": null,
+          "description": "LIVE: SV Zulte Waregem - Sporting Charleroi.",
+          "team1": {
+            "name": "Zulte Waregem",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Sporting CP",
+            "type": "club",
+            "short": "Sporting",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-09-14T03:45:00+02:00",
+          "end": "2026-09-14T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "07df53f9ed1e",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 20e étape",
+          "subtitle": "La Calahorra - Collado del Algua...",
+          "description": "Dernière grande étape de montagne. Très dure, avec plus de 5000 mètres de dénivelé cumulé. La double ascension de Hazallanas (1re catégorie), avec le Purche (1480 m, 1re catégorie) entre les deux, mettra à rude épreuve les jambes des cyclistes qui devront affronter l'ascension finale vers le Collado del Alguacil (1880 m) sur 8,3 kilomètres à 9,8 %.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-09-14T04:00:00+02:00",
+          "end": "2026-09-14T05:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4bcebba917fc",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Paris FC / Lyon",
+          "subtitle": null,
+          "description": "Revivez la rencontre entre le Paris FC et l'OL lors de la 4ème journée de Ligue 1 McDonald's 2026/2027.",
+          "team1": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "OLTV.fr",
+            "name": "OLPLAY",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
+            "slug": "olplay",
+            "is_free": false
+          },
+          "start": "2026-09-14T04:00:00+02:00",
+          "end": "2026-09-14T06:00:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
@@ -7172,6 +5852,1326 @@
           },
           "start": "2026-09-14T04:40:00+02:00",
           "end": "2026-09-14T05:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2fa862bd52a5",
+          "sport": "other",
+          "competition": null,
+          "title": "Club Week-end",
+          "subtitle": "Emission du 14 sept. 2026",
+          "description": "Frédéric Brindelle revient sur toute l'actualité sportive du week-end pendant trente minutes à travers les images des faits les plus marquants.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "InfosportPlus.fr",
+            "name": "InfosportPlus",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~fa910210e6776e9a.png/480x480/quality/100/infosport.png",
+            "slug": "infosportplus",
+            "is_free": false
+          },
+          "start": "2026-09-14T05:00:00+02:00",
+          "end": "2026-09-14T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1d15bc0fc603",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Marseille / Paris-SG",
+          "subtitle": null,
+          "description": "Le fameux classico entre l'OM et le PSG clôture cette 5e journée de Ligue 1. Les Parisiens, leaders invaincus au classement, se déplacent au Vélodrome pour y affronter des Marseillais moribonds, seulement 7es.",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-09-14T05:00:00+02:00",
+          "end": "2026-09-14T07:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a5219520d8a1",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-09-14T05:00:00+02:00",
+          "end": "2026-09-14T05:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "14550b48d244",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 21e étape",
+          "subtitle": "Carrefour Granada - Granada (99,...",
+          "description": "Grenade accueille l'étape finale de La Vuelta 2026, dont le principal attrait sera la montée vers l'Alhambra sur un circuit à travers les rues de la cité nasride. Le monument de Grenade couronnera le vainqueur final de la course lors d'une étape où le gagnant devrait être un cycliste explosif. Qui succèdera au palmarès de la Vuelta au Danois Jonas Vingegaard ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-09-14T05:30:00+02:00",
+          "end": "2026-09-14T06:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cc1f84610121",
+          "sport": "other",
+          "competition": null,
+          "title": "Moteurs",
+          "subtitle": "Rallye Terre de Lozère - Etape 5",
+          "description": "Résumé de la 5ème étape du championnat de France FFSA 2026 de Rallye Terre en Lozère.",
+          "team1": {
+            "name": "Rallye Terre de Lozère",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Etape 5",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T05:45:00+02:00",
+          "end": "2026-09-14T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3db39fb73af7",
+          "sport": "football",
+          "competition": null,
+          "title": "La Louvière / Courtrai",
+          "subtitle": null,
+          "description": "RAAL La Louvière - KV Kortrijk.",
+          "team1": {
+            "name": "La Louvière",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Courtrai",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:00:00+02:00",
+          "end": "2026-09-14T08:15:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "de65fa515250",
+          "sport": "football",
+          "competition": null,
+          "title": "Sassuolo / Juventus Turin",
+          "subtitle": null,
+          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
+          "team1": {
+            "name": "Sassuolo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Juventus FC",
+            "type": "club",
+            "short": "Juventus",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:00:00+02:00",
+          "end": "2026-09-14T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fca4ebb291ff",
+          "sport": "football",
+          "competition": null,
+          "title": "Levante / FC Barcelone",
+          "subtitle": null,
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Levante",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports2FR.be",
+            "name": "ElevenSports2FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWkZqXWuB5DwJtVjjNJ-HJd3OAOq5jR2j35n_yiofD2ZEBrLkvqFzSjfHiVs&s",
+            "slug": "elevensports2fr",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:00:00+02:00",
+          "end": "2026-09-14T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8959416a3bf2",
+          "sport": "football",
+          "competition": "Ligue 1 Ivoirienne",
+          "title": "Football : Ligue 1 Ivoirienne",
+          "subtitle": "Football",
+          "description": "Retransmission d'un match du championnat de Côte d'Ivoire de football, appelé Ligue 1. Il s'agit de la plus prestigieuse compétition de football du pays. Placée sous la supervision de la Ligue de football professionnelle, elle a été fondée en 1956.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:30:00+02:00",
+          "end": "2026-09-14T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b6f2b388f299",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Finale dames et messieurs. Coupe du monde. 5e manche vitesse.",
+          "description": "Coupe du monde. 5e manche vitesse. Finale dames et messieurs. A Guiyang (Chine).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:30:00+02:00",
+          "end": "2026-09-14T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6876c5570222",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 20e étape",
+          "subtitle": "La Calahorra - Collado del Algua...",
+          "description": "Dernière grande étape de montagne. Très dure, avec plus de 5000 mètres de dénivelé cumulé. La double ascension de Hazallanas (1re catégorie), avec le Purche (1480 m, 1re catégorie) entre les deux, mettra à rude épreuve les jambes des cyclistes qui devront affronter l'ascension finale vers le Collado del Alguacil (1880 m) sur 8,3 kilomètres à 9,8 %.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:30:00+02:00",
+          "end": "2026-09-14T07:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "be08e3352e0d",
+          "sport": "football",
+          "competition": "National 2",
+          "title": "Football : National 2 | US Feur / OL",
+          "subtitle": null,
+          "description": "Vivez la rencontre entre l'US Feur et l'OL lors de la 2ème journée de National 2 2026/2027.",
+          "team1": {
+            "name": "US Feur",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "OLTV.fr",
+            "name": "OLPLAY",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
+            "slug": "olplay",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:30:00+02:00",
+          "end": "2026-09-14T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "80b91457c010",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Tottenham / Everton",
+          "subtitle": "Premier League - 4e journée",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
+          "team1": {
+            "name": "Tottenham Hotspur",
+            "type": "club",
+            "short": "Tottenham",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Everton",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-09-14T06:32:00+02:00",
+          "end": "2026-09-14T08:19:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ee444925d37e",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Coventry City / Brighton & Hove Albion",
+          "subtitle": "Premier League - 4e journée",
+          "description": "De retour parmi l'élite après 25 ans d'absence, les Sky Blues de Frank Lampard doivent prouver qu'ils ont le niveau de la Premier League. Mais Brighton part logiquement favori.",
+          "team1": {
+            "name": "Coventry City",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brighton & Hove Albion",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-14T07:08:00+02:00",
+          "end": "2026-09-14T08:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "87ecc2154ec0",
+          "sport": "other",
+          "competition": "Coupe du monde",
+          "title": "Escalade : Coupe du monde",
+          "subtitle": "Relais dames et messieurs. Coupe du monde. 5e manche vitesse.",
+          "description": "Coupe du monde. 5e manche vitesse. Relais dames et messieurs. A Guiyang (Chine).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-09-14T07:30:00+02:00",
+          "end": "2026-09-14T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e1614dcfc346",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 21e étape",
+          "subtitle": "Carrefour Granada - Granada (99,...",
+          "description": "Grenade accueille l'étape finale de La Vuelta 2026, dont le principal attrait sera la montée vers l'Alhambra sur un circuit à travers les rues de la cité nasride. Le monument de Grenade couronnera le vainqueur final de la course lors d'une étape où le gagnant devrait être un cycliste explosif. Qui succèdera au palmarès de la Vuelta au Danois Jonas Vingegaard ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-09-14T07:30:00+02:00",
+          "end": "2026-09-14T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "35dfe94d3cc7",
+          "sport": "f1",
+          "competition": null,
+          "title": "Challenge Canada 2026",
+          "subtitle": "Grand Prix Trois-Rivières (Québec)",
+          "description": "Chaque voiture du Challenge Canada est monotype, offrant des courses où le talent des pilotes prime. Les véhicules sont préparés pour maximiser performance et sécurité tout en conservant l'égalité mécanique entre tous les compétiteurs.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "RDS.ca",
+            "name": "RDS",
+            "icon_url": "https://cdn.tvpassport.com/image/station/640x480/v2/s15676_h15_aa.png",
+            "slug": "rds",
+            "is_free": false
+          },
+          "start": "2026-09-14T07:30:00+02:00",
+          "end": "2026-09-14T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3f6470ef6d1a",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "FC Union Berlin / Schalke 04",
+          "subtitle": "Bundesliga - 3e journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": {
+            "name": "FC Union Berlin",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Schalke 04",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport2.af",
+            "name": "Canal+ Sport 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180124/canal-ouah/CHN43FB/CANALSPORT2_640x480-Copie-Lkew?=.png",
+            "slug": "canal-plus-sport-2",
+            "is_free": false
+          },
+          "start": "2026-09-14T07:46:00+02:00",
+          "end": "2026-09-14T09:25:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "76750c0d2e11",
+          "sport": "football",
+          "competition": null,
+          "title": "AEK Athènes - LASK Linz",
+          "subtitle": null,
+          "description": "Premier match du League Phase de l'UEFA Champions League : AEK Athènes - LASK Linz.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-09-14T07:55:00+02:00",
+          "end": "2026-09-14T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ce8f8b4a1d61",
+          "sport": "football",
+          "competition": null,
+          "title": "AEK Athene - LASK Linz",
+          "subtitle": null,
+          "description": "Eerste match van de League Phase in de UEFA Champions League: AEK Athene - LASK Linz.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-09-14T07:55:00+02:00",
+          "end": "2026-09-14T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bb47184b7a30",
+          "sport": "football",
+          "competition": null,
+          "title": "Sassuolo / Juventus Turin",
+          "subtitle": null,
+          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
+          "team1": {
+            "name": "Sassuolo",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Juventus FC",
+            "type": "club",
+            "short": "Juventus",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenSports1FR.be",
+            "name": "ElevenSports1FR",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj3ecOZjY8i7UiiyCF5GT1dQzUMgYAXorRMcZIWswqwbgrODBxHb_qHCgZA&s",
+            "slug": "elevensports1fr",
+            "is_free": false
+          },
+          "start": "2026-09-14T08:00:00+02:00",
+          "end": "2026-09-14T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4902704bd1a7",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 2",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 2",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T08:00:00+02:00",
+          "end": "2026-09-14T08:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "756eac94ee33",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 3",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 3",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T08:10:00+02:00",
+          "end": "2026-09-14T08:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "3de036af72d8",
+          "sport": "football",
+          "competition": null,
+          "title": "Malines / Anderlecht",
+          "subtitle": null,
+          "description": "KV Mechelen - RSC Anderlecht.",
+          "team1": {
+            "name": "Malines",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Anderlecht",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-09-14T08:15:00+02:00",
+          "end": "2026-09-14T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fe461fed61d5",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Coventry City / Brighton & Hove Albion",
+          "subtitle": "Premier League - 4e journée",
+          "description": "De retour parmi l'élite après 25 ans d'absence, les Sky Blues de Frank Lampard doivent prouver qu'ils ont le niveau de la Premier League. Mais Brighton part logiquement favori.",
+          "team1": {
+            "name": "Coventry City",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brighton & Hove Albion",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusFoot.fr",
+            "name": "Canal+ Foot",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~335ee2c06aacae64.png/480x480/quality/100/canal-foot.png",
+            "slug": "canal-plus-foot",
+            "is_free": false
+          },
+          "start": "2026-09-14T08:18:00+02:00",
+          "end": "2026-09-14T10:03:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "28ffcf4dcb01",
+          "sport": "f1",
+          "competition": "Grand Prix de San Marin",
+          "title": "Moto GP : Grand Prix de San Marin",
+          "subtitle": "Grand Prix de San Marin. La course des Moto GP. Championnat du monde de vitesse.",
+          "description": "Championnat du monde de vitesse. Grand Prix de San Marin. La course des Moto GP.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-09-14T08:19:00+02:00",
+          "end": "2026-09-14T09:13:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d83b2bd0f76a",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 4",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 4",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T08:20:00+02:00",
+          "end": "2026-09-14T08:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "cc35e4d0ff08",
+          "sport": "rugby",
+          "competition": "Currie Cup - Finale",
+          "title": "Griquas / Pumas",
+          "subtitle": "Currie Cup - Finale",
+          "description": "Le championnat de rugby de première division sud-africain se conclut avec cette finale très attendue. Après avoir largement défait les Lions (52-12) en demie, les Griquas de Kimberley sont en finale pour défendre leur titre. De leur côté, les Pumas ont arraché leur qualification (24-27) sur le terrain des Cheetahs, et espèrent une nouvelle fois soulever le trophée de la Currie Cup, quatre ans après leur dernier sacre en 2022.",
+          "team1": {
+            "name": "Griquas",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Pumas",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.ch",
+            "name": "Canal+ Sport",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/97364355?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-14T08:23:00+02:00",
+          "end": "2026-09-14T10:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "165f1615d41b",
+          "sport": "cyclisme",
+          "competition": null,
+          "title": "La Vuelta | 21e étape",
+          "subtitle": "Carrefour Granada - Granada (99,...",
+          "description": "Grenade accueille l'étape finale de La Vuelta 2026, dont le principal attrait sera la montée vers l'Alhambra sur un circuit à travers les rues de la cité nasride. Le monument de Grenade couronnera le vainqueur final de la course lors d'une étape où le gagnant devrait être un cycliste explosif. Qui succèdera au palmarès de la Vuelta au Danois Jonas Vingegaard ?",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-09-14T08:30:00+02:00",
+          "end": "2026-09-14T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1a9ceb92e962",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 5",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 5",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T08:30:00+02:00",
+          "end": "2026-09-14T08:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "073eab9b245a",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 6",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 6",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T08:40:00+02:00",
+          "end": "2026-09-14T08:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c425294460f8",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 7",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 7",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T08:50:00+02:00",
+          "end": "2026-09-14T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b7731287b519",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Aston Villa / Nottingham Forest",
+          "subtitle": "Premier League - 4e journée",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
+          "team1": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nottingham Forest",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusPremierLeague.fr",
+            "name": "Canal+ Premier League",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-14T08:51:00+02:00",
+          "end": "2026-09-14T10:33:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c55514b06b8b",
+          "sport": "football",
+          "competition": "Arkema Première Ligue",
+          "title": "Football : Arkema Première Ligue | Lyon / Paris FC",
+          "subtitle": null,
+          "description": "Vivez la rencontre entre OL Lyonnes et le Paris FC lors de la 2ème journée d'Arkema Première Ligue 2026-2027.",
+          "team1": {
+            "name": "Olympique Lyonnais",
+            "type": "club",
+            "short": "OL",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris FC",
+            "type": "club",
+            "short": "Paris FC",
+            "country_code": "fr",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "OLTV.fr",
+            "name": "OLPLAY",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~289e3217baa702c7.png/480x480/quality/100/oltv.png",
+            "slug": "olplay",
+            "is_free": false
+          },
+          "start": "2026-09-14T09:00:00+02:00",
+          "end": "2026-09-14T11:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0bc03442733b",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 8",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 8",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T09:00:00+02:00",
+          "end": "2026-09-14T09:10:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "61a034db4cb3",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-09-14T09:00:00+02:00",
+          "end": "2026-09-14T09:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bda14b40ecaf",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 1",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 1",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T09:10:00+02:00",
+          "end": "2026-09-14T09:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "c805ad36c531",
+          "sport": "other",
+          "competition": null,
+          "title": "BikingMan",
+          "subtitle": "IncaDivide - Episode 9",
+          "description": "Pour fêter les 10 ans de BikingMan, la course de bikepacking ultime est de retour aux pays des Incas. Le parcours 2026 réserve une exploration inédite des routes et pistes oubliées de la vallée sacrée des Incas. Préparez-vous à vivre l'expérience d'une vie en haute altitude sur les cimes de la légendaire Cordillère des Andes, la plus longue chaîne de montagnes du monde.",
+          "team1": {
+            "name": "IncaDivide",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Episode 9",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-09-14T09:20:00+02:00",
+          "end": "2026-09-14T09:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f85f99b7e761",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Football : Bundesliga",
+          "subtitle": "Football",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport1.af",
+            "name": "Canal+ Sport 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-09-14T09:23:00+02:00",
+          "end": "2026-09-14T11:04:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a37cb45fc4e1",
+          "sport": "football",
+          "competition": null,
+          "title": "TV Lux Sport - Le Direct",
+          "subtitle": null,
+          "description": "Chaque dimanche à 20h, le Direct vous propose de passer en revue l'actualité sportive du week-end. Au menu, comme toujours, une large page consacrée au football régional et provincial, mais pas que! L'émission comprend désormais un chapitre multisports.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TVLux.be",
+            "name": "TV Lux",
+            "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyflPglqDjGu4OQf82F_B10Lkc5Pv5LCLe8k396ojqDvrIxTVL9-ZEZkYlxA&amp;s",
+            "slug": "tv-lux",
+            "is_free": false
+          },
+          "start": "2026-09-14T10:00:00+02:00",
+          "end": "2026-09-14T10:52:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f1ffcde543af",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-09-14T10:00:00+02:00",
+          "end": "2026-09-14T11:30:00+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
