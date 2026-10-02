@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-02T03:52:14.360943+00:00",
+    "generated_at": "2026-10-02T10:16:51.537469+00:00",
     "total_events": 1159,
     "total_days": 7,
     "sports": [
@@ -23,8 +23,13 @@
     ],
     "channels": [
       {
-        "slug": "dazn-1",
-        "name": "DAZN 1",
+        "slug": "real-madrid-tv",
+        "name": "REAL MADRID TV",
+        "is_free": false
+      },
+      {
+        "slug": "canal-plus-foot",
+        "name": "Canal+ Foot",
         "is_free": false
       },
       {
@@ -33,48 +38,23 @@
         "is_free": false
       },
       {
+        "slug": "canal-sport-360",
+        "name": "Canal+ Sport 360",
+        "is_free": false
+      },
+      {
+        "slug": "dazn-1",
+        "name": "DAZN 1",
+        "is_free": false
+      },
+      {
         "slug": "canal-plus-sport-3",
         "name": "Canal+ Sport 3",
         "is_free": false
       },
       {
-        "slug": "real-madrid-tv",
-        "name": "REAL MADRID TV",
-        "is_free": false
-      },
-      {
-        "slug": "ligue-1",
-        "name": "Ligue 1+",
-        "is_free": false
-      },
-      {
-        "slug": "dazn-2",
-        "name": "DAZN 2",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-international-1",
-        "name": "Eurosport International 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport",
-        "name": "Canal+ Sport",
-        "is_free": false
-      },
-      {
-        "slug": "rmc-sport-1",
-        "name": "RMC Sport 1",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-sport-4",
-        "name": "Canal+ Sport 4",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-2",
-        "name": "Eurosport 2",
+        "slug": "eurosport-1",
+        "name": "Eurosport 1",
         "is_free": false
       },
       {
@@ -88,58 +68,38 @@
         "is_free": false
       },
       {
-        "slug": "t-l-sud",
-        "name": "Télésud",
-        "is_free": false
-      },
-      {
         "slug": "cheval-tv",
         "name": "Cheval TV",
         "is_free": false
       },
       {
-        "slug": "eurosport-360-11",
-        "name": "EUROSPORT 360 11",
+        "slug": "ligue-1",
+        "name": "Ligue 1+",
         "is_free": false
       },
       {
-        "slug": "bein-1",
-        "name": "beIN SPORTS 1",
+        "slug": "canal-plus-sport-4",
+        "name": "Canal+ Sport 4",
         "is_free": false
       },
       {
-        "slug": "nautical-channel",
-        "name": "Nautical Channel",
+        "slug": "canal-plus-sport",
+        "name": "Canal+ Sport 1",
         "is_free": false
       },
       {
-        "slug": "planete-aventure",
-        "name": "Planete+ Aventure",
-        "is_free": false
-      },
-      {
-        "slug": "canal-plus-foot",
-        "name": "Canal+ Foot",
-        "is_free": false
-      },
-      {
-        "slug": "canal-sport-360",
-        "name": "Canal+ Sport 360",
-        "is_free": false
-      },
-      {
-        "slug": "eurosport-1",
-        "name": "Eurosport 1",
-        "is_free": false
-      },
-      {
-        "slug": "tv5mondemaghreborient-fr",
-        "name": "TV5MondeMaghrebOrient.fr",
+        "slug": "dazn-2",
+        "name": "DAZN 2",
         "is_free": false
       },
       {
         "slug": "rds",
         "name": "RDS",
+        "is_free": false
+      },
+      {
+        "slug": "t-l-sud",
+        "name": "Télésud",
         "is_free": false
       },
       {
@@ -165,6 +125,16 @@
       {
         "slug": "elevensports1fr",
         "name": "ElevenSports1FR",
+        "is_free": false
+      },
+      {
+        "slug": "rmc-sport-1",
+        "name": "RMC Sport 1",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-international-1",
+        "name": "Eurosport International 1",
         "is_free": false
       },
       {
@@ -223,6 +193,11 @@
         "is_free": false
       },
       {
+        "slug": "eurosport-2",
+        "name": "Eurosport 2",
+        "is_free": false
+      },
+      {
         "slug": "vosges-tv",
         "name": "Vosges tv",
         "is_free": false
@@ -245,6 +220,31 @@
       {
         "slug": "bein-3",
         "name": "beIN SPORTS MAX 5",
+        "is_free": false
+      },
+      {
+        "slug": "eurosport-360-11",
+        "name": "EUROSPORT 360 11",
+        "is_free": false
+      },
+      {
+        "slug": "bein-1",
+        "name": "beIN SPORTS 1",
+        "is_free": false
+      },
+      {
+        "slug": "nautical-channel",
+        "name": "Nautical Channel",
+        "is_free": false
+      },
+      {
+        "slug": "planete-aventure",
+        "name": "Planete+ Aventure",
+        "is_free": false
+      },
+      {
+        "slug": "tv5mondemaghreborient-fr",
+        "name": "TV5MondeMaghrebOrient.fr",
         "is_free": false
       },
       {
@@ -565,936 +565,6 @@
       "event_count": 156,
       "events": [
         {
-          "id": "aae1fdebe79e",
-          "sport": "football",
-          "competition": "Football américain. NFL · J4",
-          "title": "Cleveland Browns / Pittsburgh Steelers",
-          "subtitle": "Football américain. NFL 4e journée .",
-          "description": "Diffusion d'un match de la NFL (National Football League), championnat de football américain se déroulant aux Etats-Unis et s'achevant par un événement majeur : le Super Bowl. La première saison de cette ligue a été jouée en 1920.",
-          "team1": {
-            "name": "Cleveland Browns",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Pittsburgh Steelers",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "DAZN.fr",
-            "name": "DAZN 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
-            "slug": "dazn-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T02:15:00+02:00",
-          "end": "2026-10-02T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "66c181f300a7",
-          "sport": "football",
-          "competition": null,
-          "title": "Sporting de Charleroi / Cercle Bruges",
-          "subtitle": null,
-          "description": "Sporting Charleroi - Cercle Brugge.",
-          "team1": {
-            "name": "Sporting CP",
-            "type": "club",
-            "short": "Sporting",
-            "country_code": "pt",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cercle Bruges",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-10-02T03:46:00+02:00",
-          "end": "2026-10-02T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "804bbb0cdc16",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Newcastle / Hull City",
-          "subtitle": "Premier League - 5e journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
-          "team1": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hull City",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-10-02T03:47:00+02:00",
-          "end": "2026-10-02T07:21:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "50274c4517cd",
-          "sport": "basket",
-          "competition": "Championnat d'Espagne",
-          "title": "Basket-ball : Championnat d'Espagne | Real Madrid / Unicaja",
-          "subtitle": null,
-          "description": "Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Unicaja",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RealMadridTV.es",
-            "name": "REAL MADRID TV",
-            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
-            "slug": "real-madrid-tv",
-            "is_free": false
-          },
-          "start": "2026-10-02T04:00:00+02:00",
-          "end": "2026-10-02T06:00:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "856597d957e5",
-          "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Football : Ligue 1 McDonald's | Marseille / Paris-SG",
-          "subtitle": null,
-          "description": "1ère période du match de la Journée 5 du Championnat de France de Ligue 1 McDonald's 2026/27 opposant Olympique de Marseille et Paris Saint-Germain",
-          "team1": {
-            "name": "Olympique de Marseille",
-            "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T05:00:00+02:00",
-          "end": "2026-10-02T06:50:00+02:00",
-          "status": "live",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "625b36fb8b5e",
-          "sport": "football",
-          "competition": "Football. Liga · J3",
-          "title": "Real Madrid / Malaga",
-          "subtitle": "Football. Liga 3e journée.",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Malaga",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "DAZN2.fr",
-            "name": "DAZN 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
-            "slug": "dazn-2",
-            "is_free": false
-          },
-          "start": "2026-10-02T06:00:00+02:00",
-          "end": "2026-10-02T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "fbc24a74b15d",
-          "sport": "football",
-          "competition": null,
-          "title": "Anderlecht / Zulte Waregem",
-          "subtitle": null,
-          "description": "RSC Anderlecht - SV Zulte Waregem.",
-          "team1": {
-            "name": "Anderlecht",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Zulte Waregem",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-10-02T06:00:00+02:00",
-          "end": "2026-10-02T08:20:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d95136bb432a",
-          "sport": "other",
-          "competition": null,
-          "title": "Judd Trump - Si Jiahui",
-          "subtitle": "Shenzhen Open | Huitième de finale",
-          "description": "Toujours imprévisible à 50 ans, Ronnie O'Sullivan, alias The Rocket, demeure un candidat sérieux à la victoire dès qu'il s'aligne dans un tournoi majeur en Chine. Il fait partie des favoris pour cette édition de l'Open de Shenzhen, avec également Zhao Xintong. De retour au premier plan, le Chinois, nouveau numéro un mondial, est une des têtes d'affiche très attendues par le public local.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "EurosportInternational1.fr",
-            "name": "Eurosport International 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
-            "slug": "eurosport-international-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T06:00:00+02:00",
-          "end": "2026-10-02T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d2efd52bc4fc",
-          "sport": "f1",
-          "competition": "Grand Prix de Bahreïn",
-          "title": "Formule 1 : Grand Prix de Bahreïn",
-          "subtitle": null,
-          "description": "A découvrir cette saison de nouvelles monoplaces Moteur hybride : 50% de la puissance totale du groupe propulseur provient désormais de l'énergie électrique. Aérodynamique active : remplacement du DRS par un système d'ailerons avant et arrière mobiles. Carburants durables : utilisation de composants avancés pour réduire les émissions de gaz à effet de serre. Poids réduit : diminution de 30 kilos pour des monoplaces plus agiles et réactives. Un nouveau calendrier Un Grand Prix™ à Madrid fait son apparition : une course sur circuit urbain, prévue le 13 septembre. Les Grand Prix™ du Canada et de Monaco échangent leur place au calendrier (Canada le 24 mai, Monaco le 7 juin). Sprint : Six week-ends Sprint seront prévus, avec la première session à Shanghaï et la dernière à Singapour. Et de nouvelles écuries Arrivée d'une 11e équipe : Cadillac. Apparition d'Audi en lieu et place de Sauber.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-10-02T06:15:00+02:00",
-          "end": "2026-10-02T07:41:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "754f84a37c7d",
-          "sport": "boxe",
-          "competition": "Zuffa Boxing",
-          "title": "Boxe : Zuffa Boxing | Ryan Garcia / Conor Benn",
-          "subtitle": null,
-          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
-          "team1": {
-            "name": "Ryan Garcia",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Conor Benn",
-            "type": "player",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "RMCSport1.fr",
-            "name": "RMC Sport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
-            "slug": "rmc-sport-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T07:00:00+02:00",
-          "end": "2026-10-02T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2ec5be3abba8",
-          "sport": "football",
-          "competition": null,
-          "title": "La Liga Post-Season",
-          "subtitle": "The Meaning: Laliga Genuine",
-          "description": null,
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "DAZN.fr",
-            "name": "DAZN 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
-            "slug": "dazn-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T07:10:00+02:00",
-          "end": "2026-10-02T08:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e98e486f835a",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Newcastle / Hull City",
-          "subtitle": "Premier League - 5e journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
-          "team1": {
-            "name": "Newcastle United",
-            "type": "club",
-            "short": "Newcastle",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Hull City",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-10-02T07:21:00+02:00",
-          "end": "2026-10-02T09:07:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b6073beb6827",
-          "sport": "football",
-          "competition": "Liga 2",
-          "title": "Leganes / Castellon",
-          "subtitle": "Liga 2 - 7e 2e journée",
-          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
-          "team1": {
-            "name": "Leganes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Castellon",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport4.af",
-            "name": "Canal+ Sport 4",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
-            "slug": "canal-plus-sport-4",
-            "is_free": false
-          },
-          "start": "2026-10-02T07:52:00+02:00",
-          "end": "2026-10-02T09:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "797e9d881a5f",
-          "sport": "football",
-          "competition": "Football. Serie A · J4",
-          "title": "Lazio Rome / AC Milan",
-          "subtitle": "Football. Serie A 4e journée.",
-          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
-          "team1": {
-            "name": "Lazio Rome",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "AC Milan",
-            "type": "club",
-            "short": "AC Milan",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "DAZN2.fr",
-            "name": "DAZN 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
-            "slug": "dazn-2",
-            "is_free": false
-          },
-          "start": "2026-10-02T08:00:00+02:00",
-          "end": "2026-10-02T10:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "a4db5ab28884",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "VTT",
-          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport2.fr",
-            "name": "Eurosport 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
-            "slug": "eurosport-2",
-            "is_free": false
-          },
-          "start": "2026-10-02T08:00:00+02:00",
-          "end": "2026-10-02T09:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "648a76e63b10",
-          "sport": "football",
-          "competition": null,
-          "title": "AEK Athènes - LASK Linz",
-          "subtitle": null,
-          "description": "Premier match du League Phase de l'UEFA Champions League : AEK Athènes - LASK Linz.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1F.be",
-            "name": "PickxPlusSports1F.be",
-            "icon_url": null,
-            "slug": "pickxplussports1f-be",
-            "is_free": false
-          },
-          "start": "2026-10-02T08:00:00+02:00",
-          "end": "2026-10-02T09:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "86fe75a78186",
-          "sport": "football",
-          "competition": null,
-          "title": "AEK Athene - LASK Linz",
-          "subtitle": null,
-          "description": "Eerste match van de League Phase in de UEFA Champions League: AEK Athene - LASK Linz.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PickxPlusSports1N.be",
-            "name": "PickxPlusSports1N.be",
-            "icon_url": null,
-            "slug": "pickxplussports1n-be",
-            "is_free": false
-          },
-          "start": "2026-10-02T08:00:00+02:00",
-          "end": "2026-10-02T09:55:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b60f6806cfd2",
-          "sport": "football",
-          "competition": null,
-          "title": "Afrofoot - S02E03",
-          "subtitle": null,
-          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Telesud.fr",
-            "name": "Télésud",
-            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
-            "slug": "t-l-sud",
-            "is_free": false
-          },
-          "start": "2026-10-02T08:17:00+02:00",
-          "end": "2026-10-02T08:44:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "05cd3f284e7a",
-          "sport": "football",
-          "competition": null,
-          "title": "Lommel / Malines",
-          "subtitle": null,
-          "description": "Lommel SK - KV Mechelen.",
-          "team1": {
-            "name": "Lommel",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Malines",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "ElevenProL1.be",
-            "name": "ElevenProL1",
-            "icon_url": null,
-            "slug": "elevenprol1",
-            "is_free": false
-          },
-          "start": "2026-10-02T08:20:00+02:00",
-          "end": "2026-10-02T10:40:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "760ecf85a674",
-          "sport": "equitation",
-          "competition": null,
-          "title": "CSI 4* 1m50 - Prix Ville de Fontainebleau",
-          "subtitle": "Le Printemps des Sports Equestre...",
-          "description": "Une plongée au coeur de l'un des plus grands événements équestres français qui propose une couverture des compétitions de saut d'obstacles, de dressage et de concours complet.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "ChevalTV.fr",
-            "name": "Cheval TV",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
-            "slug": "cheval-tv",
-            "is_free": false
-          },
-          "start": "2026-10-02T08:50:00+02:00",
-          "end": "2026-10-02T10:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9f0ef42a2eab",
-          "sport": "other",
-          "competition": "Coupe du monde BMX Racing",
-          "title": "BMX : Coupe du monde BMX Racing",
-          "subtitle": "BMX",
-          "description": "La coupe du monde de BMX Racing est une série de compétitions internationales de BMX organisée chaque année par l'Union Cycliste Internationale. Plusieurs manches sont disputées au cours de l'année, dans différents pays, pour couronner un classement général par catégories.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport36011.fr",
-            "name": "EUROSPORT 360 11",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1107/canal-ouah/CHN43FB/CHN43FB_1107_20240716-EUam?=.png",
-            "slug": "eurosport-360-11",
-            "is_free": false
-          },
-          "start": "2026-10-02T09:00:00+02:00",
-          "end": "2026-10-02T10:30:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f27c16b7d346",
-          "sport": "basket",
-          "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": null,
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T09:00:00+02:00",
-          "end": "2026-10-02T10:45:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f4a6c1eefdff",
-          "sport": "other",
-          "competition": null,
-          "title": "Strikers - Saison 1",
-          "subtitle": "Forces invisibles",
-          "description": "En Premier League, le talent et l’entraînement ne suffisent pas. Pour relever les défis de ce début de saison, nos 5 attaquants vont aussi puiser des ressources auprès de leur famille et dans leurs expériences passées. Des \" forces invisibles \" qui les façonnent et peuvent tout changer quand les difficultés s’accumulent, comme pour Junior Kroupi et Georginio Rutter.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-10-02T09:07:00+02:00",
-          "end": "2026-10-02T09:48:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "339c2b073d86",
-          "sport": "voile",
-          "competition": null,
-          "title": "H2O Aquabike World Championship",
-          "subtitle": "Season Review - Ski Division & Ski Ladies",
-          "description": "After over 85 championships in over 12 countries, the P1 world is fast, and growing. The international motorboat racing competition organised by the Union Internationale Motornautique (UIM) is the highest class of inshore powerboat racing, proving to be an adrenaline rush for both participants and spectators.The UIM-ABP H20 Racing Aquabike World Championship is the premier international Jet Ski competition that sees elite riders compete on cutting edge equipment in four categories: Runabout, Ski, Ski Ladies and Freestyle. The need for speed is demonstrated on this extreme water sport as athletes plough across the water.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "NauticalChannel.fr",
-            "name": "Nautical Channel",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
-            "slug": "nautical-channel",
-            "is_free": false
-          },
-          "start": "2026-10-02T09:30:00+02:00",
-          "end": "2026-10-02T10:00:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8543cae51548",
-          "sport": "football",
-          "competition": "Premier League",
-          "title": "Bournemouth / Liverpool",
-          "subtitle": "Premier League - 5e journée",
-          "description": "Les Reds se déplacent au Vitality Stadium pour y affronter les Cherries de Bournemouth. Les deux équipes n'avaient pas remporté le moindre match lors des deux premières journées.",
-          "team1": {
-            "name": "Bournemouth",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Liverpool FC",
-            "type": "club",
-            "short": "Liverpool",
-            "country_code": "gb-eng",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport3.af",
-            "name": "Canal+ Sport 3",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
-            "slug": "canal-plus-sport-3",
-            "is_free": false
-          },
-          "start": "2026-10-02T09:48:00+02:00",
-          "end": "2026-10-02T11:35:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "756e78c0bd53",
-          "sport": "f1",
-          "competition": "Grand Prix de Bahreïn",
-          "title": "Formule 1 : Grand Prix de Bahreïn",
-          "subtitle": null,
-          "description": "En s'imposant lors du Grand Prix d'Italie, Kimi Antonelli (Mercedes) a conforté son statut de patron de la Formule 1, du haut de ses 20 ans. Le jeune Italien, qui devançait largement son équipier George Russell au classement, entend bien conforter son fauteuil de leader ce week-end. Lors des essais libres 2, les pilotes et écuries continueront de peaufiner les réglages de leurs monoplaces sur les longues rectilignes du tracé urbain de Baku.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport.fr",
-            "name": "Canal+ Sport",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-10-02T09:50:00+02:00",
-          "end": "2026-10-02T11:11:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "84ab0d904318",
-          "sport": "ski",
-          "competition": null,
-          "title": "Free Spirits - Saison 2",
-          "subtitle": "Second souffle - biathlon & primal",
-          "description": "L'influenceuse Cass a un rêve audacieux : devenir cascadeuse. Pour y parvenir, elle se lance le défi de maîtriser plusieurs sports extrêmes comme le vélo, le patin à glace ou l'équitation. Coachée par des professionnels, elle apprend la discipline et les gestes techniques, doit affronter ses peurs, chuter et toujours se relever, dans un parcours mêlant moments de doute et scènes spectaculaires.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-10-02T09:51:00+02:00",
-          "end": "2026-10-02T10:29:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d1c65d1c1825",
-          "sport": "football",
-          "competition": "Ligue 3",
-          "title": "Football : Ligue 3 | Paris 13 Atletico / Bastia",
-          "subtitle": "Ligue 3",
-          "description": "1ère période du match de la Journée 8 du Championnat de France de Ligue 3 2026/27 opposant Paris 13 Atletico et SC Bastia",
-          "team1": {
-            "name": "Atlético Madrid",
-            "type": "club",
-            "short": "Atlético",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bastia",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "Ligue1Plus.fr",
-            "name": "Ligue 1+",
-            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
-            "slug": "ligue-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T10:00:00+02:00",
-          "end": "2026-10-02T11:50:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b7649af77a92",
-          "sport": "football",
-          "competition": "Football. Liga · J5",
-          "title": "Real Madrid / Rayo Vallecano",
-          "subtitle": "Football. Liga 5e journée.",
-          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
-          "team1": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Rayo Vallecano",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "DAZN2.fr",
-            "name": "DAZN 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
-            "slug": "dazn-2",
-            "is_free": false
-          },
-          "start": "2026-10-02T10:05:00+02:00",
-          "end": "2026-10-02T12:05:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "29b2cbe228dd",
-          "sport": "voile",
-          "competition": null,
-          "title": "Free Spirits - Saison 2",
-          "subtitle": "Vitesse - voile & roller",
-          "description": "Cass, une influenceuse audacieuse, se lance un défi de taille : devenir cascadeuse. Pour réaliser son rêve, elle doit maîtriser une série de sports extrêmes, du vélo au patin à glace en passant par l'équitation. Chaque discipline est une épreuve où son courage et son équilibre sont mis à rude épreuve. Coachée par des professionnels, elle apprend la technique, affronte ses peurs et se relève de ses chutes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "PlaneteAction.fr",
-            "name": "Planete+ Aventure",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
-            "slug": "planete-aventure",
-            "is_free": false
-          },
-          "start": "2026-10-02T10:29:00+02:00",
-          "end": "2026-10-02T11:09:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "29dfbd97a4e5",
           "sport": "other",
           "competition": null,
@@ -1512,7 +582,7 @@
           },
           "start": "2026-10-02T10:30:00+02:00",
           "end": "2026-10-02T12:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1550,7 +620,7 @@
           },
           "start": "2026-10-02T10:40:00+02:00",
           "end": "2026-10-02T12:24:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1588,7 +658,7 @@
           },
           "start": "2026-10-02T10:40:00+02:00",
           "end": "2026-10-02T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1612,31 +682,7 @@
           },
           "start": "2026-10-02T11:00:00+02:00",
           "end": "2026-10-02T12:58:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "eb09d4d6d03c",
-          "sport": "ski",
-          "competition": "Coupe du monde de descente",
-          "title": "VTT : Coupe du monde de descente",
-          "subtitle": "Course dames. Coupe du monde de descente. 8e manche.",
-          "description": "Coupe du monde de descente. 8e manche. Course dames. A Whistler (Canada).",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport1.fr",
-            "name": "Eurosport 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
-            "slug": "eurosport-1",
-            "is_free": false
-          },
-          "start": "2026-10-02T11:00:00+02:00",
-          "end": "2026-10-02T11:45:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1674,7 +720,7 @@
           },
           "start": "2026-10-02T11:10:00+02:00",
           "end": "2026-10-02T13:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1712,31 +758,7 @@
           },
           "start": "2026-10-02T11:35:00+02:00",
           "end": "2026-10-02T13:21:00+02:00",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "d75a2579484d",
-          "sport": "other",
-          "competition": null,
-          "title": "Spartan Race Morzine 2026 - Championnat du monde ultra",
-          "subtitle": "Spartan Morzine-Avoriaz 2026",
-          "description": "Du 3 au 5 juillet 2026, Morzine-Avoriaz accueillait plusieurs milliers de compétiteurs pour l'un des événements sportifs les plus exigeants et les plus spectaculaires : la Spartan Race et le championnat du monde ultra, un parcours trail de cinquante kilomètres et soixante obstacles titanesques, point culminant de cette compétition hors-normes.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "TV5MondeMaghrebOrient.fr",
-            "name": "TV5MondeMaghrebOrient.fr",
-            "icon_url": null,
-            "slug": "tv5mondemaghreborient-fr",
-            "is_free": false
-          },
-          "start": "2026-10-02T11:44:55+02:00",
-          "end": "2026-10-02T12:11:28+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1760,7 +782,7 @@
           },
           "start": "2026-10-02T11:45:00+02:00",
           "end": "2026-10-02T12:30:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1784,7 +806,7 @@
           },
           "start": "2026-10-02T11:55:00+02:00",
           "end": "2026-10-02T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1808,7 +830,7 @@
           },
           "start": "2026-10-02T11:55:00+02:00",
           "end": "2026-10-02T13:50:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1832,7 +854,7 @@
           },
           "start": "2026-10-02T11:56:00+02:00",
           "end": "2026-10-02T13:47:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1870,7 +892,7 @@
           },
           "start": "2026-10-02T12:00:00+02:00",
           "end": "2026-10-02T13:43:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1908,7 +930,7 @@
           },
           "start": "2026-10-02T12:12:00+02:00",
           "end": "2026-10-02T14:00:00+02:00",
-          "status": "upcoming",
+          "status": "live",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5103,6 +4125,44 @@
           "result": null
         },
         {
+          "id": "aae1fdebe79e",
+          "sport": "football",
+          "competition": "Football américain. NFL · J4",
+          "title": "Cleveland Browns / Pittsburgh Steelers",
+          "subtitle": "Football américain. NFL 4e journée .",
+          "description": "Diffusion d'un match de la NFL (National Football League), championnat de football américain se déroulant aux Etats-Unis et s'achevant par un événement majeur : le Super Bowl. La première saison de cette ligue a été jouée en 1920.",
+          "team1": {
+            "name": "Cleveland Browns",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Pittsburgh Steelers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN.fr",
+            "name": "DAZN 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
+            "slug": "dazn-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T02:15:00+02:00",
+          "end": "2026-10-02T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "7238f083d434",
           "sport": "other",
           "competition": null,
@@ -5282,6 +4342,946 @@
           },
           "start": "2026-10-02T03:45:00+02:00",
           "end": "2026-10-02T05:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "66c181f300a7",
+          "sport": "football",
+          "competition": null,
+          "title": "Sporting de Charleroi / Cercle Bruges",
+          "subtitle": null,
+          "description": "Sporting Charleroi - Cercle Brugge.",
+          "team1": {
+            "name": "Sporting CP",
+            "type": "club",
+            "short": "Sporting",
+            "country_code": "pt",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/744.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Cercle Bruges",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-10-02T03:46:00+02:00",
+          "end": "2026-10-02T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "804bbb0cdc16",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Newcastle / Hull City",
+          "subtitle": "Premier League - 5e journée",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
+          "team1": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hull City",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-10-02T03:47:00+02:00",
+          "end": "2026-10-02T07:21:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "50274c4517cd",
+          "sport": "basket",
+          "competition": "Championnat d'Espagne",
+          "title": "Basket-ball : Championnat d'Espagne | Real Madrid / Unicaja",
+          "subtitle": null,
+          "description": "Suivez en direct ou en différé les rencontres du championnat d'Espagne de basket-ball, l'une des meilleures ligues d'Europe.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Unicaja",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RealMadridTV.es",
+            "name": "REAL MADRID TV",
+            "icon_url": "https://static-cdn.tv.sfr.net/data/img/apps/chaines/logos/RealMadridTV100x100couleur.png",
+            "slug": "real-madrid-tv",
+            "is_free": false
+          },
+          "start": "2026-10-02T04:00:00+02:00",
+          "end": "2026-10-02T06:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "856597d957e5",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Marseille / Paris-SG",
+          "subtitle": null,
+          "description": "1ère période du match de la Journée 5 du Championnat de France de Ligue 1 McDonald's 2026/27 opposant Olympique de Marseille et Paris Saint-Germain",
+          "team1": {
+            "name": "Olympique de Marseille",
+            "type": "club",
+            "short": "OM",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Paris Saint-Germain",
+            "type": "club",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T05:00:00+02:00",
+          "end": "2026-10-02T06:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "625b36fb8b5e",
+          "sport": "football",
+          "competition": "Football. Liga · J3",
+          "title": "Real Madrid / Malaga",
+          "subtitle": "Football. Liga 3e journée.",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Malaga",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN2.fr",
+            "name": "DAZN 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
+            "slug": "dazn-2",
+            "is_free": false
+          },
+          "start": "2026-10-02T06:00:00+02:00",
+          "end": "2026-10-02T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "fbc24a74b15d",
+          "sport": "football",
+          "competition": null,
+          "title": "Anderlecht / Zulte Waregem",
+          "subtitle": null,
+          "description": "RSC Anderlecht - SV Zulte Waregem.",
+          "team1": {
+            "name": "Anderlecht",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Zulte Waregem",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-10-02T06:00:00+02:00",
+          "end": "2026-10-02T08:20:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d95136bb432a",
+          "sport": "other",
+          "competition": null,
+          "title": "Judd Trump - Si Jiahui",
+          "subtitle": "Shenzhen Open | Huitième de finale",
+          "description": "Toujours imprévisible à 50 ans, Ronnie O'Sullivan, alias The Rocket, demeure un candidat sérieux à la victoire dès qu'il s'aligne dans un tournoi majeur en Chine. Il fait partie des favoris pour cette édition de l'Open de Shenzhen, avec également Zhao Xintong. De retour au premier plan, le Chinois, nouveau numéro un mondial, est une des têtes d'affiche très attendues par le public local.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "EurosportInternational1.fr",
+            "name": "Eurosport International 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/101/canal-ouah/CHN43FB/CHN43FB_101_20220110?=.png",
+            "slug": "eurosport-international-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T06:00:00+02:00",
+          "end": "2026-10-02T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d2efd52bc4fc",
+          "sport": "f1",
+          "competition": "Grand Prix de Bahreïn",
+          "title": "Formule 1 : Grand Prix de Bahreïn",
+          "subtitle": null,
+          "description": "A découvrir cette saison de nouvelles monoplaces Moteur hybride : 50% de la puissance totale du groupe propulseur provient désormais de l'énergie électrique. Aérodynamique active : remplacement du DRS par un système d'ailerons avant et arrière mobiles. Carburants durables : utilisation de composants avancés pour réduire les émissions de gaz à effet de serre. Poids réduit : diminution de 30 kilos pour des monoplaces plus agiles et réactives. Un nouveau calendrier Un Grand Prix™ à Madrid fait son apparition : une course sur circuit urbain, prévue le 13 septembre. Les Grand Prix™ du Canada et de Monaco échangent leur place au calendrier (Canada le 24 mai, Monaco le 7 juin). Sprint : Six week-ends Sprint seront prévus, avec la première session à Shanghaï et la dernière à Singapour. Et de nouvelles écuries Arrivée d'une 11e équipe : Cadillac. Apparition d'Audi en lieu et place de Sauber.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-10-02T06:15:00+02:00",
+          "end": "2026-10-02T07:41:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "754f84a37c7d",
+          "sport": "boxe",
+          "competition": "Zuffa Boxing",
+          "title": "Boxe : Zuffa Boxing | Ryan Garcia / Conor Benn",
+          "subtitle": null,
+          "description": "A suivre, des combats qui se déroulent dans le cadre du Zuffa Boxing, la fédération de boxe créée en 2025 par Dana White et Turki Al-Sheikh.",
+          "team1": {
+            "name": "Ryan Garcia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Conor Benn",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T07:00:00+02:00",
+          "end": "2026-10-02T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2ec5be3abba8",
+          "sport": "football",
+          "competition": null,
+          "title": "La Liga Post-Season",
+          "subtitle": "The Meaning: Laliga Genuine",
+          "description": null,
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "DAZN.fr",
+            "name": "DAZN 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
+            "slug": "dazn-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T07:10:00+02:00",
+          "end": "2026-10-02T08:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "e98e486f835a",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Newcastle / Hull City",
+          "subtitle": "Premier League - 5e journée",
+          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
+          "team1": {
+            "name": "Newcastle United",
+            "type": "club",
+            "short": "Newcastle",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hull City",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-10-02T07:21:00+02:00",
+          "end": "2026-10-02T09:07:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b6073beb6827",
+          "sport": "football",
+          "competition": "Liga 2",
+          "title": "Leganes / Castellon",
+          "subtitle": "Liga 2 - 7e 2e journée",
+          "description": "Suivez des matchs de LaLiga 2, le deuxième division professionnelle masculine de football en Espagne. Antichambre de l'élite, cette division permet aux clubs de rêver à l'accession en Liga soit en s'emparant d'une des deux premières places, qui les envoient automatiquement dans la division supérieure, soit au terme des barrages disputés en fin de saison entre les équipes classées de la troisième à la sixième place. Créé en 1929, il se compose de 22 clubs actuellement.",
+          "team1": {
+            "name": "Leganes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Castellon",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport4.af",
+            "name": "Canal+ Sport 4",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180393/canal-ouah/CHN43FB/CANALSPORT4_640x480-Copie-h9hW?=.png",
+            "slug": "canal-plus-sport-4",
+            "is_free": false
+          },
+          "start": "2026-10-02T07:52:00+02:00",
+          "end": "2026-10-02T09:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "797e9d881a5f",
+          "sport": "football",
+          "competition": "Football. Serie A · J4",
+          "title": "Lazio Rome / AC Milan",
+          "subtitle": "Football. Serie A 4e journée.",
+          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
+          "team1": {
+            "name": "Lazio Rome",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "AC Milan",
+            "type": "club",
+            "short": "AC Milan",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN2.fr",
+            "name": "DAZN 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
+            "slug": "dazn-2",
+            "is_free": false
+          },
+          "start": "2026-10-02T08:00:00+02:00",
+          "end": "2026-10-02T10:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "a4db5ab28884",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "VTT",
+          "description": "Suivez la Coupe du monde de descente, une série de courses de VTT multi-épreuves gérée par l'Union Cycliste Internationale. La première série de Coupes du monde, composée d'épreuves de cross-country, a eu lieu en 1989. La Coupe du monde de descente a été inaugurée deux ans plus tard, et celle de slalom double en 1998. Les coureurs gagnent des points en fonction de leur classement dans chaque épreuve.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-10-02T08:00:00+02:00",
+          "end": "2026-10-02T09:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "648a76e63b10",
+          "sport": "football",
+          "competition": null,
+          "title": "AEK Athènes - LASK Linz",
+          "subtitle": null,
+          "description": "Premier match du League Phase de l'UEFA Champions League : AEK Athènes - LASK Linz.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1F.be",
+            "name": "PickxPlusSports1F.be",
+            "icon_url": null,
+            "slug": "pickxplussports1f-be",
+            "is_free": false
+          },
+          "start": "2026-10-02T08:00:00+02:00",
+          "end": "2026-10-02T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "86fe75a78186",
+          "sport": "football",
+          "competition": null,
+          "title": "AEK Athene - LASK Linz",
+          "subtitle": null,
+          "description": "Eerste match van de League Phase in de UEFA Champions League: AEK Athene - LASK Linz.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PickxPlusSports1N.be",
+            "name": "PickxPlusSports1N.be",
+            "icon_url": null,
+            "slug": "pickxplussports1n-be",
+            "is_free": false
+          },
+          "start": "2026-10-02T08:00:00+02:00",
+          "end": "2026-10-02T09:55:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b60f6806cfd2",
+          "sport": "football",
+          "competition": null,
+          "title": "Afrofoot - S02E03",
+          "subtitle": null,
+          "description": "Débrief du weekend et pronostic de la semaine. Débats sur l'actualité. Une émission 100% ballon rond à travers les terrain du monde, présentée par Malik Eudy, et son équipe de spécialistes",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Telesud.fr",
+            "name": "Télésud",
+            "icon_url": "https://focus.telerama.fr/500x500/0000/00/01/clear-449.png",
+            "slug": "t-l-sud",
+            "is_free": false
+          },
+          "start": "2026-10-02T08:17:00+02:00",
+          "end": "2026-10-02T08:44:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "05cd3f284e7a",
+          "sport": "football",
+          "competition": null,
+          "title": "Lommel / Malines",
+          "subtitle": null,
+          "description": "Lommel SK - KV Mechelen.",
+          "team1": {
+            "name": "Lommel",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Malines",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "ElevenProL1.be",
+            "name": "ElevenProL1",
+            "icon_url": null,
+            "slug": "elevenprol1",
+            "is_free": false
+          },
+          "start": "2026-10-02T08:20:00+02:00",
+          "end": "2026-10-02T10:40:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "760ecf85a674",
+          "sport": "equitation",
+          "competition": null,
+          "title": "CSI 4* 1m50 - Prix Ville de Fontainebleau",
+          "subtitle": "Le Printemps des Sports Equestre...",
+          "description": "Une plongée au coeur de l'un des plus grands événements équestres français qui propose une couverture des compétitions de saut d'obstacles, de dressage et de concours complet.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "ChevalTV.fr",
+            "name": "Cheval TV",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1182/canal-ouah/CHN43FB/CHN43FB_1182_20251013-UlME?=.png",
+            "slug": "cheval-tv",
+            "is_free": false
+          },
+          "start": "2026-10-02T08:50:00+02:00",
+          "end": "2026-10-02T10:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9f0ef42a2eab",
+          "sport": "other",
+          "competition": "Coupe du monde BMX Racing",
+          "title": "BMX : Coupe du monde BMX Racing",
+          "subtitle": "BMX",
+          "description": "La coupe du monde de BMX Racing est une série de compétitions internationales de BMX organisée chaque année par l'Union Cycliste Internationale. Plusieurs manches sont disputées au cours de l'année, dans différents pays, pour couronner un classement général par catégories.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport36011.fr",
+            "name": "EUROSPORT 360 11",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1107/canal-ouah/CHN43FB/CHN43FB_1107_20240716-EUam?=.png",
+            "slug": "eurosport-360-11",
+            "is_free": false
+          },
+          "start": "2026-10-02T09:00:00+02:00",
+          "end": "2026-10-02T10:30:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f27c16b7d346",
+          "sport": "basket",
+          "competition": "NBA",
+          "title": "Basket-ball : NBA",
+          "subtitle": null,
+          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "beINSPORTS1.fr",
+            "name": "beIN SPORTS 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
+            "slug": "bein-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T09:00:00+02:00",
+          "end": "2026-10-02T10:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f4a6c1eefdff",
+          "sport": "other",
+          "competition": null,
+          "title": "Strikers - Saison 1",
+          "subtitle": "Forces invisibles",
+          "description": "En Premier League, le talent et l’entraînement ne suffisent pas. Pour relever les défis de ce début de saison, nos 5 attaquants vont aussi puiser des ressources auprès de leur famille et dans leurs expériences passées. Des \" forces invisibles \" qui les façonnent et peuvent tout changer quand les difficultés s’accumulent, comme pour Junior Kroupi et Georginio Rutter.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-10-02T09:07:00+02:00",
+          "end": "2026-10-02T09:48:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "339c2b073d86",
+          "sport": "voile",
+          "competition": null,
+          "title": "H2O Aquabike World Championship",
+          "subtitle": "Season Review - Ski Division & Ski Ladies",
+          "description": "After over 85 championships in over 12 countries, the P1 world is fast, and growing. The international motorboat racing competition organised by the Union Internationale Motornautique (UIM) is the highest class of inshore powerboat racing, proving to be an adrenaline rush for both participants and spectators.The UIM-ABP H20 Racing Aquabike World Championship is the premier international Jet Ski competition that sees elite riders compete on cutting edge equipment in four categories: Runabout, Ski, Ski Ladies and Freestyle. The need for speed is demonstrated on this extreme water sport as athletes plough across the water.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "NauticalChannel.fr",
+            "name": "Nautical Channel",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~20b8b9cb6d9c4582.png/480x480/quality/100/nautical-channel.png",
+            "slug": "nautical-channel",
+            "is_free": false
+          },
+          "start": "2026-10-02T09:30:00+02:00",
+          "end": "2026-10-02T10:00:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "8543cae51548",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Bournemouth / Liverpool",
+          "subtitle": "Premier League - 5e journée",
+          "description": "Les Reds se déplacent au Vitality Stadium pour y affronter les Cherries de Bournemouth. Les deux équipes n'avaient pas remporté le moindre match lors des deux premières journées.",
+          "team1": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Liverpool FC",
+            "type": "club",
+            "short": "Liverpool",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport3.af",
+            "name": "Canal+ Sport 3",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180149/canal-ouah/CHN43FB/CANALSPORT3_640x480-Copie-K76P?=.png",
+            "slug": "canal-plus-sport-3",
+            "is_free": false
+          },
+          "start": "2026-10-02T09:48:00+02:00",
+          "end": "2026-10-02T11:35:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "756e78c0bd53",
+          "sport": "f1",
+          "competition": "Grand Prix de Bahreïn",
+          "title": "Formule 1 : Grand Prix de Bahreïn",
+          "subtitle": null,
+          "description": "En s'imposant lors du Grand Prix d'Italie, Kimi Antonelli (Mercedes) a conforté son statut de patron de la Formule 1, du haut de ses 20 ans. Le jeune Italien, qui devançait largement son équipier George Russell au classement, entend bien conforter son fauteuil de leader ce week-end. Lors des essais libres 2, les pilotes et écuries continueront de peaufiner les réglages de leurs monoplaces sur les longues rectilignes du tracé urbain de Baku.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-10-02T09:50:00+02:00",
+          "end": "2026-10-02T11:11:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "84ab0d904318",
+          "sport": "ski",
+          "competition": null,
+          "title": "Free Spirits - Saison 2",
+          "subtitle": "Second souffle - biathlon & primal",
+          "description": "L'influenceuse Cass a un rêve audacieux : devenir cascadeuse. Pour y parvenir, elle se lance le défi de maîtriser plusieurs sports extrêmes comme le vélo, le patin à glace ou l'équitation. Coachée par des professionnels, elle apprend la discipline et les gestes techniques, doit affronter ses peurs, chuter et toujours se relever, dans un parcours mêlant moments de doute et scènes spectaculaires.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-10-02T09:51:00+02:00",
+          "end": "2026-10-02T10:29:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d1c65d1c1825",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Paris 13 Atletico / Bastia",
+          "subtitle": "Ligue 3",
+          "description": "1ère période du match de la Journée 8 du Championnat de France de Ligue 3 2026/27 opposant Paris 13 Atletico et SC Bastia",
+          "team1": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bastia",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T10:00:00+02:00",
+          "end": "2026-10-02T11:50:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "b7649af77a92",
+          "sport": "football",
+          "competition": "Football. Liga · J5",
+          "title": "Real Madrid / Rayo Vallecano",
+          "subtitle": "Football. Liga 5e journée.",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rayo Vallecano",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN2.fr",
+            "name": "DAZN 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
+            "slug": "dazn-2",
+            "is_free": false
+          },
+          "start": "2026-10-02T10:05:00+02:00",
+          "end": "2026-10-02T12:05:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "29b2cbe228dd",
+          "sport": "voile",
+          "competition": null,
+          "title": "Free Spirits - Saison 2",
+          "subtitle": "Vitesse - voile & roller",
+          "description": "Cass, une influenceuse audacieuse, se lance un défi de taille : devenir cascadeuse. Pour réaliser son rêve, elle doit maîtriser une série de sports extrêmes, du vélo au patin à glace en passant par l'équitation. Chaque discipline est une épreuve où son courage et son équilibre sont mis à rude épreuve. Coachée par des professionnels, elle apprend la technique, affronte ses peurs et se relève de ses chutes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "PlaneteAction.fr",
+            "name": "Planete+ Aventure",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~aa6befb976febe46.png/480x480/quality/100/planete-aventure-experience.png",
+            "slug": "planete-aventure",
+            "is_free": false
+          },
+          "start": "2026-10-02T10:29:00+02:00",
+          "end": "2026-10-02T11:09:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "eb09d4d6d03c",
+          "sport": "ski",
+          "competition": "Coupe du monde de descente",
+          "title": "VTT : Coupe du monde de descente",
+          "subtitle": "Course dames. Coupe du monde de descente. 8e manche.",
+          "description": "Coupe du monde de descente. 8e manche. Course dames. A Whistler (Canada).",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport1.fr",
+            "name": "Eurosport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~277882f801bd3f7b.png/480x480/quality/100/eurosport-1.png",
+            "slug": "eurosport-1",
+            "is_free": false
+          },
+          "start": "2026-10-02T11:00:00+02:00",
+          "end": "2026-10-02T11:45:00+02:00",
+          "status": "finished",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "d75a2579484d",
+          "sport": "other",
+          "competition": null,
+          "title": "Spartan Race Morzine 2026 - Championnat du monde ultra",
+          "subtitle": "Spartan Morzine-Avoriaz 2026",
+          "description": "Du 3 au 5 juillet 2026, Morzine-Avoriaz accueillait plusieurs milliers de compétiteurs pour l'un des événements sportifs les plus exigeants et les plus spectaculaires : la Spartan Race et le championnat du monde ultra, un parcours trail de cinquante kilomètres et soixante obstacles titanesques, point culminant de cette compétition hors-normes.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "TV5MondeMaghrebOrient.fr",
+            "name": "TV5MondeMaghrebOrient.fr",
+            "icon_url": null,
+            "slug": "tv5mondemaghreborient-fr",
+            "is_free": false
+          },
+          "start": "2026-10-02T11:44:55+02:00",
+          "end": "2026-10-02T12:11:28+02:00",
           "status": "finished",
           "score1": null,
           "score2": null,
