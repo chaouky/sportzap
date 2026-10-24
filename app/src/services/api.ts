@@ -90,10 +90,11 @@ export async function fetchEvents(options?: {
   if (options?.freeOnly) events = events.filter(e => e.channel.is_free);
 
   const now = new Date();
-  events = events.map(e => ({ ...e, status: computeStatus(e.start, e.end, now) }));
+  events = events.map(e => ({ ...e, status: computeStatus(e.kickoff || e.start, e.end, now) }));
   events.sort((a, b) => {
     const ord = { live: 0, upcoming: 1, finished: 2 };
-    return (ord[a.status] ?? 1) - (ord[b.status] ?? 1) || a.start.localeCompare(b.start);
+    return (ord[a.status] ?? 1) - (ord[b.status] ?? 1)
+      || (a.kickoff || a.start).localeCompare(b.kickoff || b.start);
   });
 
   return {

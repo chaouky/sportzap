@@ -10,9 +10,11 @@
 import React from "react";
 import {
   View, Text, ScrollView, TouchableOpacity,
-  StyleSheet, SafeAreaView, Switch,
+  StyleSheet,
 } from "react-native";
-import { COLORS } from "../constants";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { COLORS, FONTS } from "../constants";
+import { Icon } from "../components/Icon";
 import {
   CHANNEL_GROUPS,
   ALL_CHANNELS,
@@ -33,7 +35,7 @@ export function ChannelsScreen() {
   } = useChannels();
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={styles.safe} edges={["top"]}>
       <ScrollView
         style={styles.scroll}
         contentContainerStyle={styles.scrollContent}
@@ -58,13 +60,13 @@ export function ChannelsScreen() {
             style={[styles.quickBtn, styles.quickBtnOutline]}
             onPress={selectFreeOnly}
           >
-            <Text style={styles.quickBtnOutlineText}>🆓  TNT seule</Text>
+            <Text style={styles.quickBtnOutlineText}>TNT seule</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={[styles.quickBtn, styles.quickBtnFilled]}
             onPress={selectAll}
           >
-            <Text style={styles.quickBtnFilledText}>✦  Tout activer</Text>
+            <Text style={styles.quickBtnFilledText}>Tout activer</Text>
           </TouchableOpacity>
         </View>
 
@@ -92,7 +94,6 @@ export function ChannelsScreen() {
                 activeOpacity={0.7}
               >
                 <View style={styles.groupHeaderLeft}>
-                  <Text style={styles.groupIcon}>{group.icon}</Text>
                   <View>
                     <View style={styles.groupTitleRow}>
                       <Text style={styles.groupTitle}>{group.label}</Text>
@@ -110,7 +111,7 @@ export function ChannelsScreen() {
                   groupState === "all" && styles.groupToggleActive,
                   groupState === "some" && styles.groupTogglePartial,
                 ]}>
-                  {groupState === "all" && <Text style={styles.groupToggleCheck}>✓</Text>}
+                  {groupState === "all" && <Icon name="check" size={16} color={COLORS.onAccent} strokeWidth={3} />}
                   {groupState === "some" && <Text style={styles.groupToggleDash}>—</Text>}
                 </View>
               </TouchableOpacity>
@@ -154,7 +155,7 @@ export function ChannelsScreen() {
                         styles.channelCheck,
                         selected && styles.channelCheckActive,
                       ]}>
-                        {selected && <Text style={styles.channelCheckMark}>✓</Text>}
+                        {selected && <Icon name="check" size={14} color={COLORS.onAccent} strokeWidth={3} />}
                       </View>
                     </TouchableOpacity>
                   );
@@ -179,170 +180,131 @@ export function ChannelsScreen() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: COLORS.bg },
   scroll: { flex: 1 },
-  scrollContent: { paddingBottom: 120 },
+  scrollContent: { paddingBottom: 140 },
 
   // Header
-  header: { paddingHorizontal: 22, paddingTop: 8 },
+  header: { paddingHorizontal: 20, paddingTop: 12 },
   title: {
-    fontSize: 36, fontWeight: "400",
-    fontFamily: "InstrumentSerif",
-    color: COLORS.text, letterSpacing: -1,
+    fontFamily: FONTS.display, fontSize: 46, lineHeight: 46,
+    textTransform: "uppercase", color: COLORS.text,
   },
-  titleAccent: { fontStyle: "italic", color: COLORS.accent },
+  titleAccent: { color: COLORS.accent },
   subtitle: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono",
-    letterSpacing: 1.5, marginTop: 4,
+    fontFamily: FONTS.bodySemi, fontSize: 12, letterSpacing: 1.2,
+    color: COLORS.textSecondary, marginTop: 6,
   },
   headerDesc: {
-    fontSize: 14, color: COLORS.textSecondary,
-    marginTop: 12, lineHeight: 20,
+    fontFamily: FONTS.body, fontSize: 15, color: COLORS.textSecondary,
+    marginTop: 10, lineHeight: 21,
   },
 
   // Quick actions
   quickActions: {
     flexDirection: "row", gap: 8,
-    paddingHorizontal: 22, marginTop: 20,
+    paddingHorizontal: 20, marginTop: 20,
   },
   quickBtn: {
-    flex: 1, paddingVertical: 12, borderRadius: 14,
-    alignItems: "center",
+    flex: 1, minHeight: 48, borderRadius: 14,
+    alignItems: "center", justifyContent: "center",
   },
   quickBtnOutline: {
-    borderWidth: 1.5, borderColor: "rgba(0,0,0,0.08)",
-    backgroundColor: "#fff",
+    borderWidth: 1, borderColor: COLORS.borderActive,
+    backgroundColor: COLORS.card,
   },
   quickBtnOutlineText: {
-    fontSize: 13, fontWeight: "600", color: COLORS.text,
-    fontFamily: "DMMono",
+    fontFamily: FONTS.displayBold, fontSize: 17, letterSpacing: 0.6,
+    textTransform: "uppercase", color: COLORS.text,
   },
-  quickBtnFilled: { backgroundColor: COLORS.text },
+  quickBtnFilled: { backgroundColor: COLORS.accent },
   quickBtnFilledText: {
-    fontSize: 13, fontWeight: "600", color: COLORS.bg,
-    fontFamily: "DMMono",
+    fontFamily: FONTS.displayBold, fontSize: 17, letterSpacing: 0.6,
+    textTransform: "uppercase", color: COLORS.onAccent,
   },
 
   // Stats
   statsBar: {
     flexDirection: "row", justifyContent: "space-between",
     alignItems: "center",
-    paddingHorizontal: 22, marginTop: 20, marginBottom: 8,
+    paddingHorizontal: 20, marginTop: 20, marginBottom: 8,
   },
-  statsText: {
-    fontSize: 13, fontWeight: "600",
-    fontFamily: "DMMono", color: COLORS.text,
-  },
-  statsDetail: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono",
-  },
+  statsText: { fontFamily: FONTS.displayBold, fontSize: 18, color: COLORS.text },
+  statsDetail: { fontFamily: FONTS.body, fontSize: 13, color: COLORS.textSecondary },
 
   // Groups
-  group: { marginTop: 16, paddingHorizontal: 22 },
+  group: { marginTop: 16, paddingHorizontal: 20 },
   groupHeader: {
     flexDirection: "row", justifyContent: "space-between",
     alignItems: "center",
     paddingVertical: 14,
-    borderBottomWidth: 1,
-    borderBottomColor: "rgba(0,0,0,0.04)",
+    borderBottomWidth: 1, borderBottomColor: COLORS.border,
   },
   groupHeaderLeft: {
     flexDirection: "row", alignItems: "center", gap: 12, flex: 1,
   },
   groupIcon: { fontSize: 22 },
-  groupTitleRow: {
-    flexDirection: "row", alignItems: "center", gap: 8,
-  },
+  groupTitleRow: { flexDirection: "row", alignItems: "center", gap: 8 },
   groupTitle: {
-    fontSize: 16, fontWeight: "400",
-    fontFamily: "InstrumentSerif", color: COLORS.text,
+    fontFamily: FONTS.displayBold, fontSize: 22, letterSpacing: 0.4,
+    textTransform: "uppercase", color: COLORS.text,
   },
   groupDesc: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono", marginTop: 2,
-    maxWidth: 240,
+    fontFamily: FONTS.body, fontSize: 13, color: COLORS.textSecondary,
+    marginTop: 2, maxWidth: 260,
   },
   freeTag: {
-    backgroundColor: "rgba(22,163,74,0.08)",
-    paddingHorizontal: 6, paddingVertical: 2,
-    borderRadius: 4,
+    backgroundColor: "rgba(200,255,46,0.14)",
+    paddingHorizontal: 7, paddingVertical: 2, borderRadius: 5,
   },
   freeTagText: {
-    fontSize: 9, fontWeight: "700", color: "#16A34A",
-    fontFamily: "DMMono", letterSpacing: 0.5,
+    fontFamily: FONTS.displayBold, fontSize: 12, letterSpacing: 1,
+    color: COLORS.accent,
   },
   groupToggle: {
     width: 28, height: 28, borderRadius: 8,
-    borderWidth: 2, borderColor: "rgba(0,0,0,0.1)",
+    borderWidth: 2, borderColor: COLORS.borderActive,
     alignItems: "center", justifyContent: "center",
   },
-  groupToggleActive: {
-    backgroundColor: COLORS.text, borderColor: COLORS.text,
-  },
-  groupTogglePartial: {
-    backgroundColor: "rgba(0,0,0,0.06)", borderColor: "rgba(0,0,0,0.15)",
-  },
-  groupToggleCheck: {
-    fontSize: 14, fontWeight: "700", color: "#fff",
-  },
-  groupToggleDash: {
-    fontSize: 14, fontWeight: "700", color: "rgba(0,0,0,0.4)",
-  },
+  groupToggleActive: { backgroundColor: COLORS.accent, borderColor: COLORS.accent },
+  groupTogglePartial: { backgroundColor: COLORS.surface2, borderColor: COLORS.borderActive },
+  groupToggleCheck: { fontSize: 14, color: COLORS.onAccent },
+  groupToggleDash: { fontFamily: FONTS.bodySemi, fontSize: 14, color: COLORS.textSecondary },
 
   // Channels
   channelList: {
-    backgroundColor: "#fff",
-    borderRadius: 16,
-    marginTop: 8,
-    borderWidth: 1,
-    borderColor: "rgba(0,0,0,0.04)",
-    overflow: "hidden",
+    backgroundColor: COLORS.card, borderRadius: 18, marginTop: 8,
+    borderWidth: 1, borderColor: COLORS.border, overflow: "hidden",
   },
   channelRow: {
     flexDirection: "row", justifyContent: "space-between",
     alignItems: "center",
     paddingVertical: 12, paddingHorizontal: 14,
-    borderBottomWidth: 1,
-    borderBottomColor: "rgba(0,0,0,0.03)",
+    borderBottomWidth: 1, borderBottomColor: COLORS.border,
   },
   channelRowLast: { borderBottomWidth: 0 },
-  channelLeft: {
-    flexDirection: "row", alignItems: "center", gap: 12, flex: 1,
-  },
+  channelLeft: { flexDirection: "row", alignItems: "center", gap: 12, flex: 1 },
   channelBadge: {
-    width: 38, height: 26, borderRadius: 6,
+    width: 46, height: 28, borderRadius: 7,
+    borderWidth: 1, borderColor: COLORS.borderActive,
     alignItems: "center", justifyContent: "center",
   },
-  channelBadgeText: {
-    fontSize: 10, fontWeight: "800",
-    letterSpacing: -0.3,
-  },
-  channelName: {
-    fontSize: 14, fontWeight: "500", color: COLORS.text,
-  },
-  channelNameInactive: { color: "rgba(0,0,0,0.3)" },
+  channelBadgeText: { fontFamily: FONTS.displayBold, fontSize: 14 },
+  channelName: { fontFamily: FONTS.bodySemi, fontSize: 15, color: COLORS.text },
+  channelNameInactive: { color: COLORS.textTertiary },
   channelSports: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono", marginTop: 1,
+    fontFamily: FONTS.body, fontSize: 12, color: COLORS.textSecondary, marginTop: 1,
   },
   channelCheck: {
-    width: 24, height: 24, borderRadius: 12,
-    borderWidth: 2, borderColor: "rgba(0,0,0,0.1)",
+    width: 26, height: 26, borderRadius: 13,
+    borderWidth: 2, borderColor: COLORS.borderActive,
     alignItems: "center", justifyContent: "center",
   },
-  channelCheckActive: {
-    backgroundColor: COLORS.accent, borderColor: COLORS.accent,
-  },
-  channelCheckMark: {
-    fontSize: 12, fontWeight: "700", color: "#fff",
-  },
+  channelCheckActive: { backgroundColor: COLORS.accent, borderColor: COLORS.accent },
+  channelCheckMark: { fontSize: 12, color: COLORS.onAccent },
 
   // Footer
-  footer: {
-    paddingHorizontal: 22, paddingTop: 24, paddingBottom: 40,
-  },
+  footer: { paddingHorizontal: 20, paddingTop: 24, paddingBottom: 40 },
   footerText: {
-    fontSize: 12, color: COLORS.textTertiary,
-    textAlign: "center", lineHeight: 18,
+    fontFamily: FONTS.body, fontSize: 13, color: COLORS.textTertiary,
+    textAlign: "center", lineHeight: 19,
   },
 });

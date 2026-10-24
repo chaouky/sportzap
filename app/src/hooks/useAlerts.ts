@@ -66,7 +66,7 @@ export function useAlerts() {
 
       const notifId = await scheduleMatchAlert({
         eventId: event.id,
-        matchStart: event.start,
+        matchStart: event.kickoff || event.start,
         title: `${emoji} ${teams}`,
         subtitle: event.competition || event.sport,
         channel: event.channel.name,
@@ -91,6 +91,7 @@ export function useAlerts() {
       events.map(e => ({
         id: e.id,
         start: e.start,
+        kickoff: e.kickoff,
         team1: e.team1 ? { name: e.team1.name } : null,
         team2: e.team2 ? { name: e.team2.name } : null,
         competition: e.competition,

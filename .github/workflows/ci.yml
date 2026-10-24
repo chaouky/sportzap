@@ -38,6 +38,11 @@ jobs:
           cd backend
           python tests/test_channels.py
 
+      - name: Run schedule refinement test (kickoff + replays)
+        run: |
+          cd backend
+          python tests/test_schedule_refine.py
+
   app-typecheck:
     name: App TypeScript Check
     runs-on: ubuntu-latest

@@ -5,12 +5,12 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "scheme": "sportzap",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0C1222"
+      "backgroundColor": "#0A0E1A"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -31,7 +31,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#1E1B4B"
+        "backgroundColor": "#C8FF2E"
       },
       "package": "fr.sportzap.app",
       "versionCode": 1,
@@ -50,11 +50,13 @@
         "expo-notifications",
         {
           "icon": "./assets/notification-icon.png",
-          "color": "#6366F1",
+          "color": "#C8FF2E",
           "sounds": []
         }
       ],
-      "expo-asset"
+      "expo-asset",
+      "expo-splash-screen",
+      "expo-status-bar"
     ],
     "extra": {
       "eas": {

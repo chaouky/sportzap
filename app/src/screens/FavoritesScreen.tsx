@@ -11,9 +11,11 @@
 import React, { useState, useMemo } from "react";
 import {
   View, Text, ScrollView, TouchableOpacity, TextInput,
-  StyleSheet, SafeAreaView, Image,
+  StyleSheet, Image,
 } from "react-native";
-import { COLORS } from "../constants";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { COLORS, FONTS } from "../constants";
+import { Icon } from "../components/Icon";
 import { COMPETITIONS, POPULAR_TEAMS, Followable } from "../constants/favorites";
 import { useFavorites } from "../hooks/useFavorites";
 
@@ -42,16 +44,16 @@ function FollowableRow({ item, isFollowed, onToggle }: {
       <View style={styles.itemLeft}>
         {/* Avatar */}
         {item.logoUrl ? (
-          <View style={[styles.itemAvatar, { backgroundColor: `${item.badgeBg}10`, borderColor: `${item.badgeBg}20` }]}>
+          <View style={[styles.itemAvatar, styles.itemAvatarLogo]}>
             <Image source={{ uri: item.logoUrl }} style={{ width: 24, height: 24 }} resizeMode="contain" />
           </View>
         ) : item.flagCode ? (
-          <View style={[styles.itemAvatar, { borderColor: "rgba(0,0,0,0.06)", overflow: "hidden" }]}>
+          <View style={[styles.itemAvatar, { overflow: "hidden" }]}>
             <Image source={{ uri: `https://flagcdn.com/w80/${item.flagCode}.png` }} style={{ width: 38, height: 38 }} resizeMode="cover" />
           </View>
         ) : (
-          <View style={[styles.itemAvatar, { backgroundColor: `${item.badgeBg}15` }]}>
-            <Text style={[styles.itemAvatarText, { color: item.badgeBg }]}>{item.short.slice(0, 3)}</Text>
+          <View style={[styles.itemAvatar, styles.itemAvatarMono]}>
+            <Text style={styles.itemAvatarText}>{item.short.slice(0, 3)}</Text>
           </View>
         )}
 
@@ -119,7 +121,7 @@ export function FavoritesScreen() {
   }, [filteredItems]);
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={styles.safe} edges={["top"]}>
       <ScrollView
         style={styles.scroll}
         contentContainerStyle={styles.scrollContent}
@@ -138,18 +140,19 @@ export function FavoritesScreen() {
 
         {/* ── Search ── */}
         <View style={styles.searchContainer}>
-          <Text style={styles.searchIcon}>🔍</Text>
+          <View style={styles.searchIcon}><Icon name="search" size={18} color={COLORS.textSecondary} /></View>
           <TextInput
             style={styles.searchInput}
             placeholder="Rechercher une équipe, une compétition..."
-            placeholderTextColor="rgba(0,0,0,0.25)"
+            placeholderTextColor={COLORS.textTertiary}
+            selectionColor={COLORS.accent}
             value={search}
             onChangeText={setSearch}
             onFocus={() => setActiveTab("discover")}
           />
           {search.length > 0 && (
             <TouchableOpacity onPress={() => setSearch("")}>
-              <Text style={styles.searchClear}>✕</Text>
+              <View style={styles.searchClear}><Icon name="close" size={18} color={COLORS.textSecondary} /></View>
             </TouchableOpacity>
           )}
         </View>
@@ -182,7 +185,7 @@ export function FavoritesScreen() {
           <View style={styles.content}>
             {followedItems.length === 0 ? (
               <View style={styles.empty}>
-                <Text style={styles.emptyIcon}>⭐</Text>
+                <Icon name="star" size={40} color={COLORS.textTertiary} />
                 <Text style={styles.emptyTitle}>Aucun favori</Text>
                 <Text style={styles.emptyDesc}>
                   Suivez des équipes et compétitions pour retrouver{"\n"}leurs événements en priorité.
@@ -237,7 +240,7 @@ export function FavoritesScreen() {
           <View style={styles.content}>
             {search && filteredItems.length === 0 ? (
               <View style={styles.empty}>
-                <Text style={styles.emptyIcon}>🔍</Text>
+                <Icon name="search" size={40} color={COLORS.textTertiary} />
                 <Text style={styles.emptyTitle}>Aucun résultat</Text>
                 <Text style={styles.emptyDesc}>
                   Essayez un autre terme de recherche
@@ -247,7 +250,6 @@ export function FavoritesScreen() {
               groupedDiscover.map(group => (
                 <View key={group.sport} style={styles.section}>
                   <View style={styles.sectionHeader}>
-                    <Text style={styles.sectionIcon}>{group.icon}</Text>
                     <Text style={styles.sectionLabel}>{group.label.toUpperCase()}</Text>
                     <View style={styles.sectionLine} />
                   </View>
@@ -292,146 +294,114 @@ export function FavoritesScreen() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: COLORS.bg },
   scroll: { flex: 1 },
-  scrollContent: { paddingBottom: 120 },
+  scrollContent: { paddingBottom: 140 },
 
-  header: { paddingHorizontal: 22, paddingTop: 8 },
+  header: { paddingHorizontal: 20, paddingTop: 12 },
   title: {
-    fontSize: 36, fontWeight: "400",
-    fontFamily: "InstrumentSerif",
-    color: COLORS.text, letterSpacing: -1,
+    fontFamily: FONTS.display, fontSize: 46, lineHeight: 46,
+    textTransform: "uppercase", color: COLORS.text,
   },
-  titleAccent: { fontStyle: "italic", color: COLORS.accent },
+  titleAccent: { color: COLORS.accent },
   subtitle: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono", letterSpacing: 1.5, marginTop: 4,
+    fontFamily: FONTS.bodySemi, fontSize: 12, letterSpacing: 1.2,
+    color: COLORS.textSecondary, marginTop: 6,
   },
 
   // Search
   searchContainer: {
     flexDirection: "row", alignItems: "center",
-    backgroundColor: "#fff",
-    borderRadius: 14, borderWidth: 1,
-    borderColor: "rgba(0,0,0,0.06)",
-    marginHorizontal: 22, marginTop: 20,
-    paddingHorizontal: 14, height: 46,
+    backgroundColor: COLORS.card,
+    borderRadius: 14, borderWidth: 1, borderColor: COLORS.border,
+    marginHorizontal: 20, marginTop: 20,
+    paddingHorizontal: 14, height: 48,
   },
-  searchIcon: { fontSize: 14, marginRight: 10, opacity: 0.3 },
+  searchIcon: { marginRight: 10 },
   searchInput: {
-    flex: 1, fontSize: 14, color: COLORS.text,
-    fontFamily: "DMMono",
+    flex: 1, fontSize: 15, color: COLORS.text, fontFamily: FONTS.bodyMedium,
   },
-  searchClear: {
-    fontSize: 16, color: "rgba(0,0,0,0.25)",
-    padding: 4,
-  },
+  searchClear: { padding: 4 },
 
   // Tabs
   tabs: {
-    flexDirection: "row", marginHorizontal: 22,
-    marginTop: 20, borderBottomWidth: 1.5,
-    borderBottomColor: "rgba(0,0,0,0.06)",
+    flexDirection: "row", marginHorizontal: 20, marginTop: 20,
+    borderBottomWidth: 1, borderBottomColor: COLORS.border,
   },
   tab: {
-    paddingBottom: 12, marginRight: 24,
-    borderBottomWidth: 2.5, borderBottomColor: "transparent",
-    marginBottom: -1.5,
+    minHeight: 44, justifyContent: "center", marginRight: 24,
+    borderBottomWidth: 3, borderBottomColor: "transparent", marginBottom: -1,
   },
-  tabActive: { borderBottomColor: COLORS.text },
-  tabText: {
-    fontSize: 13, fontWeight: "500",
-    color: "rgba(0,0,0,0.25)", fontFamily: "DMMono",
-  },
+  tabActive: { borderBottomColor: COLORS.accent },
+  tabText: { fontFamily: FONTS.bodySemi, fontSize: 15, color: COLORS.textSecondary },
   tabTextActive: { color: COLORS.text },
 
   // Content
-  content: { paddingHorizontal: 22, paddingTop: 20 },
+  content: { paddingHorizontal: 20, paddingTop: 20 },
 
   // Sections
   section: { marginBottom: 24 },
-  sectionHeader: {
-    flexDirection: "row", alignItems: "center",
-    gap: 8, marginBottom: 12,
-  },
+  sectionHeader: { flexDirection: "row", alignItems: "center", gap: 10, marginBottom: 12 },
   sectionIcon: { fontSize: 14 },
   sectionLabel: {
-    fontSize: 11, fontWeight: "500", letterSpacing: 2,
-    color: "rgba(0,0,0,0.28)", fontFamily: "DMMono",
+    fontFamily: FONTS.displayBold, fontSize: 17, letterSpacing: 2.6,
+    color: COLORS.textSecondary,
   },
-  sectionLine: {
-    flex: 1, height: 1, backgroundColor: "rgba(0,0,0,0.04)",
-  },
+  sectionLine: { flex: 1, height: 1, backgroundColor: COLORS.border },
 
   // Card container
   card: {
-    backgroundColor: "#fff", borderRadius: 16,
-    borderWidth: 1, borderColor: "rgba(0,0,0,0.04)",
-    overflow: "hidden",
+    backgroundColor: COLORS.card, borderRadius: 18,
+    borderWidth: 1, borderColor: COLORS.border, overflow: "hidden",
   },
 
   // Item rows
   itemRow: {
-    flexDirection: "row", justifyContent: "space-between",
-    alignItems: "center",
+    flexDirection: "row", justifyContent: "space-between", alignItems: "center",
     paddingVertical: 12, paddingHorizontal: 14,
-    borderBottomWidth: 1, borderBottomColor: "rgba(0,0,0,0.03)",
+    borderBottomWidth: 1, borderBottomColor: COLORS.border,
   },
   itemRowFollowed: {},
-  itemLeft: {
-    flexDirection: "row", alignItems: "center", gap: 12, flex: 1,
-  },
+  itemLeft: { flexDirection: "row", alignItems: "center", gap: 12, flex: 1 },
   itemAvatar: {
-    width: 36, height: 36, borderRadius: 10,
+    width: 38, height: 38, borderRadius: 19,
     alignItems: "center", justifyContent: "center",
-    borderWidth: 1, borderColor: "rgba(0,0,0,0.06)",
+    borderWidth: 1, borderColor: COLORS.border,
   },
-  itemAvatarText: {
-    fontSize: 11, fontWeight: "700", fontFamily: "DMMono",
-  },
-  itemName: {
-    fontSize: 14, fontWeight: "500", color: COLORS.text,
-  },
+  itemAvatarLogo: { backgroundColor: COLORS.text, borderColor: COLORS.text },
+  itemAvatarMono: { backgroundColor: COLORS.surface2 },
+  itemAvatarText: { fontFamily: FONTS.displayBold, fontSize: 13, color: COLORS.text },
+  itemName: { fontFamily: FONTS.bodySemi, fontSize: 15, color: COLORS.text },
   itemMeta: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono", marginTop: 1,
+    fontFamily: FONTS.body, fontSize: 12, color: COLORS.textSecondary, marginTop: 1,
   },
 
   // Follow button
   followBtn: {
-    paddingHorizontal: 14, paddingVertical: 7,
-    borderRadius: 20, borderWidth: 1.5,
+    minHeight: 36, paddingHorizontal: 14, justifyContent: "center",
+    borderRadius: 20, borderWidth: 1,
   },
-  followBtnActive: {
-    backgroundColor: `${COLORS.accent}10`,
-    borderColor: `${COLORS.accent}30`,
-  },
-  followBtnInactive: {
-    backgroundColor: "transparent",
-    borderColor: "rgba(0,0,0,0.08)",
-  },
-  followBtnText: {
-    fontSize: 12, fontWeight: "600", fontFamily: "DMMono",
-  },
-  followBtnTextActive: { color: COLORS.accent },
-  followBtnTextInactive: { color: "rgba(0,0,0,0.3)" },
+  followBtnActive: { backgroundColor: COLORS.accent, borderColor: COLORS.accent },
+  followBtnInactive: { backgroundColor: "transparent", borderColor: COLORS.borderActive },
+  followBtnText: { fontFamily: FONTS.bodySemi, fontSize: 13 },
+  followBtnTextActive: { color: COLORS.onAccent },
+  followBtnTextInactive: { color: COLORS.text },
 
   // Empty state
-  empty: {
-    alignItems: "center", paddingVertical: 60,
-  },
-  emptyIcon: { fontSize: 48, marginBottom: 12 },
+  empty: { alignItems: "center", paddingVertical: 60, gap: 10 },
+  emptyIcon: { fontSize: 48 },
   emptyTitle: {
-    fontSize: 15, fontWeight: "600", color: "rgba(0,0,0,0.35)",
+    fontFamily: FONTS.displayBold, fontSize: 22, textTransform: "uppercase",
+    color: COLORS.text,
   },
   emptyDesc: {
-    fontSize: 12, color: "rgba(0,0,0,0.2)",
-    marginTop: 6, textAlign: "center", lineHeight: 18,
+    fontFamily: FONTS.body, fontSize: 14, color: COLORS.textSecondary,
+    textAlign: "center", lineHeight: 20,
   },
   emptyBtn: {
-    marginTop: 20, paddingHorizontal: 24, paddingVertical: 12,
-    backgroundColor: COLORS.text, borderRadius: 24,
+    marginTop: 14, minHeight: 48, paddingHorizontal: 24, justifyContent: "center",
+    backgroundColor: COLORS.accent, borderRadius: 14,
   },
   emptyBtnText: {
-    fontSize: 13, fontWeight: "600", color: COLORS.bg,
-    fontFamily: "DMMono",
+    fontFamily: FONTS.displayBold, fontSize: 17, letterSpacing: 0.6,
+    textTransform: "uppercase", color: COLORS.onAccent,
   },
 });

@@ -1,88 +1,93 @@
 /**
- * SportZap — App Entry Point
+ * SportZap — App Entry Point (direction « Night Match »)
  *
  * Sets up:
- *   - ThemeProvider (light/dark)
- *   - Custom font loading
- *   - Bottom tab navigation with theme-aware styling
+ *   - ThemeProvider (thème sombre)
+ *   - Chargement des polices Barlow / Barlow Condensed
+ *   - Navigation par onglets avec barre flottante
  */
 import { registerRootComponent } from "expo";
 import React from "react";
-import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
-import { NavigationContainer, DefaultTheme, DarkTheme } from "@react-navigation/native";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { NavigationContainer, DarkTheme } from "@react-navigation/native";
+import { createBottomTabNavigator, BottomTabBarProps } from "@react-navigation/bottom-tabs";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useFonts } from "expo-font";
 import { StatusBar } from "expo-status-bar";
 
-import { ThemeProvider, useTheme } from "./src/hooks/useTheme";
+import { ThemeProvider } from "./src/hooks/useTheme";
 import { HomeScreen } from "./src/screens/HomeScreen";
 import { FavoritesScreen } from "./src/screens/FavoritesScreen";
 import { ChannelsScreen } from "./src/screens/ChannelsScreen";
+import { Icon, IconName, BoltMark } from "./src/components/Icon";
+import { COLORS, FONTS } from "./src/constants";
 
 const Tab = createBottomTabNavigator();
 
-function TabIcon({ label, focused }: { label: string; focused: boolean }) {
-  const icons: Record<string, string> = {
-    Programme: "📺",
-    Favoris: "⭐",
-    Chaînes: "📡",
-  };
+const TAB_ICONS: Record<string, IconName> = {
+  Programme: "calendar",
+  Favoris: "star",
+  Chaînes: "tv",
+};
+
+function TabBar({ state, navigation }: BottomTabBarProps) {
+  const insets = useSafeAreaInsets();
+
   return (
-    <Text style={{ fontSize: 20, opacity: focused ? 1 : 0.3 }}>
-      {icons[label] || "📱"}
-    </Text>
+    <View style={[styles.tabBar, { bottom: Math.max(insets.bottom, 8) + 8 }]}>
+      {state.routes.map((route, index) => {
+        const focused = state.index === index;
+        const color = focused ? COLORS.onAccent : COLORS.textSecondary;
+
+        const onPress = () => {
+          const event = navigation.emit({
+            type: "tabPress",
+            target: route.key,
+            canPreventDefault: true,
+          });
+          if (!focused && !event.defaultPrevented) {
+            navigation.navigate(route.name as never);
+          }
+        };
+
+        return (
+          <TouchableOpacity
+            key={route.key}
+            style={[styles.tab, focused && styles.tabActive]}
+            onPress={onPress}
+            accessibilityRole="button"
+            accessibilityState={{ selected: focused }}
+            accessibilityLabel={route.name}
+            activeOpacity={0.8}
+          >
+            <Icon name={TAB_ICONS[route.name] ?? "calendar"} size={22} color={color} />
+            <Text style={[styles.tabLabel, { color }]}>{route.name}</Text>
+          </TouchableOpacity>
+        );
+      })}
+    </View>
   );
 }
 
 function AppContent() {
-  const { theme, isDark } = useTheme();
-  const c = theme.colors;
-
   const navTheme = {
-    ...(isDark ? DarkTheme : DefaultTheme),
+    ...DarkTheme,
     colors: {
-      ...(isDark ? DarkTheme : DefaultTheme).colors,
-      background: c.bg,
-      card: c.navBg,
-      text: c.text,
-      border: c.navBorder,
-      primary: c.accent,
+      ...DarkTheme.colors,
+      background: COLORS.bg,
+      card: COLORS.card,
+      text: COLORS.text,
+      border: COLORS.border,
+      primary: COLORS.accent,
     },
   };
 
   return (
     <NavigationContainer theme={navTheme}>
-      <StatusBar style={isDark ? "light" : "dark"} />
+      <StatusBar style="light" />
       <Tab.Navigator
-        screenOptions={({ route }) => ({
-          headerShown: false,
-          tabBarIcon: ({ focused }) => <TabIcon label={route.name} focused={focused} />,
-          tabBarActiveTintColor: c.navActive,
-          tabBarInactiveTintColor: c.navInactive,
-          tabBarLabelStyle: {
-            fontSize: 10,
-            fontFamily: "DMMono",
-            letterSpacing: 0.5,
-          },
-          tabBarStyle: {
-            backgroundColor: c.navBg,
-            borderTopWidth: 0,
-            elevation: 0,
-            shadowColor: "#000",
-            shadowOpacity: isDark ? 0.3 : 0.04,
-            shadowRadius: 20,
-            shadowOffset: { width: 0, height: -4 },
-            height: 85,
-            paddingTop: 8,
-            paddingBottom: 28,
-            borderRadius: 22,
-            marginHorizontal: 16,
-            marginBottom: 16,
-            position: "absolute",
-            borderWidth: isDark ? 1 : 0,
-            borderColor: c.navBorder,
-          },
-        })}
+        tabBar={props => <TabBar {...props} />}
+        screenOptions={{ headerShown: false }}
       >
         <Tab.Screen name="Programme" component={HomeScreen} />
         <Tab.Screen name="Favoris" component={FavoritesScreen} />
@@ -94,16 +99,18 @@ function AppContent() {
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    InstrumentSerif: require("./assets/fonts/InstrumentSerif-Regular.ttf"),
-    InstrumentSerifItalic: require("./assets/fonts/InstrumentSerif-Italic.ttf"),
-    DMMono: require("./assets/fonts/DMMono-Regular.ttf"),
-    DMMonoMedium: require("./assets/fonts/DMMono-Medium.ttf"),
+    BarlowCondensedSemiBold: require("./assets/fonts/BarlowCondensed-SemiBold.ttf"),
+    BarlowCondensedBold: require("./assets/fonts/BarlowCondensed-Bold.ttf"),
+    BarlowCondensedExtraBold: require("./assets/fonts/BarlowCondensed-ExtraBold.ttf"),
+    Barlow: require("./assets/fonts/Barlow-Regular.ttf"),
+    BarlowMedium: require("./assets/fonts/Barlow-Medium.ttf"),
+    BarlowSemiBold: require("./assets/fonts/Barlow-SemiBold.ttf"),
   });
 
   if (!fontsLoaded) {
     return (
       <View style={styles.loading}>
-        <ActivityIndicator size="large" color="#6366F1" />
+        <BoltMark size={64} color={COLORS.accent} />
       </View>
     );
   }
@@ -118,8 +125,26 @@ export default function App() {
 const styles = StyleSheet.create({
   loading: {
     flex: 1, alignItems: "center", justifyContent: "center",
-    backgroundColor: "#F5F2ED",
+    backgroundColor: COLORS.bg,
   },
+  tabBar: {
+    position: "absolute",
+    left: 12, right: 12,
+    height: 68,
+    flexDirection: "row",
+    padding: 6, gap: 4,
+    backgroundColor: COLORS.card,
+    borderWidth: 1, borderColor: COLORS.border,
+    borderRadius: 24,
+  },
+  tab: {
+    flex: 1,
+    borderRadius: 18,
+    alignItems: "center", justifyContent: "center",
+    gap: 3,
+  },
+  tabActive: { backgroundColor: COLORS.accent },
+  tabLabel: { fontFamily: FONTS.bodySemi, fontSize: 12 },
 });
 
 registerRootComponent(App);

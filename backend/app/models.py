@@ -79,9 +79,15 @@ class SportEvent(BaseModel):
     team2: Optional[Entity] = None
 
     channel: Channel
-    start: datetime
+    start: datetime  # début de la diffusion sur la chaîne (avant-match inclus)
     end: datetime
     status: EventStatus = EventStatus.UPCOMING
+
+    # Coup d'envoi officiel de la rencontre (≠ début de diffusion de la chaîne)
+    kickoff: Optional[datetime] = None
+    kickoff_source: Optional[str] = Field(
+        None, description="'espn' (calendrier officiel) | 'estimate' | None (= start)"
+    )
 
     # Live enrichment (from API-Sports later)
     score1: Optional[int] = None

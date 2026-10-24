@@ -9,7 +9,7 @@ import {
   View, Text, TouchableOpacity, Switch,
   StyleSheet,
 } from "react-native";
-import { COLORS } from "../constants";
+import { COLORS, FONTS } from "../constants";
 import { loadPrefs, savePrefs, NotifPrefs, cancelAllAlerts } from "../services/notifications";
 
 const TIMING_OPTIONS = [
@@ -51,7 +51,7 @@ export function NotificationSettings() {
         <Switch
           value={prefs.enabled}
           onValueChange={(v) => update({ enabled: v })}
-          trackColor={{ false: "rgba(0,0,0,0.08)", true: `${COLORS.accent}40` }}
+          trackColor={{ false: COLORS.border, true: `${COLORS.accent}40` }}
           thumbColor={prefs.enabled ? COLORS.accent : "#ccc"}
         />
       </View>
@@ -94,7 +94,7 @@ export function NotificationSettings() {
             <Switch
               value={prefs.soundEnabled}
               onValueChange={(v) => update({ soundEnabled: v })}
-              trackColor={{ false: "rgba(0,0,0,0.08)", true: `${COLORS.accent}40` }}
+              trackColor={{ false: COLORS.border, true: `${COLORS.accent}40` }}
               thumbColor={prefs.soundEnabled ? COLORS.accent : "#ccc"}
             />
           </View>
@@ -110,7 +110,7 @@ export function NotificationSettings() {
             <Switch
               value={prefs.favoriteAutoAlert}
               onValueChange={(v) => update({ favoriteAutoAlert: v })}
-              trackColor={{ false: "rgba(0,0,0,0.08)", true: `${COLORS.accent}40` }}
+              trackColor={{ false: COLORS.border, true: `${COLORS.accent}40` }}
               thumbColor={prefs.favoriteAutoAlert ? COLORS.accent : "#ccc"}
             />
           </View>
@@ -129,56 +129,40 @@ export function NotificationSettings() {
 }
 
 const styles = StyleSheet.create({
-  container: { paddingHorizontal: 22, paddingTop: 20 },
+  container: { paddingHorizontal: 20, paddingTop: 20 },
   sectionTitle: {
-    fontSize: 11, fontWeight: "500", letterSpacing: 2,
-    color: "rgba(0,0,0,0.28)", fontFamily: "DMMono",
-    marginBottom: 16,
+    fontFamily: FONTS.displayBold, fontSize: 17, letterSpacing: 2.6,
+    color: COLORS.textSecondary, marginBottom: 16,
   },
 
   row: {
-    flexDirection: "row", justifyContent: "space-between",
-    alignItems: "center",
-    paddingVertical: 14,
-    borderBottomWidth: 1, borderBottomColor: "rgba(0,0,0,0.04)",
+    flexDirection: "row", justifyContent: "space-between", alignItems: "center",
+    paddingVertical: 14, borderBottomWidth: 1, borderBottomColor: COLORS.border,
   },
-  rowTitle: {
-    fontSize: 15, fontWeight: "500", color: COLORS.text,
-  },
+  rowTitle: { fontFamily: FONTS.bodySemi, fontSize: 16, color: COLORS.text },
   rowDesc: {
-    fontSize: 12, color: COLORS.textSecondary,
-    fontFamily: "DMMono", marginTop: 2, lineHeight: 16,
+    fontFamily: FONTS.body, fontSize: 13, color: COLORS.textSecondary,
+    marginTop: 2, lineHeight: 18,
   },
 
   timingRow: {
-    flexDirection: "row", gap: 6,
-    paddingVertical: 12,
-    borderBottomWidth: 1, borderBottomColor: "rgba(0,0,0,0.04)",
+    flexDirection: "row", gap: 6, paddingVertical: 12,
+    borderBottomWidth: 1, borderBottomColor: COLORS.border,
   },
   timingBtn: {
-    flex: 1, paddingVertical: 10, borderRadius: 10,
-    backgroundColor: "rgba(0,0,0,0.03)",
-    alignItems: "center",
+    flex: 1, minHeight: 44, borderRadius: 10,
+    backgroundColor: COLORS.card, borderWidth: 1, borderColor: COLORS.border,
+    alignItems: "center", justifyContent: "center",
   },
-  timingBtnActive: {
-    backgroundColor: COLORS.text,
-  },
-  timingText: {
-    fontSize: 12, fontWeight: "600",
-    fontFamily: "DMMono",
-    color: "rgba(0,0,0,0.3)",
-  },
-  timingTextActive: { color: COLORS.bg },
+  timingBtnActive: { backgroundColor: COLORS.accent, borderColor: COLORS.accent },
+  timingText: { fontFamily: FONTS.bodySemi, fontSize: 13, color: COLORS.text },
+  timingTextActive: { color: COLORS.onAccent },
 
   clearBtn: {
-    marginTop: 20, paddingVertical: 14,
-    borderRadius: 14,
-    borderWidth: 1.5, borderColor: "rgba(239,68,68,0.15)",
-    backgroundColor: "rgba(239,68,68,0.03)",
-    alignItems: "center",
+    marginTop: 20, minHeight: 48, borderRadius: 14,
+    borderWidth: 1, borderColor: "rgba(255,107,107,0.4)",
+    backgroundColor: "rgba(255,107,107,0.08)",
+    alignItems: "center", justifyContent: "center",
   },
-  clearBtnText: {
-    fontSize: 13, fontWeight: "600",
-    color: "#EF4444", fontFamily: "DMMono",
-  },
+  clearBtnText: { fontFamily: FONTS.bodySemi, fontSize: 14, color: "#FF8A8A" },
 });

@@ -277,6 +277,7 @@ export async function autoScheduleFavoriteAlerts(
   events: Array<{
     id: string;
     start: string;
+    kickoff?: string | null;
     team1?: { name: string } | null;
     team2?: { name: string } | null;
     competition?: string | null;
@@ -305,7 +306,7 @@ export async function autoScheduleFavoriteAlerts(
 
     const result = await scheduleMatchAlert({
       eventId: event.id,
-      matchStart: event.start,
+      matchStart: event.kickoff || event.start,
       title: `${emoji} ${teams}`,
       subtitle: event.competition || event.sport,
       channel: event.channel.name,

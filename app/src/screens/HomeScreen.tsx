@@ -1,67 +1,116 @@
 /**
- * HomeScreen — Main programme screen
+ * HomeScreen — Programme TV sport (direction « Night Match »)
  *
- * Layout (Stacked editorial design):
- *   Header: SportZap title + search
- *   Day tabs: AUJ. | LUN | MAR | ...
- *   Sport pills: Tout | Football | Rugby | ...
- *   Grouped events: EN DIRECT → MATIN → APRÈS-MIDI → SOIRÉE
+ * En-tête, jour, filtre de sport, puis le programme groupé par tranche
+ * horaire : EN DIRECT, MATIN, APRÈS-MIDI, SOIRÉE.
  */
 import React, { useState } from "react";
 import {
-  View, Text, ScrollView, TouchableOpacity,
-  StyleSheet, RefreshControl, SafeAreaView, StatusBar,
+  View, Text, ScrollView, TouchableOpacity, StyleSheet,
+  RefreshControl,
 } from "react-native";
-import { SPORTS, COLORS, generateDays } from "../constants";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { useNavigation } from "@react-navigation/native";
 import { SportType } from "../types";
+import { SPORTS, COLORS, FONTS, generateDays } from "../constants";
+import { EventCard } from "../components/EventCard";
+import { Logo } from "../components/Logo";
+import { Icon } from "../components/Icon";
 import { useEvents, EventGroup } from "../hooks/useEvents";
 import { useChannels } from "../hooks/useChannels";
 import { useFavorites } from "../hooks/useFavorites";
 import { useAlerts } from "../hooks/useAlerts";
-import { EventCard } from "../components/EventCard";
-import { SportIcon } from "../components/SportIcon";
 
 const DAYS = generateDays(5);
 
+const WEEKDAYS = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+const MONTHS = [
+  "janvier", "février", "mars", "avril", "mai", "juin",
+  "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+];
+
+function dayTitle(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const wd = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+  return `${WEEKDAYS[wd]} ${d} ${MONTHS[m - 1]}`;
+}
+
 export function HomeScreen() {
+  const navigation = useNavigation<any>();
   const [selectedSport, setSelectedSport] = useState<SportType | "all">("all");
   const [selectedDay, setSelectedDay] = useState(0);
   const { selectedSlugs } = useChannels();
   const { matchEvent } = useFavorites();
   const { isAlerted, toggleAlert } = useAlerts();
 
-  const { groups, loading, error, refresh, liveCount } = useEvents({
+  const { groups, loading, error, refresh } = useEvents({
     date: DAYS[selectedDay]?.iso,
     sport: selectedSport,
     channelSlugs: selectedSlugs,
   });
 
-  return (
-    <SafeAreaView style={styles.safe}>
-      <StatusBar barStyle="dark-content" backgroundColor={COLORS.bg} />
+  const renderGroup = (group: EventGroup) => {
+    const isLive = group.block === "EN DIRECT";
+    return (
+      <View key={group.block} style={styles.group}>
+        <View style={styles.groupHeader}>
+          {isLive && <View style={styles.liveDot} />}
+          <Text style={[styles.groupLabel, isLive && styles.groupLabelLive]}>
+            {group.block}
+          </Text>
+        </View>
+        {group.events.map(event => (
+          <EventCard
+            key={event.id}
+            event={event}
+            isFavorite={matchEvent(event).length > 0}
+            onPress={() => {
+              // TODO: écran de détail
+            }}
+            onBellPress={() => toggleAlert(event)}
+            isBellActive={isAlerted(event.id)}
+          />
+        ))}
+      </View>
+    );
+  };
 
+  return (
+    <SafeAreaView style={styles.safe} edges={["top"]}>
       <ScrollView
         style={styles.scroll}
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
         refreshControl={
-          <RefreshControl refreshing={loading} onRefresh={refresh} tintColor={COLORS.text} />
+          <RefreshControl refreshing={loading} onRefresh={refresh} tintColor={COLORS.accent} />
         }
       >
         {/* ── Header ── */}
         <View style={styles.header}>
-          <View>
-            <Text style={styles.title}>
-              Sport<Text style={styles.titleAccent}>Zap</Text>
-            </Text>
-            <Text style={styles.subtitle}>PROGRAMME TV SPORT · FRANCE</Text>
-          </View>
-          <TouchableOpacity style={styles.searchBtn}>
-            <Text style={{ fontSize: 16 }}>🔍</Text>
+          <Logo size={36} />
+          <TouchableOpacity
+            style={styles.iconBtn}
+            accessibilityLabel="Rechercher"
+            onPress={() => navigation.navigate("Favoris")}
+          >
+            <Icon name="search" size={20} />
           </TouchableOpacity>
         </View>
 
-        {/* ── Day tabs ── */}
+        {/* ── Title ── */}
+        <View style={styles.titleBlock}>
+          <Text style={styles.title}>{dayTitle(DAYS[selectedDay].iso)}</Text>
+          <TouchableOpacity
+            style={styles.channelsLink}
+            onPress={() => navigation.navigate("Chaînes")}
+            accessibilityLabel="Modifier mes chaînes"
+          >
+            <Icon name="tv" size={16} color={COLORS.accent} />
+            <Text style={styles.channelsLinkText}>Sur mes chaînes · modifier</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* ── Days ── */}
         <View style={styles.dayRow}>
           {DAYS.map(day => {
             const active = selectedDay === day.key;
@@ -70,6 +119,7 @@ export function HomeScreen() {
                 key={day.key}
                 style={[styles.dayTab, active && styles.dayTabActive]}
                 onPress={() => setSelectedDay(day.key)}
+                accessibilityLabel={`Afficher le ${day.date}`}
               >
                 <Text style={[styles.dayLabel, active && styles.dayLabelActive]}>
                   {day.short}
@@ -96,13 +146,6 @@ export function HomeScreen() {
                 style={[styles.sportPill, active && styles.sportPillActive]}
                 onPress={() => setSelectedSport(sport.id as SportType | "all")}
               >
-                {sport.id !== "all" && (
-                  <SportIcon
-                    sport={sport.id as SportType}
-                    color={active ? "#F5F2ED" : "rgba(0,0,0,0.3)"}
-                    size={14}
-                  />
-                )}
                 <Text style={[styles.sportLabel, active && styles.sportLabelActive]}>
                   {sport.label}
                 </Text>
@@ -111,56 +154,29 @@ export function HomeScreen() {
           })}
         </ScrollView>
 
-        {/* ── Error banner ── */}
+        {/* ── Error ── */}
         {error && (
-          <View style={styles.errorBanner}>
-            <Text style={styles.errorText}>⚡ {error}</Text>
+          <View style={styles.errorBox}>
+            <Text style={styles.errorText}>{error}</Text>
+            <TouchableOpacity style={styles.retryBtn} onPress={refresh}>
+              <Icon name="refresh" size={16} color={COLORS.onAccent} />
+              <Text style={styles.retryText}>Réessayer</Text>
+            </TouchableOpacity>
           </View>
         )}
 
-        {/* ── Event groups ── */}
+        {/* ── Events ── */}
         <View style={styles.eventsContainer}>
           {groups.length === 0 && !loading && !error ? (
             <View style={styles.empty}>
-              <Text style={styles.emptyIcon}>📭</Text>
-              <Text style={styles.emptyTitle}>Aucun événement</Text>
+              <Icon name="calendar" size={40} color={COLORS.textTertiary} />
+              <Text style={styles.emptyTitle}>Rien à voir sur tes chaînes</Text>
               <Text style={styles.emptyDesc}>
-                Essayez un autre jour ou d'autres filtres
+                Essaie un autre jour, un autre sport, ou ajoute des chaînes.
               </Text>
             </View>
           ) : (
-            groups.map(group => (
-              <View key={group.block} style={styles.group}>
-                {/* Section header */}
-                <View style={styles.groupHeader}>
-                  {group.block === "EN DIRECT" && <View style={styles.liveDot} />}
-                  <Text style={[
-                    styles.groupLabel,
-                    group.block === "EN DIRECT" && { color: COLORS.live },
-                  ]}>
-                    {group.block}
-                  </Text>
-                  <View style={[
-                    styles.groupLine,
-                    group.block === "EN DIRECT" && { backgroundColor: "rgba(239,68,68,0.12)" },
-                  ]} />
-                </View>
-
-                {/* Event cards */}
-                {group.events.map(event => (
-                  <EventCard
-                    key={event.id}
-                    event={event}
-                    isFavorite={matchEvent(event).length > 0}
-                    onPress={() => {
-                      // TODO: navigate to detail screen
-                    }}
-                    onBellPress={() => toggleAlert(event)}
-                    isBellActive={isAlerted(event.id)}
-                  />
-                ))}
-              </View>
-            ))
+            groups.map(renderGroup)
           )}
         </View>
       </ScrollView>
@@ -171,129 +187,88 @@ export function HomeScreen() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: COLORS.bg },
   scroll: { flex: 1 },
-  scrollContent: { paddingBottom: 100 },
+  scrollContent: { paddingBottom: 140 },
 
-  // Header
   header: {
-    flexDirection: "row", justifyContent: "space-between",
-    alignItems: "flex-start",
-    paddingHorizontal: 22, paddingTop: 8,
+    flexDirection: "row", justifyContent: "space-between", alignItems: "center",
+    paddingHorizontal: 20, paddingTop: 12,
   },
-  title: {
-    fontSize: 36, fontWeight: "400",
-    fontFamily: "InstrumentSerif",
-    color: COLORS.text, letterSpacing: -1,
-  },
-  titleAccent: {
-    fontStyle: "italic",
-    color: COLORS.accent,
-  },
-  subtitle: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono",
-    letterSpacing: 1.5, marginTop: 4,
-  },
-  searchBtn: {
-    width: 36, height: 36, borderRadius: 20,
-    borderWidth: 1.5, borderColor: "rgba(0,0,0,0.08)",
-    backgroundColor: "#fff",
+  iconBtn: {
+    width: 44, height: 44, borderRadius: 14,
+    backgroundColor: COLORS.card,
+    borderWidth: 1, borderColor: COLORS.border,
     alignItems: "center", justifyContent: "center",
-    shadowColor: "#000", shadowOpacity: 0.03, shadowRadius: 3,
-    elevation: 1,
   },
 
-  // Days
+  titleBlock: { paddingHorizontal: 20, marginTop: 22 },
+  title: {
+    fontFamily: FONTS.display, fontSize: 46, lineHeight: 46,
+    textTransform: "uppercase", color: COLORS.text,
+  },
+  channelsLink: {
+    flexDirection: "row", alignItems: "center", gap: 8,
+    minHeight: 44, alignSelf: "flex-start",
+  },
+  channelsLinkText: {
+    fontFamily: FONTS.bodyMedium, fontSize: 15, color: COLORS.textSecondary,
+  },
+
   dayRow: {
-    flexDirection: "row",
-    marginHorizontal: 22, marginTop: 24,
-    borderBottomWidth: 1.5, borderBottomColor: "rgba(0,0,0,0.06)",
+    flexDirection: "row", gap: 8,
+    paddingHorizontal: 20, marginTop: 6,
   },
   dayTab: {
-    flex: 1, alignItems: "center",
-    paddingBottom: 12,
-    borderBottomWidth: 2.5,
-    borderBottomColor: "transparent",
-    marginBottom: -1.5,
+    flex: 1, minHeight: 60, paddingVertical: 8,
+    borderRadius: 14, borderWidth: 1, borderColor: COLORS.border,
+    backgroundColor: COLORS.card,
+    alignItems: "center", justifyContent: "center",
   },
-  dayTabActive: { borderBottomColor: COLORS.text },
+  dayTabActive: { backgroundColor: COLORS.accent, borderColor: COLORS.accent },
   dayLabel: {
-    fontSize: 10, fontWeight: "500",
-    color: "rgba(0,0,0,0.2)",
-    fontFamily: "DMMono", letterSpacing: 1,
+    fontFamily: FONTS.bodySemi, fontSize: 12, letterSpacing: 1.2,
+    color: COLORS.text,
   },
-  dayLabelActive: { color: COLORS.text },
+  dayLabelActive: { color: COLORS.onAccent },
   dayDate: {
-    fontSize: 20, fontWeight: "400",
-    color: "rgba(0,0,0,0.15)",
-    fontFamily: "InstrumentSerif", marginTop: 2,
+    fontFamily: FONTS.display, fontSize: 26, lineHeight: 28,
+    color: COLORS.text,
   },
-  dayDateActive: { color: COLORS.text },
+  dayDateActive: { color: COLORS.onAccent },
 
-  // Sports
-  sportRow: {
-    flexDirection: "row", gap: 6,
-    paddingHorizontal: 22, paddingTop: 20,
-    paddingBottom: 6,
-  },
+  sportRow: { gap: 8, paddingHorizontal: 20, paddingTop: 16, paddingBottom: 4 },
   sportPill: {
-    flexDirection: "row", alignItems: "center", gap: 5,
-    paddingHorizontal: 14, paddingVertical: 7,
-    borderRadius: 24,
-    backgroundColor: "rgba(0,0,0,0.03)",
+    paddingHorizontal: 18, minHeight: 44, borderRadius: 999,
+    borderWidth: 1, borderColor: COLORS.border, backgroundColor: COLORS.card,
+    alignItems: "center", justifyContent: "center",
   },
-  sportPillActive: { backgroundColor: COLORS.text },
-  sportLabel: {
-    fontSize: 12, fontWeight: "500",
-    color: "rgba(0,0,0,0.35)",
-    fontFamily: "DMMono",
-  },
-  sportLabelActive: { color: "#F5F2ED" },
+  sportPillActive: { backgroundColor: COLORS.text, borderColor: COLORS.text },
+  sportLabel: { fontFamily: FONTS.bodySemi, fontSize: 15, color: COLORS.text },
+  sportLabelActive: { color: COLORS.bg },
 
-  // Error
-  errorBanner: {
-    marginHorizontal: 22, marginTop: 12,
-    padding: 10, borderRadius: 12,
-    backgroundColor: "rgba(245,158,11,0.08)",
-    borderWidth: 1, borderColor: "rgba(245,158,11,0.15)",
+  errorBox: {
+    marginHorizontal: 20, marginTop: 16, padding: 16, borderRadius: 16,
+    backgroundColor: COLORS.card, borderWidth: 1, borderColor: COLORS.borderActive,
+    alignItems: "center", gap: 12,
   },
-  errorText: { fontSize: 12, color: "#D97706", fontFamily: "DMMono", textAlign: "center" },
+  errorText: { fontFamily: FONTS.bodyMedium, fontSize: 15, color: COLORS.text },
+  retryBtn: {
+    flexDirection: "row", alignItems: "center", gap: 8,
+    minHeight: 44, paddingHorizontal: 20, borderRadius: 14,
+    backgroundColor: COLORS.accent,
+  },
+  retryText: { fontFamily: FONTS.displayBold, fontSize: 17, letterSpacing: 0.6, textTransform: "uppercase", color: COLORS.onAccent },
 
-  // Events
-  eventsContainer: { paddingHorizontal: 22, paddingTop: 20 },
-
-  // Groups
-  group: { marginBottom: 28 },
-  groupHeader: {
-    flexDirection: "row", alignItems: "center",
-    gap: 12, marginBottom: 14,
-  },
-  liveDot: {
-    width: 8, height: 8, borderRadius: 4,
-    backgroundColor: COLORS.live,
-    shadowColor: COLORS.live, shadowOpacity: 0.5, shadowRadius: 4,
-  },
+  eventsContainer: { paddingHorizontal: 20, paddingTop: 22 },
+  group: { marginBottom: 14 },
+  groupHeader: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: 12 },
+  liveDot: { width: 9, height: 9, borderRadius: 5, backgroundColor: COLORS.accent },
   groupLabel: {
-    fontSize: 11, fontWeight: "500",
-    letterSpacing: 2.5,
-    color: "rgba(0,0,0,0.28)",
-    fontFamily: "DMMono",
+    fontFamily: FONTS.displayBold, fontSize: 17, letterSpacing: 2.6,
+    color: COLORS.textSecondary,
   },
-  groupLine: {
-    flex: 1, height: 1,
-    backgroundColor: "rgba(0,0,0,0.04)",
-  },
+  groupLabelLive: { color: COLORS.accent },
 
-  // Empty
-  empty: {
-    alignItems: "center", paddingVertical: 60,
-  },
-  emptyIcon: { fontSize: 48, marginBottom: 12 },
-  emptyTitle: {
-    fontSize: 15, fontWeight: "600",
-    color: "rgba(0,0,0,0.35)",
-  },
-  emptyDesc: {
-    fontSize: 12, color: "rgba(0,0,0,0.2)",
-    marginTop: 6,
-  },
+  empty: { alignItems: "center", paddingVertical: 56, gap: 10 },
+  emptyTitle: { fontFamily: FONTS.displayBold, fontSize: 22, textTransform: "uppercase", color: COLORS.text },
+  emptyDesc: { fontFamily: FONTS.body, fontSize: 14, color: COLORS.textSecondary, textAlign: "center" },
 });

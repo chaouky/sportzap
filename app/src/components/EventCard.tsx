@@ -1,19 +1,18 @@
 /**
- * EventCard — Single sport event card (Stacked editorial design)
+ * EventCard — direction « Night Match ».
  *
- * Handles all display variants:
- *   - Matchup (team1 vs team2) with avatars
- *   - Solo event (F1, cycling stages)
- *   - Live, upcoming, finished states
+ * Deux variantes selon le statut :
+ *   - live    : carte pleine largeur, bordure lime, équipes + chaînes
+ *   - à venir : rail d'heure à gauche (grande heure condensée) + carte
+ *
+ * Un match = une carte : toutes les chaînes (`event.channels`) y figurent.
  */
 import React from "react";
-import {
-  View, Text, TouchableOpacity, StyleSheet, Animated,
-} from "react-native";
-import { SportEvent } from "../types";
-import { SPORTS, COLORS, getChannelBadge } from "../constants";
+import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { Channel, Entity, SportEvent } from "../types";
+import { COLORS, FONTS, getChannelBadge, kickoffOf, parisTime } from "../constants";
 import { EntityAvatar } from "./EntityAvatar";
-import { SportIcon } from "./SportIcon";
+import { Icon } from "./Icon";
 
 interface Props {
   event: SportEvent;
@@ -23,146 +22,116 @@ interface Props {
   isFavorite?: boolean;
 }
 
-export function EventCard({ event, onPress, onBellPress, isBellActive, isFavorite }: Props) {
-  const sportConfig = SPORTS.find(s => s.id === event.sport) || SPORTS[0];
-  const channelBadge = getChannelBadge(event.channel.slug);
-  const isLive = event.status === "live";
-  const isDone = event.status === "finished";
-  const hasScore = event.score1 != null;
-  const isSolo = !event.team2;
-  const isPlayerMatch = event.team1?.type === "player" || event.team2?.type === "player";
+function teamLabel(e?: Entity | null): string {
+  if (!e) return "?";
+  return e.short && e.short.length >= 3 ? e.short : e.name;
+}
 
+function ChannelTile({ channel }: { channel: Channel }) {
+  const badge = getChannelBadge(channel.slug);
+  const label = badge.label === "TV" ? channel.name.slice(0, 4).toUpperCase() : badge.label;
   return (
-    <TouchableOpacity
-      style={[
-        styles.card,
-        isLive && styles.cardLive,
-        isFavorite && !isLive && { borderLeftWidth: 3, borderLeftColor: "#F59E0B" },
-      ]}
-      onPress={onPress}
-      activeOpacity={0.7}
-    >
-      {/* ── Header row ── */}
-      <View style={styles.header}>
-        <View style={styles.headerLeft}>
-          <View style={[styles.sportBadge, { backgroundColor: sportConfig.color + "12" }]}>
-            <SportIcon sport={event.sport} color={sportConfig.color} size={14} />
-          </View>
-          <Text style={styles.competition}>{event.competition || "—"}</Text>
-          {isFavorite && <Text style={{ fontSize: 10, color: "#F59E0B" }}>★</Text>}
-        </View>
+    <View style={[styles.tile, { backgroundColor: badge.bg }]}>
+      <Text style={[styles.tileText, { color: badge.fg }]} numberOfLines={1}>
+        {label}
+      </Text>
+    </View>
+  );
+}
 
-        {isLive && (
+export function EventCard({ event, onPress, onBellPress, isBellActive, isFavorite }: Props) {
+  const channels = event.channels && event.channels.length > 0 ? event.channels : [event.channel];
+  const channelNames = Array.from(new Set(channels.map(c => c.name))).join(" · ");
+  const isLive = event.status === "live";
+  const hasTeams = !!(event.team1 && event.team2);
+  const hasScore = event.score1 != null && event.score2 != null;
+  const time = parisTime(kickoffOf(event));
+
+  const comp =
+    event.competition && !event.title.toLowerCase().includes(event.competition.toLowerCase())
+      ? event.competition
+      : null;
+  const mainTitle = hasTeams
+    ? `${teamLabel(event.team1)} – ${teamLabel(event.team2)}`
+    : event.subtitle || event.title;
+
+  const footer = (
+    <View style={styles.footer}>
+      <View style={styles.tiles}>
+        {channels.slice(0, 3).map(c => (
+          <ChannelTile key={c.name} channel={c} />
+        ))}
+        {channels.length > 3 && <Text style={styles.more}>+{channels.length - 3}</Text>}
+      </View>
+      <Text style={styles.channelNames} numberOfLines={1}>{channelNames}</Text>
+      <TouchableOpacity
+        onPress={onBellPress}
+        hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+        accessibilityLabel={isBellActive ? "Retirer le rappel" : "Me rappeler ce match"}
+        style={styles.bell}
+      >
+        <Icon
+          name="bell"
+          size={18}
+          color={isBellActive ? COLORS.accent : COLORS.textSecondary}
+          filled={!!isBellActive}
+        />
+      </TouchableOpacity>
+    </View>
+  );
+
+  // ───────────── LIVE ─────────────
+  if (isLive) {
+    return (
+      <TouchableOpacity style={[styles.card, styles.cardLive]} onPress={onPress} activeOpacity={0.8}>
+        <View style={styles.topRow}>
+          <View style={styles.compWrap}>
+            {isFavorite && <Icon name="star" size={14} color={COLORS.favorite} filled />}
+            <Text style={styles.comp} numberOfLines={1}>{comp ?? ""}</Text>
+          </View>
           <View style={styles.liveBadge}>
-            <View style={styles.liveDot} />
-            <Text style={styles.liveText}>DIRECT</Text>
-          </View>
-        )}
-        {isDone && <Text style={styles.doneText}>FIN</Text>}
-      </View>
-
-      {/* ── Match content ── */}
-      {isSolo ? (
-        // Solo event (F1, cycling, etc.)
-        <View style={styles.soloRow}>
-          {event.team1 && <EntityAvatar entity={event.team1} size={40} />}
-          <View style={{ marginLeft: event.team1 ? 14 : 0 }}>
-            <Text style={styles.soloTitle}>{event.subtitle || event.title}</Text>
-            {event.result && (
-              <Text style={[styles.result, { color: sportConfig.color }]}>{event.result}</Text>
-            )}
+            <Text style={styles.liveBadgeText}>DEPUIS {time}</Text>
           </View>
         </View>
-      ) : (
-        // Matchup (team1 vs team2)
-        <View style={styles.matchRow}>
-          {/* Team 1 */}
-          <View style={styles.teamSide}>
-            <Text style={[styles.teamName, { textAlign: "right" }]} numberOfLines={2}>
-              {isPlayerMatch && event.team1?.name ? event.team1.name : event.team1?.name || "?"}
-            </Text>
-            <EntityAvatar
-              entity={event.team1}
-              size={isPlayerMatch ? 42 : 36}
-              side="left"
-            />
-          </View>
 
-          {/* Score / Time */}
-          <View style={styles.scoreCenter}>
-            {hasScore ? (
-              <View style={{ alignItems: "center" }}>
-                <Text style={[styles.score, isLive && { color: COLORS.live }]}>
-                  {event.score1}
-                  <Text style={styles.scoreSep}> – </Text>
-                  {event.score2}
-                </Text>
-                {event.minute && (
-                  <Text style={styles.minute}>{event.minute}</Text>
-                )}
-              </View>
-            ) : (
-              <View style={styles.timePill}>
-                <Text style={styles.timeText}>
-                  {new Date(event.start).toLocaleTimeString("fr-FR", {
-                    hour: "2-digit", minute: "2-digit",
-                  })}
-                </Text>
-              </View>
-            )}
-          </View>
-
-          {/* Team 2 */}
-          <View style={[styles.teamSide, { flexDirection: "row" }]}>
-            <EntityAvatar
-              entity={event.team2}
-              size={isPlayerMatch ? 42 : 36}
-              side="right"
-            />
-            <Text style={[styles.teamName, { textAlign: "left" }]} numberOfLines={2}>
-              {isPlayerMatch && event.team2?.name ? event.team2.name : event.team2?.name || "?"}
-            </Text>
-          </View>
-        </View>
-      )}
-
-      {/* ── Footer ── */}
-      <View style={styles.footer}>
-        <View style={styles.footerLeft}>
-          <View style={[styles.channelBadge, { backgroundColor: channelBadge.bg }]}>
-            <Text style={[styles.channelLabel, { color: channelBadge.fg }]}>
-              {channelBadge.label}
-            </Text>
-          </View>
-          <Text style={styles.channelName}>{event.channel.name}</Text>
-          {!event.channel.is_free && (
-            <View style={styles.paidTag}>
-              <Text style={styles.paidText}>PAYANT</Text>
+        {hasTeams ? (
+          <View style={styles.vsRow}>
+            <View style={styles.side}>
+              <EntityAvatar entity={event.team1} size={40} />
+              <Text style={styles.sideName} numberOfLines={2}>{teamLabel(event.team1)}</Text>
             </View>
-          )}
-        </View>
-
-        <View style={styles.footerRight}>
-          {!hasScore && (
-            <Text style={styles.footerTime}>
-              {new Date(event.start).toLocaleTimeString("fr-FR", {
-                hour: "2-digit", minute: "2-digit",
-              })}
+            <Text style={hasScore ? styles.score : styles.vs}>
+              {hasScore ? `${event.score1} – ${event.score2}` : "VS"}
             </Text>
-          )}
-          <TouchableOpacity
-            style={[
-              styles.bellButton,
-              isBellActive && { backgroundColor: sportConfig.color + "12" },
-            ]}
-            onPress={onBellPress}
-            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-          >
-            <Text style={{ fontSize: 14, opacity: isBellActive ? 1 : 0.3 }}>🔔</Text>
-          </TouchableOpacity>
+            <View style={[styles.side, styles.sideRight]}>
+              <Text style={[styles.sideName, { textAlign: "right" }]} numberOfLines={2}>
+                {teamLabel(event.team2)}
+              </Text>
+              <EntityAvatar entity={event.team2} size={40} />
+            </View>
+          </View>
+        ) : (
+          <Text style={styles.soloTitle} numberOfLines={2}>{mainTitle}</Text>
+        )}
+
+        {footer}
+      </TouchableOpacity>
+    );
+  }
+
+  // ───────────── À VENIR ─────────────
+  return (
+    <View style={styles.rowWrap}>
+      <Text style={styles.rail}>{time}</Text>
+      <TouchableOpacity style={[styles.card, styles.cardRow]} onPress={onPress} activeOpacity={0.8}>
+        <View style={styles.compWrap}>
+          {isFavorite && <Icon name="star" size={14} color={COLORS.favorite} filled />}
+          <Text style={styles.comp} numberOfLines={1}>{comp ?? ""}</Text>
         </View>
-      </View>
-    </TouchableOpacity>
+        <Text style={styles.title} numberOfLines={3}>{mainTitle}</Text>
+        {footer}
+      </TouchableOpacity>
+    </View>
   );
 }
 
@@ -170,131 +139,108 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: COLORS.card,
     borderRadius: 18,
-    padding: 16,
     borderWidth: 1,
     borderColor: COLORS.border,
-    marginBottom: 8,
+    padding: 14,
+    gap: 10,
   },
   cardLive: {
-    backgroundColor: COLORS.liveBg,
-    borderColor: COLORS.liveBorder,
+    borderColor: COLORS.accent,
+    borderRadius: 20,
+    padding: 16,
+    gap: 14,
+    marginBottom: 12,
+  },
+  cardRow: { flex: 1, minWidth: 0 },
+
+  rowWrap: { flexDirection: "row", gap: 14, marginBottom: 12, alignItems: "stretch" },
+  rail: {
+    width: 64,
+    fontFamily: FONTS.display,
+    fontSize: 34,
+    lineHeight: 36,
+    color: COLORS.text,
+    paddingTop: 12,
   },
 
-  // Header
-  header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginBottom: 14,
-  },
-  headerLeft: { flexDirection: "row", alignItems: "center", gap: 8 },
-  sportBadge: {
-    width: 26, height: 26, borderRadius: 7,
-    alignItems: "center", justifyContent: "center",
-  },
-  competition: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono",
+  topRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
+  compWrap: { flexDirection: "row", alignItems: "center", gap: 6, flex: 1, minWidth: 0 },
+  comp: {
+    fontFamily: FONTS.bodySemi,
+    fontSize: 12,
+    letterSpacing: 0.6,
+    textTransform: "uppercase",
+    color: COLORS.textSecondary,
+    flexShrink: 1,
   },
   liveBadge: {
-    flexDirection: "row", alignItems: "center", gap: 5,
-    backgroundColor: "rgba(239,68,68,0.06)",
-    paddingHorizontal: 10, paddingVertical: 3, borderRadius: 20,
+    backgroundColor: COLORS.accent,
+    paddingHorizontal: 9,
+    paddingVertical: 3,
+    borderRadius: 6,
   },
-  liveDot: {
-    width: 6, height: 6, borderRadius: 3,
-    backgroundColor: COLORS.live,
-  },
-  liveText: {
-    fontSize: 10, fontWeight: "600", color: COLORS.live,
-    fontFamily: "DMMono", letterSpacing: 1,
-  },
-  doneText: {
-    fontSize: 10, fontWeight: "500", color: COLORS.textTertiary,
-    fontFamily: "DMMono",
+  liveBadgeText: {
+    fontFamily: FONTS.displayBold,
+    fontSize: 15,
+    letterSpacing: 1,
+    color: COLORS.onAccent,
   },
 
-  // Solo
-  soloRow: {
-    flexDirection: "row", alignItems: "center",
-    marginBottom: 12,
+  vsRow: { flexDirection: "row", alignItems: "center", gap: 8 },
+  side: { flex: 1, flexDirection: "row", alignItems: "center", gap: 10, minWidth: 0 },
+  sideRight: { justifyContent: "flex-end" },
+  sideName: {
+    flexShrink: 1,
+    fontFamily: FONTS.displayBold,
+    fontSize: 25,
+    lineHeight: 26,
+    textTransform: "uppercase",
+    color: COLORS.text,
   },
-  soloTitle: { fontSize: 17, fontWeight: "400", fontFamily: "InstrumentSerif" },
-  result: { fontSize: 13, fontWeight: "500", marginTop: 2, fontFamily: "DMMono" },
-
-  // Match
-  matchRow: {
-    flexDirection: "row", alignItems: "center",
-    marginBottom: 12,
-  },
-  teamSide: {
-    flex: 1, flexDirection: "row-reverse",
-    alignItems: "center", gap: 10,
-  },
-  teamName: {
-    fontSize: 15, fontWeight: "400",
-    fontFamily: "InstrumentSerif",
-    lineHeight: 18, flex: 1,
-  },
-  scoreCenter: {
-    alignItems: "center", minWidth: 60,
-    paddingHorizontal: 4,
+  vs: {
+    fontFamily: FONTS.displaySemi,
+    fontSize: 17,
+    color: COLORS.textSecondary,
   },
   score: {
-    fontFamily: "DMMono", fontSize: 20, fontWeight: "500",
-    color: COLORS.text, letterSpacing: 1,
+    fontFamily: FONTS.display,
+    fontSize: 30,
+    color: COLORS.accent,
   },
-  scoreSep: { opacity: 0.2 },
-  minute: {
-    fontSize: 11, color: COLORS.live,
-    fontFamily: "DMMono", marginTop: 1,
+  soloTitle: {
+    fontFamily: FONTS.displayBold,
+    fontSize: 26,
+    lineHeight: 27,
+    textTransform: "uppercase",
+    color: COLORS.text,
   },
-  timePill: {
-    backgroundColor: "rgba(0,0,0,0.03)",
-    paddingHorizontal: 10, paddingVertical: 5,
-    borderRadius: 8,
-  },
-  timeText: {
-    fontFamily: "DMMono", fontSize: 14,
-    fontWeight: "500", color: "rgba(0,0,0,0.4)",
+  title: {
+    fontFamily: FONTS.displayBold,
+    fontSize: 25,
+    lineHeight: 26,
+    textTransform: "uppercase",
+    color: COLORS.text,
   },
 
-  // Footer
-  footer: {
-    flexDirection: "row", justifyContent: "space-between",
-    alignItems: "center", paddingTop: 12,
-    borderTopWidth: 1, borderTopColor: COLORS.border,
-  },
-  footerLeft: { flexDirection: "row", alignItems: "center", gap: 8 },
-  channelBadge: {
-    height: 22, borderRadius: 5,
+  footer: { flexDirection: "row", alignItems: "center", gap: 8 },
+  tiles: { flexDirection: "row", alignItems: "center", gap: 6 },
+  tile: {
+    minWidth: 40,
+    height: 26,
     paddingHorizontal: 7,
-    alignItems: "center", justifyContent: "center",
+    borderRadius: 7,
+    borderWidth: 1,
+    borderColor: COLORS.borderActive,
+    alignItems: "center",
+    justifyContent: "center",
   },
-  channelLabel: {
-    fontSize: 9, fontWeight: "800",
-    fontFamily: "system", letterSpacing: -0.2,
+  tileText: { fontFamily: FONTS.displayBold, fontSize: 14, letterSpacing: 0.2 },
+  more: { fontFamily: FONTS.bodySemi, fontSize: 12, color: COLORS.textSecondary },
+  channelNames: {
+    flex: 1,
+    fontFamily: FONTS.body,
+    fontSize: 13,
+    color: COLORS.textSecondary,
   },
-  channelName: {
-    fontSize: 11, color: COLORS.textSecondary,
-    fontFamily: "DMMono",
-  },
-  paidTag: {
-    borderWidth: 1, borderColor: "rgba(0,0,0,0.08)",
-    borderRadius: 4, paddingHorizontal: 5, paddingVertical: 1,
-  },
-  paidText: {
-    fontSize: 8, fontWeight: "600", color: COLORS.textTertiary,
-    fontFamily: "DMMono",
-  },
-  footerRight: { flexDirection: "row", alignItems: "center", gap: 8 },
-  footerTime: {
-    fontSize: 12, fontFamily: "DMMono",
-    color: "rgba(0,0,0,0.22)",
-  },
-  bellButton: {
-    width: 30, height: 30, borderRadius: 8,
-    backgroundColor: "rgba(0,0,0,0.02)",
-    alignItems: "center", justifyContent: "center",
-  },
+  bell: { padding: 4 },
 });

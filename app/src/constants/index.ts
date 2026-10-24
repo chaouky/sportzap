@@ -62,19 +62,51 @@ export function getChannelBadge(slug: string) {
 
 // ═══ COLORS ═══
 export const COLORS = {
-  bg: "#F5F2ED",
-  card: "#FFFFFF",
-  text: "#1A1A1A",
-  textSecondary: "rgba(0,0,0,0.35)",
-  textTertiary: "rgba(0,0,0,0.18)",
-  border: "rgba(0,0,0,0.04)",
-  borderActive: "rgba(0,0,0,0.08)",
-  live: "#EF4444",
-  liveBg: "rgba(239,68,68,0.03)",
-  liveBorder: "rgba(239,68,68,0.1)",
-  accent: "#6366F1",
-  free: "#16A34A",
+  bg: "#0A0E1A",
+  card: "#131A2B",
+  surface2: "#1B2438",
+  text: "#F2F5FF",
+  textSecondary: "#9AA6C4",
+  textTertiary: "#7D8AAE",
+  border: "#263150",
+  borderActive: "#38456B",
+  live: "#C8FF2E",
+  liveBg: "#131A2B",
+  liveBorder: "#C8FF2E",
+  accent: "#C8FF2E",
+  onAccent: "#0A0E1A",
+  free: "#C8FF2E",
+  favorite: "#FFB020",
 };
+
+// ═══ FONTS (Barlow Condensed pour titres/heures, Barlow pour le texte) ═══
+export const FONTS = {
+  display: "BarlowCondensedExtraBold",
+  displayBold: "BarlowCondensedBold",
+  displaySemi: "BarlowCondensedSemiBold",
+  body: "Barlow",
+  bodyMedium: "BarlowMedium",
+  bodySemi: "BarlowSemiBold",
+};
+
+// ═══ HEURES (les événements portent l'offset de Paris : on lit l'heure telle quelle) ═══
+/** "2026-10-24T20:45:00+02:00" → "20:45" (heure de Paris, indépendante du fuseau du téléphone) */
+export function parisTime(iso: string): string {
+  const m = /T(\d{2}:\d{2})/.exec(iso);
+  if (m) return m[1];
+  const d = new Date(iso);
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+export function parisHour(iso: string): number {
+  return parseInt(parisTime(iso).slice(0, 2), 10);
+}
+
+/** Heure de référence d'un événement : coup d'envoi officiel, sinon début de diffusion. */
+export function kickoffOf(e: { kickoff?: string | null; start: string }): string {
+  return e.kickoff || e.start;
+}
 
 // ═══ DAY TABS ═══
 /** Date du jour au format YYYY-MM-DD, en heure de Paris (les données sont groupées ainsi). */

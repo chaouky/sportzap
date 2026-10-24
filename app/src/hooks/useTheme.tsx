@@ -1,31 +1,28 @@
 import React, { createContext, useContext } from "react";
+import { COLORS, FONTS } from "../constants";
 
+// Direction « Night Match » : thème sombre unique.
 const theme = {
   colors: {
     // Surfaces
-    bg: "#FAF9F6",
-    surface: "#F0EDE8",
+    bg: COLORS.bg,
+    surface: COLORS.card,
     // Text
-    text: "#1A1A1A",
-    textSecondary: "#6B6560",
+    text: COLORS.text,
+    textSecondary: COLORS.textSecondary,
     // Borders
-    border: "#E0DBD4",
+    border: COLORS.border,
     // Accent
-    accent: "#C84B2F",
+    accent: COLORS.accent,
     // Navigation
-    navBg: "#FFFFFF",
-    navBorder: "#E0DBD4",
-    navActive: "#C84B2F",
-    navInactive: "#A09890",
+    navBg: COLORS.card,
+    navBorder: COLORS.border,
+    navActive: COLORS.onAccent,
+    navInactive: COLORS.textSecondary,
     // Misc
     white: "#FFFFFF",
   },
-  fonts: {
-    serif: "InstrumentSerif",
-    serifItalic: "InstrumentSerifItalic",
-    mono: "DMMono",
-    monoMedium: "DMMonoMedium",
-  },
+  fonts: FONTS,
   spacing: {
     xs: 4,
     sm: 8,
@@ -34,9 +31,9 @@ const theme = {
     xl: 32,
   },
   radius: {
-    sm: 4,
-    md: 8,
-    lg: 16,
+    sm: 6,
+    md: 12,
+    lg: 20,
   },
 };
 
@@ -49,11 +46,11 @@ interface ThemeContextValue {
 
 const ThemeContext = createContext<ThemeContextValue>({
   theme,
-  isDark: false,
+  isDark: true,
 });
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => (
-  <ThemeContext.Provider value={{ theme, isDark: false }}>
+  <ThemeContext.Provider value={{ theme, isDark: true }}>
     {children}
   </ThemeContext.Provider>
 );

@@ -39,8 +39,13 @@ export interface SportEvent {
   team1?: Entity | null;
   team2?: Entity | null;
   channel: Channel;
-  start: string; // ISO datetime
+  /** Toutes les chaînes du même match, une fois regroupées (voir mergeEvents). */
+  channels?: Channel[];
+  start: string; // ISO datetime — début de DIFFUSION sur la chaîne (avant-match inclus)
   end: string;   // ISO datetime
+  /** Coup d'envoi officiel de la rencontre ; absent = on ne le connaît pas (voir start). */
+  kickoff?: string | null;
+  kickoff_source?: "espn" | "estimate" | null;
   status: EventStatus;
   score1?: number | null;
   score2?: number | null;

@@ -1,19 +1,20 @@
 /**
  * SportZap — useEvents hook
  *
- * Manages events state: fetching, filtering, grouping by time block.
- * Handles loading, error, and refresh states.
+ * Charge le programme du jour, filtre (chaînes choisies, terminés),
+ * regroupe les doublons (un match = une carte) puis groupe par tranche horaire.
  */
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { DaySchedule, SportEvent, SportType, TimeBlock } from "../types";
 import { fetchEvents } from "../services/api";
+import { mergeDuplicateEvents } from "../services/mergeEvents";
+import { kickoffOf, parisHour } from "../constants";
 
-// ── Time block grouping ──
 const TIME_BLOCK_ORDER: TimeBlock[] = ["EN DIRECT", "MATIN", "APRÈS-MIDI", "SOIRÉE"];
 
 function getTimeBlock(event: SportEvent): TimeBlock {
   if (event.status === "live") return "EN DIRECT";
-  const hour = new Date(event.start).getHours();
+  const hour = parisHour(kickoffOf(event));
   if (hour < 12) return "MATIN";
   if (hour < 18) return "APRÈS-MIDI";
   return "SOIRÉE";
@@ -24,14 +25,12 @@ export interface EventGroup {
   events: SportEvent[];
 }
 
-// ── Hook ──
-
 export function useEvents(options?: {
   date?: string;
   sport?: SportType | "all";
   channel?: string;
   freeOnly?: boolean;
-  channelSlugs?: Set<string>; // "Mes Chaînes" filter
+  channelSlugs?: Set<string>; // "Mes Chaînes"
 }) {
   const [schedule, setSchedule] = useState<DaySchedule | null>(null);
   const [loading, setLoading] = useState(true);
@@ -53,7 +52,7 @@ export function useEvents(options?: {
     } catch (err) {
       console.warn("SportZap: impossible de charger le programme:", err);
       setSchedule(null);
-      setError("Impossible de charger le programme. Tirez pour réessayer.");
+      setError("Impossible de charger le programme.");
     } finally {
       setLoading(false);
     }
@@ -63,26 +62,29 @@ export function useEvents(options?: {
     load();
   }, [load]);
 
-  // Group events by time block (after channel filter)
-  const groups: EventGroup[] = useMemo(() => {
-    if (!schedule) return [];
+  const { groups, total, liveCount } = useMemo(() => {
+    if (!schedule) return { groups: [] as EventGroup[], total: 0, liveCount: 0 };
 
-    // Ne montrer que les matchs en cours ou à venir (pas les terminés)
     let filtered = schedule.events.filter(e => e.status !== "finished");
     if (options?.channelSlugs && options.channelSlugs.size > 0) {
       filtered = filtered.filter(e => options.channelSlugs!.has(e.channel.slug));
     }
+    const merged = mergeDuplicateEvents(filtered);
 
     const map = new Map<TimeBlock, SportEvent[]>();
-    for (const event of filtered) {
+    for (const event of merged) {
       const block = getTimeBlock(event);
       if (!map.has(block)) map.set(block, []);
       map.get(block)!.push(event);
     }
 
-    return TIME_BLOCK_ORDER
-      .filter(block => map.has(block))
-      .map(block => ({ block, events: map.get(block)! }));
+    return {
+      groups: TIME_BLOCK_ORDER
+        .filter(block => map.has(block))
+        .map(block => ({ block, events: map.get(block)! })),
+      total: merged.length,
+      liveCount: merged.filter(e => e.status === "live").length,
+    };
   }, [schedule, options?.channelSlugs]);
 
   return {
@@ -91,7 +93,7 @@ export function useEvents(options?: {
     loading,
     error,
     refresh: load,
-    liveCount: schedule?.live_count ?? 0,
-    eventCount: schedule?.event_count ?? 0,
+    liveCount,
+    eventCount: total,
   };
 }

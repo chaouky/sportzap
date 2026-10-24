@@ -43,6 +43,8 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).parent))
 
 from app.fetcher import XMLTVFetcher
+from app.fixtures import fetch_fixtures
+from app.schedule_refine import PARIS, refine_events
 from app.sport_extractor import build_channel
 
 
@@ -52,7 +54,8 @@ def make_date_range(days: int) -> list[str]:
     return [(today + timedelta(days=i)).isoformat() for i in range(days)]
 
 
-async def export(days: int = 7, sample: bool = False, out_path: str = "output/events.json"):
+async def export(days: int = 7, sample: bool = False, out_path: str = "output/events.json",
+                 use_espn: bool = True):
     fetcher = XMLTVFetcher(source="full", french_only=True)
 
     sample_file = Path(__file__).parent / "data" / "sample_xmltv.xml"
@@ -66,6 +69,23 @@ async def export(days: int = 7, sample: bool = False, out_path: str = "output/ev
 
     print(f"[export] {fetcher.stats['cached_events']} événements chargés")
 
+    # ── Coup d'envoi officiel + suppression des rediffusions ──
+    fixtures = []
+    if use_espn and not sample:
+        today = datetime.now(PARIS).date()
+        try:
+            fixtures = await fetch_fixtures(today - timedelta(days=1), today + timedelta(days=days))
+            print(f"[export] Calendrier officiel (ESPN): {len(fixtures)} rencontres")
+        except Exception as exc:  # le calendrier est un bonus : on continue sans
+            print(f"[export] ⚠ ESPN indisponible ({exc}) — coups d'envoi estimés")
+    all_events, stats = refine_events(fetcher.get_events(), fixtures)
+    print(f"[export] Affinage: {stats.get('in', 0)} diffusions → {stats.get('out', 0)} "
+          f"({stats.get('espn_matched', 0)} recalées sur l'horaire officiel)")
+    print(f"[export]   détail: {stats}")
+
+    def event_day(ev) -> str:
+        return (ev.kickoff or ev.start).astimezone(PARIS).date().isoformat()
+
     date_range = make_date_range(days)
     all_days = []
     all_sports: set[str] = set()
@@ -73,7 +93,7 @@ async def export(days: int = 7, sample: bool = False, out_path: str = "output/ev
     total_events = 0
 
     for date in date_range:
-        events = fetcher.get_events(date=date)
+        events = [e for e in all_events if event_day(e) == date]
         if not events:
             continue
 
@@ -138,6 +158,8 @@ if __name__ == "__main__":
     parser.add_argument("--days", type=int, default=7, help="Nombre de jours (défaut: 7)")
     parser.add_argument("--sample", action="store_true", help="Utiliser le sample XMLTV local")
     parser.add_argument("--out", type=str, default="output/events.json", help="Chemin de sortie")
+    parser.add_argument("--no-espn", action="store_true", help="Ne pas interroger le calendrier ESPN")
     args = parser.parse_args()
 
-    asyncio.run(export(days=args.days, sample=args.sample, out_path=args.out))
+    asyncio.run(export(days=args.days, sample=args.sample, out_path=args.out,
+                       use_espn=not args.no_espn))
