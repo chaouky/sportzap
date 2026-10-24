@@ -163,6 +163,15 @@ _ALIASES = {
     "la gantoise": "gent", "malines": "mechelen", "courtrai": "kortrijk",
     "la corogne": "deportivo la coruna", "bergame": "atalanta",
     "fribourg": "freiburg", "betis seville": "real betis",
+    # Noms français des clubs étrangers (jamais ceux d'ESPN)
+    "bologne": "bologna", "genes": "genoa", "venise": "venezia", "florence": "fiorentina",
+    "verone": "verona", "parme": "parma", "pise": "pisa", "cremone": "cremonese",
+    "majorque": "mallorca", "gerone": "girona", "grenade": "granada", "cadix": "cadiz",
+    "cordoue": "cordoba", "brunswick": "braunschweig", "hanovre": "hannover",
+    "dresde": "dresden", "magdebourg": "magdeburg", "nuremberg": "nurnberg",
+    "gladbach": "monchengladbach", "madere": "madeira", "constantinople": "istanbul",
+    "inter milan": "internazionale", "naples": "napoli",
+    "boulogne sur mer": "boulogne", "elverberg": "elversberg",
 }
 _TOKEN_ALIASES = {k: v for k, v in _ALIASES.items() if " " not in k}
 

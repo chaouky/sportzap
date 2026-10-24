@@ -22,6 +22,7 @@ et l'heure de chaque ligne est celle où la chaîne commence son antenne
 """
 from __future__ import annotations
 
+import hashlib
 import logging
 import re
 from collections import Counter, defaultdict
@@ -30,7 +31,7 @@ from typing import Optional, Sequence
 from zoneinfo import ZoneInfo
 
 from .fixtures import Fixture, fixture_matches, fold
-from .models import EventStatus, SportEvent
+from .models import Channel, Entity, EntityType, EventStatus, SportEvent, SportType
 
 logger = logging.getLogger(__name__)
 
@@ -305,3 +306,75 @@ def refine_events(
     stats["in"] = len(events)
     stats["out"] = len(result)
     return result, dict(stats)
+
+
+# ───────────────────────── matchs en streaming (hors flux TV) ─────────────────────────
+# Certains championnats ne passent plus sur une chaîne linéaire : le flux TV (XMLTV)
+# n'en contient alors qu'une partie. Pour ces compétitions on complète avec le
+# calendrier officiel et les plateformes qui les diffusent.
+#   LaLiga 2026-2029 : les 380 matchs de la saison en direct sur DAZN **et** Disney+
+#   (annonce des droits France ; plus de diffusion beIN Sports).
+STREAMING_LEAGUES = {
+    "esp.1": {
+        "competition": "Liga",
+        "platforms": [
+            Channel(id="dazn.stream.fr", name="DAZN", slug="dazn", is_free=False),
+            Channel(id="disney-plus.stream.fr", name="Disney+", slug="disney-plus", is_free=False),
+        ],
+    },
+}
+_FIXTURE_DURATION = timedelta(minutes=110)
+
+
+def _fixture_entity(names: list[str]) -> Entity:
+    ent = Entity(name=names[0] if names else "?", type=EntityType.CLUB)
+    try:
+        from .entity_registry import enrich_entity
+        enriched = enrich_entity(ent.model_dump(), "football") or {}
+        return Entity(**{k: v for k, v in enriched.items() if k in Entity.model_fields})
+    except Exception:  # l'enrichissement (logos) est un bonus
+        return ent
+
+
+def fixture_event(fx: Fixture, channel: Channel, competition: str, now: datetime) -> SportEvent:
+    """Évènement synthétique pour une rencontre du calendrier officiel."""
+    start = fx.start.astimezone(PARIS)
+    end = start + _FIXTURE_DURATION
+    status = EventStatus.FINISHED if now > end else EventStatus.LIVE if now >= start else EventStatus.UPCOMING
+    home, away = _fixture_entity(fx.home), _fixture_entity(fx.away)
+    return SportEvent(
+        id=hashlib.md5(f"espn-{fx.league}-{fx.id}-{channel.slug}".encode()).hexdigest()[:12],
+        sport=SportType.FOOTBALL,
+        competition=competition,
+        title=f"{home.name} / {away.name}",
+        team1=home, team2=away,
+        channel=channel,
+        start=start, end=end, status=status,
+        kickoff=start, kickoff_source="espn",
+    )
+
+
+def _same_platform(e: SportEvent, channel: Channel) -> bool:
+    return (e.channel.slug or "").split("-")[0] == channel.slug.split("-")[0]
+
+
+def streaming_fixtures(events: Sequence[SportEvent], fixtures: Sequence[Fixture],
+                       now: Optional[datetime] = None) -> list[SportEvent]:
+    """Rencontres des compétitions streamées absentes du flux TV, une par plateforme."""
+    now = now or datetime.now(timezone.utc)
+    horizon_past = now - timedelta(hours=3)
+    out: list[SportEvent] = []
+    for fx in fixtures:
+        cfg = STREAMING_LEAGUES.get(fx.league)
+        if not cfg or fx.state == "post" or fx.start < horizon_past:
+            continue
+        for channel in cfg["platforms"]:
+            found = any(
+                e.team1 and e.team2 and _same_platform(e, channel)
+                and abs((e.kickoff or e.start) - fx.start) <= timedelta(hours=6)
+                and fixture_matches(e.team1.name, e.team2.name, fx)
+                for e in events
+            )
+            if not found:
+                out.append(fixture_event(fx, channel, cfg["competition"], now))
+    return out

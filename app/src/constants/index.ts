@@ -40,6 +40,8 @@ export const CHANNEL_BADGES: Record<string, { label: string; bg: string; fg: str
   "lequipe":        { label: "LÉQ",  bg: "#FFD700", fg: "#000" },
   "dazn-1":         { label: "DAZN", bg: "#0C0C0E", fg: "#fff" },
   "dazn-2":         { label: "DZ2",  bg: "#0C0C0E", fg: "#fff" },
+  "dazn":           { label: "DAZN", bg: "#0C0C0E", fg: "#fff" },
+  "disney-plus":    { label: "Disney+", bg: "#0B1B5E", fg: "#fff" },
   "sport-en-france":{ label: "SEF",  bg: "#0074E4", fg: "#fff" },
   "infosport-plus": { label: "IS+",  bg: "#1A1A1A", fg: "#fff" },
   "m6":             { label: "M6",   bg: "#F59E0B", fg: "#000" },

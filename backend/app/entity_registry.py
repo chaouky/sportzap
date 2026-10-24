@@ -18,6 +18,7 @@ official logos with proper licensing.
 from __future__ import annotations
 
 import re
+from functools import lru_cache
 from dataclasses import dataclass, field
 from typing import Optional
 
@@ -70,7 +71,7 @@ ENTITY_REGISTRY: list[EntityProfile] = [
         aliases=["Paris-SG", "Paris SG", "Paris Saint Germain", "PSG", "Paris-Saint-Germain"]),
 
     EntityProfile("Paris FC", "Paris FC", "club", "football", "fr",
-        colors=("#003189", "#FFFFFF"),
+        logo_url=_espn_soccer(6851), colors=("#003189", "#FFFFFF"),
         aliases=["Paris FC", "PFC"]),
 
     EntityProfile("Olympique de Marseille", "OM", "club", "football", "fr",
@@ -90,55 +91,55 @@ ENTITY_REGISTRY: list[EntityProfile] = [
         aliases=["LOSC Lille", "LOSC", "Lille", "Lille OSC"]),
 
     EntityProfile("Stade Rennais", "Rennes", "club", "football", "fr",
-        logo_url=_espn_soccer(177), colors=("#DA291C", "#000000"),
+        logo_url=_espn_soccer(169), colors=("#DA291C", "#000000"),
         aliases=["Stade Rennais", "Rennes", "Stade Rennais FC"]),
 
     EntityProfile("RC Lens", "Lens", "club", "football", "fr",
-        logo_url=_espn_soccer(171), colors=("#F1C40F", "#E4002B"),
+        logo_url=_espn_soccer(175), colors=("#F1C40F", "#E4002B"),
         aliases=["RC Lens", "Lens", "Racing Club de Lens"]),
 
     EntityProfile("OGC Nice", "Nice", "club", "football", "fr",
-        logo_url=_espn_soccer(175), colors=("#000000", "#DA291C"),
+        logo_url=_espn_soccer(2502), colors=("#000000", "#DA291C"),
         aliases=["OGC Nice", "Nice", "OGC Nice Côte d'Azur"]),
 
     EntityProfile("RC Strasbourg", "Strasbourg", "club", "football", "fr",
-        logo_url=_espn_soccer(178), colors=("#0055A4", "#FFFFFF"),
+        logo_url=_espn_soccer(180), colors=("#0055A4", "#FFFFFF"),
         aliases=["RC Strasbourg", "Strasbourg", "RC Strasbourg Alsace"]),
 
     EntityProfile("FC Nantes", "Nantes", "club", "football", "fr",
-        logo_url=_espn_soccer(173), colors=("#00A651", "#F1C40F"),
+        logo_url=_espn_soccer(165), colors=("#00A651", "#F1C40F"),
         aliases=["FC Nantes", "Nantes"]),
 
     EntityProfile("Montpellier HSC", "Montpellier", "club", "football", "fr",
-        logo_url=_espn_soccer(172), colors=("#FF6900", "#003DA6"),
+        logo_url=_espn_soccer(274), colors=("#FF6900", "#003DA6"),
         aliases=["Montpellier HSC", "Montpellier", "Montpellier Hérault"]),
 
     EntityProfile("Stade de Reims", "Reims", "club", "football", "fr",
-        logo_url=_espn_soccer(4927), colors=("#DA291C", "#FFFFFF"),
+        logo_url=_espn_soccer(3243), colors=("#DA291C", "#FFFFFF"),
         aliases=["Stade de Reims", "Reims"]),
 
     EntityProfile("Toulouse FC", "TFC", "club", "football", "fr",
-        logo_url=_espn_soccer(181), colors=("#6B2C91", "#FFFFFF"),
+        logo_url=_espn_soccer(179), colors=("#6B2C91", "#FFFFFF"),
         aliases=["Toulouse FC", "Toulouse", "TFC"]),
 
     EntityProfile("AJ Auxerre", "Auxerre", "club", "football", "fr",
-        logo_url=_espn_soccer(159), colors=("#003DA6", "#FFFFFF"),
+        logo_url=_espn_soccer(172), colors=("#003DA6", "#FFFFFF"),
         aliases=["AJ Auxerre", "Auxerre"]),
 
     EntityProfile("Angers SCO", "Angers", "club", "football", "fr",
-        logo_url=_espn_soccer(158), colors=("#000000", "#FFFFFF"),
+        logo_url=_espn_soccer(7868), colors=("#000000", "#FFFFFF"),
         aliases=["Angers SCO", "Angers"]),
 
     EntityProfile("AS Saint-Étienne", "ASSE", "club", "football", "fr",
-        logo_url=_espn_soccer(179), colors=("#00843D", "#FFFFFF"),
+        logo_url=_espn_soccer(178), colors=("#00843D", "#FFFFFF"),
         aliases=["AS Saint-Étienne", "AS Saint-Etienne", "Saint-Étienne", "Saint-Etienne", "ASSE"]),
 
     EntityProfile("Le Havre AC", "Le Havre", "club", "football", "fr",
-        logo_url=_espn_soccer(170), colors=("#0055A4", "#87CEEB"),
+        logo_url=_espn_soccer(3236), colors=("#0055A4", "#87CEEB"),
         aliases=["Le Havre AC", "Le Havre", "HAC"]),
 
     EntityProfile("Stade Brestois", "Brest", "club", "football", "fr",
-        logo_url=_espn_soccer(161), colors=("#DA291C", "#FFFFFF"),
+        logo_url=_espn_soccer(6997), colors=("#DA291C", "#FFFFFF"),
         aliases=["Stade Brestois", "Brest", "Stade Brestois 29"]),
 
     # ────────────────────────────────────────────
@@ -191,24 +192,176 @@ ENTITY_REGISTRY: list[EntityProfile] = [
         logo_url=_espn_soccer(1068), colors=("#CB3524", "#FFFFFF"),
         aliases=["Atlético Madrid", "Atletico Madrid", "Atlético", "Atletico"]),
 
+
+    # ────────────────────────────────────────────
+    # FOOTBALL — Liga & Liga 2 (clubs du calendrier ESPN)
+    # ────────────────────────────────────────────
+    EntityProfile("Deportivo Alavés", "Alavés", "club", "football", "es",
+        logo_url=_espn_soccer(96), colors=("#0000FF", "#FFFFFF"),
+        aliases=["Alavés", "Alaves", "Deportivo Alavés", "Deportivo Alaves"]),
+
+    EntityProfile("Athletic Club", "Athletic", "club", "football", "es",
+        logo_url=_espn_soccer(93), colors=("#C8142F", "#FFFFFF"),
+        aliases=["Athletic Club", "Athletic Bilbao", "Athletic Club Bilbao", "Bilbao"]),
+
+    EntityProfile("Celta Vigo", "Celta", "club", "football", "es",
+        logo_url=_espn_soccer(85), colors=("#6CACE4", "#FFFFFF"),
+        aliases=["Celta Vigo", "Celta de Vigo", "Celta"]),
+
+    EntityProfile("Deportivo La Corogne", "Deportivo", "club", "football", "es",
+        logo_url=_espn_soccer(90), colors=("#3366CC", "#FFFFFF"),
+        aliases=["Deportivo La Corogne", "Deportivo La Coruña", "Deportivo La Coruna", "RC Deportivo", "Deportivo"]),
+
+    EntityProfile("Elche CF", "Elche", "club", "football", "es",
+        logo_url=_espn_soccer(3751), colors=("#288A00", "#FFFFFF"),
+        aliases=["Elche", "Elche CF"]),
+
+    EntityProfile("Espanyol Barcelone", "Espanyol", "club", "football", "es",
+        logo_url=_espn_soccer(88), colors=("#3366CC", "#FFFFFF"),
+        aliases=["Espanyol Barcelone", "Espanyol", "RCD Espanyol", "Espanyol Barcelona"]),
+
+    EntityProfile("Getafe CF", "Getafe", "club", "football", "es",
+        logo_url=_espn_soccer(2922), colors=("#0000FF", "#FFFFFF"),
+        aliases=["Getafe", "Getafe CF"]),
+
+    EntityProfile("Levante UD", "Levante", "club", "football", "es",
+        logo_url=_espn_soccer(1538), colors=("#C8142F", "#003A8F"),
+        aliases=["Levante", "Levante UD"]),
+
+    EntityProfile("Málaga CF", "Málaga", "club", "football", "es",
+        logo_url=_espn_soccer(99), colors=("#B9E8F0", "#FFFFFF"),
+        aliases=["Málaga", "Malaga", "Malaga CF", "Málaga CF"]),
+
+    EntityProfile("CA Osasuna", "Osasuna", "club", "football", "es",
+        logo_url=_espn_soccer(97), colors=("#CD0000", "#FFFFFF"),
+        aliases=["Osasuna", "CA Osasuna"]),
+
+    EntityProfile("Racing Santander", "Racing", "club", "football", "es",
+        logo_url=_espn_soccer(87), colors=("#3B6C1A", "#FFFFFF"),
+        aliases=["Racing Santander", "Racing de Santander", "Racing Santander"]),
+
+    EntityProfile("Rayo Vallecano", "Rayo", "club", "football", "es",
+        logo_url=_espn_soccer(101), colors=("#FFFFFF", "#CD0000"),
+        aliases=["Rayo Vallecano", "Rayo"]),
+
+    EntityProfile("Real Betis", "Betis", "club", "football", "es",
+        logo_url=_espn_soccer(244), colors=("#288A00", "#FFFFFF"),
+        aliases=["Real Betis", "Betis Séville", "Betis Seville", "Betis", "Real Betis Séville"]),
+
+    EntityProfile("Real Sociedad", "Real Sociedad", "club", "football", "es",
+        logo_url=_espn_soccer(89), colors=("#3366CC", "#FFFFFF"),
+        aliases=["Real Sociedad"]),
+
+    EntityProfile("FC Séville", "Séville", "club", "football", "es",
+        logo_url=_espn_soccer(243), colors=("#D81022", "#FFFFFF"),
+        aliases=["FC Séville", "FC Seville", "Séville", "Seville", "Sevilla", "Sevilla FC", "FC Sevilla"]),
+
+    EntityProfile("Valence CF", "Valence", "club", "football", "es",
+        logo_url=_espn_soccer(94), colors=("#FF6F00", "#FFFFFF"),
+        aliases=["Valence", "Valence CF", "Valencia", "Valencia CF"]),
+
+    EntityProfile("Villarreal CF", "Villarreal", "club", "football", "es",
+        logo_url=_espn_soccer(102), colors=("#FFFF00", "#6CACE4"),
+        aliases=["Villarreal", "Villarreal CF", "FC Villarreal"]),
+
+    EntityProfile("Albacete", "Albacete", "club", "football", "es",
+        logo_url=_espn_soccer(2737), colors=("#BC0814", "#FFFFFF"),
+        aliases=["Albacete", "Albacete Balompié"]),
+
+    EntityProfile("UD Almería", "Almería", "club", "football", "es",
+        logo_url=_espn_soccer(6832), colors=("#C8142F", "#FFFFFF"),
+        aliases=["Almería", "Almeria", "UD Almería"]),
+
+    EntityProfile("Burgos CF", "Burgos", "club", "football", "es",
+        logo_url=_espn_soccer(12597), colors=("#000000", "#FFFFFF"),
+        aliases=["Burgos", "Burgos CF"]),
+
+    EntityProfile("CE Sabadell", "Sabadell", "club", "football", "es",
+        logo_url=_espn_soccer(11487), colors=("#000000", "#FFFFFF"),
+        aliases=["CE Sabadell", "Sabadell"]),
+
+    EntityProfile("CD Castellón", "Castellón", "club", "football", "es",
+        logo_url=_espn_soccer(4438), colors=("#000000", "#FFFFFF"),
+        aliases=["Castellón", "Castellon", "CD Castellón"]),
+
+    EntityProfile("AD Ceuta", "Ceuta", "club", "football", "es",
+        logo_url=_espn_soccer(5404), colors=("#000000", "#FFFFFF"),
+        aliases=["Ceuta", "AD Ceuta"]),
+
+    EntityProfile("Cadix CF", "Cadix", "club", "football", "es",
+        logo_url=_espn_soccer(3842), colors=("#FFFF00", "#FFFFFF"),
+        aliases=["Cadix", "Cádiz", "Cadiz", "Cádiz CF"]),
+
+    EntityProfile("Cordoue CF", "Cordoue", "club", "football", "es",
+        logo_url=_espn_soccer(8447), colors=("#288A00", "#FFFFFF"),
+        aliases=["Cordoue", "Córdoba", "Cordoba", "Córdoba CF"]),
+
+    EntityProfile("SD Eibar", "Eibar", "club", "football", "es",
+        logo_url=_espn_soccer(3752), colors=("#C00000", "#FFFFFF"),
+        aliases=["Eibar", "SD Eibar"]),
+
+    EntityProfile("CD Eldense", "Eldense", "club", "football", "es",
+        logo_url=_espn_soccer(7320), colors=("#000000", "#FFFFFF"),
+        aliases=["Eldense", "CD Eldense"]),
+
+    EntityProfile("FC Andorra", "Andorra", "club", "football", "es",
+        logo_url=_espn_soccer(20179), colors=("#000000", "#FFFFFF"),
+        aliases=["FC Andorra", "Andorre"]),
+
+    EntityProfile("Gérone FC", "Gérone", "club", "football", "es",
+        logo_url=_espn_soccer(9812), colors=("#C60000", "#FFFFFF"),
+        aliases=["Gérone", "Girona", "Girona FC", "Gérone FC"]),
+
+    EntityProfile("Grenade CF", "Grenade", "club", "football", "es",
+        logo_url=_espn_soccer(3747), colors=("#C8142F", "#FFFFFF"),
+        aliases=["Grenade", "Granada", "Granada CF"]),
+
+    EntityProfile("UD Las Palmas", "Las Palmas", "club", "football", "es",
+        logo_url=_espn_soccer(98), colors=("#FFFF00", "#FFFFFF"),
+        aliases=["Las Palmas", "UD Las Palmas"]),
+
+    EntityProfile("CD Leganés", "Leganés", "club", "football", "es",
+        logo_url=_espn_soccer(17534), colors=("#6CACE4", "#FFFFFF"),
+        aliases=["Leganés", "Leganes", "CD Leganés"]),
+
+    EntityProfile("Majorque", "Majorque", "club", "football", "es",
+        logo_url=_espn_soccer(84), colors=("#C8142F", "#FFFFFF"),
+        aliases=["Majorque", "Mallorca", "RCD Mallorca", "RCD Majorque"]),
+
+    EntityProfile("Real Oviedo", "Oviedo", "club", "football", "es",
+        logo_url=_espn_soccer(92), colors=("#E23627", "#FFFFFF"),
+        aliases=["Real Oviedo", "Oviedo"]),
+
+    EntityProfile("Real Valladolid", "Valladolid", "club", "football", "es",
+        logo_url=_espn_soccer(95), colors=("#7A2D9D", "#FFFFFF"),
+        aliases=["Real Valladolid", "Valladolid"]),
+
+    EntityProfile("Sporting Gijón", "Gijón", "club", "football", "es",
+        logo_url=_espn_soccer(3788), colors=("#C8142F", "#FFFFFF"),
+        aliases=["Sporting Gijón", "Sporting Gijon", "Gijón", "Gijon"]),
+
+    EntityProfile("CD Tenerife", "Tenerife", "club", "football", "es",
+        logo_url=_espn_soccer(245), colors=("#008BC4", "#FFFFFF"),
+        aliases=["Tenerife", "CD Tenerife"]),
+
     # ────────────────────────────────────────────
     # FOOTBALL — Portugal (top clubs)
     # ────────────────────────────────────────────
     EntityProfile("Sporting CP", "Sporting", "club", "football", "pt",
-        logo_url=_espn_soccer(744), colors=("#009B3A", "#FFD700"),
+        logo_url=_espn_soccer(2250), colors=("#009B3A", "#FFD700"),
         aliases=["Sporting CP", "Sporting Club Portugal", "Sporting Club de Portugal",
                  "Sporting Clube de Portugal", "Sporting", "Sporting Portugal"]),
 
     EntityProfile("SL Benfica", "Benfica", "club", "football", "pt",
-        logo_url=_espn_soccer(745), colors=("#CC0000", "#FFFFFF"),
+        logo_url=_espn_soccer(1929), colors=("#CC0000", "#FFFFFF"),
         aliases=["SL Benfica", "Benfica", "Sport Lisboa e Benfica"]),
 
     EntityProfile("FC Porto", "Porto", "club", "football", "pt",
-        logo_url=_espn_soccer(743), colors=("#003087", "#FFFFFF"),
+        logo_url=_espn_soccer(437), colors=("#003087", "#FFFFFF"),
         aliases=["FC Porto", "Porto", "F.C. Porto"]),
 
     EntityProfile("SC Braga", "Braga", "club", "football", "pt",
-        logo_url=_espn_soccer(750), colors=("#CC0000", "#FFFFFF"),
+        logo_url=_espn_soccer(2994), colors=("#CC0000", "#FFFFFF"),
         aliases=["SC Braga", "Braga", "Sporting Braga", "Sporting de Braga"]),
 
     # ────────────────────────────────────────────
@@ -485,6 +638,58 @@ def match_entity(raw_name: str, sport: Optional[str] = None) -> Optional[EntityP
     return None
 
 
+# ═══════════════════════════════════════════════════════
+# REPLI : clubs du calendrier ESPN (écusson + nom court)
+# ═══════════════════════════════════════════════════════
+# Le registre ci-dessus contient les noms français usuels des gros clubs. Pour les
+# autres clubs des championnats suivis (data/espn_teams.json : D1/D2 de France,
+# Allemagne, Angleterre, Espagne, Italie, Portugal + Turquie, Pays-Bas, Belgique,
+# Écosse, Suisse), on rapproche le nom vu à la TV des noms ESPN.
+
+_ESPN_COUNTRY = {"fra": "fr", "eng": "gb-eng", "ger": "de", "ita": "it", "esp": "es", "por": "pt",
+                 "tur": "tr", "ned": "nl", "bel": "be", "sco": "gb-sct", "sui": "ch"}
+_ESPN_MIN_SCORE = 0.9
+_espn_teams_cache: Optional[list[dict]] = None
+
+
+def _espn_teams() -> list[dict]:
+    global _espn_teams_cache
+    if _espn_teams_cache is None:
+        import json
+        from pathlib import Path
+        path = Path(__file__).resolve().parent.parent / "data" / "espn_teams.json"
+        try:
+            _espn_teams_cache = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _espn_teams_cache = []
+    return _espn_teams_cache
+
+
+@lru_cache(maxsize=None)
+def _espn_fallback(raw_name: str) -> Optional[EntityProfile]:
+    if not raw_name:
+        return None
+    from .fixtures import name_score
+    scored = sorted(
+        ((name_score(raw_name, [t["name"], t["short"]] if t["short"] else [t["name"]]), t)
+         for t in _espn_teams()),
+        key=lambda x: -x[0],
+    )
+    if not scored or scored[0][0] < _ESPN_MIN_SCORE:
+        return None
+    best, team = scored[0]
+    # Deux clubs aussi plausibles l'un que l'autre : on préfère ne rien afficher
+    if len(scored) > 1 and scored[1][0] >= best - 0.02 and scored[1][1]["id"] != team["id"]:
+        return None
+    return EntityProfile(
+        canonical_name=raw_name.strip(),
+        short_name=(team["short"] or team["name"]).strip(),
+        entity_type="club", sport="football",
+        country_code=_ESPN_COUNTRY.get(team["league"].split(".")[0]),
+        logo_url=_espn_soccer(team["id"]),
+    )
+
+
 def enrich_entity(entity_dict: Optional[dict], sport: str = "football") -> Optional[dict]:
     """
     Enrich a raw entity dict (from sport_extractor) with visual metadata.
@@ -497,6 +702,8 @@ def enrich_entity(entity_dict: Optional[dict], sport: str = "football") -> Optio
         return entity_dict
 
     profile = match_entity(entity_dict.get("name", ""), sport)
+    if not profile and sport == "football" and entity_dict.get("type") in ("club", None):
+        profile = _espn_fallback(entity_dict.get("name", ""))
     if not profile:
         return entity_dict  # Return as-is, no enrichment
 

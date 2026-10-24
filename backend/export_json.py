@@ -44,7 +44,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from app.fetcher import XMLTVFetcher
 from app.fixtures import fetch_fixtures
-from app.schedule_refine import PARIS, refine_events
+from app.schedule_refine import PARIS, refine_events, streaming_fixtures
 from app.sport_extractor import build_channel
 
 
@@ -74,11 +74,15 @@ async def export(days: int = 7, sample: bool = False, out_path: str = "output/ev
     if use_espn and not sample:
         today = datetime.now(PARIS).date()
         try:
-            fixtures = await fetch_fixtures(today - timedelta(days=1), today + timedelta(days=days))
+            fixtures = await fetch_fixtures(today - timedelta(days=9), today + timedelta(days=days))
             print(f"[export] Calendrier officiel (ESPN): {len(fixtures)} rencontres")
         except Exception as exc:  # le calendrier est un bonus : on continue sans
             print(f"[export] ⚠ ESPN indisponible ({exc}) — coups d'envoi estimés")
     all_events, stats = refine_events(fetcher.get_events(), fixtures)
+    extra = streaming_fixtures(all_events, fixtures)
+    if extra:
+        all_events = sorted(all_events + extra, key=lambda x: (x.kickoff or x.start, x.start))
+        print(f"[export] {len(extra)} diffusions streaming ajoutées depuis le calendrier officiel")
     print(f"[export] Affinage: {stats.get('in', 0)} diffusions → {stats.get('out', 0)} "
           f"({stats.get('espn_matched', 0)} recalées sur l'horaire officiel)")
     print(f"[export]   détail: {stats}")

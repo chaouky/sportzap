@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from app.fixtures import Fixture, _parse_espn_date, name_score, parse_scoreboard  # noqa: E402
 from app.models import Channel, Entity, EventStatus, SportEvent, SportType  # noqa: E402
-from app.schedule_refine import estimate_kickoff, refine_events  # noqa: E402
+from app.schedule_refine import estimate_kickoff, refine_events, streaming_fixtures  # noqa: E402
 
 PARIS = ZoneInfo("Europe/Paris")
 NOW = datetime(2026, 10, 24, 18, 25, tzinfo=PARIS)
@@ -198,6 +198,65 @@ def test_estimated_kickoff_is_shared_across_channels():
     out, _ = refine_events([a, b], [], NOW)
     assert {o.kickoff.astimezone(PARIS).strftime("%H:%M") for o in out} == {"18:30"}
     assert all(o.kickoff_source == "estimate" for o in out)
+
+
+# ───────────── matchs sans diffuseur connu ─────────────
+
+def lfx(h, a, when_utc, state="pre", league="esp.1", i="1"):
+    return Fixture(start=when_utc, home=[h], away=[a], state=state, league=league, id=i)
+
+
+def test_streaming_liga_fixtures_are_added_per_platform():
+    tv = ev("Valence", "Villarreal", paris(24, 18, 25), 125, "Liga", "Canal+ Sport 4")
+    fixtures = [
+        lfx("Valencia", "Villarreal", datetime(2026, 10, 24, 16, 30, tzinfo=timezone.utc), i="1"),
+        lfx("Getafe", "Athletic Club", datetime(2026, 10, 25, 13, 0, tzinfo=timezone.utc), i="2"),
+        lfx("Elche", "Rayo Vallecano", datetime(2026, 10, 24, 12, 0, tzinfo=timezone.utc), "post", i="3"),
+        lfx("Lens", "Paris FC", datetime(2026, 10, 25, 13, 0, tzinfo=timezone.utc), league="fra.1", i="4"),
+    ]
+    out, _ = refine_events([tv], fixtures, NOW)
+    extra = streaming_fixtures(out, fixtures, NOW)
+    got = sorted((e.team1.name.split()[0], e.channel.slug) for e in extra)
+    # Getafe : DAZN + Disney+ ; Valence : Canal+ est déjà au programme mais pas DAZN/Disney+
+    assert got == [("Getafe", "dazn"), ("Getafe", "disney-plus"),
+                   ("Valence", "dazn"), ("Valence", "disney-plus")], got
+    g = next(e for e in extra if e.team1.name.startswith("Getafe"))
+    assert g.kickoff.astimezone(PARIS).strftime("%d %H:%M") == "25 14:00"
+    assert g.kickoff_source == "espn" and g.status == EventStatus.UPCOMING
+
+
+def test_streaming_not_duplicated_when_platform_already_in_feed():
+    dz = ev("Atlético Madrid", "Deportivo La Corogne", paris(24, 20, 45), 135, "Liga", "DAZN 1")
+    f = lfx("Atlético Madrid", "Deportivo", datetime(2026, 10, 24, 19, 0, tzinfo=timezone.utc))
+    out, _ = refine_events([dz], [f], NOW)
+    slugs = sorted(e.channel.slug for e in streaming_fixtures(out, [f], NOW))
+    assert slugs == ["disney-plus"], slugs
+
+
+def test_replay_of_previous_round_dropped_with_wider_calendar():
+    # Espanyol–Atlético (journée 9) joué mercredi dernier, rediffusé lundi 23h33
+    f = lfx("Espanyol", "Atlético Madrid", datetime(2026, 10, 21, 19, 0, tzinfo=timezone.utc), "post")
+    e = ev("Espanyol Barcelone", "Atlético Madrid", paris(26, 23, 33), 120, "Liga", "Canal+ Sport 3")
+    out, st = refine_events([e], [f], NOW)
+    assert out == [] and st["drop_replay_espn"] == 1
+
+
+# ───────────── classification / filtres de contenu ─────────────
+
+def test_motogp_not_classified_as_f1():
+    from app.sport_extractor import classify_sport
+    prog = {"title": "Moto GP : Grand Prix d'Australie", "categories": ["auto-moto"]}
+    assert classify_sport(prog) == SportType.MOTOGP
+    assert classify_sport({"title": "Formule 1 : Grand Prix du Mexique", "categories": ["auto-moto"]}) == SportType.F1
+
+
+def test_shows_are_not_events():
+    from app.sport_extractor import is_actual_match
+    for title in ("Is+ Image du jour : Formule 1", "Sports Week-end", "Club Week-end",
+                  "Le podium", "La grille", "Match of ze Day", "Histoire de Champions"):
+        assert not is_actual_match({"title": title, "categories": ["sport"]}), title
+    assert is_actual_match({"title": "La course", "subtitle": "Grand Prix des Etats-Unis",
+                            "categories": ["sport"]}) in (True, False)  # ne plante pas
 
 
 # ───────────── statut ─────────────

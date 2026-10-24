@@ -170,6 +170,9 @@ _NON_MATCH = re.compile(
     r"|liga extra|histoires de premier league|made in england"
     r"|complètement foot|passion foot|football nation"
     r"|le grand d[eé]brif|live :|retro :"
+    # Émissions et séquences qui ne sont pas des épreuves
+    r"|image du jour|week-end$|^le podium$|^la grille$|match of ze day"
+    r"|histoire de champions|platini - saison|nouveaux mondes"
     # Channel branding / filler
     r"|eurosport 360 \d|ligue 1\+ \d+$"
     r"|programme (terminé|à venir)|a bientôt sur|vivez en direct"
@@ -243,6 +246,10 @@ def classify_sport(prog: dict) -> SportType:
     """Classify the sport type from categories + title."""
     categories = prog.get("categories", [])
     title = prog.get("title", "") + " " + (prog.get("subtitle") or "")
+
+    # 0. Moto : la catégorie « auto-moto » ne distingue pas la F1 du MotoGP
+    if re.search(r"(?i)\b(?:moto\s*gp|moto\s*[23]|superbike)\b", prog.get("title", "")):
+        return SportType.MOTOGP
 
     # 1. Try category-based classification
     for keywords, sport_type in CATEGORY_MAP:

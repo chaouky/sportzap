@@ -43,6 +43,11 @@ jobs:
           cd backend
           python tests/test_schedule_refine.py
 
+      - name: Run club crest fallback test
+        run: |
+          cd backend
+          python tests/test_espn_fallback.py
+
   app-typecheck:
     name: App TypeScript Check
     runs-on: ubuntu-latest
