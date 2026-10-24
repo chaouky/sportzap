@@ -18,11 +18,23 @@ import {
   getChannelsByGroup,
 } from "../constants/channels";
 
-const STORAGE_KEY = "@sportzap_channels";
+const STORAGE_KEY = "@sportzap_channels_v2";
+
+// Plusieurs écrans (Programme, Chaînes) utilisent ce hook : chaque instance a son
+// propre état, on les synchronise donc via un petit bus module-level.
+const listeners = new Set<(slugs: Set<string>) => void>();
+function broadcast(slugs: Set<string>) {
+  listeners.forEach(l => l(slugs));
+}
 
 export function useChannels() {
   const [selectedSlugs, setSelectedSlugs] = useState<Set<string>>(getAllChannelSlugs());
   const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    listeners.add(setSelectedSlugs);
+    return () => { listeners.delete(setSelectedSlugs); };
+  }, []);
 
   // ── Load from storage on mount ──
   useEffect(() => {
@@ -43,6 +55,8 @@ export function useChannels() {
 
   // ── Persist on change ──
   const persist = useCallback(async (slugs: Set<string>) => {
+    // Hors phase de rendu (persist est appelé depuis un updater setState)
+    Promise.resolve().then(() => broadcast(slugs));
     try {
       await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify([...slugs]));
     } catch (e) {

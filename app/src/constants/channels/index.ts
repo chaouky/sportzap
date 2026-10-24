@@ -29,6 +29,7 @@ export type ChannelGroup =
   | "rmc"        // RMC Sport
   | "dazn"       // DAZN
   | "eurosport"  // Eurosport
+  | "ligue1"     // Ligue 1+
   | "prime"      // Amazon Prime Video
   | "other";     // Others
 
@@ -85,6 +86,13 @@ export const CHANNEL_GROUPS: ChannelGroupInfo[] = [
     isFree: false,
   },
   {
+    id: "ligue1",
+    label: "Ligue 1+",
+    description: "La chaîne de la Ligue 1",
+    icon: "🏆",
+    isFree: false,
+  },
+  {
     id: "prime",
     label: "Prime Video",
     description: "Ligue 1 (affiche du dimanche soir), Roland-Garros",
@@ -106,6 +114,8 @@ export const ALL_CHANNELS: ChannelDefinition[] = [
   { slug: "tf1", name: "TF1", badge: { label: "TF1", bg: "#0055A4", fg: "#fff" }, group: "tnt", isFree: true, sports: "Équipe de France, Coupe du monde" },
   { slug: "france-2", name: "France 2", badge: { label: "F·2", bg: "#E4003A", fg: "#fff" }, group: "tnt", isFree: true, sports: "Rugby, handball, JO, cyclisme" },
   { slug: "france-3", name: "France 3", badge: { label: "F·3", bg: "#0055A4", fg: "#fff" }, group: "tnt", isFree: true, sports: "Tour de France, sports régionaux" },
+  { slug: "france-4", name: "France 4", badge: { label: "F·4", bg: "#6B21A8", fg: "#fff" }, group: "tnt", isFree: true, sports: "Sport en famille, événements" },
+  { slug: "france-5", name: "France 5", badge: { label: "F·5", bg: "#16A34A", fg: "#fff" }, group: "tnt", isFree: true, sports: "Magazines et événements sport" },
   { slug: "m6", name: "M6", badge: { label: "M6", bg: "#F59E0B", fg: "#000" }, group: "tnt", isFree: true, sports: "Europa League, basket" },
   { slug: "lequipe", name: "L'Équipe", badge: { label: "LÉQ", bg: "#FFD700", fg: "#000" }, group: "tnt", isFree: true, sports: "Multisport, débats, foot D2" },
   { slug: "sport-en-france", name: "Sport en France", badge: { label: "SEF", bg: "#0074E4", fg: "#fff" }, group: "tnt", isFree: true, sports: "Handball, hockey, volley, sports mineurs" },
@@ -114,6 +124,11 @@ export const ALL_CHANNELS: ChannelDefinition[] = [
   { slug: "canal-plus", name: "Canal+", badge: { label: "C+", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Top 14, F1, MotoGP, Premier League" },
   { slug: "canal-plus-sport", name: "Canal+ Sport", badge: { label: "C+S", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Champions League, rugby" },
   { slug: "canal-plus-foot", name: "Canal+ Foot", badge: { label: "C+F", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Football en continu" },
+  { slug: "canal-plus-sport-2", name: "Canal+ Sport 2", badge: { label: "C+S2", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Top 14, Premier League" },
+  { slug: "canal-plus-sport-3", name: "Canal+ Sport 3", badge: { label: "C+S3", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Top 14, Premier League" },
+  { slug: "canal-plus-sport-4", name: "Canal+ Sport 4", badge: { label: "C+S4", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Rugby, football" },
+  { slug: "canal-plus-sport-5", name: "Canal+ Sport 5", badge: { label: "C+S5", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Multisport" },
+  { slug: "canal-sport-360", name: "Canal+ Sport 360", badge: { label: "360", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Multi-matchs, magazines" },
   { slug: "infosport-plus", name: "Infosport+", badge: { label: "IS+", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Résumés, actus sport" },
 
   // DAZN
@@ -132,6 +147,15 @@ export const ALL_CHANNELS: ChannelDefinition[] = [
   // Eurosport
   { slug: "eurosport-1", name: "Eurosport 1", badge: { label: "ES", bg: "#003DA6", fg: "#fff" }, group: "eurosport", isFree: false, sports: "Tennis (GC), cyclisme, ski, athlétisme" },
   { slug: "eurosport-2", name: "Eurosport 2", badge: { label: "ES2", bg: "#003DA6", fg: "#fff" }, group: "eurosport", isFree: false, sports: "Cyclisme, sports mécaniques" },
+
+  // Eurosport 360
+  { slug: "eurosport-360", name: "Eurosport 360", badge: { label: "ES360", bg: "#003DA6", fg: "#fff" }, group: "eurosport", isFree: false, sports: "Cyclisme, sports d'hiver, multi-courts" },
+
+  // Ligue 1+
+  { slug: "ligue-1", name: "Ligue 1+", badge: { label: "L1+", bg: "#0B1F4B", fg: "#fff" }, group: "ligue1", isFree: false, sports: "Ligue 1" },
+
+  // Autres
+  { slug: "golf", name: "Golf+", badge: { label: "GOLF", bg: "#15803D", fg: "#fff" }, group: "other", isFree: false, sports: "Golf" },
 
   // Prime Video
   { slug: "prime-video", name: "Prime Video", badge: { label: "𝐏𝐕", bg: "#00A8E1", fg: "#fff" }, group: "prime", isFree: false, sports: "Ligue 1 (dimanche 21h), Roland-Garros" },

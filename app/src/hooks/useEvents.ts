@@ -8,37 +8,6 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 import { DaySchedule, SportEvent, SportType, TimeBlock } from "../types";
 import { fetchEvents } from "../services/api";
 
-// ── Offline mock data (used when API unreachable) ──
-const MOCK_EVENTS: SportEvent[] = [
-  {
-    id: "mock1", sport: "football", competition: "Ligue 1 · J29",
-    title: "Football : Ligue 1", subtitle: "PSG / OM",
-    team1: { name: "Paris-SG", type: "club" },
-    team2: { name: "Olympique de Marseille", type: "club" },
-    channel: { id: "dazn", name: "DAZN 1", slug: "dazn-1", is_free: false },
-    start: new Date().toISOString(), end: new Date().toISOString(),
-    status: "live", score1: 2, score2: 1, minute: "67'",
-  },
-  {
-    id: "mock2", sport: "tennis", competition: "Miami Open · Finale",
-    title: "Tennis : Masters 1000", subtitle: "Djokovic / Alcaraz",
-    team1: { name: "N. Djokovic", type: "player", country_code: "rs" },
-    team2: { name: "C. Alcaraz", type: "player", country_code: "es" },
-    channel: { id: "es1", name: "Eurosport 1", slug: "eurosport-1", is_free: false },
-    start: new Date().toISOString(), end: new Date().toISOString(),
-    status: "upcoming",
-  },
-  {
-    id: "mock3", sport: "handball", competition: "Golden League",
-    title: "Handball : Golden League", subtitle: "France / Danemark",
-    team1: { name: "France", type: "country", country_code: "fr" },
-    team2: { name: "Danemark", type: "country", country_code: "dk" },
-    channel: { id: "f2", name: "France 2", slug: "france-2", is_free: true },
-    start: new Date().toISOString(), end: new Date().toISOString(),
-    status: "upcoming",
-  },
-];
-
 // ── Time block grouping ──
 const TIME_BLOCK_ORDER: TimeBlock[] = ["EN DIRECT", "MATIN", "APRÈS-MIDI", "SOIRÉE"];
 
@@ -82,15 +51,9 @@ export function useEvents(options?: {
       });
       setSchedule(data);
     } catch (err) {
-      console.warn("API unavailable, using mock data:", err);
-      setError("Mode hors-ligne");
-      // Fallback to mock
-      setSchedule({
-        date: options?.date || new Date().toISOString().split("T")[0],
-        event_count: MOCK_EVENTS.length,
-        live_count: MOCK_EVENTS.filter(e => e.status === "live").length,
-        events: MOCK_EVENTS,
-      });
+      console.warn("SportZap: impossible de charger le programme:", err);
+      setSchedule(null);
+      setError("Impossible de charger le programme. Tirez pour réessayer.");
     } finally {
       setLoading(false);
     }
@@ -120,7 +83,7 @@ export function useEvents(options?: {
     return TIME_BLOCK_ORDER
       .filter(block => map.has(block))
       .map(block => ({ block, events: map.get(block)! }));
-  }, [schedule]);
+  }, [schedule, options?.channelSlugs]);
 
   return {
     schedule,

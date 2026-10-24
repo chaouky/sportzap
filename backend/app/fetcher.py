@@ -56,11 +56,13 @@ class XMLTVFetcher:
         source: str = "full",
         cache_dir: Path = CACHE_DIR,
         max_age_hours: int = 6,
+        french_only: bool = False,
     ):
         self.source_key = source
         self.source = XMLTV_SOURCES[source]
         self.cache_dir = cache_dir
         self.max_age_hours = max_age_hours
+        self.french_only = french_only
 
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
@@ -117,7 +119,7 @@ class XMLTVFetcher:
         channels, programmes = parse_xmltv(source)
         self._channels = channels
 
-        events = extract_sport_events(programmes, channels)
+        events = extract_sport_events(programmes, channels, french_only=self.french_only)
         self._events = events
         self._last_parse = datetime.now(timezone.utc)
 

@@ -33,6 +33,11 @@ jobs:
           cd backend
           python tests/test_entity_matching.py
 
+      - name: Run channel mapping test
+        run: |
+          cd backend
+          python tests/test_channels.py
+
   app-typecheck:
     name: App TypeScript Check
     runs-on: ubuntu-latest

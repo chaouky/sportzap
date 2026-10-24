@@ -13,6 +13,10 @@ export const SPORTS: SportFilter[] = [
   { id: "handball", label: "Handball", color: "#38BDF8" },
   { id: "boxe", label: "Boxe", color: "#F43F5E" },
   { id: "volleyball", label: "Volley", color: "#8B5CF6" },
+  { id: "motogp", label: "MotoGP", color: "#DC2626" },
+  { id: "ski", label: "Ski", color: "#0EA5E9" },
+  { id: "golf", label: "Golf", color: "#15803D" },
+  { id: "athletisme", label: "Athlé", color: "#EAB308" },
 ];
 
 // ═══ CHANNEL BADGES ═══
@@ -39,6 +43,14 @@ export const CHANNEL_BADGES: Record<string, { label: string; bg: string; fg: str
   "sport-en-france":{ label: "SEF",  bg: "#0074E4", fg: "#fff" },
   "infosport-plus": { label: "IS+",  bg: "#1A1A1A", fg: "#fff" },
   "m6":             { label: "M6",   bg: "#F59E0B", fg: "#000" },
+  "canal-plus-sport-2": { label: "C+S2", bg: "#1A1A1A", fg: "#fff" },
+  "canal-plus-sport-3": { label: "C+S3", bg: "#1A1A1A", fg: "#fff" },
+  "canal-plus-sport-4": { label: "C+S4", bg: "#1A1A1A", fg: "#fff" },
+  "canal-plus-sport-5": { label: "C+S5", bg: "#1A1A1A", fg: "#fff" },
+  "canal-sport-360":    { label: "360",  bg: "#1A1A1A", fg: "#fff" },
+  "eurosport-360":      { label: "ES360", bg: "#003DA6", fg: "#fff" },
+  "ligue-1":            { label: "L1+",  bg: "#0B1F4B", fg: "#fff" },
+  "golf":               { label: "GOLF", bg: "#15803D", fg: "#fff" },
 };
 
 // Fallback badge for unknown channels
@@ -65,19 +77,35 @@ export const COLORS = {
 };
 
 // ═══ DAY TABS ═══
+/** Date du jour au format YYYY-MM-DD, en heure de Paris (les données sont groupées ainsi). */
+export function todayParisISO(): string {
+  try {
+    return new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Europe/Paris",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).format(new Date());
+  } catch {
+    const d = new Date();
+    const pad = (n: number) => String(n).padStart(2, "0");
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  }
+}
+
 export function generateDays(count: number = 5): DayOption[] {
   const NAMES = ["DIM", "LUN", "MAR", "MER", "JEU", "VEN", "SAM"];
   const days: DayOption[] = [];
+  const [y, m, d] = todayParisISO().split("-").map(Number);
 
   for (let i = 0; i < count; i++) {
-    const dt = new Date();
-    dt.setDate(dt.getDate() + i);
-    const iso = dt.toISOString().split("T")[0];
+    // Arithmétique calendaire en UTC : pas d'effet de fuseau ni de changement d'heure
+    const dt = new Date(Date.UTC(y, m - 1, d + i));
     days.push({
       key: i,
-      short: i === 0 ? "AUJ." : NAMES[dt.getDay()],
-      date: dt.getDate(),
-      iso,
+      short: i === 0 ? "AUJ." : NAMES[dt.getUTCDay()],
+      date: dt.getUTCDate(),
+      iso: dt.toISOString().split("T")[0],
     });
   }
   return days;

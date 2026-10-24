@@ -33,6 +33,7 @@ export function HomeScreen() {
   const { groups, loading, error, refresh, liveCount } = useEvents({
     date: DAYS[selectedDay]?.iso,
     sport: selectedSport,
+    channelSlugs: selectedSlugs,
   });
 
   return (
@@ -119,7 +120,7 @@ export function HomeScreen() {
 
         {/* ── Event groups ── */}
         <View style={styles.eventsContainer}>
-          {groups.length === 0 && !loading ? (
+          {groups.length === 0 && !loading && !error ? (
             <View style={styles.empty}>
               <Text style={styles.emptyIcon}>📭</Text>
               <Text style={styles.emptyTitle}>Aucun événement</Text>

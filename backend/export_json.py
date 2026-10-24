@@ -37,6 +37,7 @@ import json
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # Ajoute le répertoire parent au path pour importer app/
 sys.path.insert(0, str(Path(__file__).parent))
@@ -46,12 +47,13 @@ from app.sport_extractor import build_channel
 
 
 def make_date_range(days: int) -> list[str]:
-    today = datetime.now(timezone.utc).date()
+    # Les jours des événements sont en heure de Paris (offset du XMLTV)
+    today = datetime.now(ZoneInfo("Europe/Paris")).date()
     return [(today + timedelta(days=i)).isoformat() for i in range(days)]
 
 
 async def export(days: int = 7, sample: bool = False, out_path: str = "output/events.json"):
-    fetcher = XMLTVFetcher(source="full")
+    fetcher = XMLTVFetcher(source="full", french_only=True)
 
     sample_file = Path(__file__).parent / "data" / "sample_xmltv.xml"
 

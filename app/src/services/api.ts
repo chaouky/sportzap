@@ -9,10 +9,9 @@
  */
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { DaySchedule, SportEvent, SportType } from "../types";
+import { todayParisISO } from "../constants";
 
-const CDN_BASE = __DEV__
-  ? "http://localhost:8080"
-  : "https://YOUR_USERNAME.github.io/sportzap-data";
+const CDN_BASE = "https://chaouky.github.io/sportzap";
 
 const CACHE_KEY = "@sportzap_events_cache";
 const CACHE_TTL = 30 * 60 * 1000;
@@ -82,7 +81,7 @@ export async function fetchEvents(options?: {
   date?: string; sport?: SportType; channel?: string; freeOnly?: boolean;
 }): Promise<DaySchedule> {
   const schedule = await getFullSchedule();
-  const targetDate = options?.date || new Date().toISOString().split("T")[0];
+  const targetDate = options?.date || todayParisISO();
   const dayData = schedule.days.find(d => d.date === targetDate);
   let events = dayData?.events || [];
 

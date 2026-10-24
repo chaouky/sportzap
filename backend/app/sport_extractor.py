@@ -602,18 +602,66 @@ CHANNEL_SLUG_MAP = {
     # Amazon Prime Video
     "prime video": ("prime-video", False),
     "amazon prime video": ("prime-video", False),
+
+    # Noms tels qu'ils apparaissent dans xmltvfr.fr (apostrophes/typos)
+    "la chaine l'équipe": ("lequipe", True),
+    "la chaîne l'équipe": ("lequipe", True),
+    "la chaine l'equipe": ("lequipe", True),
+    "infosportplus": ("infosport-plus", False),
+    "ligue 1+": ("ligue-1", False),
 }
+
+# Familles de chaînes numérotées → un seul slug côté app
+_SLUG_PATTERNS: list[tuple[re.Pattern, "callable"]] = [
+    (re.compile(r"^canal\+ live \d+$"), lambda m: ("canal-plus", False)),
+    (re.compile(r"^ligue 1\+ \d+$"), lambda m: ("ligue-1", False)),
+    (re.compile(r"^eurosport 360\s*-?\s*\d+$"), lambda m: ("eurosport-360", False)),
+    (
+        re.compile(r"^bein sports max (\d+)$"),
+        lambda m: (f"bein-{m.group(1)}" if int(m.group(1)) <= 3 else "bein-3", False),
+    ),
+]
+
+# Chaînes françaises affichées dans l'app (doit rester aligné avec
+# app/src/constants/channels/index.ts). Tout le reste (Belgique, Suisse,
+# Canada, Afrique, TV5, locales...) est écarté à l'export.
+FRENCH_SLUGS = {
+    "tf1", "france-2", "france-3", "france-4", "france-5", "m6", "lequipe",
+    "sport-en-france",
+    "canal-plus", "canal-plus-sport", "canal-plus-sport-2", "canal-plus-sport-3",
+    "canal-plus-sport-4", "canal-plus-sport-5", "canal-plus-foot",
+    "canal-sport-360", "infosport-plus",
+    "bein-1", "bein-2", "bein-3",
+    "rmc-sport-1", "rmc-sport-2",
+    "eurosport-1", "eurosport-2", "eurosport-360",
+    "dazn-1", "dazn-2",
+    "prime-video", "ligue-1", "golf",
+}
+
+# Les feeds .fr sont français ; Canal+ Sport 1-5 sont publiés en .af mais
+# restent les chaînes françaises (les variantes .ch/.be/.ca sont étrangères).
+_FRENCH_ID = re.compile(r"(?i)(\.fr$|^CanalPlusSport\d?\.af$)")
+
+
+def is_french_channel(channel: Channel) -> bool:
+    """True si la chaîne est une chaîne sport française suivie par l'app."""
+    return channel.slug in FRENCH_SLUGS and bool(_FRENCH_ID.search(channel.id or ""))
 
 
 def build_channel(raw_channel: dict) -> Channel:
     """Normalize an XMLTV channel dict into a Channel model."""
     name = raw_channel.get("name", "")
-    name_lower = name.lower().strip()
+    name_lower = name.lower().strip().replace("\u2019", "'")
 
-    slug, is_free = CHANNEL_SLUG_MAP.get(name_lower, (
-        re.sub(r"[^a-z0-9]+", "-", name_lower).strip("-"),
-        False,
-    ))
+    if name_lower in CHANNEL_SLUG_MAP:
+        slug, is_free = CHANNEL_SLUG_MAP[name_lower]
+    else:
+        slug, is_free = re.sub(r"[^a-z0-9]+", "-", name_lower).strip("-"), False
+        for pattern, build in _SLUG_PATTERNS:
+            m = pattern.match(name_lower)
+            if m:
+                slug, is_free = build(m)
+                break
 
     return Channel(
         id=raw_channel.get("id", ""),
@@ -649,9 +697,13 @@ def _compute_status(start: datetime, end: Optional[datetime]) -> EventStatus:
 def extract_sport_events(
     programmes: list[dict],
     channels: dict[str, dict],
+    french_only: bool = False,
 ) -> list[SportEvent]:
     """
     Main pipeline: raw XMLTV programmes → list of SportEvent.
+
+    french_only: ne garde que les chaînes de FRENCH_SLUGS (appliqué avant la
+    déduplication, pour qu'une chaîne étrangère ne masque pas la française).
 
     1. Filter sport programmes
     2. Classify sport type
@@ -686,6 +738,9 @@ def extract_sport_events(
         # Build channel
         ch_data = channels.get(prog["channel_id"], {"id": prog["channel_id"], "name": "?"})
         channel = build_channel(ch_data)
+        if french_only and not is_french_channel(channel):
+            skipped += 1
+            continue
 
         # Extract competition
         competition = extract_competition(prog)
@@ -748,6 +803,9 @@ def extract_sport_events(
     PRIORITY_SLUGS = {
         "tf1": 0, "france-2": 1, "france-3": 2, "m6": 3,
         "canal-plus": 10, "canal-plus-sport": 11, "canal-plus-foot": 12,
+        "canal-plus-sport-2": 13, "canal-plus-sport-3": 14,
+        "canal-plus-sport-4": 15, "canal-plus-sport-5": 16,
+        "canal-sport-360": 17, "ligue-1": 18,
         "bein-1": 20, "bein-2": 21, "bein-3": 22,
         "rmc-sport-1": 30, "rmc-sport-2": 31,
         "eurosport-1": 40, "eurosport-2": 41,
