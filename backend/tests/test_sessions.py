@@ -227,6 +227,31 @@ def test_espn_failures_are_counted_not_silent():
     assert st["total"] == 2 and st["ok"] == 0 and len(st["failed"]) == 2
 
 
+def test_f1_replays_dropped_without_espn_even_with_different_labels():
+    # ESPN injoignable (403) : la 1re diffusion du flux est le direct, quels que soient les libellés
+    mk = lambda t, sub, d, h, m=0, ch="CanalPlus.fr", cats=("sport", "formule 1"): ev_from(
+        prog(t, sub, list(cats), at(d, h, m), 100, ch))
+    evs = [
+        mk("Essais qualificatifs", "Grand Prix des Etats-Unis", 24, 22, 38),
+        mk("Essais qualificatifs", "Grand Prix des Etats-Unis", 25, 18, 35, "CanalPlusSport5.fr"),
+        mk("Formule 1 : Grand Prix des Etats-Unis", "Grand Prix des Etats-Unis. Essais qualificatifs. Championnat du monde.", 29, 9, 57),
+        mk("La course", "Grand Prix des Etats-Unis", 25, 20, 59),
+        mk("La course", "Grand Prix des Etats-Unis", 25, 21, 0, "CanalPlusSport5.fr"),
+        mk("La course", "Grand Prix des Etats-Unis", 25, 23, 19),
+        mk("Formule 1 : Grand Prix des Etats-Unis", "Grand Prix des Etats-Unis. La course. Championnat du monde.", 29, 9, 57),
+        mk("Feature Race", "Grand Prix des Etats-Unis", 25, 17, 55, cats=("sport", "sport mecanique")),
+        mk("Feature Race", "Grand Prix des Etats-Unis", 25, 19, 17, cats=("sport", "sport mecanique")),
+    ]
+    out, _ = refine_events(evs, now=at(25, 12))
+    got = sorted((e.title, e.start.day, e.start.hour, e.start.minute) for e in out)
+    assert got == [
+        ("F1 Academy : Grand Prix des États-Unis", 25, 17, 55),
+        ("Formule 1 : Grand Prix des États-Unis", 24, 22, 38),
+        ("Formule 1 : Grand Prix des États-Unis", 25, 20, 59),
+        ("Formule 1 : Grand Prix des États-Unis", 25, 21, 0),
+    ], got
+
+
 def run():
     tests = [(n, f) for n, f in sorted(globals().items()) if n.startswith("test_") and callable(f)]
     failed = 0

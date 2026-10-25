@@ -258,29 +258,42 @@ _ROUND_TOKEN = re.compile(
 # Une finale / demi-finale se joue en un seul jour : tout repassage ultérieur est une rediffusion
 _ONE_DAY_ROUND = re.compile(r"(?i)^(?:\d+\s*(?:er|re|ère|e)\s+)?(?:demi[- ]?finales?|finale)\b")
 _GENERIC_TENNIS_SUB = re.compile(r"(?i)^(?:tennis|wta[^.]*|atp[^.]*|[a-zà-ÿ' -]{3,25})\.?$")
-_MOTO_SESSIONS = (
+_MOTOR_SESSIONS = (
     (r"warm\s*up", "warmup"),
+    (r"feature race", "feature"),
+    (r"(\d+)\s*(?:re|er|e|ere)\s+course", "course#"),
+    (r"sprint race", "sprintrace"),
     (r"sprint", "sprint"),
     (r"qualificatifs?|qualifications?", "qualif"),
-    (r"essais?\s+libres?\s*(\d)", "fp"),
+    (r"essais?\s+libres?\s*(\d)", "fp#"),
     (r"essais?", "essais"),
     (r"course", "course"),
 )
 
 
-def _moto_session_key(e: SportEvent) -> Optional[str]:
-    """Une même séance MotoGP/Moto2/Moto3 d'un Grand Prix n'a qu'un direct, quels que
-    soient les libellés de chaque rediffusion (« La course des Moto 3 », « La course »…)."""
-    text = fold(f"{e.title} {e.subtitle or ''}")
-    cls = re.search(r"\bmoto ?(gp|2|3)\b", text)
-    if not cls or not e.competition:
+def _motor_session_key(e: SportEvent, family: str) -> Optional[str]:
+    """Une même séance d'un Grand Prix (F1, F1 Academy, MotoGP, Moto2, Moto3) n'a qu'un
+    direct, quels que soient les libellés de chaque rediffusion (« La course des Moto 3 »,
+    « Formule 1 : GP… La course. Championnat du monde. »…). Sert aussi quand ESPN est
+    injoignable : la 1re diffusion du flux est alors le direct."""
+    if not e.competition:
         return None
-    sub = fold(e.subtitle or "")
-    for pattern, name in _MOTO_SESSIONS:
+    prefix = fold((e.title or "").split(":")[0])
+    if family == "motogp":
+        cls = re.search(r"\bmoto ?(gp|2|3)\b", fold(f"{e.title} {e.subtitle or ''}"))
+        if not cls:
+            return None
+        klass = cls.group(1)
+    else:
+        klass = "academy" if "academy" in prefix or re.search(
+            r"feature race|\d+\s*(?:re|er|e)\s+course|sprint race", fold(f"{e.title} {e.subtitle or ''}")) else "f1"
+    # le nom du Grand Prix est répété dans le sous-titre : on le retire avant de lire la séance
+    sub = fold(e.subtitle or "").replace(fold(e.competition), " ")
+    for pattern, name in _MOTOR_SESSIONS:
         m = re.search(pattern, sub)
         if m:
-            num = m.group(1) if name == "fp" and m.groups() else ""
-            return f"motogp|{_alnum(e.competition)}|{cls.group(1)}|{name}{num}"
+            num = m.group(1) if name.endswith("#") and m.groups() else ""
+            return f"{family}|{_alnum(e.competition)}|{klass}|{name.rstrip('#')}{num}"
     return None
 
 
@@ -333,8 +346,8 @@ def _solo_plausible(e: SportEvent, family: str) -> bool:
 
 
 def _solo_key(e: SportEvent, family: str) -> str:
-    if family == "motogp":
-        k = _moto_session_key(e)
+    if family in ("motogp", "f1"):
+        k = _motor_session_key(e, family)
         if k:
             return k
     if family == "session":
