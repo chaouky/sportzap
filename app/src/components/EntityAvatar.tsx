@@ -2,6 +2,8 @@
  * EntityAvatar — visuel d'une équipe / pays / joueur, en rond.
  *   club    → logo sur pastille claire (les logos ESPN sont conçus pour fond clair)
  *   country → drapeau
+ * Les écussons et drapeaux connus sont embarqués dans l'app (constants/crestLogos) ;
+ * une URL inconnue est chargée à distance, comme avant.
  *   player  → photo + mini drapeau
  *   défaut  → monogramme sur fond sombre
  */
@@ -9,6 +11,7 @@ import React, { useState } from "react";
 import { View, Image, Text, StyleSheet } from "react-native";
 import { Entity } from "../types";
 import { COLORS, FONTS, flagUrl } from "../constants";
+import { getLocalCrest } from "../constants/crestLogos";
 
 interface Props {
   entity: Entity | null | undefined;
@@ -36,7 +39,7 @@ export function EntityAvatar({ entity, size = 36, side = "left" }: Props) {
       return (
         <View style={[styles.center, base, styles.logoBg]}>
           <Image
-            source={{ uri: entity.logo_url }}
+            source={getLocalCrest(entity.logo_url) ?? { uri: entity.logo_url }}
             style={{ width: size * 0.66, height: size * 0.66 }}
             resizeMode="contain"
             onError={() => setImgError(true)}
@@ -53,7 +56,7 @@ export function EntityAvatar({ entity, size = 36, side = "left" }: Props) {
     return (
       <View style={[styles.center, base, styles.flagWrap]}>
         <Image
-          source={{ uri: flagUrl(entity.country_code) }}
+          source={getLocalCrest(flagUrl(entity.country_code)) ?? { uri: flagUrl(entity.country_code) }}
           style={{ width: size * 1.1, height: size * 1.1 }}
           resizeMode="cover"
           onError={() => setImgError(true)}
@@ -88,7 +91,7 @@ export function EntityAvatar({ entity, size = 36, side = "left" }: Props) {
             ]}
           >
             <Image
-              source={{ uri: flagUrl(entity.country_code, 40) }}
+              source={getLocalCrest(flagUrl(entity.country_code)) ?? { uri: flagUrl(entity.country_code, 40) }}
               style={{ width: 20, height: 20 }}
               resizeMode="cover"
             />

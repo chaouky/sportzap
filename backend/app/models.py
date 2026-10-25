@@ -28,6 +28,7 @@ class SportType(str, Enum):
     MOTOGP = "motogp"
     BOXE = "boxe"
     VOLLEYBALL = "volleyball"
+    FOOTBALL_US = "foot_us"
     OTHER = "other"
 
 

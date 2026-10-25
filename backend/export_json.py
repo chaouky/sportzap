@@ -43,7 +43,8 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).parent))
 
 from app.fetcher import XMLTVFetcher
-from app.fixtures import fetch_fixtures
+from app import fixtures as _fixtures_mod
+from app.fixtures import fetch_f1_sessions, fetch_fixtures
 from app.schedule_refine import PARIS, refine_events, streaming_fixtures
 from app.sport_extractor import build_channel
 
@@ -54,8 +55,34 @@ def make_date_range(days: int) -> list[str]:
     return [(today + timedelta(days=i)).isoformat() for i in range(days)]
 
 
+# En dessous, on considère que le flux est cassé/vide : on n'écrase pas la version publiée.
+MIN_EVENTS = 30
+
+# Part maximale de requêtes ESPN en échec avant d'alerter (le calendrier officiel sert
+# à écarter les rediffusions : sans lui l'export reste publié mais dégradé).
+ESPN_MAX_FAILURE_RATIO = 0.2
+
+
+def _report_espn_health() -> bool:
+    """Affiche le bilan ESPN ; True si le calendrier est jugé dégradé."""
+    degraded = False
+    for name, st in _fixtures_mod.LAST_FETCH_STATS.items():
+        total, ok = st.get("total", 0), st.get("ok", 0)
+        if not total:
+            continue
+        ratio = 1 - ok / total
+        print(f"[export] ESPN {name}: {ok}/{total} requêtes OK ({ratio:.0%} d'échecs)")
+        if ratio > ESPN_MAX_FAILURE_RATIO:
+            degraded = True
+            sample = ", ".join(st.get("failed", [])[:5])
+            # annotation GitHub Actions : visible dans le résumé du job
+            print(f"::warning title=ESPN dégradé::{name} : {total - ok}/{total} requêtes en échec "
+                  f"({sample}) — rediffusions filtrées par heuristique seulement")
+    return degraded
+
+
 async def export(days: int = 7, sample: bool = False, out_path: str = "output/events.json",
-                 use_espn: bool = True):
+                 use_espn: bool = True, min_events: int = MIN_EVENTS):
     fetcher = XMLTVFetcher(source="full", french_only=True)
 
     sample_file = Path(__file__).parent / "data" / "sample_xmltv.xml"
@@ -71,6 +98,7 @@ async def export(days: int = 7, sample: bool = False, out_path: str = "output/ev
 
     # ── Coup d'envoi officiel + suppression des rediffusions ──
     fixtures = []
+    sessions = []
     if use_espn and not sample:
         today = datetime.now(PARIS).date()
         try:
@@ -78,7 +106,14 @@ async def export(days: int = 7, sample: bool = False, out_path: str = "output/ev
             print(f"[export] Calendrier officiel (ESPN): {len(fixtures)} rencontres")
         except Exception as exc:  # le calendrier est un bonus : on continue sans
             print(f"[export] ⚠ ESPN indisponible ({exc}) — coups d'envoi estimés")
-    all_events, stats = refine_events(fetcher.get_events(), fixtures)
+        try:
+            sessions = await fetch_f1_sessions(today - timedelta(days=3), today + timedelta(days=days))
+            print(f"[export] Séances F1 officielles (ESPN): {len(sessions)}")
+        except Exception as exc:
+            print(f"[export] ⚠ séances F1 indisponibles ({exc}) — rediffusions F1 par heuristique")
+    if use_espn and not sample:
+        _report_espn_health()
+    all_events, stats = refine_events(fetcher.get_events(), fixtures, sessions=sessions)
     extra = streaming_fixtures(all_events, fixtures)
     if extra:
         all_events = sorted(all_events + extra, key=lambda x: (x.kickoff or x.start, x.start))
@@ -148,9 +183,16 @@ async def export(days: int = 7, sample: bool = False, out_path: str = "output/ev
         "days": all_days,
     }
 
+    if not sample and total_events < min_events:
+        # Flux XMLTV vide ou tronqué : mieux vaut garder la dernière version publiée
+        # que d'afficher un programme vide. Le job échoue → rien n'est déployé.
+        print(f"[export] ✗ seulement {total_events} événements (< {min_events}) — export annulé")
+        raise SystemExit(1)
+
     out_file = Path(out_path)
     out_file.parent.mkdir(parents=True, exist_ok=True)
-    out_file.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    # JSON compact : l'app le télécharge à chaque ouverture
+    out_file.write_text(json.dumps(output, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     print(f"\n[export] ✓ {total_events} événements sur {len(all_days)} jours")
     print(f"[export] ✓ Fichier généré: {out_file.resolve()}")
@@ -163,7 +205,9 @@ if __name__ == "__main__":
     parser.add_argument("--sample", action="store_true", help="Utiliser le sample XMLTV local")
     parser.add_argument("--out", type=str, default="output/events.json", help="Chemin de sortie")
     parser.add_argument("--no-espn", action="store_true", help="Ne pas interroger le calendrier ESPN")
+    parser.add_argument("--min-events", type=int, default=MIN_EVENTS,
+                        help="Nombre minimal d'événements pour publier (défaut: %(default)s)")
     args = parser.parse_args()
 
     asyncio.run(export(days=args.days, sample=args.sample, out_path=args.out,
-                       use_espn=not args.no_espn))
+                       use_espn=not args.no_espn, min_events=args.min_events))

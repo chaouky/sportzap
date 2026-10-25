@@ -177,7 +177,7 @@ def test_different_round_is_a_different_match():
 def test_individual_sports_untouched():
     t = SportEvent(id="t1", sport=SportType("tennis"), title="Tennis : Masters", competition="ATP",
                    channel=Channel(id="E1.fr", name="Eurosport 1", slug="eurosport-1"),
-                   start=paris(25, 3, 0), end=paris(25, 5, 0))
+                   start=paris(25, 14, 0), end=paris(25, 16, 0))
     out, _ = refine_events([t], [], NOW)
     assert len(out) == 1 and out[0].kickoff is None
 

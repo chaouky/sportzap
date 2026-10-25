@@ -4,24 +4,35 @@
  * En-tête, jour, filtre de sport, puis le programme groupé par tranche
  * horaire : EN DIRECT, MATIN, APRÈS-MIDI, SOIRÉE.
  */
-import React, { useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   View, Text, ScrollView, TouchableOpacity, StyleSheet,
   RefreshControl,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useNavigation } from "@react-navigation/native";
-import { SportType } from "../types";
+import { SportEvent, SportType } from "../types";
 import { SPORTS, COLORS, FONTS, generateDays } from "../constants";
 import { EventCard } from "../components/EventCard";
+import { EventDetail } from "../components/EventDetail";
+import { SearchModal } from "../components/SearchModal";
 import { Logo } from "../components/Logo";
 import { Icon } from "../components/Icon";
 import { useEvents, EventGroup } from "../hooks/useEvents";
 import { useChannels } from "../hooks/useChannels";
 import { useFavorites } from "../hooks/useFavorites";
 import { useAlerts } from "../hooks/useAlerts";
+import { useToday } from "../hooks/useToday";
 
-const DAYS = generateDays(5);
+// Au-delà de 9 h sans nouvelle publication (cron toutes les 4 h), le programme est suspect.
+const STALE_AFTER_MS = 9 * 60 * 60 * 1000;
+
+function ageLabel(ms: number): string {
+  const h = Math.floor(ms / 3600000);
+  if (h < 1) return "moins d'une heure";
+  if (h < 48) return `${h} h`;
+  return `${Math.floor(h / 24)} jours`;
+}
 
 const WEEKDAYS = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
 const MONTHS = [
@@ -39,15 +50,33 @@ export function HomeScreen() {
   const navigation = useNavigation<any>();
   const [selectedSport, setSelectedSport] = useState<SportType | "all">("all");
   const [selectedDay, setSelectedDay] = useState(0);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [detail, setDetail] = useState<SportEvent | null>(null);
+  const today = useToday();
+  const days = useMemo(() => generateDays(5), [today]);
+
+  // Minuit passé alors que l'app est ouverte : on revient sur « aujourd'hui »
+  const lastToday = useRef(today);
+  useEffect(() => {
+    if (lastToday.current !== today) {
+      lastToday.current = today;
+      setSelectedDay(0);
+    }
+  }, [today]);
   const { selectedSlugs } = useChannels();
   const { matchEvent } = useFavorites();
   const { isAlerted, toggleAlert } = useAlerts();
 
-  const { groups, loading, error, refresh } = useEvents({
-    date: DAYS[selectedDay]?.iso,
+  const { groups, loading, error, refresh, generatedAt } = useEvents({
+    date: days[selectedDay]?.iso,
     sport: selectedSport,
     channelSlugs: selectedSlugs,
   });
+
+  const generatedMs = generatedAt ? Date.parse(generatedAt) : NaN;
+  const staleMs = Number.isFinite(generatedMs) && Date.now() - generatedMs > STALE_AFTER_MS
+    ? Date.now() - generatedMs
+    : null;
 
   const renderGroup = (group: EventGroup) => {
     const isLive = group.block === "EN DIRECT";
@@ -64,9 +93,7 @@ export function HomeScreen() {
             key={event.id}
             event={event}
             isFavorite={matchEvent(event).length > 0}
-            onPress={() => {
-              // TODO: écran de détail
-            }}
+            onPress={() => setDetail(event)}
             onBellPress={() => toggleAlert(event)}
             isBellActive={isAlerted(event.id)}
           />
@@ -91,7 +118,7 @@ export function HomeScreen() {
           <TouchableOpacity
             style={styles.iconBtn}
             accessibilityLabel="Rechercher"
-            onPress={() => navigation.navigate("Favoris")}
+            onPress={() => setSearchOpen(true)}
           >
             <Icon name="search" size={20} />
           </TouchableOpacity>
@@ -99,7 +126,7 @@ export function HomeScreen() {
 
         {/* ── Title ── */}
         <View style={styles.titleBlock}>
-          <Text style={styles.title}>{dayTitle(DAYS[selectedDay].iso)}</Text>
+          <Text style={styles.title}>{dayTitle(days[selectedDay].iso)}</Text>
           <TouchableOpacity
             style={styles.channelsLink}
             onPress={() => navigation.navigate("Chaînes")}
@@ -112,7 +139,7 @@ export function HomeScreen() {
 
         {/* ── Days ── */}
         <View style={styles.dayRow}>
-          {DAYS.map(day => {
+          {days.map(day => {
             const active = selectedDay === day.key;
             return (
               <TouchableOpacity
@@ -154,6 +181,15 @@ export function HomeScreen() {
           })}
         </ScrollView>
 
+        {/* ── Données périmées ── */}
+        {staleMs !== null && (
+          <View style={styles.staleBox}>
+            <Text style={styles.staleText}>
+              Programme publié il y a {ageLabel(staleMs)} : les horaires ont pu changer.
+            </Text>
+          </View>
+        )}
+
         {/* ── Error ── */}
         {error && (
           <View style={styles.errorBox}>
@@ -180,6 +216,18 @@ export function HomeScreen() {
           )}
         </View>
       </ScrollView>
+
+      <EventDetail
+        event={detail}
+        onClose={() => setDetail(null)}
+        isBellActive={detail ? isAlerted(detail.id) : false}
+        onBellPress={detail ? () => toggleAlert(detail) : undefined}
+      />
+      <SearchModal
+        visible={searchOpen}
+        onClose={() => setSearchOpen(false)}
+        channelSlugs={selectedSlugs}
+      />
     </SafeAreaView>
   );
 }
@@ -244,6 +292,12 @@ const styles = StyleSheet.create({
   sportPillActive: { backgroundColor: COLORS.text, borderColor: COLORS.text },
   sportLabel: { fontFamily: FONTS.bodySemi, fontSize: 15, color: COLORS.text },
   sportLabelActive: { color: COLORS.bg },
+
+  staleBox: {
+    marginHorizontal: 20, marginTop: 14, paddingVertical: 10, paddingHorizontal: 14, borderRadius: 14,
+    backgroundColor: COLORS.card, borderWidth: 1, borderColor: COLORS.favorite,
+  },
+  staleText: { fontFamily: FONTS.bodyMedium, fontSize: 13, color: COLORS.favorite },
 
   errorBox: {
     marginHorizontal: 20, marginTop: 16, padding: 16, borderRadius: 16,

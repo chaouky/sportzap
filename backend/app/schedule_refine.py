@@ -19,6 +19,13 @@ et l'heure de chaque ligne est celle où la chaîne commence son antenne
          (± 75 min) est le direct, les suivantes sont des rediffusions ;
   4. estime le coup d'envoi des sports collectifs sans calendrier :
      début de diffusion arrondi au quart d'heure suivant s'il est à ≤ 10 min.
+  5. sports sans équipes (F1, cyclisme, ski, MotoGP, escalade, judo…) :
+       - F1 : chaque séance (essais, qualifications, course) est rapprochée du
+         calendrier officiel (ESPN) ; une diffusion qui commence après la séance
+         est une rediffusion ;
+       - sinon, une même épreuve n'a qu'un direct : la 1re diffusion plausible
+         (cyclisme : ≥ 100 min, de jour ; ski : de jour) et ses simulcasts à
+         ≤ 75 min ; les repassages suivants sont écartés.
 """
 from __future__ import annotations
 
@@ -30,17 +37,17 @@ from datetime import datetime, timedelta, timezone
 from typing import Optional, Sequence
 from zoneinfo import ZoneInfo
 
-from .fixtures import Fixture, fixture_matches, fold
+from .fixtures import Fixture, Session, fixture_matches, fold
 from .models import Channel, Entity, EntityType, EventStatus, SportEvent, SportType
 
 logger = logging.getLogger(__name__)
 
 PARIS = ZoneInfo("Europe/Paris")
 
-TEAM_SPORTS = {"football", "rugby", "handball", "basket", "volleyball"}
+TEAM_SPORTS = {"football", "rugby", "handball", "basket", "volleyball", "foot_us"}
 # Durée minimale d'une vraie diffusion de match (minutes) — en dessous :
 # avant-match, flash, résumé.
-MIN_DURATION = {"football": 75, "rugby": 75, "handball": 55, "basket": 60, "volleyball": 55}
+MIN_DURATION = {"football": 75, "rugby": 75, "handball": 55, "basket": 60, "volleyball": 55, "foot_us": 100}
 
 # Fenêtre de diffusion « en direct » autour du coup d'envoi officiel
 BEFORE_KICKOFF = timedelta(minutes=150)   # l'antenne peut s'ouvrir très tôt
@@ -125,12 +132,13 @@ def _season_is_past(e: SportEvent, now: datetime) -> bool:
     return bool(m) and int(m.group(1)) < current_start
 
 
-def _cluster_key(e: SportEvent) -> Optional[str]:
+def _cluster_key(e: SportEvent, with_round: bool = True) -> Optional[str]:
     """Clé « même rencontre » (duo d'équipes). None si pas de duo identifiable."""
     if e.team1 and e.team2:
         a, b = sorted([_alnum(e.team1.name), _alnum(e.team2.name)])
         if a and b:
-            return f"{_sport(e)}|{a}|{b}|{_variant(e)}|{_round_no(e)}"
+            rnd = _round_no(e) if with_round else ""
+            return f"{_sport(e)}|{a}|{b}|{_variant(e)}|{rnd}"
     return None
 
 
@@ -187,15 +195,179 @@ def _match_fixture(e: SportEvent, fixtures: Sequence[Fixture]):
     return "unknown", None
 
 
+# ───────────────────────── F1 : séances officielles ─────────────────────────
+
+SESSION_BEFORE = timedelta(minutes=90)    # l'antenne s'ouvre avant la séance (avant-show)
+SESSION_AFTER = timedelta(minutes=15)
+
+_F1_ACADEMY = re.compile(r"\b(?:f1 academy|feature race|(?:1re|1ere|2e|2eme|premiere|deuxieme) course)\b")
+
+
+def f1_session_kind(e: SportEvent) -> str:
+    """Type de séance d'après le titre français ('' = inconnu / F1 Academy)."""
+    text = fold(f"{e.title} {e.subtitle or ''}")
+    if _F1_ACADEMY.search(text):
+        return ""
+    m = re.search(r"\bessais libres (\d)\b", text)
+    if m:
+        return f"FP{m.group(1)}"
+    if re.search(r"qualifications? sprint|sprint shootout|essais qualificatifs sprint", text):
+        return "SQ"
+    if re.search(r"course sprint|\bsprint\b", text):
+        return "Sprint"
+    if re.search(r"essais qualificatifs|\bqualifications?\b", text):
+        return "Qual"
+    if re.search(r"\bcourse\b", text):
+        return "Race"
+    return ""
+
+
+def _match_session(e: SportEvent, kind: str, sessions: Sequence[Session]):
+    """('live', s) | ('replay', s) | ('unknown', None)"""
+    cands = [x for x in sessions if x.kind == kind]
+    start = e.start.astimezone(timezone.utc)
+    live = [x for x in cands if x.start - SESSION_BEFORE <= start <= x.start + SESSION_AFTER]
+    if live:
+        return "live", min(live, key=lambda x: abs(x.start - start))
+    past = [x for x in cands if x.start + SESSION_AFTER < start]
+    if past:
+        return "replay", max(past, key=lambda x: x.start)
+    return "unknown", None
+
+
+# ───────────────────────── sports sans équipes ─────────────────────────
+
+SOLO_WAVE = timedelta(minutes=75)         # simulcast d'un même direct (Eurosport 1 + 360…)
+TENNIS_WAVE = timedelta(hours=7)         # journée de tennis : blocs successifs d'un même tour
+_SOLO_OTHER_TITLE = re.compile(
+    r"(?i)escalade|judo|patinage|biathlon|saut [àa] ski|gymnastique|snooker|padel|rallye|"
+    r"curling|\btrail\b|endurance|cyclo-?cross|squash|badminton|billard|tennis de table|"
+    r"speedway|[ée]quitation"
+)
+# Épreuves dont le direct tombe la nuit ou tôt le matin en France
+_OVERNIGHT_OK = re.compile(
+    r"(?i)australi|down under|chine\b|china|guangxi|japon|japan|cor[ée]e|nouvelle-z[ée]lande|"
+    r"p[ée]kin|beijing|zhangjiakou|perisher|cardrona|wanaka|ushuaia|santiago|vancouver|"
+    r"osaka|tokyo|ningbo|wuhan|guangzhou|shanghai|hong ?kong|s[ée]oul|seoul|macao|riyad|"
+    r"phillip island|sepang|malaisie|thaïlande|thailande|buriram|mandalika|indon[ée]sie"
+)
+_ROUND_TOKEN = re.compile(
+    r"(?i)((?:\d+\s*(?:er|re|ère|e)\s+)?(?:tour|jour|manche|demi[- ]?finales?|finale)(?:\s+(?:dames|messieurs|hommes|femmes|mixte))?"
+    r"|\d+\s*(?:er|re|ère|e)\s+(?:tour|jour|manche)|\d+e\s+de\s+finale|quarts?\s+de\s+finale)"
+)
+# Une finale / demi-finale se joue en un seul jour : tout repassage ultérieur est une rediffusion
+_ONE_DAY_ROUND = re.compile(r"(?i)^(?:\d+\s*(?:er|re|ère|e)\s+)?(?:demi[- ]?finales?|finale)\b")
+_GENERIC_TENNIS_SUB = re.compile(r"(?i)^(?:tennis|wta[^.]*|atp[^.]*|[a-zà-ÿ' -]{3,25})\.?$")
+_MOTO_SESSIONS = (
+    (r"warm\s*up", "warmup"),
+    (r"sprint", "sprint"),
+    (r"qualificatifs?|qualifications?", "qualif"),
+    (r"essais?\s+libres?\s*(\d)", "fp"),
+    (r"essais?", "essais"),
+    (r"course", "course"),
+)
+
+
+def _moto_session_key(e: SportEvent) -> Optional[str]:
+    """Une même séance MotoGP/Moto2/Moto3 d'un Grand Prix n'a qu'un direct, quels que
+    soient les libellés de chaque rediffusion (« La course des Moto 3 », « La course »…)."""
+    text = fold(f"{e.title} {e.subtitle or ''}")
+    cls = re.search(r"\bmoto ?(gp|2|3)\b", text)
+    if not cls or not e.competition:
+        return None
+    sub = fold(e.subtitle or "")
+    for pattern, name in _MOTO_SESSIONS:
+        m = re.search(pattern, sub)
+        if m:
+            num = m.group(1) if name == "fp" and m.groups() else ""
+            return f"motogp|{_alnum(e.competition)}|{cls.group(1)}|{name}{num}"
+    return None
+
+
+def _round_text(e: SportEvent) -> str:
+    # on cherche dans le sous-titre après le nom de l'épreuve (« …Cup. 1er tour. »)
+    candidates = [m.group(1) for m in _ROUND_TOKEN.finditer(fold(e.subtitle or ""))]
+    candidates = [c for c in candidates if not re.fullmatch(r"(?:tour|jour|manche)", c.strip())]
+    return candidates[0].strip() if candidates else ""
+
+
+def _round_of(e: SportEvent) -> str:
+    return _alnum(_round_text(e))
+
+
+def _solo_family(e: SportEvent) -> Optional[str]:
+    sp = _sport(e)
+    if sp in ("cyclisme", "ski", "motogp", "f1"):
+        return sp
+    if sp in ("golf", "voile", "equitation"):
+        return "session"
+    if sp == "tennis" and not (e.team1 and e.team2):
+        return "tennis"
+    if sp == "other" and not (e.team1 and e.team2) and _SOLO_OTHER_TITLE.search(e.title or ""):
+        return "session"
+    return None
+
+
+def _solo_plausible(e: SportEvent, family: str) -> bool:
+    """Cette diffusion peut-elle être le direct ? (les repassages tombent la nuit / sont courts)"""
+    p = _paris(e.start)
+    hour = p.hour + p.minute / 60
+    overnight = bool(_OVERNIGHT_OK.search(f"{e.title} {e.subtitle or ''} {e.description or ''}"))
+    if family == "cyclisme":
+        return _minutes(e) >= 100 and (overnight or 7.5 <= hour < 23.5)
+    if family == "ski":
+        return overnight or 7 <= hour < 22
+    generic = bool(_GENERIC_TENNIS_SUB.match((e.subtitle or "").strip()))
+    if family == "tennis":
+        # bandeaux « Eurosport 360 » = courts annexes, doublons des chaînes principales
+        if e.channel.slug == "eurosport-360" and generic:
+            return False
+        return overnight or 6.5 <= hour < 24
+    if family == "session":
+        if e.channel.slug == "eurosport-360" and generic:
+            return False
+        # le golf américain se joue la nuit en France ; le reste, de jour
+        if _sport(e) != "golf":
+            return overnight or 7.5 <= hour < 24
+    return True
+
+
+def _solo_key(e: SportEvent, family: str) -> str:
+    if family == "motogp":
+        k = _moto_session_key(e)
+        if k:
+            return k
+    if family == "session":
+        rnd = _round_of(e)
+        comp = _alnum(e.competition or e.title)
+        if rnd and (_sport(e) == "golf" or _ONE_DAY_ROUND.match(_round_text(e))):
+            return f"session|{_sport(e)}|{comp}|{rnd}"
+        # un jour = une séance de l'après-midi + une séance du soir
+        p = _paris(e.start)
+        half = "a" if p.hour < 17 else "p"
+        return f"session|{_sport(e)}|{comp}|{rnd}|{p.date().isoformat()}|{half}"
+    if family == "tennis":
+        rnd = _round_of(e)
+        if rnd:
+            # même tour sur la même chaîne : le direct du jour + ses blocs successifs ;
+            # les passages des jours suivants sont des rediffusions (cf. TENNIS_WAVE)
+            return f"tennis|{e.channel.slug}|{_alnum(e.competition or e.title)}|{rnd}"
+        # sans tour : blocs successifs légitimes, on ne filtre que les horaires implausibles
+        return f"tennis|{e.id}"
+    return f"{family}|{_alnum(e.title)}|{_alnum(e.subtitle)}"
+
+
 # ───────────────────────── pipeline ─────────────────────────
 
 def refine_events(
     events: Sequence[SportEvent],
     fixtures: Optional[Sequence[Fixture]] = None,
     now: Optional[datetime] = None,
+    sessions: Optional[Sequence[Session]] = None,
 ) -> tuple[list[SportEvent], dict]:
     """Retourne (événements affinés, statistiques)."""
     fixtures = list(fixtures or [])
+    sessions = list(sessions or [])
     now = now or datetime.now(timezone.utc)
     stats: Counter = Counter()
 
@@ -221,7 +393,21 @@ def refine_events(
             stats["drop_replay_season"] += 1
             continue
 
-        status, fx = _match_fixture(e, fixtures) if sport in ("football", "basket") else ("unknown", None)
+        if sport == "f1" and sessions:
+            kind = f1_session_kind(e)
+            if kind:
+                sstatus, sess = _match_session(e, kind, sessions)
+                if sstatus == "replay":
+                    stats["drop_replay_session"] += 1
+                    continue
+                if sstatus == "live" and sess is not None:
+                    e.kickoff = sess.start.astimezone(PARIS)
+                    e.kickoff_source = "espn"
+                    espn_ok.add(e.id)
+                    stats["session_matched"] += 1
+
+        status, fx = (_match_fixture(e, fixtures)
+                      if sport in ("football", "basket", "foot_us") else ("unknown", None))
         if status == "replay":
             stats["drop_replay_espn"] += 1
             continue
@@ -242,24 +428,55 @@ def refine_events(
             continue
         after_night.append(e)
 
-    # 3b : même duo diffusé plusieurs fois → seule la 1re vague est le direct
-    clusters: dict[str, list[SportEvent]] = defaultdict(list)
+    # 3b : même duo diffusé plusieurs fois → seule la 1re vague est le direct.
+    # Le numéro de journée n'est pas toujours renseigné (« 8e journée » sur la
+    # rediffusion, rien sur le direct) : on regroupe d'abord sans lui, et on ne
+    # sépare par journée que si deux journées différentes sont explicitement citées
+    # (aller-retour sur la même semaine).
+    pairs: dict[str, list[SportEvent]] = defaultdict(list)
     for e in after_night:
-        k = _cluster_key(e)
+        k = _cluster_key(e, with_round=False)
         if k:
-            clusters[k].append(e)
+            pairs[k].append(e)
 
     drop_ids: set[str] = set()
-    for group in clusters.values():
-        group.sort(key=lambda x: x.start)
-        ref = group[0].start
-        for e in group[1:]:
-            if e.id in espn_ok:
-                continue
-            if e.start - ref > LIVE_WAVE:
-                drop_ids.add(e.id)
-                stats["drop_replay_wave"] += 1
+    for group in pairs.values():
+        rounds = {_round_no(e) for e in group} - {""}
+        subgroups: list[list[SportEvent]]
+        if len(rounds) >= 2:
+            subgroups = [[e for e in group if _round_no(e) in (r, "")] for r in sorted(rounds)]
+        else:
+            subgroups = [group]
+        for sub in subgroups:
+            sub.sort(key=lambda x: x.start)
+            ref = sub[0].start
+            for e in sub[1:]:
+                if e.id in espn_ok:
+                    continue
+                if e.start - ref > LIVE_WAVE:
+                    if e.id not in drop_ids:
+                        stats["drop_replay_wave"] += 1
+                    drop_ids.add(e.id)
     result = [e for e in after_night if e.id not in drop_ids]
+
+    # 3c : sports sans équipes — une épreuve n'a qu'un direct
+    solo: dict[str, list[SportEvent]] = defaultdict(list)
+    for e in result:
+        fam = _solo_family(e)
+        if fam and e.id not in espn_ok:
+            solo[_solo_key(e, fam)].append(e)
+    solo_drop: set[str] = set()
+    for key, group in solo.items():
+        fam = key.split("|", 1)[0]
+        group.sort(key=lambda x: x.start)
+        live = [x for x in group if _solo_plausible(x, fam)]
+        ref = live[0].start if live else None
+        for x in group:
+            wave = TENNIS_WAVE if fam == "tennis" else SOLO_WAVE
+            if ref is None or x not in live or x.start - ref > wave:
+                solo_drop.add(x.id)
+                stats["drop_replay_solo"] += 1
+    result = [e for e in result if e.id not in solo_drop]
 
     # 4 : coup d'envoi — calendrier officiel d'abord, estimation sinon
     by_cluster: dict[str, list[SportEvent]] = defaultdict(list)

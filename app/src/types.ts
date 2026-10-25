@@ -6,7 +6,7 @@ export type SportType =
   | "f1" | "cyclisme" | "mma" | "handball"
   | "boxe" | "natation" | "athletisme" | "ski"
   | "golf" | "voile" | "motogp" | "volleyball"
-  | "equitation" | "other";
+  | "equitation" | "foot_us" | "other";
 
 export type EntityType = "club" | "country" | "player" | "event";
 

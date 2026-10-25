@@ -38,7 +38,7 @@ CATEGORY_MAP: list[tuple[list[str], SportType]] = [
     (["tennis"], SportType.TENNIS),
     (["basket", "basketball", "basket-ball", "nba"], SportType.BASKET),
     (["formule 1", "f1", "sport mécanique", "sport mecanique", "auto-moto"], SportType.F1),
-    (["motogp", "moto gp", "superbike", "motocyclisme"], SportType.MOTOGP),
+    (["motogp", "moto gp", "moto 2", "moto 3", "moto2", "moto3", "superbike", "motocyclisme"], SportType.MOTOGP),
     (["cyclisme", "vélo", "tour de france", "giro", "vuelta"], SportType.CYCLISME),
     (["mma", "ufc", "pfl", "combat", "sport de combat", "arts martiaux"], SportType.MMA),
     (["boxe", "boxing"], SportType.BOXE),
@@ -173,6 +173,7 @@ _NON_MATCH = re.compile(
     # Émissions et séquences qui ne sont pas des épreuves
     r"|image du jour|week-end$|^le podium$|^la grille$|match of ze day"
     r"|histoire de champions|platini - saison|nouveaux mondes"
+    r"|pr[ée]sentation d|on board"
     # Channel branding / filler
     r"|eurosport 360 \d|ligue 1\+ \d+$"
     r"|programme (terminé|à venir)|a bientôt sur|vivez en direct"
@@ -184,10 +185,13 @@ _NON_MATCH = re.compile(
     r"|aventure|exploration|voyage\b|nature\b"
     # Fitness / yoga
     r"|yoga|fitness\s*:"
-    # Generics with no matchup info
-    r"|^sport$|^sports$|^football$|^rugby$|^tennis$|^basket$"
     r")"
 )
+
+
+# Titres génériques (« Football ») : valables seulement si le sous-titre donne l'affiche
+_GENERIC_TITLE = re.compile(r"(?i)^(?:sports?|football|rugby|tennis|basket(?:-?ball)?)$")
+_SUBTITLE_MATCHUP = re.compile(r"\S\s+(?:-|/|vs\.?|contre)\s+\S")
 
 
 def is_actual_match(prog: dict) -> bool:
@@ -202,6 +206,8 @@ def is_actual_match(prog: dict) -> bool:
 
     # Step 1: reject known non-match patterns
     if _NON_MATCH.search(title):
+        return False
+    if _GENERIC_TITLE.match(title) and not _SUBTITLE_MATCHUP.search(subtitle):
         return False
 
     # Reject specific false positives
@@ -242,14 +248,169 @@ def is_actual_match(prog: dict) -> bool:
     return False
 
 
+
+# ═══════════════════════════════════════════════════════
+# SÉANCES / ÉPREUVES SANS AFFICHE (« La course | Grand Prix d'Australie »,
+# « 2e tour | Championnat des Bermudes », « Padel : Koweït P1 | … »)
+# ═══════════════════════════════════════════════════════
+# Le flux n'y met ni « / » ni « | » : is_actual_match les rejetait, et des directs
+# majeurs (MotoGP, Moto2/3, GP du Mexique, ATP Vienne, golf…) disparaissaient.
+# On les reconnaît par leur forme et on les remet au format canonique
+# « {Sport} : {Épreuve} » + sous-titre « {Épreuve}. {Séance}. ».
+
+_NOT_AN_EVENT_SUB = re.compile(
+    r"(?i)\b(?:review|r[ée]sum[ée]s?|best of|highlights|mag(?:azine)?|[ée]mission du|"
+    r"doc\.?|documentaire|le mag|r[ée]trospective|rediffusion|portrait|coulisses|"
+    r"entretien|historique|meilleurs moments|temps forts)\b"
+)
+
+# Séance de sport mécanique : « La course », « Essais libres 2 », « 1re course »…
+_MOTOR_SESSION = re.compile(
+    r"(?i)^(?:la\s+)?(?:course(?:\s+sprint)?|sprint(?:\s+race)?|warm[\s-]?up|feature\s+race|"
+    r"\d+(?:re|ère|er|e)\s+course|essais?\b.*|qualifications?\b.*)$"
+)
+_GRAND_PRIX = re.compile(r"(?i)\bgrand\s+prix\b[^.|]*")
+_MOTO_CLASS_SUFFIX = re.compile(r"(?i)\s+des\s+moto\s*(?:gp|2|3)\s*$")
+_F1_ACADEMY_TITLE = re.compile(r"(?i)^(?:\d+(?:re|ère|er|e)\s+course|feature\s+race|sprint\s+race)$")
+
+# Tournoi / manche : le titre est le tour, le sous-titre le tournoi
+_ROUND_TITLE = re.compile(
+    r"(?i)^(?:\d+(?:er|re|ère|e|ème)\s+(?:tour|jour)"
+    r"|(?:(?:\d+(?:re|er|e|ère)\s+)?(?:\d+e\s+de\s+finale|quarts?\s+de\s+finale|demi-?finales?|finale))"
+    r"(?:\s+(?:messieurs|dames|hommes|femmes))?(?:\.\s*\d(?:re|er|e|ère)\s+partie)?)$"
+)
+_ROUND_SPORT_LABEL = {
+    SportType.TENNIS: "Tennis",
+    SportType.GOLF: "Golf",
+    SportType.VOILE: "Voile",
+    SportType.EQUITATION: "Équitation",
+}
+
+# Sports de niche reconnus par la catégorie du flux (« padel », « snooker »…)
+_CATEGORY_LABELS = {
+    "padel": "Padel", "snooker": "Snooker", "curling": "Curling", "rallye": "Rallye",
+    "trail": "Trail", "cyclo-cross": "Cyclo-cross", "escalade": "Escalade", "squash": "Squash",
+    "badminton": "Badminton", "tennis de table": "Tennis de table", "judo": "Judo",
+}
+
+# « Padel : Koweït P1 » + sous-titre : épreuve nommée d'un sport à épreuves
+_PREFIXED_EVENT = re.compile(
+    r"(?i)^\s*(?P<label>tennis|golf|snooker|padel|rallye|curling|[ée]quitation|trail|"
+    r"endurance|cyclo-?cross|escalade|speedway|squash|badminton|billard|tennis de table)"
+    r"\s*:\s*(?P<comp>[^|/]{3,80})$"
+)
+
+
+def _cap(text: str) -> str:
+    text = text.strip()
+    return text[:1].upper() + text[1:]
+
+
+def _fix_gp(name: str) -> str:
+    return name.replace("Etats-Unis", "États-Unis").strip(" .")
+
+
+def _motor_session_label(prog: dict, session_raw: str) -> str:
+    cats = " ".join(prog.get("categories") or [])
+    text = f"{cats} {prog.get('title', '')} {prog.get('subtitle') or ''}"
+    if re.search(r"(?i)moto\s*3", text):
+        return "Moto 3"
+    if re.search(r"(?i)moto\s*2", text):
+        return "Moto 2"
+    if re.search(r"(?i)moto\s*gp", text):
+        return "Moto GP"
+    if _F1_ACADEMY_TITLE.match(session_raw) or re.search(r"(?i)f1 academy", text):
+        return "F1 Academy"
+    if re.search(r"(?i)formule\s*1|\bf1\b", cats):
+        return "Formule 1"
+    # catégorie vague : la description tranche
+    if re.search(r"(?i)\bmoto(?:gp)?\b|motocyclis", prog.get("description") or ""):
+        return "Moto GP"
+    return "Formule 1"
+
+
+def normalize_session_event(prog: dict) -> Optional[dict]:
+    """
+    Si le programme est une séance/épreuve reconnaissable mais sans affiche,
+    retourne une copie au format canonique (titre « {Sport} : {Épreuve} »,
+    sous-titre « {Épreuve}. {Séance}. »). Sinon None.
+    """
+    title = (prog.get("title") or "").strip()
+    sub = (prog.get("subtitle") or "").strip()
+    if not title or not sub or _NOT_AN_EVENT_SUB.search(sub) or _NOT_AN_EVENT_SUB.search(title):
+        return None
+
+    # 1. Sport mécanique : « La course | Grand Prix d'Australie »
+    gp = _GRAND_PRIX.search(sub)
+    if gp:
+        session_raw = re.split(r"\.\s*Grand\s+Prix", title, flags=re.I)[0].strip(" .")
+        session_raw = _MOTO_CLASS_SUFFIX.sub("", session_raw)
+        if _MOTOR_SESSION.match(session_raw):
+            label = _motor_session_label(prog, session_raw)
+            gp_name = _fix_gp(gp.group(0))
+            out = dict(prog)
+            out["title"] = f"{label} : {gp_name}"
+            out["subtitle"] = f"{gp_name}. {_cap(session_raw)}."
+            return out
+        return None
+
+    # 2. Tour / jour d'un tournoi : « 2e tour | Championnat des Bermudes »
+    if _ROUND_TITLE.match(title):
+        sport = classify_sport(prog)
+        label = _ROUND_SPORT_LABEL.get(sport)
+        if not label:
+            for cat in prog.get("categories") or []:
+                if cat in _CATEGORY_LABELS:
+                    label = _CATEGORY_LABELS[cat]
+                    break
+        if label:
+            comp = sub.rstrip(" .")
+            out = dict(prog)
+            out["title"] = f"{label} : {comp}"
+            out["subtitle"] = f"{comp}. {_cap(title)}."
+            return out
+        return None
+
+    # 3. « Padel : Koweït P1 » avec un sous-titre d'épreuve
+    if _PREFIXED_EVENT.match(title) and not _NON_MATCH.search(title):
+        return dict(prog)
+
+    return None
+
+
+# Football américain : la catégorie « football » du flux le range avec le foot
+_FOOT_US = re.compile(r"(?i)football\s+am[eé]ricain|\bnfl\b|\bncaa\s+football\b")
+# Disciplines que les catégories du flux rangent à tort dans MMA (« sport de combat »)
+# ou ski (« patinage ») : elles restent dans « autres ».
+_OTHER_DISCIPLINES = re.compile(
+    r"(?i)\b(?:judo|karat[eé]|taekwondo|escrime|lutte|sumo|patinage|curling|bobsleigh|luge|skeleton|tennis de table|ping-?pong|padel)\b"
+)
+
+
 def classify_sport(prog: dict) -> SportType:
     """Classify the sport type from categories + title."""
     categories = prog.get("categories", [])
     title = prog.get("title", "") + " " + (prog.get("subtitle") or "")
 
+    # -1. Football américain (NFL) : pas du football
+    if _FOOT_US.search(title + " " + " ".join(categories)):
+        return SportType.FOOTBALL_US
+
+    # -0.5 Judo, patinage… : ni MMA ni ski
+    if _OTHER_DISCIPLINES.search(prog.get("title", "")):
+        return SportType.OTHER
+
     # 0. Moto : la catégorie « auto-moto » ne distingue pas la F1 du MotoGP
     if re.search(r"(?i)\b(?:moto\s*gp|moto\s*[23]|superbike)\b", prog.get("title", "")):
         return SportType.MOTOGP
+
+    # -0.2 Préfixe « Voile : Grand Prix de Genève » : le sport est annoncé avant les deux-points
+    #      (sinon « grand prix » fait de la voile de la F1)
+    prefix = re.match(r"\s*([^:|]{3,30}?)\s*:", prog.get("title", ""))
+    if prefix:
+        for pattern, sport_type in TITLE_SPORT_PATTERNS:
+            if re.search(pattern, prefix.group(1)):
+                return sport_type
 
     # 1. Try category-based classification
     for keywords, sport_type in CATEGORY_MAP:
@@ -438,6 +599,15 @@ def extract_competition(prog: dict) -> Optional[str]:
     return None
 
 
+def _grand_prix_name(prog: dict, sport: SportType) -> Optional[str]:
+    """F1 / MotoGP : « Essais libres 2 » n'a pas de compétition, mais le sous-titre
+    donne le Grand Prix (« Grand Prix des Etats-Unis »)."""
+    if sport not in (SportType.F1, SportType.MOTOGP):
+        return None
+    m = re.match(r"(?i)\s*(grand\s+prix[^.|]*)", prog.get("subtitle") or "")
+    return m.group(1).strip() if m else None
+
+
 def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Optional[Entity]]:
     """Extract team1 and team2 from title or subtitle."""
     title = prog.get("title") or ""
@@ -451,9 +621,12 @@ def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Opt
     def _clean_team(raw: str) -> str:
         """Strip trailing competition/round info from a team name."""
         # "Real Madrid. Euroligue masculine. 36e journée." → "Real Madrid"
-        raw = re.split(r"\.\s*[A-Z]", raw)[0]
+        # (pas après une initiale : « N. Djokovic » reste entier)
+        raw = re.split(r"(?<=\w{2})\.\s*[A-Z]", raw)[0]
         # "Sporting CP. Champions League." → "Sporting CP"
         raw = re.split(r",\s*\d", raw)[0]
+        # « Movsar Evloev et Poids coqs » (UFC : le titre du combat annoncé) → « Movsar Evloev »
+        raw = re.sub(r"(?i)\s+et\s+(?:poids|cat[ée]gorie|ceinture|titre)\b.*$", "", raw)
         return raw.strip(" .,")
 
     # ── Priority: if title is a bare matchup "Team1 / Team2", use it directly ──
@@ -470,6 +643,9 @@ def extract_matchup(prog: dict, sport: SportType) -> tuple[Optional[Entity], Opt
     # ── Also check: "Sport : Competition | Team1 / Team2" in title ──
     _PIPE_MATCHUP = re.compile(r"\|\s*(?P<t1>.+?)\s*/\s*(?P<t2>.+)$")
     m = _PIPE_MATCHUP.search(title)
+    # « Difficulté (H/F) » : le « / » est dans des parenthèses, ce n'est pas un duel
+    if m and any(g.count("(") != g.count(")") for g in (m.group("t1"), m.group("t2"))):
+        m = None
     if m:
         t1 = _build_entity(_clean_team(m.group("t1")), sport)
         t2 = _build_entity(_clean_team(m.group("t2")), sport)
@@ -575,10 +751,10 @@ CHANNEL_SLUG_MAP = {
     "canal+ sport 3": ("canal-plus-sport-3", False),
     "canal+ sport 4": ("canal-plus-sport-4", False),
     "canal+ sport 5": ("canal-plus-sport-5", False),
-    "canal+ live 1": ("canal-plus", False),
-    "canal+ live 2": ("canal-plus", False),
-    "canal+ live 3": ("canal-plus", False),
-    "canal+ live 4": ("canal-plus", False),
+    "canal+ live 1": ("canal-plus-live", False),
+    "canal+ live 2": ("canal-plus-live", False),
+    "canal+ live 3": ("canal-plus-live", False),
+    "canal+ live 4": ("canal-plus-live", False),
     "canal+ uhd": ("canal-plus", False),
     "canal+ premier league": ("canal-plus-sport", False),
     "infosport+": ("infosport-plus", False),
@@ -590,9 +766,9 @@ CHANNEL_SLUG_MAP = {
     "bein sports max 1": ("bein-1", False),
     "bein sports max 2": ("bein-2", False),
     "bein sports max 3": ("bein-3", False),
-    "bein sports max 4": ("bein-3", False),
-    "bein sports max 5": ("bein-3", False),
-    "bein sports max 6": ("bein-3", False),
+    "bein sports max 4": ("bein-max", False),
+    "bein sports max 5": ("bein-max", False),
+    "bein sports max 6": ("bein-max", False),
 
     # RMC Sport
     "rmc sport 1": ("rmc-sport-1", False),
@@ -620,12 +796,12 @@ CHANNEL_SLUG_MAP = {
 
 # Familles de chaînes numérotées → un seul slug côté app
 _SLUG_PATTERNS: list[tuple[re.Pattern, "callable"]] = [
-    (re.compile(r"^canal\+ live \d+$"), lambda m: ("canal-plus", False)),
+    (re.compile(r"^canal\+ live \d+$"), lambda m: ("canal-plus-live", False)),
     (re.compile(r"^ligue 1\+ \d+$"), lambda m: ("ligue-1", False)),
     (re.compile(r"^eurosport 360\s*-?\s*\d+$"), lambda m: ("eurosport-360", False)),
     (
         re.compile(r"^bein sports max (\d+)$"),
-        lambda m: (f"bein-{m.group(1)}" if int(m.group(1)) <= 3 else "bein-3", False),
+        lambda m: (f"bein-{m.group(1)}" if int(m.group(1)) <= 3 else "bein-max", False),
     ),
 ]
 
@@ -635,10 +811,10 @@ _SLUG_PATTERNS: list[tuple[re.Pattern, "callable"]] = [
 FRENCH_SLUGS = {
     "tf1", "france-2", "france-3", "france-4", "france-5", "m6", "lequipe",
     "sport-en-france",
-    "canal-plus", "canal-plus-sport", "canal-plus-sport-2", "canal-plus-sport-3",
+    "canal-plus", "canal-plus-live", "canal-plus-sport", "canal-plus-sport-2", "canal-plus-sport-3",
     "canal-plus-sport-4", "canal-plus-sport-5", "canal-plus-foot",
     "canal-sport-360", "infosport-plus",
-    "bein-1", "bein-2", "bein-3",
+    "bein-1", "bein-2", "bein-3", "bein-max",
     "rmc-sport-1", "rmc-sport-2",
     "eurosport-1", "eurosport-2", "eurosport-360",
     "dazn-1", "dazn-2",
@@ -735,7 +911,10 @@ def extract_sport_events(
             skipped += 1
             continue
 
-        if not is_actual_match(prog):
+        normalized = normalize_session_event(prog)
+        if normalized is not None:
+            prog = normalized
+        elif not is_actual_match(prog):
             skipped += 1
             continue
 
@@ -750,7 +929,9 @@ def extract_sport_events(
             continue
 
         # Extract competition
-        competition = extract_competition(prog)
+        competition = extract_competition(prog) or _grand_prix_name(prog, sport)
+        if competition:
+            competition = competition.replace("Etats-Unis", "États-Unis")
 
         # Extract matchup
         team1, team2 = extract_matchup(prog, sport)
@@ -795,6 +976,16 @@ def extract_sport_events(
             prog.get("title", "")
         ))
         if is_generic_title and not has_matchup and not prog.get("subtitle"):
+            skipped += 1
+            continue
+        # « Basket-ball : NBA | Basket-ball » : un sport collectif sans affiche ni précision
+        # n'est pas une rencontre identifiable (la NFL RedZone, elle, reste un direct).
+        sub_norm = re.sub(r"[^a-z]", "", (prog.get("subtitle") or "").lower())
+        if (sport in (SportType.BASKET, SportType.FOOTBALL, SportType.RUGBY,
+                      SportType.HANDBALL, SportType.VOLLEYBALL)
+                and not has_matchup
+                and sub_norm in ("", "basketball", "basket", "football", "rugby", "handball",
+                                 "volleyball", "sport")):
             skipped += 1
             continue
 

@@ -5,6 +5,10 @@ on:
     - cron: "0 */4 * * *"   # toutes les 4 heures
   workflow_dispatch:          # déclenchement manuel possible
 
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
 jobs:
   generate-and-publish:
     name: Generate events.json and publish to GitHub Pages
@@ -36,4 +40,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./backend/output
           keep_files: false
-          commit_message: "data: update events.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          commit_message: "data: update events.json [${{ github.run_id }}]"

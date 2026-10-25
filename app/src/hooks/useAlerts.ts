@@ -19,31 +19,58 @@ import {
 } from "../services/notifications";
 import { SportEvent } from "../types";
 
+// L'écran Programme et la recherche utilisent chacun ce hook : sans état partagé,
+// une alerte posée dans l'un n'apparaissait pas dans l'autre (cloche désynchronisée).
+// L'état vit donc au niveau du module et chaque instance s'abonne aux changements.
+let sharedAlerted: Set<string> = new Set();
+let sharedPermission: boolean | null = null;
+let initStarted = false;
+const subscribers = new Set<() => void>();
+
+function publish(next: Set<string>) {
+  sharedAlerted = next;
+  subscribers.forEach(fn => fn());
+}
+
+async function loadExisting() {
+  const existing = await getScheduledAlerts();
+  publish(new Set(existing.map(a => a.eventId)));
+}
+
 export function useAlerts() {
-  const [alertedIds, setAlertedIds] = useState<Set<string>>(new Set());
-  const [permissionGranted, setPermissionGranted] = useState<boolean | null>(null);
+  const [, force] = useState(0);
+  const alertedIds = sharedAlerted;
+  const permissionGranted = sharedPermission;
+  const setAlertedIds = useCallback((fn: (prev: Set<string>) => Set<string>) => {
+    publish(fn(sharedAlerted));
+  }, []);
+  const setPermissionGranted = useCallback((v: boolean) => {
+    sharedPermission = v;
+    subscribers.forEach(f => f());
+  }, []);
 
-  // ── Init: configure + load existing ──
+  // ── Init: configure + load existing (une seule fois pour toute l'app) ──
   useEffect(() => {
-    configureNotifications();
-
-    (async () => {
-      // Load existing scheduled alerts
-      const existing = await getScheduledAlerts();
-      setAlertedIds(new Set(existing.map(a => a.eventId)));
-    })();
+    const sub = () => force(n => n + 1);
+    subscribers.add(sub);
+    if (!initStarted) {
+      initStarted = true;
+      configureNotifications();
+      loadExisting().catch(() => { initStarted = false; });
+    }
+    return () => { subscribers.delete(sub); };
   }, []);
 
   // ── Toggle alert for a single event ──
   const toggleAlert = useCallback(async (event: SportEvent) => {
     // Check permission on first toggle
-    if (permissionGranted === null) {
+    if (sharedPermission === null) {
       const granted = await requestPermissions();
       setPermissionGranted(granted);
       if (!granted) return;
     }
 
-    const isActive = alertedIds.has(event.id);
+    const isActive = sharedAlerted.has(event.id);
 
     if (isActive) {
       // Cancel
@@ -80,7 +107,7 @@ export function useAlerts() {
         });
       }
     }
-  }, [alertedIds, permissionGranted]);
+  }, [setAlertedIds, setPermissionGranted]);
 
   // ── Auto-schedule for favorite matches ──
   const scheduleForFavorites = useCallback(async (
@@ -101,18 +128,14 @@ export function useAlerts() {
       matchedIds,
     );
 
-    if (count > 0) {
-      // Refresh alerted IDs
-      const existing = await getScheduledAlerts();
-      setAlertedIds(new Set(existing.map(a => a.eventId)));
-    }
+    if (count > 0) await loadExisting();
 
     return count;
   }, []);
 
   return {
     alertedIds,
-    isAlerted: (eventId: string) => alertedIds.has(eventId),
+    isAlerted: (eventId: string) => sharedAlerted.has(eventId),
     toggleAlert,
     scheduleForFavorites,
     permissionGranted,

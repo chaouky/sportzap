@@ -51,6 +51,9 @@ export function mergeDuplicateEvents(events: SportEvent[]): SportEvent[] {
     if (!list.some(c => c.name.toLowerCase() === name)) list.push(e.channel);
     merged.channels = list;
     if (e.status === "live") merged.status = "live";
+    // id stable : le plus petit des ids fusionnés, quel que soit l'ordre des chaînes
+    // (sinon une alerte posée sur la carte « Canal+ » se perd si l'ordre change)
+    if (e.id < merged.id) merged.id = e.id;
   }
 
   return out;

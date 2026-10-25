@@ -30,6 +30,7 @@ const SPORT_EMOJI: Record<string, string> = {
   motogp: "🏍",
   volleyball: "🏐",
   equitation: "🏇",
+  foot_us: "🏈",
   other: "🏅",
 };
 

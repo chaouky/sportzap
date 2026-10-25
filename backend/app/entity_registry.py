@@ -44,8 +44,20 @@ class EntityProfile:
 def _espn_soccer(eid: int) -> str:
     return f"https://a.espncdn.com/i/teamlogos/soccer/500/{eid}.png"
 
-def _espn_rugby(eid: int) -> str:
-    return f"https://a.espncdn.com/i/teamlogos/rugby/500/{eid}.png"
+# Anciens identifiants ESPN (fichiers /rugby/500/ désormais en 404) -> identifiants actuels
+# (/rugby/teams/500/). None = pas de logo ESPN : le repli Wikipédia (other_teams.json) prend le relais.
+_ESPN_RUGBY_IDS = {
+    2584: 25922, 2576: 99855, 2580: 25921, 2577: 119318, 2570: 25917, 2583: 25986,
+    2569: 143737, 2568: 25916, 2573: 25918, 2579: 270567, 2572: 143736,
+    2567: None, 2571: None, 2578: None, 2585: None,
+}
+
+
+def _espn_rugby(eid: int) -> str | None:
+    new_id = _ESPN_RUGBY_IDS.get(eid, eid)
+    if new_id is None:
+        return None
+    return f"https://a.espncdn.com/i/teamlogos/rugby/teams/500/{new_id}.png"
 
 def _espn_nba(eid: int) -> str:
     return f"https://a.espncdn.com/i/teamlogos/nba/500/{eid}.png"
@@ -690,6 +702,98 @@ def _espn_fallback(raw_name: str) -> Optional[EntityProfile]:
     )
 
 
+# ═══════════════════════════════════════════════════════
+# REPLI : clubs des autres sports (data/other_teams.json)
+# ═══════════════════════════════════════════════════════
+# NBA/WNBA, NFL, NHL, MLB, rugby (URC, Premiership, Champions Cup, Super Rugby) : logos ESPN.
+# Basket (Betclic Élite, Pro B, LFB, Euroligue), handball (LNH, LFH, EHF), volley (Ligue A),
+# hockey (Ligue Magnus) et Pro D2 : logos de Wikipédia.
+# Un événement de sport « sport » ne cherche que dans les sports de _OTHER_SPORTS[sport].
+
+_OTHER_SPORTS = {
+    "basket": ("basket",), "rugby": ("rugby",), "handball": ("handball",),
+    "volleyball": ("volleyball",), "other": ("hockey", "baseball"), "foot_us": ("nfl",),
+    # Clubs de foot absents des calendriers ESPN suivis (Ligue 2/3 FR…) : logo Wikipédia
+    "football": ("football_extra",),
+}
+_other_teams_cache: Optional[list[dict]] = None
+
+
+def _other_teams() -> list[dict]:
+    global _other_teams_cache
+    if _other_teams_cache is None:
+        import json
+        from pathlib import Path
+        path = Path(__file__).resolve().parent.parent / "data" / "other_teams.json"
+        try:
+            _other_teams_cache = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _other_teams_cache = []
+    return _other_teams_cache
+
+
+@lru_cache(maxsize=None)
+def _other_fallback(raw_name: str, sport: str, min_score: float = _ESPN_MIN_SCORE) -> Optional[EntityProfile]:
+    sports = _OTHER_SPORTS.get(sport)
+    if not raw_name or not sports:
+        return None
+    from .fixtures import name_score
+    scored = sorted(
+        ((name_score(raw_name, t["aliases"]), i, t)
+         for i, t in enumerate(_other_teams()) if t["sport"] in sports),
+        key=lambda x: (-x[0], x[1]),
+    )
+    if not scored or scored[0][0] < min_score:
+        return None
+    best, _, team = scored[0]
+    # Deux équipes aussi plausibles l'une que l'autre : on préfère ne rien afficher
+    if len(scored) > 1 and scored[1][0] >= best - 0.02 and scored[1][2]["logo"] != team["logo"]:
+        return None
+    return EntityProfile(
+        canonical_name=raw_name.strip(),
+        short_name=(team["short"] or team["name"]).strip(),
+        entity_type="club", sport=sport,
+        logo_url=team["logo"],
+    )
+
+
+_US_LOGO = re.compile(r"/(?:nba|wnba|nfl|nhl|mlb)/")
+
+
+def _plain(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+# Sélections nationales : correspondance exacte (jamais par sous-chaîne) → drapeau
+_COUNTRY_EXTRA = {
+    "nouvelle-zélande": "nz", "nouvelle zélande": "nz", "fidji": "fj", "îles fidji": "fj", "géorgie": "ge",
+    "samoa": "ws", "tonga": "to", "namibie": "na", "russie": "ru", "hongrie": "hu", "tchéquie": "cz",
+    "république tchèque": "cz", "slovénie": "si", "slovaquie": "sk", "bulgarie": "bg", "finlande": "fi",
+    "islande": "is", "lituanie": "lt", "lettonie": "lv", "estonie": "ee", "bosnie": "ba",
+    "bosnie-herzégovine": "ba", "monténégro": "me", "macédoine du nord": "mk", "israël": "il",
+    "arménie": "am", "azerbaïdjan": "az", "kazakhstan": "kz", "chine": "cn", "inde": "in", "iran": "ir",
+    "arabie saoudite": "sa", "qatar": "qa", "pérou": "pe", "équateur": "ec", "venezuela": "ve",
+    "paraguay": "py", "bolivie": "bo", "costa rica": "cr", "jamaïque": "jm", "cuba": "cu",
+    "panama": "pa", "porto rico": "pr", "république dominicaine": "do", "angola": "ao", "mali": "ml",
+    "rd congo": "cd", "kenya": "ke", "zimbabwe": "zw", "madagascar": "mg", "cap-vert": "cv",
+    "nouvelle zelande": "nz", "états unis": "us", "usa": "us", "royaume-uni": "gb", "grande-bretagne": "gb",
+    "angleterre": "gb-eng", "pays de galles": "gb-wls", "chypre": "cy", "luxembourg": "lu",
+    "malte": "mt", "moldavie": "md", "albanie": "al", "kosovo": "xk", "biélorussie": "by",
+    "philippines": "ph", "indonésie": "id", "thaïlande": "th", "vietnam": "vn", "taïwan": "tw",
+    "hong kong": "hk", "singapour": "sg", "malaisie": "my", "nouvelle-calédonie": "nc",
+    "portugal": "pt", "brésil": "br", "chili": "cl", "kenya": "ke", "ouganda": "ug", "zambie": "zm",
+    "belgique": "be", "pays-bas": "nl", "suède": "se", "norvège": "no", "danemark": "dk",
+}
+
+
+def _country_fallback(raw_name: str) -> Optional[EntityProfile]:
+    code = _COUNTRY_EXTRA.get((raw_name or "").strip().lower())
+    if not code:
+        return None
+    n = raw_name.strip()
+    return EntityProfile(n, n, "country", "football", code, logo_url=_flag(code))
+
+
 def enrich_entity(entity_dict: Optional[dict], sport: str = "football") -> Optional[dict]:
     """
     Enrich a raw entity dict (from sport_extractor) with visual metadata.
@@ -701,9 +805,38 @@ def enrich_entity(entity_dict: Optional[dict], sport: str = "football") -> Optio
     if not entity_dict:
         return entity_dict
 
-    profile = match_entity(entity_dict.get("name", ""), sport)
-    if not profile and sport == "football" and entity_dict.get("type") in ("club", None):
-        profile = _espn_fallback(entity_dict.get("name", ""))
+    name = entity_dict.get("name", "")
+    is_club = entity_dict.get("type") in ("club", None)
+    profile = match_entity(name, sport)
+    # Nom exact d'une franchise américaine que le registre rapproche d'une autre
+    # (« Golden State Valkyries » ≠ Warriors) : la franchise exacte l'emporte.
+    if is_club and sport in ("basket", "other", "foot_us"):
+        exact = _other_fallback(name, sport, 1.0)
+        if exact and _US_LOGO.search(exact.logo_url or "") and (
+                profile is None or _plain(profile.canonical_name) != _plain(name)):
+            profile = exact
+    # « Lyon » en basket ne doit pas devenir l'OL : si le profil trouvé est d'un autre sport,
+    # on préfère le club du bon sport quand on le connaît.
+    if profile and is_club and sport != "football" and profile.sport != sport:
+        profile = _other_fallback(name, sport) or profile
+    if not profile and entity_dict.get("type") == "country":
+        profile = _country_fallback(name)
+    if not profile and entity_dict.get("type") in ("club", None):
+        if sport == "football":
+            # NFL d'abord si le nom est exactement celui d'une franchise (« Los Angeles Rams » ≠ LAFC)
+            profile = (_other_fallback(name, "football", 1.0)
+                       or _espn_fallback(name)
+                       or _other_fallback(name, "football"))
+        else:
+            profile = _other_fallback(name, sport)
+    if not profile and entity_dict.get("type") is None:
+        profile = _country_fallback(name)
+    # Profil connu mais sans logo (ex. « RC Vannes ») : on complète avec le logo du bon sport
+    if profile and is_club and not profile.logo_url and sport in _OTHER_SPORTS:
+        alt = _other_fallback(name, sport)
+        if alt and alt.logo_url:
+            from dataclasses import replace
+            profile = replace(profile, logo_url=alt.logo_url)
     if not profile:
         return entity_dict  # Return as-is, no enrichment
 

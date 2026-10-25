@@ -3,14 +3,20 @@
  *
  * Charge le programme du jour, filtre (chaînes choisies, terminés),
  * regroupe les doublons (un match = une carte) puis groupe par tranche horaire.
+ *
+ * Rafraîchissement : toutes les minutes (les statuts « en direct » / « terminé »
+ * sont recalculés localement, le réseau n'est sollicité qu'à l'expiration du cache),
+ * au retour au premier plan, et sur demande (tirer pour rafraîchir = réseau).
  */
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import { AppState } from "react-native";
 import { DaySchedule, SportEvent, SportType, TimeBlock } from "../types";
-import { fetchEvents } from "../services/api";
+import { fetchEvents, fetchGeneratedAt, forceRefresh } from "../services/api";
 import { mergeDuplicateEvents } from "../services/mergeEvents";
 import { kickoffOf, parisHour } from "../constants";
 
 const TIME_BLOCK_ORDER: TimeBlock[] = ["EN DIRECT", "MATIN", "APRÈS-MIDI", "SOIRÉE"];
+const TICK_MS = 60 * 1000;
 
 function getTimeBlock(event: SportEvent): TimeBlock {
   if (event.status === "live") return "EN DIRECT";
@@ -33,14 +39,20 @@ export function useEvents(options?: {
   channelSlugs?: Set<string>; // "Mes Chaînes"
 }) {
   const [schedule, setSchedule] = useState<DaySchedule | null>(null);
+  const [generatedAt, setGeneratedAt] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const seq = useRef(0); // ignore les réponses d'une requête devenue obsolète
 
-  const load = useCallback(async () => {
-    setLoading(true);
-    setError(null);
+  const load = useCallback(async (mode: "initial" | "silent" | "network" = "initial") => {
+    const id = ++seq.current;
+    if (mode !== "silent") {
+      setLoading(true);
+      setError(null);
+    }
 
     try {
+      if (mode === "network") await forceRefresh().catch(() => {});
       const sportFilter = options?.sport === "all" ? undefined : options?.sport;
       const data = await fetchEvents({
         date: options?.date,
@@ -48,19 +60,37 @@ export function useEvents(options?: {
         channel: options?.channel,
         freeOnly: options?.freeOnly,
       });
+      const gen = await fetchGeneratedAt();
+      if (id !== seq.current) return;
       setSchedule(data);
+      setGeneratedAt(gen);
+      setError(null);
     } catch (err) {
+      if (id !== seq.current) return;
       console.warn("SportZap: impossible de charger le programme:", err);
-      setSchedule(null);
-      setError("Impossible de charger le programme.");
+      if (mode !== "silent") {
+        setSchedule(null);
+        setError("Impossible de charger le programme.");
+      }
     } finally {
-      setLoading(false);
+      if (id === seq.current && mode !== "silent") setLoading(false);
     }
   }, [options?.date, options?.sport, options?.channel, options?.freeOnly]);
 
   useEffect(() => {
-    load();
+    load("initial");
   }, [load]);
+
+  // Rafraîchissement automatique : minuteur + retour au premier plan
+  useEffect(() => {
+    const timer = setInterval(() => load("silent"), TICK_MS);
+    const sub = AppState.addEventListener("change", state => {
+      if (state === "active") load("silent");
+    });
+    return () => { clearInterval(timer); sub.remove(); };
+  }, [load]);
+
+  const refresh = useCallback(() => load("network"), [load]);
 
   const { groups, total, liveCount } = useMemo(() => {
     if (!schedule) return { groups: [] as EventGroup[], total: 0, liveCount: 0 };
@@ -92,7 +122,8 @@ export function useEvents(options?: {
     groups,
     loading,
     error,
-    refresh: load,
+    refresh,
+    generatedAt,
     liveCount,
     eventCount: total,
   };

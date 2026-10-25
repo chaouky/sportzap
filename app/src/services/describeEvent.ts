@@ -13,7 +13,7 @@ const SPORT_LABEL: Record<string, string> = {
   f1: "Formule 1", cyclisme: "Cyclisme", mma: "Combat", handball: "Handball",
   boxe: "Boxe", natation: "Natation", athletisme: "Athlétisme", ski: "Ski",
   golf: "Golf", voile: "Voile", motogp: "Moto", volleyball: "Volley",
-  equitation: "Équitation", other: "Sport",
+  equitation: "Équitation", foot_us: "Football américain", other: "Sport",
 };
 
 const SPORT_GLYPH: Record<string, GlyphName> = {
@@ -21,7 +21,7 @@ const SPORT_GLYPH: Record<string, GlyphName> = {
   f1: "flag", cyclisme: "cycling", mma: "fight", handball: "ball", boxe: "fight",
   natation: "swim", athletisme: "stopwatch", ski: "mountain", golf: "golf",
   voile: "sail", motogp: "flag", volleyball: "ball", equitation: "horseshoe",
-  other: "trophy",
+  foot_us: "rugby", other: "trophy",
 };
 
 // Le libellé (ex. « Judo », « Snooker ») prime sur la catégorie large du backend.
@@ -48,6 +48,9 @@ const LABEL_RULES: [RegExp, GlyphName, string][] = [
 
 const norm = (s?: string | null) =>
   (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]/g, "");
+
+// Sous-titres venus d'un flux étranger (« Gran Premio Francia », « Round 3 »…) : on les ignore
+const FOREIGN_SUB = /\b(gran premio|gran premi|gro(?:ss|ß)er preis|gp of|grand prix of|qualifying|practice|round \d|finals?\b|heat \d|session \d|race \d)\b/i;
 
 const PHASE = /(finale|quart|demi|manche|qualif|tour\b|course|essai|journ[eé]e|[eé]tape|phase|groupe|poule|session|relais|sprint|mass start|slalom|descente|super-?g|g[eé]ant)/i;
 
@@ -108,7 +111,11 @@ export function describeEvent(e: SportEvent): EventInfo {
     (c || "").replace(/^(football|basket-?ball|rugby|handball|volley-?ball)\.\s*/i, "").trim() || null;
 
   let comp = cleanComp(e.competition);
-  const titleRest = (prefix ? e.title.replace(/^[^:]+:\s+/, "") : e.title).split(" | ")[0].trim() || null;
+  // « Compétition | Affiche » : quand le 1er morceau répète la compétition ou le sport,
+  // c'est le morceau après la barre qui nomme vraiment l'épreuve.
+  const pieces = (prefix ? e.title.replace(/^[^:]+:\s+/, "") : e.title).split(" | ").map(p => p.trim()).filter(Boolean);
+  const titleRest = (pieces.length > 1 && (norm(pieces[0]) === norm(comp) || norm(pieces[0]) === norm(label))
+    ? pieces[1] : pieces[0]) || null;
 
   if (hasTeams) {
     return { glyph, sportLabel: label, context: comp, headline: "" };
@@ -117,6 +124,7 @@ export function describeEvent(e: SportEvent): EventInfo {
   // Cas où la « compétition » est en fait la phase (ex. « Demi-finale »)
   let ctx: string | null = comp;
   let sub: string | null = e.subtitle ? e.subtitle.trim() : null;
+  if (sub && FOREIGN_SUB.test(sub)) sub = null;
   if (comp && PHASE.test(comp) && titleRest && norm(titleRest) !== norm(comp)) {
     sub = sub && norm(sub) !== norm(titleRest) ? sub : comp;
     ctx = titleRest;

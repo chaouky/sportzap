@@ -5,7 +5,7 @@
  * Updated every 4h by a GitHub Action.
  *
  * All filtering (sport, channel, day) is done client-side.
- * The app caches the full JSON locally with a 30-min TTL.
+ * The app caches the full JSON locally with a 30-min TTL (mémoire et disque).
  */
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { DaySchedule, SportEvent, SportType } from "../types";
@@ -29,7 +29,9 @@ interface FullSchedule {
   days: Array<{ date: string; event_count: number; events: SportEvent[] }>;
 }
 
+// Cache mémoire avec date d'expiration : une app laissée ouverte doit se mettre à jour.
 let _memoryCache: FullSchedule | null = null;
+let _memoryAt = 0;
 
 async function loadCache(): Promise<CachedData | null> {
   try {
@@ -45,12 +47,13 @@ async function saveCache(data: FullSchedule): Promise<void> {
 }
 
 async function getFullSchedule(forceRefresh = false): Promise<FullSchedule> {
-  if (_memoryCache && !forceRefresh) return _memoryCache;
+  if (!forceRefresh && _memoryCache && Date.now() - _memoryAt < CACHE_TTL) return _memoryCache;
 
   if (!forceRefresh) {
     const cached = await loadCache();
     if (cached && Date.now() - cached.fetchedAt < CACHE_TTL) {
       _memoryCache = cached.data;
+      _memoryAt = cached.fetchedAt;
       return cached.data;
     }
   }
@@ -60,21 +63,54 @@ async function getFullSchedule(forceRefresh = false): Promise<FullSchedule> {
     if (!resp.ok) throw new Error(`CDN ${resp.status}`);
     const data: FullSchedule = await resp.json();
     _memoryCache = data;
+    _memoryAt = Date.now();
     await saveCache(data);
     return data;
   } catch (err) {
+    // Hors ligne ou CDN en panne : on garde ce qu'on a (la fraîcheur est signalée par l'écran).
+    if (_memoryCache) return _memoryCache;
     const stale = await loadCache();
-    if (stale) { _memoryCache = stale.data; return stale.data; }
+    if (stale) { _memoryCache = stale.data; _memoryAt = stale.fetchedAt; return stale.data; }
     throw err;
   }
 }
 
-function computeStatus(start: string, end: string | null, now: Date): "upcoming" | "live" | "finished" {
+/**
+ * Durée maximale plausible d'un direct, comptée depuis le coup d'envoi (minutes).
+ * L'antenne continue souvent après le coup de sifflet final (débrief, plateau) :
+ * sans ce plafond, un match fini reste « EN DIRECT » jusqu'à la fin de l'émission.
+ */
+const MAX_LIVE_MIN: Record<string, number> = {
+  football: 135,   // 90 + mi-temps + arrêts de jeu (prolongations rares)
+  rugby: 120,
+  handball: 110,
+  basket: 165,     // NBA ≈ 2h30
+  volleyball: 140,
+  foot_us: 215,    // NFL ≈ 3h20
+};
+
+function computeStatus(
+  start: string, end: string | null, now: Date, sport?: string,
+): "upcoming" | "live" | "finished" {
   const s = new Date(start);
   const e = end ? new Date(end) : null;
   if (e && now > e) return "finished";
-  if (now >= s) return "live";
+  if (now >= s) {
+    const cap = sport ? MAX_LIVE_MIN[sport] : undefined;
+    if (cap && now.getTime() > s.getTime() + cap * 60_000) return "finished";
+    return "live";
+  }
   return "upcoming";
+}
+
+/** Jour calendaire précédent / suivant d'une date YYYY-MM-DD (sans effet de fuseau). */
+export function shiftISO(iso: string, days: number): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d + days)).toISOString().split("T")[0];
+}
+
+function withStatus(events: SportEvent[], now: Date): SportEvent[] {
+  return events.map(e => ({ ...e, status: computeStatus(e.kickoff || e.start, e.end, now, e.sport) }));
 }
 
 export async function fetchEvents(options?: {
@@ -82,15 +118,25 @@ export async function fetchEvents(options?: {
 }): Promise<DaySchedule> {
   const schedule = await getFullSchedule();
   const targetDate = options?.date || todayParisISO();
+  const now = new Date();
   const dayData = schedule.days.find(d => d.date === targetDate);
   let events = dayData?.events || [];
+
+  // Les jours sont rangés par coup d'envoi : un match commencé la veille avant minuit
+  // (NHL, NBA, F1…) est encore « en direct » aujourd'hui, on le garde dans la liste.
+  if (targetDate === todayParisISO()) {
+    const prev = schedule.days.find(d => d.date === shiftISO(targetDate, -1));
+    const carried = (prev?.events || []).filter(
+      e => computeStatus(e.kickoff || e.start, e.end, now, e.sport) === "live",
+    );
+    events = [...carried, ...events];
+  }
 
   if (options?.sport) events = events.filter(e => e.sport === options.sport);
   if (options?.channel) events = events.filter(e => e.channel.slug === options.channel);
   if (options?.freeOnly) events = events.filter(e => e.channel.is_free);
 
-  const now = new Date();
-  events = events.map(e => ({ ...e, status: computeStatus(e.kickoff || e.start, e.end, now) }));
+  events = withStatus(events, now);
   events.sort((a, b) => {
     const ord = { live: 0, upcoming: 1, finished: 2 };
     return (ord[a.status] ?? 1) - (ord[b.status] ?? 1)
@@ -133,9 +179,23 @@ export async function healthCheck() {
   } catch { return { status: "offline", generated_at: "", total_events: 0 }; }
 }
 
+/** Date de génération du programme publié (pour signaler des données périmées). */
+export async function fetchGeneratedAt(): Promise<string | null> {
+  try {
+    return (await getFullSchedule()).meta.generated_at || null;
+  } catch { return null; }
+}
+
+/** Force un nouveau téléchargement (tirer pour rafraîchir). */
 export async function forceRefresh() { await getFullSchedule(true); }
 
 export async function fetchAllEvents(): Promise<SportEvent[]> {
   const s = await getFullSchedule();
   return s.days.flatMap(d => d.events);
+}
+
+/** Tous les événements à venir ou en cours, tous jours confondus (recherche). */
+export async function fetchUpcomingEvents(): Promise<SportEvent[]> {
+  const all = await fetchAllEvents();
+  return withStatus(all, new Date()).filter(e => e.status !== "finished");
 }

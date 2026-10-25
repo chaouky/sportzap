@@ -48,6 +48,21 @@ jobs:
           cd backend
           python tests/test_espn_fallback.py
 
+      - name: Run other sports logos test
+        run: |
+          cd backend
+          python tests/test_other_sports.py
+
+      - name: Run solo sports test (rediffusions cyclisme, ski, F1)
+        run: |
+          cd backend
+          python tests/test_solo_sports.py
+
+      - name: Run full pipeline test
+        run: |
+          cd backend
+          python tests/test_pipeline.py
+
   app-typecheck:
     name: App TypeScript Check
     runs-on: ubuntu-latest
@@ -61,11 +76,7 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        run: |
-          cd app
-          npm install
+        run: npm ci
 
       - name: TypeScript check
-        run: |
-          cd app
-          npx tsc --noEmit || true  # Non-blocking for now
+        run: npx tsc --noEmit

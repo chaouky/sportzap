@@ -123,6 +123,7 @@ export const ALL_CHANNELS: ChannelDefinition[] = [
   // Canal+
   { slug: "canal-plus", name: "Canal+", badge: { label: "C+", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Top 14, F1, MotoGP, Premier League" },
   { slug: "canal-plus-sport", name: "Canal+ Sport", badge: { label: "C+S", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Champions League, rugby" },
+  { slug: "canal-plus-live", name: "Canal+ Live (1 à 19)", badge: { label: "C+L", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Matchs en simultané (Premier League, Top 14, F1)" },
   { slug: "canal-plus-foot", name: "Canal+ Foot", badge: { label: "C+F", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Football en continu" },
   { slug: "canal-plus-sport-2", name: "Canal+ Sport 2", badge: { label: "C+S2", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Top 14, Premier League" },
   { slug: "canal-plus-sport-3", name: "Canal+ Sport 3", badge: { label: "C+S3", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Top 14, Premier League" },
@@ -132,12 +133,14 @@ export const ALL_CHANNELS: ChannelDefinition[] = [
   { slug: "infosport-plus", name: "Infosport+", badge: { label: "IS+", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Résumés, actus sport" },
 
   // DAZN
+  { slug: "dazn", name: "DAZN", badge: { label: "DAZN", bg: "#0C0C0E", fg: "#fff" }, group: "dazn", isFree: false, sports: "LaLiga, Ligue 1, boxe (streaming)" },
   { slug: "dazn-1", name: "DAZN 1", badge: { label: "DAZN", bg: "#0C0C0E", fg: "#fff" }, group: "dazn", isFree: false, sports: "Ligue 1 (8 matchs/journée)" },
   { slug: "dazn-2", name: "DAZN 2", badge: { label: "DZ2", bg: "#0C0C0E", fg: "#fff" }, group: "dazn", isFree: false, sports: "Ligue 1, boxe" },
 
   // beIN Sports
   { slug: "bein-1", name: "beIN Sports 1", badge: { label: "beIN", bg: "#F7B500", fg: "#000" }, group: "bein", isFree: false, sports: "Liga, Serie A, Ligue des Champions" },
   { slug: "bein-2", name: "beIN Sports 2", badge: { label: "bN2", bg: "#F7B500", fg: "#000" }, group: "bein", isFree: false, sports: "NBA, football européen" },
+  { slug: "bein-max", name: "beIN Sports MAX (4 à 10)", badge: { label: "MAX", bg: "#F7B500", fg: "#000" }, group: "bein", isFree: false, sports: "Matchs en simultané (Bundesliga, Championship…)" },
   { slug: "bein-3", name: "beIN Sports 3", badge: { label: "bN3", bg: "#F7B500", fg: "#000" }, group: "bein", isFree: false, sports: "Football, multisport" },
 
   // RMC Sport
@@ -155,6 +158,7 @@ export const ALL_CHANNELS: ChannelDefinition[] = [
   { slug: "ligue-1", name: "Ligue 1+", badge: { label: "L1+", bg: "#0B1F4B", fg: "#fff" }, group: "ligue1", isFree: false, sports: "Ligue 1" },
 
   // Autres
+  { slug: "disney-plus", name: "Disney+", badge: { label: "Disney+", bg: "#0B1B5E", fg: "#fff" }, group: "other", isFree: false, sports: "LaLiga (streaming)" },
   { slug: "golf", name: "Golf+", badge: { label: "GOLF", bg: "#15803D", fg: "#fff" }, group: "other", isFree: false, sports: "Golf" },
 
   // Prime Video

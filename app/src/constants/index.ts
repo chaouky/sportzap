@@ -17,6 +17,8 @@ export const SPORTS: SportFilter[] = [
   { id: "ski", label: "Ski", color: "#0EA5E9" },
   { id: "golf", label: "Golf", color: "#15803D" },
   { id: "athletisme", label: "Athlé", color: "#EAB308" },
+  { id: "foot_us", label: "NFL", color: "#92400E" },
+  { id: "other", label: "Autres", color: "#6B7280" },
 ];
 
 // ═══ CHANNEL BADGES ═══
@@ -28,6 +30,8 @@ export const CHANNEL_BADGES: Record<string, { label: string; bg: string; fg: str
   "france-4":       { label: "F·4",  bg: "#6B21A8", fg: "#fff" },
   "france-5":       { label: "F·5",  bg: "#16A34A", fg: "#fff" },
   "canal-plus":     { label: "C+",   bg: "#1A1A1A", fg: "#fff" },
+  "canal-plus-live": { label: "C+L", bg: "#1A1A1A", fg: "#fff" },
+  "bein-max":       { label: "MAX",  bg: "#F7B500", fg: "#000" },
   "canal-plus-sport": { label: "C+S", bg: "#1A1A1A", fg: "#fff" },
   "canal-plus-foot":  { label: "C+F", bg: "#1A1A1A", fg: "#fff" },
   "bein-1":         { label: "beIN", bg: "#F7B500", fg: "#000" },
@@ -108,6 +112,21 @@ export function parisHour(iso: string): number {
 /** Heure de référence d'un événement : coup d'envoi officiel, sinon début de diffusion. */
 export function kickoffOf(e: { kickoff?: string | null; start: string }): string {
   return e.kickoff || e.start;
+}
+
+const WEEKDAYS_FR = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+const MONTHS_FR = [
+  "janvier", "février", "mars", "avril", "mai", "juin",
+  "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+];
+
+/** "2026-10-24T20:45:00+02:00" → "samedi 24 octobre" (jour de Paris, lu dans la chaîne). */
+export function parisDateLabel(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  if (!m) return "";
+  const [y, mo, d] = [Number(m[1]), Number(m[2]), Number(m[3])];
+  const wd = new Date(Date.UTC(y, mo - 1, d)).getUTCDay();
+  return `${WEEKDAYS_FR[wd]} ${d} ${MONTHS_FR[mo - 1]}`;
 }
 
 // ═══ DAY TABS ═══

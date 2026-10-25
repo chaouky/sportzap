@@ -106,13 +106,47 @@ def parse_scoreboard(data: dict, league: str = "") -> list[Fixture]:
 
 # ───────────────────────── réseau ─────────────────────────
 
+# ESPN (Akamai) bloque l'IP au-delà de ~500 requêtes rapides (403 « Access Denied »)
+# et répond parfois 429/5xx : concurrence modérée, petit espacement, nouvelles
+# tentatives avec attente croissante. Les échecs sont comptés (jamais silencieux).
+ESPN_CONCURRENCY = 4
+ESPN_SPACING = 0.08          # secondes entre deux requêtes
+ESPN_RETRIES = 4
+ESPN_BACKOFF = 1.5           # secondes ; x2 à chaque nouvel essai
+_RETRY_STATUS = {403, 408, 425, 429, 500, 502, 503, 504}
+
+# Bilan de la dernière récupération (lu par export_json pour alerter)
+LAST_FETCH_STATS: dict[str, dict] = {}
+
+
+async def _get_json(client: httpx.AsyncClient, sem: asyncio.Semaphore, url: str, params: dict) -> dict:
+    """GET JSON avec nouvelles tentatives sur blocage / erreur transitoire."""
+    delay = ESPN_BACKOFF
+    last: Exception | None = None
+    for attempt in range(ESPN_RETRIES + 1):
+        try:
+            async with sem:
+                await asyncio.sleep(ESPN_SPACING)
+                resp = await client.get(url, params=params)
+            if resp.status_code in _RETRY_STATUS and attempt < ESPN_RETRIES:
+                last = httpx.HTTPStatusError(f"HTTP {resp.status_code}", request=resp.request, response=resp)
+            else:
+                resp.raise_for_status()
+                return resp.json()
+        except (httpx.TransportError, httpx.TimeoutException) as exc:
+            last = exc
+            if attempt >= ESPN_RETRIES:
+                raise
+        await asyncio.sleep(delay)
+        delay *= 2
+    raise last or RuntimeError("ESPN: échec")
+
+
 async def _fetch_day(client: httpx.AsyncClient, sem: asyncio.Semaphore,
                      sport: str, league: str, day: date) -> list[Fixture]:
     url = ESPN_SCOREBOARD.format(sport=sport, league=league)
-    async with sem:
-        resp = await client.get(url, params={"dates": f"{day:%Y%m%d}"})
-    resp.raise_for_status()
-    return parse_scoreboard(resp.json(), league)
+    data = await _get_json(client, sem, url, {"dates": f"{day:%Y%m%d}"})
+    return parse_scoreboard(data, league)
 
 
 async def fetch_fixtures(
@@ -124,7 +158,7 @@ async def fetch_fixtures(
     """Récupère les rencontres de toutes les compétitions sur [first_day, last_day]."""
     competitions = list(competitions)
     days = [first_day + timedelta(days=i) for i in range((last_day - first_day).days + 1)]
-    sem = asyncio.Semaphore(12)
+    sem = asyncio.Semaphore(ESPN_CONCURRENCY)
     jobs = [(sp, lg, d) for sp, lg in competitions for d in days]
     async with httpx.AsyncClient(timeout=timeout, headers={"User-Agent": "SportZap/1.0"}) as client:
         results = await asyncio.gather(
@@ -133,15 +167,92 @@ async def fetch_fixtures(
         )
     seen: dict[str, Fixture] = {}
     ok = 0
+    failed: list[str] = []
     for (sp, lg, d), res in zip(jobs, results):
         if isinstance(res, Exception):
+            failed.append(f"{lg}/{d:%Y%m%d}")
             logger.debug("ESPN %s/%s %s indisponible : %s", sp, lg, d, res)
             continue
         ok += 1
         for fx in res:
             seen[fx.id or f"{lg}{fx.start}{fx.home}"] = fx
+    LAST_FETCH_STATS["fixtures"] = {"ok": ok, "total": len(jobs), "failed": failed[:20]}
     logger.info("ESPN: %d/%d requêtes OK, %d rencontres", ok, len(jobs), len(seen))
     return list(seen.values())
+
+
+# ───────────────────────── séances de F1 (calendrier officiel) ─────────────────────────
+# Une séance (essais, qualifications, course) n'a pas d'« équipes » : on la rapproche
+# des diffusions par son type et son heure.
+
+F1_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard"
+
+
+@dataclass
+class Session:
+    start: datetime          # début officiel de la séance (aware, UTC)
+    kind: str                # FP1 | FP2 | FP3 | SQ | Sprint | Qual | Race
+    event: str = ""          # nom du Grand Prix
+    state: str = "pre"
+
+
+def _session_kind(abbr: str, name: str = "") -> str:
+    a = (abbr or "").strip().lower()
+    n = (name or "").lower()
+    if a.startswith("fp") and a[2:].isdigit():
+        return f"FP{a[2:]}"
+    if a in ("ss", "sq", "sprint shootout", "sprint qual", "sprint qualifying") or "shootout" in n:
+        return "SQ"
+    if a in ("sprint", "sr") or "sprint" in a or "sprint" in n:
+        return "Sprint"
+    if a.startswith("qual") or a == "q":
+        return "Qual"
+    if a.startswith("race") or a == "r":
+        return "Race"
+    return ""
+
+
+def parse_f1_scoreboard(data: dict) -> list[Session]:
+    """Réponse JSON du scoreboard ESPN F1 → séances (essais, qualifs, course)."""
+    out: list[Session] = []
+    for ev in data.get("events", []) or []:
+        for comp in ev.get("competitions", []) or []:
+            try:
+                kind = _session_kind((comp.get("type") or {}).get("abbreviation", ""),
+                                     (comp.get("type") or {}).get("text", ""))
+                if not kind:
+                    continue
+                state = ((comp.get("status") or {}).get("type") or {}).get("state", "pre")
+                out.append(Session(start=_parse_espn_date(comp["date"]), kind=kind,
+                                   event=ev.get("name", ""), state=state))
+            except (KeyError, ValueError, TypeError) as e:
+                logger.debug("ESPN F1: séance ignorée (%s)", e)
+    return out
+
+
+async def fetch_f1_sessions(first_day: date, last_day: date, timeout: float = 20.0) -> list[Session]:
+    """Séances de F1 des week-ends qui touchent [first_day, last_day] (best effort)."""
+    days = [first_day + timedelta(days=i) for i in range((last_day - first_day).days + 1)]
+    sem = asyncio.Semaphore(ESPN_CONCURRENCY)
+
+    async def one(client: httpx.AsyncClient, day: date) -> list[Session]:
+        data = await _get_json(client, sem, F1_SCOREBOARD, {"dates": f"{day:%Y%m%d}"})
+        return parse_f1_scoreboard(data)
+
+    async with httpx.AsyncClient(timeout=timeout, headers={"User-Agent": "SportZap/1.0"}) as client:
+        results = await asyncio.gather(*(one(client, d) for d in days), return_exceptions=True)
+    LAST_FETCH_STATS["f1"] = {
+        "ok": sum(1 for r in results if not isinstance(r, Exception)),
+        "total": len(results), "failed": [],
+    }
+    seen: dict[tuple, Session] = {}
+    for res in results:
+        if isinstance(res, Exception):
+            logger.debug("ESPN F1 indisponible : %s", res)
+            continue
+        for sess in res:
+            seen[(sess.kind, sess.start)] = sess
+    return sorted(seen.values(), key=lambda x: x.start)
 
 
 # ───────────────────────── rapprochement des noms ─────────────────────────

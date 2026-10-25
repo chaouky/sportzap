@@ -51,11 +51,25 @@ function logoUrl(raw?: string | null): string | null {
     .replace("{imageQualityPercentage}", "100");
 }
 
-const LOGO_H = 32;   // hauteur de la pastille
-const LOGO_PAD_X = 6;
-const LOGO_PAD_Y = 5;
+const LOGO_H = 22;   // hauteur de la pastille ; le logo y occupe toujours la même hauteur (14 px)
+const LOGO_PAD_X = 5;
+const LOGO_PAD_Y = 4;
 
-function ChannelTile({ channel }: { channel: Channel }) {
+/** Largeur d'une vignette-logo (même calcul pour l'affichage et pour le nombre de vignettes qui tiennent). */
+function widthForRatio(ratio: number): number {
+  const inner = LOGO_H - 2 * LOGO_PAD_Y;   // hauteur du logo : identique pour toutes les chaînes
+  return Math.min(130, Math.max(30, Math.round(inner * ratio) + 2 * LOGO_PAD_X));
+}
+
+function tileWidth(channel: Channel): number {
+  const local = getChannelLogo(channel.name);
+  if (local) return widthForRatio(local.ratio);
+  return logoUrl(channel.icon_url) ? widthForRatio(2.2) : 52;
+}
+
+const TILES_MAX_WIDTH = 250; // carte 393 px − marges − cloche
+
+export function ChannelTile({ channel }: { channel: Channel }) {
   const [failed, setFailed] = useState(false);
   const local = getChannelLogo(channel.name);
   const remote = logoUrl(channel.icon_url);
@@ -63,8 +77,7 @@ function ChannelTile({ channel }: { channel: Channel }) {
   if (local || (remote && !failed)) {
     // Largeur proportionnelle au logo recadré, bornée pour ne pas écraser le reste
     const ratio = local ? local.ratio : 2.2;
-    const inner = LOGO_H - 2 * LOGO_PAD_Y;
-    const width = Math.min(92, Math.max(46, Math.round(inner * ratio) + 2 * LOGO_PAD_X));
+    const width = widthForRatio(ratio);
     return (
       <View
         style={[
@@ -96,13 +109,21 @@ function ChannelTile({ channel }: { channel: Channel }) {
 
 export function EventCard({ event, onPress, onBellPress, isBellActive, isFavorite }: Props) {
   const channels = event.channels && event.channels.length > 0 ? event.channels : [event.channel];
-  const channelNames = Array.from(new Set(channels.map(c => c.name))).join(" · ");
   // Une seule vignette par logo (Canal+ Live 1…19 partagent le même)
   // « Diffuseur à confirmer » : match du calendrier officiel absent du flux TV
   const known = channels.filter(c => c.slug !== "a-confirmer");
   const shownChannels = known.filter(
     (c, i) => known.findIndex(o => (o.icon_url || o.name) === (c.icon_url || c.name)) === i,
   );
+  // Autant de logos que la largeur le permet (au moins un), le reste en « +N »
+  const visibleChannels: Channel[] = [];
+  let used = 0;
+  for (const c of shownChannels) {
+    const w = tileWidth(c) + 6;
+    if (visibleChannels.length > 0 && used + w > TILES_MAX_WIDTH) break;
+    visibleChannels.push(c);
+    used += w;
+  }
   const isLive = event.status === "live";
   const hasTeams = !!(event.team1 && event.team2);
   const hasScore = event.score1 != null && event.score2 != null;
@@ -127,18 +148,21 @@ export function EventCard({ event, onPress, onBellPress, isBellActive, isFavorit
     <View style={styles.footer}>
       {shownChannels.length > 0 && (
       <View style={styles.tiles}>
-        {shownChannels.slice(0, 2).map(c => (
+        {visibleChannels.map(c => (
           <ChannelTile key={c.name} channel={c} />
         ))}
-        {shownChannels.length > 2 && <Text style={styles.more}>+{shownChannels.length - 2}</Text>}
+        {shownChannels.length > visibleChannels.length && (
+          <Text style={styles.more}>+{shownChannels.length - visibleChannels.length}</Text>
+        )}
       </View>
       )}
-      <Text
-        style={[styles.channelNames, shownChannels.length === 0 && styles.channelPending]}
-        numberOfLines={1}
-      >
-        {shownChannels.length === 0 ? "Diffuseur à confirmer" : channelNames}
-      </Text>
+      {shownChannels.length === 0 ? (
+        <Text style={[styles.channelNames, styles.channelPending]} numberOfLines={1}>
+          Diffuseur à confirmer
+        </Text>
+      ) : (
+        <View style={styles.spacer} />
+      )}
       <TouchableOpacity
         onPress={onBellPress}
         hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
@@ -175,7 +199,7 @@ export function EventCard({ event, onPress, onBellPress, isBellActive, isFavorit
       {hasTeams ? (
         <View style={styles.vsRow}>
           <View style={styles.side}>
-            <EntityAvatar entity={event.team1} size={46} />
+            <EntityAvatar entity={event.team1} size={36} />
             <Text style={styles.sideName} numberOfLines={2} allowFontScaling={false}>
               {teamLabel(event.team1)}
             </Text>
@@ -186,7 +210,7 @@ export function EventCard({ event, onPress, onBellPress, isBellActive, isFavorit
             </Text>
           </View>
           <View style={styles.side}>
-            <EntityAvatar entity={event.team2} size={46} />
+            <EntityAvatar entity={event.team2} size={36} />
             <Text style={styles.sideName} numberOfLines={2} allowFontScaling={false}>
               {teamLabel(event.team2)}
             </Text>
@@ -207,15 +231,16 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     borderWidth: 1,
     borderColor: COLORS.border,
-    padding: 16,
-    gap: 14,
-    marginBottom: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 11,
+    gap: 8,
+    marginBottom: 8,
   },
   cardLive: { borderColor: COLORS.accent },
   timeText: {
     fontFamily: FONTS.display,
-    fontSize: 26,
-    lineHeight: 28,
+    fontSize: 24,
+    lineHeight: 26,
     color: COLORS.text,
   },
 
@@ -233,24 +258,24 @@ const styles = StyleSheet.create({
   liveBadge: {
     backgroundColor: COLORS.accent,
     paddingHorizontal: 9,
-    paddingVertical: 3,
+    paddingVertical: 2,
     borderRadius: 6,
   },
   liveBadgeText: {
     fontFamily: FONTS.displayBold,
-    fontSize: 15,
+    fontSize: 14,
     letterSpacing: 1,
     color: COLORS.onAccent,
   },
 
   vsRow: { flexDirection: "row", alignItems: "flex-start" },
-  side: { flex: 1, alignItems: "center", gap: 8, minWidth: 0 },
-  center: { width: 56, height: 46, alignItems: "center", justifyContent: "center" },
+  side: { flex: 1, alignItems: "center", gap: 4, minWidth: 0 },
+  center: { width: 56, height: 36, alignItems: "center", justifyContent: "center" },
   sideName: {
     alignSelf: "stretch",
     fontFamily: FONTS.displayBold,
-    fontSize: 22,
-    lineHeight: 25,
+    fontSize: 20,
+    lineHeight: 22,
     textAlign: "center",
     textTransform: "uppercase",
     color: COLORS.text,
@@ -262,13 +287,13 @@ const styles = StyleSheet.create({
   },
   score: {
     fontFamily: FONTS.display,
-    fontSize: 30,
+    fontSize: 26,
     color: COLORS.accent,
   },
   soloTitle: {
     fontFamily: FONTS.displayBold,
-    fontSize: 26,
-    lineHeight: 28,
+    fontSize: 22,
+    lineHeight: 24,
     textTransform: "uppercase",
     color: COLORS.text,
   },
@@ -284,7 +309,7 @@ const styles = StyleSheet.create({
   tiles: { flexDirection: "row", alignItems: "center", gap: 6 },
   tile: {
     minWidth: 40,
-    height: 26,
+    height: LOGO_H,
     paddingHorizontal: 7,
     borderRadius: 7,
     borderWidth: 1,
@@ -306,7 +331,7 @@ const styles = StyleSheet.create({
     borderColor: COLORS.borderActive,
   },
   logoImg: { width: "100%", height: "100%" },
-  tileText: { fontFamily: FONTS.displayBold, fontSize: 14, letterSpacing: 0.2 },
+  tileText: { fontFamily: FONTS.displayBold, fontSize: 13, letterSpacing: 0.2 },
   more: { fontFamily: FONTS.bodySemi, fontSize: 12, color: COLORS.textSecondary },
   channelNames: {
     flex: 1,
@@ -314,6 +339,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: COLORS.textSecondary,
   },
+  spacer: { flex: 1 },
   channelPending: { fontFamily: FONTS.bodyMedium, fontStyle: "italic", color: COLORS.textTertiary },
   bell: { padding: 4 },
 });

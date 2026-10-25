@@ -31,7 +31,7 @@ def test_french_names_resolve_to_the_right_crest():
 
 
 def test_unknown_or_ambiguous_clubs_get_no_crest():
-    for name in ("Bastia", "Caen", "Essen", "Chicago Bears", "Sonnenhf"):
+    for name in ("Essen", "Sonnenhf"):
         assert logo_id(name) is None, name
 
 

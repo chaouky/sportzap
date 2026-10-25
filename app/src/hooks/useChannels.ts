@@ -19,6 +19,31 @@ import {
 } from "../constants/channels";
 
 const STORAGE_KEY = "@sportzap_channels_v2";
+const MIGRATION_KEY = "@sportzap_channels_mig_live_v1";
+const MIGRATION_STREAMING_KEY = "@sportzap_channels_mig_streaming_v1";
+
+/**
+ * Les chaînes « Canal+ Live » et « beIN MAX » étaient confondues avec Canal+ / beIN 1 :
+ * on les ajoute aux sélections existantes de ceux qui suivaient ces bouquets, une seule fois.
+ */
+function migrateSlugs(slugs: string[]): string[] {
+  const out = new Set(slugs);
+  if (slugs.some(s => s.startsWith("canal-plus"))) out.add("canal-plus-live");
+  if (slugs.some(s => s.startsWith("bein-"))) out.add("bein-max");
+  return [...out];
+}
+
+/**
+ * DAZN et Disney+ (LaLiga en streaming) n'étaient pas dans la liste des chaînes :
+ * leurs matchs étaient masqués par le filtre. On les ajoute aux sélections existantes
+ * (une seule fois), sinon un utilisateur déjà installé ne verrait jamais ces matchs.
+ */
+function migrateStreaming(slugs: string[]): string[] {
+  const out = new Set(slugs);
+  out.add("dazn");
+  out.add("disney-plus");
+  return [...out];
+}
 
 // Plusieurs écrans (Programme, Chaînes) utilisent ce hook : chaque instance a son
 // propre état, on les synchronise donc via un petit bus module-level.
@@ -42,8 +67,23 @@ export function useChannels() {
       try {
         const stored = await AsyncStorage.getItem(STORAGE_KEY);
         if (stored) {
-          const slugs: string[] = JSON.parse(stored);
+          let slugs: string[] = JSON.parse(stored);
+          let changed = false;
+          if (!(await AsyncStorage.getItem(MIGRATION_KEY))) {
+            slugs = migrateSlugs(slugs);
+            await AsyncStorage.setItem(MIGRATION_KEY, "1");
+            changed = true;
+          }
+          if (!(await AsyncStorage.getItem(MIGRATION_STREAMING_KEY))) {
+            slugs = migrateStreaming(slugs);
+            await AsyncStorage.setItem(MIGRATION_STREAMING_KEY, "1");
+            changed = true;
+          }
+          if (changed) await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(slugs));
           setSelectedSlugs(new Set(slugs));
+        } else {
+          await AsyncStorage.setItem(MIGRATION_KEY, "1");
+          await AsyncStorage.setItem(MIGRATION_STREAMING_KEY, "1");
         }
       } catch (e) {
         console.warn("Failed to load channel prefs:", e);
