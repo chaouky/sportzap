@@ -125,10 +125,6 @@ export const ALL_CHANNELS: ChannelDefinition[] = [
   { slug: "canal-plus-sport", name: "Canal+ Sport", badge: { label: "C+S", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Champions League, rugby" },
   { slug: "canal-plus-live", name: "Canal+ Live (1 à 19)", badge: { label: "C+L", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Matchs en simultané (Premier League, Top 14, F1)" },
   { slug: "canal-plus-foot", name: "Canal+ Foot", badge: { label: "C+F", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Football en continu" },
-  { slug: "canal-plus-sport-2", name: "Canal+ Sport 2", badge: { label: "C+S2", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Top 14, Premier League" },
-  { slug: "canal-plus-sport-3", name: "Canal+ Sport 3", badge: { label: "C+S3", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Ligue 1, Top 14, Premier League" },
-  { slug: "canal-plus-sport-4", name: "Canal+ Sport 4", badge: { label: "C+S4", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Rugby, football" },
-  { slug: "canal-plus-sport-5", name: "Canal+ Sport 5", badge: { label: "C+S5", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Multisport" },
   { slug: "canal-sport-360", name: "Canal+ Sport 360", badge: { label: "360", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Multi-matchs, magazines" },
   { slug: "infosport-plus", name: "Infosport+", badge: { label: "IS+", bg: "#1A1A1A", fg: "#fff" }, group: "canal", isFree: false, sports: "Résumés, actus sport" },
 

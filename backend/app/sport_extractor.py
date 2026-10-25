@@ -811,8 +811,7 @@ _SLUG_PATTERNS: list[tuple[re.Pattern, "callable"]] = [
 FRENCH_SLUGS = {
     "tf1", "france-2", "france-3", "france-4", "france-5", "m6", "lequipe",
     "sport-en-france",
-    "canal-plus", "canal-plus-live", "canal-plus-sport", "canal-plus-sport-2", "canal-plus-sport-3",
-    "canal-plus-sport-4", "canal-plus-sport-5", "canal-plus-foot",
+    "canal-plus", "canal-plus-live", "canal-plus-sport", "canal-plus-foot",
     "canal-sport-360", "infosport-plus",
     "bein-1", "bein-2", "bein-3", "bein-max",
     "rmc-sport-1", "rmc-sport-2",
@@ -821,9 +820,10 @@ FRENCH_SLUGS = {
     "prime-video", "ligue-1", "golf",
 }
 
-# Les feeds .fr sont français ; Canal+ Sport 1-5 sont publiés en .af mais
-# restent les chaînes françaises (les variantes .ch/.be/.ca sont étrangères).
-_FRENCH_ID = re.compile(r"(?i)(\.fr$|^CanalPlusSport\d?\.af$)")
+# L'app s'adresse aux téléspectateurs en France métropolitaine : seuls les feeds « .fr » comptent.
+# Les feeds « .af » (dont « Canal+ Sport 1 à 5 » = Canal+ International / Afrique), « .ch », « .be »,
+# « .ca »… ont des droits différents (la Liga y passe sur Canal+, jamais en France) : écartés.
+_FRENCH_ID = re.compile(r"(?i)\.fr$")
 
 
 def is_french_channel(channel: Channel) -> bool:

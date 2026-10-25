@@ -252,6 +252,22 @@ def test_f1_replays_dropped_without_espn_even_with_different_labels():
     ], got
 
 
+def test_only_dot_fr_feeds_are_french():
+    # Canal+ Sport 1-5 sont des feeds .af (Canal+ International) : la Liga y passe, pas en France.
+    chans = {"CanalPlusSport1.af": {"id": "CanalPlusSport1.af", "name": "Canal+ Sport 1"},
+             "CanalPlusSport.fr": {"id": "CanalPlusSport.fr", "name": "Canal+ Sport"},
+             "CanalPlusSport.ch": {"id": "CanalPlusSport.ch", "name": "Canal+ Sport"},
+             "DAZN.fr": {"id": "DAZN.fr", "name": "DAZN 1"}}
+    mk = lambda cid, title, sub: {"channel_id": cid, "title": title, "subtitle": sub, "description": "",
+                                  "categories": ["sport"], "start": at(25, 20, 55), "end": at(25, 23, 0)}
+    progs = [mk("CanalPlusSport1.af", "FC Barcelone / Real Madrid", "Liga - 10e journée"),
+             mk("CanalPlusSport1.af", "Lille / Lens", "Ligue 1 McDonald's - 9e journée"),
+             mk("CanalPlusSport.ch", "Lille / Lens", "Ligue 1 McDonald's - 9e journée"),
+             mk("DAZN.fr", "FC Barcelone / Real Madrid", "Football. Liga 10e journée.")]
+    out = extract_sport_events(progs, chans, french_only=True)
+    assert [(e.channel.slug, e.title) for e in out] == [("dazn-1", "FC Barcelone / Real Madrid")]
+
+
 def run():
     tests = [(n, f) for n, f in sorted(globals().items()) if n.startswith("test_") and callable(f)]
     failed = 0
