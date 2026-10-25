@@ -1,9 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T22:13:25.463277+00:00",
-    "total_events": 416,
+    "generated_at": "2026-10-25T03:01:12.578071+00:00",
+    "total_events": 438,
     "total_days": 7,
     "sports": [
+      "athletisme",
       "basket",
       "boxe",
       "cyclisme",
@@ -29,6 +30,11 @@
         "slug": "eurosport-360",
         "name": "Eurosport 360 - 1",
         "is_free": false
+      },
+      {
+        "slug": "sport-en-france",
+        "name": "Sport en France",
+        "is_free": true
       },
       {
         "slug": "eurosport-2",
@@ -106,9 +112,9 @@
         "is_free": false
       },
       {
-        "slug": "sport-en-france",
-        "name": "Sport en France",
-        "is_free": true
+        "slug": "bein-2",
+        "name": "beIN SPORTS 2",
+        "is_free": false
       },
       {
         "slug": "bein-3",
@@ -119,11 +125,6 @@
         "slug": "france-3",
         "name": "France 3",
         "is_free": true
-      },
-      {
-        "slug": "bein-2",
-        "name": "beIN SPORTS 2",
-        "is_free": false
       },
       {
         "slug": "dazn-2",
@@ -150,7 +151,7 @@
   "days": [
     {
       "date": "2026-10-25",
-      "event_count": 92,
+      "event_count": 94,
       "events": [
         {
           "id": "ba5dba5fac2d",
@@ -184,7 +185,7 @@
           },
           "start": "2026-10-25T00:00:00+02:00",
           "end": "2026-10-25T02:45:00+01:00",
-          "status": "live",
+          "status": "finished",
           "kickoff": "2026-10-25T00:00:00+02:00",
           "kickoff_source": "espn",
           "score1": null,
@@ -210,7 +211,33 @@
           },
           "start": "2026-10-25T00:00:00+02:00",
           "end": "2026-10-25T04:00:00+01:00",
-          "status": "live",
+          "status": "finished",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ca0f5add0c44",
+          "sport": "athletisme",
+          "competition": "Marathon Seine-Eure",
+          "title": "Athlétisme : Marathon Seine-Eure",
+          "subtitle": "Eure",
+          "description": "21ème édition du Marathon Seine-Eure.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "SportEnFrance.fr",
+            "name": "Sport en France",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
+            "slug": "sport-en-france",
+            "is_free": true
+          },
+          "start": "2026-10-25T00:05:00+02:00",
+          "end": "2026-10-25T03:35:00+01:00",
+          "status": "finished",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -236,7 +263,7 @@
           },
           "start": "2026-10-25T00:15:00+02:00",
           "end": "2026-10-25T01:30:00+02:00",
-          "status": "upcoming",
+          "status": "finished",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -262,7 +289,7 @@
           },
           "start": "2026-10-25T00:30:00+02:00",
           "end": "2026-10-25T01:30:00+02:00",
-          "status": "upcoming",
+          "status": "finished",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -288,7 +315,7 @@
           },
           "start": "2026-10-25T00:55:00+02:00",
           "end": "2026-10-25T01:40:00+02:00",
-          "status": "upcoming",
+          "status": "finished",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -297,12 +324,12 @@
           "result": null
         },
         {
-          "id": "451f1bda5961",
+          "id": "1604b454380b",
           "sport": "cyclisme",
-          "competition": "Eneco Tour",
-          "title": "Cyclisme : Eneco Tour",
-          "subtitle": "Arnhem - Arnhem (149,2 km). Eneco Tour. 5e étape.",
-          "description": null,
+          "competition": "Tour de Lombardie",
+          "title": "Cyclisme : Tour de Lombardie",
+          "subtitle": "Tour de Lombardie. Bergame - Côme (239 km). UCI World Tour.",
+          "description": "UCI World Tour. Tour de Lombardie. Bergame - Côme (239 km).",
           "team1": null,
           "team2": null,
           "channel": {
@@ -314,7 +341,7 @@
           },
           "start": "2026-10-25T01:30:00+02:00",
           "end": "2026-10-25T02:30:00+02:00",
-          "status": "upcoming",
+          "status": "finished",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -323,7 +350,7 @@
           "result": null
         },
         {
-          "id": "57678f0a99a5",
+          "id": "1bccec082fe4",
           "sport": "other",
           "competition": "Open d'Irlande du Nord",
           "title": "Snooker : Open d'Irlande du Nord",
@@ -338,9 +365,9 @@
             "slug": "eurosport-1",
             "is_free": false
           },
-          "start": "2026-10-25T02:30:00+01:00",
+          "start": "2026-10-25T03:00:00+01:00",
           "end": "2026-10-25T04:00:00+01:00",
-          "status": "upcoming",
+          "status": "finished",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -349,7 +376,7 @@
           "result": null
         },
         {
-          "id": "e032e11395c2",
+          "id": "27fca27ab6c7",
           "sport": "cyclisme",
           "competition": null,
           "title": "Tour de Lombardie",
@@ -364,9 +391,9 @@
             "slug": "eurosport-2",
             "is_free": false
           },
-          "start": "2026-10-25T02:30:00+01:00",
+          "start": "2026-10-25T03:00:00+01:00",
           "end": "2026-10-25T04:00:00+01:00",
-          "status": "upcoming",
+          "status": "finished",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -392,7 +419,7 @@
           },
           "start": "2026-10-25T03:16:00+01:00",
           "end": "2026-10-25T05:19:00+01:00",
-          "status": "upcoming",
+          "status": "live",
           "kickoff": "2026-10-25T03:16:00+01:00",
           "kickoff_source": "estimate",
           "score1": null,
@@ -418,7 +445,7 @@
           },
           "start": "2026-10-25T04:00:00+01:00",
           "end": "2026-10-25T05:00:00+01:00",
-          "status": "upcoming",
+          "status": "live",
           "kickoff": null,
           "kickoff_source": null,
           "score1": null,
@@ -654,7 +681,7 @@
           "competition": "Coupe du monde à Sölden",
           "title": "Ski alpin : Coupe du monde à Sölden",
           "subtitle": "Epreuve de Sölden. Slalom géant messieurs. 1re manche. Coupe du monde de ski alpin.",
-          "description": null,
+          "description": "Coupe du monde de ski alpin. Epreuve de Sölden. Slalom géant messieurs. 1re manche.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -701,7 +728,7 @@
           "result": null
         },
         {
-          "id": "86f4f288c677",
+          "id": "976a1310b60b",
           "sport": "f1",
           "competition": null,
           "title": "Essais qualificatifs",
@@ -716,8 +743,8 @@
             "slug": "canal-sport-360",
             "is_free": false
           },
-          "start": "2026-10-25T10:16:00+01:00",
-          "end": "2026-10-25T12:00:00+01:00",
+          "start": "2026-10-25T10:14:00+01:00",
+          "end": "2026-10-25T11:56:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -743,7 +770,7 @@
             "is_free": false
           },
           "start": "2026-10-25T11:30:00+01:00",
-          "end": "2026-10-25T12:30:00+01:00",
+          "end": "2026-10-25T12:45:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -793,12 +820,12 @@
           "result": null
         },
         {
-          "id": "88f9e5bb59ad",
+          "id": "f25bfa1d4884",
           "sport": "ski",
           "competition": "Coupe du monde à Sölden",
           "title": "Ski alpin : Coupe du monde à Sölden",
           "subtitle": "Epreuve de Sölden. Slalom géant messieurs : 2e manche. Coupe du monde de ski alpin.",
-          "description": null,
+          "description": "Coupe du monde de ski alpin. Epreuve de Sölden. Slalom géant messieurs : 2e manche.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -808,34 +835,8 @@
             "slug": "eurosport-1",
             "is_free": false
           },
-          "start": "2026-10-25T12:30:00+01:00",
-          "end": "2026-10-25T14:15:00+01:00",
-          "status": "upcoming",
-          "kickoff": null,
-          "kickoff_source": null,
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "e546e544c898",
-          "sport": "ski",
-          "competition": "Coupe du monde à Sölden",
-          "title": "Ski alpin : Coupe du monde à Sölden",
-          "subtitle": "Ski",
-          "description": "Suivez l'épreuve de la Coupe du monde de ski alpin de Sölden, une station de montagne autrichienne.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "Eurosport3609.fr",
-            "name": "EUROSPORT 360 9",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1105/canal-ouah/CHN43FB/CHN43FB_1105_07162024-YTyZ?=.png",
-            "slug": "eurosport-360",
-            "is_free": false
-          },
           "start": "2026-10-25T12:45:00+01:00",
-          "end": "2026-10-25T14:30:00+01:00",
+          "end": "2026-10-25T14:00:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -963,7 +964,7 @@
           "result": null
         },
         {
-          "id": "90ee39f2aaae",
+          "id": "5dfa1eab899b",
           "sport": "f1",
           "competition": null,
           "title": "Essais qualificatifs",
@@ -978,8 +979,8 @@
             "slug": "canal-plus-sport",
             "is_free": false
           },
-          "start": "2026-10-25T13:44:00+01:00",
-          "end": "2026-10-25T15:28:00+01:00",
+          "start": "2026-10-25T13:45:00+01:00",
+          "end": "2026-10-25T15:29:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -1365,7 +1366,7 @@
             "is_free": false
           },
           "start": "2026-10-25T14:55:00+01:00",
-          "end": "2026-10-25T17:55:00+01:00",
+          "end": "2026-10-25T16:55:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T15:00:00+01:00",
           "kickoff_source": "espn",
@@ -1405,7 +1406,7 @@
             "is_free": false
           },
           "start": "2026-10-25T14:55:00+01:00",
-          "end": "2026-10-25T17:55:00+01:00",
+          "end": "2026-10-25T16:55:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T15:00:00+01:00",
           "kickoff_source": "espn",
@@ -1420,7 +1421,7 @@
           "competition": "Premier League",
           "title": "Hull City / Brentford",
           "subtitle": "Premier League - 8e journée",
-          "description": "A découvrir les plus belles affiches de la prestigieuse Premier League, le championnat d'Angleterre de football. C'est le championnat le plus regardé dans le monde. Cette compétition professionnelle, placée sous la supervision de la Fédération anglaise de football, a été fondée en 1888, et connait son format actuel depuis 1992.",
+          "description": "CANAL+, diffuseur de la Premier League dans plus de 50 pays en Europe, en Afrique et en Asie, offre aux fans de football un accès immersif complet aux clubs légendaires de Premier League et ses stars internationales. Pour enrichir cette expérience de visionnage, CANAL+ propose cette saison une diffusion en multiplex, avec quatre matchs simultanément chaque samedi.",
           "team1": {
             "name": "Hull City",
             "type": "club",
@@ -1485,7 +1486,7 @@
             "is_free": false
           },
           "start": "2026-10-25T14:55:00+01:00",
-          "end": "2026-10-25T16:53:00+01:00",
+          "end": "2026-10-25T16:54:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T15:00:00+01:00",
           "kickoff_source": "espn",
@@ -1525,7 +1526,7 @@
             "is_free": false
           },
           "start": "2026-10-25T14:55:00+01:00",
-          "end": "2026-10-25T16:46:00+01:00",
+          "end": "2026-10-25T16:51:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T15:00:00+01:00",
           "kickoff_source": "espn",
@@ -1565,10 +1566,50 @@
             "is_free": false
           },
           "start": "2026-10-25T14:59:00+01:00",
-          "end": "2026-10-25T17:00:00+01:00",
+          "end": "2026-10-25T17:01:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T15:00:00+01:00",
           "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1e0ef176f81b",
+          "sport": "handball",
+          "competition": "Match amical féminin",
+          "title": "Handball : Match amical féminin | France / Hongrie",
+          "subtitle": "Women's Friendly Match",
+          "description": "Retransmission d'un match amical opposant deux équipes féminines de handball.",
+          "team1": {
+            "name": "France",
+            "type": "country",
+            "short": "France",
+            "country_code": "fr",
+            "logo_url": "https://flagcdn.com/w80/fr.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Hongrie",
+            "type": "country",
+            "short": null,
+            "country_code": "hu",
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-10-25T15:00:00+01:00",
+          "end": "2026-10-25T16:45:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-25T15:00:00+01:00",
+          "kickoff_source": "estimate",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -1723,7 +1764,7 @@
             "is_free": true
           },
           "start": "2026-10-25T15:40:00+01:00",
-          "end": "2026-10-25T17:20:00+01:00",
+          "end": "2026-10-25T17:15:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -1846,6 +1887,46 @@
           "end": "2026-10-25T18:05:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T16:15:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "ca8d4f67c824",
+          "sport": "football",
+          "competition": "Süper Lig",
+          "title": "Football : Süper Lig | Goztepe / Corum",
+          "subtitle": null,
+          "description": "Retransmission d'un match du championnat de Turquie de football, appelé Süper Lig.",
+          "team1": {
+            "name": "Goztepe",
+            "type": "club",
+            "short": "Goztepe",
+            "country_code": "tr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Corum",
+            "type": "club",
+            "short": "Çorum FK",
+            "country_code": "tr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTSMAX6.fr",
+            "name": "beIN SPORTS MAX 6",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~1c56a2b0848f53c9.png/480x480/quality/100/bein-sports-max-6.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-10-25T16:55:00+01:00",
+          "end": "2026-10-25T19:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-25T17:00:00+01:00",
           "kickoff_source": "espn",
           "score1": null,
           "score2": null,
@@ -2043,7 +2124,7 @@
             "is_free": false
           },
           "start": "2026-10-25T17:00:00+01:00",
-          "end": "2026-10-25T19:10:00+01:00",
+          "end": "2026-10-25T19:50:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T17:15:00+01:00",
           "kickoff_source": "espn",
@@ -2053,26 +2134,26 @@
           "result": null
         },
         {
-          "id": "4148fca47f34",
+          "id": "ab690c75a9d9",
           "sport": "football",
-          "competition": "Ligue 1 McDonald's",
-          "title": "Marseille / Le Havre",
-          "subtitle": "Ligue 1 McDonald's - 8e  journée",
-          "description": "Diffusion d'un match de Ligue 1, championnat de football opposant dix-huit clubs professionnels français. Le championnat de France de football de 1re division est appelé D1 de 1972 à 2002, puis il devient la Ligue 1. De 2017 à 2020, il s'appelle Ligue 1 Conforama pour des raisons de sponsoring. A partir 2020, il se nomme Ligue 1 Uber Eats avant de devenir la Ligue 1 McDonald's à partir de la saison 2024/2025.",
+          "competition": "Bundesliga",
+          "title": "Fribourg / Bayern Munich",
+          "subtitle": "Bundesliga - 7e journée",
+          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
           "team1": {
-            "name": "Olympique de Marseille",
+            "name": "Fribourg",
             "type": "club",
-            "short": "OM",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+            "short": "Freiburg",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
             "photo_url": null
           },
           "team2": {
-            "name": "Le Havre AC",
+            "name": "Bayern Munich",
             "type": "club",
-            "short": "Le Havre",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
             "photo_url": null
           },
           "channel": {
@@ -2083,9 +2164,49 @@
             "is_free": false
           },
           "start": "2026-10-25T17:10:00+01:00",
+          "end": "2026-10-25T19:09:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-25T17:30:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "16b341db5b57",
+          "sport": "football",
+          "competition": "Bundesliga",
+          "title": "Football : Bundesliga | Fribourg / Bayern Munich",
+          "subtitle": null,
+          "description": "En déplacement à Fribourg, 3e au classement, le Bayern Munich tentera de conserver la tête de la Bundesliga, face à des locaux toujours solides dans leur Europa-Park Stadion.",
+          "team1": {
+            "name": "Fribourg",
+            "type": "club",
+            "short": "Freiburg",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bayern Munich",
+            "type": "club",
+            "short": "Bayern",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS2.fr",
+            "name": "beIN SPORTS 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
+            "slug": "bein-2",
+            "is_free": false
+          },
+          "start": "2026-10-25T17:15:00+01:00",
           "end": "2026-10-25T19:30:00+01:00",
           "status": "upcoming",
-          "kickoff": "2026-10-25T17:15:00+01:00",
+          "kickoff": "2026-10-25T17:30:00+01:00",
           "kickoff_source": "espn",
           "score1": null,
           "score2": null,
@@ -2123,47 +2244,7 @@
             "is_free": false
           },
           "start": "2026-10-25T17:25:00+01:00",
-          "end": "2026-10-25T19:25:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-25T17:30:00+01:00",
-          "kickoff_source": "espn",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "31a71d3c9a08",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Fribourg / Bayern Munich",
-          "subtitle": "Bundesliga - 7e journée",
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne. Cette compétition professionnelle, placée sous la supervision de la Fédération allemande de football, a été fondée en 1903.",
-          "team1": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": "Freiburg",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "CanalPlusSport1.af",
-            "name": "Canal+ Sport 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180625/canal-ouah/CHN43FB/CANALSPORT1_640x480-Copie-BcOp?=.png",
-            "slug": "canal-plus-sport",
-            "is_free": false
-          },
-          "start": "2026-10-25T17:25:00+01:00",
-          "end": "2026-10-25T20:15:00+01:00",
+          "end": "2026-10-25T19:06:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T17:30:00+01:00",
           "kickoff_source": "espn",
@@ -2213,46 +2294,6 @@
           "result": null
         },
         {
-          "id": "312ed0c89957",
-          "sport": "football",
-          "competition": "Bundesliga",
-          "title": "Football : Bundesliga | Fribourg / Bayern Munich",
-          "subtitle": null,
-          "description": "Suivez les plus belles affiches de la Bundesliga, le championnat de football allemand. C'est la plus haute compétition de football d'Allemagne.",
-          "team1": {
-            "name": "Fribourg",
-            "type": "club",
-            "short": "Freiburg",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Bayern Munich",
-            "type": "club",
-            "short": "Bayern",
-            "country_code": "de",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS2.fr",
-            "name": "beIN SPORTS 2",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2fa633f39d6c3033.png/480x480/quality/100/bein-sports-2.png",
-            "slug": "bein-2",
-            "is_free": false
-          },
-          "start": "2026-10-25T17:30:00+01:00",
-          "end": "2026-10-25T19:30:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-25T17:30:00+01:00",
-          "kickoff_source": "espn",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "3925cefc6c38",
           "sport": "rugby",
           "competition": "Elite 1 féminine",
@@ -2283,7 +2324,7 @@
             "is_free": false
           },
           "start": "2026-10-25T17:40:00+01:00",
-          "end": "2026-10-25T19:40:00+01:00",
+          "end": "2026-10-25T19:41:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T17:45:00+01:00",
           "kickoff_source": "estimate",
@@ -2309,7 +2350,7 @@
             "is_free": false
           },
           "start": "2026-10-25T17:55:00+01:00",
-          "end": "2026-10-25T18:36:00+01:00",
+          "end": "2026-10-25T18:35:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -2557,7 +2598,7 @@
           "result": null
         },
         {
-          "id": "8a9092797c2a",
+          "id": "236a125e1f02",
           "sport": "f1",
           "competition": null,
           "title": "Essais qualificatifs",
@@ -2572,7 +2613,7 @@
             "slug": "canal-sport-360",
             "is_free": false
           },
-          "start": "2026-10-25T18:36:00+01:00",
+          "start": "2026-10-25T18:35:00+01:00",
           "end": "2026-10-25T19:53:00+01:00",
           "status": "upcoming",
           "kickoff": null,
@@ -2767,6 +2808,46 @@
           "result": null
         },
         {
+          "id": "58a12a591945",
+          "sport": "football",
+          "competition": "Football. Liga · J10",
+          "title": "FC Barcelone / Real Madrid",
+          "subtitle": "Football. Liga 10e journée.",
+          "description": "Diffusion d'un match de LaLiga EA Sports, championnat d'Espagne de football, la plus haute compétition de football d'Espagne. Cette compétition professionnelle, placée sous la supervision de la Fédération espagnole de football, a été fondée en 1928 et s'appelle Primera Division jusqu'en 2008. Elle se nomme ensuite Liga BBVA jusqu'en 2016 puis LaLiga Santander de 2016 à 2023. A partir de 2023, elle se nomme LaLiga EA Sports pour des raisons de sponsoring.",
+          "team1": {
+            "name": "FC Barcelone",
+            "type": "club",
+            "short": "Barça",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Real Madrid CF",
+            "type": "club",
+            "short": "Real Madrid",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN.fr",
+            "name": "DAZN 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
+            "slug": "dazn-1",
+            "is_free": false
+          },
+          "start": "2026-10-25T20:45:00+01:00",
+          "end": "2026-10-25T23:20:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-25T21:00:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "6dc72df1b044",
           "sport": "football",
           "competition": "Liga",
@@ -2827,46 +2908,6 @@
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "9a12fa45d0fc",
-          "sport": "football",
-          "competition": "Liga",
-          "title": "FC Barcelone / Real Madrid CF",
-          "subtitle": null,
-          "description": null,
-          "team1": {
-            "name": "FC Barcelone",
-            "type": "club",
-            "short": "Barça",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "dazn.stream.fr",
-            "name": "DAZN",
-            "icon_url": null,
-            "slug": "dazn",
-            "is_free": false
-          },
-          "start": "2026-10-25T21:00:00+01:00",
-          "end": "2026-10-25T22:50:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-25T21:00:00+01:00",
-          "kickoff_source": "espn",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -2947,6 +2988,46 @@
           "status": "upcoming",
           "kickoff": "2026-10-25T21:15:00+01:00",
           "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9982b9056100",
+          "sport": "football",
+          "competition": "Football américain. NFL · J7",
+          "title": "Detroit Lions / Green Bay Packers",
+          "subtitle": "Football américain. NFL 7e journée .",
+          "description": "Diffusion d'un match de la NFL (National Football League), championnat de football américain se déroulant aux Etats-Unis et s'achevant par un événement majeur : le Super Bowl. La première saison de cette ligue a été jouée en 1920.",
+          "team1": {
+            "name": "Detroit Lions",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Green Bay Packers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN2.fr",
+            "name": "DAZN 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
+            "slug": "dazn-2",
+            "is_free": false
+          },
+          "start": "2026-10-25T21:25:00+01:00",
+          "end": "2026-10-25T23:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-25T21:25:00+01:00",
+          "kickoff_source": "espn",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -3063,7 +3144,7 @@
             "is_free": false
           },
           "start": "2026-10-25T22:00:00+01:00",
-          "end": "2026-10-26T00:26:00+01:00",
+          "end": "2026-10-26T00:30:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-25T22:00:00+01:00",
           "kickoff_source": "espn",
@@ -3104,7 +3185,7 @@
           "competition": "Coupe du monde à Sölden",
           "title": "Ski alpin : Coupe du monde à Sölden",
           "subtitle": "Epreuve de Sölden. Slalom géant messieurs. 1re manche. Coupe du monde de ski alpin.",
-          "description": null,
+          "description": "Coupe du monde de ski alpin. Epreuve de Sölden. Slalom géant messieurs. 1re manche.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -3156,7 +3237,7 @@
           "competition": "Coupe du monde à Sölden",
           "title": "Ski alpin : Coupe du monde à Sölden",
           "subtitle": "Epreuve de Sölden. Slalom géant messieurs : 2e manche. Coupe du monde de ski alpin.",
-          "description": null,
+          "description": "Coupe du monde de ski alpin. Epreuve de Sölden. Slalom géant messieurs : 2e manche.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -3177,7 +3258,7 @@
           "result": null
         },
         {
-          "id": "bd7bdc27f88c",
+          "id": "20720f29e358",
           "sport": "f1",
           "competition": null,
           "title": "La course",
@@ -3192,7 +3273,7 @@
             "slug": "canal-plus-sport",
             "is_free": false
           },
-          "start": "2026-10-25T23:40:00+01:00",
+          "start": "2026-10-25T23:39:00+01:00",
           "end": "2026-10-26T01:26:00+01:00",
           "status": "upcoming",
           "kickoff": null,
@@ -3206,7 +3287,7 @@
     },
     {
       "date": "2026-10-26",
-      "event_count": 49,
+      "event_count": 51,
       "events": [
         {
           "id": "732122f40376",
@@ -3719,6 +3800,46 @@
           "result": null
         },
         {
+          "id": "31e484869ba0",
+          "sport": "mma",
+          "competition": "UFC BJJ",
+          "title": "Jiu-jitsu brésilien : UFC BJJ | Gilbert Burns / Gabriel Almeida",
+          "subtitle": "Jitsu",
+          "description": "L'UFC a lancé sa propre organisation de grappling appelée UFC BJJ. Les événements se déroulent généralement à l'UFC APEX à Las Vegas au sein d'une aire de combat appelée The Bowl,",
+          "team1": {
+            "name": "Gilbert Burns",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Gabriel Almeida",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-10-26T07:00:00+01:00",
+          "end": "2026-10-26T10:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "62583a0c1ab6",
           "sport": "f1",
           "competition": null,
@@ -3866,6 +3987,46 @@
           },
           "start": "2026-10-26T09:45:00+01:00",
           "end": "2026-10-26T10:30:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "4304a72e976f",
+          "sport": "tennis",
+          "competition": "Masters 1000 de Shanghai",
+          "title": "Finale . Alejandro Davidovich Fokina / Rafael Jodar",
+          "subtitle": "Masters 1000 de Shanghai",
+          "description": "Le Masters 1000 de Shanghai est l'un des tournois indoor les plus importants du circuit ATP et chaque année, les meilleurs tennismen s'y retrouvent.",
+          "team1": {
+            "name": "Finale",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Rafael Jodar",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport5.af",
+            "name": "CANAL+ SPORT 5",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/180394/canal-ouah/CHN43FB/CANALSPORT5_640x480-Copie-m-Z4?=.png",
+            "slug": "canal-plus-sport-5",
+            "is_free": false
+          },
+          "start": "2026-10-26T10:16:00+01:00",
+          "end": "2026-10-26T12:23:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -4668,7 +4829,7 @@
     },
     {
       "date": "2026-10-27",
-      "event_count": 30,
+      "event_count": 32,
       "events": [
         {
           "id": "728b6ae5871d",
@@ -4903,6 +5064,46 @@
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f37dd225e91a",
+          "sport": "rugby",
+          "competition": "Pro D2",
+          "title": "Aurillac / Nevers",
+          "subtitle": "Pro D2 - 8e journée",
+          "description": "Retransmission d'un match du championnat de France de deuxième division de rugby appelé Pro D2, une compétition de rugby à XV. Organisé depuis 1924, le championnat de deuxième division a longtemps été amateur avant d'obtenir le statut professionnel en 2000 et comporte maintenant seize clubs qui se battent pour l'accession dans l'élite du rugby français.",
+          "team1": {
+            "name": "Aurillac",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Nevers",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusSport.fr",
+            "name": "Canal+ Sport",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~2b97b0fb1264c28d.png/480x480/quality/100/canal-sport.png",
+            "slug": "canal-plus-sport",
+            "is_free": false
+          },
+          "start": "2026-10-27T15:19:00+01:00",
+          "end": "2026-10-27T17:01:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-27T15:19:00+01:00",
+          "kickoff_source": "estimate",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5715,12 +5916,52 @@
           "score2": null,
           "minute": null,
           "result": null
+        },
+        {
+          "id": "0b8f853dc2e5",
+          "sport": "volleyball",
+          "competition": "Alterna VOLSTAR",
+          "title": "Volley-ball : Alterna VOLSTAR | Sète / Chaumont",
+          "subtitle": null,
+          "description": "Suivez les rencontres de l'Alterna VOLSTAR, le championnat de France masculin de volley-ball.",
+          "team1": {
+            "name": "Sète",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chaumont",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-10-27T23:15:00+01:00",
+          "end": "2026-10-28T01:15:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-27T23:15:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
         }
       ]
     },
     {
       "date": "2026-10-28",
-      "event_count": 46,
+      "event_count": 47,
       "events": [
         {
           "id": "1c4d03008dd8",
@@ -5767,8 +6008,8 @@
           "sport": "other",
           "competition": "Coupe du monde",
           "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 5e manche difficulté.",
-          "description": "Coupe du monde. 5e manche difficulté. Finale dames et messieurs. A Koper (Slovénie).",
+          "subtitle": "Escalade",
+          "description": "Koper, en Slovénie, accueille l'avant-dernière manche de la saison de Coupe du monde de difficulté. Chez les messieurs, la victoire devrait se jouer entre le Japonais Neo Suzuki, l'Espagnol Alberto Ginés Lopez, l'Indonésien Putra Tri Ramadani et le local Luka Potocar. Chez les dames, l'Américaine Annie Sanders et la Slovène Janja Garnbret partent favorites. A suivre aussi la Française Zélia Avezou qui avait décroché le bronze à Prague, en juin dernier.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -5789,12 +6030,52 @@
           "result": null
         },
         {
-          "id": "4b6d87565d66",
+          "id": "f1f14ba93bea",
+          "sport": "mma",
+          "competition": "PFL",
+          "title": "MMA : PFL | Oualy Tandia / JP Saint Louis",
+          "subtitle": null,
+          "description": "Le choc des poids mi-moyens (-77 kg) entre le Français Oualy Tandia et l'Américain J.P. Saint Louis se déroule lors de la soirée PFL Chicago à la Wintrust Arena. Ce combat marque le grand saut sur le sol américain pour l'un des espoirs les plus prometteurs du MMA tricolore, invaincu en cinq combats.",
+          "team1": {
+            "name": "Oualy Tandia",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "JP Saint Louis",
+            "type": "player",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "RMCSport1.fr",
+            "name": "RMC Sport 1",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~e08d0f4124b46a3e.png/480x480/quality/100/rmc-sport-1.png",
+            "slug": "rmc-sport-1",
+            "is_free": false
+          },
+          "start": "2026-10-28T00:00:00+01:00",
+          "end": "2026-10-28T03:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "9dea9ad5787b",
           "sport": "other",
           "competition": "NHL",
-          "title": "Hockey sur glace : NHL",
-          "subtitle": "Philadelphia Flyers / Columbus Blue Jackets. NHL. Saison régulière.",
-          "description": "NHL. Saison régulière. Philadelphia Flyers / Columbus Blue Jackets.",
+          "title": "Hockey sur glace : NHL | Philadelphia Flyers / Columbus Blue Jackets",
+          "subtitle": null,
+          "description": "Retransmission d'un match de NHL, la prestigieuse ligue nord-américaine de hockey sur glace.",
           "team1": {
             "name": "Philadelphia Flyers",
             "type": "club",
@@ -5819,50 +6100,10 @@
             "is_free": false
           },
           "start": "2026-10-28T00:00:00+01:00",
-          "end": "2026-10-28T01:00:00+01:00",
+          "end": "2026-10-28T03:00:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "8e91a07009cb",
-          "sport": "basket",
-          "competition": "Basket-ball. NBA NBA",
-          "title": "New York Knicks / Detroit Pistons",
-          "subtitle": "Basket-ball. NBA NBA.",
-          "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
-          "team1": {
-            "name": "New York Knicks",
-            "type": "club",
-            "short": "Knicks",
-            "country_code": "us",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/18.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Detroit Pistons",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "DAZN.fr",
-            "name": "DAZN 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
-            "slug": "dazn-1",
-            "is_free": false
-          },
-          "start": "2026-10-28T00:55:00+01:00",
-          "end": "2026-10-28T03:30:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-28T01:00:00+01:00",
-          "kickoff_source": "espn",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -5909,6 +6150,32 @@
           "result": null
         },
         {
+          "id": "5b3e7228c8bf",
+          "sport": "other",
+          "competition": "Open de Grande-Bretagne",
+          "title": "Snooker : Open de Grande-Bretagne",
+          "subtitle": "Snooker",
+          "description": "Qui va remporter le trophée Clive Everton, décerné au vainqueur de l'Open de Grande-Bretagne de snooker ? Le Gallois Jak Jones ne partait pas favori face à l'Anglais Mark Selby. Mais il avait à coeur de remporter le deuxième titre majeur de sa carrière.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport2.fr",
+            "name": "Eurosport 2",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~196acf0142c66a68.png/480x480/quality/100/eurosport-2.png",
+            "slug": "eurosport-2",
+            "is_free": false
+          },
+          "start": "2026-10-28T02:00:00+01:00",
+          "end": "2026-10-28T03:30:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "b99e0e6c477c",
           "sport": "other",
           "competition": "Coupe du monde",
@@ -5935,12 +6202,12 @@
           "result": null
         },
         {
-          "id": "3ece8b4127d7",
+          "id": "a03127dba378",
           "sport": "basket",
           "competition": "NBA",
-          "title": "Basket-ball : NBA",
-          "subtitle": "LA Lakers / Portland Trail Blazers. NBA. NBA.",
-          "description": "NBA. NBA. LA Lakers / Portland Trail Blazers.",
+          "title": "Basket-ball : NBA | LA Lakers / Portland Trail Blazers",
+          "subtitle": null,
+          "description": "Diffusion d'un match de la NBA (National Basketball Association), la prestigieuse ligue américaine de basketball.",
           "team1": {
             "name": "Los Angeles Lakers",
             "type": "club",
@@ -5979,8 +6246,8 @@
           "sport": "cyclisme",
           "competition": "Tour des Flandres",
           "title": "Cyclisme : Tour des Flandres",
-          "subtitle": "Tour des Flandres. La course (278 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour des Flandres. La course (278 km).",
+          "subtitle": "Cyclisme",
+          "description": "Tadej Pogacar, Wout van Aert et Mathieu van der Poel sont au départ de cette édition 2026. Mathieu van der Poel peut en outre devenir l'unique détenteur du record.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -6005,8 +6272,8 @@
           "sport": "mma",
           "competition": "Ligue des champions par équipes",
           "title": "Judo : Ligue des champions par équipes",
-          "subtitle": null,
-          "description": "La Ligue des champions de judo est une compétition annuelle au cours de laquelle s'affrontent les équipes de clubs de pays européens. En 2024, elle est organisée pour la première fois sous la forme d'épreuves par équipes mixtes.",
+          "subtitle": "Champions League",
+          "description": "La Ligue des champions de judo est une compétition annuelle au cours de laquelle s'affrontent les équipes de clubs de pays européens.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -6031,8 +6298,8 @@
           "sport": "other",
           "competition": "Coupe du monde",
           "title": "Escalade : Coupe du monde",
-          "subtitle": "Finale dames et messieurs. Coupe du monde. 5e manche difficulté.",
-          "description": "Coupe du monde. 5e manche difficulté. Finale dames et messieurs. A Koper (Slovénie).",
+          "subtitle": "Escalade",
+          "description": "Koper, en Slovénie, accueille l'avant-dernière manche de la saison de Coupe du monde de difficulté. Chez les messieurs, la victoire devrait se jouer entre le Japonais Neo Suzuki, l'Espagnol Alberto Ginés Lopez, l'Indonésien Putra Tri Ramadani et le local Luka Potocar. Chez les dames, l'Américaine Annie Sanders et la Slovène Janja Garnbret partent favorites. A suivre aussi la Française Zélia Avezou qui avait décroché le bronze à Prague, en juin dernier.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -6044,6 +6311,32 @@
           },
           "start": "2026-10-28T07:00:00+01:00",
           "end": "2026-10-28T09:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "018e74be4cbe",
+          "sport": "other",
+          "competition": null,
+          "title": "Soir de padel",
+          "subtitle": "P1 de Milan : Tapia/Coello et Sánchez/Ustero dominent le tournoi",
+          "description": "Soir de Padel revient sur le P1 de Milan. Chez les dames, Sánchez et Ustero décrochent leur 3e titre en 4 finales face à Josemaría/González. Chez les hommes, Tapia et Coello remportent leur 4e titre d'affilée, le 12e de la saison.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
+            "is_free": false
+          },
+          "start": "2026-10-28T08:00:00+01:00",
+          "end": "2026-10-28T09:01:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -6083,7 +6376,7 @@
             "is_free": false
           },
           "start": "2026-10-28T08:30:00+01:00",
-          "end": "2026-10-28T11:30:00+01:00",
+          "end": "2026-10-28T10:30:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -6097,8 +6390,8 @@
           "sport": "cyclisme",
           "competition": "Tour des Flandres",
           "title": "Cyclisme : Tour des Flandres",
-          "subtitle": "Tour des Flandres. La course (278 km). UCI World Tour.",
-          "description": "UCI World Tour. Tour des Flandres. La course (278 km).",
+          "subtitle": "Cyclisme",
+          "description": "Tadej Pogacar, Wout van Aert et Mathieu van der Poel sont au départ de cette édition 2026. Mathieu van der Poel peut en outre devenir l'unique détenteur du record.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -6110,32 +6403,6 @@
           },
           "start": "2026-10-28T09:00:00+01:00",
           "end": "2026-10-28T10:30:00+01:00",
-          "status": "upcoming",
-          "kickoff": null,
-          "kickoff_source": null,
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "4652b9a46634",
-          "sport": "motogp",
-          "competition": "Grand Prix d'Australie",
-          "title": "Moto GP : Grand Prix d'Australie",
-          "subtitle": "Grand Prix d'Australie. La course des Moto GP. Championnat du monde de vitesse.",
-          "description": "Championnat du monde de vitesse. Grand Prix d'Australie. La course des Moto GP.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-10-28T09:05:00+01:00",
-          "end": "2026-10-28T09:54:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -6215,7 +6482,7 @@
           "sport": "golf",
           "competition": "PGA Tour Champions, Stifel Charity Classic",
           "title": "Golf : PGA Tour Champions, Stifel Charity Classic",
-          "subtitle": "PGA Tour Champions, Stifel Charity Classic.",
+          "subtitle": "Golf",
           "description": null,
           "team1": null,
           "team2": null,
@@ -6303,86 +6570,6 @@
           "result": null
         },
         {
-          "id": "38b3c96a147e",
-          "sport": "basket",
-          "competition": "Euroligue masculine",
-          "title": "Basket-ball : Euroligue masculine",
-          "subtitle": "BC Dubai / Paris Basketball. Euroligue masculine. 8e journée.",
-          "description": "Euroligue masculine. 8e journée. BC Dubai / Paris Basketball.",
-          "team1": {
-            "name": "BC Dubai",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Paris Basketball",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS1.fr",
-            "name": "beIN SPORTS 1",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~8884f09c3361af44.png/480x480/quality/100/bein-sports-1.png",
-            "slug": "bein-1",
-            "is_free": false
-          },
-          "start": "2026-10-28T13:30:00+01:00",
-          "end": "2026-10-28T15:15:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-28T13:30:00+01:00",
-          "kickoff_source": "estimate",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "659c897f70e6",
-          "sport": "volleyball",
-          "competition": "Alterna VOLSTAR",
-          "title": "Volley-ball : Alterna VOLSTAR",
-          "subtitle": "Sète / Chaumont. Alterna Volstar. 3e journée.",
-          "description": null,
-          "team1": {
-            "name": "Sète",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Chaumont",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
-            "is_free": false
-          },
-          "start": "2026-10-28T14:00:00+01:00",
-          "end": "2026-10-28T16:00:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-28T14:00:00+01:00",
-          "kickoff_source": "estimate",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
           "id": "d378ec369d9b",
           "sport": "other",
           "competition": "Coupe du monde",
@@ -6413,7 +6600,7 @@
           "sport": "golf",
           "competition": "PGA Tour Champions, Stifel Charity Classic",
           "title": "Golf : PGA Tour Champions, Stifel Charity Classic",
-          "subtitle": "PGA Tour Champions, Stifel Charity Classic.",
+          "subtitle": "Golf",
           "description": null,
           "team1": null,
           "team2": null,
@@ -6435,38 +6622,12 @@
           "result": null
         },
         {
-          "id": "bd5678819550",
-          "sport": "motogp",
-          "competition": "Grand Prix d'Australie",
-          "title": "Moto GP : Grand Prix d'Australie",
-          "subtitle": "Grand Prix d'Australie. La course des Moto GP. Championnat du monde de vitesse.",
-          "description": "Championnat du monde de vitesse. Grand Prix d'Australie. La course des Moto GP.",
-          "team1": null,
-          "team2": null,
-          "channel": {
-            "id": "CanalPlusSport360.fr",
-            "name": "Canal+ Sport 360",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
-            "slug": "canal-sport-360",
-            "is_free": false
-          },
-          "start": "2026-10-28T16:15:00+01:00",
-          "end": "2026-10-28T17:03:00+01:00",
-          "status": "upcoming",
-          "kickoff": null,
-          "kickoff_source": null,
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "2aaa20a4c2c4",
+          "id": "a26a356e3e2e",
           "sport": "football",
-          "competition": "Football. Coupe d'Allemagne",
-          "title": "Paderborn / Stuttgart",
-          "subtitle": "Football. Coupe d'Allemagne. 2e 2e tour.",
-          "description": null,
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | Paderborn / Stuttgart",
+          "subtitle": "Pokal",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal.",
           "team1": {
             "name": "Paderborn",
             "type": "club",
@@ -6501,12 +6662,12 @@
           "result": null
         },
         {
-          "id": "ef05306a62ef",
+          "id": "bda78679834b",
           "sport": "football",
-          "competition": "Football. Coupe d'Allemagne",
-          "title": "Fribourg / Wolfsburg",
-          "subtitle": "Football. Coupe d'Allemagne. 2e 2e tour.",
-          "description": null,
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | Fribourg / Wolfsburg",
+          "subtitle": "Pokal",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal.",
           "team1": {
             "name": "Fribourg",
             "type": "club",
@@ -6541,12 +6702,12 @@
           "result": null
         },
         {
-          "id": "93f23b9c4a0b",
+          "id": "e1602b51818e",
           "sport": "football",
-          "competition": "Football. Coupe d'Allemagne",
-          "title": "Dynamo Dresde / Schalke 04",
-          "subtitle": "Football. Coupe d'Allemagne. 2e 2e tour.",
-          "description": null,
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | Dynamo Dresde / Schalke 04",
+          "subtitle": "Pokal",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal.",
           "team1": {
             "name": "Dynamo Dresde",
             "type": "club",
@@ -6581,7 +6742,47 @@
           "result": null
         },
         {
-          "id": "30402a06f0c9",
+          "id": "0aae847b3f70",
+          "sport": "football",
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | SSV / Herta Berlin",
+          "subtitle": "Pokal",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal.",
+          "team1": {
+            "name": "SSV",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Herta Berlin",
+            "type": "club",
+            "short": "Hertha",
+            "country_code": "de",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/129.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTSMAX7.fr",
+            "name": "beIN SPORTS MAX 7",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3f6b355dbbc53d15.png/480x480/quality/100/bein-sports-max-7.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-10-28T17:55:00+01:00",
+          "end": "2026-10-28T20:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-28T18:00:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "80e5db7db0e1",
           "sport": "football",
           "competition": "Football. Serie A · J9",
           "title": "Venezia / Inter Milan",
@@ -6610,8 +6811,8 @@
             "slug": "dazn-1",
             "is_free": false
           },
-          "start": "2026-10-28T18:30:00+01:00",
-          "end": "2026-10-28T20:45:00+01:00",
+          "start": "2026-10-28T18:20:00+01:00",
+          "end": "2026-10-28T20:35:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-28T18:30:00+01:00",
           "kickoff_source": "espn",
@@ -6621,7 +6822,7 @@
           "result": null
         },
         {
-          "id": "1a40d7084f7f",
+          "id": "660d612c4137",
           "sport": "football",
           "competition": "Football. Serie A · J9",
           "title": "AC Milan / Bologne",
@@ -6650,8 +6851,8 @@
             "slug": "dazn-2",
             "is_free": false
           },
-          "start": "2026-10-28T18:30:00+01:00",
-          "end": "2026-10-28T20:45:00+01:00",
+          "start": "2026-10-28T18:20:00+01:00",
+          "end": "2026-10-28T20:35:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-28T18:30:00+01:00",
           "kickoff_source": "espn",
@@ -6661,12 +6862,12 @@
           "result": null
         },
         {
-          "id": "b015d557f417",
+          "id": "d069cfaea40b",
           "sport": "handball",
           "competition": "Ligue des champions",
-          "title": "Handball : Ligue des champions",
-          "subtitle": "Plock / Nantes. Ligue des champions masculine. 6e journée. Groupe B.",
-          "description": null,
+          "title": "Handball : Ligue des champions | Plock / Nantes",
+          "subtitle": null,
+          "description": "Retransmission des matchs de la Ligue des Champions de handball, compétition de clubs de handball la plus importante en Europe.",
           "team1": {
             "name": "Plock",
             "type": "club",
@@ -6731,7 +6932,7 @@
             "is_free": false
           },
           "start": "2026-10-28T19:00:00+01:00",
-          "end": "2026-10-28T22:00:00+01:00",
+          "end": "2026-10-28T21:00:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -6741,12 +6942,12 @@
           "result": null
         },
         {
-          "id": "11c0218e7bf1",
+          "id": "5f576b666719",
           "sport": "basket",
           "competition": "Euroligue masculine",
-          "title": "Basket-ball : Euroligue masculine",
-          "subtitle": "ASVEL Lyon-Villeurbanne / Partizan. Euroligue masculine. 8e journée.",
-          "description": "Euroligue masculine. 8e journée. ASVEL Lyon-Villeurbanne / Partizan.",
+          "title": "Basket-ball : Euroligue masculine | ASVEL Lyon-Villeurbanne / Partizan",
+          "subtitle": null,
+          "description": "L'ASVEL reçoit le Partizan de Belgrade pour une nouvelle rencontre de la 8e journée d'Euroligue. À domicile, Nando De Colo et ses coéquipiers tenteront d'imposer leur rythme face à une équipe serbe réputée pour l'intensité de son jeu et la ferveur de ses supporters.",
           "team1": {
             "name": "ASVEL Lyon-Villeurbanne",
             "type": "club",
@@ -6771,7 +6972,7 @@
             "is_free": false
           },
           "start": "2026-10-28T20:00:00+01:00",
-          "end": "2026-10-28T22:00:00+01:00",
+          "end": "2026-10-28T22:15:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-28T20:00:00+01:00",
           "kickoff_source": "estimate",
@@ -6781,12 +6982,12 @@
           "result": null
         },
         {
-          "id": "cb403587d3d3",
+          "id": "ceef55c6fbb2",
           "sport": "football",
-          "competition": "Football. Coupe de la Ligue anglaise",
-          "title": "Manchester City / Brighton",
-          "subtitle": "Football. Coupe de la Ligue anglaise. 4e 8e de finale.",
-          "description": "Coupe de la Ligue anglaise. 4e 8e de finale. Manchester City / Brighton.",
+          "competition": "Coupe de la Ligue anglaise",
+          "title": "Football : Coupe de la Ligue anglaise | Manchester City / Brighton",
+          "subtitle": null,
+          "description": "Retransmission d'un match de la Coupe de la Ligue anglaise de football.",
           "team1": {
             "name": "Manchester City",
             "type": "club",
@@ -6821,92 +7022,118 @@
           "result": null
         },
         {
-          "id": "4c11fa0a1211",
-          "sport": "volleyball",
-          "competition": "Volley-ball. Saforelle VOLSTAR · J5",
-          "title": "Nancy / Cannes",
-          "subtitle": "Volley-ball. Saforelle VOLSTAR 5e  journée.",
-          "description": "5ème journée de la Saforelle Volstar 2026/27 entre le VNVB et le RC Cannes.",
-          "team1": {
-            "name": "Nancy",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Cannes",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "channel": {
-            "id": "SportEnFrance.fr",
-            "name": "Sport en France",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1080/canal-ouah/CHN43FB/CHN43FB_1080_20240206-ykFF?=.png",
-            "slug": "sport-en-france",
-            "is_free": true
-          },
-          "start": "2026-10-28T20:30:00+01:00",
-          "end": "2026-10-28T23:00:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-28T20:30:00+01:00",
-          "kickoff_source": "estimate",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "f6e0dff3787d",
-          "sport": "handball",
-          "competition": "Ligue des champions",
-          "title": "Handball : Ligue des champions",
-          "subtitle": "Paris-SG / Aalborg. Ligue des champions masculine. 6e Groupe C.",
+          "id": "a2538d04a8dc",
+          "sport": "golf",
+          "competition": "Alps Tour Final",
+          "title": "Golf : Alps Tour Final",
+          "subtitle": "Golf",
           "description": null,
-          "team1": {
-            "name": "Paris Saint-Germain",
-            "type": "club",
-            "short": "PSG",
-            "country_code": "fr",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Aalborg",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
+          "team1": null,
+          "team2": null,
           "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
+            "id": "GolfPlus.fr",
+            "name": "Golf+",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~222f4c51ddee1398.png/480x480/quality/100/golf.png",
+            "slug": "golf",
             "is_free": false
           },
           "start": "2026-10-28T20:30:00+01:00",
-          "end": "2026-10-28T22:30:00+01:00",
+          "end": "2026-10-28T20:43:00+01:00",
           "status": "upcoming",
-          "kickoff": "2026-10-28T20:30:00+01:00",
-          "kickoff_source": "estimate",
+          "kickoff": null,
+          "kickoff_source": null,
           "score1": null,
           "score2": null,
           "minute": null,
           "result": null
         },
         {
-          "id": "91125538f05d",
+          "id": "a67bdbe63908",
           "sport": "football",
-          "competition": "Football. Coupe d'Allemagne",
-          "title": "Hannover / Kaiserslautern",
-          "subtitle": "Football. Coupe d'Allemagne. 2.",
-          "description": null,
+          "competition": "Football. Serie A · J9",
+          "title": "Genoa / Juventus Turin",
+          "subtitle": "Football. Serie A 9e journée.",
+          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
+          "team1": {
+            "name": "Genoa",
+            "type": "club",
+            "short": "Genoa",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Juventus FC",
+            "type": "club",
+            "short": "Juventus",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN.fr",
+            "name": "DAZN 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
+            "slug": "dazn-1",
+            "is_free": false
+          },
+          "start": "2026-10-28T20:35:00+01:00",
+          "end": "2026-10-28T22:50:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-28T20:45:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "0f879627a65e",
+          "sport": "football",
+          "competition": "Football. Serie A · J9",
+          "title": "AC Monza / Naples",
+          "subtitle": "Football. Serie A 9e journée.",
+          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
+          "team1": {
+            "name": "AC Monza",
+            "type": "club",
+            "short": "Monza",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "SSC Napoli",
+            "type": "club",
+            "short": "Napoli",
+            "country_code": "it",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "DAZN2.fr",
+            "name": "DAZN 2",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
+            "slug": "dazn-2",
+            "is_free": false
+          },
+          "start": "2026-10-28T20:35:00+01:00",
+          "end": "2026-10-28T22:50:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-28T20:45:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "05b55155b893",
+          "sport": "football",
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | Hannover / Kaiserslautern",
+          "subtitle": "Pokal",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal.",
           "team1": {
             "name": "Hannover",
             "type": "club",
@@ -6941,12 +7168,12 @@
           "result": null
         },
         {
-          "id": "6ac9272badae",
+          "id": "265f17e31f93",
           "sport": "football",
-          "competition": "Football. Coupe d'Allemagne",
-          "title": "Bayern Munich / Magdebourg",
-          "subtitle": "Football. Coupe d'Allemagne. 2e 2e tour.",
-          "description": null,
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | Bayern Munich / Magdebourg",
+          "subtitle": "Pokal",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal.",
           "team1": {
             "name": "Bayern Munich",
             "type": "club",
@@ -6981,12 +7208,12 @@
           "result": null
         },
         {
-          "id": "f47606c94ca2",
+          "id": "da7ab969fcd5",
           "sport": "football",
-          "competition": "Football. Coupe d'Allemagne",
-          "title": "Bayer Leverkusen / Nuremberg",
-          "subtitle": "Football. Coupe d'Allemagne. 2e 2e tour.",
-          "description": null,
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | Bayer Leverkusen / Nuremberg",
+          "subtitle": "Pokal",
+          "description": "Retransmission d'un match de la Coupe d'Allemagne de football, plus communément connu comme la DFB Pokal.",
           "team1": {
             "name": "Bayer Leverkusen",
             "type": "club",
@@ -7021,12 +7248,52 @@
           "result": null
         },
         {
-          "id": "bc0c4030f277",
+          "id": "1aecd93743fb",
           "sport": "football",
-          "competition": "Football. Coupe de la Ligue anglaise",
-          "title": "Fulham / Crystal Palace",
-          "subtitle": "Football. Coupe de la Ligue anglaise. 8e de finale.",
-          "description": "Coupe de la Ligue anglaise. 8e de finale. Fulham / Crystal Palace.",
+          "competition": "Coupe de la Ligue anglaise",
+          "title": "Football : Coupe de la Ligue anglaise | Bournemouth / Aston Villa",
+          "subtitle": null,
+          "description": "Retransmission d'un match de la Coupe de la Ligue anglaise de football.",
+          "team1": {
+            "name": "Bournemouth",
+            "type": "club",
+            "short": "Bournemouth",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aston Villa",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTSMAX7.fr",
+            "name": "beIN SPORTS MAX 7",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3f6b355dbbc53d15.png/480x480/quality/100/bein-sports-max-7.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-10-28T20:40:00+01:00",
+          "end": "2026-10-28T22:45:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-28T20:45:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6cee375ac90c",
+          "sport": "football",
+          "competition": "Coupe de la Ligue anglaise",
+          "title": "Football : Coupe de la Ligue anglaise | Fulham / Crystal Palace",
+          "subtitle": null,
+          "description": "Retransmission d'un match de la Coupe de la Ligue anglaise de football.",
           "team1": {
             "name": "Fulham",
             "type": "club",
@@ -7061,12 +7328,52 @@
           "result": null
         },
         {
-          "id": "2853f0d6e442",
+          "id": "80f3bec56e66",
           "sport": "football",
-          "competition": "Football. Coupe d'Allemagne",
-          "title": "Bayern Munich / Magdebourg",
-          "subtitle": "Football. Coupe d'Allemagne. 2e 2e tour.",
-          "description": null,
+          "competition": "Coupe de la Ligue anglaise",
+          "title": "Football : Coupe de la Ligue anglaise | Sunderland / Brentford",
+          "subtitle": null,
+          "description": "Retransmission d'un match de la Coupe de la Ligue anglaise de football.",
+          "team1": {
+            "name": "Sunderland",
+            "type": "club",
+            "short": "Sunderland",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brentford",
+            "type": "club",
+            "short": "Brentford",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTSMAX9.fr",
+            "name": "beIN SPORTS MAX 9",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~3149edbf3b3b1738.png/480x480/quality/100/bein-sports-max-9.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-10-28T20:40:00+01:00",
+          "end": "2026-10-28T22:45:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-28T20:45:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "bf68d3a6ee46",
+          "sport": "football",
+          "competition": "Coupe d'Allemagne",
+          "title": "Football : Coupe d'Allemagne | Bayern Munich / Magdebourg",
+          "subtitle": "Pokal",
+          "description": "Une affiche largement déséquilibrée sur le papier entre le tenant du titre et le pensionnaire de deuxième division de Bundesliga. Lors de leur entrée en compétition, les champions bavarois, emmenés par leurs stars Michael Olise et Harry Kane, n'ont pas tremblé face à Osnabrück (4-1). Mais Magdebourg a des ressources et surtout arrive sans pression, et compte sur la magie de la coupe et surtout sur son buteur Emmanuel Iyoha pour essayer de créer la surprise à l'Allianz Arena.",
           "team1": {
             "name": "Bayern Munich",
             "type": "club",
@@ -7101,80 +7408,40 @@
           "result": null
         },
         {
-          "id": "ef06e6b30076",
-          "sport": "football",
-          "competition": "Football. Serie A · J9",
-          "title": "Genoa / Juventus Turin",
-          "subtitle": "Football. Serie A 9e journée.",
-          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
+          "id": "ae046f6fd0c1",
+          "sport": "handball",
+          "competition": "Ligue des champions",
+          "title": "Handball : Ligue des champions | Paris-SG / Aalborg",
+          "subtitle": null,
+          "description": "Retransmission des matchs de la Ligue des Champions de handball, compétition de clubs de handball la plus importante en Europe.",
           "team1": {
-            "name": "Genoa",
+            "name": "Paris Saint-Germain",
             "type": "club",
-            "short": "Genoa",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+            "short": "PSG",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
             "photo_url": null
           },
           "team2": {
-            "name": "Juventus FC",
+            "name": "Aalborg",
             "type": "club",
-            "short": "Juventus",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
             "photo_url": null
           },
           "channel": {
-            "id": "DAZN.fr",
-            "name": "DAZN 1",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1077/canal-ouah/CHN43FB/CHN43FB_1077_20231002",
-            "slug": "dazn-1",
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
             "is_free": false
           },
           "start": "2026-10-28T20:45:00+01:00",
-          "end": "2026-10-28T23:00:00+01:00",
+          "end": "2026-10-28T22:45:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-28T20:45:00+01:00",
-          "kickoff_source": "espn",
-          "score1": null,
-          "score2": null,
-          "minute": null,
-          "result": null
-        },
-        {
-          "id": "b73321327f2e",
-          "sport": "football",
-          "competition": "Football. Serie A · J9",
-          "title": "AC Monza / Naples",
-          "subtitle": "Football. Serie A 9e journée.",
-          "description": "Retransmission d'un match du championnat d'Italie de football, appelé Serie A. Il s'agit de la plus prestigieuse compétition de football d'Italie. Placée sous la supervision de la Fédération italienne de football, elle a été fondée en 1898.",
-          "team1": {
-            "name": "AC Monza",
-            "type": "club",
-            "short": "Monza",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-            "photo_url": null
-          },
-          "team2": {
-            "name": "SSC Napoli",
-            "type": "club",
-            "short": "Napoli",
-            "country_code": "it",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-            "photo_url": null
-          },
-          "channel": {
-            "id": "DAZN2.fr",
-            "name": "DAZN 2",
-            "icon_url": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/filters:quality({imageQualityPercentage})/canalplus-cdn.canal-plus.io/p1/channel/1155/canal-ouah/CHN43FB/CHN43FN_1155_20240813-FjVl",
-            "slug": "dazn-2",
-            "is_free": false
-          },
-          "start": "2026-10-28T20:45:00+01:00",
-          "end": "2026-10-28T23:30:00+01:00",
-          "status": "upcoming",
-          "kickoff": "2026-10-28T20:45:00+01:00",
-          "kickoff_source": "espn",
+          "kickoff_source": "estimate",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -7221,12 +7488,12 @@
           "result": null
         },
         {
-          "id": "102877d39e18",
+          "id": "cbb4b4d590e1",
           "sport": "football",
-          "competition": "Football. Coupe de la Ligue anglaise",
-          "title": "Liverpool / Chelsea",
-          "subtitle": "Football. Coupe de la Ligue anglaise. 4e 8e de finale.",
-          "description": "Coupe de la Ligue anglaise. 4e 8e de finale. Liverpool / Chelsea.",
+          "competition": "Coupe de la Ligue anglaise",
+          "title": "Football : Coupe de la Ligue anglaise | Liverpool / Chelsea",
+          "subtitle": null,
+          "description": "Les huitièmes de finale de la Coupe de la Ligue anglaise proposent un choc entre Liverpool et Chelsea. Si les deux équipes ne peuvent pas se satisfaire de leur début de saison en championnat, ils comptent sur la coupe pour reprendre de la confiance. Liverpool compte sur le réveil de son chef d'orchestre, Florian Wirtz.",
           "team1": {
             "name": "Liverpool FC",
             "type": "club",
@@ -7261,12 +7528,12 @@
           "result": null
         },
         {
-          "id": "c98e5ab63fd0",
+          "id": "ba68985d4344",
           "sport": "ski",
-          "competition": "Coupe du monde à Sölden",
-          "title": "Ski alpin : Coupe du monde à Sölden",
-          "subtitle": "Epreuve de Sölden. Slalom géant messieurs. 1re manche. Coupe du monde de ski alpin.",
-          "description": "Coupe du monde de ski alpin. Epreuve de Sölden. Slalom géant messieurs. 1re manche.",
+          "competition": null,
+          "title": "Sölden | Slalom Géant (H) - 1re manche",
+          "subtitle": "Coupe du monde FIS",
+          "description": "Coup d'envoi de la coupe du monde à Sölden, en Autriche. En slalom géant, le favori est le Suisse Marco Odermatt, tenant du gros globe de cristal et maître de la discipline.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -7287,12 +7554,12 @@
           "result": null
         },
         {
-          "id": "a47a26cf6f0b",
+          "id": "131a8662fb3c",
           "sport": "ski",
-          "competition": "Coupe du monde à Sölden",
-          "title": "Ski alpin : Coupe du monde à Sölden",
-          "subtitle": "Epreuve de Sölden. Slalom géant messieurs : 2e manche. Coupe du monde de ski alpin.",
-          "description": "Coupe du monde de ski alpin. Epreuve de Sölden. Slalom géant messieurs : 2e manche.",
+          "competition": null,
+          "title": "Sölden | Slalom Géant (H) - 2e manche",
+          "subtitle": "Coupe du monde FIS",
+          "description": "Coup d'envoi de la coupe du monde à Sölden, en Autriche. En slalom géant, le favori est le Suisse Marco Odermatt, tenant du gros globe de cristal et maître de la discipline.",
           "team1": null,
           "team2": null,
           "channel": {
@@ -7313,40 +7580,26 @@
           "result": null
         },
         {
-          "id": "f899686aac80",
-          "sport": "basket",
-          "competition": "Euroligue masculine",
-          "title": "Basket-ball : Euroligue masculine",
-          "subtitle": "Caja Laboral Baskonia / Real Madrid. Euroligue masculine. 8e journée.",
-          "description": "Euroligue masculine. 8e journée. Caja Laboral Baskonia / Real Madrid.",
-          "team1": {
-            "name": "Caja Laboral Baskonia",
-            "type": "club",
-            "short": null,
-            "country_code": null,
-            "logo_url": null,
-            "photo_url": null
-          },
-          "team2": {
-            "name": "Real Madrid CF",
-            "type": "club",
-            "short": "Real Madrid",
-            "country_code": "es",
-            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "photo_url": null
-          },
+          "id": "c64a136aaad0",
+          "sport": "other",
+          "competition": null,
+          "title": "Soir de padel",
+          "subtitle": "P1 de Milan : Tapia/Coello et Sánchez/Ustero dominent le tournoi",
+          "description": "Soir de Padel revient sur le P1 de Milan. Chez les dames, Sánchez et Ustero décrochent leur 3e titre en 4 finales face à Josemaría/González. Chez les hommes, Tapia et Coello remportent leur 4e titre d'affilée, le 12e de la saison.",
+          "team1": null,
+          "team2": null,
           "channel": {
-            "id": "beINSPORTS3.fr",
-            "name": "beIN SPORTS 3",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
-            "slug": "bein-3",
+            "id": "CanalPlusSport360.fr",
+            "name": "Canal+ Sport 360",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~c883cdc8949cc276.png/480x480/quality/100/canal-sport-360.png",
+            "slug": "canal-sport-360",
             "is_free": false
           },
-          "start": "2026-10-28T23:00:00+01:00",
-          "end": "2026-10-29T00:45:00+01:00",
+          "start": "2026-10-28T23:28:00+01:00",
+          "end": "2026-10-29T00:30:00+01:00",
           "status": "upcoming",
-          "kickoff": "2026-10-28T23:00:00+01:00",
-          "kickoff_source": "estimate",
+          "kickoff": null,
+          "kickoff_source": null,
           "score1": null,
           "score2": null,
           "minute": null,
@@ -7356,14 +7609,14 @@
     },
     {
       "date": "2026-10-29",
-      "event_count": 30,
+      "event_count": 32,
       "events": [
         {
           "id": "4f660a995db0",
           "sport": "basket",
-          "competition": "Basket-ball. NBA NBA",
+          "competition": "Basket-ball. NBA Saison régulière",
           "title": "Indiana Pacers / Philadelphia 76ers",
-          "subtitle": "Basket-ball. NBA NBA.",
+          "subtitle": "Basket-ball. NBA Saison régulière.",
           "description": "Diffusion d'un match de NBA (National Basketball Association), la ligue américaine de basketball. Depuis 1946, les parquets américains et canadiens voient s'affronter des franchises de légende comme les Lakers, les Bulls, les Celtics ou bien encore les Spurs. Des joueurs NBA sont entrés au panthéon du basket mondial à l'image de Michael Jordan, LeBron James, Shaquille O'Neal ou plus récemment les Français Tony Parker et Victor Wembanyama.",
           "team1": {
             "name": "Indiana Pacers",
@@ -7389,7 +7642,7 @@
             "is_free": false
           },
           "start": "2026-10-28T23:30:00+01:00",
-          "end": "2026-10-29T01:00:00+01:00",
+          "end": "2026-10-29T01:40:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-29T00:00:00+01:00",
           "kickoff_source": "espn",
@@ -7843,6 +8096,46 @@
           "result": null
         },
         {
+          "id": "7bf0305830d1",
+          "sport": "volleyball",
+          "competition": "Alterna VOLSTAR",
+          "title": "Volley-ball : Alterna VOLSTAR",
+          "subtitle": "Sète / Chaumont. Alterna Volstar. 3e journée.",
+          "description": "Alterna Volstar. 3e journée. Sète / Chaumont.",
+          "team1": {
+            "name": "Sète",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Chaumont",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-10-29T12:00:00+01:00",
+          "end": "2026-10-29T14:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-29T12:00:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "d235be5866f4",
           "sport": "motogp",
           "competition": "Grand Prix d'Australie",
@@ -7863,6 +8156,46 @@
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f78bbf1313b1",
+          "sport": "handball",
+          "competition": "Ligue des champions",
+          "title": "Handball : Ligue des champions",
+          "subtitle": "Plock / Nantes. Ligue des champions masculine. 6e journée. Groupe B.",
+          "description": null,
+          "team1": {
+            "name": "Plock",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "FC Nantes",
+            "type": "club",
+            "short": "Nantes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "beINSPORTS3.fr",
+            "name": "beIN SPORTS 3",
+            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~d5aee128665b32a9.png/480x480/quality/100/bein-sports-3.png",
+            "slug": "bein-3",
+            "is_free": false
+          },
+          "start": "2026-10-29T14:00:00+01:00",
+          "end": "2026-10-29T15:30:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-29T14:00:00+01:00",
+          "kickoff_source": "estimate",
           "score1": null,
           "score2": null,
           "minute": null,
@@ -10462,7 +10795,7 @@
     },
     {
       "date": "2026-10-31",
-      "event_count": 101,
+      "event_count": 114,
       "events": [
         {
           "id": "19e2873a14b6",
@@ -10635,6 +10968,32 @@
           "result": null
         },
         {
+          "id": "d33c092c8d75",
+          "sport": "ski",
+          "competition": "Grand Prix ISU",
+          "title": "Patinage artistique : Grand Prix ISU",
+          "subtitle": "Patinage artistique",
+          "description": "Le Grand Prix ISU est une série de tournois internationaux qui rassemblent les patineurs et patineuses en patinage individuel, patinage en couple et danse sur glace.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360",
+            "is_free": false
+          },
+          "start": "2026-10-31T01:55:00+01:00",
+          "end": "2026-10-31T03:30:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "d70be2a98fc9",
           "sport": "other",
           "competition": "Championnats d'Europe",
@@ -10753,6 +11112,32 @@
           "result": null
         },
         {
+          "id": "75209fd16dcc",
+          "sport": "ski",
+          "competition": "Grand Prix ISU",
+          "title": "Patinage artistique : Grand Prix ISU",
+          "subtitle": "Patinage artistique",
+          "description": "Le Grand Prix ISU est une série de tournois internationaux qui rassemblent les patineurs et patineuses en patinage individuel, patinage en couple et danse sur glace.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360",
+            "is_free": false
+          },
+          "start": "2026-10-31T03:30:00+01:00",
+          "end": "2026-10-31T04:10:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "da6805749cb8",
           "sport": "motogp",
           "competition": "Grand Prix de Malaisie",
@@ -10822,6 +11207,32 @@
           },
           "start": "2026-10-31T04:00:00+01:00",
           "end": "2026-10-31T06:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": null,
+          "kickoff_source": null,
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "2399dcb098ce",
+          "sport": "ski",
+          "competition": "Grand Prix ISU",
+          "title": "Patinage artistique : Grand Prix ISU",
+          "subtitle": "Patinage artistique",
+          "description": "Le Grand Prix ISU est une série de tournois internationaux qui rassemblent les patineurs et patineuses en patinage individuel, patinage en couple et danse sur glace.",
+          "team1": null,
+          "team2": null,
+          "channel": {
+            "id": "Eurosport3601.fr",
+            "name": "Eurosport 360 - 1",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/635/canal-ouah/CHN43FB/CHN43FB_635_20220110?=.png",
+            "slug": "eurosport-360",
+            "is_free": false
+          },
+          "start": "2026-10-31T04:10:00+01:00",
+          "end": "2026-10-31T05:20:00+01:00",
           "status": "upcoming",
           "kickoff": null,
           "kickoff_source": null,
@@ -11739,6 +12150,246 @@
           "result": null
         },
         {
+          "id": "8828f9a5dbe4",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Orléans / Villefranche",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 11 du Championnat de France de Ligue 3 2026/27 opposant US Orléans et FC Villefranche Beaujolais",
+          "team1": {
+            "name": "Orléans",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Villefranche",
+            "type": "club",
+            "short": "Aston Villa",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus10.fr",
+            "name": "Ligue 1+ 10",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T14:38:00+01:00",
+          "end": "2026-10-31T17:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T14:45:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "6c6e345df22f",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Cannes / Valenciennes",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 11 du Championnat de France de Ligue 3 2026/27 opposant AS Cannes et Valenciennes FC",
+          "team1": {
+            "name": "Cannes",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Valenciennes",
+            "type": "club",
+            "short": "Valencia",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus4.fr",
+            "name": "Ligue 1+ 4",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T14:38:00+01:00",
+          "end": "2026-10-31T17:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T14:45:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "081fe71b5eef",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | La Roche VF / Bourg-en-Bresse",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 11 du Championnat de France de Ligue 3 2026/27 opposant Vendée FC La Roche/Yon et FC Bourg en Bresse P01",
+          "team1": {
+            "name": "La Roche VF",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Bourg-en-Bresse",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus5.fr",
+            "name": "Ligue 1+ 5",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T14:38:00+01:00",
+          "end": "2026-10-31T17:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T14:45:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "675218810b71",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Bastia / Quevilly Rouen",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 11 du Championnat de France de Ligue 3 2026/27 opposant SC Bastia et QRM",
+          "team1": {
+            "name": "Bastia",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Quevilly Rouen",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus7.fr",
+            "name": "Ligue 1+ 7",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T14:38:00+01:00",
+          "end": "2026-10-31T17:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T14:45:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "74dbe313cd8f",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Versailles / Aubagne",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 11 du Championnat de France de Ligue 3 2026/27 opposant FC Versailles et SC Aubagne Air Bel",
+          "team1": {
+            "name": "Versailles",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Aubagne",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus8.fr",
+            "name": "Ligue 1+ 8",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T14:38:00+01:00",
+          "end": "2026-10-31T17:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T14:45:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "894a2b62333e",
+          "sport": "football",
+          "competition": "Ligue 3",
+          "title": "Football : Ligue 3 | Fleury / Paris 13 Atletico",
+          "subtitle": "Ligue 3",
+          "description": "Match de la Journée 11 du Championnat de France de Ligue 3 2026/27 opposant FC Fleury 91 et Paris 13 Atletico",
+          "team1": {
+            "name": "Fleury",
+            "type": "club",
+            "short": null,
+            "country_code": null,
+            "logo_url": null,
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Atlético Madrid",
+            "type": "club",
+            "short": "Atlético",
+            "country_code": "es",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus9.fr",
+            "name": "Ligue 1+ 9",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T14:38:00+01:00",
+          "end": "2026-10-31T17:00:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T14:45:00+01:00",
+          "kickoff_source": "estimate",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "870540d48473",
           "sport": "tennis",
           "competition": "Tournoi ATP de Vienne",
@@ -11991,6 +12642,46 @@
             "id": "CanalPlusLive10.fr",
             "name": "Canal+ Live 10",
             "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1144/canal-ouah/CHN43FB/CHN43FB_1144_20240910-_8oo?=.png",
+            "slug": "canal-plus",
+            "is_free": false
+          },
+          "start": "2026-10-31T15:59:00+01:00",
+          "end": "2026-10-31T17:59:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T16:00:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "f6c984f97420",
+          "sport": "football",
+          "competition": "Premier League",
+          "title": "Manchester City / Brighton & Hove Albion",
+          "subtitle": "Premier League - 9e journée",
+          "description": "Le Leader Manchester City, qui sort notamment d'une démonstration marquante à Liverpool (0-3) plus tôt dans le mois, accueille des Seagulls de Brighton toujours aussi ambitieux et redoutables, capables de bousculer les plus grands clubs du royaume. Les deux formations se sont affrontées trois jours plus tôt, au même endroit, pour le compte des 8es de finale de la Coupe de la Ligue.",
+          "team1": {
+            "name": "Manchester City",
+            "type": "club",
+            "short": "Man City",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Brighton & Hove Albion",
+            "type": "club",
+            "short": "Brighton",
+            "country_code": "gb-eng",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "CanalPlusLive6.fr",
+            "name": "Canal+ Live 6",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1140/canal-ouah/CHN43FB/CHN43FB_1140_20240910-9Csx?=.png",
             "slug": "canal-plus",
             "is_free": false
           },
@@ -12495,6 +13186,46 @@
           "result": null
         },
         {
+          "id": "942d878154db",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Nice / Rennes",
+          "subtitle": null,
+          "description": "Match de la Journée 9 du Championnat de France de Ligue 1 McDonald's 2026/27 opposant OGC Nice et Stade Rennais FC",
+          "team1": {
+            "name": "OGC Nice",
+            "type": "club",
+            "short": "Nice",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Rennais",
+            "type": "club",
+            "short": "Rennes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus.fr",
+            "name": "Ligue 1+",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T17:05:00+01:00",
+          "end": "2026-10-31T19:10:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T17:15:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "876c1d13b1a3",
           "sport": "football",
           "competition": "Ligue 1 McDonald's",
@@ -12679,12 +13410,12 @@
           "result": null
         },
         {
-          "id": "60e61b90c9f3",
+          "id": "c8732ae89c88",
           "sport": "football",
-          "competition": "Football. Premier League",
-          "title": "Tottenham Hotspur / Crystal Palace",
-          "subtitle": "Football. Premier League. 9e journée.",
-          "description": "Premier League. 9e journée. Tottenham Hotspur / Crystal Palace.",
+          "competition": "Premier League",
+          "title": "Tottenham / Crystal Palace",
+          "subtitle": "Premier League - 9e journée",
+          "description": "Ce derby londonien met aux prises deux équipes en grande difficulté en ce début de saison. Tottenham vit une crise majeure et se retrouve scotché dans la zone rouge du classement. En face, les Eagles de Crystal Palace cherchent également à s'éloigner des bas-fonds du championnat. Malheur au vaincu !",
           "team1": {
             "name": "Tottenham Hotspur",
             "type": "club",
@@ -12702,14 +13433,14 @@
             "photo_url": null
           },
           "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
+            "id": "CanalPlusLive6.fr",
+            "name": "Canal+ Live 6",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1140/canal-ouah/CHN43FB/CHN43FB_1140_20240910-9Csx?=.png",
+            "slug": "canal-plus",
             "is_free": false
           },
           "start": "2026-10-31T18:25:00+01:00",
-          "end": "2026-10-31T20:32:00+01:00",
+          "end": "2026-10-31T20:25:00+01:00",
           "status": "upcoming",
           "kickoff": "2026-10-31T18:30:00+01:00",
           "kickoff_source": "espn",
@@ -13247,6 +13978,86 @@
           "result": null
         },
         {
+          "id": "58e03e553ce7",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Lorient / Brest",
+          "subtitle": null,
+          "description": "Match de la Journée 9 du Championnat de France de Ligue 1 McDonald's 2026/27 opposant FC Lorient et Stade Brestois 29",
+          "team1": {
+            "name": "Lorient",
+            "type": "club",
+            "short": "Lorient",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Stade Brestois",
+            "type": "club",
+            "short": "Brest",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus4.fr",
+            "name": "Ligue 1+ 4",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T20:25:00+01:00",
+          "end": "2026-10-31T23:10:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T20:45:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": "1b7b5d291131",
+          "sport": "football",
+          "competition": "Ligue 1 McDonald's",
+          "title": "Football : Ligue 1 McDonald's | Troyes / Le Mans",
+          "subtitle": null,
+          "description": "Match de la Journée 9 du Championnat de France de Ligue 1 McDonald's 2026/27 opposant ESTAC Troyes et Le Mans FC",
+          "team1": {
+            "name": "Troyes",
+            "type": "club",
+            "short": "Troyes",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+            "photo_url": null
+          },
+          "team2": {
+            "name": "Le Mans",
+            "type": "club",
+            "short": "Le Mans",
+            "country_code": "fr",
+            "logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+            "photo_url": null
+          },
+          "channel": {
+            "id": "Ligue1Plus5.fr",
+            "name": "Ligue 1+ 5",
+            "icon_url": "https://fusion.molotov.tv/arts/i/130x39/Ch0SGwoUAoE5TX7gMXomTmBPDW49xAeHWyQSA3BuZw/png",
+            "slug": "ligue-1",
+            "is_free": false
+          },
+          "start": "2026-10-31T20:25:00+01:00",
+          "end": "2026-10-31T23:10:00+01:00",
+          "status": "upcoming",
+          "kickoff": "2026-10-31T20:45:00+01:00",
+          "kickoff_source": "espn",
+          "score1": null,
+          "score2": null,
+          "minute": null,
+          "result": null
+        },
+        {
           "id": "5e58b1e8aa70",
           "sport": "football",
           "competition": "Football. Serie A · J10",
@@ -13287,12 +14098,12 @@
           "result": null
         },
         {
-          "id": "3022e3ae7145",
+          "id": "70426359c053",
           "sport": "football",
-          "competition": "Football. Premier League",
+          "competition": "Premier League",
           "title": "Aston Villa / Fulham",
-          "subtitle": "Football. Premier League. 9e journée.",
-          "description": "Premier League. 9e journée. Aston Villa / Fulham.",
+          "subtitle": "Premier League - 9e journée",
+          "description": "Aston Villa et Fulham connaissent un début de saison difficile et les deux équipes se retrouvent actuellement engluées dans la seconde moitié du classement.",
           "team1": {
             "name": "Aston Villa",
             "type": "club",
@@ -13310,10 +14121,10 @@
             "photo_url": null
           },
           "channel": {
-            "id": "CanalPlusPremierLeague.fr",
-            "name": "Canal+ Premier League",
-            "icon_url": "https://www.programme-tv.net/imgre/fit/~2~channel~6f1b7ba211ef9b56.png/480x480/quality/100/canal-premier-league.png",
-            "slug": "canal-plus-sport",
+            "id": "CanalPlusLive6.fr",
+            "name": "Canal+ Live 6",
+            "icon_url": "https://thumb.canalplus.pro/http/unsafe/640x480/filters:quality(100)/canalplus-cdn.canal-plus.io/p1/channel/1140/canal-ouah/CHN43FB/CHN43FB_1140_20240910-9Csx?=.png",
+            "slug": "canal-plus",
             "is_free": false
           },
           "start": "2026-10-31T20:55:00+01:00",
